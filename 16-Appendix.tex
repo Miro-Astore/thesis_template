@@ -1,0 +1,124 @@
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{codeorange}{rgb}{0.98,0.6,0.01}
+\definecolor{codeorange2}{rgb}{1.0,0.5,0.0}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{customTCL}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codeorange},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,
+    language=tcl, 
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
+
+\lstdefinestyle{customF90}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codeorange},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,
+    language=fortran, 
+    morekeywords={*,getarg},
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
+
+\lstdefinestyle{customPython}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{blue},
+    keywordstyle=\color{codeorange2},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codegreen},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,
+    language=Python, 
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
+
+\newpage
+%\addcontentsline{toc}{chapter}{\hyperref[apx:charges]{Appendix}}
+\appendix
+
+
+\chapter{Ion Self-Energy Python Script}
+\label{apx:charges}
+The self-energy of ions in Eq.~\eqref{eq:mse} is implemented in \verb+Python+ using the \verb+MDAnalysis+ 
+module to read in the MD trajectory~\cite{Hashmi2015,Gowers2016}. Since \verb+MDAnalysis+ can load 
+trajectories written by a number of MD programs, the code below can be used with any of the programs 
+\verb+MDAnalysis+ supports. The scripts used to run the solvation free energy calculations in OpenMM 
+are uploaded in GitHub (\url{https://github.com/jeff231li/solvation-openmm}).
+
+\vspace{0.5cm}
+\verb+* self-energy.py+
+\lstinputlisting[style=customPython]{Codes/image-charges.py}
+
+\chapter{Funnel Potential tclForces Script}
+\label{apx:funnel}
+The source code below is a Tcl implementation of the funnel potential that was invented by Parrinello 
+and co-workers for use with metadynamics~\cite{Limongelli2013}. NAMD provides a high-level Tcl 
+scripting interface for user-defined potentials without the need to recompile the program. 
+
+In the NAMD configuration file, the section below defines the funnel potential parameters. The script 
+is written so that the user can define the endpoints \textbf{A} and \textbf{B} arbitrarily so that the 
+potential is not limited to the three Cartesian axes. The atoms involved in the restraint is chosen 
+by reading a PDB file with columns \verb+beta+ or \verb+occupancy+ filled with the given user value 
+(similar interface to the \verb+colvar+ module). The script also prints the positions of the molecule 
+along the $r_{\text{xy}}$ and $r_{\text{z}}$ vectors. This code is used in \chapref{chap:unbind} for 
+the Na1\dprim\ $\rightarrow$ Bulk transition. These scripts are available on GitHub (\url{https://github.com/jeff231li/funnel_potential}).
+
+\vspace{0.5cm}
+\verb+* In NAMD config file: +
+\lstinputlisting[style=customTCL]{Codes/namd-funnel.tcl}
+\vspace{0.5cm}
+\verb+* funnel.tcl+
+\lstinputlisting[style=customTCL]{Codes/funnel_potential.tcl}
+
+\chapter{Position-Dependent Diffusion Coefficient}
+\label{apx:diff}
+
+\chapquote{``FORTRAN's tragic fate has been its wide acceptance, mentally chaining thousands and thousands of programmers to our past mistakes."}{Edsger W. Dijkstra}
+
+\vskip 0.5cm
+
+The position-dependent diffusion coefficient for a system restrained in a harmonic potential was first 
+derived by Woolf and Roux~\cite{Woolf1994}, which requires a Laplace transformation of the velocity 
+autocorrelation. Hummer simplified the procedure by using the position autocorrelation 
+instead~\cite{Hummer2005}. The code below is a Fortran implementation for calculating the diffusion 
+coefficient using the method derived by Hummer. This is used to calculate the diffusion coefficient in 
+\chapref{chap:unbind}. This code is available on GitHub (\url{https://github.com/jeff231li/position_diffusion}).
+
+\vspace{0.5cm}
+\verb+* x_acf.f90+
+\lstinputlisting[style=customF90]{Codes/diffusion.f90}
+

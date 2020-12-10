@@ -1,0 +1,636 @@
+%=======================================================================================%
+\chapter{Mechanism of Ligand Binding in \GltPh}
+\label{chap:bind}
+
+ABSTRACT \newline
+Glutamate transporters clear up excess extracellular glutamate by co-transporting three \Na\ and one 
+\Hi\ with the counter-transport of one \K. The archaeal homologs are selective to aspartate and only 
+co-transport three \Na. The crystal structures of \GltPh\ from archaea have been used in 
+computational studies to understand the transport mechanism. While some progress has been made with 
+regard to the ligand-binding sites, a consistent picture of transport still eludes us. A major 
+concern is the discrepancy between the computed binding free energies, which predict high-affinity 
+\Na-- low-affinity aspartate binding, and the experimental results where the opposite is observed. 
+Here we show that the binding of the first two \Na\ ions involve an intermediate state near the Na1 
+site, where two \Na\ ions coexist and couple to aspartate with similar strengths boosting its 
+affinity. Binding free energies for \Na\ and aspartate obtained using this intermediate state are in 
+good agreement with the experimental values. Thus the paradox in binding affinities arises from the 
+assumption that the ligands bind to the sites observed in the crystal structure following the order 
+dictated by their binding free energies with no intermediate states. In fact, the presence of an 
+intermediate state eliminates such a correlation between the binding free energies and the binding 
+order. The intermediate state also the facilitates transition of the first \Na\ ion to its final binding 
+site via a knock-on mechanism, which induces substantial conformational changes in the protein 
+consistent with experimental observations.
+
+\newpage
+
+\section{Introduction}
+\label{bind:intro}
+Glutamate transporters (Glts) are membrane proteins responsible for removing excess extracellular 
+glutamate in the synaptic cleft. The transport highly depends on the electrochemical gradient of 
+\Na\ ions~\cite{Danbolt2001}. In mammals, Glts are called the excitatory amino-acid transporters 
+(EAATs). In one cycle, they co-transport three \Na\ and a \Hi\ with glutamate and counter-transport 
+one \K~\cite{Vandenberg2013}. Failed regulation of Glts can lead to cell death due to overexcitation 
+of receptors (excitotoxicity), which has been implicated in neurological diseases such as Alzheimer’s 
+and amyotrophic lateral sclerosis~\cite{Danbolt2001}. As in ion channels, the first crystal structure 
+of Glts was resolved in prokaryotes, namely, \GltPh\ from the archaeal homologue \textit{Pyrococcus 
+horikoshii}~\cite{Yernool2004,Boudker2007}. Although \GltPh\ has only 36\% amino-acid sequence identity 
+with EAATs overall, the sequence identity is much higher in the binding pocket, and they share some 
+common properties. As in EAATs, \GltPh\ requires coupling of three \Na\ ions but does not require the 
+co-transport of \Hi\ and the counter-transport of \K~\cite{Groeneveld2010}. In addition, \GltPh\ is 
+selective for Asp over Glu, which is not seen EAATs~\cite{Vandenberg2013}. 
+
+In the initial crystal structures of \GltPh, the binding sites for two \Na\ ions (dubbed Na1 and 
+Na2) and Asp were resolved but not the Na3 site for the third \Na\ ion. It is likely that the 
+substitution of \Tl\ ions for \Na\ to obtain stronger signals has prevented the larger \Tl\ ions 
+from entering the Na3 binding site. Several computational studies have been performed to determine 
+the third sodium binding site labelled as Na3~\cite{Holley2009,Larsson2010,Tao2010,Huang2010,Bastug2012}. 
+In the recent crystal structure of \GltTk~\cite{Guskov2016}, all the \Na\ binding sites were resolved 
+with \Na\ instead of \Tl, which confirmed the Na3 site predicted from molecular dynamics (MD) simulations 
+and mutagenesis experiments~\cite{Bastug2012}. In addition to the Na3 binding site, the various steps 
+in ligand binding in the outward-facing conformation~\cite{Shrivastava2008,Huang2008,Heinzelmann2011,Grazioso2012}, 
+and release in the inward-facing conformation~\cite{DeChancie2011a,Zomot2013,Heinzelmann2013,Heinzelmann2014a} 
+have also been investigated with MD simulations (see Ref.~\cite{Setiadi2015} for a recent review). In 
+general, MD simulations provide a satisfactory description of the substrate and \Na\ binding sites. A 
+remaining discrepancy about the coordination of \Na\ at the Na2 site~\cite{Venkatesan2015,Heinzelmann2011} 
+has been recently clarified using the \GltTk\ structure \cite{Guskov2016} as a guide, which indicated that 
+the S atom of a methionine (M311) coordinated \Na. The discrepancy arose from the undercharging of S in the 
+CHARMM force field, and once it was properly charged, agreement with the experimental coordination shell 
+and the binding free energy of \Na\ at the Na2 site was restored~\cite{Setiadi2017}. 
+
+In contrast, the situation with regard to the binding free energies of the other ligands has 
+remained baffling. The initial free energy calculations of ligand binding in \GltPh\ gave the order 
+of binding as Na3 ($-18.7$~kcal/mol), Na1 ($-7.1$~kcal/mol), and Asp ($-3.8$~kcal/mol), following 
+the order of the binding free energies quoted in parenthesis~\cite{Heinzelmann2011}. Similar results 
+were obtained for the release of these ligands in the inward-facing conformation~\cite{Heinzelmann2013}. 
+Thus, two \Na\ ions were predicted to bind before Asp, consistent with the earlier observations 
+\cite{Vandenberg2013,Tao2010}. However, in subsequent experiments, almost the opposite results were 
+obtained for the binding free energies with \Na\ binding with low affinity and Asp with high 
+affinity~\cite{Reyes2013b,Ewers2013,Hanelt2015}. Given that the free energy calculations performed using 
+crystal structures usually retain chemical accuracy, the size of the discrepancy is rather unsettling 
+and has compelled us to look beyond the static picture of binding provided by the crystal structure. 
+For guidance, it is best to focus on Asp as there is a unique and well-defined binding site. We know 
+that Asp does not bind in the absence of \Na\ \cite{Vandenberg2013}. Free energy calculations indicate that 
+Asp can bind with one \Na\ when it is at Na1 but not when it is at Na3~\cite{Heinzelmann2013,Heinzelmann2011}. 
+That is, \Na\ is strongly coupled to Asp at the Na1 site but not at the Na3 site. This suggests that the 
+Asp affinity can be significantly boosted if there is an intermediate site for the first \Na\ in the 
+vicinity of the Na1 site (dubbed Na1\prim), and two \Na\ ions can coexist at the Na1 and Na1\prim\ sites. 
+The Coulomb repulsion between the two \Na\ ions in close proximity would then naturally explain the low 
+affinity and slow binding of the second \Na. A strong candidate for such a Na1\prim\ site is the one 
+found by Huang and Tajkhorshid while searching for the Na3 site, where \Na\ is coordinated simultaneously 
+by the D312 and D405 side chains~\cite{Huang2010}. 
+
+Here we investigate the feasibility of such a scenario by performing MD simulations and free energy 
+calculations, where the Na1\prim\ site is included as an intermediate state during the ligand-binding 
+process. We show that Na1\prim\ provides the deepest binding site so it will trap the first 
+\Na\ and the second \Na\ can still bind to the Na1 site while Na1\prim\ is occupied. We then probe 
+Asp binding to \GltPh\ for different ion configurations and draw inferences to resolve the discrepancy 
+between the computed and experimental affinities.
+
+\section{Method}
+\label{bind:method}
+\subsection{Model System and Simulation Details}
+The crystal structure of the outward-facing conformation of \GltPh\ with an Asp and two \Na\ is used 
+in MD simulations (PDB ID: 2NWX)~\cite{Boudker2007}. The third \Na\ is placed at the Na3 site
+as determined in Ref.~\cite{Bastug2012} and the crystal structure of \GltTk~\cite{Guskov2016}. 
+The simulation system is prepared using the  VMD software package~\cite{Humphrey1996}. First, the 
+trimer structure is embedded in a 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphatidylethanolamine (POPE) 
+phospholipid bilayer. The system is then solvated in a box of TIP3P water molecules~\cite{Jorgensen1983,Neria1996} 
+with 0.15~M NaCl and neutralised with extra Cl$^-$ ions. The final system contains a total of 
+$\sim$100,000 atoms in a simulation box of size $110 \times 110 \times 100$ \AA$^3$. All MD simulations 
+are performed using the NAMD program (version 2.12)~\cite{Phillips2005} together with the CHARMM36 force 
+field~\cite{Klauda2012}, where the NBFIX correction for \Na\ interactions is the default option. The 
+default (pH 7) values are used for the charge states of the amino acids. The temperature is kept constant 
+at 300~K using Langevin dynamics with a damping coefficient of 1~ps$^{-1}$. The pressure of the system is 
+maintained at 1~atm using the Langevin piston method~\cite{Feller1996} with a coefficient of 20~ps$^{-1}$. 
+Short-range Lennard-Jones (LJ) interactions are truncated at 12~\angs\ and a smooth switching function is 
+used starting at 10~\angs. Periodic boundary conditions are employed, and the long-range interactions are 
+calculated with the particle-mesh Ewald method~\cite{Darden1993}. A time step of 2~fs is used in all MD 
+simulations.
+
+\subsection{Free Energy Calculations}
+The standard binding free energy of an ion to a protein is expressed as
+\begin{equation}
+    \Delta G_{\text{b}}^{0} = \Delta\Delta G_{\text{int}} + \Delta\Delta G_{\text{tr}}^{0} +
+    \Delta\Delta 
+G_{\text{c,P}} ,
+\end{equation}
+where the first term is the free energy change in translocating the ion from bulk water
+to the binding site, and the second term represents the loss of translational entropy during this
+process. The last term is used when the protein residues coordinating the ligand are restrained 
+to improve convergence in the calculation of $\Delta G_{\text{int}}$.
+If no restraints are applied, $\Delta\Delta G_{\text{c,P}}=0$.
+Assuming a Gaussian distribution for the ion positions in the binding site, the translational 
+free energy difference is estimated using~\cite{Carlsson2005}
+\begin{equation}
+    \Delta\Delta G_{\text{tr}}^{0} = -k_{\text{B}}T\, \text{ln} \left[\frac{(2\pi 
+e)^{3/2}\sigma_{x}\sigma_{y}\sigma_{z}}{V_{0}} \right],
+    \label{eq:tr}
+\end{equation}
+where $V_{0}=1661\, \angs^3$ is the reference volume for the standard concentration of 1~M, 
+$e$ is Euler's number, and the $\sigma$'s are the principal root mean square fluctuations of the ion 
+positions. The restraint-free energy is calculated using the thermodynamic integration 
+(TI) approach of Cecchini et al.~\cite{Cecchini2009}
+\begin{equation}
+    \Delta G_{\text{c}} = \frac{1}{2} \int_{0}^{k} \langle |\pmb X- \pmb X_{0}|^2 \rangle_{k}\, dk.
+\end{equation}
+Here, $|\pmb X- \pmb X_{0}|^2$ is the mean squared displacement of the 
+restrained residues from a reference structure at a given spring constant $k$. We find 
+that a value of 1.0~\spring\ per atom is sufficient to reduce the fluctuations of the 
+coordinating residues. The TI calculations are performed using 11 windows, and each window is 
+simulated 200~ps for equilibration and 800~ps for production. To obtain $\Delta\Delta 
+G_{\text{c,P}}$, two separate calculations are performed, one with the ion at the 
+binding site and another with the ion in bulk, i.e., $\Delta\Delta G_{\text{c,P}} = \Delta
+G_{\text{c,P}}^{\rm ion-bulk} - \Delta G_{\text{c,P}}^{\rm ion-site}$.
+
+The free energy of translocation is calculated using both free energy perturbation (FEP) 
+and TI~\cite{Chipot2007}. The FEP calculation is performed first, and the trajectory is used as the starting 
+point for the TI calculations. As in the restraint-free energy, the free energy change between 
+the states with the ion at the site and in bulk are calculated, i.e., $\Delta\Delta G_{\text{int}} 
+= \Delta G_{\text{int}}^{\rm ion-bulk}-\Delta G_{\text{int}}^{\rm ion-site}$.
+However, only one calculation is needed if we create and destroy the ion simultaneously in the same 
+system. For the FEP calculations, we use 66 exponentially spaced $\lambda$ values as this was 
+shown in previous studies to be adequate for charged molecules~\cite{Heinzelmann2011}. At each $\lambda$ value, 
+we perform 50~ps of equilibration, followed by a further 50~ps of production run. In the TI method, 
+the ensemble of the free energy derivative is calculated at each $\lambda$ value. The free energy 
+is recovered by integrating the free energy derivative with respect to the $\lambda$ values
+\begin{equation}
+    \Delta G_{\text{int}} = \int_{0}^{1} \left\langle \frac{\partial U(\lambda)}{\partial \lambda} 
+\right\rangle_{\lambda} d\lambda .
+\end{equation}
+For charged molecules, the integral can be done using Gaussian quadrature. A seven-point 
+quadrature is used as this was shown to be adequate in a previous study~\cite{Bastug2007}. The starting 
+point for each TI window is obtained from the corresponding FEP calculation, and each window is run 
+for a total of 1~ns with the first 200~ps discarded as the equilibration phase. The convergence of 
+the TI calculations for the ions is shown in \figref{bind:figS1}.
+
+For the substrate, the standard binding free energy is expressed as
+\begin{equation}
+    \Delta G_{\text{b}}^{0} = \Delta\Delta G_{\text{int}} + \Delta\Delta G_{\text{tr}}^{0} +
+    \Delta\Delta 
+G_{\text{rot}} + \Delta\Delta G_{\text{c,L}} ,
+\end{equation}
+which includes the free energy loss due to rotational entropy $\Delta\Delta G_{\text{rot}}$,
+and the conformational restraints are applied on the substrate instead of the protein as indicated 
+in the last term, $\Delta\Delta G_{\text{c,L}}$. 
+The rotational free energy difference is calculated in a similar manner to Eq.~\eqref{eq:tr}~\cite{Carlsson2005}
+\begin{equation}
+    \Delta\Delta G_{\text{rot}} = -k_{\text{B}}T\, \text{ln} \left[\frac{(2\pi 
+e)^{3/2}\sigma_{\phi_{1}}\sigma_{\phi_{2}}\sigma_{\phi_{3}}}{8\pi^2} \right] .
+    \label{eq:rot}
+\end{equation}
+Here $\sigma_{\phi}$'s are the rotational root mean square fluctuations of the substrate
+at the binding site calculated using the quaternion representation. For the conformational restraint, 
+a spring constant of 5.0~\spring\ is applied to the heavy atoms of the substrate. The bulk 
+calculation is performed separately with the substrate placed in a 25~\angs\ cubic water box with 
+a neutralising ion. As in previous calculations~\cite{Heinzelmann2013,Heinzelmann2011}, the 
+translocation free energy is split into three stages to improve convergence
+\begin{equation}
+    \Delta\Delta G_{\text{int}} = \Delta\Delta G_{\text{elec}} + \Delta\Delta G_{\text{LJ--bb}} +
+    \Delta\Delta G_{\text{LJ--sc}}.
+\end{equation}
+The first term on the right-hand side is the electrostatic contribution, and the last two terms
+are the LJ contributions. The LJ term is split into the backbone (LJ--bb) and the side chain (LJ--sc) 
+parts in order to prevent a water molecule getting trapped behind the substrate in the binding site 
+as noted previously~\cite{Heinzelmann2011}. For the electrostatic free energies, we report the values 
+obtained with the TI method with 0.5/1.0~ns for equilibration/production. For the LJ free energies, we 
+report the FEP values instead due to the lack of convergence with quadrature windows. A total of 52 and 
+37 $\lambda$ values are used for the LJ--bb and LJ--sc calculations, respectively. For each window, we 
+run a 100/100~ps for equilibration/production (see \figref{bind:figS2} for the convergence of the forward 
+and backward transformation for both electrostatic and LJ free energies). A soft-core potential is 
+used in the LJ calculations with a shifting coefficient of 6.0~\cite{Zacharias1994}. 
+
+Umbrella sampling simulations are performed for the Na1$^\prime\rightarrow$ Na3 transition of \Na\ 
+to find the potential of mean force (PMF) and study the conformational changes caused by this transition.
+The reaction coordinate is chosen along the vector from the Na1\prim\ site to the Na3 site, and umbrella 
+windows are generated at 0.5~\AA\ intervals using $k=10$~kcal/mol/\AA$^2$ for the harmonic biasing potential. 
+Overlaps between the samples of neighbouring windows are found to be $>10\%$, which assures a robust 
+construction of the PMF using the weighted histogram analysis method. Each window is simulated for 8~ns.
+Convergence of the PMF up to the barrier is obtained after 3~ns, so the final PMF is constructed from the 
+last 5~ns.
+
+\section{Results and Discussion}
+\subsection{Characterisation of the \Na\ Binding Sites}
+Here we use the 2NWX structure for convenience, but it could be argued that the recent apo \GltPh\ 
+crystal structure 4OYE \cite{Verdon2014} may provide a more appropriate starting point for the 
+binding free energy calculations. Thus, it is prudent to show that there is no difference between 
+the ligand-free 2NWX and 4OYE systems once they are equilibrated. To this end, we have performed 
+60~ns MD simulations of the apo-2NWX and 4OYE systems under the same conditions. Superposition of 
+the final snapshots of the two systems shows that there is a good overlap between the two structures 
+(\figrefn{bind:figS3}{A}). For a more quantitative analysis, we compare the time series of the RMSDs 
+of the two systems relative to 4OYE (\figrefn{bind:figS3}{B}). The apo-2NWX system is seen to relax 
+to that of 4OYE within 25~ns. After the relaxation, the average RMSDs of the apo-2NWX and 4OYE systems 
+relative to 4OYE are 1.09~\AA\ and 1.06~\AA, respectively. Thus either crystal structure can be used 
+in binding free-energy calculations as long as the simulation system is equilibrated appropriately.
+
+Starting with the fully bound equilibrated structure from a previous study~\cite{Setiadi2017}, 
+we remove Asp and \Na\ at Na2. Following a 50~ns MD simulation, \Na\ ions at Na1 and Na3 are 
+stable with a water molecule coordinating the ion at Na1. The binding modes listed in 
+\tabref{bind:tab1} (columns 3 and 4) are in good agreement with those observed in the crystal 
+structures~\cite{Boudker2007,Boudker2007}. We note that the \Na\ coordination at the Na3 site 
+is slightly different when no ion is present at Na1 (\tabref{bind:tab1}, column 2). The ion 
+moves away from the S93 residue but is more tightly coordinated by both O atoms of D312. To 
+generate the intermediate site Na1\prim, we remove the \Na\ ion from Na3 and perform MD simulations 
+of the system for another 50~ns. As seen in earlier MD simulations of \GltPh\ without a \Na\ at 
+Na3~\cite{Huang2010,Bastug2012}, the side chains of N310 and D312 swing towards the Na1 site and 
+start coordinating the \Na\ ion there at a somewhat different site called Na1\prim\ 
+(\figrefi{bind:fig1}{A}). To achieve the coordination by N310 and D312, the \Na\ ion moves away 
+from G306 and N310 by about 2~\angs. Comparing the binding mode of the Na1\prim\ site with that of 
+Na1 (Na3) (\tabref{bind:tab1}, columns 5 and 4) , they appear qualitatively similar. However, having 
+two Asp side chains instead of one, confers a distinct advantage to the Na1\prim\ site as will be 
+demonstrated with the binding free energies in the next section. 
+
+\begin{table}[tb]
+\begin{center}
+        \caption{Binding modes of the \Na\ ions in \GltPh\ for various states of occupation.$^{a}$}
+        \label{bind:tab1}
+        \resizebox{\textwidth}{!}{\begin{tabular}{lcccccc}
+        \hline
+        Helix-Residue & Na3 & Na3 (Na1) & Na1 (Na3) & Na1$^\prime$ & Na1$^\prime$ (Na1) & Na1 (Na1$^\prime$) \\ \hline
+        TM3-Y89 (O)           & 2.6 $\pm$ 0.2 & 2.4 $\pm$ 0.2 & -             & -             & -             & -             \\
+        TM3-T92 (OH)          & 2.4 $\pm$ 0.1 & 2.4 $\pm$ 0.1 & -             & -             & -             & -             \\
+        TM3-S93 (OH)          & 3.4 $\pm$ 0.3 & 2.6 $\pm$ 0.3 & -             & -             & -             & -             \\
+        TM7-G306 (O)          & -             & -             & 2.5 $\pm$ 0.2 & -             & -             & 2.3 $\pm$ 0.1 \\
+        TM7-N310 (O)          & -             & -             & 2.4 $\pm$ 0.1 & -             & -             & 3.7 $\pm$ 0.2 \\
+        TM7-N310 (O$_\delta$) & 2.3 $\pm$ 0.1 & 2.2 $\pm$ 0.1 & -             & 2.4 $\pm$ 0.1 & 2.3 $\pm$ 0.1 & -             \\
+        TM7-D312 (O$_1$)      & 2.2 $\pm$ 0.1 & 2.4 $\pm$ 0.5 & -             & 2.4 $\pm$ 0.2 & 2.4 $\pm$ 0.1 & -             \\
+        TM7-D312 (O$_2$)      & 2.3 $\pm$ 0.1 & 2.9 $\pm$ 0.6 & -             & 2.7 $\pm$ 0.3 & 2.7 $\pm$ 0.3 & -             \\
+        TM8-N401 (O)          & -             & -             & 2.6 $\pm$ 0.3 & 2.6 $\pm$ 0.2 & 2.7 $\pm$ 0.2 & 3.5 $\pm$ 0.3 \\
+        TM8-D405 (O$_1$)      & -             & -             & 2.3 $\pm$ 0.1 & 2.4 $\pm$ 0.1 & 2.4 $\pm$ 0.1 & 2.5 $\pm$ 0.2 \\
+        TM8-D405 (O$_2$)      & -             & -             & 2.2 $\pm$ 0.1 & 3.8 $\pm$ 0.3 & 4.4 $\pm$ 0.1 & 2.3 $\pm$ 0.1 \\
+        H2O (1)               & -             & -             & 2.3 $\pm$ 0.1 & 2.5 $\pm$ 0.2 & -             & 2.4 $\pm$ 0.1 \\
+        H2O (2)               & -             & -             & -             & -             & -             & 2.5 $\pm$ 0.4 \\
+        H2O (3)               & -             & -             & -             & -             & -             & 2.4 $\pm$ 0.1 \\ \hline
+        \end{tabular}}
+        \end{center}
+        {\footnotesize $^{a}$Average distances (in \angs) of protein atoms coordinating \Na\ ions. 
+        Other ions present are indicated in parenthesis at the top row. The average distances and 
+        errors are estimated from a 5~ns unrestrained MD simulation.}
+\end{table}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=1.0\linewidth]{Figures/Binding/fig1.jpg}
+\caption{(\textit{Left column}) Coordination of the first two \Na\ ions in \GltPh: 
+         (\textit{A}) The first ion binds to Na1\prim\ coordinated by both D312 and 
+         D405, (\textit{B}) the initial position of the second \Na\ held with a harmonic 
+         restraint, and (\textit{C}) the final position of the second \Na\ in the two 
+         ion-state configuration after it is released (Na1). (\textit{Right column}) Time 
+         evolution of distances (in \angs) between atoms with the first 9~ns representing 
+         the release of restraints: (\textit{D}) Na1\prim\ and protein atoms, (\textit{E}) 
+         Na1 and protein atoms and (\textit{F}) Na1 and Na1\prim. For clarity, the 
+         running averages of the distances are plotted.}
+\label{bind:fig1}
+\end{figure}
+
+The prevailing assumption at this stage is that the first \Na\ ion moves from Na1\prim\ to Na3 
+before a second \Na\ ion can bind to Na1~\cite{Huang2010,Bastug2012,Setiadi2015}. But, as discussed 
+in the \hyperref[bind:intro]{Introduction}, the binding free energies of \Na\ and Asp calculated with 
+this assumption are in conflict with the experimental results. Thus we are compelled to examine this 
+assumption more closely and look for alternative scenarios of binding. MD simulations lasting 40~ns 
+indicate that the \Na\ ion at the Na1\prim\ site is very stable and exhibits no tendency to move towards 
+Na3. We will show in the next section that such a transition is, in fact, energetically not feasible. 
+Thus the presence of a second \Na\ in the vicinity of Na1\prim\ is necessary to enable the transition 
+of the first \Na\ from Na1\prim\ to Na3. To search for such a site, we place the second \Na\ at 
+the tip of the TM7a helix near the beginning of the NMDGT motif, where the carbonyl O atoms of 
+G306, A307, T308, and N310 provide an oxygen-rich environment (\figrefi{bind:fig1}{B}). The ion is 
+placed at the centre of these carbonyl O atoms and harmonically restrained with a spring constant 
+of 5~\spring. We release the ion in 9 steps with $k=\{5.0,4.0,3.0,2.0,1.0,0.5,0.2,0.1,0.0\}$~\spring, 
+performing 1~ns MD simulation at each step. The two \Na\ ions are initially separated by $\sim$6.5~\angs\ 
+and remain in this position up to $k=2.0$~\spring. At $k=1.0$~\spring, the second \Na\ moves closer 
+to Na1\prim\ with a water molecule separating the two ions and is weakly coordinated by G306 (O) and 
+N310 (O) (\figrefn{bind:fig1}{E--D}). When the restraint is reduced to 0.1~\spring, the strong negative 
+charge from D405 attracts \Na\ and knocks out the water molecule between the two ions 
+(\figrefi{bind:fig1}{C}). The distance between the two \Na\ ions in this state is $\sim$3.5~\angs\ 
+(\figrefi{bind:fig1}{F}). We subject the unrestrained system to a further 45~ns simulation to check 
+the stability of the two \Na\ ions in close proximity. As shown in \figrefn{bind:fig1}{D--F}, both \Na\ 
+ions remain well-coordinated and do not exhibit any tendency to break away from the coexistent state.
+
+Firmness of the Na1\prim\ site becomes more evident after the binding of the second \Na, which has 
+hardly made any dent on the Na1\prim\ coordination despite being so close (\tabref{bind:tab1}, columns 
+5 and 6). In contrast, the presence of \Na\ at Na1\prim\ has a detrimental effect on Na1 coordination as 
+seen from the comparison of the binding modes in columns 4 and 7 of \tabref{bind:tab1}. The stress on 
+\Na\ at Na1 will be relieved after the transition of the first \Na\ ion from Na1\prim\ to Na3, which 
+will be discussed further after the binding free energy calculations.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=1.0\linewidth]{Figures/Binding/fig2.jpg}
+\caption{(\textit{Top row}) Asp bound to \GltPh\ with the \Na\ ions in the (\textit{A})
+         Na1--Na3 state, and (\textit{B}) Na1--Na1\prim\ state. The dashed lines 
+         represent the hydrogen-bond network between Asp and the Na1 site bridged with 
+         a water molecule. (\textit{Bottom row}) The distance between the \Na\ ions and 
+         the C$\alpha$ atom of Asp when it is bound to \GltPh\ in the (\textit{C})
+         Na1--Na3 state, and (\textit{D}) Na1--Na1\prim\ state.}
+\label{bind:fig2}
+\end{figure}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/Binding/fig3.jpg}
+\caption{Time evolution of the centre of mass of Asp in \GltPh\ with the two 
+ion state Na1--Na1\prim. Black, red, and green represent Asp in chains A, B, 
+and C, respectively. The running averages of the distances are plotted.}
+\label{bind:fig3}
+\end{figure}
+
+\subsection{Binding Free Energies}
+Here we calculate the binding free energies of ligands in various states of occupation to turn 
+the qualitative insights gathered in the last section to quantitative predictions.
+The results for the binding free energies of the \Na\ ions are summarised in \tabref{bind:tab2}.
+As shown in \tabref{bind:tab1}, there is no stable Na1 site in the apo \GltPh, therefore it is not 
+included in the binding free energy calculations for the first \Na. The first \Na\ can bind to either 
+Na1\prim\ or Na3. The binding free energies in \tabref{bind:tab2} clearly favour the Na1\prim\ site 
+by a margin of $-3.3$~kcal/mol. As mentioned before, simultaneous coordination by the D312 and D405 
+side chains is responsible for the deeper binding and extreme stability of the first \Na\ at the 
+Na1\prim\ site. 
+
+\begin{table}[b!]
+  \begin{center}
+  \caption{Binding free energies of \Na\ ions to \GltPh\ in different states of occupation.$^{a}$}
+  \label{bind:tab2}
+    \begin{tabular}{lcccr}
+    \hline
+    Ion State & $\Delta\Delta G_{\text{int}}$ & $\Delta\Delta G_{\text{tr}}^{0}$ &
+    $\Delta\Delta G_{\text{c,P}}$ & \multicolumn{1}{c}{$\Delta G_{\text{b}}^{0}$} \\ \hline
+    Na1\prim\               & $-$26.7 $\pm$ 1.3 & $+$4.6 & $+$2.0 & $-$20.1 $\pm$ 1.3 \\
+    Na3                     & $-$21.4 $\pm$ 1.4 & $+$4.6 &    -   & $-$16.8 $\pm$ 1.4 \\
+    Na1 (Na1\prim)          & $-$10.8 $\pm$ 1.5 & $+$4.8 & $+$4.2 &  $-$1.8 $\pm$ 1.5 \\
+    Na1 (Na3)               & $-$11.8 $\pm$ 1.5 & $+$4.9 &    -   &  $-$6.9 $\pm$ 1.5 \\
+    Na1\prim\ (Asp, Na1)    & $-$24.2 $\pm$ 1.0 & $+$4.0 & $+$7.0 & $-$13.2 $\pm$ 1.0 \\
+    Na3 (Asp, Na1)          & $-$24.0 $\pm$ 1.1 & $+$4.0 & $+$2.5 & $-$17.6 $\pm$ 1.1 \\ \hline
+    \end{tabular}
+    \end{center}
+    {\footnotesize
+    $^{a}$Labels inside the parenthesis indicate other ligands 
+    present. $\Delta\Delta G_{\text{int}}$ is the average of the 
+    forward and backward transformation. Convergence of the 
+    transformation are shown in \figref{bind:figS1}. No restraints 
+    are needed for the Na3 and Na1 (Na3) calculations. All energies 
+    are reported in kcal/mol.}
+\end{table}
+
+We next consider the binding of the second \Na\ ion. The crucial question here is whether the
+second \Na\ can bind to the Na1 site while Na1\prim\ is occupied so that the two \Na\ ions can 
+coexist in close proximity. In order to calculate this binding free energy, we have included \Na\ 
+at Na1\prim\ as part of the surrounding atoms restrained. Otherwise the FEP calculation becomes 
+numerically unstable as the charge at Na1 is alchemically turned off. The effect of this restraint 
+is included as part of $\Delta\Delta G_{\text{c,P}}$ as described in the \hyperref[bind:method]{Methods} 
+section. The binding free energy of the second \Na\ at Na1 is found to be $-1.8$~kcal/mol. So the 
+answer to the coexistence question is affirmative. This value is also in good agreement with the 
+experimental values from Ewers et al.~\cite{Ewers2013}, Reyes at al.~\cite{Reyes2013b}, and H\"{a}nelt 
+et al.~\cite{Hanelt2015} ($-2.3$, $-1.4$, and $-1.3$~kcal/mol, respectively). We stress that the slow 
+binding of the second \Na\ with low affinity is made possible by the Coulomb repulsion of the first 
+\Na\ at Na1\prim. If we use the alternative scenario as in previous calculations and assume that the 
+first \Na\ is at Na3, the binding free energy of the second \Na\ to Na1 becomes $-6.9$~kcal/mol, which 
+is in conflict with the experimental values. Thus we can infer from the free energy simulations that 
+the \Na\ ions must be in the intermediate Na1--Na1\prim\ state during the measurements instead of the 
+final Na1--Na3 configuration.
+
+% Talk about Aspartate binding free energies
+Having resolved the discrepancy in \Na\ binding affinity, we turn to the discrepancy in Asp affinity
+for \GltPh. To present an unbiased view, we consider all possible ion configurations in the binding 
+free energy calculations for Asp, which are listed in \tabref{bind:tab3}. Systems consisting of only 
+Asp and one \Na\ at Na1 or Na3 are created by removing the ion at Na1 or Na3 from, respectively, from 
+the Na1--Na3 configuration. The state with one \Na\ at Na1\prim\ is obtained similarly from the 
+Na1--Na1\prim\ configuration. Finally, both \Na\ ions are removed for Asp binding to the apo \GltPh. 
+Inspection of \tabref{bind:tab3} shows that positive binding free energies are obtained for the apo 
+\GltPh\ and also with one \Na\ at Na3 or Na1\prim. A negative free energy is obtained for a \Na\ at 
+Na1, but this site does not form with only one \Na. Thus two \Na\ ions are required for the binding of 
+Asp consistent with experiments~\cite{Vandenberg2013,Tao2010,Reyes2013b,Ewers2013,Hanelt2015}.
+
+\begin{table}[b!]
+  \begin{center}
+  \caption{Binding free energies of Asp bound to \GltPh\ with different ion 
+  configurations.$^{a}$}
+  \label{bind:tab3}
+    \resizebox{\textwidth}{!}{\begin{tabular}{lrcccccr}
+    \hline
+    Substrate State & \multicolumn{1}{c}{$\Delta\Delta G_{\text{elec}}$} & 
+    $\Delta\Delta G_{\text{LJ--bb}}$ & $\Delta\Delta G_{\text{LJ--sc}}$ & 
+    $\Delta\Delta G_{\text{tr}}^{0}$ & $\Delta\Delta G_{\text{rot}}$ & 
+    $\Delta\Delta G_{\text{c,L}}$ & \multicolumn{1}{c}{$\Delta G_{\text{b}}^{0}$} \\ \hline
+    Asp                          &  $-$4.7 $\pm$ 0.8 & $+$0.5 $\pm$ 0.3 & $+$0.8 $\pm$ 0.2 & $+$2.8 & $+$3.4 & 
+$+$0.2 & $+$3.0 $\pm$ 0.9 \\ 
+    Asp (Na3)                    &  $-$8.6 $\pm$ 1.5 & $+$1.8 $\pm$ 0.3 & $+$1.0 $\pm$ 0.3 & $+$3.9 & $+$4.1 & 
+$-$0.1 & $+$2.1 $\pm$ 1.6 \\ 
+    Asp (Na1\prim)               & $-$10.7 $\pm$ 1.1 & $+$1.5 $\pm$ 0.3 & $+$0.9 $\pm$ 0.3 & $+$3.8 & $+$3.6 &
+$+$1.7 & $+$0.8 $\pm$ 1.2 \\
+    Asp (Na1)                    & $-$16.2 $\pm$ 1.2 & $+$3.1 $\pm$ 0.3 & $+$1.3 $\pm$ 0.3 & $+$4.1 & $+$4.1 & 
+$+$1.2 & $-$2.4 $\pm$ 1.3 \\
+    Asp (Na1, Na3)               & $-$16.6 $\pm$ 1.3 & $+$4.4 $\pm$ 0.4 & $+$1.1 $\pm$ 0.3 & $+$4.2 & $+$4.1 & 
+$-$0.8 & $-$3.6 $\pm$ 1.4 \\
+    Asp (Na1, Na1\prim)          & $-$22.5 $\pm$ 0.8 & $+$4.4 $\pm$ 0.3 & $+$0.6 $\pm$ 0.3 & $+$4.0 & $+$4.2 & 
+$+$1.9 & $-$7.4 $\pm$ 0.9 \\ \hline
+    \end{tabular}}
+    \end{center}
+    {\footnotesize
+        $^{a}$Labels inside the parenthesis indicate the ion states. 
+        The electrostatic and LJ energies are averages of the forward 
+        and backward transformation. Convergence of the transformation 
+        for the electrostatic and LJ interactions are shown in 
+        \hyperref[bind:figS2]{Fig.~\ref{bind:figS2}}. All energies are 
+        reported in kcal/mol.}
+\end{table}
+
+The possible ion configurations with two \Na\ are Na1--Na3 and Na1--Na1\prim. The Na1--Na3 configuration 
+comes from the crystal structure and results in a low-affinity binding of Asp ($-3.6$~kcal/mol) as found 
+in previous calculations~\cite{Heinzelmann2011,Heinzelmann2013}. This is in conflict with experiments 
+where Asp is determined to bind with high affinity, e.g., $-7.3$~kcal/mol~\cite{Ewers2013} and 
+$-6.8$~kcal/mol \cite{Hanelt2015} (both were measured at 6~$^\circ$C). The binding free energy of Asp 
+is significantly boosted when the calculation is done using the Na1--Na1\prim\ configuration. The 
+calculated value ($-7.4$~kcal/mol) is in very good agreement with the experimental values quoted above. 
+The difference between the binding free energies of the two configurations arises from the distance of 
+the first \Na\ to Asp at the Na3 and Na1\prim\ sites, which is depicted in 
+\figrefn{bind:fig2}{C {\color{black} and} D}, respectively. The distance between the \Na\ at Na1 and the 
+C$\alpha$ atom of Asp is about 7~\angs\ for both systems. The C$\alpha$ distance with the first \Na\ ion, 
+however, is 9.5~\angs\ at Na1\prim\ and increases to 12.5~\angs\ at Na3. This 3~\angs\ increase in the 
+distance significantly reduces the electrostatic attraction, leading to a smaller binding free energy of 
+Asp for the Na1--Na3 configuration. 
+
+As in the case of the binding of the second \Na, the free energy simulations imply that Asp must 
+bind while the first \Na\ is still at the Na1\prim\ site. That is the only way one can explain the
+high-affinity binding of Asp. We expect that the binding of the second \Na\ to Na1 will sufficiently 
+destabilise the first \Na\ at Na1\prim\ so that it will not be the deepest binding site anymore.
+To confirm this, we have repeated the free energy calculations for the binding of \Na\ to the
+Na1\prim\ and Na3 sites in the presence of the second \Na\ at Na1 and bound Asp. As shown in the 
+last two rows of \tabref{bind:tab2}, the Na3 site is now 4.4~kcal/mol deeper than the Na1\prim\ site, 
+so the first \Na\ will eventually move about $\sim$4~\AA\ from Na1\prim\ to Na3. But this transition is 
+clearly delayed by an energetic barrier caused by the detachment of the D405 side chain, and the 
+flipping of the D312 and N310 side chains which coordinate \Na\ at both sites (cf. columns 2 and 6 
+of \tabref{bind:tab1}). 
+
+In order to get more insights for this barrier, we have performed potential of mean force (PMF)
+calculations for the Na1\prim\ $\rightarrow$ Na3 transition of the first \Na. The D312 side chain is 
+found to chaperone \Na\ throughout the transition while the N310 side chain flips at the top of the 
+barrier. The flipping of the N310 side chain is an unfavourable motion and causes some stress on the 
+NMDGT motif, which has to move to allow the transition. Unfortunately, we could not obtain a converged 
+PMF for the whole path due to the sampling problems caused by the large conformational changes in the 
+protein. Because the existence of this barrier is essential for the stability of the proposed (Na1, 
+Na1\prim) state, we show the initial part of the PMF, where convergence is not an issue yet 
+(\figrefn{bind:fig4}{A}). As the \Na\ ion is pushed from the Na1 site towards Na3, the PMF steeply rises, 
+reaching a height of over 10~kcal/mol, which is sufficient to trap the first \Na\ at Na1\prim.
+
+The residue-specific RMSDs obtained from the initial and final umbrella windows show that the movement 
+of the \Na\ ion induces substantial conformational changes in the NMDGT motif and the neighbouring 
+residues when the ion is at the top of the barrier (\figrefn{bind:fig4}{B}, red bars). In contrast, 
+the RMSDs of the same residues obtained from the equilibrium simulations of the (Na1, Na3) state indicates 
+that they are completely relaxed after the \Na\ ion moves to the Na3 site (\figrefn{bind:fig4}{B}, black 
+bars). The PMF and RMSD results in \figref{bind:fig4} show that the protein is in a slightly excited in 
+the (Na1, Na1\prim) state and is driven into a highly excited state during the Na1\prim\ $\rightarrow$ Na3 
+transition of \Na. After \Na\ binds to Na3, the protein relaxes to a minimum free energy state and the 
+conformational energy stored in the protein is completely dissipated. The above depiction of events during 
+the Na1\prim\ $\rightarrow$ Na3 transition is consistent with the experimental observations that the \Na\ 
+binding induces structural changes in the protein~\cite{Reyes2013b,Hanelt2015}, and provides a physical 
+mechanism for how these changes are induced. Here we stress the role of the (Na1, Na1\prim) intermediate 
+state in facilitating the Na1\prim\ $\rightarrow$ Na3 transition of the first \Na. Without the Coulomb 
+repulsion of the second \Na\ ion at Na1, the first \Na\ would have a much harder time pushing through 
+the conformational energy barrier. Such a knock-on effect is well-known in ion channels. Nature seems 
+to have exploited it in glutamate transporters as well. 
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=1.0\linewidth]{Figures/Binding/fig4.png}
+\caption{(A) The PMF of the \Na\ ion at Na1\prim\ as it is pushed towards Na3. 
+Only the converged part of the PMF is shown. (B) Residue-specific RMSDs of the 
+NMDGT (310-314) and neighbouring residues (306-309) affected by the Na1\prim\ 
+$\rightarrow$ Na3 transition with respect to the 2NWX crystal structure. The 
+RMSDs obtained from equilibrium simulations when the two \Na\ ions are at the 
+(Na1, Na1\prim) and (Na1, Na3) states are shown with blue and black, respectively. 
+The RMSDs obtained from the last umbrella window in the PMF, which indicates the 
+barrier position, is shown with red.}
+\label{bind:fig4}
+\end{figure}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=1.0\linewidth]{Figures/Binding/fig5.png}
+\caption{Schematic diagram of the ligand-binding order in \GltPh. 
+(\textit{A}) Initially, \GltPh\ is in the open apo state. A \Na\ ion binds to the Na1\prim\ site, 
+coordinated by the D405 and D312 residues. 
+(\textit{B}) A second \Na\ ion pushes the first ion slightly and binds to the Na1 site coordinated by 
+the D405 residue, thus forming the Na1--Na1\prim\ two ion state. 
+(\textit{C}) The Asp substrate binds to \GltPh\ in this two ion configuration. 
+(\textit{D}) The first \Na\ ion moves from Na1\prim\ to Na3 chaperoned by the D312 side chain. 
+The flipping of the N310 side chain oxygen from the Na1\prim\ site to the Na3 site is the critical event
+that enables this transition.}
+\label{bind:fig5}
+\end{figure}
+
+From the binding free energy results, we propose the following mechanism for the binding of the ligands 
+to \GltPh\ (illustrated in \figref{bind:fig5}). Starting with the outward-facing apo state of \GltPh, 
+the first \Na\ ion binds to the Na1\prim\ site with a very high affinity, where it is coordinated by 
+both D405 and D312. This is followed by the entry of the second \Na\ ion (Asp cannot bind yet), which 
+binds to the Na1 site, where it is coordinated by D405. The distance between the two ions is about 
+3.5~\angs, which results in low-affinity binding of the second \Na. In this two ion Na1--Na1\prim\ 
+state, the Asp substrate binds to \GltPh\ with high affinity. Finally, the first \Na\ moves from 
+Na1\prim\ to Na3 through conformational changes involving the N310 and D312 side chains, and the NMDGT 
+motif. Although we couldn't resolve this transition, both experiments~\cite{Reyes2013b,Hanelt2015} 
+and preliminary PMF calculations indicate that it will be associated with a large energy barrier, and 
+hence it will be a slow process. In the final state, the HP2 gate is closed and locked by the binding
+of the third \Na\ to the Na2 site. MD simulations and binding free 
+energies~\cite{Ryan2009,Grazioso2012,Setiadi2017} suggest that both of these processes are relatively 
+fast, so it is likely that the binding of the first \Na\ to its final destination at the Na3 site will 
+occur last.
+
+\section{Conclusion}
+In order to resolve the large discrepancies found in the calculation of the binding free energies of 
+ligands, we have re-examined the ligand-binding mechanism in the outward-facing conformation of \GltPh. 
+We have included the intermediate \Na\ binding site labelled Na1\prim, and found it to be very stable. 
+The coordination of the Na1\prim\ site is tighter compared to Na3, and as evidenced by the binding free
+energy calculations, the Na1\prim\ site is at a lower energy state than Na3. In addition, the transition 
+of \Na\ from Na1\prim\ to Na3 requires flipping of the N310 side chain, which is an unfavourable motion 
+due to the stress it causes on the NMDGT motif. We have then considered the possibility that the second 
+\Na\ ion could bind to Na1 while the first \Na\ is still at Na1\prim. The two ions at the Na1--Na1\prim\ 
+sites are found to be stable, separated by 3.5~\angs. The Coulomb repulsion of the first \Na\ at Na1\prim\ 
+ensures that the second \Na\ binds to Na1 with a low affinity in good agreement with the experimental 
+measurements~\cite{Reyes2013b,Ewers2013,Hanelt2015}. We have next calculated the binding free energy of 
+Asp for all ion occupation states and found that the lowest free energy is obtained when the two \Na\ ions 
+are at the Na1--Na1\prim\ sites. The calculated binding free energy is again in good agreement with the 
+experimental measurements, which indicate high-affinity Asp binding~\cite{Hanelt2015,Ewers2013}. 
+
+The intermediate Na1\prim\ site, which has helped to resolve the low-affinity \Na -- high-affinity Asp 
+binding paradox, is identified through the free energy simulations in this work. This site has not been
+observed in previous crystal structures, because it disappears in the fully-bound \GltPh. However, if 
+the transition of the first \Na\ from Na1\prim\ to Na3 can be prevented through mutations, \GltPh\ can 
+be trapped in a state with two \Na\ ions at the Na1--Na1\prim\ sites. Inspection of \tabref{bind:tab1} 
+shows that two such mutations are T92A and S93A. In fact, these mutations have been considered before 
+to identify the Na3 site \cite{Bastug2012}. Binding free energy calculations indicate that these 
+mutations will reduce the \Na\ affinity to Na3 by 6--7 kcal/mol, which is sufficient to prevent the 
+occupation of Na3. Thus the proposed Na1--Na1\prim\ intermediate binding site can be resolved if \GltPh\ 
+is crystallised with one of the above mutations.
+
+The existence of the Na1\prim\ site will also affect the release mechanism of the ligands in the inward
+conformation of \GltPh, which has to be reconsidered. More interestingly, the Na1--Na1\prim\ sites could 
+help to clarify the role of the \K\ ion in the transport cycle of EAATs. It has been hypothesised that 
+the release of the last \Na\ ion is a rate-limiting step in \GltPh, and its exchange with \K\ in EAATs 
+avoids this slow process \cite{Heinzelmann2013,Heinzelmann2014a}. But no concrete mechanism could be 
+proposed for such a \K--\Na\ exchange. The Na1--Na1\prim\ sites provide a natural location for the 
+\K--\Na\ exchange to occur in EAATs. Finally, such an intermediate \Na\ binding site could exist in other 
+\Na--coupled transporters. Because they are not likely to be observed in crystal structures, one may have 
+to rely on discrepancies in ligand binding free energies to infer their existence. We hope to report on 
+the implications of the intermediate Na1\prim\ site on the transport cycle of EAATs and other transporters 
+in feature publications.
+
+The existence of the Na1\prim\ site will also affect the release mechanism of the last \Na\ from the Na3 
+site in the inward conformation of \GltPh, which has to be reconsidered. More interestingly, the 
+Na1--Na1\prim\ sites could help to clarify the role of the \K\ ion in the transport cycle of EAATs, 
+which have much faster turnover rates compared to \GltPh. It has been hypothesised that the release of the 
+last \Na\ ion---without any external help---could be too slow for EAATs, and its exchange with \K\ could 
+avoid this slow process \cite{Heinzelmann2014a}. But no concrete mechanism could be proposed for such a 
+\K--\Na\ exchange. The Na1--Na1\prim\ sites provide a natural location for the \K--\Na\ exchange to occur 
+in EAATs. Finally, such an intermediate \Na\ binding site could exist in other \Na--coupled transporters. 
+Because they are not likely to be observed in crystal structures, one may have to rely on discrepancies 
+in ligand binding free energies to infer their existence. We hope to report on the implications of the 
+intermediate Na1\prim\ site on the transport cycle of EAATs and other transporters in feature publications.
+
+\pagebreak
+\begin{subappendices}
+\counterwithin{figure}{section}
+{
+\hypersetup{linkcolor=black}
+\section{Appendix for Chapter~\ref*{chap:bind}}
+}
+
+% Figure S1
+\begin{figure}[b!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Figures/Binding/figS1.jpg}
+    \caption{The convergence of TI results for the binding free energies of \Na\ ions.
+    The black and red lines are the forward and backward transformations,
+    respectively.}
+    \label{bind:figS1}
+\end{figure}
+
+\pagebreak
+% Figure S2
+\begin{sidewaysfigure}
+    \centering
+    \includegraphics[scale=0.55]{Figures/Binding/figS2.jpg}
+    \caption{The convergence of the forward (black) and backward (red) 
+    transformations of Asp. The first row is the electrostatic interaction
+    presented as the running averages of the TI calculations. The middle 
+    and bottom rows show the FEP calculations for the LJ--bb and LJ--sc interactions.
+    These plots show the FEP transformation as a function of the coupling 
+    parameter $\lambda$.}
+    \label{bind:figS2}
+\end{sidewaysfigure}
+
+\pagebreak
+% Figure S3
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Binding/figS3.jpg}
+    \caption{(A) Superposition of the ligand-free 2NWX and 4OYE \GltPh\ structures
+    after 60~ns of MD simulations, represented in orange and yellow, respectively.
+    (B) The time evolution of the RMSDs of the two structures with respect to 
+    the 4OYE crystal structure. The average RMSDs 
+    after equilibration are 1.09~\AA\ and 1.06~\AA\ for the apo-2NWX and 4OYE 
+    systems, respectively. The HP2 gate moves freely in the apo state, and therefore 
+    excluded from the RMSD calculations.}
+    \label{bind:figS3}
+\end{figure}
+
+\end{subappendices}
+
+\counterwithin{figure}{chapter}
+%=======================================================================================%

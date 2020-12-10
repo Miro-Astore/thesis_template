@@ -1,0 +1,669 @@
+%=======================================================================================%
+\chapter{Ion Solvation Energy with Spherical Boundary Conditions}
+\label{chap:ions}
+ABSTRACT \newline
+Solvation free energies of ions are difficult to determine from molecular 
+dynamics simulations due to the long-range Coulomb interactions. Various 
+approximations and corrections are introduced to enable their calculation in 
+small systems, which however raises issues of robustness. We show that 
+solvation free energies of ions can be calculated using the spherical boundary 
+conditions without introducing any corrections at the boundary via a buffer 
+zone. The results are shown to converge for a droplet size of 21~\angs\ and are 
+independent of the parameters used for confining water or restraining the ion. 
+The proposed method thus resolves the robustness issues in solvation free 
+energy calculations of ions and can be used with confidence to determine
+force field parameters from such calculations. We apply the method to calculate 
+the solvation free energies of the side chain analogues of charged amino acids. 
+Tests using periodic boundary conditions show that similar results are also 
+obtained in that case. 
+
+\newpage
+\section{Introduction}
+Solvation of ions in water and other solvents is a fundamental phenomenon in physical chemistry with 
+applications in many other fields such as biochemistry, molecular biology and 
+physiology~\cite{Hunenberger2011,Marcus1986}. Properties of solvated ions can be described at several 
+levels depending on the desired level of accuracy and detail. Two of the most common approaches are the 
+Poisson-Boltzmann equation with implicit solvent and molecular dynamics (MD) simulations with explicit 
+solvent molecules. Thanks to the improvements in computer hardware and software, MD simulations have 
+now become the primary tool for atomic-level description of biomolecules and their interactions. The 
+accuracy of simulation results depends on the quality of the force fields used in MD simulations. In 
+this regard, accurate calculation of the solvation free energies of solutes is of primary importance 
+because the balance between the solute--solute and solute--solvent interactions determines whether two 
+solute molecules bind or not. For this reason, solvation free energies are routinely used for determining 
+the parameters in force fields~\cite{Brooks2009b,Wang2004,Oostenbrink2004,Jorgensen1996}. The long-range 
+Coulomb potential has been the main obstacle in the calculation of the solvation free energies of ions from 
+MD simulations. It was shown early on that the use of a cut-off radius in the calculation of the Coulomb 
+interactions gave spurious results and had to be avoided~\cite{Straatsma1988a}. Because the size of 
+simulation systems was limited by the available computer power, the only alternatives were using either 
+a simulation box with periodic boundary conditions (PBC) and Ewald sum for long-range interactions,~\cite{Hummer1998,Hunenberger2011} or a droplet with spherical boundary conditions (SBC) 
+and a buffer zone with implicit solvent beyond~\cite{Aqvist1990,Beglov1994}. In the former method, a 
+number of corrections arising from periodicity and finite-size effects have to be applied to the raw 
+solvation free energy obtained from MD simulations, which raises doubts about the robustness of the 
+results~\cite{Lin2014a}. Using a droplet with SBC avoids these issues, but the introduction of a buffer 
+zone, where external forces are applied to water molecules to counter the effect of the vacuum outside, 
+brings back the robustness question. It is difficult to quantify how successful the buffer zone is in 
+mimicking the actual behaviour of water molecules embedded in a much larger system.
+
+The issue with the robustness of the computations in the SBC method could be resolved if a large enough 
+system is used so that one can dispense with the buffer zone and just embed the droplet in a cavity 
+of implicit water (\figref{solv:fig1}). The currently available computer power certainly allows 
+consideration of much larger simulation systems compared to two decades ago. All one needs to do is 
+to show that the computed solvation energy of an ion converges to a unique value with increasing droplet 
+size independent of the parameters used for the confinement of water molecules or restraining of the ion. 
+Here we demonstrate the feasibility of this simpler approach by computing the solvation free energies 
+of \Na\ and \Cl\ ions using a droplet embedded in a cavity whose size is varied. We show that the 
+correction terms arising from the confinement of the droplet and its interface with vacuum become 
+negligibly small for droplet radii greater than 20~\angs. We then generalise the cavity energy to a 
+molecular ion with arbitrary partial charges and use our method to compute the solvation free energies 
+of the side chain analogues of the charged amino acids. Tests with PBC show that convergent solvation 
+free energies are also obtained in that case when simulation boxes with volumes similar to droplets 
+are used. Finally, we discuss the implications of the results for the current force fields.
+
+\begin{figure}[t!]
+\includegraphics[width=1.0\textwidth]{Figures/Solvation/fig1.jpg} 
+\caption{(A) The full system of an ion embedded in a bath of explicit water. A 
+         spherical boundary with radius $R$ is placed around the ion to split the 
+         system into two parts. (B) A water droplet with explicit water is cut 
+         out from the full system and placed in a vacuum. (C) A hollow spherical 
+         cavity (vacuum) embedded in an implicit water with the ion at the centre. 
+         The full ion-water interaction in (A) is obtained by adding the ion-water 
+         interactions in (B) and (C).} 
+\label{solv:fig1}
+\end{figure}
+
+\section{Method}
+\subsection{Solvation Free Energy with SBC}
+In the SBC method, the simulation system is divided into two parts using a spherical boundary around 
+the ion, and the water outside the boundary is represented implicitly (\figref{solv:fig1}). In 
+previous applications of the SBC method~\cite{Aqvist1990,Beglov1994}, a buffer zone is used to rectify 
+the effect of vacuum on water molecules near the boundary. This was necessary for the relatively small 
+spheres ($R\sim 10$~\angs) employed in these work because the structural order imposed by the vacuum 
+boundary could affect the hydration shells of the ion. This would not be a problem when a sufficiently 
+large sphere is employed. A second artefact introduced by the vacuum boundary is the monopole ($l=0$) 
+and higher-order contributions to the solvation energy, which depend on $R$ as $1/R^{l+1}$ and would 
+be negligible for large $R$. We note that the monopole term is cancelled by the interaction of the ion 
+with the cavity, given by the Born energy
+\begin{equation}
+\Delta G_{\text{cav}} = -\frac{(1-1/\epsilon)q^2}{8\pi\epsilon_0 R},
+\label{eq:born}
+\end{equation}
+where $q$ is the charge of the ion and $\epsilon$ is the dielectric constant of water. The remaining 
+artefacts fall off as $1/R^2$ or faster so with an appropriate choice of $R$, they can be made negligibly 
+small. 
+
+Here we investigate the feasibility of this approach for practical applications. The system is decomposed 
+into a water droplet and a cavity part as shown in \hyperref[solv:fig1]{Fig.~\ref{solv:fig1}}, and the solvation free energy of the ion is calculated from
+\begin{equation}
+\Delta G_{\text{solv}} = \Delta G_{\text{drop}} + \Delta G_{\text{cav}}.
+\label{eq:solvation}
+\end{equation}
+Here $\Delta G_{\text{drop}}$ is the solvation free energy of the ion in the droplet, and $\Delta G_{\text{cav}}$ 
+is the self-energy of the ion in the cavity, which is given by the Born energy, Eq.~\eqref{eq:born}, 
+for a central ion.  The solvation free energy is usually calculated by an alchemical route, i.e., by 
+slowly turning off the interaction between the ion and water molecules in reference to vacuum. To 
+improve convergence, the contribution of the electrostatic and Lennard-Jones (LJ) interactions are 
+calculated separately
+\begin{equation}
+\Delta G_{\text{drop}} = \Delta G_{\text{drop-el}} + \Delta G_{\text{drop-LJ}} .
+\end{equation}
+Note that due to the $1/r^6$ dependence of the LJ interactions, their contribution to the cavity term 
+can be neglected. The electrostatic and LJ interactions of the ion with the water molecules inside the 
+droplet can be calculated by either free energy perturbation (FEP) or thermodynamic integration 
+(TI)~\cite{Chipot2007}. In both methods, the ion-water interaction is coupled/decoupled over $n$ 
+simulation windows chosen between $\lambda=0$ and 1. The sum of the change in free energy or the 
+integral of the free energy gradient over $\lambda$ gives the final free energy for FEP and TI, 
+respectively. 
+
+As mentioned above, the monopole contribution to $\Delta G_{\text{drop-el}}$ is cancelled by 
+$\Delta G_{\text{cav}}$, which removes the $1/R$ dependence from the solvation free energy. In 
+contrast, there is no $1/R$ dependence in $\Delta G_{\text{drop-LJ}}$. Because this will be important 
+when we study the convergence of the solvation free energy with $R$, we rewrite the solvation free 
+energy of the ion in the form
+\begin{equation}
+\Delta G_{\text{solv}} = \Delta G_{\text{el}} + \Delta G_{\text{LJ}} ,
+\end{equation}
+where 
+\begin{equation}
+\Delta G_{\text{el}} = \Delta G_{\text{drop-el}} + \Delta G_{\text{cav}}
+\label{eq:split}
+\end{equation}
+represents the total electrostatic contribution to the free energy, and we have removed the ``drop'' 
+label from the LJ term to simplify the notation. Representation of the cavity term with the Born energy 
+is valid only for a central ion. For a molecule with distributed partial charges, the self-energy 
+contribution due to the cavity needs to be generalised, which we consider next.
+
+\subsection{Self-energy of Ions and Molecules in a Cavity}
+\begin{figure}[b!]
+\centering
+\includegraphics[width=0.45\textwidth]{Figures/Solvation/fig2.jpg}
+\caption{A spherical cavity with radius $R$ is embedded in implicit 
+         water medium. A charge $q$ is placed on the $z$-axis at a 
+         distance $d$ from the origin.}
+\label{solv:fig2}
+\end{figure}
+
+We first consider the self-energy of a point charge $q$ placed at $d \hat{\bf z}$ in a spherical cavity 
+of radius $R$ (see \figref{solv:fig2}). The dielectric constant outside the sphere is $\epsilon=80$ 
+(implicit water), and inside it is 1 (vacuum). The potentials inside and outside the cavity can be 
+determined by expanding the potentials in terms of Legendre polynomials and applying the appropriate 
+boundary conditions at $r=R$~\cite{Jackson1999}. The potential inside the cavity due to the induced 
+charges at the boundary (reaction field) is given by
+\begin{equation}
+\varphi_{\text{RF}} = 
+-\frac{q}{4\pi\epsilon_0}\sum_{l}\frac{(l+1)(\epsilon-1)}
+{(l+1)\epsilon+l } \frac{d^l r^l}{R^{2l+1}}P_{l}(\theta).
+\label{eq:rf1}
+\end{equation}
+Because $\epsilon \gg 1$, we can neglect the second term in the denominator of Eq.~\eqref{eq:rf1} 
+without much error. Then the factors of $l+1$ from the numerator and denominator cancel, yielding
+\begin{equation}
+\varphi_{\text{RF}} \simeq 
+-\frac{(qR/d)}{4\pi\epsilon_0}\frac{(\epsilon-1)}{\epsilon}
+\sum_{l}\frac{r^l}{(R^2/d)}P_{l}(\theta).
+\label{eq:rf2}
+\end{equation}
+Here, the sum over $l$ corresponds to the expansion of $1/|{\bf r} -(R^2/d)\hat{\bf z}|$. Thus the 
+reaction potential in Eq.~\eqref{eq:rf2} can be represented by an image charge of magnitude 
+$q'=-(1-1/\epsilon)qR/d$ placed at $R^2/d$ on the $z$-axis. Generalising this result to a charge $q$ 
+at an arbitrary position ${\bf r'}$ in the cavity, we obtain
+\begin{equation}
+\varphi_{\text{RF}} = -\frac{(1-1/\epsilon)}{4\pi\epsilon_0} \frac{qR/r'}
+{|{\bf r}-(R/r')^2{\bf r'}|}.
+\label{eq:rf3}
+\end{equation}
+The self-energy of the charge $q$ in the cavity follows from 
+\begin{eqnarray}
+\Delta G_{\text{cav}} &=& \frac{1}{2}q\varphi_{\text{RF}}({\bf r}={\bf r'})
+\nonumber\\
+&=& 
+-\frac{(1-1/\epsilon)}{8\pi\epsilon_{0}} \frac{q^2R}{R^2 - r'^2},
+\label{eq:ise}
+\end{eqnarray}
+which reduces to the Born energy for $r'=0$. Thus the approximation made to obtain Eq.~\eqref{eq:rf2} 
+does not affect the leading monopole term; the  $\simeq 1$\% error affects only the higher-order terms.
+
+We next use the superposition principle to generalise the above results to an ionic molecule in a 
+cavity, which has $N$ partial charges $q_i$ at positions ${\bf r}_i$. From Eq.~\eqref{eq:rf3}, the 
+reaction potential in the cavity is given by
+\begin{equation}
+\varphi_{\text{RF}} ({\bf r}) = -\frac{(1-1/\epsilon)}{4\pi\epsilon_0} 
+\sum_{i} \frac{ q_i R/r_i}{|{\bf r} - (R/r_i)^2 {\bf r}_i |},
+\end{equation}
+and the self-energy of the molecule follows from
+\begin{eqnarray}
+\Delta G_{\text{cav}} &=& \frac{1}{2}\sum_{j}q_j\varphi_{\text{RF}}({\bf r} = 
+{\bf r}_j ) \nonumber\\
+&=& -\frac{(1-1/\epsilon)}{8\pi\epsilon_{0}} \sum_{ij} 
+\frac{q_i q_j R}{|\ R^2\hat{\bf r}_i -r_i r_j \hat{\bf r}_j |}.
+\end{eqnarray}
+Separating the diagonal and cross-terms, the self-energy can be written in the form
+\begin{equation}
+\Delta G_{\text{cav}} = 
+-\frac{(1-1/\epsilon)}{8\pi\epsilon_{0}}
+\left[\sum_{i}\frac{q_{i}^2 R}{R^2 - r_{i}^2} 
++ \sum_{i>j}\frac{2q_i q_j 
+R}{|R^2\hat{\bf r}_{i}-r_{i}r_{j}\hat{\bf r}_{j}|}\right].
+\label{eq:mse}
+\end{equation}
+The distance in the denominator of the cross term can be calculated using 
+\begin{equation}
+| R^2 \hat{\bf r}_{i}-r_{i}r_{j}\hat{\bf r}_{j}|= \left[R^4 + (r_{i}r_{j})^2 - 
+2R^2 {\bf r}_i \cdot {\bf r}_j\right]^{1/2}.
+\end{equation}
+Eq.~\eqref{eq:mse} generalises the self-energy of an ion in a cavity to a molecule with arbitrary 
+partial charges on its atoms. It will be used in calculating the cavity contribution to the solvation 
+free energy of a molecule.
+
+\subsection{Computational Details for SBC}
+We first consider the solvation free energies of \Na\ and \Cl\ to establish the bona fides of the 
+proposed method. The method is then used to investigate the solvation free energies of the side chain 
+analogues of the charged amino acids. Side chain analogues are built by removing the backbone of the 
+amino acids and terminating the dangling carbon atom with a hydrogen atom. The partial charge of the 
+dangling atom is adjusted to preserve the total charge of the side chain analogue. The topologies are 
+available as part of the CHARMM36 CGenFF~\cite{Brooks2009} distribution. The solute molecule is solvated 
+in a sphere of a given radius $R$ with TIP3P~\cite{Jorgensen1983,Neria1996} molecules using the PACKMOL 
+program~\cite{Martinez2009}. All MD simulations are performed in OpenMM version 7.2.2~\cite{Eastman2016} 
+with a time step of 2~fs, and the temperature is kept constant at 300~K with a Langevin damping of 
+1~ps$^{-1}$. Calculations are run on V100 Tesla graphical processing units (GPU) at the high-performance 
+computing facility {\it Artemis} with mixed precision (a test with double precision gave virtually the 
+same result). 
+
+In order to maintain the density of the water droplet, a half-harmonic potential is applied to the 
+oxygen atom of water molecules
+\begin{equation}
+U_{\text{sphere}} = 
+\begin{cases}
+\frac{1}{2} k_{s} (r-r_{0})^2,& \text{if } r>r_{0}, \\
+0, & \text{otherwise},
+\end{cases}
+\label{eq:drop_pot}
+\end{equation}
+where $k_{s}$ is the spring constant and the equilibrium $r_{0}$ is defined as the droplet radius $R$ 
+minus the average fluctuation from the restraint at temperature $T$, i.e., 
+$r_{0}=R-\sqrt{k_{\text{B}} T/k_{s}}$. The offset ensures that the monopole contribution to the solvation 
+free energy from the droplet at the boundary is cancelled by the cavity term.  This is similar to the 
+potential used in the MD program Q~\cite{Marelius1999} but without an attractive Morse potential. A 
+spring constant of 10~\spring\ is employed in most of our simulations. In addition to the confinement 
+potential, a harmonic restraint of 10~\spring\ is applied to the centre of charge of the solute to keep 
+it close to the origin. The choice of these two parameters does not affect the final solvation free 
+energy significantly as will be shown in the results and discussion section. In previous calculations 
+using the SBC method, angular restraints were applied on water molecules in the boundary region to 
+prevent their ordering at the vacuum interface so that their behaviour was consistent with those in 
+a much larger droplet~\cite{Aqvist1990,Beglov1994}. Here we do not use any angular restraints. As will 
+be shown in the results section, such boundary effects become negligible when the system is chosen 
+large enough.
+
+FEP calculations are performed to obtain the free energy terms $\Delta G_{\text{drop-el}}$ and 
+$\Delta G_{\text{LJ}}$. For both the droplet electrostatic and LJ terms, we use 21 equally spaced 
+windows with a sampling time of 0.1 ns/1.0 ns for equilibration/production at each $\lambda$ value. 
+To improve convergence in the LJ calculations, we use a soft-core potential with a radius-shifting 
+coefficient of 5.0~\angs. The free energy is calculated with the multistate Bennett-Acceptance-Ratio 
+(MBAR) method~\cite{Shirts2008} using the python implementation {\it pymbar} available at 
+\url{https://github.com/choderalab/pymbar}. The cavity correction $\Delta G_{\text{cav}}$ is 
+calculated using Eq.~\eqref{eq:ise} for an ion and Eq.~\eqref{eq:mse} for a molecule, and averaged 
+over a 2~ns MD simulation for each system. See \appref{apx:charges} for the python implementation.
+
+\subsection{Solvation Free Energy with PBC}
+The intrinsic solvation free energy with PBC is defined as 
+\begin{equation}
+\Delta G_{\text{solv}}^{\text{intr}} = \Delta G_{\text{el}} + \Delta G_{\text{LJ}},
+\end{equation}
+where the two terms represent the electrostatic and LJ contributions, respectively. In order to compare 
+the experimental results, a surface term needs to be added to the intrinsic solvation free energy due to 
+the absence of a vacuum interface in PBC. Thus the “real” solvation free energy is given by~\cite{Lin2014a}
+\begin{equation}
+\Delta G_{\text{solv}}^{\text{real}} = \Delta G_{\text{el}} + \Delta G_{\text{LJ}} + zF\phi_{\text{lv}},
+\end{equation}
+where $z$ is the valence of the ion, $F$ is the Faraday constant, and $\phi_{\text{lv}}$ is the 
+electrostatic potential that arises from a liquid-vacuum interface.  For the TIP3P water model used in 
+this work, $\phi_{\text{lv}}=-0.52$~V~\cite{Lin2014a}, so $-$12.0$z$ kcal/mol needs to be added to the 
+intrinsic value to obtain the real solvation free energy. The electrostatic contribution is split into 
+two terms in the spirit of Eq.~\eqref{eq:split},
+\begin{equation}
+\Delta G_{\text{el}} = \Delta G_{\text{box-el}} + \Delta G_{\text{SE}},
+\end{equation}
+where $\Delta G_{\text{box-el}}$ gives the electrostatic contribution of the water molecules inside 
+the PBC box and $\Delta G_{\text{SE}}$ describes the self-energy of the ion in the box, similar to the 
+$\Delta G_{\text{cav}}$ term in Eq.~\eqref{eq:split}. For  a cubic box with size $L$, the self-energy 
+is given by~\cite{Hummer1996}
+\begin{equation}
+\Delta G_{\text{SE}} = -\frac{2.837297}{4\pi\epsilon_{0}}\frac{q^2}{2L}.
+\end{equation}
+Like the Born energy~\eqref{eq:born}, the self-energy drops as $1/L$ and is not negligible even for 
+relatively large box sizes. 
+
+Simulations of ion solvation with PBC are done using the NAMD (version 2.12)~\cite{Phillips2005} program 
+that implements a particle mesh Ewald (PME) summation with a tinfoil boundary. A cut-off of 12~\angs\ for 
+the non-bonded interactions and a smooth switching is applied at 10~\angs. The long-range LJ interactions 
+between the ion and water are included using an analytical correction~\cite{Shirts2007}. A constant 
+temperature of 300 K is set using the Langevin thermostat with a coefficient of 1 ps$^{-1}$. The pressure 
+of the box is maintained at 1 bar using the Langevin piston method with a damping coefficient of 20 
+ps$^{-1}$ (NPT ensemble)~\cite{Feller1995}. The ion is restrained at the centre of the box with a spring 
+constant of 10~\spring\ to prevent the ion drifting to the boundary. Both the forward and backward FEP 
+transformations are combined with the Bennett acceptance ratio (BAR) to get the final free energy 
+implemented using the VMD \verb+ParseFEP+ plugin~\cite{Liu2012}. 
+
+\section{Results and Discussion}
+\subsection{Ion Solvation}
+Solvation free energies of ions have been measured using different methods, and therefore exhibit some 
+variation, as shown in \tabref{solv:tab1}. The sum of the solvation free energy for a cation--anion pair 
+is determined from the heat of formation measurements, which are reasonably well known. The main source 
+of the uncertainty comes the absolute solvation free energy of the proton, $\Delta G^{\circ} [{\rm H}^+]$, 
+which is used as a reference in finding the individual solvation free energies of ions. For example, the 
+large difference of the Gomer~\cite{Gomer1977} and Marcus~\cite{Marcus1994} values from the others is due 
+to the use of substantially larger $\Delta  G^{\circ} [{\rm H}^+]$ values (11 and 12 kcal/mol, 
+respectively) in these work compared to that of Tissandier et al.~\cite{Tissandier1998} The more recent 
+$\Delta G^{\circ} [{\rm H}^+]$ value determined by Tissandier et al.~\cite{Tissandier1998} 
+($-264$~kcal/mol) is generally considered more accurate and adapted in other work~\cite{Kelly2006}. 
+The $+$1.9 kcal/mol difference between the values of Tissandier et al. and Kelly et al. is simply due 
+to the choice of the standard state---in the former, a concentration of 1~bar in the gas phase and 1~M 
+in the aqueous phase is used, whereas a concentration of 1~M is used in both phases in the latter. Because 
+the latter condition is assumed in the simulations, we will use the solvation free energies from Kelly 
+et al.~\cite{Kelly2006} in comparisons with the calculated values below.
+
+\begin{table}[b!]
+\caption{\label{solv:tab1}A compilation of experimental solvation free energies of
+\Na\ and \Cl\ from various sources.}
+\resizebox{\textwidth}{!}{\begin{tabular}{ccccccc}
+\hline
+& Noyes~\cite{Noyes1962} & Gomer~\cite{Gomer1977} & Klots~\cite{Klots1981}
+& Marcus~\cite{Marcus1994} & Tissan.~\cite{Tissandier1998} & Kelly~\cite{Kelly2006} \\ 
+\hline
+ \Na & $-97.0$ & $-90.6$ & $-100.1$ & $-87.2$ & $-101.3$ & $-103.2$ \\
+ \Cl & $-74.8$ & $-81.4$ & $ -73.9$ & $-81.3$ & $ -72.7$ & $-74.5$ \\
+ Sum    & $-171.8$ & $-172.0$ & $-174.0$ & $-168.5$ & $-174.0$ & $-177.7$ \\ \hline
+\end{tabular}}
+\end{table}
+
+In order to discuss the issues with using small water droplets in solvation free energy calculations 
+and motivate the proposed method, we first consider the variation of the average charge density around 
+the \Na\ and \Cl\ ions in a water droplet (\figref{solv:fig3}). The charge densities are obtained 
+from 30~ns MD simulations of a central ion in a water droplet with $R=24$~\angs. It is seen that the 
+effect of both ions on the charge density in the water extends up to 9~\angs\ from the centre. The charge 
+density then remains flat until about 6~\angs\ from the boundary, where it again exhibits variations due 
+to the ordering of water molecules by the vacuum interface. For water droplets with $R<15$~\angs, the two 
+regions overlap, and the water molecules in the inner shells are affected by vacuum. This perturbs the 
+ion-water interactions in the inner shells, which are clearly not acceptable. Thus the use of angular 
+restraints to mimic the polarisation of water molecules in a larger system is necessary when small 
+droplets with $R<15$~\angs\ are employed~\cite{King1989}. Use of such small systems was unavoidable 2-3 
+decades ago due to the limited computational resources. However, this is no more the case, and one can 
+avoid the overlap problem by using droplets with $R>15$~\angs.
+
+\begin{figure}[b!]
+\centering
+\includegraphics[width=0.65\textwidth]{Figures/Solvation/fig3.jpg}
+\caption{The radial dependence of the charge density in a water droplet of size $R=24$~\angs\ 
+for \Na\ (black) and \Cl\ (red) ions. }
+\label{solv:fig3}
+\end{figure}
+
+\begin{table}[t!]
+\caption{\label{solv:tab2} Break down of the solvation free energies as a function of the droplet 
+size $R$ for both \Na\ and \Cl. Water molecules are confined using a half-harmonic potential 
+with $k_{s}=10$~\spring, and the ion is restrained at the centre with 10~\spring.  
+All energies are reported in kcal/mol, and the maximum statistical error for the solvation free energies 
+is 0.3~kcal/mol.}
+\resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccc}
+\hline
+& \multicolumn{5}{c}{\Na} & \multicolumn{5}{c}{\Cl} \\
+$R$ (\angs)& $\Delta G_{\text{drop-el}}$ & $\Delta G_{\text{cav}}$ & $\Delta 
+G_{\text{el}}$ & $\Delta G_{\text{LJ}}$ & $\Delta G_{\text{solv}}$ & $\Delta 
+G_{\text{drop-el}}$ & $\Delta G_{\text{cav}}$ & $\Delta G_{\text{el}}$ & 
+$\Delta G_{\text{LJ}}$ & $\Delta G_{\text{solv}}$ \\ \hline
+ 6 & $-81.7$ & $-27.4$ & $-109.1$ & $3.2$ & $-105.9$ & $-60.2$ & $-27.4$ & 
+$-87.6$ & $ 6.0$ & $-81.6$ \\ 
+ 9 & $-88.2$ & $-18.2$ & $-106.4$ & $2.8$ & $-103.6$ & $-68.0$ & $-18.2$ & 
+$-86.2$ & $ 5.6$ & $-80.6$ \\ 
+12 & $-91.5$ & $-13.6$ & $-105.1$ & $2.7$ & $-102.4$ & $-72.3$ & $-13.6$ & 
+$-86.0$ & $ 5.3$ & $-80.7$ \\
+15 & $-93.6$ & $-10.9$ & $-104.5$ & $2.6$ & $-101.9$ & $-74.7$ & $-10.9$ & 
+$-85.6$ & $ 5.2$ & $-80.4$ \\ 
+18 & $-95.1$ & $ -9.1$ & $-104.2$ & $2.5$ & $-101.7$ & $-76.3$ & $ -9.1$ & 
+$-85.4$ & $ 5.0$ & $-80.4$ \\ 
+21 & $-96.0$ & $ -7.8$ & $-103.8$ & $2.6$ & $-101.2$ & $-77.6$ & $ -7.8$ & 
+$-85.4$ & $ 5.0$ & $-80.5$ \\
+24 & $-96.9$ & $ -6.8$ & $-103.7$ & $2.5$ & $-101.2$ & $-78.5$ & $ -6.8$ & 
+$-85.3$ & $ 4.7$ & $-80.6$ \\ 
+30 & $-97.9$ & $ -5.5$ & $-103.4$ & $2.4$ & $-101.0$ & $-79.9$ & $ -5.5$ & 
+$-85.4$ & $ 4.5$ & $-80.8$ \\
+36 & $-98.9$ & $ -4.5$ & $-103.4$ & $2.4$ & $-101.0$ & $-80.5$ & $ -4.5$ & 
+$-85.0$ & $ 4.4$ & $-80.7$ \\ \hline
+\end{tabular}}
+\end{table}
+
+For larger droplets with $R > 15$~\angs, we only need to worry about the artefacts introduced by the 
+variations in the charge density near the boundary. Integration of the charge density at the boundary 
+region shows that there is a net charge given by $(1-1/\epsilon)q$, consistent with the continuum 
+calculations. This monopole contribution to the ion's interaction energy is cancelled by the cavity 
+term, which leaves the dipole and higher-order interactions behind. Because these terms fall as $1/R^2$ 
+or faster, it should be possible to make them negligibly small by choosing a large enough $R$. To this 
+end, we investigate the convergence of the solvation free energies with $R$ by varying it from 6 to 
+36~\angs\ for both \Na\ and \Cl. The results are shown in \tabref{solv:tab2}, where individual 
+contributions to the free energies are listed separately. For both ions, the convergence of $\Delta 
+G_{\text{solv}}$ occurs around $R=21$~\angs. The $\Delta G_{\text{solv}}$ values for $R \geq 21$~\angs\ 
+differ from that at $R=36$~\angs\ by 0.1--0.2 kcal/mol, which is within the statistical errors in the 
+calculations. Inspection of the individual contributions in \tabref{solv:tab2} shows that cancellation 
+of the $1/R$ dependent term in $\Delta G_{\text{drop-el}}$ with $\Delta G_{\text{cav}}$ ensures the 
+fast convergence of the results observed in $\Delta G_{\text{el}}$.
+
+The converged $\Delta G_{\text{solv}}$ values in \tabref{solv:tab2} are in good agreement with previous 
+calculations where the spherical solvent boundary potential method~\cite{Beglov1994} was used with the 
+CHARMM parameters to obtain  $-101.1$~kcal/mol~\cite{Lin2014a} for \Na\ and 
+$-80.0$~kcal/mol~\cite{Roux1996} for \Cl. Comparison of the calculated $\Delta G_{\text{solv}}$ 
+values with the experimental ones from Kelly et al. in \tabref{solv:tab1} yields mixed results. There 
+is a small deviation for \Na\ because the earlier experimental values were targeted in the calculations 
+where \Na\ parameters were determined. A larger discrepancy (6~kcal/mol) occurs for \Cl. Presumably, 
+\Cl\ suffers from the neglected cousin syndrome as it plays a relatively minor role in biochemical 
+processes compared to \Na. But its proper parametrisation should nevertheless be considered in future 
+versions of the force field.
+
+We next demonstrate the robustness of the results by showing that they are not affected by the 
+parameters of the potentials used in confining the water molecules in the droplet and restraining 
+the ion at the centre. For the confining potential, we repeat the previous calculations with 
+$k_{s}=10$~\spring\ using $k_{s}=5$ and 20~\spring. The solvation free energy results are shown in 
+\figref{solv:fig4} for both \Na\ and \Cl. The solvation free energy differs by a maximum of 
+0.3 kcal/mol between the three $k_{s}$ values, which is within the statistical errors. Statistical 
+nature of the variations is also apparent from the fact that there is no clear trend in the $\Delta 
+G_{\text{solv}}$ values with increasing $k_{s}$. Thus the strength of the confinement potential does 
+not have an appreciable effect on the stability of the results. The value of 10~\spring\ is sufficient 
+to confine the water molecules inside the droplet and will be used in the following calculations. 
+The second parameter used in the calculations is the harmonic restraint that keeps the ion at the 
+centre of the droplet. We test the use of different centre of charge restraints for \Na\ only, and 
+the results are summarised in \tabref{solv:tab3}. Overall, the solvation energy differs by only 
+0.1--0.3~kcal/mol. The largest deviation occurs for the 0.1~\spring\ restraint, which is presumably 
+a consequence of under-sampling due to the larger phase-space resulting from the weaker restraint.
+
+\begin{table}[t!]
+\caption{\label{solv:tab3} The effect of the harmonic restraint (\spring) applied 
+to the \Na\ ion on its solvation free energy. Calculations are performed in 
+a droplet with $R=24$~\angs. All energies are reported in kcal/mol.}
+\centering
+\begin{tabular}{ccccccc}
+\hline
+$k$ & $\Delta G_{\text{drop-el}}$ & $\Delta G_{\text{cav}}$ & $\Delta 
+G_{\text{el}}$ & $\Delta G_{\text{LJ}}$ & $\Delta G_{\text{solv}}$ \\ \hline
+ 0.1 & $-97.0$ & $-7.0$ & $-104.0$ & $2.5$ & $-101.5$ \\ 
+ 0.5 & $-96.8$ & $-6.9$ & $-103.7$ & $2.5$ & $-101.2$ \\ 
+ 1.0 & $-97.0$ & $-6.8$ & $-103.8$ & $2.5$ & $-101.3$ \\
+10.0 & $-96.9$ & $-6.8$ & $-103.7$ & $2.5$ & $-101.2$ \\ \hline
+\end{tabular}
+\end{table}
+
+For a molecule with distributed partial charges, most of the charges will necessarily be at off-centre 
+positions when the centre of the charge is restrained at the origin. In order to ensure that the 
+proposed method can be applied to molecules, we need to show that its accuracy is maintained for 
+off-centre positions of charges, and find the maximum distance of charges from the centre for which 
+the method still gives an acceptable result. Such information will be useful for choosing an appropriate 
+system size when larger molecules are considered without the need to check the system size dependence 
+for each molecule. We place the ion at off-centre positions by applying a harmonic restraint of 
+10~\spring\ along the $z$-axis. Calculations are performed using a droplet size of 
+$R=24$~\angs\ and the results are shown in \tabref{solv:tab4}. We see that the converged value of the 
+solvation free energy is maintained up to 4~\angs\ from the centre. The maximum change in the energy is 
+about 0.3~kcal/mol for \Na\ and 0.1~kcal/mol for \Cl, which are within the statistical errors. At 
+8~\angs\ the ion solvation free energy is still within 1~kcal/mol, but at 12~\angs\ the inner and outer 
+shells start overlapping (\figref{solv:fig3}), which has a larger effect on the solvation free energy. 
+These results suggest that we can use a droplet size of $R=24$~\angs\ to determine the solvation free 
+energy accurately for solute molecules up to 8~\angs\ in length. Even for molecules of length 16~\angs, 
+the expected accuracy is about 1~kcal/mol. Thus using a droplet with radius 24~\angs\ should be adequate 
+for the charged amino acid side chain calculations performed in \secref{sec:chargedamino}.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/Solvation/fig4.jpg}
+\caption{Solvation free energy as a function of the droplet radius $R$ for 
+         \Na\ (top) and \Cl\ (bottom). Three sets of calculations are 
+         compared in the plot, corresponding to the three different spring 
+         constants used for the confinement of water molecules, 
+         $k_{s}=\{5, 10, 20\}$~\spring.}
+\label{solv:fig4}
+\end{figure}
+
+\begin{table}[b!]
+\caption{Same as \tabref{solv:tab2} but as a function of the ion 
+         off-centre positions along the $z$-axis with a droplet 
+         size of $R=24$~\angs.} 
+\label{solv:tab4}
+\resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccc}
+\hline
+& \multicolumn{5}{c}{\Na} & \multicolumn{5}{c}{\Cl} \\
+$z$ (\angs)& $\Delta G_{\text{drop-el}}$ & $\Delta G_{\text{cav}}$ & $\Delta 
+G_{\text{el}}$ & $\Delta G_{\text{LJ}}$ & $\Delta G_{\text{solv}}$ & $\Delta 
+G_{\text{drop-el}}$ & $\Delta G_{\text{cav}}$ & $\Delta G_{\text{el}}$ & 
+$\Delta G_{\text{LJ}}$ & $\Delta G_{\text{solv}}$ \\ \hline 
+ 0 & $-96.9$ & $-6.8$ & $-103.7$ & $2.5$ & $-101.2$ & $-78.5$ & $-6.8$ & 
+$-85.3$ & 4.7 & $-80.6$ \\
+ 1 & $-96.8$ & $-6.8$ & $-103.6$ & $2.5$ & $-101.2$ & $-78.5$ & $-6.8$ & 
+$-85.4$ & 4.6 & $-80.7$ \\ 
+ 2 & $-97.0$ & $-6.9$ & $-103.8$ & $2.5$ & $-101.3$ & $-78.7$ & $-6.9$ & 
+$-85.5$ & 4.8 & $-80.8$ \\ 
+ 4 & $-96.9$ & $-7.0$ & $-104.0$ & $2.4$ & $-101.5$ & $-78.5$ & $-7.0$ & 
+$-85.5$ & 4.7 & $-80.8$ \\ 
+ 8 & $-96.8$ & $-7.7$ & $-104.5$ & $2.5$ & $-101.8$ & $-78.5$ & $-7.7$ & 
+$-86.2$ & 4.6 & $-81.6$ \\ 
+12 & $-97.0$ & $-9.1$ & $-106.1$ & $2.5$ & $-103.6$ & $-78.7$ & $-9.1$ & 
+$-87.8$ & 4.8 & $-83.0$ \\ \hline
+\end{tabular}}
+\end{table}
+
+A droplet of size 24~\angs\ contains about 2000 water molecules, which is not a large system for today's 
+standards. However, repeated calculations of solvation free energies for parameter fitting purposes can 
+still turn this into a computationally expensive exercise. This is one of the main reasons why a much 
+smaller droplet radius has been used in previous calculations of solvation free energies. Nevertheless, 
+running these calculations on a GPU can significantly reduce the computation time. This is made possible 
+through GPU optimised codes like OpenMM. For example, for a droplet with radius 21~\angs, MD simulations 
+can be run at about 800 ns/day on a Tesla V100 GPU. Increasing the radius to 24~\angs, one can still get 
+600 ns/day, which is sufficient to perform 13 solvation free energy calculations per day. On a consumer-grade 
+GPU card (GTX 1080 Ti), the corresponding run times are 570 and 450~ns/day for 21~\angs\ and 
+24~\angs\ droplets, respectively. Thus, even using a system size of 24~\angs, 10--13 calculations can be 
+performed per day on a GPU, which should be sufficient for optimisation of force fields. These numbers 
+are for 1 ns production time per window, which is probably excessive. For large scale calculations, 
+production times can be optimised which will shorten the computation time further.
+
+Arguments made for the convergence of solvation free energies using SBC can also be made for PBC. Thus 
+it is of interest to repeat the calculations for the \Na\ and \Cl\ ions using PBC with a variable box 
+size. The results are presented in \tabref{solv:tab5} for box sizes varying from 20 to 60~\angs. 
+The convergence of the solvation free energies occurs around $L = 35$~\angs, which has a similar volume 
+to a droplet with $R = 21$~\angs, where the convergence occurs in a droplet. Thus at those volumes, boundary 
+artefacts cease to contribute to the solvation free energy of the ion regardless of the specific geometry 
+used. Comparing the SBC and PBC results in \tabrefn{solv:tab2} and~\ref{solv:tab5}, we see that there is 
+very good agreement between the two methods for \Na, but they differ by about a kcal/mol for \Cl.
+
+\begin{table}[b!]
+\caption{\label{solv:tab5} Break down of the solvation free energies as a function of the 
+box length $L$ for both \Na\ and \Cl. $\Delta G_{\text{solv}}^{\text{real}}$ is obtained 
+from $\Delta G_{\text{solv}}^{\text{intr}}$ by adding $−12.0z$ kcal/mol for the interfacial 
+potential. All energies are reported in kcal/mol, and the maximum statistical error for the 
+solvation free energies is 0.3 kcal/mol.}
+    \centering
+    %\resizebox{\textwidth}{!}{
+    \begin{adjustbox}{width=1.0\textwidth,center=\textwidth}
+    \begin{tabular}{ccccccccccccc}
+    \hline
+     & \multicolumn{6}{c}{\Na} & \multicolumn{6}{c}{\Cl} \\
+$L$ (\angs)& $\Delta G_{\text{box-el}}$ & $\Delta G_{\text{SE}}$ & $\Delta 
+G_{\text{el}}$ & $\Delta G_{\text{LJ}}$ & $\Delta G_{\text{solv}}^{\text{intr}}$ &  $\Delta G_{\text{solv}}^{\text{real}}$ & $\Delta 
+G_{\text{box-el}}$ & $\Delta G_{\text{SE}}$ & $\Delta G_{\text{el}}$ & 
+$\Delta G_{\text{LJ}}$ & $\Delta G_{\text{solv}}^{\text{intr}}$ &  $\Delta G_{\text{solv}}^{\text{real}}$ \\ \hline
+ 20 & -67.8 & -23.5 & -91.3 & 2.0 & -89.2 & -101.2 & -71.8 & -23.5 & -95.3 & 3.3 & -92.0 & -80.0 \\
+ 25 & -72.3 & -18.8 & -91.1 & 2.0 & -89.1 & -101.1 & -76.5 & -18.8 & -95.3 & 3.4 & -91.8 & -79.8 \\
+ 30 & -75.5 & -15.7 & -91.1 & 2.0 & -89.2 & -101.2 & -79.3 & -15.7 & -95.0 & 3.6 & -91.4 & -79.4 \\
+ 35 & -77.5 & -13.4 & -90.9 & 2.0 & -88.9 & -100.9 & -81.6 & -13.4 & -95.0 & 3.6 & -91.4 & -79.4 \\
+ 40 & -79.2 & -11.8 & -90.9 & 2.0 & -88.9 & -100.9 & -83.2 & -11.8 & -95.0 & 3.6 & -91.4 & -79.4 \\
+ 50 & -81.6 &  -9.4 & -91.0 & 2.0 & -89.0 & -101.0 & -85.4 &  -9.4 & -94.8 & 3.4 & -91.5 & -79.5 \\
+ 60 & -83.0 &  -7.8 & -90.8 & 2.0 & -88.9 & -100.9 & -87.1 &  -7.8 & -94.9 & 3.5 & -91.4 & -79.4 \\ \hline
+    \end{tabular}
+    \end{adjustbox}
+    %}
+\end{table}
+
+\subsection{Charged Amino Acids}
+\label{sec:chargedamino}
+As an application of the method, we consider the solvation free energies of the side chain analogues 
+for the four charged amino acids, which play important roles in protein interactions. Calculations 
+are performed using a droplet of size $R=24$~\angs\ and the same confinement potential with 
+$k_{s}=10$~\spring. The centre of charge of the molecules is restrained at the centre 
+with 10~\spring. The results are listed in \tabref{solv:tab6}, together with the experimental 
+values~\cite{Reif2012,Kelly2006}. To ensure that convergent results are also obtained for molecules, 
+we have repeated the acetate calculations using droplet sizes $R=36$ and 48~\angs. The results differed 
+from that of $R=24$~\angs\ by at most 0.1~kcal/mol, which is within the statistical errors. We have also 
+performed the acetate calculations using PBCs with box sizes varying from 20 to 60~\angs\ and obtained 
+a converged value of $−84.7$ kcal/mol. As in the case of \Cl, there is about a kcal/mol difference 
+between the SBC and PBC results. This is presumably caused by the interfacial potential, which shows 
+small variations depending on the model used in its computation. One consequence of using a relatively 
+large droplet is that the multipole contributions to the cavity term envisaged in Eq.~\eqref{eq:mse} 
+become negligibly small so that this term is essentially given by the Born energy in Eq.~\eqref{eq:born}.
+
+Comparing the calculated solvation free energies with the experimental values in \tabref{solv:tab6}, 
+it is seen that good agreement is obtained for the arginine analogue guanidinium. For the three lysine 
+analogues listed, the discrepancy between the experimental and calculated values varies from 
+4--6~kcal/mol. The solvation free energies are systematically under-predicted, suggesting that the 
+ammonium partial charges need to be boosted slightly in the lysine analogues. The discrepancy grows 
+to about 9~kcal/mol for the aspartate and glutamate side-chain analogues. The solvation free energies 
+are over predicted in both cases. Thus the partial charges on the O atoms of these side chains need 
+to be reduced to improve the agreement with the experiments. We note that in earlier calculations, 
+the experimental values from Sitkoff et al.~\cite{Sitkoff1994} were targeted where 
+$\Delta G^{\circ} [{\rm H}^+] =-261$~kcal/mol is used. This shifts the solvation free energies by 
+3 kcal/mol up for the positive side chains and down for the negative ones, making the calculated 
+lysine results more agreeable with experiment but sizeable discrepancies remain for the negative 
+side chains. To indicate the size of the correction needed, we have performed the acetate calculation 
+using the optimised OPLS-AA force field~\cite{Jensen2008}, which has a lower O charge ($-0.67e$ 
+compared to $-0.76e$ in CHARMM). As seen in \tabref{solv:tab6}, the discrepancy is reduced to about 
+4~kcal/mol, so there is further room for improving the aspartate and glutamate charges.
+
+\begin{table}[t!]
+\caption{Solvation free energies of the charged amino-acid side chain 
+analogues obtained using a droplet size of $R=24$~\angs. All energies are in 
+kcal/mol, and the maximum statistical error for the solvation free energies is 
+0.3~kcal/mol.}
+\label{solv:tab6}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{clcccccc}
+\hline
+Amino acid & \multicolumn{1}{c}{Analogue} & $\Delta G_{\text{drop-el}}$ & 
+$\Delta G_{\text{cav}}$ & $\Delta G_{\text{el}}$ & $\Delta G_{\text{LJ}}$ & 
+$\Delta G_{\text{solv}}$ &  Expt.$^{a}$ \\ 
+\hline 
+\multicolumn{ 1}{l}{arginine}  
+&guanidinium&        $-62.9$ & $-6.8$ & $-69.7$ & 1.4 & $-68.3$ & $-67.3$  \\ 
+&methyl-guanidinium& $-57.1$ & $-6.8$ & $-64.0$ & 1.9 & $-62.1$ &      \\ 
+&ethyl-guanidinium&  $-56.7$ & $-6.8$ & $-63.5$ & 2.5 & $-61.0$ &      \\ 
+&n-propyl-guanidinium& $-56.6$ & $-6.8$ & $-63.4$ & 3.3 & $-60.1$ &    \\[1mm]
+\multicolumn{ 1}{l}{lysine}    
+& ammonium & $-75.8$ & $-6.8$ & $-82.6$ & 2.5 & $-80.1$ & $-85.2$\\ 
+& methyl-ammonium & $-66.4$ & $-6.8$ & $-73.2$ & 2.9 & $-70.3$ & 
+$-76.4$ \\ 
+& ethyl-ammonium & $-65.0$ & $-6.8$ & $-71.8$ & 3.2 & $-68.6$    &  \\ 
+& n-propyl-ammonium & $-64.3$ & $-6.8$ & $-71.1$ & 3.8 & $-67.3$ &  $-71.5$ \\ 
+& n-butyl-ammonium & $-64.4$ & $-6.8$ & $-71.2$ & 4.4 & $-66.8$  & \\[1mm]
+%\multicolumn{ 1}{l}{histidine} & imidazolium    & 
+% $-54.1$ & $-6.8$ & $-60.9$ & $2.4$ & $-58.5$ &  & $-63.1$ \\
+%                & methly-imidazolium   & 
+% $-51.0$ & $-6.8$ & $-57.8$ & $3.7$ & $-54.1$ &  & $-64.1$   \\
+\multicolumn{ 1}{l}{aspartate} 
+& acetate  & $-82.9$ & $-6.8$ & $-89.7$ & 3.6 & $-86.1$ & $-77.6$\\
+& acetate (OPLS-AA)$^{b}$ 
+           & $-76.8$ & $-6.8$ & $-83.6$ & 1.9 & $-81.7$  &   \\[1mm]
+\multicolumn{ 1}{l}{glutamate} 
+&propanoate& $-82.3$ & $-6.8$ & $-89.2$ & 4.1 & $-85.1$ & $-76.2$\\ \hline
+\end{tabular}}
+%\centering
+{\footnotesize $^{a}$All experimental values are from Kelly et al.~\cite{Kelly2006}
+except for guanidinium which is taken from Reif et al.~\cite{Reif2012} The 
+guanidinium value is adjusted to make it consistent with the Kelly et al. 
+set~\cite{Kelly2006}, i.e., 1.9~kcal/mol is subtracted for conversion of the state 
+from 1~bar to 1~M in the gas phase and 1.1~kcal/mol is subtracted to shift the 
+$\Delta G^{\circ} [{\rm H}^+]$  value to that of Tissandier et al.~\cite{Tissandier1998}. \\
+$^{b}$Acetate parameters from Ref.~\cite{Jensen2008}
+(q,$\sigma$,$\epsilon$): 
+O=($-0.67e$, 2.96~\angs, 0.21~kcal/mol), 
+C=($0.44e$, 3.75~\angs, 0.105~kcal/mol).}
+\end{table}
+
+The above observations about the charges on the side chains of the amino acids Arg, Lys, Asp, and Glu 
+are consistent with the observed behaviour of the side-chain interactions during dissociation of peptide 
+ligands from proteins~\cite{Rashid2014,Rashid2012}. The N--O distances between two side chains, monitored 
+during potential of mean force calculations, reveal that Arg--Asp and Arg--Glu contacts can persist beyond 
+10~\angs\ but such an unexpected behaviour does not occur for Lys contacts. The persistence of the former 
+contacts can be explained by the overcharging of the O atoms in the Asp and Glu side chains which, 
+therefore can stick to the Arg side chain longer than expected. The undercharging of the Lys side chain 
+apparently counters the stickiness of the Asp and Glu side chains so that such a persistence of contacts 
+is not seen in Lys interactions. 
+
+\section{Conclusion}
+A spherical droplet provides the simplest and physically most transparent system for calculation of 
+solvation free energies of ions. We have shown that artefacts arising from the boundary with vacuum 
+become negligibly small for droplet sizes of $R=21$~\angs\ so that one can obtain uniquely convergent 
+solvation free energies independent of the parameters used for confining water in the droplet or 
+restraining the ion at the centre. The computational effort required is rather small for a single 
+calculation, and the method can be easily upscaled for optimisation of force fields using GPUs and 
+clusters.
+
+Application of the method to the calculation of solvation free energies of ions and the side chain analogues 
+of charged amino acids have revealed discrepancies with experiments in several cases. A sizeable portion 
+of the discrepancies is caused by the older experimental values used in fitting the force fields, which 
+have been shifted in the new compilations by the choice of $\Delta G^{\circ} [{\rm H}^+]$~\cite{Tissandier1998,Kelly2006}. 
+The free energy calculations can be performed with chemical accuracy nowadays, but this would be of little 
+value if the results are affected by inaccuracies in force fields. So it is important to optimise force 
+fields using the latest solvation free energies. The uniquely convergent solvation free energies obtained 
+using our method could help to make this process more robust.
+%=======================================================================================%

@@ -1,0 +1,193 @@
+\documentclass[titlepage,12pt,twoside,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{pdfcolmk}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{adjustbox}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{amstext}
+\usepackage{amsthm}
+\usepackage{rotating}
+\usepackage{enumerate}
+\usepackage{epigraph}
+\usepackage[backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,url=true,arxiv=false]{biblatex}
+\addbibresource{references.bib}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=red,
+    filecolor=black,
+    linkcolor=cyan,
+    urlcolor=blue
+}
+\usepackage{multirow}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{url}
+\usepackage{lscape}
+\usepackage{afterpage}
+\usepackage{longtable}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{parskip,array,booktabs}
+\raggedbottom
+\DeclareUnicodeCharacter{2212}{-}
+\DeclareUnicodeCharacter{0301}{\'{e}}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{appendix}
+\usepackage{blindtext}
+\usepackage{tikz}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% PAGE SETUP        %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\geometry{paper=a4paper,            % scientific thesis standard
+            left=3cm,
+            right=2.5cm,
+            top=3cm,
+            bottom=3cm,
+ }
+\setlength{\headheight}{27.2pt}
+
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyhead[LO]{\slshape \rightmark}
+\fancyhead[RO,LE]{\textbf{\thepage}}
+\fancyhead[RE]{\slshape \leftmark}
+\fancyfoot{}
+\pagestyle{fancy}
+
+\makeatletter
+\makeatother
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% NEW COMMANDS      %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter \ \ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection \ \ #1}}
+\renewcommand{\eqref}[1]{\textup{\color{cyan} {\normalfont(\ref{#1}}\normalfont)}}
+\newcommand{\figref}[1]{\hyperref[#1]{Fig.~\ref*{#1}}}
+\newcommand{\figrefi}[2]{\hyperref[#1]{Fig.~\ref*{#1}~#2}}
+\newcommand{\figrefs}[1]{\hyperref[#1]{Figs.~\ref*{#1}}}
+\newcommand{\figrefn}[2]{\hyperref[#1]{Figs.~\ref*{#1}~#2}}
+\newcommand{\figrefni}[2]{\hyperref[#1]{Figs.~\ref*{#1}--#2}}
+\newcommand{\tabref}[1]{\hyperref[#1]{Table~\ref*{#1}}}
+\newcommand{\tabrefn}[1]{\hyperref[#1]{Tables~\ref*{#1}}}
+\newcommand{\secref}[1]{\hyperref[#1]{Section~\ref*{#1}}}
+\newcommand{\appref}[1]{\hyperref[#1]{Appendix~\ref*{#1}}}
+\newcommand{\chapref}[1]{\hyperref[#1]{Chapter~\ref*{#1}}}
+
+\newcommand{\chapquote}[3]{\begin{quotation}\textit{#1}\end{quotation} \begin{flushright}#2\end{flushright}}
+
+\newcommand{\angs}{\textup{\AA}}
+\newcommand{\Rmin}{$R_{\text{min}}$}
+\newcommand{\spring}{kcal/mol/\AA{}\textsuperscript{2}}
+\newcommand{\prim}{\textsuperscript{$\prime$}}
+\newcommand{\dprim}{\textsuperscript{$\prime\prime$}}
+\newcommand{\Na}{Na$^+$}
+\newcommand{\K}{K$^+$}
+\newcommand{\Hi}{H$^+$}
+\newcommand{\Cl}{Cl$^-$}
+\newcommand{\Ca}{Ca$^{2+}$}
+\newcommand{\Tl}{Tl$^+$}
+\newcommand{\GltPh}{Glt$_\text{Ph}$}
+\newcommand{\GltTk}{Glt$_\text{Tk}$}
+\newcommand{\pka}{p\textit{K}\textsubscript{a}}
+\newcommand{\kT}{k_{\text{B}}T}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE TEXT     %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\input{01-Title-Page}
+\input{02-Authorship}
+\input{03-Abstract}
+\input{04-Acknowledgements}
+\input{05-Publications}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% TABLE OF CONTENTS %%
+%%%%%%%%%%%%%%%%%%%%%%%
+{
+\hypersetup{linkcolor=black}
+\tableofcontents
+}
+
+\addcontentsline{toc}{chapter}{\hyperref[chap:abbrev]{List of Abbreviations}}
+\input{06-Abbreviations}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+{
+\hypersetup{linkcolor=black}
+\listoffigures
+}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+{
+\hypersetup{linkcolor=black}
+\color{black}
+\listoftables
+}
+\clearpage
+
+\clearpage
+\thispagestyle{empty}
+\vspace*{2.0in}
+\chapquote{``Research is what I'm doing when I don't know what I'm doing."}{Wernher von Braun}
+
+\clearpage
+\blankpage
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% MAIN TEXT         %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\input{07-Introduction}
+\input{08-Methods}
+
+\input{09-GltPh-Review}
+\input{10-GltPh-Na2}
+\input{11-GltPh-Binding}
+\input{12-GltPh-Na3}
+\input{13-Gramicidin}
+\input{14-Solvation}
+
+\input{15-Conclusion}
+\input{16-Appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography      %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\printbibliography[heading=bibintoc]
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Last Quote        %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\blankpage
+
+\clearpage
+\thispagestyle{empty}
+\vspace*{2.0in}
+\chapquote{``Nothing ventured, nothing gained."}{}
+
+
+\end{document}

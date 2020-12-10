@@ -1,0 +1,168 @@
+%=======================================================================================%
+\chapter{Concluding Remarks}
+\label{chap:conc}
+\chapquote{``There is no real ending. It’s just the place where you stop 
+the story."}{Frank Herbert}
+
+\section{Summary of Research}
+The use of atomistic computer models provides a valuable tool to probe systems at the 
+molecular level that cannot be reached by current experimental methods. The rise of and 
+continued improvements to computer technology, both hardware and software, is paving the 
+way for research avenues that seemed impossible only a few decades ago. With current 
+hardware technology, it is now possible to perform advanced free energy calculations to 
+predict quantities that can be compared to experiments, which is one of the goals of 
+computer simulations. This thesis presents the investigation of using free energy methods 
+to explain observations in biological molecules.
+
+The first three results chapters (4-6) investigate the interaction of ligands in glutamate 
+transporters. Due to the availability of the crystal structure, the focus is on the archaeal 
+homologue. The first study investigates the apparent discrepancy between experiment and 
+simulation of the Na2 site. \Na\ ion is observed in simulations to be unstable in the Na2 
+site and always leaves the binding site. The root cause of this issue is the undercharging 
+of the S atom in the methionine residue (\GltPh:M311 and \GltTk:M314). Increasing the 
+partial charge on the S atom by a factor of three from the default value brings the ion 
+closer to the binding site. Calculation of the binding free energy also agrees with the 
+experimental value, which was previously estimated as a positive value. The work done in 
+this project reconcile the discrepancy between simulation and experiment for the Na2 site. 
+In addition, the methionine residue is conserved throughout the SLC1 family, and methionine 
+mutations are involved in diseases like Alzheimer's disease. Thus this study highlights the 
+importance of having a properly parametrised force field.
+
+The second study of glutamate transporters focuses on the ligand-binding mechanism before 
+the closing of the HP1-HP2 gate and the binding of the second ion at Na2. Previous binding 
+free energy calculations indicated high-affinity binding for the second \Na\ ion and 
+low-affinity binding for Asp. Experimental results published after these computational 
+studies show the opposite behaviour. In this second study, other potential ion binding 
+states are searched. Starting with an intermediate site called Na1\prim, observed in 
+previous computational studies, the possibility of a second \Na\ binding to \GltPh\ at this 
+state is probed. Remarkably the \Na\ ion binds to the D405 residue that was initially bound 
+to Na1\prim. The two ions are each bound to an aspartate residue (D405 and D312) with a 
+separation distance of 3.5~\angs. The binding free energy of the outermost ion in this state 
+(Na1--Na1\prim) is less than the value in the previous state (Na1--Na3), and this value agrees 
+with experimental results. In addition, Asp also binds to \GltPh\ with the Na1--Na1\prim\ ion 
+state with a binding free energy in good agreement with the experimental value, resolving the 
+discrepancy in previous calculations. This suggests that the substrate binds to the protein 
+with two ions bound at the Na1--Na1\prim\ state, which is not a state known before in glutamate 
+transporters.
+
+Previous studies established that the Na3 site is the deepest binding site and hypothesised 
+as the final ligand to leave the protein. The final work in \GltPh\ reported in 
+\chapref{chap:unbind} attempts to estimate the release time of \Na\ from the Na3 site to the 
+bulk. Previous calculations employed path-independent free energy methods; however, recent 
+experimental observations indicate ligand binding triggers conformational changes in the 
+protein. Thus a path-dependent method is used to capture the effect of protein conformation. 
+The PMF profile for Na3 $\rightarrow$ Na1\prim\ reveals a 17 kcal/mol energy barrier. Along 
+the transition, significant conformational changes are observed in the NMDGT motif primarily 
+in the N310 and D312 residues. Inspection of the umbrella windows reveals that D312 plays a 
+chaperoning role for \Na\ while N310 behaves like a ratchet that prevents \Na\ from falling 
+back to the Na3 site. The transition time estimated with the Smoluchowski equation is around 
+7 sec, which is about 4\% of the total turnover time of \GltPh\ at 3 min. Two other transitions 
+take place after this before \Na\ reaches the bulk environment, and the transition times are 
+significantly faster. This study reveals that the release of the last \Na\ is definitely a slow 
+process, but it is not the rate-limiting step in the transport cycle. In addition, this finding 
+may explain the need for a \K\ ion to speed the process in the mammalian variants.
+
+The first side project in \chapref{chap:gA} attempts to investigate the cause for the difference 
+in ion conductance of gA embedded in different lipids as observed in experiments. Indeed, the 
+PMF profile obtained from umbrella sampling indicates a difference in energy barrier in \K\ 
+ion permeation in gA between POPC and NODS lipids. A breakdown of the potential energy reveals 
+significant differences in the interactions of the \K\ ion with the lipid head group and water 
+molecules at the interface. The phosphate head group in POPC has a stronger dipole moment 
+compared to NODS, and this orients water molecules at the lipid-water interface. The orientation 
+of the water molecules at the interface produces the larger energy barrier in the PMF and 
+explains the apparent impedance in ion conductance.
+
+The last project reported in \chapref{chap:ions} deals with the simplest system investigated, 
+the solvation of ions and small molecules. The purpose of this project is to compare results 
+for solvation free energy using two different boundary conditions; PBC and SBC. The 
+investigation found that the energies converge to a unique value above a critical volume, 
+which is similar in both systems. In particular, for SBC this means that the boundary effects 
+(water polarisation at the liquid-vacuum boundary) become negligible. This was a problem back 
+in the 1990s as the hardware technology limits the calculations to very small systems (radius 
+of 8--12~\angs). With small systems, the polarisation of water molecules at the boundary affects 
+the final solvation free energy, and thus angular restraints are applied, creating a buffer zone. 
+Increasing the radius to $>$21~\angs\ reduces the boundary effects but increases the computation 
+time. Running these calculations on the GPUs, however, removes this limitation and allows for 
+the calculations of larger systems. In addition to the solvation of ions, the solvation of amino 
+acid side chain analogues reveals problems with the current force field parameters. The results 
+show an overestimation of the energies for the negative amino acids by about 9 kcal/mol. This 
+explains the apparent stickiness between aspartate/glutamate with arginine during peptide-protein 
+dissociation.
+
+\section{Potential Future Research}
+For glutamate transporters, there are a number of avenues for future work. As noted in 
+\chapref{chap:bind} it is not possible to estimate the transition time from Na1\prim\ to 
+Na3 in the presence of Asp and Na1 with the MD/FEP. A potential project would be to use 
+a path-dependent method to obtain the PMF profile between the two states. One difficulty 
+with this, however, is the flipping of N310 and conformational changes in the protein, 
+which requires the construction of a multidimensional PMF. Although this increases the 
+computation time of the calculations, future generation hardware technology will definitely 
+make it easier. In addition to ligand binding, the transition time for the translocation 
+of the transport domain from the outward to inward conformation is an important avenue to 
+research. An estimate of such transition time may reveal the rate-limiting step in the 
+transport cycle. One hurdle with calculating this is the choice of collective variable (or 
+reaction coordinate) as a simple distance with respect to the membrane normal may not be 
+adequate. Recently, a new method for choosing appropriate collective variables with machine 
+learning is reported~\cite{Sultan2018}. In this method, the algorithm studies the endpoints 
+between transitions and identifies suitable collective variables by supervised learning. 
+More than one collective variable might be needed to describe the motion. A dimensionality 
+reduction representation can be used in this case with either the string method 
+\cite{Gan2009,Maragliano2006} or the path-collective variables (PCV)~\cite{Branduardi2007}. 
+The string method coupled with quaternion based collective variables has been used to describe 
+the transition of glycerol-3-phosphate: phosphate antiporter (GlpT) from the OF to IF 
+conformation~\cite{Moradi2015}. Thus estimating the transition energy from the OF to IF in 
+\GltPh\ may not be an impossible task. Given the PMF, it is also possible to estimate the 
+diffusion profile more accurately with a Bayesian estimator based on the ABF 
+method~\cite{Comer2013a}. A comparative study with the EAATs will be an appropriate study 
+to explain the faster turnover rate of EAATs potentially. The recent crystal structure of an 
+engineered EAAT1 protein is a potential candidate for the template of homology 
+models~\cite{Canul-Tec2017}. As mentioned previously in the conclusion of \chapref{chap:bind}, 
+the two-ion intermediate state may be the key to the \K-\Na\ exchange process, which may 
+explain the faster turnover rate. It may also be possible to use the current methods used in 
+this thesis to study the effect of certain mutations in neurological diseases. For example, 
+if a certain mutation in EAATs is linked to a neurological disease, we can study the effect 
+of the mutation to ligand binding. If the mutation disrupts the ligand binding free energy, 
+then the signals in the nervous system are impaired. The predictions from simulations can be 
+compared and verified with physiological experiments. This is just one way to study the impact 
+of mutations on certain neurological diseases. Also, once the effect of the mutation is 
+defined, it is possible to use this as a target for drug design (can be studied using 
+the free energy methods used in this thesis).
+
+One of the significant problems with computational studies of gA is the lack of explicit 
+polarisation in classical force fields. A recent computational study with the polarisable 
+AMOEBA force field reduces the barrier to about 5 kcal/mol~\cite{Peng2016}. This improvement 
+comes from an increase in the dipole moment of the neighbouring water molecules from 2.59 D 
+to 2.70 D. However, QM/MM simulations indicate that the dipole moment can vary from 1.80 to 
+As mentioned previously2.85 D~\cite{Timko2012}. Although the AMOEBA force field improves the 
+PMF and ultimately the conductance, the value is still about 30\% off. Thus, further study 
+can be done in investigating the effect of polarisation in gA, and the extension to divalent 
+ions like \Ca\ can be studied with the AMOEBA force fields. Besides parametrisation, gA can 
+be used as a benchmark system to compare the current polarisable force field models (the fluctuating 
+charge, Drude oscillator and induced polarisation) or potential future models  that can determine 
+the robustness of the models.
+
+A major issue with using SBC for MD simulation is the internal pressure that arises due 
+to the vacuum that is not investigated in this thesis. The water molecules minimise its 
+surface area, much like a soap bubble in the air. Many authors have attempted to fix this issue 
+by applying an empirical potential that pushes water molecules out of the 
+centre~\cite{Essex1995,Marelius1999,Deng2004}. However, these potentials need to be 
+parametrised for specific droplet sizes. Thus one possible future project is to investigate 
+the pressure as a function of droplet radius. An analytical correction to the pressure may 
+then be constructed based on this study. Another approach to correct for the pressure is to 
+apply a potential on the water molecules that is independent of the droplet size. This will 
+require testing on different potential functions that can recover the radial density of water 
+profile to that of the experimental value. In addition to the pressure issue in SBC, the 
+negatively charged amino acids in the CHARMM force field overestimates the solvation energies 
+compared to the experimental values from Kelly et al.~\cite{Kelly2006}. This has a crucial 
+implication for not only CHARMM but for other force fields. Taking acetate as an example, 
+the CHARMM force field applies NBFix that replaces the normal LJ values with different 
+values between pairs to match the osmotic pressure from experimental data~\cite{Venable2013}. 
+It might be possible to obtain parameters without NBFix by first calculating the solvation 
+free energy with different parameters for the O atom ($q$, $\epsilon$, R$_{\text{min}}$). 
+Since there may be more than one minimum in the parameter set from the solvation energy, 
+the global minimum must be chosen by fitting the osmotic pressure for \Na\ or \K\ to 
+experimental data \cite{Robinson2002}. Data for arginine and lysine side-chain analogues 
+also exists. Thus it might be possible to obtain a self-consistent parameter set without 
+the need for NBFix. This may resolve the issue with the stickiness observed in peptide-protein 
+interactions, and the work can be extended to polarisable force fields.
+%=======================================================================================%

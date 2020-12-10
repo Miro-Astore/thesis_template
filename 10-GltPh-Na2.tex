@@ -1,0 +1,346 @@
+%=======================================================================================%
+\chapter{Role of Methionine in Na2 Binding in \GltPh}
+\label{chap:na2}
+ABSTRACT \newline
+
+Glutamate transport through the excitatory amino acid transporters is coupled to the 
+co-transport of three \Na\ ions, the binding sites (Na1--Na3) of which are conserved from 
+archaea to mammalians. Molecular dynamics (MD) simulations reproduce Na1 and Na3 binding
+sites observed in the crystal structures but fail in the case of Na2. A distinguishing 
+feature of the Na2 site is that an S atom from a conserved methionine residue is in the 
+coordination shell of \Na. We perform MD simulations on the recent \GltTk\ structure 
+and show that the problem with the Na2 site arises from using an inadequate partial charge 
+for S. When methionine is appropriately parametrised, both the position and the binding 
+free energy of \Na\ at the Na2 site can be reproduced in good agreement with the 
+experimental data. Other properties of methionine, such as its dipole moment and the 
+solvation energy of its side chain analogue, also benefit from this reparametrisation. Thus, 
+the Na2 site in glutamate transporters provides a good opportunity for a proper 
+parametrisation of methionine in MD force fields.
+
+\newpage
+\section{Introduction}
+\label{na2:intro}
+Glutamate is transported across membranes by excitatory amino acid transporters (EAATs), 
+which clear excess extracellular glutamate at synapses~\cite{Danbolt2001}. A unifying 
+feature of the glutamate/aspartate transport is that it is coupled to the co-transport 
+of three \Na\ ions~\cite{Zerangue1996,Groeneveld2010} binding sites of which (Na1--Na3) 
+appear to be conserved from archaea to mammalians~\cite{Vandenberg2013}. While there are 
+no crystal structures of EAATs for mammalians yet, several structures have been determined 
+for archaeal homologues, e.g., \GltPh\ from {\it Pyrococcus horikoshi}~\cite{Yernool2004,
+Boudker2007,Reyes2009,Verdon2012,Verdon2014} and \GltTk\ from {\it Thermococcus kodakarensis
+}~\cite{Jensen2013,Guskov2016}. In the GltPh structures, \Tl\ ions were substituted for \Na\ 
+to increase the visibility of the bound ions, which allowed identification of the Na1 and Na2 
+sites but not Na3. The latest high-resolution \GltTk\ structure was obtained in the presence 
+of \Na\ ions, and all three ion binding sites were identified~\cite{Guskov2016}. There was a good 
+agreement for the Na1 and Na2 sites between the \GltPh\ and \GltTk\ structures, confirming that 
+\Tl\ was a good substitute for \Na. A possible explanation for the non-observation of the Na3 
+site in the \GltPh\ structures is that the path leading to this site is too narrow, which 
+prevents \Tl\ substitution for \Na.
+
+Many molecular dynamics (MD) simulations of \GltPh\ have been performed to study the various 
+steps involved in the transport mechanism from the initial binding of ions and substrate in the 
+outward-facing conformation to their release in the inward-facing conformation (see 
+Ref.~\cite{Setiadi2015} for a recent review). There was general agreement between the simulation 
+results and experimental observations with regard to the Asp and Na1 binding sites 
+\cite{Shrivastava2008,Huang2008,Grazioso2012,DeChancie2011a,Heinzelmann2011,Heinzelmann2013,Heinzelmann2014a}, 
+but the description of the Na2 site remained problematic. In most MD simulations, the \Na{} ion 
+left the Na2 site within a few nanoseconds~\cite{DeChancie2011a,Heinzelmann2011,Heinzelmann2013,
+Heinzelmann2014a,Venkatesan2015}, and its binding free energy was found to be 
+positive~\cite{Heinzelmann2013,Heinzelmann2011}. The \Tl\ substitution for \Na\ was proposed as a 
+possible source of this discrepancy. The missing Na3 site in the \GltPh\ structure was also searched 
+for with MD simulations, and three different sites were proposed~\cite{Larsson2010,Huang2010,
+Bastug2012}. Observation of the Na3 site in the latest \GltTk\ structure~\cite{Guskov2016} has 
+settled this issue, confirming that the site proposed in Ref.~\cite{Bastug2012} is the correct one. 
+
+The latest \GltTk\ structure has also provided important clues for the resolution of the Na2 problem 
+in MD simulations. By firmly establishing that the S atom of methionine in the conserved NMDGT motif 
+is in the coordination shell of \Na\ at the Na2 site, it has focused attention on the methionine 
+parameters and, in particular, the S atom. The partial charge on S widely differs among the common 
+force fields, varying from $-0.09e$ in CHARMM~\cite{MacKerell1998}, to $-0.27e$ in 
+AMBER~\cite{Hornak2006}, and $-0.33e$ in OPLS~\cite{Jorgensen1996}. The lack of a simple system 
+which could be used to determine the partial charge on S is the main reason for the uncertainty 
+in the charge value. The fact that methionine can assume a variety of roles in proteins from 
+non-polar to polar further complicates its parametrisation. In this regard, the Na2 site in 
+glutamate transporters, with a well-determined coordination shell and binding free energy for the 
+\Na{} ion, offers a good opportunity to optimise the partial charge on the S atom of methionine. 
+We note that a conserved methionine is also found in the ion-binding site of the Nramp family of 
+divalent metal transporters~\cite{Ehrnstorfer2014}, and its role in the selectivity for 
+transition-metal ions was investigated in MD simulations~\cite{Bozzi2016}. However, the divalent 
+ions are poorly described in the current non-polarisable force fields, which prevents using this 
+system to determine the partial charges on methionine.
+
+Here we perform MD simulations on the fully bound \GltTk\ structure~\cite{Guskov2016} using the 
+CHARMM force field. The charge on the methionine S atom is systematically varied while the neutrality 
+of its side chain is maintained. The coordination of \Na\ and its binding free energy at the Na2 site 
+are determined from MD simulations and compared to the experimental data to find an optimal value for 
+the charge on S. The effect of the modified parameters on the dipole moment of methionine and the 
+solvation energy of its side chain analogue are also considered for further tests of their suitability.
+
+\section{Method}
+\label{na2:theory}
+\subsection{Model System and MD Simulations}
+The recently resolved crystal structure of \GltTk\ with all three \Na\ and aspartate bound 
+(PDB ID 5E9S)~\cite{Guskov2016} is used in MD simulations. The trimer is embedded in a 
+1-palmitoyl-2-oleoylphosphatidylethanolamine (POPE) phospholipid bilayer and solvated in a box of 
+TIP3P molecules. The system is neutralised and ionised using 0.15 M NaCl. The simulation system is 
+prepared using the VMD software package~\cite{Humphrey1996} and contains a total of $\sim$100,000 atoms. 
+MD simulations 
+are performed using NAMD (version 2.11)~\cite{Phillips2005} with the CHARMM36 force 
+field~\cite{Brooks2009}. We consider a total of eight different charges on the S atom of methionine, 
+including the CHARMM default value $q=\{-0.09,-0.15,-0.20,-0.25,-0.30,-0.40,-0.50\}e$. In order to 
+maintain the neutrality of the side chain of methionine, the charges on the neighbouring C$_{\gamma}$ 
+and C$_{\epsilon}$ atoms are increased commensurately. The temperature of the system is kept 
+constant at 300 K with a Langevin damping of 5 ps$^{-1}$, and the pressure is maintained at 1 atm 
+using the Langevin piston method with a damping coefficient of 20 ps$^{-1}$ (NPT 
+ensemble)~\cite{Feller1995}. The particle-mesh Ewald (PME) method is used with periodic boundary 
+conditions~\cite{Darden1993}. Non-bonded interactions are truncated at 12 \angs\ and replaced 
+with a switching function starting from 10 \angs. A time step of 2 fs is used throughout the MD 
+simulations.
+
+\subsection{Free Energy Calculations}
+The standard binding free energy of an ion is expressed as~\cite{Boresch2003}
+\begin{equation}
+\Delta G_{\text{b}} = \Delta G_{\text{int}} + \Delta G_{\text{tr}}.
+\end{equation}
+The first term describes the free energy change in translocating the ion from bulk to the binding 
+site, while the second term represents the loss in translational entropy during this process. The 
+translational free energy difference is evaluated from the fluctuations of the ion positions in the 
+binding site in unrestrained MD simulations. Assuming a Gaussian distribution for the fluctuations, 
+the free energy difference is given by~\cite{Carlsson2005}
+\begin{equation}
+\Delta G_{\text{tr}} = -k_{\text{B}}T\, \text{ln} \left[\frac{(2\pi e)^{3/2}\sigma_{x}\sigma_{y}\sigma_{z}}{V_{0}} \right],
+\end{equation} 
+where $\sigma$'s are the principal root mean square fluctuations of \Na, $V_{0} = 1661$ $\AA^{3}$ is 
+the volume for the standard concentration of 1~M, and $e$ is Euler's number. The free energy of 
+translocation is calculated using the free energy perturbation (FEP) method~\cite{Chipot2007}. We 
+used exponentially spaced lambda values to reduce the number of windows to 66 instead of 130, which 
+is required for FEP calculations when a charge is created/annihilated~\cite{Heinzelmann2011}. Each 
+window is equilibrated for 40 ps followed by 40 ps of production run. Following previous FEP 
+calculations~\cite{Heinzelmann2011}, we transform the \Na\ ion to a water molecule at the Na2 site, 
+while the reverse transformation is performed in bulk simultaneously in the same system. We 
+transform the \Na\ into water because, in unrestrained MD simulations without a \Na\ ion at the 
+Na2 site, a water molecule fills this site within a short simulation time~\cite{Heinzelmann2011}. 
+Performing the site/bulk FEP calculations simultaneously in the same system preserves the charge 
+neutrality of the system and also avoids simulation artefacts arising from the use of different systems 
+for site and bulk.
+
+\subsection{Methionine Side Chain Analogue}
+Because methionine is oxidised in solution, we consider its side chain analogue (methyl ethyl sulphide) 
+to examine the effect of the modified parameters on the solvation energy. The side chain analogue was 
+built by removing the acid part of methionine and terminating the C$_{\beta}$ atom with a third 
+hydrogen atom. The partial charge of C$_{\beta}$ is adjusted to maintain neutrality. The system is 
+solvated with TIP3P water in a box with dimensions $50\times 50\times 50$ \AA$^3$ ($\sim$11,700 
+atoms). The solvation free energy is calculated using the FEP method, where the molecule in the 
+system is annihilated by turning off the electrostatic and Lennard-Jones (LJ) interactions. To 
+improve convergence, we split the two interactions and calculate them separately. Thus, the 
+solvation free energy is the sum of the two free energy terms 
+\begin{equation}
+\Delta G_{\text{solv}} = \Delta G_{\text{Elec}} + \Delta G_{\text{LJ}}.
+\end{equation}
+The FEP calculations are performed with 31 lambda values, concentrating more points in the end-points. 
+At each lambda value, we perform 20 ps of equilibration and 20 ps of production run. We apply an 
+analytical correction to the long-range part of the LJ calculations to account for the long-range 
+part that is lost due to the use of a switching function and cut-off in the LJ potential. A 
+long-range correction is an option available in NAMD with the keyword \verb+LJcorrection+, and 
+the implementation follows that of Ref.~\cite{Shirts2007}.
+
+\section{Results and Discussion}
+\subsection{Characterisation of the Na2 Site: Experiments vs MD Simulations}
+The residues that coordinate the \Na\ ion at the Na2 site of \GltTk\ are shown in \figref{na2:fig1} 
+(PDB ID: 5E9S)~\cite{Guskov2016}. The same residues have also been found to coordinate the \Tl\ ion 
+at the Na2 site of \GltPh\ (PDB ID: 2NWX)~\cite{Boudker2007}. To make the comparison more quantitative, 
+we list the distances between the \Tl/\Na\ ion and the coordinating atoms in \tabref{na2:tab1}. 
+Allowing for the differences between the ionic radii of \Tl\ and \Na\ (radius of \Tl\ is 0.5~\AA\ 
+larger than that of \Na)~\cite{Shannon1976} and the resolutions of the crystal structures (2NWX, 
+3.5~\AA\ vs 5E9S, 2.8~\AA), there is good agreement between the two Na2 sites. In particular, 
+the \Tl$-$S and \Na$-$S distances match very well with the contact distances obtained from the ionic 
+radii (3.34~\AA\ and 2.86~\AA, respectively)~\cite{Shannon1976}, which leaves no doubt that the S 
+atom is in the coordination shell of the respective ion in both crystal structures.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/Na2-Paper/fig1.jpg}
+\caption{Residues coordinating the \Na\ ion (yellow ball) at the Na2 site of \GltTk\ crystal
+structure~\cite{Guskov2016}. The Na2 site is in between transmembrane helix 7 (TM7, green) and
+hairpin 2 (HP2, violet). In MD simulations with the CHARMM force field, \Na\ moves away from 
+the S atom of M314 to a new site (orange ball). When the charge on the S atom is boosted from
+$q=-0.09e$ to $q=-0.03e$, \Na\ remains at the Na2 site (blue ball overlapping with the yellow
+ball).}
+\label{na2:fig1}
+\end{figure}
+
+The inability of the MD simulations to hold the \Na\ ion at the Na2 site of \GltPh\ has already been 
+noted in the \hyperref[na2:intro]{Introduction}. A similar result has been obtained for the Na2 site 
+of \GltTk\ using the AMBER force field~\cite{Guskov2016}. Performing MD simulation on \GltTk\ using 
+the CHARMM force field, we also reach the same conclusion: the \Na\ ion immediately moves away from 
+the S atom of M314 to an alternative site at the protein-water interface, coordinated with about two 
+water molecules (\figref{na2:fig1} and the fourth column in \tabref{na2:tab1}). With longer MD 
+simulations, the \Na\ ion leaves this site as well. Further evidence for the instability of \Na\ at 
+this site is provided by the binding free energy calculations, which yield a positive value (see below).
+
+\subsection{Optimising the Partial Charges on Methionine}
+The above results indicate that the charge on the S atom of methionine is inadequate for binding 
+\Na\ at the Na2 site and needs to be boosted. To find a better value for the charge on the S atom, 
+we perform several MD simulations with the charge varying from $-0.09e$ to $-0.50e$ (listed in 
+\hyperref[na2:theory]{Methods}). For each system, we perform 10~ns unrestrained MD simulation and 
+determine the average distances between \Na\ and the coordinating atoms. Variation of the coordination 
+distances with the charge on S is shown in \figref{na2:fig2}. The coordination distances are normalised 
+with those from the \GltTk\ crystal structure (third column in \tabref{na2:tab1}) so that 1 corresponds 
+to perfect agreement with the experimental data. It is seen that for $q = -0.30e$, there is an excellent 
+agreement between the coordination distances obtained from the MD simulations and the \GltTk\ crystal 
+structure (see columns 3 and 5 of \tabref{na2:tab1} for a comparison of the actual distances and 
+\figref{na2:fig1} for the position of \Na). When the charge is increased from $-0.30e$ toward $-0.09e$, 
+the \Na\ ion moves away from M314 (S$_{\delta}$) and the neighbouring S352 (O) while contact with the 
+other three carbonyl oxygen atoms are kept. The inset in \figref{na2:fig2} shows that the actual  
+\Na$-$S$_{\delta}$ distance increases by more than 3 \angs. Reducing the charge from $-0.30e$ toward 
+$-0.50e$ causes the \Na\ ion to be more tightly bound to M314 (S$_{\delta}$). As the pair are already at 
+the contact distance, the \Na$-$S$_{\delta}$ distance is reduced only slightly. Nevertheless, this is 
+sufficient for I353 (O) on the opposite side to flip away from \Na\ (\figref{na2:fig2}), presumably 
+because its interaction with \Na\ is weaker than the other carbonyl oxygen atoms (\tabref{na2:tab1}). In 
+contrast, the strongly interacting T311 (O) maintains perfect contact with \Na, regardless of the 
+charge used thanks to the ability of the carbonyl group to track the movement of \Na. S352 (O) and T355 
+(O) also retain contact with \Na\ for $q < -0.3e$. Thus, due to the weaker interaction of I353 (O) with 
+\Na, the corresponding coordination distance remains very sensitive to the charge on S, which suggests 
+an optimal value of $q = -0.30e$ (\figref{na2:fig2}). 
+
+\begin{table}[t!]
+\caption{\label{na2:tab1}Average Distances (in \angs) of the Atoms Coordinating the \Tl/\Na\ 
+Ion at the Na2 Site.$^{a}$}
+\begin{center}
+\begin{tabular}{lcccc}
+\hline
+                         &                   &                   & \multicolumn{2}{c}{\Na} \\ \cline{4-5}
+helix-residue            & \GltPh\ \Tl       & \GltTk\ \Na       & $q=-0.09e$    & $q=-0.03e$ \\ \hline
+TM7--T311 (O)            & 2.6               & 2.3               & $2.3 \pm 0.1$ & $2.3 \pm 0.1$ \\
+TM7--M314 (S$_{\delta}$) & 3.4               & 2.9               & $6.2 \pm 0.4$ & $2.9 \pm 0.2$ \\
+HP2--S352 (O)            & 2.1               & 2.4               & $4.7 \pm 0.3$ & $2.3 \pm 0.1$ \\
+HP2--I353 (O)            & 3.2               & 2.8               & $2.4 \pm 0.3$ & $2.9 \pm 0.2$ \\
+HP2--T355 (O)            & 2.2               & 2.2               & $2.3 \pm 0.1$ & $2.3 \pm 0.1$ \\ \hline
+\end{tabular}
+\end{center}
+\footnotesize $^{a}$The second column is for the \Tl\ ion in \GltPh\ (2NWX) and the third 
+column is for the \Na\ ion in \GltTk\ (5E9S). The fourth column is obtained from 5 ns unrestrained 
+MD simulations with the CHARMM charge of $-0.09e$ on the S atom of M314, which is boosted to 
+$-0.30e$ in the last column. The residue numbers refer to \GltTk\ (those of \GltPh\ are three less). 
+Side chain atoms are indicated with a subscript.
+\end{table}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/Na2-Paper/fig2.jpg}
+\caption{Variation of the \Na{}$-$O/S$_{\delta}$ distances with the charge in the 
+         S atom of M314. The average distances are obtained from 5 ns MD simulations 
+         and normalised with those from the \GltTk\ structure. The inset shows the 
+         actual \Na{}$-$S$_{\delta}$ distances.}
+\label{na2:fig2}
+\end{figure}
+
+We next perform a similar study for the binding free energy of \Na\ at the Na2 site, which was 
+measured in \GltPh\ as $-3.3$ kcal/mol~\cite{Ryan2009}. Because the \GltPh\ and \GltTk\ structures 
+share 77\% sequence identity and the ion and substrate binding sites are conserved, we expect a 
+similar value for the binding free energy in \GltTk. Again the charge on the S atom of M314 is 
+varied from $-0.09e$ to $-0.50e$, and the binding free energy of \Na\ is determined from the FEP 
+calculations as described in \hyperref[na2:theory]{Methods}. The results are shown in 
+\figrefi{na2:fig3}{A}. As a general trend, the binding free energy of \Na\ decreases with the charge 
+on S, and the binding free energy curve crosses the dashed line representing the experimental value 
+at $q = -0.30e$. This provides an independent confirmation for the proposed charge on S determined 
+from the crystal structure of \GltTk.
+
+As anticipated from the MD simulations with the CHARMM force field, the binding free energy of \Na\ 
+is positive for $q = -0.09e$. Exceptional behaviour of the binding free energies is observed between 
+$q = -0.30e$ and $-0.25e$ and also between $q = -0.15e$ and $-0.09e$, where the increase in the free 
+energy is much smaller than the trend or even reduced in the latter case (\figrefi{na2:fig3}{A}). In 
+both cases, an extra water molecule enters in the coordination shell of \Na\ at the larger $q$ value, 
+which dampens the increasing trend in the binding free energy by compensating for the atoms departing 
+the coordination shell and the missing charge on S. 
+
+Changing the partial charges on a molecule may affect its solution properties, which can be 
+compensated by slightly adjusting the LJ parameter \Rmin~\cite{Luo2010a}. Unfortunately, such data 
+are not available for methionine due to its oxidation in solution. Nevertheless, we have considered 
+the effect of changing the \Rmin\ value of the S atom on the \Na\ binding free energy at the Na2 
+site (\figrefi{na2:fig3}{B}). To compensate for a charge boost, \Rmin\ is expected to be increased. 
+From \figrefi{na2:fig3}{B}, it is seen that such an adjustment of \Rmin\ will have a relatively small 
+effect on the \Na\ binding free energy. We note that a small increase in the \Na\ binding free energy 
+due to a larger \Rmin\ value can be easily accommodated by slightly decreasing the charge on the S 
+atom (\figrefi{na2:fig3}{A}). 
+
+\subsection{Effect of the Modified Charges on Other Properties of Methionine}
+It is of interest to see how other properties of methionine are affected by the proposed changes. 
+The dipole moment of methionine in the gas phase is measured as 1.6 D~\cite{Haynes2003}, while the 
+current CHARMM parameters yield a value of 1.1 D. With the modified charges, the dipole moment of 
+methionine is increased to 2.4 D. In a fixed-charge model, the dipole moment of a molecule needs to 
+be boosted from its gas phase value in order to take the polarisation effects into account. Thus, 
+the modified charges provide a more realistic description for the dipole moment of methionine in 
+solution.
+
+\begin{figure}[t!]
+\includegraphics[width=1.0\textwidth]{Figures/Na2-Paper/fig3.jpg}
+\caption{(A) Binding free energy of \Na\ at the Na2 site as a function of the charge 
+         on the S atom of M314 using the default LJ parameter \Rmin{}$=4.00$ \angs. 
+         (B) The effect of varying \Rmin\ of the S atom on the \Na\ binding free energy 
+         for $q=-0.30e$. The dashed lines indicate the experimental value of $-$3.3 
+         kcal/mol measured in \GltPh~\cite{Ryan2009}.}
+\label{na2:fig3}
+\end{figure}
+
+We next consider the solvation free energy for the methionine side chain analogue, which was measured 
+as $-1.48$ kcal/mol~\cite{Wolfenden1981}. Previous calculations using CHARMM yielded positive values 
+for the solvation free energy, e.g., $+0.93$~\cite{Deng2004} and $+1.08$ kcal/mol \cite{Shirts2003a}, 
+which is attributed to the weak partial charge on the S atom. Boosting the partial charge on S to 
+$-0.30e$, we obtain a solvation free energy of $-1.10$ kcal/mol, which has the correct sign and is 
+much closer to the experimental value. The effect of changing the \Rmin\ value of the LJ potential 
+on the solvation free energy while the charge is kept constant at $q = -0.30e$ is shown in 
+\figref{na2:fig4}. Again increasing the \Rmin\ value leads to a relatively small change in the 
+solvation free energy, which can be accommodated by a slight adjustment of the charge on the S atom. 
+Further fine-tuning of the methionine parameters is clearly possible, but this should preferably be 
+done using a larger set of methionine interactions, including, e.g., aromatic 
+interactions~\cite{Valley2012}.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/Na2-Paper/fig4.jpg}
+\caption{Solvation energy of the methionine side chain analogue. The black and red 
+         lines show the results obtained using the default CHARMM parameters and 
+         modified ones, respectively. The dashed line indicates the experimental value.}
+\label{na2:fig4}
+\end{figure}
+
+\subsection{Discussion}
+Ion coordination by a methionine side chain is a very rare occasion, which raises the question, how 
+did methionine at the Na2 site survive the evolutionary pressure and remain intact from archaea to 
+mammalians? Mutation experiments performed on M367 in EAAT3 (the equivalent of M314 in \GltTk) 
+provide a plausible answer to this question~\cite{Rosental2010}. The glutamate affinity in M367L, 
+M367C, and M367S mutants of EAAT3 was reduced by 10$-$20-fold compared to the wild type. The effect 
+of these mutations on the \Na\ affinity was found to be much less, i.e., only 2$-$3-fold reductions 
+compared to the wild type~\cite{Rosental2010}. Thus, the steric role the methionine side chain plays 
+in fitting the substrate into the binding pocket appears to be much more important than the role 
+of the S atom in coordinating the \Na\ ion at the Na2 site and must be the main reason for the 
+conservation of methionine in the NMDGT motif of glutamate transporters.
+
+The boosting of the charge on the S atom and the corresponding increase of charges on the 
+neighbouring C$_{\gamma}$ and $C_{\epsilon}$ atoms is expected to have a substantial effect on MD 
+simulations of proteins where methionine residues play functional roles. For example, analysis of 
+the protein structures in the Protein Data Bank indicates that methionine commonly interacts with 
+aromatic residues, but the interaction energy estimated using the CHARMM force field is quite low 
+(1$-$3 kcal/mol)~\cite{Valley2012}. A properly parametrised methionine side chain could increase 
+this interaction energy substantially, as demonstrated by the \Na\ binding free energy here. This 
+would provide a better understanding of the role of the methionine-aromatic residue interactions 
+in stabilising the protein structure. Methionine mutations are involved in some diseases, such as 
+Alzheimer's and von Willebrand disease, so an improved description of methionine in MD simulations 
+will also result in better characterisation of the effect of such mutations, which in turn could 
+help in the rational design of therapeutics targeting these diseases.
+
+\section{Conclusion}
+In conclusion, using the latest \GltTk\ structure as a guide, we have argued that the S atom of 
+M314 is in the coordination shell of the \Na\ ion at the Na2 site, and the inability of MD force 
+fields to hold \Na\ at this site is due to the inadequate charge on S. Using the coordination data 
+from the Na2 site and the binding free energy of \Na, we have shown that the charge on S needs to 
+be boosted from $q = -0.09e$ to $-0.30e$ in the CHARMM force field. The proposed change also yields 
+a better description of the dipole moment of methionine and the solvation free energy of its side 
+chain. Although the AMBER and OPLS force fields have substantially larger charges on the S atom of 
+methionine compared to CHARMM, MD simulations of \GltTk\ and \GltPh\ with these force fields also 
+failed to bind the \Na\ ion at the Na2 site~\cite{Guskov2016,Venkatesan2015}. Thus, it would be 
+useful to optimise the methionine charges for these force fields as well using the Na2 binding site 
+in \GltTk\ as demonstrated here. A proper parametrisation of methionine will hopefully lead to a 
+better understanding of its diverse functional roles in proteins.
+%=======================================================================================%

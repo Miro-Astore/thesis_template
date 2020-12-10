@@ -1,0 +1,649 @@
+%=======================================================================================%
+\chapter{Escape of \Na\ from Na3 in \GltPh}
+\label{chap:unbind}
+ABSTRACT \newline
+Glutamate/Aspartate transport through the mammalian excitatory amino acid transporters 
+is coupled to the co-transport of three \Na, one \Hi\ and the counter-transport of \K. 
+The archaeal homologue \GltPh\ is coupled to only the co-transport of three \Na. The 
+first two \Na\ sites (Na1,Na2) were resolved from both the outward and inward the crystal 
+structure. The third site (Na3) was determined through a combination of mutagenesis 
+experiments and molecular dynamics simulations and later verified in the crystal structure 
+of \GltTk. Previous studies using path-independent free energy methods have suggested 
+unbinding of the last \Na\ from Na3 is the rate-limiting step. Here we use path-dependent 
+methods to determine the path taken and energy required for \Na\ to leave the Na3 site to 
+the bulk region to the bulk region. A detailed characterisation of structural changes of 
+the binding pocket as \Na\ leaves the binding site are given. In addition, we estimate the 
+release time of \Na\ using Smoluchowski mean-first-passage-time theory. Our observations 
+of structural changes made along the path and estimated time of release are consistent 
+with known experimental data. The results presented here indicate that the release of 
+\Na\ in the third binding site is a slow process but not the rate-limiting step of the 
+transport cycle. This investigation may shed light on the ligand release mechanism in 
+the mammalian transporters.
+
+\newpage
+\section{Introduction}
+The mammalian glutamate transporters, also known as the excitatory amino acid transporters 
+(EAATs), are responsible for clearing excess glutamate released at the synapses. Disruption 
+of EAATs can lead to increased concentrations of glutamate, causing excitotoxicity of receptors. 
+Such effects have been associated with many pathological conditions, including Alzheimer's 
+disease, cerebral ischemia and amyotrophic lateral sclerosis~\cite{Danbolt2001}. EAATs 
+function by cycling between the extracellular and intracellular medium. In each cycle, EAATs 
+bind and transport the substrate (Asp or Glu) across the membrane by coupling three \Na\ and 
+one \Hi\ ions~\cite{Zerangue1996}. After the release of the ligands, one \K\ ion is 
+counter-transported to complete the cycle. While much has been learned about the functional 
+properties of glutamate transporters from mutagenesis experiments, a mechanistic understanding 
+of the transport process was not possible in the absence of a crystal structure. 
+
+The first crystal structure of aspartate/glutamate transporters was that of \GltPh\ from 
+Pyrococcus horikoshii—an archaeal homologue of EAATs~\cite{Yernool2004}. In successive 
+iterations of the \GltPh\ crystal structure, first, the binding sites for the substrate and two 
+\Na\ ions (called Na1 and Na2) were resolved in the outward-facing (OF) state~\cite{Boudker2007}, 
+followed by the determination of the inward-facing (IF)~\cite{Reyes2009}, and intermediate 
+conformations~\cite{Verdon2012}. Physiological studies of \GltPh\ revealed that it transported 
+Asp (and not Glu) by coupling three \Na\ ions, but without the co-transport of a \Hi\ ion and 
+the counter-transport of a \K\ ion~\cite{Ryan2009,Groeneveld2010}. The third \Na\ site (called 
+Na3) could not be resolved in the crystal structures. Several Na3 site have been proposed from 
+electrostatic calculations~\cite{Holley2009} and molecular dynamics (MD) 
+simulations~\cite{Bastug2012,Larsson2010,Huang2010}. The \Na\ coordination shell proposed in 
+the last reference (T92, S93, N310, and D312 side chains and Y89 backbone) was consistent with 
+the available mutagenesis data, and tests via the T92A and S93A mutations provided further 
+support for this site is the Na3 site~\cite{Bastug2012}. This was later verified with the 
+recent crystal structure of \GltTk\ that shows \Na\ bound to the Na3 site proposed earlier 
+\cite{Guskov2016}.
+
+Although the overall sequence identity between \GltPh\ and EAATs is low (37\%), the homology 
+for the binding pocket is close to 60\%. In addition, the residues involved in ligand binding 
+in \GltPh\ are conserved in EAATs~\cite{Arriza1997,Vandenberg2013,Yernool2004,Boudker2007}. 
+Thus, \GltPh\ provides a good starting model for mechanistic studies of the transport mechanism 
+in glutamate transporters. Several computational investigations of \GltPh\ have been performed 
+so far which include: MD simulations of ligand binding and gating in the OF 
+\cite{Huang2008,Huang2010,Shrivastava2008} and IF states~\cite{Zomot2013}, free energy 
+calculations of ion and substrate binding in the OF~\cite{Larsson2010,Heinzelmann2011} and IF 
+states \cite{Heinzelmann2013}, metadynamics simulations of substrate binding and release 
+\cite{Grazioso2012}, and study of the transition from the OF to IF state using the anisotropic 
+network models in combination with MD simulations~\cite{Jiang2011,Das2014}. A homology model 
+for EAAT3 was recently constructed using the \GltPh\ structure, which provided further insights 
+on the \K\ binding site~\cite{Heinzelmann2014} as well as elucidating the mechanism of \Hi\ 
+transport~\cite{Heinzelmann2014a}.
+
+Free energy calculations performed using the crystal structures of \GltPh\ indicate that the 
+binding order of ligands is Na3, Na1, Asp, and Na2 in the OF state~\cite{Heinzelmann2011}, and 
+they are released in the reverse order in the IF state~\cite{Heinzelmann2013}. While the predicted 
+binding order is consistent with the recent experimental studies of \Na\ and Asp 
+binding~\cite{Reyes2013b,Ewers2013,Hanelt2015}, there are sizeable discrepancies in the binding 
+free energies. These discrepancies are addressed in the \chapref{chap:bind} where the issue lies 
+in not considering an intermediate state (Na1\prim) in the free energy calculations. The transition 
+of Na1\prim\ to Na3 requires conformational changes in the protein. Experimentally, substantial 
+conformational changes are observed in the protein during ligand binding as large activation 
+energies are obtained from calorimetric studies of \GltPh\ 
+\cite{Reyes2013b,Ewers2013,Hanelt2015}. More direct experimental evidence for such conformational 
+changes is provided by the comparison of the recent apo structures of \GltPh\ 
+\cite{Verdon2014} and \GltTk~\cite{Jensen2013} with the fully bound \GltPh\ structures 
+\cite{Boudker2007,Reyes2009}. The path-independent free energy methods are 
+clearly inadequate for description of ligand binding where conformational changes occur, and one 
+has to appeal to path-dependent methods to capture the effect of such changes on the free energy 
+of a ligand along the reaction coordinate.
+
+In this work, we attempt to describe the conformational changes that occur in the binding pocket 
+during the release of the last \Na\ ion from the Na3 site and provide an estimate for its release 
+time. We do not consider the other ligands because they are observed to unbind during microseconds 
+simulations, indicating that their release time is fast~\cite{Zomot2013}. Using the crystal structure 
+of the IF state of \GltPh~\cite{Reyes2009}, we determine the path taken by the \Na\ ion from the Na3 
+site to the bulk region. We then perform umbrella sampling MD simulations to calculate the free-energy 
+profile and the diffusion coefficient of the ion along this path. The free-energy profile and diffusion 
+coefficient results are used in the mean first-passage solution of the Smoluchowski equation to get 
+an estimate for the release time of the \Na\ ion. We also use the trajectory data from the umbrella 
+sampling MD simulations to quantify the conformational changes that occur in the protein as the \Na\ 
+ion moves from the Na3 site to bulk. Finally, we discuss the implications of our results for the 
+transport mechanism in EAATs, which is much faster than that of \GltPh.
+
+\section{Method}
+\subsection{Model System and Simulation Details}
+% System and MD
+In this study, we use the crystal structure of \GltPh\ in the inward-facing closed conformation 
+(PDB ID: 3KBC). The crystal structure consists of the protomer with two \Na\ and Asp bound. The 
+third \Na\ was added to the Na3 site observed in \GltTk~\cite{Guskov2016}. We embed the \GltPh\ 
+trimer in a 1-palmitoyl-2-oleoyl-phosphatidylethanolamine (POPE) phospholipid bilayer using the 
+software VMD~\cite{Humphrey1996}. We then solvate this protein-lipid complex with 16204 water 
+molecules along 34 \Na\ and 43 \Cl\ neutralising ions. After following the same standard 
+equilibration protocol as in~\cite{Heinzelmann2013} we then remove the Na2, Asp and Na1 from the 
+monomers simulating for 5 ns after the removal of each ligand. We further equilibrate the system 
+for 50 ns without any restraints making sure the gate between HP1 and HP2 is open, and water 
+molecules fill the binding pocket.
+
+All MD simulations are performed using NAMD package (version 2.10)~\cite{Phillips2005} with the 
+CHARMM force field~\cite{Klauda2012}. We use the NPT ensemble keeping the temperature constant 
+at 300 K using the Langevin thermostat with a damping factor of 5 ps$^{-1}$. The pressure is 
+maintained at 1 atm using the Langevin piston method with a damping factor of 20 ps$^{-1}$ 
+\cite{Feller1995}. We utilise periodic boundary conditions, and electrostatic interactions are 
+calculated using the particle-mesh Ewald (PME) method~\cite{Darden1993} without truncation. 
+Non-bonded interactions are truncated at 12 \angs\ and replaced with a smooth switching function 
+starting from 10 \angs. In all simulations, a time step of 2 fs is employed for the integrator.
+
+\subsection{Umbrella Sampling and Free Energy Calculations}
+% Reaction Coordinate Explanation
+In order to perform path-dependent free energy calculations, we need to 
+establish an appropriate reaction coordinate (RC) for the \Na\ ion from the Na3 
+site to bulk. In most systems studied, the RC follows a straight line and can be 
+aligned with one of the Cartesian axes, which simplifies the construction of 
+the window positions for umbrella sampling. However, for the simulation system 
+at hand, the path for the \Na\ ion follows a curved trajectory, and such a 
+simple choice is not possible. To facilitate the construction of the umbrella 
+windows, we exploit the presence of two intermediate binding sites along the RC to 
+be denoted by Na1\prim\ and Na1\dprim\ (details of these sites are discussed in 
+Results). The path between any two neighbouring sites is approximately linear, 
+thus they provide an initial path to build the actual RC. Three such vectors are 
+connecting Na3--Na1\prim, Na1\prim--Na1\dprim, and Na1\dprim--bulk. To 
+find the RC, we first perform steered MD (SMD) simulations along the direction 
+of the Na3--Na1\prim\ vector using a stiff-spring constant of 15~\spring\ and a 
+relatively slow speed of 1~\angs/ns. A second SMD simulation with different 
+initial 
+conditions is observed to yield essentially the same path. Therefore, the 
+average 
+of the two trajectories is taken as the RC (more SMD trajectories would be 
+included in the average if the paths were not similar).  The same procedure is 
+used for the vectors between Na1\prim--Na1\dprim\ and Na1\dprim--bulk to obtain 
+the complete RC. In the following, we will denote the curvilinear RC with 
+$\zeta$ and its projection on the vectors between the binding sites by $z$. For 
+convenience, umbrella potentials are constructed at 0.5~\angs\ intervals along the 
+$z$-coordinate at points $z_i$, and applied at the corresponding points 
+$\zeta_i$ along the RC. That is, each window experiences a harmonic potential in 
+the form
+\begin{equation}
+ U = \frac{1}{2} k(\zeta - \zeta_i)^2,
+ \label{na3:eq1}
+\end{equation}
+where $\zeta$ is obtained from the projection of the position of the \Na\ ion 
+on to the RC.  A spring constant of 20~\spring\ is used in the direction of the 
+RC (defined by the tangent to the RC at $\zeta_i$), but no restraints are 
+applied to the ion in the orthogonal plane. The reason for using a relatively 
+large spring constant is to facilitate the calculation of the 
+diffusion coefficient of the ion (see the section below for more details). In 
+order to keep the reference to the RC absolute, we apply small restraints to 
+the C$\alpha$ atoms of the protein residues outside the binding pocket with a 
+spring constant of 0.1~\spring. The decision to exclude the C$\alpha$ atoms in 
+the binding pocket from restraining follows from test umbrella sampling calculations, 
+which have shown that the free-energy profile is affected when these residues 
+are restrained. The trajectories obtained from the umbrella sampling MD simulations 
+in each window are unbiased and combined using the weighted histogram analysis method 
+(WHAM) \cite{Kumar1992} to construct the free-energy profile between two binding sites. 
+For the Na1\dprim\ $\rightarrow$ bulk transition, we apply a flat-bottom funnel potential 
+to reduce the phase space in the bulk~\cite{Limongelli2013}. The funnel parameters 
+employed are 12~\angs, 0.6 rad, 1~\angs\  and 1~\spring\ for $R_{\text{cyl}}$, 
+$Z_{\text{cc}}$, $\alpha$ and $k_{\text{cyl}}$ respectively. The funnel potential 
+is implemented as a \verb+tclForces+ script in NAMD (see \appref{apx:funnel} for 
+the script).
+
+\subsection{Diffusion Coefficient and Mean First-passage Time}
+% Smoluchowski vs Kramer's
+In a previous work, Kramer's rate theory was used to estimate the release time of the \Na\ ion 
+from the Na3 binding site, assuming that the escape path can be represented by a single potential 
+well~\cite{Heinzelmann2013}. As already alluded, the escape path is more complicated than a single 
+well, so a more sophisticated treatment of the release time is required. Here we employ a method 
+that uses the results from the path-dependent umbrella sampling simulations as input. The time scale 
+for the release time of \Na\ is much larger compared to the  relaxation time of the ion's velocity 
+correlations. This means that the inertial effects can be neglected and the motion of \Na\ inside 
+\GltPh\ can be described by the Smoluchowski equation~\cite{Izrailev}. The mean first-passage time 
+solution of the Smoluchowski equation is given by~\cite{Szabo1980}
+\begin{equation}
+ \tau(a\rightarrow b) = \int_{a}^{b} d\zeta 
+ \frac{e^{W(\zeta)/\kT}}{D(\zeta)} 
+ \times \int_{a}^{\zeta} d\zeta' e^{-W(\zeta')/\kT}.
+ \label{na3:eq2}
+\end{equation}
+Here $W(\zeta)$ is the free-energy along the RC, $D(\zeta)$ is the path-dependent diffusion coefficient, 
+and $a$ and $b$ denote the initial and final states, respectively, which we choose as the bottom 
+of the well and top of the barrier in the free-energy profile. 
+
+The diffusion coefficient is usually calculated using the velocity autocorrelation function (Green-Kubo 
+relation), and the value obtained is isotropic. For path-dependent calculations, Woolf and Roux 
+derived an expression for the diffusion coefficient by taking the Laplace transformation of the 
+velocity autocorrelation function~\cite{Woolf1994}. The diffusion coefficient is obtained via a 
+numerical extrapolation process, which is not straightforward. A more convenient expression was 
+derived by Hummer, who showed that the position, instead of the velocity autocorrelation function, 
+can be used in the calculation of the diffusion coefficient~\cite{Hummer2005}
+\begin{equation}
+ D(\zeta_i) = \frac{var(\zeta_i)}{\tau_i},
+ \label{na3:eq3}
+\end{equation}
+where $var(\zeta_i)= \langle \delta\zeta^2 \rangle_i=\langle \langle\zeta^2\rangle - \langle\zeta
+\rangle^2 \rangle_i$ is the variance of the ion position along the RC at the $i^{\rm th}$ window,
+and $\tau_i$ is the characteristic time of the normalised autocorrelation function of $\zeta$ at 
+the $i^{\rm th}$ window 
+\begin{equation}
+ \tau_i = \frac{\int_{0}^{\infty} \langle \delta \zeta(t).
+ \delta \zeta(0) \rangle_i dt} {var(\zeta_i)}.
+ \label{na3:eq4}
+\end{equation} 
+This expression is valid provided the system behaves like an overdamped harmonic oscillator. This 
+behaviour can be enforced on the ion by using a sufficiently strong spring constant in the direction 
+of the RC. We find that $k=20$~\spring\ is sufficient for this purpose.  For smaller values of $k$, 
+the autocorrelation function does not behave like an exponentially decaying function. The integration 
+of the position autocorrelation function is done up to 1~ps using a total of 4~ns trajectory data for 
+the ensemble average (\appref{apx:diff} list the Fortran source code).
+
+\section{Results and Discussion}
+\subsection{Escape Path of \Na\ from the Na3 Site}
+% Initial path search
+In order to search for potential binding sites, the \Na\ ion is steered from the Na3 site towards 
+the Na1 site in SMD simulations. Several SMD simulations are performed with different initial 
+conditions to ensure adequate sampling. At the end of the steering, we allow the system to relax 
+by performing 10 ns MD simulation. At the end of the equilibrium simulation, we find a stable 
+site between the Na3 and Na1 sites, which will be referred to as Na1\prim. SMD simulations between the 
+Na3 and the Na1\prim\ sites are repeated to make sure that the proposed Na1\prim\ site is unique. 
+The Na1\prim\ site is coordinated by both the D312 and D405 side chains (see \tabref{na3:tab1} 
+for the coordinating residues and the average \Na--O distances). A similar intermediate state was 
+also observed in MD simulations of the OF conformation of \GltPh{}~\cite{Huang2010}. We note that, 
+as in the Na3 site, there are no water molecules in the coordination shell of \Na\ in the Na1\prim\ 
+site. 
+
+% Coordinating residues and distances
+\begin{table}[b!] 
+\caption{\label{na3:tab1}Residues coordinating the \Na\ ion in the Na3, Na1\prim, and 
+Na1\dprim\ sites, and at the transition states (TS) in between.$^{a}$}  
+\begin{center}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccccc}
+\hline
+Helix-Residue & Na3 & TS1  & Na1\prim\  &  TS2  & Na1\dprim\ & TS3 \\ \hline
+TM3--Y89 (O)   & 2.3 $\pm$ 0.1 & 5.2 $\pm$ 0.2 & - & - & - & - \\ 
+TM3--T92 (OH)  & 2.4 $\pm$ 0.1 & 3.8 $\pm$ 0.2 & - & - & - & - \\ 
+TM3--S93 (OH)  & 2.4 $\pm$ 0.1 & 5.0 $\pm$ 0.3 & - & - & - & - \\ 
+TM7--D312 (O1) & 3.5 $\pm$ 0.2 & 2.4 $\pm$ 0.1 & 2.3 $\pm$ 0.1 & 2.2 $\pm$ 0.1 & - & - \\ 
+TM7--D312 (O2) & 2.1 $\pm$ 0.1 & 2.6 $\pm$ 0.2 & 2.3 $\pm$ 0.1 & 3.2 $\pm$ 0.5 & - & - \\
+TM7--N310 (O$_{\delta}$) & 2.2 $\pm$ 0.1 & 2.2 $\pm$ 0.1 & 2.3 $\pm$ 0.1 & 2.7 $\pm$ 0.3 & 2.3 $\pm$ 0.1 & 8.6 $\pm$ 0.4 \\ 
+TM7--N310 (O)  & 6.2 $\pm$ 0.2 & 5.0 $\pm$ 0.3 & 6.3 $\pm$ 0.2 & 5.9 $\pm$ 0.3 & 5.2 $\pm$ 0.6 & 7.0 $\pm$ 0.8 \\ 
+TM8--N401 (O)  & - & 4.8 $\pm$ 0.2 & 2.4 $\pm$ 0.1 & 2.4 $\pm$ 0.2 & 2.7 $\pm$ 0.4 & 8.7 $\pm$ 1.0 \\ 
+TM8--D405 (O1) & - & 4.4 $\pm$ 0.2 & 3.9 $\pm$ 0.2 & 3.0 $\pm$ 0.4 & 2.2 $\pm$ 0.1 & 7.4 $\pm$ 1.1 \\
+TM8--D405 (O2) & - & 5.9 $\pm$ 0.2 & 2.2 $\pm$ 0.1 & 2.2 $\pm$ 0.1 & 2.3 $\pm$ 0.1 & 7.0 $\pm$ 1.3 \\ 
+TM7--G306 (O)  & - & - & - & 4.1 $\pm$ 0.5 & 2.5 $\pm$ 0.3 & 4.9 $\pm$ 1.6 \\ 
+TM7--A307 (O)  & - & - & - &  & 5.7 $\pm$ 0.4 & 3.6 $\pm$ 1.2 \\ 
+H2O (1) & - & - & - & - & 2.4 $\pm$ 0.3 & 2.4 $\pm$ 0.2 \\ 
+H2O (2) & - & - & - & - & - & 2.3 $\pm$ 0.1 \\
+H2O (3) & - & - & - & - & - & 2.4 $\pm$ 0.3 \\
+H2O (4) & - & - & - & - & - & 2.6 $\pm$ 0.5 \\
+H2O (5) & - & - & - & - & - & 2.7 $\pm$ 0.5 \\
+\hline
+\end{tabular}}
+\end{center}
+\footnotesize $^{a}$The average \Na--O distances calculated from 2 ns MD simulations are 
+presented in columns 2--7 (in \angs). The Na1 coordination shell differs from that of 
+Na1\dprim\ by the replacement of N310 (O$_{\delta}$) with N310 (O).
+\end{table} 
+
+Superposing the current configuration with a system containing two \Na\ ions bound to the Na1 and 
+Na3 sites, we observe about 3~\angs\ distance between the Na1\prim\ and Na1 sites. This suggests 
+that there may be another binding site in the vicinity of the Na1 site. Again we perform SMD 
+simulations, steering the \Na\ ion from the Na1\prim\ site towards the Na1 site. After equilibration, 
+a stable binding site is found at the location of the Na1 site, which will be called Na1\dprim. The 
+coordination shell of Na1\dprim\ is very similar to that of Na1 (see \tabref{na3:tab1})---the 
+only difference is that the carbonyl oxygen of N310 is replaced by the side-chain oxygen of N310. 
+In this site, D312 no longer coordinates \Na, and the coordination shell is completed by the G306 
+carbonyl oxygen and a water molecule. To see if the same coordination shell as in the Na1 site can 
+be achieved, we generate a new configuration starting with two \Na\ ions present in Na1 and Na3 
+sites. After removing the \Na\ ion from the Na3 site and equilibrating for 20~ns, we see the \Na\ 
+ion moving from the Na1 site to the Na1\prim\ site instead. Thus it appears that the Na1\dprim\ 
+configuration, where \Na\ is coordinated by N310 (O$_{\delta}$), is only accessible when \Na\ is 
+steered from the Na3/Na1\prim\ sites to the Na1 position.
+
+From the Na1\dprim\ site, there is only one obvious path for \Na\ to take. The Na1\dprim\ site is 
+solvent-exposed, and we expect it to be the last site before \Na\ comes to a bulk-like environment 
+outside the binding pocket. We steer the \Na\ ion from the Na1\dprim\ site towards the HP1-HP2 gate. 
+Along the SMD trajectory, \Na\ has a brief contact with the A307 (O) along with G354 (O) and S279 (OH), 
+which are residues part of HP1-HP2, but does not interact with any other residues in the binding pocket. 
+Hence, we deduce that Na1\dprim\ is the last binding site before bulk. Summarising the steering 
+simulations, we predict the last \Na\ ion to leave \GltPh\ through the following path: Na3 $\rightarrow$ 
+Na1\prim\ $\rightarrow$ Na1\dprim $\rightarrow$ Bulk. The full transition path of the \Na\ ion from the 
+Na3 site to bulk and the \Na\ binding sites are shown in \figref{na3:fig1}. 
+
+% Figure of Transition Paths
+\begin{figure}[b!]
+ \centering
+  \includegraphics[width=0.6\textwidth]{Figures/Na3-Paper/fig1.jpg}
+ \caption{Full transition path of the \Na\ ion from  the  Na3 site to bulk 
+(black line). The binding sites are indicated with yellow balls. The snapshot 
+shows the positions of the key residues when the \Na\ ion is in the Na3 site.}
+ \label{na3:fig1}
+\end{figure}
+
+It is clear from \tabref{na3:tab1} and \figref{na3:fig1} that the residues N310, D312, 
+and to a lesser degree, D405 must undergo substantial conformational changes during the 
+release of the \Na\ in order for their side-chain oxygen atoms to keep coordinating it. 
+To help visualising these changes, we show snapshots of the three transitions, 
+Na3 $\rightarrow$ Na1\prim, Na1\prim\ $\rightarrow$ Na1\dprim, and Na1\dprim\ $\rightarrow$ 
+Bulk, in \figref{na3:fig2}. In each transition, the final conformations of the key residues 
+(N310, D312, and D405) are superimposed on the initial ones using different colours, to 
+indicate the extent of the conformational changes. The role of these changes in facilitating 
+the release of the \Na\ ion from the Na3 site will be further discussed and quantified when 
+we analyse the trajectory data obtained from the umbrella sampling simulations. It is 
+important to note that the path described above may not be the lowest free energy path 
+and that there may be other paths. However, based on the trial SMD simulations, this is 
+the most likely path that is available.
+
+% Figure of Transition Paths
+\begin{figure}[b!]
+ \centering
+  \includegraphics[width=0.48\textwidth]{Figures/Na3-Paper/fig2.jpg}
+ \caption{Transition path of the \Na\ ion: (A) Na3 $\rightarrow$ Na1\prim, (B) 
+Na1\prim\ $\rightarrow$ Na1\dprim, and (C) Na1\dprim\ $\rightarrow$ Bulk. Only 
+the important residues (N310, D312 and D405) are shown for clarity. Red, blue, 
+and black balls represent the O, N, and C$\alpha$ atoms of these 
+residues. Conformations of these residues in the initial and final states are 
+shown in blue and orange, respectively. Yellow balls indicate the average 
+position of the \Na\ ion in each umbrella window. Interactions of N310 (N$_{\delta}$) 
+with the D312 and D405 side chains are indicated by dotted lines.}
+ \label{na3:fig2}
+\end{figure}
+
+\subsection{Free Energy from Umbrella Sampling Simulations and Conformational Changes}
+Using the RC described in the methods, we perform umbrella sampling simulations along the 
+three transition paths, A) Na3 $\rightarrow$ Na1\prim, B) Na1\prim\ $\rightarrow$ Na1\dprim, 
+and C) Na1\dprim\ $\rightarrow$ Bulk. For each transition path, a free-energy profile is 
+constructed from the RC of the \Na\ ion using WHAM (\figref{na3:fig3}, top). Because a large 
+spring constant is used, the overlap of the RC distributions between the neighbouring windows 
+is observed to drop below the critical value ($<$5\%) in several places. Extra windows are 
+inserted in such places to avoid any simulation artefacts in the free-energy profile due to poor 
+sampling. This was a problem, especially near the transition states, where window separations as 
+small as 0.1~\angs\ had to be used. The windows are obtained by performing SMD simulations from 
+the closest umbrella window available. Evidence for the convergence of the free-energy profiles 
+is presented in \figref{na3:figs1} in the Supporting Material. 
+
+The trajectory data from the umbrella sampling simulations are also used to track the changes in 
+the coordination shell of the \Na\ ion as it moves along each transition path (\figref{na3:fig3}, 
+middle), and to calculate its diffusion coefficient using Eq.~\eqref{na3:eq3} (\figref{na3:fig3}, 
+bottom). The side chains oxygens of N310 and D312 from TM7, and N401 and D405 from TM8 remain in 
+the coordination shell of the \Na\ ion over substantial parts of the transition paths. It is of 
+interest to find out whether the backbone atoms near these residues also move to help coordinating 
+the \Na\ ion besides the side chains. For this purpose, we have calculated the RMSD of the C$\alpha$ 
+atoms of the N310--T314 residues in TM7 (NMDGT motif), and the N401--D405 residues in TM8 using 
+the configuration when \Na\ is in Na3 as reference (\figref{na3:fig4}). 
+
+Below we discuss the critical events in each transition and correlate the energetic features of 
+the free-energy profile with the conformational changes that occur in the protein using 
+\figrefni{na3:fig2}{\ref{na3:fig4}}.
+
+% free-energy profile and diffusion coefficient 
+\begin{figure}[t!]
+  \includegraphics[width=1.0\textwidth]{Figures/Na3-Paper/fig3.png}
+\caption{Free-energy profiles (top), the \Na--O distances (middle), and the relative diffusion 
+coefficients (bottom)  for the transitions 
+(A) Na3 $\rightarrow$ Na1\prim, (B) Na1\prim\ $\rightarrow$ Na1\dprim,
+and (C) Na1\dprim\ $\rightarrow$ Bulk. The bulk diffusion coefficient of \Na\ 
+ions is taken as $D_0=1.33 \times 10^{-9}$~m$^2$/s~\cite{Harned1958}.}
+\label{na3:fig3}
+\end{figure}
+
+A) Na3 $\rightarrow$ Na1\prim\ (\figrefi{na3:fig3}{A}): The two sites are separated by about 
+5.5~\angs, and the transition state (TS1) is near $z=3.1$~\angs. After the \Na\ ion leaves the Na3 
+site, first S93 (OH) departs from its coordination shell followed by Y89 (O) and then T92 (OH). This 
+is partly compensated by the full integration of D312 (O1) in the shell. Both the N310 and D312 side 
+chains faithfully track the \Na\ ion in this region. The ion remains under-coordinated while dragging 
+the N310 and D312 side chains, which results in a steeply rising free-energy profile up to TS1. The 
+height of the energy barrier at TS1 is 17.3~kcal/mol, which is an extremely high barrier for an ion 
+to cross. Entry of N401 (O) to the coordination shell at TS1 provides some relief to the free-energy 
+profile. Finally, with the entry of D405 (O1) to the coordination shell, the Na1\prim\ binding site is 
+formed. Inspection of \tabref{na3:tab1} shows that the quality of the coordination shell of \Na\ at 
+Na1\prim\ is at least as good as that at Na3, yet the \Na\ free energy at Na1\prim\ is 6.9~kcal/mol 
+higher than that at Na3. We attribute this to the conformational changes that occur both in the N310 
+and D312 side chains (\figrefi{na3:fig2}{A}), and in the backbone of the NMDGT motif (\figrefi{na3:fig4}{A}) 
+during the transition. The RMSDs of the C$\alpha$ atoms in NMDGT change little between Na3 and TS1 
+but exhibit larger changes between TS1 and Na1\prim. 
+
+The diffusion coefficient profile of \Na\ along this path remains below the bulk value (i.e. 
+$1.33 \times 10^{-9}$~m$^2$/s~\cite{Harned1958}) even at the transition state. This is because the 
+ion is well coordinated by oxygen atoms through the transition (\figrefi{na3:fig3}{A}). If the ion is 
+not well coordinated, then the environment will result in a smaller friction coefficient for the ion 
+and the diffusion profile increases. We next combine the free-energy profile and diffusion coefficient 
+results in Eq.~\eqref{na3:eq2} to estimate the escape time for the Na3 $\rightarrow$ Na1\prim\ transition, 
+which yields about 7~sec. This is a very slow process for an ion but is a small fraction (4\%) of 
+the observed turnover time of $\sim$3~min in \GltPh{}~\cite{Ryan2009}. 
+
+% RMSD
+\begin{figure}[t!]
+\centering
+ \includegraphics[width=1.0\textwidth]{Figures/Na3-Paper/fig4.jpg}
+ \caption{RMSD of the C$\alpha$ atoms of residues in TM7 (A) and TM8 (B). The 
+          reference frame is chosen as the state with \Na\ in the Na3 site. RMSDs 
+          are calculated at all \Na\ binding sites, and the transition states in 
+          between.}
+\label{na3:fig4}
+\end{figure}
+
+\begin{figure}[b!]
+\centering
+ \includegraphics[width=0.6\textwidth]{Figures/Na3-Paper/fig5.png}
+ \caption{Effect of the restraining of the D312 residue on the Na3 $\rightarrow$ 
+          Na1\prim\ free-energy profile. The restraint-free profile from \figrefi{na3:fig3}{A} 
+          (black) is compared to the profile obtained while D312 is restrained (red).}
+\label{na3:fig5}
+\end{figure}
+
+An interesting question here is the chaperone role played by the D312 side chain, and how much this 
+helps the \Na\ ion to cross the Na3 $\rightarrow$ Na1\prim\ barrier. To address this question, we 
+have constructed another free-energy profile for this transition while keeping the D312 residue 
+restrained in its initial position at the Na3 site. As shown in \figref{na3:fig5}, the energy barrier 
+faced by the \Na\ ion is nearly doubled when the D312 residue is restrained. To see the effect of the 
+higher barrier on the escape time, we repeat the above calculation using the restrained free-energy 
+profile in \figref{na3:fig5}. We find that the escape time has increased from 7~sec to $10^{13}$~min 
+or 18 million years. Thus chaperoning by the D312 side chain plays an essential role in facilitating 
+the escape of the \Na\ ion from the Na3 site. While the N310 side chain also tracks the \Na\ ion, 
+this is not solely due to the N310 (O$_{\delta}$)--\Na\ interaction. As shown in 
+\figrefn{na3:fig2}{A{\color{black}--}B}, N310 (N$_{\delta}$) forms an ionic bond with D405 (O1), 
+which provides an extra incentive for the movement of the N310 side chain. Presumably, this interaction 
+is also responsible for the exclusion of D405 (O1) from the coordination shell of \Na\ at the Na1\prim\ 
+site (\tabref{na3:tab1}).
+
+\begin{figure}[b!]
+\centering
+ \includegraphics[width=0.5\textwidth]{Figures/Na3-Paper/fig6.jpg}
+ \caption{Ratchet-like behaviour of N310 as \Na\ moves from the Na1\prim\ site 
+          (A) to the Na1\dprim\ site (B). N310 (N$_{\delta}$) switches its H-bond 
+          from D405 in (A) to D312 in (B), which sets up the H-bond network that 
+          prevents \Na\ from falling back to Na1\prim. H-bonds are indicated with 
+          dashed lines.}
+\label{na3:fig6}
+\end{figure}
+
+B) Na1\prim\ $\rightarrow$ Na1\dprim\ (\figrefi{na3:fig3}{B}): The sites are separated by 2~\angs, 
+and TS2 is at $z=1.2$~\angs. The \Na\ ion remains well-coordinated throughout this region. In 
+particular, at TS2 both D312 and D405 side chains coordinate the ion. After TS2, D312 completely 
+decouples from the ion with its backbone and side chain relaxing back while both side-chain oxygens 
+of D405 firmly couple to the ion (\figrefi{na3:fig2}{B}). But functionally the most significant 
+event in this transition is the conformational change exhibited by N310---position of its backbone 
+undergoes a large shift and its side chain flips (\figrefi{na3:fig2}{B}). It is 
+seen from \figref{na3:fig4} that the stress created on the NMDGT motif by the binding of the \Na\ 
+ion to the Na1\prim\ site becomes maximal at TS2 and is relieved only after the ion binds to Na1\dprim. 
+Flipping of the N310 backbone is not driven by ion coordination, which actually gets a bit worse at 
+TS2. Rather, it enables N310 (N$_{\delta}$) to switch its H-bond partner from D405 (O1), which is 
+needed for the coordination of \Na, to D312 (O1) which has become free after TS2 (\figrefi{na3:fig2}{B}). 
+In this position, N310 (N$_{\delta}$) also makes an H-bond with N401 (O), thus setting up the H-bond 
+network, D312 (O1)--N310 (N$_{\delta}$)--N401 (O)--D405 (N) (\figrefn{na3:fig6}{A{\color{black}--}B}). 
+The snapshot in \figrefi{na3:fig6}{B} suggests that this H-bond network may prevent the backward motion 
+of the \Na\ ion from Na1\dprim\ to Na1\prim. 
+
+Inspection of the free-energy profile in \figref{na3:fig3} shows that this is a real possibility for 
+the ion at Na1\dprim. For \Na\ at Na1\prim, the forward and backward barriers are 4.9 and 10.4~kcal/mol, 
+respectively, so the forward motion is much more likely. But for \Na\ at Na1\dprim, the forward and 
+backward barriers are 14.3 and 2.4~kcal/mol respectively, which clearly prefers the backward motion. 
+However, due to the formation of the H-bond network after the ion goes over TS2, the Na1\prim\ 
+$\rightarrow$ Na1\dprim\ transition is not reversible, and the free-energy profile in \figrefi{na3:fig3}{B} 
+is valid only in the forward direction. To show what happens in the reverse direction and demonstrate the 
+effect of the irreversibility quantitatively, we have constructed another free-energy profile for the 
+reverse transition Na1\dprim\ $\rightarrow$ Na1\prim. As shown in \figref{na3:fig7}, there is a rising 
+free-energy profile in the reverse direction well beyond TS2. Thus the \Na\ ion cannot breach the H-bond 
+network, and it has to move forward to bulk. A clearer illustration of the ratchet-like behaviour of N310 
+during the Na1\prim\ $\rightarrow$ Na1\dprim\ transition is provided in \figref{na3:fig6}. The ratchet 
+function of N310 is as important in facilitating the release of the \Na\ ion as its chaperoning by D312 
+during the Na3 $\rightarrow$ Na1\prim\ transition. However, it is important to note that the ratchet 
+process may be a result of micro-irreversibility due to limited sampling. Long-time MD simulations 
+in the scale of microseconds may reveal a different picture.
+
+\begin{figure}[t!]
+\centering
+ \includegraphics[width=0.6\textwidth]{Figures/Na3-Paper/fig7.png}
+ \caption{Comparison of the free-energy profiles for the forward (black) and reverse (red) 
+          transitions between the Na1\prim\ and Na1\dprim\ sites. The reverse 
+          energy barrier exceeds 16 kcal/mol, which is well over the barrier 
+          for the Na1\dprim\ $\rightarrow$ Bulk transition.}
+\label{na3:fig7}
+\end{figure}
+
+A similar H-bond network but without the involvement of D312 was also observed in MD simulations 
+of the OF conformation of \GltPh~\cite{Huang2010}. It was noted that this H-bond network prevented 
+hydration of the Na3 site, but the presence of a \Na\ ion  at the Na1 site was sufficient to break 
+the H-bond network and access the Na3 site~\cite{Huang2010}. As mentioned earlier (\tabref{na3:tab1}), 
+\Na\ is coordinated by N310 (O) at the Na1 site, and not by the N310 side chain, which makes only 
+one H-bond with N401 (O). Thus it is relatively easy for \Na\ to break this single H-bond as observed 
+in MD simulations. In contrast, at the Na1\dprim\ site of the IF conformation, the N310 side chain is 
+involved in two H-bonds besides coordinating \Na\ (\figrefi{na3:fig6}{B}). As demonstrated by the 
+reverse free-energy profile (\figref{na3:fig7}), it is much harder to break this H-bond network, which 
+is fortified by the addition of the D312 side chain.
+
+In other respects, the Na1\prim\ $\rightarrow$ Na1\dprim\ transition is rather ordinary. The 
+diffusion coefficient of \Na\ remains near the bulk values, and the energy barrier at TS2 
+(4.9~kcal/mol) is rather low. The transition time estimated using the free-energy profile and 
+diffusion coefficient results in \figrefi{na3:fig3}{B} yields about 10~ns. This is nine orders of 
+magnitude smaller than the escape time from the Na3 site and hence completely negligible 
+compared to it.
+
+C) Na1\dprim\ $\rightarrow$ Bulk (\figrefi{na3:fig3}{C}): Here, the transition state on the free-energy 
+profile extends to about 4.5~\angs. As the \Na\ ion moves towards bulk, N401 (O) is the first to depart 
+its coordination shell. The N310 and D405 side chain oxygens track \Na\ for about 4~\angs\ and 
+start decoupling after that. During the initial pulling stage from N310 and D405, a second water 
+molecule enters the coordination shell of \Na. We note that the TM8 backbone remains relatively 
+rigid during the release of \Na\ (\figref{na3:fig4}), which partly explains the limited chaperoning 
+role played by D405 compared to D312. The under-coordination of \Na\ while pulling the N310 and D405 
+side chain is responsible for the steep rise in the profile in the region $z=0$--5~\angs. After decoupling 
+of N310 and D405 (i.e. from $z=5$~\angs) the ion is coordinated by about 5 water molecules as shown 
+in \figref{na3:fig8}. At this point, \Na\ is in the third transition state TS3 and is coordinated by 
+one shell of water molecules. It is important to note that the \Na\ ion is not out the bulk medium yet 
+as it is still inside the binding pocket even though it is coordinated with 5 water molecules. The 
+number of water molecules coordinating \Na\ decreases to three as it passes through the HP1-HP2 gate. 
+From 6--10~\angs\ the \Na\ weakly interacts with A307 (O), G354 (O) and S279 (OH) residues, which is 
+responsible for the dip in the free-energy profile from the transition state and reduced number of water 
+molecules. From 10~\angs\ onwards \Na\ detaches itself from any protein oxygens with S279 (OH) being 
+the last and is coordinated by about 6 water molecules, \figref{na3:fig8}. As shown in the free-energy 
+profile beyond 10~\angs\ the energy is flat signalling that the ion has reached a bulk-like medium. 
+
+\begin{figure}[t!]
+\centering
+ \includegraphics[width=0.6\textwidth]{Figures/Na3-Paper/fig8.jpg}
+ \caption{The average number of water molecules entering the coordination shell of \Na\ 
+          during the Na1\dprim\ $\rightarrow$ Bulk transition. The results are obtained 
+          from the umbrella sampling windows using a cutoff radius of 3~\angs\ for 
+          the \Na--O distance.}
+\label{na3:fig8}
+\end{figure}
+
+The peak value of the free-energy profile is 14.3~kcal/mol, which is a substantial energy barrier for 
+the ion to surmount and exit into the bulk. At the bulk (the flat region in the plot) the energy is 11.1~kcal/mol. 
+The diffusion coefficient of the ion fluctuates around half the bulk value and approaches the bulk value 
+near the flat region of the profile reflecting the exit and entry of various protein and water oxygens 
+to the coordination shell of the ion during the extended transition region. The escape time obtained 
+from the free-energy profile and diffusion coefficients in \figrefi{na3:fig3}{C} is about 0.5~s. While 
+this is slower than the Na1\prim\ $\rightarrow$ Na1\dprim\ transition, it is only one order of magnitude 
+faster compared to the escape time from the Na3 site. Thus the slowest step for the release of \Na\ from 
+Na3 is the Na3 $\rightarrow$ Na1\prim\ transition.
+
+\subsection{Implications for \GltPh}
+The detailed discussion of the release of the \Na\ ion from the Na3 site to bulk shows that the 
+protein does not just provide a passive conduit but is actively involved in the release of the ion 
+through the chaperon and ratchet functions of the D312 and N310 residues in the NMDGT motif. This is 
+consistent with the calorimetric studies~\cite{Reyes2013b,Hanelt2015,Ewers2013} and comparison of the 
+apo and bound structures of \GltPh~\cite{Verdon2014}, which indicate that substantial conformational 
+changes occur in the protein during \Na\ binding. An important consequence of these observations is 
+that binding free energy calculated using path-independent methods with unvarying \GltPh\ structures 
+cannot provide an accurate description of the ligand binding/unbinding process. For example, the energy 
+for the translocation of \Na\ from the Na1\dprim\ site differs between the two methods. The free-energy 
+profile for this transition yields an energy difference of $-$11.1 kca/mol (\figrefi{na3:fig3}{C}) while 
+TI calculations give $-$17.5 kcal/mol (\figref{na3:figs2}). This difference is due to the conformational 
+changes as a result of doing work on the protein as the ion unbinds. In this case, the chaperoning of 
+the \Na\ ion by the N310 and D405 side chain up to TS3 helps reduce the energy barrier in the profile 
+and hence the translocation energy. Therefore, to obtain the correct value with path-independent 
+methods, the conformational energy needs to be taken into account. As mentioned previously, the 
+estimated escape time of \Na\ is around 7~sec, yet the measured turnover rate is 3~min~\cite{Ryan2009}. 
+Thus even though the release process is it is not be the rate-limiting step in the transport cycle. 
+The rate-limiting step in the transport cycle is most likely the conformational transition of the 
+protein from the OF to IF state. Work has been done on this transition using the anisotropic network 
+model (ANM) with coarse-grained models of \GltPh~\cite{Das2014}. However, an estimate of the 
+transition time has not been calculated, and further studies are needed.
+
+\subsection{Implications for EAATs}
+Transport rates in EAATs are much faster than \GltPh, e.g., the turnover time for EAAT3 is about 
+0.01~s~\cite{Grewer2000}, which is 2000 times faster than \GltPh. Because the residues involved 
+in ligand binding are conserved between \GltPh\ and EAATs, one has to consider other factors 
+for the speed up. Computational studies on a homology model of EAAT3 have shown that a \K\ ion 
+can bind to a site near the Na1\prim--Na1\dprim\ sites~\cite{Heinzelmann2014,Heinzelmann2014a}. 
+As discussed in the Na3 $\rightarrow$ Na1\prim\ transition, the tunnel connecting the two sites 
+is too narrow to allow any exchange of the \Na\ and \K\ ions. This also appears to be the reason 
+why \Na\ at the Na3 site could not be exchanged with \Tl\ in \GltPh\ crystal structures 
+\cite{Boudker2007,Reyes2009}. Inspection of the EAAT1 crystal structure \cite{Canul-Tec2017} shows 
+that this tunnel is larger than that in \GltPh. Thus the barrier of Na3 $\rightarrow$ Na1\prim\ 
+is expected to decrease in EAATs. In addition, the exchange of \K\ and \Na\ will further reduce 
+the transport cycle time, which could explain the extremely fast process compared to \GltPh. 
+The exchange process of \Na\ and \K\ requires further experimental and computational studies to 
+clarify this hypothesis. 
+
+\section{Conclusion}
+Compelled by the recent experimental findings that conformational changes accompany binding of \Na\ 
+ions in \GltPh, we have performed umbrella sampling calculations for the release of the last \Na\ 
+ion from the Na3 site to bulk in the IF state of \GltPh. Identifying the rate-limiting steps in \GltPh\ 
+is expected to provide important clues on how the coupling of \Hi\ and \Na\ ions in EAATs could speed up the 
+transport rate by up to three orders of magnitude. Our estimate for the release time of the last \Na\ 
+ion, obtained from the free-energy profile and diffusion coefficient results, is about 7~sec. This is 
+a small fraction of the observed turnover time of 3 min (about 4\%), which suggests that the release 
+of the last \Na\ ion is a very slow process but is not the rate-limiting step in \GltPh. The transition 
+from the OF to IF is expected to be a slower process than the release of \Na.
+
+The umbrella sampling simulations, performed along the three transition paths identified between 
+the Na3 site and bulk, have revealed that the D312 and N310 residues in the NMDGT motif undergo 
+substantial conformational changes, and thereby play crucial roles in facilitating the release of 
+the \Na\ ion. As shown in  \figref{na3:fig5}, it would be impossible for the \Na\ ion to escape from 
+the Na3 site without the chaperoning of the D312 side chain. Similarly, the N310 side chain chaperones 
+the \Na\ ion from the Na3 site all the way to the protein/bulk interface. Another contribution of N310 
+to the release of the \Na\ ion is its ratchet function during the Na1\prim\ $\rightarrow$ Na1\dprim\ 
+transition, which prevents the ion from going back in the short timescale available in the current 
+MD simulations (\figrefs{na3:fig6} and \ref{na3:fig7}). Much longer simulations in the microseconds 
+timescale may demonstrate the reversibility of the N310 side chain. Also, the path investigated may or 
+may not be the lowest free energy path. Further investigation is required, and more advanced 
+computational method like the string-method with swarms of trajectories~\cite{Gan2009} may be needed.
+
+\pagebreak
+\begin{subappendices}
+\counterwithin{figure}{section}
+{
+\hypersetup{linkcolor=black}
+\section{Appendix for Chapter~\ref*{chap:unbind}}
+}
+
+
+% Free-energy profile Convergence
+\begin{figure}[b!]
+\centering
+ \includegraphics[width=8.5cm]{Figures/Na3-Paper/fig1A.png}
+ \caption{The convergence of the free-energy profile shown in \figref{na3:fig3} from block 
+          data analysis. In each case, 3 ns of production is collected after equilibration, 
+          which took up to 2 ns (not shown). The free-energy profile, obtained from 1 ns 
+          blocks, is seen to fluctuate around the baseline profile obtained from the total 
+          production data.}
+\label{na3:figs1}
+\end{figure}
+
+% TI profile for Na1'' to Bulk
+\begin{figure}[h!]
+ \centering
+ \includegraphics[width=0.6\textwidth]{Figures/Na3-Paper/fig2A.jpg}
+  \caption{The convergence of TI calculations for translocating the \Na\ ion from 
+           bulk to the Na1\dprim\ site. Calculations are performed using the 
+           protocols in Refs.~\cite{Heinzelmann2011,Heinzelmann2013}. The difference 
+           between the forward and backward TI results is less than a kcal/mol, 
+           indicating negligible hysteresis. The average of the forward and backward 
+           results yields $-17.5$~kcal/mol for the translocation free energy of 
+           \Na\ from bulk to the Na1\dprim\ site.}
+\label{na3:figs2}
+\end{figure}
+
+\end{subappendices}
+
+\counterwithin{figure}{chapter}
+%=======================================================================================%
