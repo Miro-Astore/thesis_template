@@ -1,200 +1,184 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hyperref [chap:abbrev]{List of Abbreviations}}{ix}{chapter*.1}% 
+\contentsline {chapter}{\hyperref [chap:abbrev]{List of Abbreviations}}{ix}{chapter*.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{xi}{section*.3}% 
+\contentsline {chapter}{List of Figures}{xii}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xvii}{section*.5}% 
+\contentsline {chapter}{List of Tables}{xvii}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Life Through a Microscopic Lens - Molecular Biophysics}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}Physics in a test tube}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Computational Molecular Biophysics}{2}{section.1.2}% 
+\contentsline {chapter}{\numberline {2}Theory and Methods}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}The Rise of Computers}{2}{subsection.1.2.1}% 
+\contentsline {section}{\numberline {2.1}Quantum Mechanical Origins}{2}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Computer Modelling}{4}{subsection.1.2.2}% 
+\contentsline {section}{\numberline {2.2}Classical Molecular Dynamics}{4}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Simulations of Biomolecules}{5}{subsection.1.2.3}% 
+\contentsline {subsection}{\numberline {2.2.1}Empirical Force Fields}{4}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Glutamate Transporters}{5}{section.1.3}% 
+\contentsline {subsection}{\numberline {2.2.2}Numerical Integration}{7}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Gramicidin A Ion Channel}{8}{section.1.4}% 
+\contentsline {subsection}{\numberline {2.2.3}Thermodynamic States}{8}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Ion Solvation}{11}{section.1.5}% 
+\contentsline {subsubsection}{Temperature Control}{9}{section*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Outline}{12}{section.1.6}% 
+\contentsline {subsubsection}{Pressure Control}{10}{section*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Theory and Methods}{14}{chapter.2}% 
+\contentsline {section}{\numberline {2.3}Free Energy Calculations}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Quantum Mechanical Origins}{14}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.3.1}Alchemical Perturbation}{11}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Classical Molecular Dynamics}{16}{section.2.2}% 
+\contentsline {subsubsection}{Exponential Averaging}{11}{section*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Empirical Force Fields}{16}{subsection.2.2.1}% 
+\contentsline {subsubsection}{Thermodynamic Integration}{13}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Numerical Integration}{19}{subsection.2.2.2}% 
+\contentsline {subsubsection}{Bennett Acceptance Ratio}{13}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Thermodynamic States}{20}{subsection.2.2.3}% 
+\contentsline {subsubsection}{Multistate Bennett Acceptance Ratio}{14}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Temperature Control}{21}{section*.17}% 
+\contentsline {subsection}{\numberline {2.3.2}Potential of Mean Force}{15}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pressure Control}{21}{section*.18}% 
+\contentsline {chapter}{\numberline {3}Review of Glutamate Transporters}{18}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Free Energy Calculations}{22}{section.2.3}% 
+\contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Alchemical Perturbation}{23}{subsection.2.3.1}% 
+\contentsline {section}{\numberline {3.2}MD Simulations of Glutamate Transporters}{21}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Exponential Averaging}{23}{section*.20}% 
+\contentsline {subsection}{\numberline {3.2.1}Prokaryotic Homologue Glt$_\text {Ph}$}{21}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Thermodynamic Integration}{24}{section*.21}% 
+\contentsline {subsection}{\numberline {3.2.2}Excitatory Amino-Acid Transporters}{26}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bennett Acceptance Ratio}{25}{section*.22}% 
+\contentsline {subsection}{\numberline {3.2.3}Neutral Amino-Acid Transporters}{29}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Multistate Bennett Acceptance Ratio}{25}{section*.23}% 
+\contentsline {section}{\numberline {3.3}Problem Statement}{30}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Potential of Mean Force}{27}{subsection.2.3.2}% 
+\contentsline {chapter}{\numberline {4}Role of Methionine in Na2 Binding in Glt$_\text {Ph}$}{32}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of Glutamate Transporters}{29}{chapter.3}% 
+\contentsline {section}{\numberline {4.1}Introduction}{33}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{30}{section.3.1}% 
+\contentsline {section}{\numberline {4.2}Method}{34}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}MD Simulations of Glutamate Transporters}{32}{section.3.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Model System and MD Simulations}{34}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Prokaryotic Homologue Glt$_\text {Ph}$}{32}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Free Energy Calculations}{34}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Excitatory Amino-Acid Transporters}{36}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Methionine Side Chain Analogue}{35}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Neutral Amino-Acid Transporters}{40}{subsection.3.2.3}% 
+\contentsline {section}{\numberline {4.3}Results and Discussion}{35}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Problem Statement}{41}{section.3.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Characterisation of the Na2 Site: Experiments vs MD Simulations}{35}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Role of Methionine in Na2 Binding in Glt$_\text {Ph}$}{42}{chapter.4}% 
+\contentsline {subsection}{\numberline {4.3.2}Optimising the Partial Charges on Methionine}{37}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.3.3}Effect of the Modified Charges on Other Properties of Methionine}{39}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Method}{44}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.3.4}Discussion}{39}{subsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Model System and MD Simulations}{44}{subsection.4.2.1}% 
+\contentsline {section}{\numberline {4.4}Conclusion}{41}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Free Energy Calculations}{44}{subsection.4.2.2}% 
+\contentsline {chapter}{\numberline {5}Mechanism of Ligand Binding in Glt$_\text {Ph}$}{42}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Methionine Side Chain Analogue}{45}{subsection.4.2.3}% 
+\contentsline {section}{\numberline {5.1}Introduction}{43}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results and Discussion}{45}{section.4.3}% 
+\contentsline {section}{\numberline {5.2}Method}{44}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Characterisation of the Na2 Site: Experiments vs MD Simulations}{45}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {5.2.1}Model System and Simulation Details}{44}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Optimising the Partial Charges on Methionine}{46}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {5.2.2}Free Energy Calculations}{45}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Effect of the Modified Charges on Other Properties of Methionine}{48}{subsection.4.3.3}% 
+\contentsline {section}{\numberline {5.3}Results and Discussion}{47}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Discussion}{49}{subsection.4.3.4}% 
+\contentsline {subsection}{\numberline {5.3.1}Characterisation of the Na$^+$\ Binding Sites}{47}{subsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Conclusion}{50}{section.4.4}% 
+\contentsline {subsection}{\numberline {5.3.2}Binding Free Energies}{48}{subsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Mechanism of Ligand Binding in Glt$_\text {Ph}$}{52}{chapter.5}% 
+\contentsline {section}{\numberline {5.4}Conclusion}{54}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{53}{section.5.1}% 
+\contentsline {section}{\numberline {5.A}Appendix for Chapter~\ref *{chap:bind}}{57}{section.1.5.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Method}{54}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Escape of Na$^+$\ from Na3 in Glt$_\text {Ph}$}{60}{appendix.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Model System and Simulation Details}{54}{subsection.5.2.1}% 
+\contentsline {section}{\numberline {6.1}Introduction}{61}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Free Energy Calculations}{55}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {6.2}Method}{62}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Results and Discussion}{57}{section.5.3}% 
+\contentsline {subsection}{\numberline {6.2.1}Model System and Simulation Details}{62}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Characterisation of the Na$^+$\ Binding Sites}{57}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Umbrella Sampling and Free Energy Calculations}{63}{subsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Binding Free Energies}{58}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {6.2.3}Diffusion Coefficient and Mean First-passage Time}{64}{subsection.6.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Conclusion}{64}{section.5.4}% 
+\contentsline {section}{\numberline {6.3}Results and Discussion}{65}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.A}Appendix for Chapter~\ref *{chap:bind}}{66}{section.1.5.A}% 
+\contentsline {subsection}{\numberline {6.3.1}Escape Path of Na$^+$\ from the Na3 Site}{65}{subsection.6.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Escape of Na$^+$\ from Na3 in Glt$_\text {Ph}$}{69}{chapter.6}% 
+\contentsline {subsection}{\numberline {6.3.2}Free Energy from Umbrella Sampling Simulations and Conformational Changes}{67}{subsection.6.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{70}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.3.3}Implications for Glt$_\text {Ph}$}{74}{subsection.6.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Method}{71}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.3.4}Implications for EAATs}{75}{subsection.6.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Model System and Simulation Details}{71}{subsection.6.2.1}% 
+\contentsline {section}{\numberline {6.4}Conclusion}{75}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Umbrella Sampling and Free Energy Calculations}{72}{subsection.6.2.2}% 
+\contentsline {section}{\numberline {6.A}Appendix for Chapter~\ref *{chap:unbind}}{77}{section.2.6.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}Diffusion Coefficient and Mean First-passage Time}{73}{subsection.6.2.3}% 
+\contentsline {chapter}{\numberline {7}Effect of Lipid Membranes on K$^+$\ Permeation in gA}{79}{appendix.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Results and Discussion}{74}{section.6.3}% 
+\contentsline {section}{\numberline {7.1}Introduction}{80}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Escape Path of Na$^+$\ from the Na3 Site}{74}{subsection.6.3.1}% 
+\contentsline {section}{\numberline {7.2}Method}{81}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Free Energy from Umbrella Sampling Simulations and Conformational Changes}{76}{subsection.6.3.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Model System}{81}{subsection.7.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Implications for Glt$_\text {Ph}$}{82}{subsection.6.3.3}% 
+\contentsline {subsection}{\numberline {7.2.2}PMF Calculations}{82}{subsection.7.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.4}Implications for EAATs}{83}{subsection.6.3.4}% 
+\contentsline {subsection}{\numberline {7.2.3}MD Simulation}{82}{subsection.7.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Conclusion}{84}{section.6.4}% 
+\contentsline {section}{\numberline {7.3}Results and Discussion}{82}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.A}Appendix for Chapter~\ref *{chap:unbind}}{85}{section.2.6.A}% 
+\contentsline {subsection}{\numberline {7.3.1}Membrane Bilayer}{82}{subsection.7.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Effect of Lipid Membranes on K$^+$\ Permeation in gA}{87}{chapter.7}% 
+\contentsline {subsection}{\numberline {7.3.2}gA Embedded in Membrane Bilayer}{84}{subsection.7.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Introduction}{88}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.3.3}Potential of Mean Force of K$^+$\ in gA}{87}{subsection.7.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Method}{89}{section.7.2}% 
+\contentsline {section}{\numberline {7.4}Conclusion}{91}{section.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Model System}{89}{subsection.7.2.1}% 
+\contentsline {chapter}{\numberline {8}Ion Solvation Energy with Spherical Boundary Conditions}{92}{appendix.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}PMF Calculations}{90}{subsection.7.2.2}% 
+\contentsline {section}{\numberline {8.1}Introduction}{93}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}MD Simulation}{90}{subsection.7.2.3}% 
+\contentsline {section}{\numberline {8.2}Method}{94}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Results and Discussion}{91}{section.7.3}% 
+\contentsline {subsection}{\numberline {8.2.1}Solvation Free Energy with SBC}{94}{subsection.8.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Membrane Bilayer}{91}{subsection.7.3.1}% 
+\contentsline {subsection}{\numberline {8.2.2}Self-energy of Ions and Molecules in a Cavity}{96}{subsection.8.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}gA Embedded in Membrane Bilayer}{92}{subsection.7.3.2}% 
+\contentsline {subsection}{\numberline {8.2.3}Computational Details for SBC}{97}{subsection.8.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Potential of Mean Force of K$^+$\ in gA}{94}{subsection.7.3.3}% 
+\contentsline {subsection}{\numberline {8.2.4}Solvation Free Energy with PBC}{98}{subsection.8.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Conclusion}{97}{section.7.4}% 
+\contentsline {section}{\numberline {8.3}Results and Discussion}{99}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Ion Solvation Energy with Spherical Boundary Conditions}{99}{chapter.8}% 
+\contentsline {subsection}{\numberline {8.3.1}Ion Solvation}{99}{subsection.8.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Introduction}{100}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.3.2}Charged Amino Acids}{104}{subsection.8.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Method}{101}{section.8.2}% 
+\contentsline {section}{\numberline {8.4}Conclusion}{106}{section.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Solvation Free Energy with SBC}{101}{subsection.8.2.1}% 
+\contentsline {chapter}{\numberline {9}Concluding Remarks}{107}{appendix.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Self-energy of Ions and Molecules in a Cavity}{102}{subsection.8.2.2}% 
+\contentsline {section}{\numberline {9.1}Summary of Research}{107}{section.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.3}Computational Details for SBC}{104}{subsection.8.2.3}% 
+\contentsline {section}{\numberline {9.2}Potential Future Research}{109}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.4}Solvation Free Energy with PBC}{105}{subsection.8.2.4}% 
+\contentsline {chapter}{\numberline {A}Ion Self-Energy Python Script}{111}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Results and Discussion}{106}{section.8.3}% 
+\contentsline {chapter}{\numberline {B}Funnel Potential tclForces Script}{112}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Ion Solvation}{106}{subsection.8.3.1}% 
+\contentsline {chapter}{\numberline {C}Position-Dependent Diffusion Coefficient}{113}{appendix.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Charged Amino Acids}{111}{subsection.8.3.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Conclusion}{112}{section.8.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Concluding Remarks}{114}{chapter.9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Summary of Research}{114}{section.9.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Potential Future Research}{116}{section.9.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Ion Self-Energy Python Script}{118}{appendix.A}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Funnel Potential tclForces Script}{120}{appendix.B}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Position-Dependent Diffusion Coefficient}{124}{appendix.C}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{127}{appendix*.76}% 
+\contentsline {chapter}{Bibliography}{114}{appendix*.69}%

@@ -2,92 +2,84 @@
 \BOOKMARK [0][-]{section*.3}{List of Figures}{}% 2
 \BOOKMARK [0][-]{section*.5}{List of Tables}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
-\BOOKMARK [1][-]{section.1.1}{Life Through a Microscopic Lens - Molecular Biophysics}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Computational Molecular Biophysics}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.2.1}{The Rise of Computers}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.2}{Computer Modelling}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.3}{Simulations of Biomolecules}{section.1.2}% 9
-\BOOKMARK [1][-]{section.1.3}{Glutamate Transporters}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.4}{Gramicidin A Ion Channel}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.5}{Ion Solvation}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.6}{Outline}{chapter.1}% 13
-\BOOKMARK [0][-]{chapter.2}{Theory and Methods}{}% 14
-\BOOKMARK [1][-]{section.2.1}{Quantum Mechanical Origins}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.2}{Classical Molecular Dynamics}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.1}{Empirical Force Fields}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.2}{Numerical Integration}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.3}{Thermodynamic States}{section.2.2}% 19
-\BOOKMARK [1][-]{section.2.3}{Free Energy Calculations}{chapter.2}% 20
-\BOOKMARK [2][-]{subsection.2.3.1}{Alchemical Perturbation}{section.2.3}% 21
-\BOOKMARK [2][-]{subsection.2.3.2}{Potential of Mean Force}{section.2.3}% 22
-\BOOKMARK [0][-]{chapter.3}{Review of Glutamate Transporters}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.2}{MD Simulations of Glutamate Transporters}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.2.1}{Prokaryotic Homologue GltPh}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.2}{Excitatory Amino-Acid Transporters}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.3}{Neutral Amino-Acid Transporters}{section.3.2}% 28
-\BOOKMARK [1][-]{section.3.3}{Problem Statement}{chapter.3}% 29
-\BOOKMARK [0][-]{chapter.4}{Role of Methionine in Na2 Binding in GltPh}{}% 30
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{Method}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.2.1}{Model System and MD Simulations}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.2}{Free Energy Calculations}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.3}{Methionine Side Chain Analogue}{section.4.2}% 35
-\BOOKMARK [1][-]{section.4.3}{Results and Discussion}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.3.1}{Characterisation of the Na2 Site: Experiments vs MD Simulations}{section.4.3}% 37
-\BOOKMARK [2][-]{subsection.4.3.2}{Optimising the Partial Charges on Methionine}{section.4.3}% 38
-\BOOKMARK [2][-]{subsection.4.3.3}{Effect of the Modified Charges on Other Properties of Methionine}{section.4.3}% 39
-\BOOKMARK [2][-]{subsection.4.3.4}{Discussion}{section.4.3}% 40
-\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Mechanism of Ligand Binding in GltPh}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.2.1}{Model System and Simulation Details}{section.5.2}% 45
-\BOOKMARK [2][-]{subsection.5.2.2}{Free Energy Calculations}{section.5.2}% 46
-\BOOKMARK [1][-]{section.5.3}{Results and Discussion}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.3.1}{Characterisation of the Na+ Binding Sites}{section.5.3}% 48
-\BOOKMARK [2][-]{subsection.5.3.2}{Binding Free Energies}{section.5.3}% 49
-\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 50
-\BOOKMARK [1][-]{section.1.5.A}{Appendix for Chapter 5}{chapter.5}% 51
-\BOOKMARK [0][-]{chapter.6}{Escape of Na+ from Na3 in GltPh}{}% 52
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 53
-\BOOKMARK [1][-]{section.6.2}{Method}{chapter.6}% 54
-\BOOKMARK [2][-]{subsection.6.2.1}{Model System and Simulation Details}{section.6.2}% 55
-\BOOKMARK [2][-]{subsection.6.2.2}{Umbrella Sampling and Free Energy Calculations}{section.6.2}% 56
-\BOOKMARK [2][-]{subsection.6.2.3}{Diffusion Coefficient and Mean First-passage Time}{section.6.2}% 57
-\BOOKMARK [1][-]{section.6.3}{Results and Discussion}{chapter.6}% 58
-\BOOKMARK [2][-]{subsection.6.3.1}{Escape Path of Na+ from the Na3 Site}{section.6.3}% 59
-\BOOKMARK [2][-]{subsection.6.3.2}{Free Energy from Umbrella Sampling Simulations and Conformational Changes}{section.6.3}% 60
-\BOOKMARK [2][-]{subsection.6.3.3}{Implications for GltPh}{section.6.3}% 61
-\BOOKMARK [2][-]{subsection.6.3.4}{Implications for EAATs}{section.6.3}% 62
-\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 63
-\BOOKMARK [1][-]{section.2.6.A}{Appendix for Chapter 6}{chapter.6}% 64
-\BOOKMARK [0][-]{chapter.7}{Effect of Lipid Membranes on K+ Permeation in gA}{}% 65
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 66
-\BOOKMARK [1][-]{section.7.2}{Method}{chapter.7}% 67
-\BOOKMARK [2][-]{subsection.7.2.1}{Model System}{section.7.2}% 68
-\BOOKMARK [2][-]{subsection.7.2.2}{PMF Calculations}{section.7.2}% 69
-\BOOKMARK [2][-]{subsection.7.2.3}{MD Simulation}{section.7.2}% 70
-\BOOKMARK [1][-]{section.7.3}{Results and Discussion}{chapter.7}% 71
-\BOOKMARK [2][-]{subsection.7.3.1}{Membrane Bilayer}{section.7.3}% 72
-\BOOKMARK [2][-]{subsection.7.3.2}{gA Embedded in Membrane Bilayer}{section.7.3}% 73
-\BOOKMARK [2][-]{subsection.7.3.3}{Potential of Mean Force of K+ in gA}{section.7.3}% 74
-\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 75
-\BOOKMARK [0][-]{chapter.8}{Ion Solvation Energy with Spherical Boundary Conditions}{}% 76
-\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 77
-\BOOKMARK [1][-]{section.8.2}{Method}{chapter.8}% 78
-\BOOKMARK [2][-]{subsection.8.2.1}{Solvation Free Energy with SBC}{section.8.2}% 79
-\BOOKMARK [2][-]{subsection.8.2.2}{Self-energy of Ions and Molecules in a Cavity}{section.8.2}% 80
-\BOOKMARK [2][-]{subsection.8.2.3}{Computational Details for SBC}{section.8.2}% 81
-\BOOKMARK [2][-]{subsection.8.2.4}{Solvation Free Energy with PBC}{section.8.2}% 82
-\BOOKMARK [1][-]{section.8.3}{Results and Discussion}{chapter.8}% 83
-\BOOKMARK [2][-]{subsection.8.3.1}{Ion Solvation}{section.8.3}% 84
-\BOOKMARK [2][-]{subsection.8.3.2}{Charged Amino Acids}{section.8.3}% 85
-\BOOKMARK [1][-]{section.8.4}{Conclusion}{chapter.8}% 86
-\BOOKMARK [0][-]{chapter.9}{Concluding Remarks}{}% 87
-\BOOKMARK [1][-]{section.9.1}{Summary of Research}{chapter.9}% 88
-\BOOKMARK [1][-]{section.9.2}{Potential Future Research}{chapter.9}% 89
-\BOOKMARK [0][-]{appendix.A}{Ion Self-Energy Python Script}{}% 90
-\BOOKMARK [0][-]{appendix.B}{Funnel Potential tclForces Script}{}% 91
-\BOOKMARK [0][-]{appendix.C}{Position-Dependent Diffusion Coefficient}{}% 92
-\BOOKMARK [0][-]{appendix*.76}{Bibliography}{}% 93
+\BOOKMARK [1][-]{section.1.1}{Physics in a test tube}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Theory and Methods}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Quantum Mechanical Origins}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Classical Molecular Dynamics}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Empirical Force Fields}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{Numerical Integration}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.3}{Thermodynamic States}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Free Energy Calculations}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Alchemical Perturbation}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Potential of Mean Force}{section.2.3}% 14
+\BOOKMARK [0][-]{chapter.3}{Review of Glutamate Transporters}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{MD Simulations of Glutamate Transporters}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.2.1}{Prokaryotic Homologue GltPh}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{Excitatory Amino-Acid Transporters}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.3}{Neutral Amino-Acid Transporters}{section.3.2}% 20
+\BOOKMARK [1][-]{section.3.3}{Problem Statement}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Role of Methionine in Na2 Binding in GltPh}{}% 22
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Method}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.2.1}{Model System and MD Simulations}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.2}{Free Energy Calculations}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.3}{Methionine Side Chain Analogue}{section.4.2}% 27
+\BOOKMARK [1][-]{section.4.3}{Results and Discussion}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.3.1}{Characterisation of the Na2 Site: Experiments vs MD Simulations}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.2}{Optimising the Partial Charges on Methionine}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.3}{Effect of the Modified Charges on Other Properties of Methionine}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.4}{Discussion}{section.4.3}% 32
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Mechanism of Ligand Binding in GltPh}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Model System and Simulation Details}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{Free Energy Calculations}{section.5.2}% 38
+\BOOKMARK [1][-]{section.5.3}{Results and Discussion}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.3.1}{Characterisation of the Na+ Binding Sites}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.2}{Binding Free Energies}{section.5.3}% 41
+\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 42
+\BOOKMARK [1][-]{section.1.5.A}{Appendix for Chapter 5}{chapter.5}% 43
+\BOOKMARK [0][-]{appendix.6}{Escape of Na+ from Na3 in GltPh}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Introduction}{appendix.6}% 45
+\BOOKMARK [1][-]{section.6.2}{Method}{appendix.6}% 46
+\BOOKMARK [2][-]{subsection.6.2.1}{Model System and Simulation Details}{section.6.2}% 47
+\BOOKMARK [2][-]{subsection.6.2.2}{Umbrella Sampling and Free Energy Calculations}{section.6.2}% 48
+\BOOKMARK [2][-]{subsection.6.2.3}{Diffusion Coefficient and Mean First-passage Time}{section.6.2}% 49
+\BOOKMARK [1][-]{section.6.3}{Results and Discussion}{appendix.6}% 50
+\BOOKMARK [2][-]{subsection.6.3.1}{Escape Path of Na+ from the Na3 Site}{section.6.3}% 51
+\BOOKMARK [2][-]{subsection.6.3.2}{Free Energy from Umbrella Sampling Simulations and Conformational Changes}{section.6.3}% 52
+\BOOKMARK [2][-]{subsection.6.3.3}{Implications for GltPh}{section.6.3}% 53
+\BOOKMARK [2][-]{subsection.6.3.4}{Implications for EAATs}{section.6.3}% 54
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{appendix.6}% 55
+\BOOKMARK [1][-]{section.2.6.A}{Appendix for Chapter 6}{appendix.6}% 56
+\BOOKMARK [0][-]{appendix.7}{Effect of Lipid Membranes on K+ Permeation in gA}{}% 57
+\BOOKMARK [1][-]{section.7.1}{Introduction}{appendix.7}% 58
+\BOOKMARK [1][-]{section.7.2}{Method}{appendix.7}% 59
+\BOOKMARK [2][-]{subsection.7.2.1}{Model System}{section.7.2}% 60
+\BOOKMARK [2][-]{subsection.7.2.2}{PMF Calculations}{section.7.2}% 61
+\BOOKMARK [2][-]{subsection.7.2.3}{MD Simulation}{section.7.2}% 62
+\BOOKMARK [1][-]{section.7.3}{Results and Discussion}{appendix.7}% 63
+\BOOKMARK [2][-]{subsection.7.3.1}{Membrane Bilayer}{section.7.3}% 64
+\BOOKMARK [2][-]{subsection.7.3.2}{gA Embedded in Membrane Bilayer}{section.7.3}% 65
+\BOOKMARK [2][-]{subsection.7.3.3}{Potential of Mean Force of K+ in gA}{section.7.3}% 66
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{appendix.7}% 67
+\BOOKMARK [0][-]{appendix.8}{Ion Solvation Energy with Spherical Boundary Conditions}{}% 68
+\BOOKMARK [1][-]{section.8.1}{Introduction}{appendix.8}% 69
+\BOOKMARK [1][-]{section.8.2}{Method}{appendix.8}% 70
+\BOOKMARK [2][-]{subsection.8.2.1}{Solvation Free Energy with SBC}{section.8.2}% 71
+\BOOKMARK [2][-]{subsection.8.2.2}{Self-energy of Ions and Molecules in a Cavity}{section.8.2}% 72
+\BOOKMARK [2][-]{subsection.8.2.3}{Computational Details for SBC}{section.8.2}% 73
+\BOOKMARK [2][-]{subsection.8.2.4}{Solvation Free Energy with PBC}{section.8.2}% 74
+\BOOKMARK [1][-]{section.8.3}{Results and Discussion}{appendix.8}% 75
+\BOOKMARK [2][-]{subsection.8.3.1}{Ion Solvation}{section.8.3}% 76
+\BOOKMARK [2][-]{subsection.8.3.2}{Charged Amino Acids}{section.8.3}% 77
+\BOOKMARK [1][-]{section.8.4}{Conclusion}{appendix.8}% 78
+\BOOKMARK [0][-]{appendix.9}{Concluding Remarks}{}% 79
+\BOOKMARK [1][-]{section.9.1}{Summary of Research}{appendix.9}% 80
+\BOOKMARK [1][-]{section.9.2}{Potential Future Research}{appendix.9}% 81
+\BOOKMARK [0][-]{appendix.A}{Ion Self-Energy Python Script}{}% 82
+\BOOKMARK [0][-]{appendix.B}{Funnel Potential tclForces Script}{}% 83
+\BOOKMARK [0][-]{appendix.C}{Position-Dependent Diffusion Coefficient}{}% 84
+\BOOKMARK [0][-]{appendix*.69}{Bibliography}{}% 85
