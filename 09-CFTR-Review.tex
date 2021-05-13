@@ -2,10 +2,32 @@
 \chapter{Review of the Cystic Fibrosis Transmembrane Conductance Regulator}
 \label{chap:cftr_review}
 \newpage
-\section{Introduction}
+\section{ABC Transporters}
+ATP Binding Cassette Transporters is a super family of proteins, many of these proteins perform active transport across the cell membrane of different substrates including lipids and drug molecules. They are so named because they bind ATP in catalytic sub units on the protein known as Nucleotide Binding Domains. These domains act as ATPases, accelerating the hydrolysis of ATP. The energy from this process is then transferred into the protein in order for it to pump its substrate against a concentration gradient. 
 
-The primary cause of the disease Cystic Fibrosis (CF) is the misfunction of a chloride channel, the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR). This ion channel is a member of the super family, the ATP Binding Cassette Transporters (ABC transporters). This channel is unique amongst this family because it is not generally considered an active transporter but something of a low conductivity channel or a "weak pump".
+The ABC family distinguishes itself by two conserved Nucleotide Binding Domains (NBD's) which bind Adenosine Triphosphate (ATP) and use the energyfrom hydrolysis to induce a conformational change which enables the transporter to move from an inward facing to an outward facing conformation.
 
-The ABC family distinguishes itself by two conserved Nucleotide Binding Domains (NBD's) which bind Adenosine Triphosphate (ATP) and use the energyfrom hydrolysis to induce a conformational change which enables the transporter to move from an inward facing to an outward facing conformation. In the case of most ABC transporters this induces the transport of an array of cellular products, such as lipids, or other nutrients. They are characterised by a the mentioned NBDs as well as transmebrane domains which directly mediate the passage of the substrate across the membrane. This family of proteins are the subject of multiple investigations because of their range of importance. In particular much work has been done on the dynamics of P-glycoprotein due to its affinity for many small molecule drugs. \cite{OMara2012}
+Of interest to disease is the efflux of chemotherapy drugs from tumor cells. ABC transporters are over expressed in cancer cells. 
+
+\section{CFTR classification and structure}
+
+The primary cause of the disease Cystic Fibrosis (CF) is the misfunction of a chloride channel, the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR). This ion channel is a member of the ABCC subfamily of ABC transporters, designated ABCC7. This channel is unique amongst this family because it is not generally considered an active transporter but something of a low conductivity channel or a "weak pump"\cite{Linsdel2018}.
+
+CFTR is distinguished by a regulatory region known as the R-domain (residues 645-845) which links NBD1 to TMD2. This region acts to lock the channel in the closed state by wedging itself between the TMDs and dislodging when any one of 3 sites are phosphorylated \cite{Mihalyi2020}. In experimentally determined structures of human CFTR the secondary structure of a section of the R-domain but not at high enough resolution to determine the identity of individual sidechains \cite{Zhang2018}\cite{Zhang2016}. Further secondary structure information can be found through experiments with NMR \cite{Baker2007}.
+
+Previous computional studies of CFTR have been used homology models based on the phosphorylated zebra fish protein PDBID:5W81 \cite{Zhang2017}. This differs substantially from the human form of the channel with a significant rearrangement of the helices in the channel (go through and actually figure out what these are). These have yielded interesting results but the sequence similarity between human and zebrafish CFTR is only 55\% \cite{}. For a protein structure where a single amino acid mutation leads to misfunction, more precision can only help. In fact the activity of CF treating drugs is not well conserved in the zebra fish structure. In order to do precision medicine we need precision structures. 
+
+An open state of the channel has been proposed by combining both the zebra fish homology model and the fully outward facing conformer of a bacterial ABC transporter Sav1866 \cite{Hoffman2018}. Although this model has several characteristics expected of the open channel, such as the critical R352-D993 salt bridge, it lacks the R104-E116 salt bride. In experiments, tehse residues could be replaced by cysteines and the channel would still function. However, when reducing agents were added to the system the channel lost its ability to open fully. This indicates that in the oxidised environment the C104-C116 cysteins formed a disulfide bridge but its breaking upon exposure to reducing agents caused a loss of function in the channel. This indicates that in the WT channel R104-E116 form a stable salt bridge. 
+
+This salt bridge is clearly visible in the recent cryo-EM structure of ATP-bound human CFTR \cite{Zhang2018} and it was stable throughout unbiased MD simulations.
+
+\section{The Gating Cycle}
+The conformational transition from inactive to active differs significantly in CFTR compared to other ABC transporters. The NBD domains are largely similar to other to those found in other ABC transporters, they dimerise in what is termed a head to tail configuration so both subunits contact both bound ATP molecules CITATION NEEDED.
+
+\section{The perturbations of TM8 and its Ability to Bind Drugs}
+A strange feature of the human CFTR structure is the unfolded helix TM8. This helix unwinds in the middle of the bilayer. 
 
 
+
+\section{Lipid Interactions with CFTR}
+CF afflicted cells have a perturbed lipidome compared to healthy cells.\cite{Cottrill2020} Thus it is important to understand lipid interactions with the CFTR channel itself.

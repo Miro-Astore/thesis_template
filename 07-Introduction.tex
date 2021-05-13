@@ -9,13 +9,72 @@
 
 \vskip 0.5cm
 
-Biology distinguishes itself amongst scientific disciplines requiring the study of systems that are both complex and heterogeneous. In the study of more simple physical systems a simple analogy such as a mass on a spring or a gas of hard spheres can be extremely successful in explaining quantitative phenomena. For biological systems there appears to be too much complexity for such analogies to have the same level of success. There is limited applicability for such models. Find examples in the BIALEK lectures. There has been significant sucess . Although successful, in a certain sense idealised models are still descriptive rather than predictive. They may struggle to answer questions such as "If this gene mutates how will that affect this physiological parameter?" "If this drug were given at a higher dosage what would its effect be?" "What if we change this chemical moiety?" Such questions unfortunately require a lot of forethought and computaitonal investment to answer. 
+Why can't I  write down an equation will tell me how long I will live? Or how many hairs I will grow?
 
-It seems like a silly question but it seems important to ask why we can't just use a device similar to a harmonic oscilator or a perfect black body to speculate at useful answers for these quantitative questions. The answer is just as silly. If you look with your naked eye at your arm, you will notice hair, pores, dry skin, dead skin, perhaps even tendons and muscles under the the skin. If you take a miscroscope you will notice the 3 layers to your skin with different functions and composition. If you were to take a single cell from any of those layers and stain it to distinguish features in an electron miscroscope you would notice all sorts of complex structures and the size and number of these structures would vary depending on where you took the cell from in the body. Within and between each those structures is a salty, wet dance of moelcules large and small. This heterogeneity on length scales hints at the reasons behind biology's physical complexity. Plasma physics is often characterised by the density of the plasma studied. This parameter may span 28 orders of magnitude from a dense stellar core to the sparse intergallactice nebulae. The same mathematical tools can be used to map any plasma in these energy scales. Were we so lucky in biology that we could use the same physical laws to deal with phenomena accross a single order of magnitude.  
+This might seem like an inane question but if you asked a physicist for the formula for how long it takes a radioactive material to decay or how long it will take an object to fall into a black hole they will be able to answer easily.
+
+What makes the first set of questions so much more difficult to answer?
+
+I posit that it is the diversity of components that makes biological questions so difficult to ask and answer. Biology distinguishes itself amongst scientific disciplines requiring the study of systems that are both complex and heterogeneous. In the study of more simple physical systems a simple analogy such as a mass on a spring or a gas of hard spheres can be extremely successful in explaining macroscopic phenomena. For biological systems there appears to be too much complexity for such analogies to have the same level of success. They may struggle to answer questions such as "If this gene mutates how will that affect lung function?" "If this drug were given at a higher dosage what would its effect be?" "What if we change this chemical moiety?" At the moment, a trained chemist needs to go and answer these questions pipette in hand, the physicist with their notebook is hopeless.
+
+It seems like a silly question but it seems important to ask why we can't just use a device similar to a harmonic oscilator or a perfect black body to speculate at useful answers for these quantitative questions. The answer is just as silly. If you look with your naked eye at your arm, you will notice hair, pores, dry skin, dead skin, perhaps even tendons and muscles under the the skin. If you take a miscroscope you will notice the 3 layers to your skin with different functions and composition. If you were to take a single cell from any of those layers and stain it to distinguish features in an electron miscroscope you would notice all sorts of complex structures and the size and number of these structures would vary depending on where you took the cell from in the body. Within and between each those structures is a salty, wet dance of moelcules large and small. This heterogeneity on length scales hints at the reasons behind biology's physical complexity. Plasma physics is often characterised by the density of the plasma studied. This parameter may span 28 orders of magnitude from a dense stellar core to the sparse intergallactice nebulae. The same mathematical tools can be used to map any plasma in these energy scales. Would that we were so lucky in biology. We struggle to apply same physical models to deal with phenomena across a single order of magnitude.  
 
 
 Thus, in order to move towards more predictive theories of biology it is necessary to consider much more of the fundamental physical processes occuring within biological systems than simply searching for statistical trends. One form of this from fundamentals approach is the simulation of every atom in a biological system. Although computationally expensive, this approach appears necessary due to the heterogenous nature of biological systems. 
 
+
+\section{What is Physics?}
+Personally I have always given answers along the lines of "the study of the movement of energy within a system" or when I was in high school "The study of how things move". Although adequate for a layman these might obscure the fundamental structure within physics that make it such a powerful tool. It is the conception of some causal unit in a system and the ability to scale up the behaviour of that unit to make predictions about measurable phenomena.
+
+This might take a few different forms at different scales, it's what makes physics feel like the most "fundamental" of the sciences. 
+
+Examples include:
+
+Newton's laws of gravitation to explain the organisation of the solar system. 
+
+Einstein's theories employing Reimannian geometry to track the motions of galaxies and black holes.
+
+The conception of atoms as hard spheres used to derive the macroscopic behaviour of gasses.
+
+The photon  
+
+The schrodinger wave function to find the structure of atoms, which can then be integrated further up to find their macroscopic organisations. More on this later.
+
+Biological systems exhibit such a problem for the physicist because unlike the above problems it is extremely hard to pick out a fundamental unit to even begin our upwards journey. An evolutionary biologist might say to choose the "gene" but this is actually far too high in our spatial heirarchy already. Really a gene is only meaningful to the dance of life if it has partners to dance with. Genes of hard spheres ?
+
+A coil of DNA in water doesn't really do much in solution except decay without machinary that can preserve, read, translate and replicate it. The gene is an emergent property, we have to go deeper. 
+
+So, what creates the gene? 
+
+A slew of biological machinary that mostly take the form of proteins. These proetins are then coded for by the DNA in a strange loop. 
+
+This self referential loop is one of the reasons biology is so difficult. Since we know that this strange loop is kicked off by atomic interactions we will start there. As we are taking a physical, pragmatic approach here it would make sense to begin with the protein, after all, they stave off the march of entropy constantly trying to eat up all of your cells. It also just so happens that they are much easier to understand computationally since their motions are faster and more flexible. 
+
+The first level sub cellular organisation is perhaps the most intimdating first step for me personally after spending 4 years simulating a single protein. Glimpsing the complexity within a single one of these molecules has been one of the most existential experiences of my life but the knowledge that there are astronomical nubmers of these things inside me all of the time 
+
+
+It is hoped that illustrating the monumental task in both intellectual effort and resources of incrementally increasing the understanding of a single protein amongst tens of thousands will give the reader and understanding of how we might continue our quest to understand the molecular dance that plays within all of us.  
  
 
+This makes sense if we think about it 
+Somewhere on the scale between a single protein and a single cell this is what we consider "life". We have single unicellular organisms but we don't have uniproteomic organisms. So the fundamental length scale of life is somewhere between $10^{-10}m$ and $10^{-3}m$. This is the first loop in our strange loop.
+
+After this things start to run away from me with my handful of GPUs and limited patience. Once we move from prokaryotes to eukaryotes we have gone a few levels deeper. There is of course unicellular eukaryotes but how did we get from P to E? I'll have to leave that one for evolutionary cell biologists. Certainly there is something strangely loopy about the appropriation of cells by other cells. Then we have something more interesting, cellular collectivisation.   
+
+Cells clump together and act in unison to give us colonial organisms. (Self-similar colony morphogenesis by gram-negative rods as the experimental model of fractal growth by a cell population). Like any advanced economy cells . 
+
+Biological strange loops would not seem to be as self similar as the clean nice logics in the strange loop of the Godelian knot. Why is this?
+
+
+\section{Why Cystic Fibrosis}
+
+The sad truth of this debiletating disease is that those afflicted are extremely unlucky. A single, small change to the genome and their lungs fill with sticky mucus and become infected with bacteria, making every breath cumbersome. Personally, I've not met somebody who has this disease. I have consistently wondered what perpsective I'm missing by not suffering myself from such a condition or even knowing somebody with it. I'm a relatively healthy well adjusted Male. I have not been trained in the ethics of studying medicine and my undergraduate professors were only concerned with what was morally acceptable when it came to mathematical theorems.
+
+In this way, my motivations for studying this disease aren't wholly humanitarian. There is a perspective on protein evolution which states that the primary sequence of a particular gene contributes to the overall fitness of an organisms by a formula. \cite{}
+
+
+It just so happens that the CFTR gene sits at the precipice of a daunting cliff in sequence space. So by taking small steps in sequence space and plunging down this cliff we can try to understand how we might push the ball back up the cliff and retain functionality.
+
+Moreover, by learning the nuts and bolts of what goes wrong with CFTR we can start to think about where some of these cliffs might be in other places in the proteome, to gain function and avoid disease and debiletation..
 %=======================================================================================%
+

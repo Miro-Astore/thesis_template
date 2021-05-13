@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.10)  15 DEC 2020 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  13 MAY 2021 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -50,9 +50,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language35) on input line 105.
+(babel)             (\language21) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language35) on input line 108.
+(babel)             (\language21) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pdfcolmk/pdfcolmk.sty
 Package: pdfcolmk 2019/11/24 v2.0 Color support for pdfTeX via marks
@@ -1469,7 +1469,10 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 42.
 LaTeX Font Warning: Command \small invalid in math mode on input line 43.
 
 
-Overfull \hbox (56.90552pt too wide) in alignment at lines 30--44
+LaTeX Font Warning: Command \small invalid in math mode on input line 44.
+
+
+Overfull \hbox (56.90552pt too wide) in alignment at lines 30--45
  [] [] 
  []
 
@@ -1478,7 +1481,7 @@ Overfull \hbox (56.90552pt too wide) in alignment at lines 30--44
 ]) [11] (./main.lof [12
 
 ] [13] [14]
-Overfull \hbox (11.30414pt too wide) in paragraph at lines 82--82
+Overfull \hbox (11.30414pt too wide) in paragraph at lines 72--72
  [][] [][][]\OT1/cmr/m/n/12 Molecular struc-ture of phos-pho-lipids (POPC) (lef
 t) and ce-ramides (NODS) 
  []
@@ -1488,38 +1491,38 @@ t) and ce-ramides (NODS)
 \openout7 = `main.lof'.
 
  [16] (./main.lot
-Overfull \hbox (11.35396pt too wide) in paragraph at lines 26--26
+Overfull \hbox (11.35396pt too wide) in paragraph at lines 18--18
  [][] [][][]\OT1/cmr/m/n/12 Binding free en-er-gies of Asp bound to Glt$[]$ wit
 h dif-fer-ent ion configurations.$[]$[][] [][]  
  []
 
-[17
-
-])
+)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [18] [19
+ [17
+
+] [18
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.xix}) h
-as been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.xviii})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.158 \blankpage
-                 [19
+                 [18
 
 
 ] (./07-Introduction.tex
 Chapter 1.
-) (./08-Methods.tex [1
+[1
 
 
-]
+] [2] [3]) (./08-Methods.tex [4]
 Chapter 2.
-[2
+[5
 
-] [3]
+] [6]
 
 LaTeX Warning: File `Figures/Method/Lennard-Jones-1.png' not found on input lin
 e 156.
@@ -1550,7 +1553,7 @@ Type  H <return>  for immediate help.
 l.160 ...twidth]{Figures/Method/Lennard-Jones.png}
                                                   
 ? 
-[4] [5]
+[7] [8]
 
 LaTeX Warning: File `Figures/Method/MolecularMechanics.png' not found on input 
 line 204.
@@ -1566,7 +1569,7 @@ Type  H <return>  for immediate help.
 l.204 ...m]{Figures/Method/MolecularMechanics.png}
                                                   
 ? 
-[6] [7]
+[9] [10]
 
 LaTeX Warning: File `Figures/Method/Cutoff-1.png' not found on input line 298.
 
@@ -1595,7 +1598,7 @@ Type  H <return>  for immediate help.
 l.302 ....0\textwidth]{Figures/Method/Cut-Off.png}
                                                   
 ? 
-[8] [9] [10]
+[11] [12] [13]
 
 LaTeX Warning: File `Figures/Method/Solvation.png' not found on input line 418.
 
@@ -1611,7 +1614,7 @@ Type  H <return>  for immediate help.
 l.418 ...\textwidth]{Figures/Method/Solvation.png}
                                                   
 ? 
-[11] [12] [13]
+[14] [15] [16]
 
 LaTeX Warning: File `Figures/Method/MBAR-Potential.png' not found on input line
  519.
@@ -1642,85 +1645,16 @@ Type  H <return>  for immediate help.
 l.564 ...th]{Figures/Method/Umbrella-Sampling.png}
                                                   
 ? 
-[14] [15] [16]) (./09-GltPh-Review.tex [17]
+[17] [18] [19])
+
+! LaTeX Error: File `09-GltPh-Review.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(./10-GltPh-Na2.tex [20]
 Chapter 3.
-[18
-
-]
-
-LaTeX Warning: File `Figures/Review/fig1.jpg' not found on input line 62.
-
-
-! Package pdftex.def Error: File `Figures/Review/fig1.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...th=0.6\textwidth]{Figures/Review/fig1.jpg}
-                                                  
-? 
-[19]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 116.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 116.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 116.
-
-[20]
-
-LaTeX Warning: File `Figures/Review/fig2.jpg' not found on input line 132.
-
-
-! Package pdftex.def Error: File `Figures/Review/fig2.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 ...h=0.6\textwidth]{Figures/Review/fig2.jpg}
-                                                  
-? 
-[21] [22]
-
-LaTeX Warning: File `Figures/Review/fig3.jpg' not found on input line 260.
-
-
-! Package pdftex.def Error: File `Figures/Review/fig3.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260 ...h=0.6\textwidth]{Figures/Review/fig3.jpg}
-                                                  
-? 
-[23] [24] [25] [26]
-
-LaTeX Warning: File `Figures/Review/fig4.jpg' not found on input line 485.
-
-
-! Package pdftex.def Error: File `Figures/Review/fig4.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.485 ...h=1.0\textwidth]{Figures/Review/fig4.jpg}
-                                                  
-? 
-[27] [28] [29]) (./10-GltPh-Na2.tex [30] [31]
-Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1738,13 +1672,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[32
+[21
 
-] [33]
+] [22]
 
 LaTeX Warning: Command \r invalid in math mode on input line 113.
 
-[34] [35]
+[23] [24]
 
 LaTeX Warning: File `Figures/Na2-Paper/fig1.jpg' not found on input line 162.
 
@@ -1759,7 +1693,7 @@ Type  H <return>  for immediate help.
 l.162 ....6\textwidth]{Figures/Na2-Paper/fig1.jpg}
                                                   
 ? 
-[36]
+[25]
 
 LaTeX Warning: File `Figures/Na2-Paper/fig2.jpg' not found on input line 230.
 
@@ -1774,7 +1708,7 @@ Type  H <return>  for immediate help.
 l.230 ....6\textwidth]{Figures/Na2-Paper/fig2.jpg}
                                                   
 ? 
-[37] [38]
+[26] [27]
 
 LaTeX Warning: File `Figures/Na2-Paper/fig3.jpg' not found on input line 277.
 
@@ -1803,8 +1737,8 @@ Type  H <return>  for immediate help.
 l.301 ....6\textwidth]{Figures/Na2-Paper/fig4.jpg}
                                                   
 ? 
-[39]) (./11-GltPh-Binding.tex [40] [41]
-Chapter 5.
+[28]) (./11-GltPh-Binding.tex [29] [30]
+Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1817,9 +1751,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-[42
+[31
 
-] [43] [44] [45]
+] [32] [33] [34]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 212.
@@ -1832,7 +1766,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 212.
 
-[46]
+[35]
 
 LaTeX Warning: File `Figures/Binding/fig1.jpg' not found on input line 272.
 
@@ -1847,7 +1781,7 @@ Type  H <return>  for immediate help.
 l.272 ...=1.0\linewidth]{Figures/Binding/fig1.jpg}
                                                   
 ? 
-[47]
+[36]
 
 LaTeX Warning: File `Figures/Binding/fig2.jpg' not found on input line 317.
 
@@ -1876,7 +1810,7 @@ Type  H <return>  for immediate help.
 l.329 ...=0.6\textwidth]{Figures/Binding/fig3.jpg}
                                                   
 ? 
-[48] [49] [50] [51] [52]
+[37] [38] [39] [40] [41]
 
 LaTeX Warning: File `Figures/Binding/fig4.png' not found on input line 492.
 
@@ -1905,7 +1839,7 @@ Type  H <return>  for immediate help.
 l.506 ...=1.0\linewidth]{Figures/Binding/fig5.png}
                                                   
 ? 
-[53] [54] [55] [56]
+[42] [43] [44] [45]
 
 LaTeX Warning: File `Figures/Binding/figS1.jpg' not found on input line 597.
 
@@ -1920,7 +1854,7 @@ Type  H <return>  for immediate help.
 l.597 ...0.8\linewidth]{Figures/Binding/figS1.jpg}
                                                   
 ? 
-[57]
+[46]
 
 LaTeX Warning: File `Figures/Binding/figS2.jpg' not found on input line 608.
 
@@ -1949,8 +1883,8 @@ Type  H <return>  for immediate help.
 l.622 ...0.5\linewidth]{Figures/Binding/figS3.jpg}
                                                   
 ? 
-) (./12-GltPh-Na3.tex [58] [59]
-Chapter 6.
+) (./12-GltPh-Na3.tex [47] [48]
+Chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1975,9 +1909,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-[60
+[49
 
-] [61] [62] [63]
+] [50] [51] [52]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 226.
@@ -1990,7 +1924,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 226.
 
-[64] [65]
+[53] [54]
 
 LaTeX Warning: File `Figures/Na3-Paper/fig1.jpg' not found on input line 302.
 
@@ -2005,7 +1939,7 @@ Type  H <return>  for immediate help.
 l.302 ....6\textwidth]{Figures/Na3-Paper/fig1.jpg}
                                                   
 ? 
-[66]
+[55]
 
 LaTeX Warning: File `Figures/Na3-Paper/fig2.jpg' not found on input line 326.
 
@@ -2020,7 +1954,7 @@ Type  H <return>  for immediate help.
 l.326 ...48\textwidth]{Figures/Na3-Paper/fig2.jpg}
                                                   
 ? 
-[67]
+[56]
 
 LaTeX Warning: File `Figures/Na3-Paper/fig3.png' not found on input line 367.
 
@@ -2063,7 +1997,7 @@ Type  H <return>  for immediate help.
 l.414 ....6\textwidth]{Figures/Na3-Paper/fig5.png}
                                                   
 ? 
-[68]
+[57]
 
 LaTeX Warning: File `Figures/Na3-Paper/fig6.jpg' not found on input line 438.
 
@@ -2078,7 +2012,7 @@ Type  H <return>  for immediate help.
 l.438 ....5\textwidth]{Figures/Na3-Paper/fig6.jpg}
                                                   
 ? 
-[69] [70] [71]
+[58] [59] [60]
 
 LaTeX Warning: File `Figures/Na3-Paper/fig7.png' not found on input line 483.
 
@@ -2093,7 +2027,7 @@ Type  H <return>  for immediate help.
 l.483 ....6\textwidth]{Figures/Na3-Paper/fig7.png}
                                                   
 ? 
-[72]
+[61]
 
 LaTeX Warning: File `Figures/Na3-Paper/fig8.jpg' not found on input line 530.
 
@@ -2108,7 +2042,7 @@ Type  H <return>  for immediate help.
 l.530 ....6\textwidth]{Figures/Na3-Paper/fig8.jpg}
                                                   
 ? 
-[73]
+[62]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 548.
@@ -2121,7 +2055,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 548.
 
-[74] [75] [76]
+[63] [64] [65]
 
 LaTeX Warning: File `Figures/Na3-Paper/fig1A.png' not found on input line 623.
 
@@ -2153,8 +2087,8 @@ l.635 ...6\textwidth]{Figures/Na3-Paper/fig2A.jpg}
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./13-Gramicidin.tex [77] [78]
-Chapter 7.
+) (./13-Gramicidin.tex [66] [67]
+Chapter 6.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -2172,9 +2106,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[79
+[68
 
-] [80]
+] [69]
 
 LaTeX Warning: File `Figures/Gramicidin/fig1.jpg' not found on input line 79.
 
@@ -2189,7 +2123,7 @@ Type  H <return>  for immediate help.
 l.79 ...[width=8.5cm]{Figures/Gramicidin/fig1.jpg}
                                                   
 ? 
-[81]
+[70]
 
 LaTeX Warning: File `Figures/Gramicidin/fig2.jpg' not found on input line 140.
 
@@ -2204,7 +2138,7 @@ Type  H <return>  for immediate help.
 l.140 ...5\textwidth]{Figures/Gramicidin/fig2.jpg}
                                                   
 ? 
-[82] [83]
+[71] [72]
 
 LaTeX Warning: File `Figures/Gramicidin/fig3.jpg' not found on input line 191.
 
@@ -2219,7 +2153,7 @@ Type  H <return>  for immediate help.
 l.191 ...0\textwidth]{Figures/Gramicidin/fig3.jpg}
                                                   
 ? 
-[84]
+[73]
 
 LaTeX Warning: File `Figures/Gramicidin/fig4.jpg' not found on input line 223.
 
@@ -2234,7 +2168,7 @@ Type  H <return>  for immediate help.
 l.223 ...0\textwidth]{Figures/Gramicidin/fig4.jpg}
                                                   
 ? 
-[85]
+[74]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 247.
@@ -2261,7 +2195,7 @@ Type  H <return>  for immediate help.
 l.250 ...5\textwidth]{Figures/Gramicidin/fig5.jpg}
                                                   
 ? 
-[86] [87]
+[75] [76]
 
 LaTeX Warning: File `Figures/Gramicidin/fig6.jpg' not found on input line 322.
 
@@ -2276,9 +2210,9 @@ Type  H <return>  for immediate help.
 l.322 ...5\textwidth]{Figures/Gramicidin/fig6.jpg}
                                                   
 ? 
-[88] [89]) (./14-Solvation.tex [90] [91]
-Chapter 8.
-[92
+[77] [78]) (./14-Solvation.tex [79] [80]
+Chapter 7.
+[81
 
 ]
 
@@ -2295,7 +2229,7 @@ Type  H <return>  for immediate help.
 l.63 ...1.0\textwidth]{Figures/Solvation/fig1.jpg}
                                                   
 ? 
-[93] [94]
+[82] [83]
 
 LaTeX Warning: File `Figures/Solvation/fig2.jpg' not found on input line 138.
 
@@ -2310,7 +2244,7 @@ Type  H <return>  for immediate help.
 l.138 ...45\textwidth]{Figures/Solvation/fig2.jpg}
                                                   
 ? 
-[95] [96] [97] [98] [99]
+[84] [85] [86] [87] [88]
 
 LaTeX Warning: File `Figures/Solvation/fig3.jpg' not found on input line 354.
 
@@ -2325,7 +2259,7 @@ Type  H <return>  for immediate help.
 l.354 ...65\textwidth]{Figures/Solvation/fig3.jpg}
                                                   
 ? 
-[100] [101]
+[89] [90]
 
 LaTeX Warning: File `Figures/Solvation/fig4.jpg' not found on input line 472.
 
@@ -2340,11 +2274,11 @@ Type  H <return>  for immediate help.
 l.472 ....6\textwidth]{Figures/Solvation/fig4.jpg}
                                                   
 ? 
-[102] [103] [104] [105]) (./15-Conclusion.tex [106]
-Chapter 9.
-[107
+[91] [92] [93] [94]) (./15-Conclusion.tex [95]
+Chapter 8.
+[96
 
-] [108] [109]) (./16-Appendix.tex [110]
+] [97] [98]) (./16-Appendix.tex [99]
 Appendix A.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -2362,7 +2296,7 @@ Enter file name:
 l.84 ...tyle=customPython]{Codes/image-charges.py}
                                                   
 ? 
-[111
+[100
 
 ]
 Appendix B.
@@ -2398,7 +2332,7 @@ Enter file name:
 l.105 ...le=customTCL]{Codes/funnel_potential.tcl}
                                                   
 ? 
-[112
+[101
 
 ]
 Appendix C.
@@ -2421,52 +2355,52 @@ Enter file name:
 l.123 ...ing[style=customF90]{Codes/diffusion.f90}
                                                   
 ? 
-) [113
+) [102
 
-] [114
+] [103
 
-] [115] [116] [117] [118]
+] [104] [105] [106] [107]
 Overfull \hbox (5.70424pt too wide) in paragraph at lines 179--179
 \OT1/cmr/m/it/12 Academy of Sci-ences \OT1/cmr/bx/n/12 2010\OT1/cmr/m/n/12 , \O
 T1/cmr/m/it/12 107\OT1/cmr/m/n/12 , 13912{13917, DOI: [][]$\OT1/cmtt/m/n/12 10 
 . 1073 / pnas . 1006289107$[][]\OT1/cmr/m/n/12 . 
  []
 
-[119]
+[108]
 Overfull \hbox (10.64822pt too wide) in paragraph at lines 179--179
 \OT1/cmr/m/n/12 G. F.; Sitte, H. H.; Stock-ner, T. \OT1/cmr/m/it/12 PLOS Com-pu
 -ta-tional Bi-ol-ogy \OT1/cmr/bx/n/12 2015\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 11
 \OT1/cmr/m/n/12 , e1004551,
  []
 
-[120] [121]
+[109] [110]
 Overfull \hbox (2.23549pt too wide) in paragraph at lines 179--179
 []\OT1/cmr/m/n/12 Jorgensen, W. L.; Chan-drasekhar, J.; Madura, J. D. \OT1/cmr/
 m/it/12 Jour-nal of Chem-i-cal Physics
  []
 
-[122] [123]
+[111] [112]
 Overfull \hbox (5.70424pt too wide) in paragraph at lines 179--179
 \OT1/cmr/m/it/12 Academy of Sci-ences \OT1/cmr/bx/n/12 2005\OT1/cmr/m/n/12 , \O
 T1/cmr/m/it/12 102\OT1/cmr/m/n/12 , 15441{15446, DOI: [][]$\OT1/cmtt/m/n/12 10 
 . 1073 / pnas . 0507651102$[][]\OT1/cmr/m/n/12 . 
  []
 
-[124] [125]
+[113] [114]
 Overfull \hbox (1.31046pt too wide) in paragraph at lines 179--179
 []\OT1/cmr/m/n/12 Eastman, P.; Swails, J.; Chodera, J. D.; McGib-bon, R. T.; Zh
 ao, Y.; Beauchamp,
  []
 
-[126] [127]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.127}) has been already used, duplicate ignored
+[115] [116]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.116}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.185 \blankpage
-                 [127
+                 [116
 
 
-] [128
+] [117
 
 
 ]
@@ -2475,27 +2409,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2DF57B9A9F7A80BE333E52FF24A87EC4;6222
-(rerunfilecheck)             After:  D12111632C8C0B7512BE773C94237F0D;6244.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D60FFF7A59775054B3FC07E39324FB1B;5841.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32526 strings out of 481239
- 613562 string characters out of 5920377
- 1408282 words of memory out of 5000000
- 46439 multiletter control sequences out of 15000+600000
+ 32416 strings out of 481239
+ 611384 string characters out of 5920378
+ 1399832 words of memory out of 5000000
+ 46366 multiletter control sequences out of 15000+600000
  559164 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,20n,124p,1033b,3525s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,20n,124p,1417b,3539s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -2521,10 +2448,10 @@ sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (149 pages, 799590 bytes).
+Output written on main.pdf (137 pages, 758935 bytes).
 PDF statistics:
- 3062 PDF objects out of 3580 (max. 8388607)
- 2843 compressed objects within 29 object streams
- 638 named destinations out of 1000 (max. 500000)
- 693 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2782 PDF objects out of 2984 (max. 8388607)
+ 2581 compressed objects within 26 object streams
+ 604 named destinations out of 1000 (max. 500000)
+ 653 words of extra memory for PDF output out of 10000 (max. 10000000)
 
