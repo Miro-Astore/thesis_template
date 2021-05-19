@@ -14,67 +14,73 @@
 \BOOKMARK [1][-]{section.2.3}{Free Energy Calculations}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.3.1}{Alchemical Perturbation}{section.2.3}% 15
 \BOOKMARK [2][-]{subsection.2.3.2}{Potential of Mean Force}{section.2.3}% 16
-\BOOKMARK [0][-]{chapter.3}{Role of Methionine in Na2 Binding in GltPh}{}% 17
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.2}{Method}{chapter.3}% 19
-\BOOKMARK [2][-]{subsection.3.2.1}{Model System and MD Simulations}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.2}{Free Energy Calculations}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.3}{Methionine Side Chain Analogue}{section.3.2}% 22
-\BOOKMARK [1][-]{section.3.3}{Results and Discussion}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.1}{Characterisation of the Na2 Site: Experiments vs MD Simulations}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.2}{Optimising the Partial Charges on Methionine}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.3}{Effect of the Modified Charges on Other Properties of Methionine}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.4}{Discussion}{section.3.3}% 27
-\BOOKMARK [1][-]{section.3.4}{Conclusion}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Mechanism of Ligand Binding in GltPh}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Method}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{Model System and Simulation Details}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.2}{Free Energy Calculations}{section.4.2}% 33
-\BOOKMARK [1][-]{section.4.3}{Results and Discussion}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.3.1}{Characterisation of the Na+ Binding Sites}{section.4.3}% 35
-\BOOKMARK [2][-]{subsection.4.3.2}{Binding Free Energies}{section.4.3}% 36
-\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 37
-\BOOKMARK [1][-]{section.1.4.A}{Appendix for Chapter 4}{chapter.4}% 38
-\BOOKMARK [0][-]{appendix.5}{Escape of Na+ from Na3 in GltPh}{}% 39
-\BOOKMARK [1][-]{section.5.1}{Introduction}{appendix.5}% 40
-\BOOKMARK [1][-]{section.5.2}{Method}{appendix.5}% 41
-\BOOKMARK [2][-]{subsection.5.2.1}{Model System and Simulation Details}{section.5.2}% 42
-\BOOKMARK [2][-]{subsection.5.2.2}{Umbrella Sampling and Free Energy Calculations}{section.5.2}% 43
-\BOOKMARK [2][-]{subsection.5.2.3}{Diffusion Coefficient and Mean First-passage Time}{section.5.2}% 44
-\BOOKMARK [1][-]{section.5.3}{Results and Discussion}{appendix.5}% 45
-\BOOKMARK [2][-]{subsection.5.3.1}{Escape Path of Na+ from the Na3 Site}{section.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.3.2}{Free Energy from Umbrella Sampling Simulations and Conformational Changes}{section.5.3}% 47
-\BOOKMARK [2][-]{subsection.5.3.3}{Implications for GltPh}{section.5.3}% 48
-\BOOKMARK [2][-]{subsection.5.3.4}{Implications for EAATs}{section.5.3}% 49
-\BOOKMARK [1][-]{section.5.4}{Conclusion}{appendix.5}% 50
-\BOOKMARK [1][-]{section.2.5.A}{Appendix for Chapter 5}{appendix.5}% 51
-\BOOKMARK [0][-]{appendix.6}{Effect of Lipid Membranes on K+ Permeation in gA}{}% 52
-\BOOKMARK [1][-]{section.6.1}{Introduction}{appendix.6}% 53
-\BOOKMARK [1][-]{section.6.2}{Method}{appendix.6}% 54
-\BOOKMARK [2][-]{subsection.6.2.1}{Model System}{section.6.2}% 55
-\BOOKMARK [2][-]{subsection.6.2.2}{PMF Calculations}{section.6.2}% 56
-\BOOKMARK [2][-]{subsection.6.2.3}{MD Simulation}{section.6.2}% 57
-\BOOKMARK [1][-]{section.6.3}{Results and Discussion}{appendix.6}% 58
-\BOOKMARK [2][-]{subsection.6.3.1}{Membrane Bilayer}{section.6.3}% 59
-\BOOKMARK [2][-]{subsection.6.3.2}{gA Embedded in Membrane Bilayer}{section.6.3}% 60
-\BOOKMARK [2][-]{subsection.6.3.3}{Potential of Mean Force of K+ in gA}{section.6.3}% 61
-\BOOKMARK [1][-]{section.6.4}{Conclusion}{appendix.6}% 62
-\BOOKMARK [0][-]{appendix.7}{Ion Solvation Energy with Spherical Boundary Conditions}{}% 63
-\BOOKMARK [1][-]{section.7.1}{Introduction}{appendix.7}% 64
-\BOOKMARK [1][-]{section.7.2}{Method}{appendix.7}% 65
-\BOOKMARK [2][-]{subsection.7.2.1}{Solvation Free Energy with SBC}{section.7.2}% 66
-\BOOKMARK [2][-]{subsection.7.2.2}{Self-energy of Ions and Molecules in a Cavity}{section.7.2}% 67
-\BOOKMARK [2][-]{subsection.7.2.3}{Computational Details for SBC}{section.7.2}% 68
-\BOOKMARK [2][-]{subsection.7.2.4}{Solvation Free Energy with PBC}{section.7.2}% 69
-\BOOKMARK [1][-]{section.7.3}{Results and Discussion}{appendix.7}% 70
-\BOOKMARK [2][-]{subsection.7.3.1}{Ion Solvation}{section.7.3}% 71
-\BOOKMARK [2][-]{subsection.7.3.2}{Charged Amino Acids}{section.7.3}% 72
-\BOOKMARK [1][-]{section.7.4}{Conclusion}{appendix.7}% 73
-\BOOKMARK [0][-]{appendix.8}{Concluding Remarks}{}% 74
-\BOOKMARK [1][-]{section.8.1}{Summary of Research}{appendix.8}% 75
-\BOOKMARK [1][-]{section.8.2}{Potential Future Research}{appendix.8}% 76
-\BOOKMARK [0][-]{appendix.A}{Ion Self-Energy Python Script}{}% 77
-\BOOKMARK [0][-]{appendix.B}{Funnel Potential tclForces Script}{}% 78
-\BOOKMARK [0][-]{appendix.C}{Position-Dependent Diffusion Coefficient}{}% 79
-\BOOKMARK [0][-]{appendix*.62}{Bibliography}{}% 80
+\BOOKMARK [0][-]{chapter.3}{Review of the Cystic Fibrosis Transmembrane Conductance Regulator}{}% 17
+\BOOKMARK [1][-]{section.3.1}{ABC Transporters}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{CFTR classification and structure}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{The Gating Cycle}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{The perturbations of TM8 and its Ability to Bind Drugs}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.5}{Lipid Interactions with CFTR}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Role of Methionine in Na2 Binding in GltPh}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{Method}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.2.1}{Model System and MD Simulations}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.2}{Free Energy Calculations}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.3}{Methionine Side Chain Analogue}{section.4.2}% 28
+\BOOKMARK [1][-]{section.4.3}{Results and Discussion}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.3.1}{Characterisation of the Na2 Site: Experiments vs MD Simulations}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.2}{Optimising the Partial Charges on Methionine}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.3}{Effect of the Modified Charges on Other Properties of Methionine}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.4}{Discussion}{section.4.3}% 33
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Mechanism of Ligand Binding in GltPh}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{Model System and Simulation Details}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.2}{Free Energy Calculations}{section.5.2}% 39
+\BOOKMARK [1][-]{section.5.3}{Results and Discussion}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.3.1}{Characterisation of the Na+ Binding Sites}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.2}{Binding Free Energies}{section.5.3}% 42
+\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 43
+\BOOKMARK [1][-]{section.1.5.A}{Appendix for Chapter 5}{chapter.5}% 44
+\BOOKMARK [0][-]{appendix.6}{Escape of Na+ from Na3 in GltPh}{}% 45
+\BOOKMARK [1][-]{section.6.1}{Introduction}{appendix.6}% 46
+\BOOKMARK [1][-]{section.6.2}{Method}{appendix.6}% 47
+\BOOKMARK [2][-]{subsection.6.2.1}{Model System and Simulation Details}{section.6.2}% 48
+\BOOKMARK [2][-]{subsection.6.2.2}{Umbrella Sampling and Free Energy Calculations}{section.6.2}% 49
+\BOOKMARK [2][-]{subsection.6.2.3}{Diffusion Coefficient and Mean First-passage Time}{section.6.2}% 50
+\BOOKMARK [1][-]{section.6.3}{Results and Discussion}{appendix.6}% 51
+\BOOKMARK [2][-]{subsection.6.3.1}{Escape Path of Na+ from the Na3 Site}{section.6.3}% 52
+\BOOKMARK [2][-]{subsection.6.3.2}{Free Energy from Umbrella Sampling Simulations and Conformational Changes}{section.6.3}% 53
+\BOOKMARK [2][-]{subsection.6.3.3}{Implications for GltPh}{section.6.3}% 54
+\BOOKMARK [2][-]{subsection.6.3.4}{Implications for EAATs}{section.6.3}% 55
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{appendix.6}% 56
+\BOOKMARK [1][-]{section.2.6.A}{Appendix for Chapter 6}{appendix.6}% 57
+\BOOKMARK [0][-]{appendix.7}{Effect of Lipid Membranes on K+ Permeation in gA}{}% 58
+\BOOKMARK [1][-]{section.7.1}{Introduction}{appendix.7}% 59
+\BOOKMARK [1][-]{section.7.2}{Method}{appendix.7}% 60
+\BOOKMARK [2][-]{subsection.7.2.1}{Model System}{section.7.2}% 61
+\BOOKMARK [2][-]{subsection.7.2.2}{PMF Calculations}{section.7.2}% 62
+\BOOKMARK [2][-]{subsection.7.2.3}{MD Simulation}{section.7.2}% 63
+\BOOKMARK [1][-]{section.7.3}{Results and Discussion}{appendix.7}% 64
+\BOOKMARK [2][-]{subsection.7.3.1}{Membrane Bilayer}{section.7.3}% 65
+\BOOKMARK [2][-]{subsection.7.3.2}{gA Embedded in Membrane Bilayer}{section.7.3}% 66
+\BOOKMARK [2][-]{subsection.7.3.3}{Potential of Mean Force of K+ in gA}{section.7.3}% 67
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{appendix.7}% 68
+\BOOKMARK [0][-]{appendix.8}{Ion Solvation Energy with Spherical Boundary Conditions}{}% 69
+\BOOKMARK [1][-]{section.8.1}{Introduction}{appendix.8}% 70
+\BOOKMARK [1][-]{section.8.2}{Method}{appendix.8}% 71
+\BOOKMARK [2][-]{subsection.8.2.1}{Solvation Free Energy with SBC}{section.8.2}% 72
+\BOOKMARK [2][-]{subsection.8.2.2}{Self-energy of Ions and Molecules in a Cavity}{section.8.2}% 73
+\BOOKMARK [2][-]{subsection.8.2.3}{Computational Details for SBC}{section.8.2}% 74
+\BOOKMARK [2][-]{subsection.8.2.4}{Solvation Free Energy with PBC}{section.8.2}% 75
+\BOOKMARK [1][-]{section.8.3}{Results and Discussion}{appendix.8}% 76
+\BOOKMARK [2][-]{subsection.8.3.1}{Ion Solvation}{section.8.3}% 77
+\BOOKMARK [2][-]{subsection.8.3.2}{Charged Amino Acids}{section.8.3}% 78
+\BOOKMARK [1][-]{section.8.4}{Conclusion}{appendix.8}% 79
+\BOOKMARK [0][-]{appendix.9}{Concluding Remarks}{}% 80
+\BOOKMARK [1][-]{section.9.1}{Summary of Research}{appendix.9}% 81
+\BOOKMARK [1][-]{section.9.2}{Potential Future Research}{appendix.9}% 82
+\BOOKMARK [0][-]{appendix.A}{Ion Self-Energy Python Script}{}% 83
+\BOOKMARK [0][-]{appendix.B}{Funnel Potential tclForces Script}{}% 84
+\BOOKMARK [0][-]{appendix.C}{Position-Dependent Diffusion Coefficient}{}% 85
+\BOOKMARK [0][-]{appendix*.62}{Bibliography}{}% 86
