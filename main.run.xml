@@ -87,7 +87,7 @@
       <file>main-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>/home/miro/Documents/</file>
+      <file>./library</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

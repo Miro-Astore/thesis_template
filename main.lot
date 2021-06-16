@@ -9,35 +9,35 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Average Distances (in \textup {\r A}) of the Atoms Coordinating the Tl$^+$/Na$^+$\ Ion at the Na2 Site.$^{a}$\relax }}{29}{table.caption.20}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Average Distances (in \textup {\r A}) of the Atoms Coordinating the Tl$^+$/Na$^+$\ Ion at the Na2 Site.$^{a}$\relax }}{31}{table.caption.20}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces Binding modes of the Na$^+$\ ions in Glt$_\text {Ph}$\ for various states of occupation.$^{a}$\relax }}{40}{table.caption.24}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Binding modes of the Na$^+$\ ions in Glt$_\text {Ph}$\ for various states of occupation.$^{a}$\relax }}{42}{table.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Binding free energies of Na$^+$\ ions to Glt$_\text {Ph}$\ in different states of occupation.$^{a}$\relax }}{43}{table.caption.28}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Binding free energies of Na$^+$\ ions to Glt$_\text {Ph}$\ in different states of occupation.$^{a}$\relax }}{45}{table.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Binding free energies of Asp bound to Glt$_\text {Ph}$\ with different ion configurations.$^{a}$\relax }}{44}{table.caption.29}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces Residues coordinating the Na$^+$\ ion in the Na3, Na1\textsuperscript {$\prime $}, and Na1\textsuperscript {$\prime \prime $}\ sites, and at the transition states (TS) in between.$^{a}$\relax }}{57}{table.caption.35}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Binding free energies of Asp bound to Glt$_\text {Ph}$\ with different ion configurations.$^{a}$\relax }}{46}{table.caption.29}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.1}{\ignorespaces Residues coordinating the Na$^+$\ ion in the Na3, Na1\textsuperscript {$\prime $}, and Na1\textsuperscript {$\prime \prime $}\ sites, and at the transition states (TS) in between.$^{a}$\relax }}{61}{table.caption.35}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces A compilation of experimental solvation free energies of Na$^+$\ and Cl$^-$\ from various sources.\relax }}{92}{table.caption.54}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.2}{\ignorespaces Break down of the solvation free energies as a function of the droplet size $R$ for both Na$^+$\ and Cl$^-$. Water molecules are confined using a half-harmonic potential with $k_{s}=10$~kcal/mol/\r A{}\textsuperscript {2}, and the ion is restrained at the centre with 10~kcal/mol/\r A{}\textsuperscript {2}. All energies are reported in kcal/mol, and the maximum statistical error for the solvation free energies is 0.3~kcal/mol.\relax }}{93}{table.caption.56}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces A compilation of experimental solvation free energies of Na$^+$\ and Cl$^-$\ from various sources.\relax }}{95}{table.caption.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.3}{\ignorespaces The effect of the harmonic restraint (kcal/mol/\r A{}\textsuperscript {2}) applied to the Na$^+$\ ion on its solvation free energy. Calculations are performed in a droplet with $R=24$~\textup {\r A}. All energies are reported in kcal/mol.\relax }}{94}{table.caption.57}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Break down of the solvation free energies as a function of the droplet size $R$ for both Na$^+$\ and Cl$^-$. Water molecules are confined using a half-harmonic potential with $k_{s}=10$~kcal/mol/\r A{}\textsuperscript {2}, and the ion is restrained at the centre with 10~kcal/mol/\r A{}\textsuperscript {2}. All energies are reported in kcal/mol, and the maximum statistical error for the solvation free energies is 0.3~kcal/mol.\relax }}{96}{table.caption.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.4}{\ignorespaces Same as \hyperref [solv:tab2]{Table~\ref *{solv:tab2}} but as a function of the ion off-centre positions along the $z$-axis with a droplet size of $R=24$~\textup {\r A}.\relax }}{95}{table.caption.59}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces The effect of the harmonic restraint (kcal/mol/\r A{}\textsuperscript {2}) applied to the Na$^+$\ ion on its solvation free energy. Calculations are performed in a droplet with $R=24$~\textup {\r A}. All energies are reported in kcal/mol.\relax }}{97}{table.caption.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.5}{\ignorespaces Break down of the solvation free energies as a function of the box length $L$ for both Na$^+$\ and Cl$^-$. $\Delta G_{\text {solv}}^{\text {real}}$ is obtained from $\Delta G_{\text {solv}}^{\text {intr}}$ by adding $−12.0z$ kcal/mol for the interfacial potential. All energies are reported in kcal/mol, and the maximum statistical error for the solvation free energies is 0.3 kcal/mol.\relax }}{96}{table.caption.60}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Same as \hyperref [solv:tab2]{Table~\ref *{solv:tab2}} but as a function of the ion off-centre positions along the $z$-axis with a droplet size of $R=24$~\textup {\r A}.\relax }}{99}{table.caption.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.6}{\ignorespaces Solvation free energies of the charged amino-acid side chain analogues obtained using a droplet size of $R=24$~\textup {\r A}. All energies are in kcal/mol, and the maximum statistical error for the solvation free energies is 0.3~kcal/mol.\relax }}{97}{table.caption.61}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces Break down of the solvation free energies as a function of the box length $L$ for both Na$^+$\ and Cl$^-$. $\Delta G_{\text {solv}}^{\text {real}}$ is obtained from $\Delta G_{\text {solv}}^{\text {intr}}$ by adding $−12.0z$ kcal/mol for the interfacial potential. All energies are reported in kcal/mol, and the maximum statistical error for the solvation free energies is 0.3 kcal/mol.\relax }}{99}{table.caption.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.6}{\ignorespaces Solvation free energies of the charged amino-acid side chain analogues obtained using a droplet size of $R=24$~\textup {\r A}. All energies are in kcal/mol, and the maximum statistical error for the solvation free energies is 0.3~kcal/mol.\relax }}{101}{table.caption.61}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
