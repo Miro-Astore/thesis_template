@@ -1,5 +1,5 @@
 %=======================================================================================%
-\chapter{Review of the Cystic Fibrosis Transmembrane Conductance Regulator}
+\chapter{Review of the Molecular Cause of Cystic Fibrosis}
 \label{chap:cftr_review}
 \newpage
 %Authors note:
@@ -10,10 +10,12 @@ Cystic Fibrosis (CF) is the most common fatal genetic condition in caucasian pop
 
 Much of the clinical research into CF has been managing the movement of this mucus and the populations of bacterium in it. Patients often require to hours of physical therapy to help clear this mucus since their lungs are unable to. They must also inhale saline solutions in order to counteract the osmotic pressure in their epithelium. This helps draw more moisture out of the epithelial cells to allow the cilia to move. 
 
-CF patients struggle to intake nutrients due to the misfunction of their pancreas and large intestines. This leads to CF related diabetes which afflicts roughly half of adults with CF \cite{kayani2018}. Meaning CF patients have to consume an array of enzymes and adhere to a specific diet, in addition to which they must be careful not to consume foods which may interfere with the array of medications they may be on.
+CF patients struggle to intake nutrients due to the build up of mucis in their pancreas and large intestines. This leads to CF related diabetes which afflicts roughly half of adults with CF \cite{kayani2018}. Patients with CF related diabetes are often administered enzymes and must adhere to a specific diet. A strict diet is particularly important when a patient is taking CFTR modulators because many compounds found in food have interactions with these drugs \cite{}.
 
-\section{ABC Transporters}
-CFTR belongs to a super family of proteins known as ATP Binding Cassette Transporters,  many of these proteins perform active transport across the cell membrane of different substrates including lipids and drug molecules. They are so named because they bind ATP in catalytic sub units on the protein called Nucleotide Binding Domains. These domains act as ATPases, accelerating the hydrolysis of ATP. The energy from hydrolysis is then transferred into the protein in order for it to pump its substrate against a concentration gradient. 
+\section{CFTR Structure}
+CFTR is organised into 7 domains (FIGURE). In the order of their primary sequence they are; The Lasso motif, which anchors into the membrane and serves as an interaction hub with other protein partners such as syntaxin and filamin \cite{}. Transmembrane Domain 1 (TMD1) which forms half of the pore. Nucleotide Binding Domain 1 (NBD1) which binds ATP when the channel is in the open state. The Regulatory domain (R-domain) which, when phosphorylated allows the channel to open. Transmembrane domain 2 (TMD2) which forms the other half of the ion conducting pore. Nucleotide Binding Domain 2 
+
+CFTR belongs to a super family of proteins known as ATP Binding Cassette Transporters,  many of these proteins perform active transport across cell membranes. The substrates they transport can vary, including lipids and drug molecules. Proteins in this family share a common motif known as Nucleotide Binding Domains (NBDs). These domains act as ATPases, accelerating the hydrolysis of ATP. The energy from hydrolysis is then transferred into the protein in order for it to pump its substrate against a concentration gradient. 
 
 \section{CFTR classification and structure}
 
@@ -21,19 +23,50 @@ The primary cause of the disease Cystic Fibrosis (CF) is the misfunction of a ch
 
 CFTR is distinguished by a regulatory region known as the R-domain (residues 645-845) which links NBD1 to TMD2. This region acts to lock the channel in the closed state by wedging itself between the TMDs and dislodging when any one of 3 sites are phosphorylated \cite{Mihalyi2020}. In experimentally determined structures of human CFTR the secondary structure of a section of the R-domain but not at high enough resolution to determine the identity of individual sidechains \cite{Zhang2018}\cite{Zhang2016}. Further secondary structure information can be found through experiments with NMR \cite{Baker2007}.
 
-Previous computional studies of CFTR have been used homology models based on the phosphorylated zebra fish protein PDBID:5W81 \cite{Zhang2017}. This differs substantially from the human form of the channel with a significant rearrangement of the helices in the channel (go through and actually figure out what these are). These have yielded interesting results but the sequence similarity between human and zebrafish CFTR is only 55\% \cite{}. For a protein structure where a single amino acid mutation leads to misfunction, more precision can only help. In fact the activity of CF treating drugs is not well conserved in the zebra fish structure. In order to do precision medicine we need precision structures. 
+Previous computional studies of CFTR have been used homology models based on the phosphorylated zebra fish protein PDBID:5W81 \cite{Zhang2017}. These have yielded interesting results but the sequence similarity between human and zebrafish CFTR is only 55\% \cite{}. For a protein structure where a single amino acid mutation leads to misfunction, more precision can only help. Additionally, the activity of CFTR modulators is not conserved in mutant zCFTR possibly because it has differnet kinetics to the human channel \cite{}. In order to do precision medicine we need precision structures. 
 
-An open state of the channel has been proposed by combining both the zebra fish homology model and the fully outward facing conformer of a bacterial ABC transporter Sav1866 \cite{Hoffman2018}. Although this model has several characteristics expected of the open channel, such as the critical R352-D993 salt bridge, it lacks the R104-E116 salt bride. In experiments, tehse residues could be replaced by cysteines and the channel would still function. However, when reducing agents were added to the system the channel lost its ability to open fully. This indicates that in the oxidised environment the C104-C116 cysteins formed a disulfide bridge but its breaking upon exposure to reducing agents caused a loss of function in the channel. This indicates that in the WT channel R104-E116 form a stable salt bridge. 
+An open state of the channel has been proposed by combining both the zebra fish homology model and the fully outward facing conformer of a bacterial ABC transporter Sav1866 \cite{Hoffman2018}. Although this model has several characteristics expected of the open channel, such as the critical R352-D993 salt bridge, it lacks a salt bridge between R104-E116. In experiments, tehse residues could be replaced by cysteines and the channel would still function. However, when reducing agents were added to the system the channel lost its ability to open fully. This indicates that in the oxidised environment the C104-C116 cysteins formed a disulfide bridge but its breaking upon exposure to reducing agents caused a loss of function in the channel. This indicates that in the WT channel R104-E116 form a stable salt bridge. 
 
 This salt bridge is clearly visible in the recent cryo-EM structure of ATP-bound human CFTR \cite{Zhang2018}.
 
 \section{The Gating Cycle}
-The conformational transition from inactive to active differs significantly in CFTR compared to other ABC transporters. The NBD domains are largely similar to other to those found in other ABC transporters, they dimerise in what is termed a head to tail configuration so both subunits contact both bound ATP molecules \cite{}. Residue E1371 allows neucleophilic attack on the $\gamma$ phosphate of the ATP bound to Walker B \cite{Stratford2007}. 
+The conformational transition from inactive to active differs significantly in CFTR compared to other ABC transporters. The NBD domains are largely similar to other to those found in other ABC transporters, they dimerise in what is termed a head to tail configuration so both subunits contact both bound ATP molecules \cite{}. Residue E1371 allows neucleophilic attack on the $\gamma$ phosphate of the ATP bound to Walker B \cite{Stratford2007}. This provides a "kick" to provide the kinetic energy for the opening of the channel. 
 
 The NBD 
 
-\section{The perturbations of TM8 and its Ability to Bind Drugs}
-A strange feature of the human CFTR structure is the unfolded helix TM8. This helix unwinds in the middle of the bilayer, this feature is conserved in both the Zebra fish structure and the human structure of CFTR \cite{Zhang2017}\cite{Zhang2018}. There is a significant conformational change between the open and closed CFTR channels with this region with the top of TM8 swinging 55$^o$ during opening. In humans the L927P mutation is known to cause disease. It is hypothesised that this mutation impedes this motion.
+\section{Classes of Misfunction to CFTR}
+The 360 disease causing mutations to CFTR have been classified into common classes based on the nature of the CF they cause, their reaction to CFTR modulators, and results \texit {in vitro} assays. Ultimately I aim to show that at the atomic level these classes of mutations are less meaningful and as patient specific theratyping evolves these classes will become less relavent, serving as illustrative tools only to communicate at a higher level what is going wrong with the CFTR protein. The canonical classification is as follows:
+\begin{itemize}
+	\item \bold{Class I} No functional protein. Under these mutations no protein is transcribed due to either problems with the trancription of mRNA or a premature stop codon truncating protein synthesis early, meaning the resulting peptide is missing key domains. 
+	\item \bold{Class II} Folding defect. These mutations cause the translated peptide to misfold into the incorrect tertiary structure. This can inhibit the protein's journey as it is traficked to the cell membrane, its function while once it is there or its functional life time at the surface. 
+	\item \bold{Class III} Impaired Gating. Here the mutation inhibits the ability of the protein to transition from the closed to the open state. 
+	\item \bold{Class IV} Decreased Conductance. These mutations cause a barrier in the energy landscape of the CFTR chloride conductance pathway.
+	\item \bold{Class V}
+	\item \bold{Class VI}
+\end{itemize}
+
+Although useful, in reality this paradigm struggles to reflect the fact that a mutation can belong to multiple categories to different levels due to different modes of pathogenesis.
+
+FIGURE demonstrates how each of the canonical classes at the molecular level is broken down into many sub classes and a mutation might belong to one of many of these subclasses. Structural biology paradigms and \texit{in silico} modelling can help classify mutations into these different classes. In combination with wet lab assays we can understand which classes of these molecular defects are most effectively treated with specific drug regimens. Our computational microscope is helping choose treatments for patients at the atomic level. 
+
+\section{CFTR Modulators}
+Since CF is caused by misfunctions of the channel it makes sense to pursue CFTR as a drug target. Through high throughput \textit{in vitro} secreening several (get number) compounds have been developed that aim to rescue the function of CFTR. These fall into two classes. Correctors, which aid CFTR to fold into the correct state and potentiators which help the channel reach the fully open state once it has already folded correctly. Emerging evidence suggests that specific genetic defects may be optimally rescued by specific combinations of both correctors and potentiator compounds. Recently, cryo-EM structures of these compounds in their bound state have been released. In addition to several \textit {in vitro} biophysical experiments to determine the precise mechanism of action and binding site of these compouds.
+
+\subsection{Correctors}
+The mechanism of action for corrector compounds appears to be to bind to to a pocket between TMH1 and TMH3. Circular dichromism and fluorescence experiments found that an isolated construct of TMH3 and TMH4 were more likely to fold correctly in the presence of corrector compounds. Later cryo-EM strcutures discovered high resolution electron density in the pocket in the shape of the drug compounds. 
+
+In combonination this is strong evidence for the precise mechanism of action for corrector compounds. Further work will aid in the creation of new compounds to refine our exploitation of this mechanism.
+
+Mention that there are some interactions between correctors and nbd1.
+
+\subsection{Poteniators}
+There is more uncertainty surrounding the mechanism of potentiator drugs. Experiments clearly demonstrate that they act directly on CFTR in order to increase the likelihood that it occupies the open state. They bind to the protein with picomolar affinity. There are are cryo-EM experiments which show the drugs bound to the TM8 hinge region \cite{}. \textit {In vitro} experiments suggest at least two membrane facing binding pockets due to the drugs extreme hydrophobicity\cite{}. The location of this second binding site is unknown. The difficulties arise with mutagenesis experiments. The dose-response curves in several studies show that when various sites are mutated the activity of the drug is lowered. This indicates additional binding sites not yet discovered. 
+
+GLPG1837 has not been approved in a clinical setting. \textit {in vitro} experiments suggest that it is more efficatious even though it has lower affinity for CFTR binding (CITATION NEEDED).  
+
+These drugs are clinically efficatious \cite{VanGoor2014} on several mutants with some curious exceptions like N1303K. I suggest the following mechanism for their action. I suspect a similar analogy exists for the action of the correctors. WT-CFTR exhibits a natural landscape with kinetic barriers in the transition between the closed and open states. A gating class mutation to CFTR will introduce a kinetic barrier in the pathway of this conformational transition. What these drugs do is reduce a barrier in the existing conformational landscape of CFTR. This compensates for the barriers introduced by the mutation. 
+
+This provides a rationale for why it appears possible for diverse range of molecular defects to be treatable by these small molecules. In our work we've found that the atomic nature of the defects introduced by each mutation varies widely, what is interesting is that experiments in \texit{ex vivo} models have shown that these drugs treat a variety of different defects. The classification of classes of defect is outdated, really there are as many classes as there are mutations.
 
 
 
