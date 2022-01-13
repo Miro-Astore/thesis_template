@@ -2,4 +2,26 @@
 \chapter{Theory and Methods}
 \numberwithin{equation}{chapter}
 \label{chap:methods}
-\section{Molecular Dynamics}
+
+\section{Approximating Quantum Mechanics with the Goal of Studying the Components of Living Things}
+Living things are made of atoms and the motion of atoms is governed by quantum mechanics. Unfortunately, quantum mechanical calculations for the number of atoms involved in proteins and other cellular components are computationally intractable. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply physically motivated approximations in order to simulate macromolecular systems at biologically relevant timescales. 
+
+For any quantum system we begin from the time dependent Schr\"{o}dinger wave equation 
+
+\begin{equation}
+i\hbar \frac {\partial}{\partial t} \Psi (\textbf{x},t) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}, t) \big] \Psi (\textbf{x},t) 
+\end{equation}
+
+When the external potential $V$ is independent of time this equation reduces to the familiar time independent form.
+
+\begin{equation}
+	E \Psi (\textbf{x}) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}) \big] \Psi (\textbf{x}) = H \Psi(\textbf{x}) 
+ \end{equation}
+
+The Hamiltonian of this system is given by $H = \nabla^2 + V$ 
+
+For an atomistic system we begin by noting that there are two types of particles, nucleii which we denote with the subscript $i$ and electrons denoted by $e$. In order to treat these elements seperately we decompose the Hamiltonian of the system into a few components. 
+
+\begin {equation}
+H = T_n + T_e + V_{n-n} + V_{n_e}
+\end{equation}
