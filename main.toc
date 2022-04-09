@@ -19,24 +19,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Approximating Quantum Mechanics with the Goal of Studying the Components of Living Things}{5}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{6}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{7}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{8}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CFTR Structure}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.2}CFTR Structure}{8}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR classification and structure}{9}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.4}The Gating Cycle}{9}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{9}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{10}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{10}{section.3.6}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{11}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{10}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Correctors}{11}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Poteniators}{10}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Poteniators}{11}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Concluding Remarks}{12}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Concluding Remarks}{13}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{12}{section*.7}%
+\contentsline {section}{References}{13}{section*.7}%
