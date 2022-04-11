@@ -31,7 +31,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{10}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{11}{section.3.6}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{10}{section.3.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6.1}Correctors}{11}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 

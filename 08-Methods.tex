@@ -6,7 +6,7 @@
 \section{Approximating Quantum Mechanics with the Goal of Studying the Components of Living Things}
 Living things are made of atoms and the motion of atoms is governed by quantum mechanics. Unfortunately, quantum mechanical calculations for the number of atoms involved in proteins and other cellular components are computationally intractable. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply physically motivated approximations in order to simulate macromolecular systems at biologically relevant timescales. 
 
-As for any quantum system we begin from the time dependent Schr\"{o}dinger wave equation 
+Since we are dealing with many body quantum systems we begin from the time dependent Schr\"{o}dinger wave equation 
 
 \begin{equation}
 i\hbar \frac {\partial}{\partial t} \Psi (\textbf{x},t) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}, t) \big] \Psi (\textbf{x},t) 
@@ -26,7 +26,7 @@ H = T_n + T_e + V_{n-n} + V_{n_e}
 
 Where $T_n$ and $T_e$ denote the kinetic energy of the neucleus and electrons repsecitivly. While $V_{n-n}, V_{e-e}, V_{n-e}$ and for the potentials between nucleons, between  electrons and between and electrons respectively.
 
-The kinetic energy terms have the form.
+Note that we have substituted the kinetic energy terms with the form. 
 
 \begin {equation}
 T_m = - \sum_i \frac{\hbar^2}{2M_i} \nabla^2
@@ -34,12 +34,14 @@ T_m = - \sum_i \frac{\hbar^2}{2M_i} \nabla^2
 
 Here, the $M_i$ are the masses of the particle and the operator $\nabla = \frac{\partial}{\partial x} + \frac{\partial }{\partial y} + \frac{\partial}{\partial z} $
 
-Similarly, since the potential terms all describe charged species, they follow couloumbic rules and have the form.
+While we note that since the potential terms all describe charged species, they follow couloumbic rules and have the form.
 
 \begin{equation}
-	V_m = \sum_{i>j} \frac{q_e^2 z_i z_j }{|\textbf{R}_i-\textbf{R}_j}
+	V_m = \sum_{i>j} \frac{q_e^2 z_i z_j }{|\textbf{R}_i-\textbf{R}_j}|
 \end{equation}
 
-Here the $z_i$ represent the charge state of the species, (-1, 0, 1) and the $R_i$ represent the coordinates of the particle. $q_e$ is the unit charge of a proton.
+Here the $z_i$ represent the charge state of the species, (-1, 0, 1) and the $R_i$ represent the coordinates of the particle. $q_e$ is the unit charge of an electron.
 
-We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This allows us to split the wave function into two parts. One dealing with the nucleus and one with the electrons in the system. This is justified through the slow motion of the nucleus compared to the electrons in the system.
+We now make use of the Born-Oppenheimer approximation \cite{Born1927}. Motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$
+
+This allows us to split the wave function into two parts. One dealing with the nucleus and one with the electrons in the system. This is justified through the slow motion of the nucleus compared to the electrons in the system.
