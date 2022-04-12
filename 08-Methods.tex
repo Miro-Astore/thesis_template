@@ -1,12 +1,13 @@
 %=======================================================================================%
-\chapter{Theory and Methods}
+\chapter{From Protons to Proteins: Methods to simulate what's happening inside cells.}
 \numberwithin{equation}{chapter}
 \label{chap:methods}
 
 \section{Approximating Quantum Mechanics with the Goal of Studying the Components of Living Things}
-Living things are made of atoms and the motion of atoms is governed by quantum mechanics. Unfortunately, quantum mechanical calculations for the number of atoms involved in proteins and other cellular components are computationally intractable. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply physically motivated approximations in order to simulate macromolecular systems at biologically relevant timescales. 
+Living things are made of atoms and the motion of atoms is governed by quantum mechanics. Unfortunately, performing simulations for the number of atoms involved in proteins and other cellular components at quantum mechanical accuracy is impossible. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply approximations in order to simulate macromolecular systems at biologically relevant timescales. 
 
-Since we are dealing with many body quantum systems we begin from the time dependent Schr\"{o}dinger wave equation 
+\subsection{A full quantum mechanical treatment}
+Since we are dealing with many body quantum systems we begin from the time dependent form of the Schr\"{o}dinger wave equation 
 
 \begin{equation}
 i\hbar \frac {\partial}{\partial t} \Psi (\textbf{x},t) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}, t) \big] \Psi (\textbf{x},t) 
@@ -15,13 +16,15 @@ i\hbar \frac {\partial}{\partial t} \Psi (\textbf{x},t) = \big[ -\frac{\hbar ^2}
 When the external potential $V$ is independent of time this equation reduces to the familiar time independent form. 
 
 \begin{equation}
-	E \Psi (\textbf{x}) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}) \big] \Psi (\textbf{x}) = H \Psi(\textbf{x}) 
+	E \Psi (\textbf{x}, t) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}) \big] \Psi (\textbf{x}, t) = H \Psi(\textbf{x}, t) 
  \end{equation}
 
-For an atomistic system we note that there are two types of particles, nucleii which we denote with the subscript $i$ and electrons denoted by $e$. In order to treat these elements seperately we decompose the Hamiltonian of the system into a few components. 
+Note that the wave function $\Psi (\textbf {x}, t)$ is still allowed to evolve in time. 
+
+In the atom there are two types of particles, nucleii which we will denote with the subscript $i$ and electrons denoted by $e$. In order to treat these elements seperately we decompose the Hamiltonian of the system into a few components. 
 
 \begin {equation}
-H = T_n + T_e + V_{n-n} + V_{n_e}
+H = T_n + T_e + V_{n-n} + V_{n_e} + V_{e-e}
 \end{equation}
 
 Where $T_n$ and $T_e$ denote the kinetic energy of the neucleus and electrons repsecitivly. While $V_{n-n}, V_{e-e}, V_{n-e}$ and for the potentials between nucleons, between  electrons and between and electrons respectively.
@@ -29,19 +32,25 @@ Where $T_n$ and $T_e$ denote the kinetic energy of the neucleus and electrons re
 Note that we have substituted the kinetic energy terms with the form. 
 
 \begin {equation}
-T_m = - \sum_i \frac{\hbar^2}{2M_i} \nabla^2
+T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2 \\ 
+T_e = - \sum_l \frac{\hbar^2}{2m_l} \nabla_l ^2
 \end {equation}
 
-Here, the $M_i$ are the masses of the particle and the operator $\nabla = \frac{\partial}{\partial x} + \frac{\partial }{\partial y} + \frac{\partial}{\partial z} $
+$M_i$ represents the mass of the $i$th nucleon and $m_l$ represents the mass of the $l$th electron. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nucleons and the electrons. The reason for this will become clear when we apply the born-oppenheimer approximation to separate the wave functions and solve them seperately.
+
+Here, the $M_i$ are the masses of the nucleons and the operator $\nabla = \frac{\partial}{\partial x} + \frac{\partial }{\partial y} + \frac{\partial}{\partial z} $
+
 
 While we note that since the potential terms all describe charged species, they follow couloumbic rules and have the form.
 
 \begin{equation}
-	V_m = \sum_{i>j} \frac{q_e^2 z_i z_j }{|\textbf{R}_i-\textbf{R}_j}|
+	V_{n-n} = \sum_{i>j} \frac{q_e^2 z_i z_j }{|\textbf{R}_i-\textbf{R}_j}|
 \end{equation}
+
+
 
 Here the $z_i$ represent the charge state of the species, (-1, 0, 1) and the $R_i$ represent the coordinates of the particle. $q_e$ is the unit charge of an electron.
 
 We now make use of the Born-Oppenheimer approximation \cite{Born1927}. Motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$
 
-This allows us to split the wave function into two parts. One dealing with the nucleus and one with the electrons in the system. This is justified through the slow motion of the nucleus compared to the electrons in the system.
+This allows us to split the wave function into two parts. One dealing with the nucleus and one with the electrons in the system. This is justified through the slow motion of the nucleus compared to the electrons in the atom.
