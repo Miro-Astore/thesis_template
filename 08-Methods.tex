@@ -6,7 +6,7 @@
 \section{Quantum Mechanics is not tractable for the scale of Cells.}
 Living things are made of atoms and atoms themselves are composed of many particles. The motions of atoms and their constituent particles are governed by quantum mechanics. Unfortunately, performing simulations for the number of atoms involved in proteins and other cellular components at quantum mechanical accuracy is impossible. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply approximations in order to produce a model which is capable of simulating macromolecular systems at biologically relevant timescales. 
 
-We will gradually integrate upwards, beginning with the interactions in a single atom we will work our way up to a complex macromolecular system with lipids, water, salts and of course, proteins. 
+We will gradually integrate upwards, beginning with the interactions in a single atom we will work our way up to a complex macromolecular system with lipids, water, salts and of course, proteins. Ultimately this section rationalises the treatment of atoms as point charges in classical molecular dynamics simulations.
 
 \subsection{A full quantum mechanical treatment}
 Since we are dealing with atoms which are governed by quantum mechanics we must begin our journey upwards with the time dependent form of the Schr\"{o}dinger wave equation. 
@@ -56,10 +56,10 @@ Here, the $M_i$ are the masses of the nuclei and the operator $\nabla = \frac{\p
 \subsection{The Born-Oppenheimer approximation.}
 We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This approximation is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, so the kinetic energy in the electrons is negligible and we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$
 
-This allows us to split the total wave function into two parts. One dealing with the nuclei and one with the electrons in the system. 
+This allows us to split the total wave function into two parts using a direct product. One term dealing with the nuclei and one with the electrons in the system. 
 
 \begin {equation}
-\Psi(R_i,t) = \psi_e (r_l,R_i)\psi_n(R_i,t)
+\Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
 \end {equation}
 
 
