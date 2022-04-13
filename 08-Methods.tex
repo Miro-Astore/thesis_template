@@ -3,7 +3,7 @@
 \numberwithin{equation}{chapter}
 \label{chap:methods}
 
-\section{Quantum Mechanics is not tractable for the scale of Cells.}
+\section{Quantum Mechanics is Not Tractable at the Scale of Biology.}
 Living things are made of atoms and atoms themselves are composed of many particles. The motions of atoms and their constituent particles are governed by quantum mechanics. Unfortunately, performing simulations for the number of atoms involved in proteins and other cellular components at quantum mechanical accuracy is impossible. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply approximations in order to produce a model which is capable of simulating macromolecular systems at biologically relevant timescales. 
 
 We will gradually integrate upwards, beginning with the interactions in a single atom we will work our way up to a complex macromolecular system with lipids, water, salts and of course, proteins. Ultimately this section rationalises the treatment of atoms as point charges in classical molecular dynamics simulations.
@@ -56,10 +56,25 @@ Here, the $M_i$ are the masses of the nuclei and the operator $\nabla = \frac{\p
 \subsection{The Born-Oppenheimer approximation.}
 We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This approximation is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, so the kinetic energy in the electrons is negligible and we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$
 
-This allows us to split the total wave function into two parts using a direct product. One term dealing with the nuclei and one with the electrons in the system. 
+This allows us to split the total wave function into two parts using a direct product. One term deals with the nuclei and one with the electrons in the system. 
 
 \begin {equation}
 \Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
 \end {equation}
 
+\subsection{Simulating Molecules Without any Quantum Mechamics}
+The Born-Oppenheimer approximation can be followed further to derive Hartree-Fock methods which allow calculations of the organisation of electron clouds around small molecules. This lets us derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. In molecular dynamics we try to match these energetic functions using an effective potential. 
+The CHARMM effective potential employed in this work is common in all-atom molecular dynamics. Similar functions are used in other forcefields such as AMBER, GROMOS and OPLS with different parameters and design philosophies.
+
+We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and pinching. As well as energies associated with the forces that atoms exert on eachother hwne they are not bonded together. Namely and Coulomb forces due to electric charges on the atom and attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term we will analyse in detail $U_{LJ}$.
+\begin{equation}
+	U_{CHARMM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}^{U_{bonded}}
+\end{equation}
+
+Interestingly, the bonded terms may all reasonably be approximated by harmonic springs. 
+
+\begin{equation}
+	U_{bonds} = \sum_{i>j} k_{bonds} |(\textbf{r}_i - \textbf{r}_i) - r_0 |^2 , U_{angles} = \sum_
+
+\end{equation}
 
