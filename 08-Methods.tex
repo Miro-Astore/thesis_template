@@ -74,7 +74,7 @@ We split up the molecular potential into several components dealing with the ene
 Interestingly, the bonded terms may all reasonably be approximated by harmonic springs. 
 
 \begin{equation}
-	U_{bonds} = \sum_{i>j} k_{bonds} |(\textbf{r}_i - \textbf{r}_i) - r_0 |^2 , U_{angles} = \sum_
+	U_{bonds} = \sum_{\{i,j\} \in bond_list | i\neq j } k_{i} |(\textbf{r}_i - \textbf{r}_j) - r_0 |^2 , \sum_{\{i,j,k\} \in angle_list} = \sum_{\{i,j,k,l\} \in dihedral_list } 
 
 \end{equation}
 
