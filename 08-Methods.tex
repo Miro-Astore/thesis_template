@@ -88,6 +88,8 @@ In classical forcefields the non-bonded interactions are expressed using the Cou
 
 \begin{equation}\label{nonbonded_eqs}
 	\begin{aligned}
-		U_{non-bonded} = \sum_{i>j} \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^12 - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} - \sum_{i>j} \frac{q_i q_j } {r_{ij}}
+		U_{non-bonded} = \sum_{i>j} \epsilon \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} - \sum_{i>j} \frac{q_i q_j } {r_{ij}}
 	\end{aligned}
 \end{equation}
+
+The $\sigma$ parameter denotes the location of the local minima in the Lennard-Jones potential. This is the optimum distance that two atoms will rest against each other in the absence of other effects. The $\epsilon$ parameter denotes the depth of the potential well, or how stable the two atoms will be in the minimum energy configuration. This is very important for certain physical parameters such as osmotic pressure  \cite{Yoo}
