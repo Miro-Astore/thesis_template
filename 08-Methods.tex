@@ -64,18 +64,30 @@ This allows us to split the total wave function into two parts using a direct pr
 
 \subsection{Simulating Molecules Without any Quantum Mechamics}
 The Born-Oppenheimer approximation can be followed further to derive Hartree-Fock methods which allow calculations of the organisation of electron clouds around small molecules. This lets us derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. In molecular dynamics we try to match these energetic functions using an effective potential. 
-The CHARMM effective potential employed in this work is common in all-atom molecular dynamics. Similar functions are used in other forcefields such as AMBER, GROMOS and OPLS with different parameters and design philosophies.
+The CHARMM effective potential employed in this work is common in all-atom molecular dynamics. The same  functional forms are used in other forcefields such as AMBER, GROMOS and OPLS but with different parameters and design philosophies. [CITATION NEEDED]
 
-We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and pinching. As well as energies associated with the forces that atoms exert on eachother hwne they are not bonded together. Namely and Coulomb forces due to electric charges on the atom and attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term we will analyse in detail $U_{LJ}$.
+We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and pinching. As well as energies associated with the forces that atoms exert on each other when they are not bonded together. Namely and Coulomb forces due to electric charges on the atom and attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term we will analyse in detail $U_{LJ}$.
+
 \begin{equation}
-	U_{CHARMM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded}}
+	U_{CHARMM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded} + U_{Urey-Bradley}}
 \end{equation}
 
 Interestingly, the bonded terms may all reasonably be approximated by harmonic springs. 
 
-\begin{equation}
-	%U_{bonds} = \sum_{\{i,j\} \in bond_list | i\neq j } k_{i} |(\textbf{r}_i - \textbf{r}_j) - r_0 |^2 , U_{angles} \sum_{\{i,j,k\} = \in angle_list} = \sum_{\{i,j,k,l\} \in dihedral_list } 
-	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2 + \sum_{dihedrals} k_\phi (1-  
-
+\begin{equation}\label{bonded_eqs}
+	\begin{aligned}
+	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2 + \sum_{dihedrals} k_\phi (1+\cos(n \phi - \delta)) \\ \sum_{improper-dihedrals}  k_{\kappa} (\kappa - \kappa_0)^2 + \sum_{Urey-Bradley} k_u(u-u_0)^2 
+\end{aligned}
 \end{equation}
 
+Here, the $k_i$ terms correspond to the strength of the harmonic restraint for that parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to accurately model the quantum energetics of bonded interactions at room temperature (CITE MORSE POTENTIAL).
+
+In classical forcefields the non-bonded interactions are expressed using the Couloumb's law for the partial charges assigned to each atom and the Lennard-Jones potential to approximate the interactions arising from both Pauli exclusion and Van Der Walls Interactions.
+
+
+
+\begin{equation}\label{nonbonded_eqs}
+	\begin{aligned}
+		U_{non-bonded} = \sum_{i>j} \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^12 - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} - \sum_{i>j} \frac{q_i q_j } {r_{ij}}
+	\end{aligned}
+\end{equation}

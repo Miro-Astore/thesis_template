@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  13 APR 2022 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  19 APR 2022 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1586,88 +1586,30 @@ Chapter 2.
 
 LaTeX Warning: Citation 'Born1927' on page 6 undefined on input line 57.
 
-[6]
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \begin{equation}
-                     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.71 
-     
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.71 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.72 	U_
-        {CHARMM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \und...
-
-? 
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.73 \end{equation}
-                   
-? 
-
-! LaTeX Error: \begin{document} ended by \end{equation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \end{equation}
-                   
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.73 \end{equation}
-                   
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.73 \end{equation}
-                   
-? 
-) (./09-CFTR-Review.tex [7]
+[6] [7]) (./09-CFTR-Review.tex [8]
 Chapter 3.
-[8
+[9
 
 ]
 
-LaTeX Warning: Citation 'boucher2006' on page 9 undefined on input line 9.
+LaTeX Warning: Citation 'boucher2006' on page 10 undefined on input line 9.
 
 
-LaTeX Warning: Citation 'kayani2018' on page 9 undefined on input line 13.
+LaTeX Warning: Citation 'kayani2018' on page 10 undefined on input line 13.
 
-[9]
+[10]
 
-LaTeX Warning: Citation 'Hoffman2018' on page 10 undefined on input line 28.
+LaTeX Warning: Citation 'Hoffman2018' on page 11 undefined on input line 28.
 
 
-LaTeX Warning: Citation 'Stratford2007' on page 10 undefined on input line 33.
+LaTeX Warning: Citation 'Stratford2007' on page 11 undefined on input line 33.
 
 ! Undefined control sequence.
 l.36 ...ion to CFTR modulators, and results \texit
                                                    {in vitro} assays. Ultima...
 
 ? 
-[10]
+[11]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
 d on input line 38.
@@ -1741,34 +1683,34 @@ l.49 ...s. Structural biology paradigms and \texit
                                                   {in silico} modelling can ...
 
 ? 
-[11]
-
-LaTeX Warning: Citation 'VanGoor2014' on page 12 undefined on input line 66.
-
 [12]
+
+LaTeX Warning: Citation 'VanGoor2014' on page 13 undefined on input line 66.
+
+[13]
 ! Undefined control sequence.
 l.68 ... interesting is that experiments in \texit
                                                   {ex vivo} models have show...
 
 ? 
-) (./15-Conclusion.tex [13]
+) (./15-Conclusion.tex [14]
 Chapter 4.
-) (./16-Appendix.tex [14
+) (./16-Appendix.tex [15
 
 ])
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 182.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.188 \blankpage
-                 [14
+                 [15
 
 
-] [15
+] [16
 
 
 ]
@@ -1777,15 +1719,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A5CD061468F987821D4972EE8AA6B6E6;1651.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D2CADDFF4B7E68F30B58F58DFECF6EA8;1619
-(rerunfilecheck)             After:  A5CD061468F987821D4972EE8AA6B6E6;1651.
 
 LaTeX Warning: There were undefined references.
 
@@ -1799,10 +1735,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30178 strings out of 481239
- 549901 string characters out of 5920378
- 1187549 words of memory out of 5000000
- 44765 multiletter control sequences out of 15000+600000
+ 30183 strings out of 481239
+ 549959 string characters out of 5920378
+ 1187705 words of memory out of 5000000
+ 44767 multiletter control sequences out of 15000+600000
  543918 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,96p,1417b,1836s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1841,10 +1777,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
 onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm1200.pfb>
-Output written on main.pdf (30 pages, 230773 bytes).
+Output written on main.pdf (31 pages, 237543 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
