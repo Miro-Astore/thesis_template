@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  19 APR 2022 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  20 APR 2022 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,38 +1242,7 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Linsdell2018':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Mihalyi2020':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Zhang2018':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Baker2007':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Zhang2017':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Cottrill2020':
-(biblatex)                - Invalid format of field 'month'.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 114.
 Package biblatex Info: Reference segment=0 on input line 114.
 \AtBeginShipoutBox=\box77
@@ -1582,34 +1551,23 @@ Chapter 1.
 Chapter 2.
 [5
 
-]
-
-LaTeX Warning: Citation 'Born1927' on page 6 undefined on input line 57.
-
-[6] [7]) (./09-CFTR-Review.tex [8]
+] [6] [7]
+<figures/Morse-Potential.png, id=255, 1027.84pt x 949.5475pt>
+File: figures/Morse-Potential.png Graphic file (type png)
+<use figures/Morse-Potential.png>
+Package pdftex.def Info: figures/Morse-Potential.png  used on input line 104.
+(pdftex.def)             Requested size: 284.52756pt x 262.85779pt.
+) (./09-CFTR-Review.tex [8] [9 <./figures/Morse-Potential.png>]
 Chapter 3.
-[9
+[10
 
-]
-
-LaTeX Warning: Citation 'boucher2006' on page 10 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'kayani2018' on page 10 undefined on input line 13.
-
-[10]
-
-LaTeX Warning: Citation 'Hoffman2018' on page 11 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Stratford2007' on page 11 undefined on input line 33.
-
+] [11]
 ! Undefined control sequence.
 l.36 ...ion to CFTR modulators, and results \texit
                                                    {in vitro} assays. Ultima...
 
 ? 
-[11]
+[12]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
 d on input line 38.
@@ -1683,104 +1641,95 @@ l.49 ...s. Structural biology paradigms and \texit
                                                   {in silico} modelling can ...
 
 ? 
-[12]
-
-LaTeX Warning: Citation 'VanGoor2014' on page 13 undefined on input line 66.
-
-[13]
+[13] [14]
 ! Undefined control sequence.
 l.68 ... interesting is that experiments in \texit
                                                   {ex vivo} models have show...
 
 ? 
-) (./15-Conclusion.tex [14]
+) (./15-Conclusion.tex [15]
 Chapter 4.
-) (./16-Appendix.tex [15
+) (./16-Appendix.tex [16
 
 ])
+
+! Package biblatex Error: '\bibliographystyle' invalid.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \bibliographystyle{IEEEtran}
+                                  
+? 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 182.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has
- been already used, duplicate ignored
+[17
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.17}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.188 \blankpage
-                 [15
+l.189 \blankpage
+                 [17
 
 
-] [16
+] [18
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A5CD061468F987821D4972EE8AA6B6E6;1651.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: AF2D2017F7EC67E34C019FFFFC315A25;1809
+(rerunfilecheck)             After:  58EF60D2335890B7388101A9BE2CBCAD;1810.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30183 strings out of 481239
- 549959 string characters out of 5920378
- 1187705 words of memory out of 5000000
- 44767 multiletter control sequences out of 15000+600000
- 543918 words of font info for 64 fonts, out of 8000000 for 9000
+ 30272 strings out of 481239
+ 552403 string characters out of 5920378
+ 1188200 words of memory out of 5000000
+ 44840 multiletter control sequences out of 15000+600000
+ 544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,96p,1417b,1836s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.0@Zhang2017} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Baker2007} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Zhang2016} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Zhang2018} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Mihalyi2020} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Linsdell2018} has been referenced but does n
-ot exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1200.pfb>
-Output written on main.pdf (31 pages, 237543 bytes).
+ 60i,12n,96p,1410b,1836s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.p
+fb>
+Output written on main.pdf (33 pages, 412195 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

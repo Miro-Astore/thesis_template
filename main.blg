@@ -20,80 +20,100 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: ./library.bib
 Database file #3: library.bib
-Repeated entry---line 1372 of file library.bib
- : @article{Cottrill2020
+Repeated entry---line 596 of file library.bib
+ : @article{baker2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 964 of file library.bib
+ : @article{born1927
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 976 of file library.bib
+ : @misc{boucher2007
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3928 of file library.bib
+ : @article{hoffmann2018
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4966 of file library.bib
- : @article{Linsdell2018
+Repeated entry---line 4507 of file library.bib
+ : @misc{kayani2018
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5223 of file library.bib
+ : @article{linsdell2018
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6738 of file library.bib
- : @article{Zhang2017
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7822 of file library.bib
- : @article{Zhang2016
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8002 of file library.bib
- : @article{Baker2007
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 9065 of file library.bib
- : @article{Zhang2018
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 9725 of file library.bib
- : @article{Mihalyi2020
+Repeated entry---line 5981 of file library.bib
+ : @article{mihalyi2020
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "boucher2006"
-Warning--I didn't find a database entry for "kayani2018"
-Warning--I didn't find a database entry for "Hoffman2018"
-Warning--I didn't find a database entry for "Stratford2007"
+Repeated entry---line 8637 of file library.bib
+ : @article{stratford2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9159 of file library.bib
+ : @article{vangoor2014
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10082 of file library.bib
+ : @article{yoo2018
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10332 of file library.bib
+ : @article{zhang2016
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10346 of file library.bib
+ : @article{zhang2017a
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10364 of file library.bib
+ : @article{zhang2018
+ :                   ,
+I'm skipping whatever remains of this entry
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 8 entries,
+You've used 14 entries,
             6365 wiz_defined-function locations,
-            1286 strings with 19281 characters,
-and the built_in function-call counts, 59385 in all, are:
-= -- 4485
-> -- 985
-< -- 268
-+ -- 1414
-- -- 412
-* -- 4561
-:= -- 6536
+            1341 strings with 28555 characters,
+and the built_in function-call counts, 107479 in all, are:
+= -- 8022
+> -- 1857
+< -- 512
++ -- 2683
+- -- 762
+* -- 8168
+:= -- 11779
 add.period$ -- 0
-call.type$ -- 8
-change.case$ -- 148
-chr.to.int$ -- 50
-cite$ -- 14
-duplicate$ -- 5650
-empty$ -- 5371
-format.name$ -- 626
-if$ -- 12173
+call.type$ -- 14
+change.case$ -- 265
+chr.to.int$ -- 104
+cite$ -- 26
+duplicate$ -- 10667
+empty$ -- 9620
+format.name$ -- 1185
+if$ -- 21878
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 36
 missing$ -- 0
-newline$ -- 367
-num.names$ -- 379
-pop$ -- 2606
+newline$ -- 645
+num.names$ -- 690
+pop$ -- 4970
 preamble$ -- 1
-purify$ -- 202
+purify$ -- 369
 quote$ -- 0
-skip$ -- 1542
+skip$ -- 2664
 stack$ -- 0
-substring$ -- 8497
-swap$ -- 1393
-text.length$ -- 211
+substring$ -- 14914
+swap$ -- 2572
+text.length$ -- 397
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 260
+type$ -- 464
 warning$ -- 0
-while$ -- 845
+while$ -- 1582
 width$ -- 0
-write$ -- 360
-(There were 7 error messages)
+write$ -- 632
+(There were 13 error messages)
