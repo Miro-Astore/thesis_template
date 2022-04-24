@@ -6,7 +6,7 @@
 \section{Quantum Mechanics is Not Tractable at the Scale of Biology.}
 Living things are made of atoms and atoms themselves are composed of many particles. The motions of atoms and their constituent particles are governed by quantum mechanics. Unfortunately, performing simulations for the number of atoms involved in proteins and other cellular components at quantum mechanical accuracy is impossible. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply approximations in order to produce a model which is capable of simulating macromolecular systems at biologically relevant timescales. 
 
-We will gradually integrate upwards, beginning with the interactions in a single atom we will work our way up to a complex macromolecular system with lipids, water, salts and of course, proteins. Ultimately this section rationalises the treatment of atoms as point charges in classical molecular dynamics simulations. It is hoped that this section can be of use to both biologists and physicists, in order to teach the physicist what htey need to know about the models they will be using to perform these simulations (and the many technical problems they will encounter) and to inform the biologist what the physicist is doing with all that computer time. 
+We will gradually integrate upwards, beginning with the interactions in a single atom we will work our way up to a complex macromolecular system with lipids, water, salts and of course, proteins. Ultimately this section rationalises the treatment of atoms as point charges in classical molecular dynamics simulations. It is hoped that this section can be of use to both biologists and physicists, in order to teach the physicist what they need to know about the models they will be using to perform these simulations (and the many technical problems they will encounter) and to inform the biologist what the physicist is doing with all that computer time. 
 
 \subsection{A full quantum mechanical treatment}
 Since we are dealing with atoms which are governed by quantum mechanics we must begin our journey upwards with the time dependent form of the Schr\"{o}dinger wave equation. 
@@ -54,7 +54,7 @@ Here, the $M_i$ are the masses of the nuclei and the operator $\nabla = \frac{\p
 
 
 \subsection{The Born-Oppenheimer approximation.}
-We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This approximation is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, so the kinetic energy in the electrons is negligible and we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$
+We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, so the kinetic energy in the electrons is negligible and we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$
 
 This allows us to split the total wave function into two parts using a direct product. One term deals with the nuclei and one with the electrons in the system. 
 
@@ -63,11 +63,12 @@ This allows us to split the total wave function into two parts using a direct pr
 \end {equation}
 
 \subsection{Simulating Molecules Without any Quantum Mechanics}
-The Born-Oppenheimer approximation can be followed further to derive Hartree-Fock methods which allow calculations of the organisation of electron clouds around small molecules. This lets us derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. 
+The Born-Oppenheimer approximation gives rise to Hartree-Fock methods which allow calculations of the organisation of electron clouds around small molecules. This lets us derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. 
 
-However, even with these approximations simulating a large number of atoms is not computationally tractable. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functionsthe calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical sytsem.
+However, even with these approximations simulating a large number of atoms is not computationally tractable. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functionsthe calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical system.
 
-This formulation gives us classical molecular dynamics we try to match these energetic functions using an effective potential. 
+This formulation gives us classical molecular dynamics where we try to match calculations made with the Born-Oppenheimer approximation. 
+
 The CHARMM effective potential employed in this work is common in all-atom molecular dynamics. The same  functional forms are used in other forcefields such as AMBER, GROMOS and OPLS but with different parameters and design philosophies. [CITATION NEEDED]
 
 We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and pinching. As well as energies associated with the forces that atoms exert on each other when they are not bonded together. Namely and Coulomb forces due to electric charges on the atom and attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term we will analyse in detail $U_{LJ}$.
@@ -98,8 +99,9 @@ In classical forcefields the non-bonded interactions are expressed using the Cou
 
 The $\sigma$ parameter denotes the location of the local minima in the Lennard-Jones potential. This is the optimum distance that two atoms will rest against each other in the absence of other effects. The $\epsilon$ parameter denotes the depth of the potential well, or how stable the two atoms will be in the minimum energy configuration. This is very important for certain physical parameters such as osmotic pressure  \cite{Yoo2018}
 
-Conversly, the 
+Conversely, the partial charges in a system have the greatest influence on the salvation energy.
 
+By focussing on these two physical parameters we can isolate and improve the non-bonded parameters.
 
 \begin{figure}
 	\centering
@@ -115,4 +117,6 @@ Conversly, the
 These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current.
 
 \subsection{The Process of Preparing a Simulation}
-The process of taking a molecular structure and putting it in a water box so it can can be simluationed at physiological temperatures is both an art and a science. It's a science because the programmer must be aware of the many tricks that .
+The process of taking a molecular structure and putting it in a water box so it can can be simulated at physiological temperatures is both an art and a science. It's a science because the programmer must be aware of the many tricks that structural biologists use to image a macromolecular complex and it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid in during the conditions of interest.
+
+ 
