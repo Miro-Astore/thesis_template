@@ -62,10 +62,10 @@ This allows us to split the total wave function into two parts using a direct pr
 \Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
 \end {equation}
 
-\subsection{Simulating Molecules Without any Quantum Mechanics}
+\subsection{Simulating Atoms Without any Quantum Mechanics}
 The Born-Oppenheimer approximation gives rise to Hartree-Fock methods which allow calculations of the organisation of electron clouds around small molecules. This lets us derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. 
 
-However, even with these approximations simulating a large number of atoms is not computationally tractable. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functionsthe calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical system.
+However, even with these approximations simulating a large number of atoms is not computationally tractable. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical system.
 
 This formulation gives us classical molecular dynamics where we try to match calculations made with the Born-Oppenheimer approximation. 
 
@@ -116,7 +116,16 @@ By focussing on these two physical parameters we can isolate and improve the non
 \subsection{Short Comings of Classical MD}
 These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current.
 
-\subsection{The Process of Preparing a Simulation}
-The process of taking a molecular structure and putting it in a water box so it can can be simulated at physiological temperatures is both an art and a science. It's a science because the programmer must be aware of the many tricks that structural biologists use to image a macromolecular complex and it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid in during the conditions of interest.
+\subsection{Philosophy of Different Molecular Mechanics forcefields.}
+At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversly, top down forcefields take experimental measurables such as  . This philosophy is closest to physics 
 
+\subsection{The Process of Preparing a Simulation}
+The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid in during the conditions of interest.
+
+\subsection{Controlling the Temperature and Pressure in a Simulation}
+
+\subsection{Accelerating Simulations with Virtual Site Topologies}
  
+\subsection{Umbrella Sampling}
+
+\subsection{Metadynamics}
