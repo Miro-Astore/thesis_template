@@ -4,31 +4,32 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
 \BOOKMARK [1][-]{section.1.1}{Physics in a test tube}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.2}{What is Physics?}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.3}{Studying Cystic Fibrosis to Learn Biophysics}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.4}{Well. We're in the future}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{From Protons to Proteins: Methods to simulate the inside of a cell.}{}% 9
-\BOOKMARK [1][-]{section.2.1}{Quantum Mechanics is Not Tractable at the Scale of Biology.}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.1.1}{A full quantum mechanical treatment}{section.2.1}% 11
-\BOOKMARK [2][-]{subsection.2.1.2}{The Born-Oppenheimer approximation.}{section.2.1}% 12
-\BOOKMARK [1][-]{section.2.2}{Simulating Atoms Without any Quantum Mechanics, Classical Molecular Dynamics}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.1}{Philosophy of Different Molecular Mechanics forcefields.}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.2}{Short Comings of Classical MD}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.3}{The Process of Preparing a Simulation}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.4}{Controlling the Temperature and Pressure in a Simulation}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.5}{Periodic Boundaries to Simulate a Realistic System Size}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.6}{Accelerating Simulations with Virtual Site Topologies}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.7}{Umbrella Sampling}{section.2.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.8}{Metadynamics}{section.2.2}% 21
-\BOOKMARK [0][-]{chapter.3}{Review of the Molecular Cause of Cystic Fibrosis}{}% 22
-\BOOKMARK [1][-]{section.3.1}{Clinical outcomes of Cystic Fibrosis}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{CFTR Structure}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.3}{CFTR classification and structure}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.4}{The Gating Cycle}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.5}{Classes of Misfunction to CFTR}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.6}{CFTR Modulators}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.6.1}{Correctors}{section.3.6}% 29
-\BOOKMARK [2][-]{subsection.3.6.2}{Potentiators}{section.3.6}% 30
-\BOOKMARK [2][-]{subsection.3.6.3}{Annion Selectivity}{section.3.6}% 31
-\BOOKMARK [0][-]{chapter.4}{Concluding Remarks}{}% 32
-\BOOKMARK [1][-]{section*.12}{References}{chapter.4}% 33
-\BOOKMARK [0][-]{appendix*.13}{Bibliography}{}% 34
+\BOOKMARK [1][-]{section.1.3}{Ion Channels: Natures laboratories to Learn Biophysics}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Studying Cystic Fibrosis to Learn Biophysics}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.5}{Well. We're in the future}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{From Protons to Proteins: Methods to simulate the inside of a cell.}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Quantum Mechanics is Not Tractable at the Scale of Biology.}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{A full quantum mechanical treatment}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{The Born-Oppenheimer approximation.}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{Classical MD, Molecular Motions Without Quantum Mechanics}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Philosophy of Different Molecular Mechanics forcefields.}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{The Process of Preparing a Simulation}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Controlling the Temperature and Pressure in a Simulation}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{Periodic Boundaries to Simulate a Realistic System Size}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.5}{Short Comings of Classical MD}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.6}{Accelerating Simulations with Virtual Site Topologies}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.7}{Umbrella Sampling}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.8}{Metadynamics}{section.2.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Review of the Molecular Cause of Cystic Fibrosis}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Clinical outcomes of Cystic Fibrosis}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{CFTR Structure}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{CFTR classification and structure}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.4}{The Gating Cycle}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.5}{Classes of Misfunction to CFTR}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.6}{CFTR Modulators}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.6.1}{Correctors}{section.3.6}% 30
+\BOOKMARK [2][-]{subsection.3.6.2}{Potentiators}{section.3.6}% 31
+\BOOKMARK [2][-]{subsection.3.6.3}{Annion Selectivity}{section.3.6}% 32
+\BOOKMARK [0][-]{chapter.4}{Concluding Remarks}{}% 33
+\BOOKMARK [1][-]{section*.13}{References}{chapter.4}% 34
+\BOOKMARK [0][-]{appendix*.14}{Bibliography}{}% 35
