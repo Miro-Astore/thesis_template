@@ -54,7 +54,9 @@ Here, the $M_i$ are the masses of the nuclei and the operator $\nabla = \frac{\p
 
 
 \subsection{The Born-Oppenheimer approximation.}
-We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, so the kinetic energy in the electrons is negligible and we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$
+We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, and so we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$ 
+
+%note that in the case of hydrogen we lose an order of magnitude so the approximation is less valid, especially at room temperature.
 
 This allows us to split the total wave function into two parts using a direct product. One term deals with the nuclei and one with the electrons in the system. 
 
@@ -117,7 +119,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current.
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
-At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversly, top down forcefields take experimental measurables such as  . This philosophy is closest to physics 
+At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. This philosophy is closest to physics 
 
 \subsection{The Process of Preparing a Simulation}
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid in during the conditions of interest.
