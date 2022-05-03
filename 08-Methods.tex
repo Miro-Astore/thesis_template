@@ -83,7 +83,7 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 
 \begin{equation}\label{bonded_eqs}
 	\begin{aligned}
-		U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2 + \sum_{dihedrals} k_\phi (1+\cos(n \phi - \delta)) \\ \sum_{improper-dihedrals}  k_{\kappa} (\kappa - \kappa_0)^2 + \sum_{Urey-Bradley} k_u(r-r_{UB_0})^2 
+	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2 + \sum_{dihedrals} k_\phi (1+\cos(n \phi - \delta)) \\ \sum_{improper-dihedrals}  k_{\kappa} (\kappa - \kappa_0)^2 + \sum_{Urey-Bradley} k_u(r_{UB}-r_{UB_0})^2 
 \end{aligned}
 \end{equation}
 
@@ -95,8 +95,8 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for t
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[The Bonded Interactions Approximated In Classical Forcefields]{\textbf{The Bonded Interactions Approximated In Classical Forcefields.}}{
-		(A) The energy of Bond Stretching is approximated as a harmonic oscillator with respect to their separation $r$. (B) Angles between neighbouring covalently bonded atoms are also approximated as a harmonic oscillator with respect to the parameter $\theta$. In some forcefields such as CHARMM there is a correction term for these angular interactions known as Urey Bradley which is also dependent on the separation $r$. 
-}
+		(A) The energy of Bond Stretching is approximated as a harmonic oscillator with respect to their separation $r$. (B) Angles between neighbouring covalently bonded atoms are also approximated as a harmonic oscillator with respect to the angle $\theta$. In some forcefields such as CHARMM there is a correction term for these angular interactions known as Urey Bradley forces. This is calculated using the separation between the non-bonded atoms $i$-$k$ in the triplet with the parameer $r_{UB}$. (C) The dihedral angle is calculated by constructing two planes. Each plane is constructed to contain three of the four atoms in the set. One plane encompasses atoms i, j and k  colored in blue and the other plane contains the j, k and l atoms colored in red. The dihedral angle is then calculated by taking the angle between these two planes.	
+	}
 	\label{charmm_bonded}
 \end{figure}
 
