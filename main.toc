@@ -33,36 +33,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.6}The Process of Preparing a Simulation}{10}{subsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.7}Controlling the Temperature and Pressure in a Simulation}{10}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.7}Controlling the Temperature and Pressure in a Simulation}{11}{subsection.2.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.8}Accelerating Simulations with Virtual Site Topologies}{10}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.8}Periodic Boundaries to Simulate a Realistic System Size}{11}{subsection.2.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.9}Umbrella Sampling}{10}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.9}Accelerating Simulations with Virtual Site Topologies}{11}{subsection.2.1.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.10}Metadynamics}{10}{subsection.2.1.10}%
+\contentsline {subsection}{\numberline {2.1.10}Umbrella Sampling}{11}{subsection.2.1.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{11}{chapter.3}%
+\contentsline {subsubsection}{Weighted Histogram Average Method}{11}{section*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {2.1.11}Metadynamics}{11}{subsection.2.1.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CFTR Structure}{12}{section.3.2}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{12}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{13}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.2}CFTR Structure}{13}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{14}{section.3.5}%
+\contentsline {section}{\numberline {3.3}CFTR classification and structure}{14}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{14}{section.3.6}%
+\contentsline {section}{\numberline {3.4}The Gating Cycle}{14}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{15}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{15}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Potentiators}{15}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{15}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{16}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.1}Correctors}{16}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Concluding Remarks}{17}{chapter.4}%
+\contentsline {subsection}{\numberline {3.6.2}Potentiators}{16}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{18}{section*.8}%
+\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{17}{subsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{18}{appendix*.9}%
+\contentsline {chapter}{\numberline {4}Concluding Remarks}{18}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{19}{section*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{19}{appendix*.10}%

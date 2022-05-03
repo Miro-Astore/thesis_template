@@ -101,7 +101,7 @@ In classical forcefields the non-bonded interactions are expressed using the Cou
 
 The $\sigma$ parameter denotes the location of the local minima in the Lennard-Jones potential. This is the optimum distance that two atoms will rest against each other in the absence of other effects. The $\epsilon$ parameter denotes the depth of the potential well, or how stable the two atoms will be in the minimum energy configuration. This is very important for certain physical parameters such as osmotic pressure  \cite{Yoo2018}
 
-Conversely, the partial charges in a system have the greatest influence on the salvation energy.
+Conversely, the partial charges in a system have the greatest influence on the solvation energy.
 
 By focussing on these two physical parameters we can isolate and improve the non-bonded parameters.
 
@@ -116,18 +116,33 @@ By focussing on these two physical parameters we can isolate and improve the non
 
 
 \subsection{Short Comings of Classical MD}
+The short comings of classical molecular dynamics fall into two classes whose solutions stand opposed to one another. These are the accuracy of the chemical forcefields outlined above and the inability of modern computers to deliver enough samples of the energy landscape to collect sufficient statistics for rigorous conclusions. The issue is that, as the above physical formulation might indicate. The more accurate the forcefields, the more computationally expensive. And so these two shortcomings are constantly in tension with one another. 
+
+\subsubsection{The Problem with Forcefields}
 These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current.
+
+The other context where polarisation 
+
+However, for most situations, particularly those involving bulk water and protein motions Molecular Dynamics is proving to be an invaluable tool for investigating the properties of biological systems.  
+
+\subsubsection{The Problem with Sampling}
+
+To physicists the sampling is the more interesting. Collecting sufficient statistics about the system of interest is difficult and comes at both a computational and human cost. Even though computers have sped up exponentially for the last 50 years we are still orders of magnitude from being able to reach the time scales of many biological processes. As is we cannot even sample the time scales of diffusion through an ion channel, despite the problem standing for decades. 
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
 At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. This philosophy is closest to physics 
 
 \subsection{The Process of Preparing a Simulation}
-The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid in during the conditions of interest.
+The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
 
 \subsection{Controlling the Temperature and Pressure in a Simulation}
+
+\subsection{Periodic Boundaries to Simulate a Realistic System Size}
 
 \subsection{Accelerating Simulations with Virtual Site Topologies}
  
 \subsection{Umbrella Sampling}
+
+\subsubsection{Weighted Histogram Average Method}
 
 \subsection{Metadynamics}
