@@ -83,7 +83,7 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 
 \begin{equation}\label{bonded_eqs}
 	\begin{aligned}
-	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2 + \sum_{dihedrals} k_\phi (1+\cos(n \phi - \delta)) \\ \sum_{improper-dihedrals}  k_{\kappa} (\kappa - \kappa_0)^2 + \sum_{Urey-Bradley} k_u(u-u_0)^2 
+		U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2 + \sum_{dihedrals} k_\phi (1+\cos(n \phi - \delta)) \\ \sum_{improper-dihedrals}  k_{\kappa} (\kappa - \kappa_0)^2 + \sum_{Urey-Bradley} k_u(r-r_{UB_0})^2 
 \end{aligned}
 \end{equation}
 
@@ -95,7 +95,7 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for t
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[The Bonded Interactions Approximated In Classical Forcefields]{\textbf{The Bonded Interactions Approximated In Classical Forcefields.}}{
-		The Morse potential was formulated to model the potential the potential energy surface of the separation of diatomic molecules (blue). At low temperatures (the ground state, v=0) like those found in classical MD there is good agreement between the Morse potential and the harmonic quantum oscillator (green). Credit Mark Somoza 2006. 
+		(A) The energy of Bond Stretching is approximated as a harmonic oscillator with respect to their separation $r$. (B) Angles between neighbouring covalently bonded atoms are also approximated as a harmonic oscillator with respect to the parameter $\theta$. In some forcefields such as CHARMM there is a correction term for these angular interactions known as Urey Bradley which is also dependent on the separation $r$. 
 }
 	\label{charmm_bonded}
 \end{figure}
@@ -118,10 +118,12 @@ Conversely, the partial charges in a system have the greatest influence on the s
 By focussing on these two physical parameters we can isolate and improve the non-bonded parameters.
 
 \begin{figure}
-	\centering
-	\includegraphics[width=10cm]{figures/Morse-Potential.png}
-	\caption[The Morse Potential Compared to a Harmonic Potential]{
-		The Morse potential was formulated to model the potential the potential energy surface of the separation of diatomic molecules (blue). At low temperatures (the ground state, v=0) like those found in classical MD there is good agreement between the Morse potential and the harmonic quantum oscillator (green). Credit Mark Somoza 2006. 
+	\begin{center}
+	\includegraphics[width=7cm]{figures/Morse-Potential.png}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[The Morse Potential Compared to a Harmonic Potential] {\textbf{The Morse Potential Compared to a Harmonic Potential}}{
+		The Morse potential was formulated to approximate the potential the potential energy surface of the separation of covalent bonds (blue). At low temperatures (the ground state, v=0) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006. 
 }
 	\label{morse_potential}
 \end{figure}
