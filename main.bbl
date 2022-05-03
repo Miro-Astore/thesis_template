@@ -105,12 +105,6 @@
   Biomolecular Force Fields by Pair-Specific Corrections to Non-Bonded
   Interactions}
     \field{volume}{20}
-    \verb{file}
-    \verb /home/miro/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
-    \verb d/Yoo, Aksimentiev - 2018 - New tricks for old dogs Improving the acc
-    \verb uracy of biomolecular force fields by pair-specific corrections to no
-    \verb .pdf
-    \endverb
     \field{journaltitle}{Physical Chemistry Chemical Physics}
     \field{month}{03}
     \field{year}{2018}
@@ -157,11 +151,6 @@
     \field{title}{Airway Surface Dehydration in Cystic Fibrosis:
   {{Pathogenesis}} and Therapy}
     \field{volume}{58}
-    \verb{file}
-    \verb /home/miro/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
-    \verb d/Boucher - 2006 - Airway Surface Dehydration in Cystic Fibrosis Path
-    \verb ogenesis and Therapy.pdf
-    \endverb
     \field{journaltitle}{Annual Review of Medicine}
     \field{year}{2007}
   \endentry
@@ -222,11 +211,6 @@
     \field{number}{FEB}
     \field{title}{Cystic Fibrosis-Related Diabetes}
     \field{volume}{9}
-    \verb{file}
-    \verb /home/miro/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
-    \verb d/Kayani, Mohammed, Mohiaddin - 2018 - Cystic fibrosis-related diabet
-    \verb es.pdf
-    \endverb
     \field{journaltitle}{Frontiers in Endocrinology}
     \field{month}{02}
     \field{year}{2018}
@@ -588,11 +572,6 @@
     \field{title}{Conformational {{Changes}} of {{CFTR}} upon
   {{Phosphorylation}} and {{ATP Binding}}}
     \field{volume}{170}
-    \verb{file}
-    \verb /home/miro/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
-    \verb d/Zhang, Liu, Chen - 2017 - Conformational Changes of CFTR upon Phosp
-    \verb horylation and ATP Binding.pdf
-    \endverb
     \field{journaltitle}{Cell}
     \field{month}{07}
     \field{year}{2017}
@@ -676,11 +655,6 @@
     \field{title}{Combining Theoretical and Experimental Data to Decipher
   {{CFTR 3D}} Structures and Functions}
     \field{volume}{75}
-    \verb{file}
-    \verb /home/miro/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
-    \verb d/Hoffmann et al. - 2018 - Combining theoretical and experimental dat
-    \verb a to decipher CFTR 3D structures and functions(2).pdf
-    \endverb
     \field{journaltitle}{Cellular and Molecular Life Sciences}
     \field{month}{10}
     \field{year}{2018}
@@ -764,15 +738,60 @@
   Domain ({{NBD2}}) of {{CFTR}} Plays a Key Role in {{ATPase}} Activity by the
   {{NBD1-NBD2}} Heterodimer}
     \field{volume}{401}
-    \verb{file}
-    \verb /home/miro/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
-    \verb d/Stratford et al. - 2007 - The Walker B motif of the second nucleoti
-    \verb de-binding domain (NBD2) of CFTR plays a key role in ATPase activity.
-    \verb pdf
-    \endverb
     \field{journaltitle}{Biochemical Journal}
     \field{month}{01}
     \field{year}{2007}
+  \endentry
+
+  \entry{fiedorczuk2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FK}{%
+         family={Fiedorczuk},
+         familyi={F\bibinitperiod},
+         given={Karol},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FKCJ1}
+    \strng{fullhash}{FKCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Small molecule chaperones have been exploited as therapeutics for the
+  hundreds of diseases caused by protein misfolding. The most successful
+  examples are the CFTR correctors, which transformed cystic fibrosis therapy.
+  These molecules revert folding defects of the DF508 mutant and are widely
+  used to treat patients. To investigate the molecular mechanism of their
+  action, we determined cryo-electron microscopy structures of CFTR in complex
+  with the FDA-approved correctors lumacaftor or tezacaftor. Both drugs insert
+  into a hydrophobic pocket in the first transmembrane domain (TMD1), linking
+  together four helices that are thermodynamically unstable. Mutating residues
+  at the binding site rendered DF508-CFTR insensitive to lumacaftor and
+  tezacaftor, underscoring the functional significance of the structural
+  discovery. These results support a mechanism in which the correctors
+  stabilize TMD1 at an early stage of biogenesis, prevent its premature
+  degradation, and thereby allosterically rescuing many disease-causing
+  mutations.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2021.12.009
+    \endverb
+    \field{issn}{00928674}
+    \field{number}{1}
+    \field{pages}{158\bibrangedash 168.e11}
+    \field{title}{Mechanism of {{CFTR}} Correction by Type {{I}} Folding
+  Correctors}
+    \field{volume}{185}
+    \field{langid}{english}
+    \field{journaltitle}{Cell}
+    \field{month}{01}
+    \field{year}{2022}
   \endentry
 
   \entry{VanGoor2014}{article}{}
@@ -838,15 +857,49 @@
     \field{title}{Effect of Ivacaftor on {{CFTR}} Forms with Missense Mutations
   Associated with Defects in Protein Processing or Function}
     \field{volume}{13}
-    \verb{file}
-    \verb /home/miro/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
-    \verb d/Van Goor et al. - 2014 - Effect of ivacaftor on CFTR forms with mis
-    \verb sense mutations associated with defects in protein processing or func
-    \verb .pdf
-    \endverb
     \field{journaltitle}{Journal of Cystic Fibrosis}
     \field{month}{01}
     \field{year}{2014}
+  \endentry
+
+  \entry{yang2002}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YKL}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Kun-Lin},
+         giveni={K\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yiacoumi},
+         familyi={Y\bibinitperiod},
+         given={Sotira},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tsouris},
+         familyi={T\bibinitperiod},
+         given={Costas},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YKL+1}
+    \strng{fullhash}{YKLYSTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.1511726
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{18}
+    \field{pages}{8499\bibrangedash 8507}
+    \field{title}{Monte {{Carlo}} Simulations of Electrical Double-Layer
+  Formation in Nanopores}
+    \field{volume}{117}
+    \field{langid}{english}
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{11}
+    \field{year}{2002}
   \endentry
 \enddatalist
 \endinput

@@ -20,100 +20,108 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: ./library.bib
 Database file #3: library.bib
-Repeated entry---line 596 of file library.bib
+Repeated entry---line 1114 of file library.bib
  : @article{baker2007
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 964 of file library.bib
+Repeated entry---line 1840 of file library.bib
  : @article{born1927
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 976 of file library.bib
+Repeated entry---line 1852 of file library.bib
  : @misc{boucher2007
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3928 of file library.bib
+Repeated entry---line 5383 of file library.bib
+ : @article{fiedorczuk2022
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7790 of file library.bib
  : @article{hoffmann2018
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4507 of file library.bib
+Repeated entry---line 9033 of file library.bib
  : @misc{kayani2018
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5223 of file library.bib
+Repeated entry---line 10458 of file library.bib
  : @article{linsdell2018
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5981 of file library.bib
+Repeated entry---line 11926 of file library.bib
  : @article{mihalyi2020
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8637 of file library.bib
+Repeated entry---line 17163 of file library.bib
  : @article{stratford2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9159 of file library.bib
+Repeated entry---line 18192 of file library.bib
  : @article{vangoor2014
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10082 of file library.bib
+Repeated entry---line 19639 of file library.bib
+ : @article{yang2002
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 19915 of file library.bib
  : @article{yoo2018
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10332 of file library.bib
+Repeated entry---line 20361 of file library.bib
  : @article{zhang2016
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10346 of file library.bib
+Repeated entry---line 20389 of file library.bib
  : @article{zhang2017a
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10364 of file library.bib
+Repeated entry---line 20406 of file library.bib
  : @article{zhang2018
  :                   ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 14 entries,
+You've used 16 entries,
             6365 wiz_defined-function locations,
-            1341 strings with 28555 characters,
-and the built_in function-call counts, 107479 in all, are:
-= -- 8022
-> -- 1857
-< -- 512
-+ -- 2683
-- -- 762
-* -- 8168
-:= -- 11779
+            1354 strings with 28684 characters,
+and the built_in function-call counts, 118807 in all, are:
+= -- 8807
+> -- 2084
+< -- 562
++ -- 2970
+- -- 804
+* -- 8988
+:= -- 13004
 add.period$ -- 0
-call.type$ -- 14
-change.case$ -- 265
-chr.to.int$ -- 104
-cite$ -- 26
-duplicate$ -- 10667
-empty$ -- 9620
-format.name$ -- 1185
-if$ -- 21878
+call.type$ -- 16
+change.case$ -- 279
+chr.to.int$ -- 116
+cite$ -- 30
+duplicate$ -- 11923
+empty$ -- 10648
+format.name$ -- 1338
+if$ -- 24195
 int.to.chr$ -- 0
-int.to.str$ -- 36
+int.to.str$ -- 40
 missing$ -- 0
-newline$ -- 645
-num.names$ -- 690
-pop$ -- 4970
+newline$ -- 682
+num.names$ -- 766
+pop$ -- 5691
 preamble$ -- 1
-purify$ -- 369
+purify$ -- 396
 quote$ -- 0
-skip$ -- 2664
+skip$ -- 2989
 stack$ -- 0
-substring$ -- 14914
-swap$ -- 2572
-text.length$ -- 397
+substring$ -- 16215
+swap$ -- 2856
+text.length$ -- 448
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 464
+type$ -- 532
 warning$ -- 0
-while$ -- 1582
+while$ -- 1759
 width$ -- 0
-write$ -- 632
-(There were 13 error messages)
+write$ -- 667
+(There were 15 error messages)
