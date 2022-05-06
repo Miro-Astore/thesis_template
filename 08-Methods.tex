@@ -148,11 +148,11 @@ These approximations are not without a cost to accuracy. In certain situations, 
 
 The other context where polarisation is important to consider are on divalent ions. Here, the solvation energy is underestimated due to the consistent lack of polarisation, making investigations of these biologically imporatnt chemical species difficult.
 
-However, for most situations, particularly those involving bulk water and protein motions Molecular Dynamics is proving to be an invaluable tool for investigating the properties of biological systems.  
+However, for most situations, particularly those involving bulk water and protein motions Molecular Dynamics is proving to be an invaluable tool for investigating the properties of biological systems CITATION NEEDED.  
 
-There are several efforts to correct address these issues. These include the inclusion of the effects of polarisation, the most popular methods at the moment being adding a massless drude oscillator as an extra bead to most(?) atoms as in the CHARMM drude forcefields, championed by the Mackerell lab and the use of forcefields such as AMOEBA which explicitly calculate the dipole and quadropole moments of each atom. These both substantially increase computational cost but have displayed much better agreement with experiments in biological systems where classical forcefields have been shown to fail. 
+There are several efforts to correct address these issues. These include the inclusion of the effects of polarisation, the most popular methods at the moment being adding a massless drude oscillator as an extra bead to most(?) atoms as in the CHARMM drude forcefields, championed by the Mackerell lab and the use of forcefields such as AMOEBA which explicitly calculate the dipole and quadropole moments of each atom. These both substantially increase computational cost but have displayed much better agreement with experiments in biological systems where classical forcefields have been shown to fail \cite{ngo2021}. 
 
-Ultimately, the functional form in equation \ref{CHARMM} does not have sufficient degrees of freedom to address all possible chemical contexts  and so careful consideration must always be given to whether the forcefield is being used in a faithful way to what it was intended to simulate. So long as the user is aware of the situations where classical forcefields fall short they can be a powerful tool for the study of biological systems.
+Ultimately, the functional form in equation \ref{CHARMM} does not have sufficient degrees of freedom to address all possible chemical contexts  and so careful consideration must always be given to whether the forcefield is being used in a faithful way to what it was intended to simulate. So long as the user is aware of the situations where classical forcefields fall short they can be a powerful tool for the study of molecular systems.
 
 \subsubsection{The Problem with Sampling}
 
@@ -173,6 +173,8 @@ In the case of biomolecular systems we are challenged by the fact that they are 
 However, there are more involved strategies to account for these effects. Hydrogen Mass repartitioning and multiple time stepping have become popular but we will discuss Virtual Sites in detail as they were used for some simulations in this thesis.  
 
 NOTE: ADD BIOPHYS TABLE THAT SERDAR HAS IN THE COURSE NOTES
+
+As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dicatted by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms.  
 
 \subsection{Umbrella Sampling}
 

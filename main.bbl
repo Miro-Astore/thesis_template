@@ -110,6 +110,86 @@
     \field{year}{2018}
   \endentry
 
+  \entry{ngo2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=NV}{%
+         family={Ngo},
+         familyi={N\bibinitperiod},
+         given={Van},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Beno{\^i}t},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Noskov},
+         familyi={N\bibinitperiod},
+         given={Sergei},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NV+1}
+    \strng{fullhash}{NVLHMADATWRBNS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Despite the progress in modeling complex molecular systems of
+  ever-increasing complexity, a quantitatively accurate computational treatment
+  of ion permeation through narrow membrane channels remains challenging. An
+  important factor to reach this goal is induced electronic polarization, which
+  is likely to impact the permeation rate of small ions through narrow
+  molecular pores. In this work, we extended the recently developed polarizable
+  force field based on the classical Drude oscillators to assess the role of
+  induced polarization effects on the energetics of sodium and potassium ion
+  transport across the gramicidin A (gA) ion channel. The inclusion of induced
+  polarization lowers barriers present in 1D potential of mean force (PMF) for
+  cation permeation by {$\sim$}50\% compared to those obtained with the
+  additive force field. Conductance properties calculated with 1D PMFs from
+  Drude simulations are in better agreement with experimental results.
+  Polarization of single-file water molecules and protein atoms forming the
+  narrow pore has a direct impact on the free-energy barriers and
+  cation-specific solid-state NMR chemical shifts. Sensitivity analysis
+  indicates that small changes to water\textendash channel interactions can
+  alter the free energy barrier for ion permeation. These results, illustrating
+  polarization effects present in the complex electrostatic environment of the
+  gA channel, have broad implications for revising proposed mechanisms of ion
+  permeation and selectivity in a variety of ion channels.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.0c00968
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{3}
+    \field{pages}{1726\bibrangedash 1741}
+    \field{title}{Polarization {{Effects}} in {{Water-Mediated Selective Cation
+  Transport}} across a {{Narrow Transmembrane Channel}}}
+    \field{volume}{17}
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{03}
+    \field{year}{2021}
+  \endentry
+
   \entry{boucher2007}{misc}{}
     \name{author}{1}{}{%
       {{hash=BRC}{%
@@ -153,114 +233,6 @@
     \field{volume}{58}
     \field{journaltitle}{Annual Review of Medicine}
     \field{year}{2007}
-  \endentry
-
-  \entry{Kayani2018}{misc}{}
-    \name{author}{3}{}{%
-      {{hash=KK}{%
-         family={Kayani},
-         familyi={K\bibinitperiod},
-         given={Kayani},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=MR}{%
-         family={Mohammed},
-         familyi={M\bibinitperiod},
-         given={Raihan},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=MH}{%
-         family={Mohiaddin},
-         familyi={M\bibinitperiod},
-         given={Hasan},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Frontiers Media S.A.}}%
-    }
-    \keyw{Complications,Cystic fibrosis,Cystic fibrosis transmembrane
-  conductance regulato,Diabetes,Pathophysiology,Treatment}
-    \strng{namehash}{KK+1}
-    \strng{fullhash}{KKMRMH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Cystic fibrosis (CF) is the most common autosomal recessive disorder in
-  Caucasian populations. Individuals with CF have seen significant increases in
-  life expectancy in the last 60 years. As a result, previously rare
-  complications are now coming to light. The most common of these is cystic
-  fibrosis-related diabetes (CFRD), which affects 40-50\% of CF adults. CFRD
-  significantly impacts the pulmonary function and longevity of CF patients,
-  yet a lack of consensus on the best methods to diagnose and treat CFRD
-  remains. We begin by reviewing our understanding of the pathogenesis of CFRD,
-  as emerging evidence shows the cystic fibrosis transmembrane conductance
-  regulator (CFTR) also has important roles in the release of insulin and
-  glucagon and in the protection of {$\beta$} cells from oxidative stress. We
-  then discuss how current recommended methods of CFRD diagnosis are not
-  appropriate, as continuous glucose monitoring becomes more effective,
-  practical, and cost-effective. Finally, we evaluate emerging treatments which
-  have narrowed the mortality gap within the CF patient group. In the future,
-  pharmacological potentiators and correctors directly targeting CFTR show huge
-  promise for both CFRD and the wider CF patient groups.%
-    }
-    \verb{doi}
-    \verb 10.3389/fendo.2018.00020
-    \endverb
-    \field{issn}{16642392}
-    \field{number}{FEB}
-    \field{title}{Cystic Fibrosis-Related Diabetes}
-    \field{volume}{9}
-    \field{journaltitle}{Frontiers in Endocrinology}
-    \field{month}{02}
-    \field{year}{2018}
-  \endentry
-
-  \entry{linsdell2018}{article}{}
-    \name{author}{1}{}{%
-      {{hash=LP}{%
-         family={Linsdell},
-         familyi={L\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Taylor \& Francis}}%
-    }
-    \keyw{ABC protein,CFTR,Channel pore,Chloride channel,Cystic fibrosis,Ion
-  channel}
-    \strng{namehash}{LP1}
-    \strng{fullhash}{LP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Cystic fibrosis is caused by mutations in the cystic fibrosis transmembrane
-  conductance regulator (CFTR). CFTR is a member of the ATP-binding cassette
-  (ABC) family of membrane transport proteins, most members of which function
-  as ATP-dependent pumps. CFTR is unique among human ABC proteins in
-  functioning not as a pump, but as an ion channel. Recent structural data has
-  indicated that CFTR shares broadly similar overall architecture and
-  ATP-dependent conformational changes as other ABC proteins. Functional
-  investigations suggest that CFTR has a unique open portal connecting the
-  cytoplasm to the transmembrane channel pore, that allows for a continuous
-  pathway for Cl- ions to cross the membrane in one conformation. This lateral
-  portal may be what allows CFTR to function as an ion channel rather than as a
-  pump, suggesting a plausible mechanism by which channel function may have
-  evolved in CFTR.%
-    }
-    \verb{doi}
-    \verb 10.1080/19336950.2018.1502585
-    \endverb
-    \field{issn}{19336969}
-    \field{number}{1}
-    \field{pages}{284\bibrangedash 290}
-    \field{title}{Cystic Fibrosis Transmembrane Conductance Regulator
-  ({{CFTR}}): {{Making}} an Ion Channel out of an Active Transporter Structure}
-    \field{volume}{12}
-    \field{journaltitle}{Channels}
-    \field{month}{01}
-    \field{year}{2018}
   \endentry
 
   \entry{mihalyi2020}{article}{}
@@ -566,7 +538,6 @@
     \verb{doi}
     \verb 10.1016/j.cell.2017.06.041
     \endverb
-    \field{issn}{10974172}
     \field{number}{3}
     \field{pages}{483\bibrangedash 491.e8}
     \field{title}{Conformational {{Changes}} of {{CFTR}} upon
@@ -741,57 +712,6 @@
     \field{journaltitle}{Biochemical Journal}
     \field{month}{01}
     \field{year}{2007}
-  \endentry
-
-  \entry{fiedorczuk2022}{article}{}
-    \name{author}{2}{}{%
-      {{hash=FK}{%
-         family={Fiedorczuk},
-         familyi={F\bibinitperiod},
-         given={Karol},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Jue},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FKCJ1}
-    \strng{fullhash}{FKCJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Small molecule chaperones have been exploited as therapeutics for the
-  hundreds of diseases caused by protein misfolding. The most successful
-  examples are the CFTR correctors, which transformed cystic fibrosis therapy.
-  These molecules revert folding defects of the DF508 mutant and are widely
-  used to treat patients. To investigate the molecular mechanism of their
-  action, we determined cryo-electron microscopy structures of CFTR in complex
-  with the FDA-approved correctors lumacaftor or tezacaftor. Both drugs insert
-  into a hydrophobic pocket in the first transmembrane domain (TMD1), linking
-  together four helices that are thermodynamically unstable. Mutating residues
-  at the binding site rendered DF508-CFTR insensitive to lumacaftor and
-  tezacaftor, underscoring the functional significance of the structural
-  discovery. These results support a mechanism in which the correctors
-  stabilize TMD1 at an early stage of biogenesis, prevent its premature
-  degradation, and thereby allosterically rescuing many disease-causing
-  mutations.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.cell.2021.12.009
-    \endverb
-    \field{issn}{00928674}
-    \field{number}{1}
-    \field{pages}{158\bibrangedash 168.e11}
-    \field{title}{Mechanism of {{CFTR}} Correction by Type {{I}} Folding
-  Correctors}
-    \field{volume}{185}
-    \field{langid}{english}
-    \field{journaltitle}{Cell}
-    \field{month}{01}
-    \field{year}{2022}
   \endentry
 
   \entry{VanGoor2014}{article}{}
