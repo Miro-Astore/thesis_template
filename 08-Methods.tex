@@ -172,9 +172,17 @@ In the case of biomolecular systems we are challenged by the fact that they are 
 
 However, there are more involved strategies to account for these effects. Hydrogen Mass repartitioning and multiple time stepping have become popular but we will discuss Virtual Sites in detail as they were used for some simulations in this thesis.  
 
-NOTE: ADD BIOPHYS TABLE THAT SERDAR HAS IN THE COURSE NOTES
+\begin{tabular} { |c|c|c| } 
+	\hline
+	System & Fastest Degree of Freedom & Correlation time of Motion \\ 
+	Atoms  & Translation & 10 fs  \\ 
+	Rigid Molecules & Rigid Body Rotation & 5 fs \\  
+	Flexible Molecules with Rigid Bonds & Bond Torsions & 2 fs  \\ 
+	Completely Flexible Molecule & Light Atom Vibrations & 1 fs  \\ 
+	\hline
+\end{tabular}
 
-As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dicatted by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms.  
+As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dicatted by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. 
 
 \subsection{Umbrella Sampling}
 
