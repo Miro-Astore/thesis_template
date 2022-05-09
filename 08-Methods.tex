@@ -1,7 +1,7 @@
 %=======================================================================================%
 \chapter{From Protons to Proteins: Methods to simulate the inside of a cell.}
+%\chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes\ref{frauenfelder1994} } {}
 \numberwithin{equation}{chapter}
-\chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes\ref{frauenfelder1994} }
 \label{chap:methods}
 
 \section{Quantum Mechanics is Not Tractable at the Scale of Biology.}
@@ -169,29 +169,32 @@ The advances we are seeing at the moment which I find exciting are the use of ma
 \subsection{Accelerating Simulations with Virtual Site Topologies}
 The discrete time step, $\Delta t$ in equation \ref{verlet}, is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale, which usually runs to nanoseconds or milliseconds.  
 
-In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds by enforcing a rigid hydrogen bond length, i.e interpolating its position backward from the 2 fs timestep.  
+Due to Nyquist's theorem the $\Delta t$ parameter must be less than half the speed of the fastest degree of freedom in the system CITATION NEEDED. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds by enforcing a rigid hydrogen bond length, i.e interpolating its position backward from the 2 fs timestep.  
 
 However, there are more involved strategies to account for these effects. Hydrogen Mass repartitioning and multiple time stepping have become popular but we will discuss Virtual Sites in detail as they were used for some simulations in this thesis.  
 
-\begin{flushleft}
 \begin{table}
 	\begin{center}   
-\begin{tabular} { |c|c|c| } 
-	\hline
-	%\label{atomic_motions_speed}
-	System Description & Fastest Degree of Freedom & Characteristic Timescale \\ 
-	\hline
-	Uncoupled Atoms  & Atom Translation & 10 fs  \\ 
-	Rigid Molecules & Rigid Body Rotation & 5 fs \\  
-	Flex. Molecule with Rigid Bonds & Bond Angle Vibrations & 2 fs  \\ 
-	 Flex. Molecule with Flex. Bonds & Bond Stretching Vibrations & 1 fs  \\ 
-	\hline
-\end{tabular}
+		\begin{tabular}{ |c|c|c|}
+			Motion & Timescale
+			Covalent Bond-stretching & $1-2x10^{-15}$s \\
+			Covalent Bond-angular bend & $2-5x10^{-15}$s \\ 
+		\end{tabular}
 \end{center}
+%\begin{tabular} { |c|c|c| } 
+%	\hline
+%	%\label{atomic_motions_speed}
+%	System Description & Fastest Degree of Freedom & Characteristic Timescale \\ 
+%	\hline
+%	Uncoupled Atoms  & Atom Translation & 10 fs  \\ 
+%	Rigid Molecules & Rigid Body Rotation & 5 fs \\  
+%	Flex. Molecule with Rigid Bonds & Bond Angle Vibrations & 2 fs  \\ 
+%	 Flex. Molecule with Flex. Bonds & Bond Stretching Vibrations & 1 fs  \\ 
+%	\hline
+%\end{tabular}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. }
 \end{table}
-\end{flushleft}
 
 As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. 
 
