@@ -1,6 +1,7 @@
 %=======================================================================================%
 \chapter{From Protons to Proteins: Methods to simulate the inside of a cell.}
 \numberwithin{equation}{chapter}
+\chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes\ref{frauenfelder1994} }
 \label{chap:methods}
 
 \section{Quantum Mechanics is Not Tractable at the Scale of Biology.}
@@ -50,7 +51,7 @@ T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2,\quad  T_e = - \sum_l \frac{\hba
 
 $M_i$ represents the mass of the $i$th nucleon and $m_l$ represents the mass of the $l$th electron. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we apply the Born-Oppenheimer approximation to separate the wave functions and solve them separately.
 
-Here, the $M_i$ are the masses of the nuclei and the operator $\nabla = \frac{\partial}{\partial x} + \frac{\partial }{\partial y} + \frac{\partial}{\partial z} $
+Here, the $M_i$ are the masses of the nuclei and the operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $
 
 
 \subsection{The Born-Oppenheimer approximation.}
@@ -76,7 +77,7 @@ The CHARMM effective potential employed in this work is common in all-atom molec
 We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and pinching. As well as energies associated with the forces that atoms exert on each other when they are not bonded together. Namely and Coulomb forces due to electric charges on the atom and attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term we will analyse in detail $U_{LJ}$.
 
 \begin{equation}
-	U_{CHARMM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded} + U_{Urey-Bradley}}
+	U_{CHARMM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded} }
 	\label{CHARMM}
 \end{equation}
 
@@ -84,7 +85,7 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 
 \begin{equation}\label{bonded_eqs}
 	\begin{aligned}
-	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2 + \sum_{dihedrals} k_\phi (1+\cos(n \phi - \delta)) \\ \sum_{improper-dihedrals}  k_{\kappa} (\kappa - \kappa_0)^2 + \sum_{Urey-Bradley} k_u(r_{UB}-r_{UB_0})^2 
+	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2+ \sum_{Urey-Bradley} k_u(r_{UB}-r_{UB_0})^2   \\ + \sum_{dihedrals} k_\phi (1+\cos(n \psi - \delta)) + \sum_{improper-dihedrals}  k_{\phi} (\phi - \phi_0)^2 
 \end{aligned}
 \end{equation}
 
@@ -95,8 +96,8 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for t
 	\includegraphics[width=10cm]{figures/bonded_interactions.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[The Bonded Interactions Approximated In Classical Forcefields]{\textbf{The Bonded Interactions Approximated In Classical Forcefields.}}{
-		(A) The energy of Bond Stretching is approximated as a harmonic oscillator with respect to their separation $r$. (B) Angles between neighbouring covalently bonded atoms are also approximated as a harmonic oscillator with respect to the angle $\theta$. In some forcefields such as CHARMM there is a correction term for these angular interactions known as Urey Bradley forces. This is calculated using the separation between the non-bonded atoms $i$-$k$ in the triplet with the parameter $r_{UB}$. (C) The dihedral angle between four atoms is calculated by constructing two planes. Each plane is constructed to contains three of the four atoms in the set. One plane encompasses atoms i, j and k here  colored in blue and the other plane contains the j, k and l atoms colored in red. The dihedral angle is then calculated by taking the angle between these two planes along the line they intersect. (D) The improper dihedral angles are again calculated with the use of two planes. Containing i, j and k and j, k and l respectively. The difference is that this parameter enforces planarity rather than flexibility.
+	\caption[The Bonded Interactions Calculated In Classical Forcefields]{\textbf{The Bonded Interactions Approximated In Classical Forcefields.}}{
+		(A) The energy of Bond Stretching is approximated as a harmonic oscillator with respect to their separation $r$. (B) Angles between neighbouring covalently bonded atoms are also approximated as a harmonic oscillator with respect to the angle $\theta$. In some forcefields such as CHARMM there is a correction term for these angular interactions known as Urey Bradley forces. This is calculated using the separation between the non-bonded atoms $i$-$k$ in the triplet with the parameter $r_{UB}$. (C) The dihedral angle between four atoms is calculated by constructing two planes. Each plane is constructed to contains three of the four atoms in the set. One plane encompasses atoms i, j and k here  colored in blue and the other plane contains the j, k and l atoms colored in red. The dihedral angle is then calculated by taking the angle between these two planes along the line they intersect, the line formed by the j-k bond. (D) The improper dihedral angles are again calculated with the use of two planes. Containing i, j and k and j, k and l respectively. The difference is that this parameter parametrises planarity of a molecular configuration rather than the flexibility of torsion angles.
 	}
 	\label{charmm_bonded}
 \end{figure}
@@ -107,7 +108,7 @@ In classical forcefields the non-bonded interactions are expressed using the Cou
 
 \begin{equation}\label{nonbonded_eqs}
 	\begin{aligned}
-		U_{non-bonded} = \sum_{i>j} \epsilon \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} - \sum_{i>j} \frac{q_i q_j } {r_{ij}}
+		U_{non-bonded} = \underbrace{\sum_{i>j} \epsilon_{ij} \Big( \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} \Big)}_{U_{Lennard-Jones}} - \underbrace{\sum_{i>j} \frac{q_i q_j } {r_{ij}}}_{U_{coloumb}}
 	\end{aligned}
 \end{equation}
 
@@ -172,17 +173,36 @@ In the case of biomolecular systems we are challenged by the fact that they are 
 
 However, there are more involved strategies to account for these effects. Hydrogen Mass repartitioning and multiple time stepping have become popular but we will discuss Virtual Sites in detail as they were used for some simulations in this thesis.  
 
+\begin{flushleft}
+\begin{table}
+	\begin{center}   
 \begin{tabular} { |c|c|c| } 
 	\hline
-	System & Fastest Degree of Freedom & Correlation time of Motion \\ 
-	Atoms  & Translation & 10 fs  \\ 
+	%\label{atomic_motions_speed}
+	System Description & Fastest Degree of Freedom & Characteristic Timescale \\ 
+	\hline
+	Uncoupled Atoms  & Atom Translation & 10 fs  \\ 
 	Rigid Molecules & Rigid Body Rotation & 5 fs \\  
-	Flexible Molecules with Rigid Bonds & Bond Torsions & 2 fs  \\ 
-	Completely Flexible Molecule & Light Atom Vibrations & 1 fs  \\ 
+	Flex. Molecule with Rigid Bonds & Bond Angle Vibrations & 2 fs  \\ 
+	 Flex. Molecule with Flex. Bonds & Bond Stretching Vibrations & 1 fs  \\ 
 	\hline
 \end{tabular}
+\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. }
+\end{table}
+\end{flushleft}
 
-As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dicatted by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. 
+As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. 
+
+\section{Free Energy Calculations: Making Simluations More Useful}
+The above work sets out how to perform unbiased MD simulations. These are powerful tools but as mentioned in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. So we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
+
+\begin{equation}
+U_{FEC}  = U_{MM} + U_{biased} (\xi)
+\end{equation}
+
+Note how the $U_{biased}$ term is explicitly dependent on a parameter $\xi$. This parameter is known by many names, an order parameter, a collective variable or a reaction coordinate. Each of these names 
 
 \subsection{Umbrella Sampling}
 
