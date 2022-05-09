@@ -1,6 +1,5 @@
 %=======================================================================================%
 \chapter{From Protons to Proteins: Methods to simulate the inside of a cell.}
-%\chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes\ref{frauenfelder1994} } {}
 \numberwithin{equation}{chapter}
 \label{chap:methods}
 
@@ -31,7 +30,7 @@ In an atom there are two types of particles, nuclei which we will denote with th
 
 \begin {equation}
 H = T_n + T_e + V_{n-n} + V_{n_e} + V_{e-e}
-\end{equation}
+\end {equation}
 
 Where $T_n$ and $T_e$ denote the kinetic energy of the nucleus and electrons respectively. While $V_{n-n}, V_{n-e}, V_{e-e}$ denote the potential energy for interactions between nuclei, between electrons and nuclei and between electrons respectively.
 
@@ -57,7 +56,7 @@ Here, the $M_i$ are the masses of the nuclei and the operator $\nabla^2 = \frac{
 \subsection{The Born-Oppenheimer approximation.}
 We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, and so we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$ 
 
-%note that in the case of hydrogen we lose an order of magnitude so the approximation is less valid, especially at room temperature.
+%In the case of hydrogen we lose an order of magnitude so the approximation is less valid, especially at room temperature. CITATION NEEDED
 
 This allows us to split the total wave function into two parts using a direct product. One term deals with the nuclei and one with the electrons in the system. 
 
@@ -70,7 +69,7 @@ The Born-Oppenheimer approximation gives rise to Hartree-Fock methods which allo
 
 However, even with these approximations simulating a large number of atoms is not computationally tractable. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical system.
 
-This formulation gives us classical molecular dynamics where we try to match calculations made with the Born-Oppenheimer approximation. 
+This formulation gives us classical molecular dynamics sometimes referred to as molecular mechanics. The aim of the classical forcefields discussed here is to use \textit {ab initio} MD as a target to approximate. 
 
 The CHARMM effective potential employed in this work is common in all-atom molecular dynamics. The same  functional forms are used in other forcefields such as AMBER, GROMOS and OPLS but with different parameters and design philosophies. [CITATION NEEDED]
 
@@ -147,11 +146,11 @@ The short comings of classical molecular dynamics fall into two classes whose so
 \subsubsection{The Problem with Forcefields}
 These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current.
 
-The other context where polarisation is important to consider are on divalent ions. Here, the solvation energy is underestimated due to the consistent lack of polarisation, making investigations of these biologically imporatnt chemical species difficult.
+The other context where polarisation is important to consider are on divalent ions. Here, the solvation energy is underestimated due to the consistent lack of polarisation, making investigations of these biologically important chemical species difficult.
 
-However, for most situations, particularly those involving bulk water and protein motions Molecular Dynamics is proving to be an invaluable tool for investigating the properties of biological systems CITATION NEEDED.  
+However, for most situations, particularly those involving bulk water and protein motions Molecular Dynamics is proving to be an invaluable tool for investigating the properties of biological systems CITATION NEEDED. Sadly, it should be kept in mind that classical MD is not able to simulate any chemistry such as forming and breaking or the change a change in profanation state. Such interactions require considerations of Quantum Mechanics which are computationally expensive.
 
-There are several efforts to correct address these issues. These include the inclusion of the effects of polarisation, the most popular methods at the moment being adding a massless drude oscillator as an extra bead to most(?) atoms as in the CHARMM drude forcefields, championed by the Mackerell lab and the use of forcefields such as AMOEBA which explicitly calculate the dipole and quadropole moments of each atom. These both substantially increase computational cost but have displayed much better agreement with experiments in biological systems where classical forcefields have been shown to fail \cite{ngo2021}. 
+There are several efforts to correct address some of the above issues. These include the inclusion of the effects of polarisation, the most popular methods at the moment being adding a massless drude oscillator as an extra bead to most(?) atoms as in the CHARMM drude forcefields, championed by the Mackerell lab and the use of forcefields such as AMOEBA which explicitly calculate the dipole and quadrupole moments of each atom. These both substantially increase computational cost but have displayed much better agreement with experiments in biological systems where classical forcefields have been shown to fail \cite{ngo2021}. 
 
 Ultimately, the functional form in equation \ref{CHARMM} does not have sufficient degrees of freedom to address all possible chemical contexts  and so careful consideration must always be given to whether the forcefield is being used in a faithful way to what it was intended to simulate. So long as the user is aware of the situations where classical forcefields fall short they can be a powerful tool for the study of molecular systems.
 
@@ -176,9 +175,19 @@ However, there are more involved strategies to account for these effects. Hydrog
 \begin{table}
 	\begin{center}   
 		\begin{tabular}{ |c|c|c|}
-			Motion & Timescale
-			Covalent Bond-stretching & $1-2x10^{-15}$s \\
-			Covalent Bond-angular bend & $2-5x10^{-15}$s \\ 
+			\hline
+			Motion & Timescale \\
+			\hline
+			Covalent Bond-stretching & $1-2\times10^{-15}\text{s}$ \\
+			Covalent Bond-angle bending & $5-10\times10^{-15}$s \\ 
+			Sidechain  Motions & $1 \times10 ^{-12}\text{s}-1\times{10^-6}s$ \\
+			Rigid Body Motions (depending on size of body) & $1 \times10 ^{-9}\text{s}-1s$ \\
+			Ion Conduction & $1\times10^{-9}\text{s}-10^{-6}$ \\
+			Protein Conformational Changes & $1\times10^{-9}\text{s}-10^{-3}$ \\
+			Alpha Helix Formation & $1\times10^{-9}\text{s}-10^{-6}$ \\
+			Beta Sheet Formation & $1\times10^{-6}\text{s}-10^{-3}$ \\
+			Protein Folding & $1\times10^{-6}\text{s}-10\text{s}$ \\
+			\hline
 		\end{tabular}
 \end{center}
 %\begin{tabular} { |c|c|c| } 
@@ -193,10 +202,10 @@ However, there are more involved strategies to account for these effects. Hydrog
 %	\hline
 %\end{tabular}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. }
+	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. This stands in tension with the phenomena we are interested in on longer timescales such as protein folding. Sources: \cite{schlick2010}\cite{brooks1988}\cite{flood2019}\cite{werner2012}}
 \end{table}
 
-As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. 
+As you can see in table \ref{atomic_motions_speed} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. This follows from the 3600cm$^{-1}$ peak in the resonance infrared resonance spectrum of biomolecules corresponding to the bond stretching oscillation of the H-O bond. \cite{schlick2010} Setting the time step of simluations to 1/10th of this period gives sufficient gives the Verlet integrator sufficient resolution to capture the motion and maintain the stability of the energy function.
 
 \section{Free Energy Calculations: Making Simluations More Useful}
 The above work sets out how to perform unbiased MD simulations. These are powerful tools but as mentioned in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. So we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
