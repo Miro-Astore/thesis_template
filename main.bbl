@@ -190,6 +190,196 @@
     \field{year}{2021}
   \endentry
 
+  \entry{schlick2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Schlick},
+         familyi={S\bibinitperiod},
+         given={Tamar},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer}}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{2nd ed}
+    \field{isbn}{978-1-4419-6351-2}
+    \field{number}{v. 21}
+    \field{series}{Interdisciplinary Applied Mathematics}
+    \field{shorttitle}{Molecular Modeling and Simulation}
+    \field{title}{Molecular Modeling and Simulation: An Interdisciplinary
+  Guide}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York}}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{brooks1988}{book}{}
+    \name{editor}{3}{}{%
+      {{hash=BCL}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={Charles\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Karplus},
+         familyi={K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PBM}{%
+         family={Pettitt},
+         familyi={P\bibinitperiod},
+         given={B.\bibnamedelima Montgomery},
+         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{John Wiley \& Sons, Inc.}}%
+    }
+    \strng{namehash}{BCL+1}
+    \strng{fullhash}{BCLKMPBM1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1002/9780470141205
+    \endverb
+    \field{isbn}{978-0-470-14120-5 978-0-471-62801-9}
+    \field{series}{Advances in {{Chemical Physics}}}
+    \field{shorttitle}{Advances in {{Chemical Physics}}}
+    \field{title}{Advances in {{Chemical Physics}}: {{Proteins}}: {{A
+  Theoretical Perspective}} of {{Dynamics}}, {{Structure}}, and
+  {{Thermodynamics}}}
+    \list{location}{1}{%
+      {{Hoboken, NJ, USA}}%
+    }
+    \field{month}{01}
+    \field{year}{1988}
+  \endentry
+
+  \entry{flood2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=FE}{%
+         family={Flood},
+         familyi={F\bibinitperiod},
+         given={Emelie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Boiteux},
+         familyi={B\bibinitperiod},
+         given={C{\'e}line},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Lev},
+         familyi={L\bibinitperiod},
+         given={Bogdan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vorobyov},
+         familyi={V\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{FE+1}
+    \strng{fullhash}{FEBCLBVIATW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Membrane ion channels are the fundamental electrical components in the
+  nervous system. Recent developments in X-ray crystallography and cryo-EM
+  microscopy have revealed what these proteins look like in atomic detail but
+  do not tell us how they function. Molecular dynamics simulations have
+  progressed to the point that we can now simulate realistic molecular
+  assemblies to produce quantitative calculations of the thermodynamic and
+  kinetic quantities that control function. In this review, we summarize the
+  state of atomistic simulation methods for ion channels to understand their
+  conduction, activation, and drug modulation mechanisms. We are at a
+  crossroads in atomistic simulation, where long time scale observation can
+  provide unbiased exploration of mechanisms, supplemented by biased free
+  energy methodologies. We illustrate the use of these approaches to describe
+  ion conduction and selectivity in voltage-gated sodium and acid-sensing ion
+  channels. Studies of channel gating present a significant challenge, as ...%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.chemrev.8b00630
+    \endverb
+    \field{issn}{0009-2665}
+    \field{number}{13}
+    \field{pages}{7737\bibrangedash 7832}
+    \field{title}{Atomistic {{Simulations}} of {{Membrane Ion Channel
+  Conduction}}, {{Gating}}, and {{Modulation}}}
+    \field{volume}{119}
+    \field{journaltitle}{Chemical Reviews}
+    \field{month}{07}
+    \field{year}{2019}
+  \endentry
+
+  \entry{werner2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WT}{%
+         family={Werner},
+         familyi={W\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MMB}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dastmalchi},
+         familyi={D\bibinitperiod},
+         given={Siavoush},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CWB}{%
+         family={Church},
+         familyi={C\bibinitperiod},
+         given={W.\bibnamedelima Bret},
+         giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WT+1}
+    \strng{fullhash}{WTMMBDSCWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.addr.2011.11.011
+    \endverb
+    \field{issn}{0169409X}
+    \field{number}{4}
+    \field{pages}{323\bibrangedash 343}
+    \field{title}{Structural Modelling and Dynamics of Proteins for Insights
+  into Drug Interactions}
+    \field{volume}{64}
+    \field{langid}{english}
+    \field{journaltitle}{Advanced Drug Delivery Reviews}
+    \field{month}{03}
+    \field{year}{2012}
+  \endentry
+
   \entry{boucher2007}{misc}{}
     \name{author}{1}{}{%
       {{hash=BRC}{%
@@ -233,6 +423,114 @@
     \field{volume}{58}
     \field{journaltitle}{Annual Review of Medicine}
     \field{year}{2007}
+  \endentry
+
+  \entry{Kayani2018}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=KK}{%
+         family={Kayani},
+         familyi={K\bibinitperiod},
+         given={Kayani},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mohammed},
+         familyi={M\bibinitperiod},
+         given={Raihan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mohiaddin},
+         familyi={M\bibinitperiod},
+         given={Hasan},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Frontiers Media S.A.}}%
+    }
+    \keyw{Complications,Cystic fibrosis,Cystic fibrosis transmembrane
+  conductance regulato,Diabetes,Pathophysiology,Treatment}
+    \strng{namehash}{KK+1}
+    \strng{fullhash}{KKMRMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is the most common autosomal recessive disorder in
+  Caucasian populations. Individuals with CF have seen significant increases in
+  life expectancy in the last 60 years. As a result, previously rare
+  complications are now coming to light. The most common of these is cystic
+  fibrosis-related diabetes (CFRD), which affects 40-50\% of CF adults. CFRD
+  significantly impacts the pulmonary function and longevity of CF patients,
+  yet a lack of consensus on the best methods to diagnose and treat CFRD
+  remains. We begin by reviewing our understanding of the pathogenesis of CFRD,
+  as emerging evidence shows the cystic fibrosis transmembrane conductance
+  regulator (CFTR) also has important roles in the release of insulin and
+  glucagon and in the protection of {$\beta$} cells from oxidative stress. We
+  then discuss how current recommended methods of CFRD diagnosis are not
+  appropriate, as continuous glucose monitoring becomes more effective,
+  practical, and cost-effective. Finally, we evaluate emerging treatments which
+  have narrowed the mortality gap within the CF patient group. In the future,
+  pharmacological potentiators and correctors directly targeting CFTR show huge
+  promise for both CFRD and the wider CF patient groups.%
+    }
+    \verb{doi}
+    \verb 10.3389/fendo.2018.00020
+    \endverb
+    \field{issn}{16642392}
+    \field{number}{FEB}
+    \field{title}{Cystic Fibrosis-Related Diabetes}
+    \field{volume}{9}
+    \field{journaltitle}{Frontiers in Endocrinology}
+    \field{month}{02}
+    \field{year}{2018}
+  \endentry
+
+  \entry{linsdell2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Taylor \& Francis}}%
+    }
+    \keyw{ABC protein,CFTR,Channel pore,Chloride channel,Cystic fibrosis,Ion
+  channel}
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis is caused by mutations in the cystic fibrosis transmembrane
+  conductance regulator (CFTR). CFTR is a member of the ATP-binding cassette
+  (ABC) family of membrane transport proteins, most members of which function
+  as ATP-dependent pumps. CFTR is unique among human ABC proteins in
+  functioning not as a pump, but as an ion channel. Recent structural data has
+  indicated that CFTR shares broadly similar overall architecture and
+  ATP-dependent conformational changes as other ABC proteins. Functional
+  investigations suggest that CFTR has a unique open portal connecting the
+  cytoplasm to the transmembrane channel pore, that allows for a continuous
+  pathway for Cl- ions to cross the membrane in one conformation. This lateral
+  portal may be what allows CFTR to function as an ion channel rather than as a
+  pump, suggesting a plausible mechanism by which channel function may have
+  evolved in CFTR.%
+    }
+    \verb{doi}
+    \verb 10.1080/19336950.2018.1502585
+    \endverb
+    \field{issn}{19336969}
+    \field{number}{1}
+    \field{pages}{284\bibrangedash 290}
+    \field{title}{Cystic Fibrosis Transmembrane Conductance Regulator
+  ({{CFTR}}): {{Making}} an Ion Channel out of an Active Transporter Structure}
+    \field{volume}{12}
+    \field{journaltitle}{Channels}
+    \field{month}{01}
+    \field{year}{2018}
   \endentry
 
   \entry{mihalyi2020}{article}{}
@@ -538,6 +836,7 @@
     \verb{doi}
     \verb 10.1016/j.cell.2017.06.041
     \endverb
+    \field{issn}{10974172}
     \field{number}{3}
     \field{pages}{483\bibrangedash 491.e8}
     \field{title}{Conformational {{Changes}} of {{CFTR}} upon
@@ -712,6 +1011,57 @@
     \field{journaltitle}{Biochemical Journal}
     \field{month}{01}
     \field{year}{2007}
+  \endentry
+
+  \entry{fiedorczuk2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FK}{%
+         family={Fiedorczuk},
+         familyi={F\bibinitperiod},
+         given={Karol},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FKCJ1}
+    \strng{fullhash}{FKCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Small molecule chaperones have been exploited as therapeutics for the
+  hundreds of diseases caused by protein misfolding. The most successful
+  examples are the CFTR correctors, which transformed cystic fibrosis therapy.
+  These molecules revert folding defects of the DF508 mutant and are widely
+  used to treat patients. To investigate the molecular mechanism of their
+  action, we determined cryo-electron microscopy structures of CFTR in complex
+  with the FDA-approved correctors lumacaftor or tezacaftor. Both drugs insert
+  into a hydrophobic pocket in the first transmembrane domain (TMD1), linking
+  together four helices that are thermodynamically unstable. Mutating residues
+  at the binding site rendered DF508-CFTR insensitive to lumacaftor and
+  tezacaftor, underscoring the functional significance of the structural
+  discovery. These results support a mechanism in which the correctors
+  stabilize TMD1 at an early stage of biogenesis, prevent its premature
+  degradation, and thereby allosterically rescuing many disease-causing
+  mutations.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2021.12.009
+    \endverb
+    \field{issn}{00928674}
+    \field{number}{1}
+    \field{pages}{158\bibrangedash 168.e11}
+    \field{title}{Mechanism of {{CFTR}} Correction by Type {{I}} Folding
+  Correctors}
+    \field{volume}{185}
+    \field{langid}{english}
+    \field{journaltitle}{Cell}
+    \field{month}{01}
+    \field{year}{2022}
   \endentry
 
   \entry{VanGoor2014}{article}{}
