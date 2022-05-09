@@ -84,11 +84,29 @@ Moreover, by learning the nuts and bolts of what goes wrong with CFTR we can sta
 The reality of disease pathogenesis being caused by so many different mutations means that there has been decades of investigation into the function of every domain in the protein. 
 
 \subsubsection{Ion Channels and Their Role in Developing Biophysics}
+The physiological importane of ion channels became clear after the experiments of Hodkin and Huxley. These mathematicians took nerves from fished giant squid and measured the current running through the nerve in response to electrical stimulation. What they found was intruiging. Current would only flow when the input signal was of a sufficient voltage. The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant electrochemical gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics. The following set coupled ordinary differential equations were discovered by testing functions which fit the measurements taken from the squid axon.   
+
+\begin{equation}
+\begin{aligned}
+	I = C_m \frac{dV}{dt} &+ \bar{g}_K n^4 (V - V_K) + \bar{g}_{Na} m^3 h (V - V_{Na} ) + \bar{g}_l (V-V_l) ,  \\
+	\frac{dn}{dt} &= \alpha_n(V)  (1-n) - \beta_n(V)  n, \\
+	\frac{dm}{dt} &= \alpha_m(V)  (1-m) - \beta_m(V)  m, \\ 
+	\frac{dh}{dt} &= \alpha_h(V)  (1-h) - \beta_h(V)  h  
+\end{aligned}
+\end{equation}
+
+The $\alpha$ and $beta$ parameters are the proportion of the sodium and potassium channel populations which are activated respecitively.
+
+This is an example of the use of theory to discovery features at the smaller level.  
+
 Ion channels have always motivated the early pioneers of molecular biophysics. This is due to their ubiquity and importance in biological systems and the ease of measuring their activity with biochemical assays. One just needs an oscilloscope to measure their current. 
 
 Beyond this simple equipment, due to the importance of the polarisation inside a cell there is a thriving field of electrophysiology with specialised techniques and equipment to measure and model the function of ion channels.
 
 These factors have to allowed biophysicists sufficient data to build sufficiently accurate models of biomolecular systems which generalise to other systems. Leading to a thriving field, analysing systems as diverse as protocells to gold nano particles CITATIONS NEEDED.
+
+The discovery of voltage gated channels and a resting potential .
+
 
 %=======================================================================================%
 
