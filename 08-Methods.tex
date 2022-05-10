@@ -128,6 +128,19 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\label{morse_potential}
 \end{figure}
 
+\subsubsection{The Lennard-Jones Potential}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=7cm]{figures/LJ_figure.pdf
+		}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[The Morse Potential Compared to a Harmonic Potential] {\textbf{The Morse Potential Compared to a Harmonic Potential}}{
+		The Morse potential was formulated to approximate the potential the potential energy surface of the separation of covalent bonds (blue). At low temperatures (the ground state, v=0) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006. 
+}
+	\label{morse_potential}
+\end{figure}
+
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
 At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. This philosophy is closest to physics 
 
