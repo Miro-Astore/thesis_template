@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="2423.5603"
-     inkscape:cy="413.56367"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="2287.1668"
+     inkscape:cy="-14.521564"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1039"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:lockguides="true" />
   <metadata
@@ -58,25 +58,25 @@
        id="rect815"
        width="140.3044"
        height="31.499159"
-       x="-65.464409"
+       x="29.256472"
        y="31.030182"
        ry="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-57.830357"
+       x="36.890526"
        y="49.80357"
        id="text819"><tspan
          sodipodi:role="line"
          id="tspan817"
-         x="-57.830357"
+         x="36.890526"
          y="49.80357"
          style="stroke-width:0.26458332">Canonical Classification</tspan></text>
     <g
        id="g934"
        transform="translate(123.67898,-0.80180876)" />
     <g
-       transform="translate(-199.67651,1.6036191)"
+       transform="translate(-104.95508,1.6036191)"
        id="g921-23">
       <rect
          ry="0"
@@ -99,7 +99,7 @@
            sodipodi:role="line">Class V</tspan></text>
     </g>
     <g
-       transform="translate(-359.04658,0.53454103)"
+       transform="translate(-264.32515,0.53454103)"
        id="g921-3">
       <rect
          ry="0"
@@ -123,7 +123,7 @@
     </g>
     <g
        id="g1236"
-       transform="translate(29.221013,-234.65964)">
+       transform="translate(123.94204,-234.65964)">
       <rect
          ry="0"
          y="369.98389"
@@ -151,7 +151,7 @@
     </g>
     <g
        id="g1236-7"
-       transform="translate(29.221013,-190.82742)">
+       transform="translate(123.94204,-190.82742)">
       <g
          id="g1273">
         <rect
@@ -185,24 +185,24 @@
        id="rect815-3-5-2-0-9-9-8-0-9-5-4-1"
        width="134.17462"
        height="31.499157"
-       x="94.508202"
+       x="189.2282"
        y="224.02563"
        ry="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="161.12009"
+       x="255.83965"
        y="236.91714"
        id="text819-6-3-7-6-2-4-4-3-3-2-4-4"><tspan
          sodipodi:role="line"
-         x="161.12009"
+         x="255.83965"
          y="236.91714"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan1224-0-9">Defective mRNA</tspan><tspan
          id="tspan1267-2"
          sodipodi:role="line"
-         x="161.12009"
-         y="250.1463"
+         x="255.83965"
+         y="250.14632"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Truncation</tspan></text>
     <g
        id="g974"
@@ -623,7 +623,7 @@
            sodipodi:role="line">Defective Gating</tspan></text>
     </g>
     <g
-       transform="translate(-199.67652,51.744785)"
+       transform="translate(-104.95509,51.744785)"
        id="g921-23-5">
       <rect
          ry="0"
@@ -646,7 +646,7 @@
            sodipodi:role="line">Less Expressed Protein</tspan></text>
     </g>
     <g
-       transform="translate(-359.04658,50.675707)"
+       transform="translate(-264.32515,50.675707)"
        id="g921-3-7">
       <rect
          ry="0"
@@ -670,6 +670,37 @@
     </g>
     <g
        id="g1043">
+      <g
+         transform="translate(322.81345,95.225228)"
+         id="g1339-9">
+        <g
+           id="g1531">
+          <rect
+             ry="0"
+             y="137.95447"
+             x="243.53261"
+             height="31.499157"
+             width="134.17462"
+             id="rect815-3-5-2-0-9-9-8-0-0-0-5-7"
+             style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text819-6-3-7-6-2-4-4-3-6-6-4-7"
+             y="150.00919"
+             x="310.35898"
+             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               id="tspan1102-5-7-6"
+               style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+               y="150.00919"
+               x="310.35898"
+               sodipodi:role="line">Interactions with</tspan><tspan
+               style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+               y="163.23836"
+               x="310.35898"
+               sodipodi:role="line"
+               id="tspan1525">Trafficking Partners</tspan></text>
+        </g>
+      </g>
       <g
          id="g921-22"
          transform="translate(114.30318,0.5345372)">
@@ -717,7 +748,7 @@
              id="tspan1102-5">Lasoo Folding</tspan></text>
       </g>
       <g
-         transform="translate(324.32535,95.225228)"
+         transform="translate(322.81345,145.61498)"
          id="g1339">
         <rect
            style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -790,37 +821,6 @@
              y="50.781219"
              style="stroke-width:0.26458332">Defective Trafficking</tspan></text>
       </g>
-      <g
-         transform="translate(324.32535,145.61498)"
-         id="g1339-9">
-        <g
-           id="g1531">
-          <rect
-             ry="0"
-             y="137.95447"
-             x="243.53261"
-             height="31.499157"
-             width="134.17462"
-             id="rect815-3-5-2-0-9-9-8-0-0-0-5-7"
-             style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             id="text819-6-3-7-6-2-4-4-3-6-6-4-7"
-             y="150.00919"
-             x="310.35898"
-             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               id="tspan1102-5-7-6"
-               style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-               y="150.00919"
-               x="310.35898"
-               sodipodi:role="line">Interactions with</tspan><tspan
-               style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-               y="163.23836"
-               x="310.35898"
-               sodipodi:role="line"
-               id="tspan1525">Trafficking Partners</tspan></text>
-        </g>
-      </g>
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -887,7 +887,7 @@
          style="stroke-width:0.26458332">S945L</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 766.79628,197.97664 v -49.51168 l 8.35217,0"
+       d="m 766.79628,197.97664 v -49.51168 h 8.35217"
        id="path1226"
        inkscape:connector-curvature="0" />
     <path
@@ -923,23 +923,23 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1134.6984"
-       y="148.51961"
+       x="509.42484"
+       y="303.26453"
        id="text819-6-3-7-6-2-4-3-5-5-7-6"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7-67-3-6-0-0"
-         x="1134.6984"
-         y="148.51961"
+         x="509.42484"
+         y="303.26453"
          style="stroke-width:0.26458332">dF508</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="31.745003"
+       x="126.4659"
        y="198.32327"
        id="text819-6-3-7-6-2-4-3-5-9-6"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7-67-3-3-2"
-         x="31.745003"
+         x="126.4659"
          y="198.32327"
          style="stroke-width:0.26458332">G542X</tspan></text>
     <text
@@ -960,7 +960,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 968.186,151.10119 0,38.88429"
+       d="m 968.186,151.10119 v 38.88429"
        id="path1236-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -971,7 +971,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 734.40773,179.90763 0,18.44058 h -32.22246"
+       d="m 734.40773,179.90763 v 18.44058 h -32.22246"
        id="path1024"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
@@ -984,6 +984,38 @@
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 766.79628,197.97664 h 8.05492"
        id="path1028"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="920.92523"
+       y="351.63367"
+       id="text819-6-3-7-6-2-4-3-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-7-67-3-67"
+         x="920.92523"
+         y="351.63367"
+         style="stroke-width:0.26458332">Q1291F/H</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 549.777,299.31903 h 16.70437"
+       id="path1238-7-5"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="512.68042"
+       y="253.23788"
+       id="text819-6-3-7-6-2-4-3-5-5-7-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-7-67-3-6-0-0-5"
+         x="512.68042"
+         y="253.23788"
+         style="stroke-width:0.26458332">S13F</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 549.777,248.92927 h 16.70437"
+       id="path1238-7-5-6"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
