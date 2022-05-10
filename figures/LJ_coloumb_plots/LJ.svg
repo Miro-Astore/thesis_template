@@ -333,17 +333,17 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1039"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.0243055"
-     inkscape:cx="567.78319"
-     inkscape:cy="317.98195"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:cx="349.58657"
+     inkscape:cy="314.565"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="g10"
      fit-margin-top="0"
@@ -570,16 +570,17 @@
    style="fill:#000000;fill-opacity:1"
    id="g1203-2"
    transform="matrix(1.9062256,0,0,-1.9062256,-200.57413,29.967584)"><text
-     id="text1474"
+   id="text1474"
+   y="-33.604031"
+   x="101.29932"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.22058868px;line-height:1.25;font-family:'latern modern math';-inkscape-font-specification:'latern modern math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35551473"
+   xml:space="preserve"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'latin modern math';-inkscape-font-specification:'latin modern math';stroke-width:0.35551473"
      y="-33.604031"
      x="101.29932"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.22058868px;line-height:1.25;font-family:'latern modern math';-inkscape-font-specification:'latern modern math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35551473"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'latin modern math';-inkscape-font-specification:'latin modern math';stroke-width:0.35551473"
-       y="-33.604031"
-       x="101.29932"
-       id="tspan1472"
-       sodipodi:role="line">/4</tspan></text>
+     id="tspan1472"
+     sodipodi:role="line">/4</tspan></text>
+
 </g><g
    transform="matrix(5.6202731,0,0,-5.6202731,163.51676,252.46455)"
    id="g1165-3"
@@ -629,19 +630,20 @@
    style="fill:#000000;fill-opacity:1"
    id="g1203-2-0"
    transform="matrix(2.5537371,0,0,-2.5537371,-191.55576,-116.71294)"><text
-     id="text1474-9"
+   id="text1474-9"
+   y="-33.98336"
+   x="101.99887"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'latern modern math';-inkscape-font-specification:'latern modern math';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.39344767"
+   xml:space="preserve"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'latin modern math';-inkscape-font-specification:'latin modern math';baseline-shift:baseline;stroke-width:0.39344767"
      y="-33.98336"
      x="101.99887"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'latern modern math';-inkscape-font-specification:'latern modern math';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.39344767"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'latin modern math';-inkscape-font-specification:'latin modern math';baseline-shift:baseline;stroke-width:0.39344767"
-       y="-33.98336"
-       x="101.99887"
-       id="tspan1472-3"
-       sodipodi:role="line">2<tspan
+     id="tspan1472-3"
+     sodipodi:role="line">2<tspan
    id="tspan1544"><tspan
    style="font-size:64.99999762%;baseline-shift:super"
    id="tspan1548">1/6</tspan>σ </tspan></tspan></text>
+
 </g><path
    sodipodi:nodetypes="cc"
    inkscape:connector-curvature="0"
@@ -669,6 +671,7 @@
      x="258.35336"
      y="-241.73676"
      style="stroke-width:0.46617302">Attractive Dispersion</tspan></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:18.64692116px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.46617302"
@@ -681,6 +684,7 @@
      x="160.01195"
      y="-288.39676"
      style="stroke-width:0.46617302">Pauli Repulsion </tspan></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:18.64692116px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.46617302"
@@ -693,6 +697,7 @@
      x="377.1499"
      y="9.70049"
      style="stroke-width:0.46617302">Attractive Dispersion</tspan></text>
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:18.64692116px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.46617302"
@@ -705,6 +710,7 @@
      x="198.26611"
      y="9.70049"
      style="stroke-width:0.46617302">Pauli Repulsion </tspan></text>
+
 <path
    inkscape:connector-curvature="0"
    id="path204-1-9-8"
