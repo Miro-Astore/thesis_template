@@ -17,6 +17,44 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{hodgkin1952}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HAL}{%
+         family={Hodgkin},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HAF}{%
+         family={Huxley},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HALHAF1}
+    \strng{fullhash}{HALHAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1113/jphysiol.1952.sp004764
+    \endverb
+    \field{issn}{0022-3751, 1469-7793}
+    \field{number}{4}
+    \field{pages}{500\bibrangedash 544}
+    \field{title}{A Quantitative Description of Membrane Current and Its
+  Application to Conduction and Excitation in Nerve}
+    \field{volume}{117}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/NRBXQVN5/Hodgkin and Huxley - 1952 - A quan
+    \verb titative description of membrane current and.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Physiology}
+    \field{month}{08}
+    \field{year}{1952}
+  \endentry
+
   \entry{Born1927}{article}{}
     \name{author}{2}{}{%
       {{hash=BM}{%
@@ -48,7 +86,7 @@
     \field{year}{1927}
   \endentry
 
-  \entry{Yoo2018}{article}{}
+  \entry{yoo2018a}{article}{}
     \name{author}{2}{}{%
       {{hash=YJ}{%
          family={Yoo},
@@ -98,7 +136,6 @@
     \verb{doi}
     \verb 10.1039/c7cp08185e
     \endverb
-    \field{issn}{14639076}
     \field{number}{13}
     \field{pages}{8432\bibrangedash 8449}
     \field{title}{New Tricks for Old Dogs: {{Improving}} the Accuracy of
@@ -1170,6 +1207,212 @@
     \field{journaltitle}{The Journal of Chemical Physics}
     \field{month}{11}
     \field{year}{2002}
+  \endentry
+
+  \entry{depoel2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=dE}{%
+         family={{de Poel}},
+         familyi={d\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LJW}{%
+         family={Lefferts},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekman},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{CFTR modulators,Cystic Fibrosis,Drug development,Humans,In vitro
+  model systems,In Vitro Techniques,Intestines,Organoids,Patient-Specific
+  Modeling,Personalized medicine,Precision Medicine,Primary Cell Culture}
+    \strng{namehash}{dE+1}
+    \strng{fullhash}{dELJWBJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Significant progress has been made in the development of CFTR modulator
+  therapy; however, current CFTR modulator therapies are only available for a
+  minority of the CF-patient population. Additionally, heterogeneity in in vivo
+  modulator response has been reported among individuals carrying homozygous
+  F508del-CFTR, adding to the desire for an optimal prediction of
+  response-to-therapy on an individual level. In the last decade, a lot of
+  progress has been made in the development of primary cell cultures into 3D
+  patient-derived disease models. The advantage of these models is that the
+  endogenous CFTR function is affected by the patient's mutation as well as
+  other genetic or environmental factors. In this review we focus on intestinal
+  organoids as in vitro model for CF, enabling for CF disease classification,
+  drug development and treatment optimization in a personalized manner, taking
+  into account rare CFTR mutations and clinical heterogeneity among individuals
+  with CF.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jcf.2019.11.002
+    \endverb
+    \field{issn}{1873-5010}
+    \field{pages}{S60\bibrangedash S64}
+    \field{title}{Intestinal Organoids for {{Cystic Fibrosis}} Research}
+    \field{volume}{19 Suppl 1}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/G6ACZK3F/de Poel et al. - 2020 - Intestinal
+    \verb  organoids for Cystic Fibrosis research.pdf
+    \endverb
+    \field{journaltitle}{Journal of Cystic Fibrosis: Official Journal of the
+  European Cystic Fibrosis Society}
+    \field{month}{03}
+    \field{year}{2020}
+  \endentry
+
+  \entry{dekkers2013}{article}{}
+    \name{author}{16}{}{%
+      {{hash=DJF}{%
+         family={Dekkers},
+         familyi={D\bibinitperiod},
+         given={Johanna\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=WCL}{%
+         family={Wiegerinck},
+         familyi={W\bibinitperiod},
+         given={Caroline\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=dHR}{%
+         family={{de Jonge}},
+         familyi={d\bibinitperiod},
+         given={Hugo\bibnamedelima R.},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bronsveld},
+         familyi={B\bibinitperiod},
+         given={Inez},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=JHM}{%
+         family={Janssens},
+         familyi={J\bibinitperiod},
+         given={Hettie\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=dKM}{%
+         family={{de Winter-de Groot}},
+         familyi={d\bibinitperiod},
+         given={Karin\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BAM}{%
+         family={Brandsma},
+         familyi={B\bibinitperiod},
+         given={Arianne\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=dNWM}{%
+         family={{de Jong}},
+         familyi={d\bibinitperiod},
+         given={Nienke W.\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=BMJC}{%
+         family={Bijvelds},
+         familyi={B\bibinitperiod},
+         given={Marcel J.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=SBJ}{%
+         family={Scholte},
+         familyi={S\bibinitperiod},
+         given={Bob\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NEES}{%
+         family={Nieuwenhuis},
+         familyi={N\bibinitperiod},
+         given={Edward E.\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=vS}{%
+         family={{van den Brink}},
+         familyi={v\bibinitperiod},
+         given={Stieneke},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Clevers},
+         familyi={C\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=vCK}{%
+         family={{van der Ent}},
+         familyi={v\bibinitperiod},
+         given={Cornelis\bibnamedelima K.},
+         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Middendorp},
+         familyi={M\bibinitperiod},
+         given={Sabine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekman},
+         familyi={B\bibinitperiod},
+         given={Jeffrey\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Biological Assay,Cells; Cultured,Cystic Fibrosis,Cystic
+  Fibrosis Transmembrane Conductance Regulator,Female,HEK293
+  Cells,Humans,Intestinal Mucosa,Male,Mice,Mice; Inbred C57BL,Mice; Inbred
+  CFTR,Mutant Proteins,Organoids,Primary Cell Culture,Water}
+    \strng{namehash}{DJF+1}
+    \strng{fullhash}{DJFWCLdHRBIJHMdKMBAMdNWMBMJCSBJNEESvSCHvCKMSBJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We recently established conditions allowing for long-term expansion of
+  epithelial organoids from intestine, recapitulating essential features of the
+  in vivo tissue architecture. Here we apply this technology to study primary
+  intestinal organoids of people suffering from cystic fibrosis, a disease
+  caused by mutations in CFTR, encoding cystic fibrosis transmembrane
+  conductance regulator. Forskolin induces rapid swelling of organoids derived
+  from healthy controls or wild-type mice, but this effect is strongly reduced
+  in organoids of subjects with cystic fibrosis or in mice carrying the Cftr
+  F508del mutation and is absent in Cftr-deficient organoids. This pattern is
+  phenocopied by CFTR-specific inhibitors. Forskolin-induced swelling of in
+  vitro-expanded human control and cystic fibrosis organoids corresponds
+  quantitatively with forskolin-induced anion currents in freshly excised ex
+  vivo rectal biopsies. Function of the CFTR F508del mutant protein is restored
+  by incubation at low temperature, as well as by CFTR-restoring compounds.
+  This relatively simple and robust assay will facilitate diagnosis, functional
+  studies, drug development and personalized medicine approaches in cystic
+  fibrosis.%
+    }
+    \verb{doi}
+    \verb 10.1038/nm.3201
+    \endverb
+    \field{issn}{1546-170X}
+    \field{number}{7}
+    \field{pages}{939\bibrangedash 945}
+    \field{title}{A Functional {{CFTR}} Assay Using Primary Cystic Fibrosis
+  Intestinal Organoids}
+    \field{volume}{19}
+    \field{langid}{english}
+    \field{journaltitle}{Nature Medicine}
+    \field{month}{07}
+    \field{year}{2013}
   \endentry
 \enddatalist
 \endinput
