@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.21)  10 MAY 2022 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.21)  10 MAY 2022 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1336,20 +1336,7 @@ Overfull \hbox (11.95161pt too wide) in paragraph at lines 62--124
 |  | 
  []
 
-[7] (./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
-
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [8
-
-])
+[7] (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1358,7 +1345,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 133.
 
-(./06-Abbreviations.tex [9]
+(./06-Abbreviations.tex [8
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 10.
 
@@ -1474,29 +1475,29 @@ Overfull \hbox (56.90552pt too wide) in alignment at lines 30--45
  [] [] 
  []
 
-[10
+[9
 
-]) [11] (./main.lof)
+]) [10] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [12
+ [11
 
 ] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [13
+ [12
 
-] [14
+] [13
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.xiv}) h
-as been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.xiii}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.160 \blankpage
-                 [14
+                 [13
 
 
 ] (./07-Introduction.tex
@@ -1513,9 +1514,6 @@ LaTeX Warning: Reference `frauenfelder1994' on page 1 undefined on input line 7
 LaTeX Warning: Citation 'Hoffstadter2008' on page 3 undefined on input line 49.
 
 
-
-LaTeX Warning: Citation 'hodgkin1952' on page 3 undefined on input line 65.
-
 [3] [4] [5]) (./08-Methods.tex [6]
 Chapter 2.
 [7
@@ -1526,143 +1524,125 @@ Overfull \hbox (14.73613pt too wide) in paragraph at lines 67--67
  []
 
 [9]
-<figures/bonded_interactions.pdf, id=337, 355.57504pt x 286.09044pt>
+
+LaTeX Warning: Reference `morse_potential' on page 10 undefined on input line 9
+1.
+
+<figures/bonded_interactions.pdf, id=192, 355.57504pt x 286.09044pt>
 File: figures/bonded_interactions.pdf Graphic file (type pdf)
 <use figures/bonded_interactions.pdf>
 Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 95
 .
 (pdftex.def)             Requested size: 284.52756pt x 228.93376pt.
-<figures/Morse-Potential.png, id=339, 1027.84pt x 949.5475pt>
+<figures/Morse-Potential.png, id=194, 1027.84pt x 949.5475pt>
 File: figures/Morse-Potential.png Graphic file (type png)
 <use figures/Morse-Potential.png>
 Package pdftex.def Info: figures/Morse-Potential.png  used on input line 122.
 (pdftex.def)             Requested size: 199.16928pt x 183.99466pt.
+<figures/LJ_figure.pdf, id=196, 622.10985pt x 403.56926pt>
+File: figures/LJ_figure.pdf Graphic file (type pdf)
+<use figures/LJ_figure.pdf>
+Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 134.
+(pdftex.def)             Requested size: 199.16928pt x 129.20021pt.
+[10] [11 <./figures/bonded_interactions.pdf>] [12 <./figures/Morse-Potential.pn
+g> <./figures/LJ_figure.pdf>]
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 155.
+
+[13]
+
+LaTeX Warning: Reference `timescales' on page 14 undefined on input line 187.
+
+[14]
+
+LaTeX Warning: Reference `verlet' on page 15 undefined on input line 197.
 
 
-LaTeX Warning: File `figures/LJ_figure.pdf ' not found on input line 135.
+LaTeX Warning: Reference `timescales' on page 15 undefined on input line 238.
 
 
-! LaTeX Error: Unknown graphics extension: .pdf .
+LaTeX Warning: Reference `sampling_problem' on page 15 undefined on input line 
+241.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 		}
-         
-? X
- 
+[15] [16]) (./09-CFTR-Review.tex [17]
+Chapter 3.
+[18
+
+] [19] [20] [21] [22]) (./15-Conclusion.tex [23]
+Chapter 4.
+) (./16-Appendix.tex [24
+
+])
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 183.
+
+[25
+
+] [26] [27
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 11C35B962499313D57A5B3E2211E62B7;1103
+(rerunfilecheck)             After:  18124FC4CDF4867B6DE76F5ADCB18303;3045.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 30314 strings out of 481239
- 553944 string characters out of 5920377
- 1188927 words of memory out of 5000000
- 44883 multiletter control sequences out of 15000+600000
- 543881 words of font info for 64 fonts, out of 8000000 for 9000
+ 30381 strings out of 481239
+ 555211 string characters out of 5920377
+ 1189343 words of memory out of 5000000
+ 44903 multiletter control sequences out of 15000+600000
+ 544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,96p,1410b,2020s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.0@Born1927} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.12} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.15} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.14} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.6.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.6.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (24 pages, 221333 bytes).
+ 60i,18n,96p,1410b,1840s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
+m1200.pfb>
+Output written on main.pdf (41 pages, 483805 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 359 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 642 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
