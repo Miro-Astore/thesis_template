@@ -88,7 +88,7 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 \end{aligned}
 \end{equation}
 
-Here, the $k_i$ terms correspond to the strength of the harmonic restraint for that parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to accurately model the quantum energetics of bonded interactions at room temperature this can be seen in figure \ref{morse_potential}.
+Here, the $k_i$ terms correspond to the strength of the harmonic restraint for that parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to be a reasonable approximation for the potential energy functions of quantum mechanics in covalently bonded bonded species. Examples can be seen in figure \ref{morse_potential}.
 
 \begin{figure}
 	\begin{center}
@@ -96,7 +96,7 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for t
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[The Bonded Interactions Calculated In Classical Forcefields]{\textbf{The Bonded Interactions Calculated In Classical Forcefields.}}{
-		(A) The energy of Bond Stretching is approximated as a harmonic oscillator with respect to their separation $r$. (B) Angles between neighbouring covalently bonded atoms are also approximated as a harmonic oscillator with respect to the angle $\theta$. In some forcefields such as CHARMM there is a correction term for these angular interactions known as Urey Bradley forces. This is calculated using the separation between the non-bonded atoms $i$-$k$ in the triplet with the parameter $r_{UB}$. (C) The dihedral angle between four atoms is calculated by constructing two planes. Each plane is constructed to contains three of the four atoms in the set. One plane encompasses atoms $i, j$ and $k$ here colored in blue and the other plane contains the j, k and l atoms colored in red. The dihedral angle is then calculated by taking the angle between these two planes along the line they intersect, the line formed by the $j$-$k$ bond. (D) The improper dihedral angles enforce the planarity of a molecular configuration. A plane is constructed to contain the $i$, $j$ and $k$ atoms and another plane is constructed to contain the $j$, $k$ and $l$ atoms. The improper angle is then calculated as the angle between these two planes. }
+	(A) The energy of Bond Stretching is approximated as a harmonic oscillator with respect to their separation $r$. (B) Angles between neighbouring covalently bonded atoms are also approximated as a harmonic oscillator with respect to the angle $\theta$. In some forcefields such as CHARMM there is a correction term for these angular interactions known as Urey Bradley forces. This is calculated using the separation between the non-bonded atoms $i$-$k$ in the triplet with the parameter $r_{UB}$. (C) The dihedral angle between four atoms is calculated by constructing two planes. Each plane is constructed to contains three of the four atoms in the set. One plane encompasses atoms $i, j$ and $k$ here colored in blue and the other plane contains the $j$, $k$ and $l$ atoms colored in red. The dihedral angle is then calculated by taking the angle between these two planes along the line they intersect, the line formed by the $j$-$k$ bond. (D) The improper dihedral angles enforce the planarity of a molecular configuration. A plane is constructed to contain the $i$, $j$ and $k$ (blue) atoms and another plane is constructed to contain the $j$, $k$ and $l$ atoms (red). The improper angle is then calculated as the angle between these two planes. }
 	\label{charmm_bonded}
 \end{figure}
 
@@ -122,8 +122,8 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\includegraphics[width=\textwidth]{figures/QM_MM_compared.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Comparison Between Potentials in Quantum and Classical Forcefields] {\textbf{Comparison Between Potentials in Quantum and Classical Forcefields}}{ The Morse potential was formulated to approximate the potential the potential energy surface of the separation of covalent bonds (blue). At low temperatures (the ground state, $v=0$) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006. 
-}
+	\caption[Comparison Between Potentials in Quantum and Classical Forcefields] {\textbf{Comparison Between Potentials in Quantum and Classical Forcefields}}{ A) The Morse potential was formulated to approximate the potential the potential energy surface associated with the stretching of covalent bonds (blue). At low temperatures (the ground state, $v=0$) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006 B) Here the potential of the dihedral angle in a butane molecule is calculated using two methods \cite{lemkul2020}: Quantum Chemical calculations and Approximations using the functional form in \ref{CHARMM}. Note how the appropriate choice of $k_\phi$,$n$ and $\delta$ have closely approximated the results the more accurate quantum mechanical calculations.}
+
 	\label{morse_potential}
 \end{figure}
 
@@ -133,7 +133,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 		\includegraphics[width=\textwidth]{figures/LJ_figure.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[The Lennard-Jones Potential] {\textbf{The Lennard-Jones Potential}}{A) The Lennard-Jones potential function has two regimes, the far region one dominated by attractive dispersion forces and the close region domianted by repulsion. In the case of atomic systems this is due to the Puali exclusion principal. B) An example of a fluid modelled with Lennard-Jones particles \cite{chari2019}. C) The Radial Distrubtion function for a Lennard-Jones fluid \cite{morsali2005}. Note that the peaks in the distribution are roughly 1 $\sigma$ apart. }
+	\caption[The Lennard-Jones Potential] {\textbf{The Lennard-Jones Potential}}{A) The Lennard-Jones potential function has two regimes, the far region one dominated by attractive dispersion forces and the close region dominated by repulsion. In the case of atomic systems this is due to the Pauli exclusion principal. B) An example of a fluid modelled with Lennard-Jones particles \cite{chari2019}. C) The radial distribution function ($g$) for a Lennard-Jones fluid \cite{morsali2005}. Note that the peaks in the distribution are roughly 1 $\sigma$ apart. }
 	\label{morse_potential}
 \end{figure}
 
@@ -246,8 +246,17 @@ Note how the $U_{biased}$ term is explicitly dependent on a parameter $\xi$. Thi
 The particular form of $U_{bias}$ depends on the Free energy technique being employed. There are two varieties, equilibrium and non-equilibrium methods. We will focus on the equilibrium methods in this work. We note that there is another set of methods called alchemical methods which modify the chemical composition of the system which we will not cover.  
 
 \subsection{Umbrella Sampling}
+
 This is 
 
 \subsubsection{Weighted Histogram Average Method}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=\textwidth]{figures/umbrella_sampling.png.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Illustration of Umbrella Sampling] {\textbf{Illustration of Umbrella Sampling}}{A) Several simulations are repeated with only one change. A bias  potential is added somewhere along the reaction coordinate $\xi$. B) The value of $\xi$ is recorded in each of the windows and then graphed as histograms. C) The Overlap in neighbouring histograms is integrated via the WHAM method to calculate the Potential of Mean Force. This gives us the energy landscape. Fluctuations in the overlap in the data can be used to estimate the error for the PMF. }
+	\label{umbrella_sampling_illustration}
+\end{figure}
 
 \subsection{Metadynamics}
