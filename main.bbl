@@ -86,6 +86,39 @@
     \field{year}{1927}
   \endentry
 
+  \entry{miller1976}{book}{}
+    \name{editor}{1}{}{%
+      {{hash=MWH}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={William\bibnamedelima H.},
+         giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer US}}%
+    }
+    \strng{namehash}{MWH1}
+    \strng{fullhash}{MWH1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1007/978-1-4757-0644-4
+    \endverb
+    \field{isbn}{978-1-4757-0646-8 978-1-4757-0644-4}
+    \field{shorttitle}{Dynamics of {{Molecular Collisions}}}
+    \field{title}{Dynamics of {{Molecular Collisions}}: {{Part B}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Boston, MA}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/3DL2LYRN/Miller - 1976 - Dynamics of Molecu
+    \verb lar Collisions Part B.pdf
+    \endverb
+    \field{year}{1976}
+  \endentry
+
   \entry{yoo2018a}{article}{}
     \name{author}{2}{}{%
       {{hash=YJ}{%
@@ -145,6 +178,221 @@
     \field{journaltitle}{Physical Chemistry Chemical Physics}
     \field{month}{03}
     \field{year}{2018}
+  \endentry
+
+  \entry{lemkul2020}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=LJA}{%
+         family={Lemkul},
+         familyi={L\bibinitperiod},
+         given={Justin\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=SB}{%
+         family={Strodel},
+         familyi={S\bibinitperiod},
+         given={Birgit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Barz},
+         familyi={B\bibinitperiod},
+         given={Bogdan},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Academic Press}}%
+    }
+    \keyw{Electronic polarization,Force fields,Molecular dynamics
+  simulations,Molecular modeling,Potential energy functions,Protein
+  simulations}
+    \strng{namehash}{LJA1}
+    \strng{fullhash}{LJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Protein force fields have been undergoing continual development since the
+  first complete parameter sets were introduced nearly four decades ago. The
+  functional forms that underlie these models have many common elements for the
+  treatment of bonded and nonbonded forces, which are reviewed here. The most
+  widely used force fields to date use a fixed-charge convention in which
+  electronic polarization effects are treated via a mean-field approximation
+  during partial charge assignment. Despite success in modeling folded proteins
+  over many years, the fixed-charge assumption has limitations that cannot
+  necessarily be overcome within their potential energy equations. To overcome
+  these limitations, several force fields have recently been derived that
+  explicitly treat electronic polarization effects with straightforward
+  extensions of the potential energy functions used by nonpolarizable force
+  fields. Here, we review the history of the most popular nonpolarizable force
+  fields (AMBER, CHARMM, OPLS, and GROMOS) as well as studies that have
+  validated them and applied them to studies of protein folding and misfolding.
+  Building upon these force fields are more recent polarizable interaction
+  potentials, including fluctuating charge models, POSSIM, AMOEBA, and the
+  classical Drude oscillator. These force fields differ in their
+  implementations but all attempt to model electronic polarization in a
+  computationally tractable manner. Despite their recent emergence in the field
+  of protein folding, several studies have already applied these polarizable
+  models to challenging problems in this domain, including the role of
+  polarization in folding free energies and sequence-specific effects on the
+  stability of {$\alpha$}-helical structures.%
+    }
+    \field{booktitle}{Progress in {{Molecular Biology}} and {{Translational
+  Science}}}
+    \verb{doi}
+    \verb 10.1016/bs.pmbts.2019.12.009
+    \endverb
+    \field{pages}{1\bibrangedash 71}
+    \field{series}{Computational {{Approaches}} for {{Understanding Dynamical
+  Systems}}: {{Protein Folding}} and {{Assembly}}}
+    \field{title}{Chapter {{One}} - {{Pairwise-additive}} and Polarizable
+  Atomistic Force Fields for Molecular Dynamics Simulations of Proteins}
+    \field{volume}{170}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/9FRN79Q3/S1877117319302157.html
+    \endverb
+    \field{month}{01}
+    \field{year}{2020}
+  \endentry
+
+  \entry{chari2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CSSN}{%
+         family={Chari},
+         familyi={C\bibinitperiod},
+         given={S.\bibnamedelima Siva\bibnamedelima Nasarayya},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dasgupta},
+         familyi={D\bibinitperiod},
+         given={Chandan},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MPK}{%
+         family={Maiti},
+         familyi={M\bibinitperiod},
+         given={Prabal\bibnamedelima K.},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSSN+1}
+    \strng{fullhash}{CSSNDCMPK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A simple two-temperature model makes an equal mixture of identical LJ
+  particles phase separate and develop crystalline order in cold clusters. , We
+  report scalar activity induced phase separation and crystallization in a
+  system of 3-d Lennard-Jones particles taken at state points spanning from the
+  gas to the liquid regime using molecular dynamics simulation (MD). Scalar
+  activity was introduced by increasing the temperature of half of the
+  particles (labeled `hot') while keeping the temperature of the other half
+  constant at a lower value (labeled `cold'). The relative temperature
+  difference between the two subsystems is considered as a measure of the
+  activity. From our simulations we observe that the two species tend to phase
+  separate at sufficiently high activity ratio. The extent of separation is
+  quantified by the defined order parameter and the entropy production during
+  this process is determined by employing the two-phase thermodynamic (2PT)
+  model and the standard modified Benedict\textendash Webb\textendash Rubin
+  (MBWR) equation of state for a LJ fluid. We observe that the extent of the
+  phase separation and entropy production increases with the density of the
+  system. From a cluster analysis, we obtain the mean number of clusters
+  {$\langle$} n cl {$\rangle$}, and the mean size of the largest cluster
+  {$\langle$} n 0 {$\rangle$} in the system, complementing each other. Bond
+  orientation order parameters reveal that the so formed largest cluster also
+  develops solid-like order consisting of both FCC and HCP packing. The
+  presence of such crystalline order is also supported by a common neighbor
+  analysis.%
+    }
+    \verb{doi}
+    \verb 10.1039/C9SM00962K
+    \endverb
+    \field{issn}{1744-683X, 1744-6848}
+    \field{number}{36}
+    \field{pages}{7275\bibrangedash 7285}
+    \field{title}{Scalar Activity Induced Phase Separation and
+  Liquid\textendash Solid Transition in a {{Lennard-Jones}} System}
+    \field{volume}{15}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/M464WJC4/Chari et al. - 2019 - Scalar activ
+    \verb ity induced phase separation and liqui.pdf
+    \endverb
+    \field{journaltitle}{Soft Matter}
+    \field{year}{2019}
+  \endentry
+
+  \entry{morsali2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MA}{%
+         family={Morsali},
+         familyi={M\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GEK}{%
+         family={Goharshadi},
+         familyi={G\bibinitperiod},
+         given={Elaheh\bibnamedelima K.},
+         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=AMG}{%
+         family={Ali\bibnamedelima Mansoori},
+         familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Abbaspour},
+         familyi={A\bibinitperiod},
+         given={Mohsen},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA+1}
+    \strng{fullhash}{MAGEKAMGAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A simple and accurate expression for radial distribution function (RDF) of
+  the Lennard-Jones fluid is presented. The expression explicitly states the
+  RDF as a continuous function of reduced interparticle distance, temperature,
+  and density. It satisfies the limiting conditions of zero density and
+  infinite distance imposed by statistical thermodynamics. The distance
+  dependence of this expression is expressed by an equation which contains 11
+  adjustable parameters. These parameters are fitted to 353 RDF data, obtained
+  by molecular dynamics calculations, and then expressed as functions of
+  reduced distance, temperature and density. This expression, having a total of
+  65 constants, reproduces the RDF data with an average root-mean-squared
+  deviation of 0.0152 for the range of state variables of
+  0.5{$\leqslant$}T{${_\ast}\leqslant$}5.1 and
+  0.35{$\leqslant\rho{_\ast}\leqslant$}1.1 (T{${_\ast}$}=kT/{$\epsilon$} and
+  {$\rho{_\ast}$}={$\rho\sigma$}3 are reduced temperature and density,
+  respectively). The expression predicts the pressure and the internal energy
+  of the Lennard-Jones fluid with an uncertainty that is comparable to that
+  obtained directly from the molecular dynamics simulations.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.chemphys.2004.09.027
+    \endverb
+    \field{issn}{0301-0104}
+    \field{number}{1}
+    \field{pages}{11\bibrangedash 15}
+    \field{title}{An Accurate Expression for Radial Distribution Function of
+  the {{Lennard-Jones}} Fluid}
+    \field{volume}{310}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/2ZT2375J/S0301010404005452.html
+    \endverb
+    \field{journaltitle}{Chemical Physics}
+    \field{month}{04}
+    \field{year}{2005}
   \endentry
 
   \entry{ngo2021}{article}{}
