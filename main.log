@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  16 MAY 2022 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  16 MAY 2022 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1524,30 +1524,33 @@ Chapter 2.
 ] [8]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 57.
+d on input line 59.
 
 
-Overfull \hbox (14.73613pt too wide) in paragraph at lines 109--109
+LaTeX Warning: Citation 'sherrill' on page 9 undefined on input line 62.
+
+
+Overfull \hbox (14.73613pt too wide) in paragraph at lines 104--104
 []\OT1/cmr/bx/n/17.28 Classical MD, Molec-u-lar Mo-tions With-out Quan-
  []
 
 [9]
-<figures/bonded_interactions.pdf, id=356, 355.57504pt x 286.09044pt>
+<figures/bonded_interactions.pdf, id=353, 355.57504pt x 286.09044pt>
 File: figures/bonded_interactions.pdf Graphic file (type pdf)
 <use figures/bonded_interactions.pdf>
 Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 13
-7.
+2.
 (pdftex.def)             Requested size: 284.52756pt x 228.93376pt.
  [10] [11 <./figures/bonded_interactions.pdf>]
-<figures/QM_MM_compared.pdf, id=508, 2644.36272pt x 1348.22972pt>
+<figures/QM_MM_compared.pdf, id=504, 2644.36272pt x 1348.22972pt>
 File: figures/QM_MM_compared.pdf Graphic file (type pdf)
 <use figures/QM_MM_compared.pdf>
-Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 164.
+Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 159.
 (pdftex.def)             Requested size: 441.01773pt x 224.83469pt.
-<figures/LJ_figure.pdf, id=511, 968.16644pt x 471.10486pt>
+<figures/LJ_figure.pdf, id=507, 968.16644pt x 471.10486pt>
 File: figures/LJ_figure.pdf Graphic file (type pdf)
 <use figures/LJ_figure.pdf>
-Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 175.
+Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 170.
 (pdftex.def)             Requested size: 441.01773pt x 214.59744pt.
  [12 <./figures/QM_MM_compared.pdf>] [13 <./figures/LJ_figure.pdf>] [14]
 
@@ -1555,36 +1558,36 @@ Package caption Warning: \label without proper reference on input line 244.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 15 undefined on input line 226.
-
-
-LaTeX Warning: Reference `verlet' on page 15 undefined on input line 236.
+LaTeX Warning: Reference `timescales' on page 15 undefined on input line 221.
 
 [15]
+
+LaTeX Warning: Reference `verlet' on page 16 undefined on input line 231.
+
 
 Package caption Warning: \label without proper reference on input line 244.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 16 undefined on input line 277.
-
-
-LaTeX Warning: Reference `sampling_problem' on page 16 undefined on input line 
-280.
+LaTeX Warning: Reference `timescales' on page 16 undefined on input line 272.
 
 [16]
-<figures/umbrella_sampling.png.pdf, id=646, 1054.59818pt x 326.65247pt>
+
+LaTeX Warning: Reference `sampling_problem' on page 17 undefined on input line 
+275.
+
+<figures/umbrella_sampling.png.pdf, id=643, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
-297.
+292.
 (pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
 ) (./09-CFTR-Review.tex [17] [18 <./figures/umbrella_sampling.png.pdf>]
 Chapter 3.
 [19
 
 ]
-<figures/CFTR_structure.pdf, id=678, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=675, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
 Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
@@ -1634,9 +1637,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30456 strings out of 481239
- 557030 string characters out of 5920378
- 1189362 words of memory out of 5000000
+ 30454 strings out of 481239
+ 557004 string characters out of 5920378
+ 1190362 words of memory out of 5000000
  44963 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1660,10 +1663,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (44 pages, 5835026 bytes).
+Output written on main.pdf (44 pages, 5835082 bytes).
 PDF statistics:
- 902 PDF objects out of 1000 (max. 8388607)
- 751 compressed objects within 8 object streams
- 143 named destinations out of 1000 (max. 500000)
+ 900 PDF objects out of 1000 (max. 8388607)
+ 749 compressed objects within 8 object streams
+ 141 named destinations out of 1000 (max. 500000)
  350 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -48,10 +48,12 @@ Meanwhile, the kinetic energy terms are of the form
 T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2,\quad  T_e = - \sum_l \frac{\hbar^2}{2m_e} \nabla_l ^2
 \end {equation}
 
-$M_i$ represents the mass of the $i$th nucleon and $m_e$ represents the mass of an electron. The operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we apply the Born-Oppenheimer approximation to separate the wave functions and solve them separately.
+$M_i$ represents the mass of the $i$th nucleon and $m_e$ represents the mass of an electron. The operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we derive the Born-Oppenheimer approximation to separate the wave functions and treat them separately.
 
 \subsection{The Born-Oppenheimer approximation.}
-We now make use of what's known as the Born-Oppenheimer approximation \cite{Born1927}. Here we observe that electrons are 3-4 orders of magnitude lighter than the nucleus, and so we can assume that the electrons will respond instantaneously to any changes in the wave function of the nuclei. This means that we can separate the wave function $\Psi$ into two components and solve for them separately. We examine the time-independent form of the electronic Schrodinger wave equation. 
+In order to reach the Born-Oppenheier approximation we must start with the observation that 3-4 orders of magnitude lighter than the nucleus. This motivates the `clamped nuclei assumption" where we solve the Schrodinger equation whilst nuclei are fixed in space and do not move. We then make what's known as the "adiabatic assumption" which postulates that the electrons will respond instantaneously to any changes in the positions of the nuclei. Combining these physical assumptions we reach the Born-Oppenheimer which can be used to calculate the motion of several atoms at once. 
+
+We begin this derivation by examining the time-independent form of the electronic Schrodinger wave equation. 
 
 \begin{equation}
 	H_e(\bold{r}_l, \bold{R}_i)  \psi_e (\bold{r}_l,\bold{R}_i)  = E_e(\bold{R}_i) \psi_e (\bold{r}_l,\bold{R}_i) 
@@ -75,6 +77,8 @@ Where we have coupled the electronic wave functions to eachother with the operat
 	C_{kj} = \int ({\psi_e})_k ^* \Big[\sum_i\frac{\hbar^2}{2M_i}\nabla^2_i\Big] ({\psi_e})_j d\bold{r}  + \frac{1}{M_i} \sum_{i}\int\bigg[({\psi_e})_k ^* [-\hbar i \nabla_i]({\psi_e})_jd\bold{r}\bigg] [-\hbar i \nabla_i]
 \end{equation}
 
+Using the ``adiabatic assumption" \cite{miller1976} the off-diagonal terms of 
+
 %\begin{equation}
 %	(H_n + H_e + V_{n-e})  (\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i)) =  (E_n  + E_e)(\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i) ) 
 %\end{equation}
@@ -84,10 +88,6 @@ Where we have coupled the electronic wave functions to eachother with the operat
 
 %In the case of hydrogen we lose an order of magnitude so the approximation is less valid, especially at room temperature. CITATION NEEDED
 
-Substituting this expression for $E_e \psi_e$ back into the Schrodinger  equation we obtain 
-\begin{equation}
-	H_n + V_{n-e}
-\end{equation}
 
 %
 %\begin {equation}
