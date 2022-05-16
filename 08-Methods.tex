@@ -29,7 +29,7 @@ Note that the wave function $\Psi (\textbf {x}, t)$ is still allowed to evolve i
 In atomic systems there are two types of particles, nuclei which we will denote with the subscript $i$ and electrons denoted by $e$. In order to treat these elements separately we decompose the Hamiltonian of the system into a few components. 
 
 \begin {equation}
-H = \underbrace{T_n + V_{n-n}}_{H_n} + \underbrace{T_e +  V_{e-e}}_{H_e} + V_{n-e}
+H = \underbrace{T_n + V_{n-n}}_{H_n} + \underbrace{T_e +  V_{e-e} + V_{n-e}}_{H_e}
 \end {equation}
 
 Where $T_n$ and $T_e$ denote the kinetic energy of the nucleus and electrons respectively. While $V_{n-n}, V_{n-e}, V_{e-e}$ denote the potential energy for interactions between nuclei, between electrons and nuclei and between electrons respectively.
@@ -42,25 +42,26 @@ Since the potential terms all describe charged species, they follow Coulomb's la
 
 Here the $z_i$ represent the atomic number (and thus the charge) of the $i$th nucleus and $q_e$ is the unit charge of the electron. The reason for the separate coordinates $R_i$ and $r_l$ is to separate out the treatment of nuclei and electrons which will be important once we apply the Born-Oppenheimer approximation.
 
-Meanwhile, the kinetic energy terms are quite simple. 
+Meanwhile, the kinetic energy terms are of the form 
 
 \begin {equation}
-T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2,\quad  T_e = - \sum_l \frac{\hbar^2}{2m_l} \nabla_l ^2
+T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2,\quad  T_e = - \sum_l \frac{\hbar^2}{2m_e} \nabla_l ^2
 \end {equation}
 
-$M_i$ represents the mass of the $i$th nucleon and $m_l$ represents the mass of the $l$th electron. The operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we apply the Born-Oppenheimer approximation to separate the wave functions and solve them separately.
-
-Here, the $M_i$ are the masses of the nuclei and 
-
+$M_i$ represents the mass of the $i$th nucleon and $m_e$ represents the mass of an electron. The operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we apply the Born-Oppenheimer approximation to separate the wave functions and solve them separately.
 
 \subsection{The Born-Oppenheimer approximation.}
-We now make use of what's known as the Born-Oppenheimer approximation \cite{Born1927}. Here we observe that electrons are 3-4 orders of magnitude lighter than the nucleus, and so we can assume that the electrons will respond instantaneously to any changes in the wave function of the nuclei. This means that we can separate the wave function $\Psi$ into two components and solve for them separately. With an implied direct product we write 
+We now make use of what's known as the Born-Oppenheimer approximation \cite{Born1927}. Here we observe that electrons are 3-4 orders of magnitude lighter than the nucleus, and so we can assume that the electrons will respond instantaneously to any changes in the wave function of the nuclei. This means that we can separate the wave function $\Psi$ into two components and solve for them separately. We examine the time-independent form of the electronic Schrodinger wave equation. 
 
 \begin{equation}
-	\Psi(\bold{r}_l, \bold{R}_i,t) = \psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i,t)
+	H_e(\bold{r}_l, \bold{R}_i)  \psi_k (\bold{r}_l,\bold{R}_i)  = E_k(\bold{R}_i) \psi_k (\bold{r}_l,\bold{R}_i) 
 \end{equation}
 
-Given that the nuclei move so much slower than the electrons we assume they are fixed and remove the time dependency from the equation. This expands the Schrodinger equation for the whole system to:
+Fixing the neuclii in this way is known as the "clamped nuclei" approximation. To solve for the wave function for the whole system $\Psi_{tot}$ we use an \textit{ansatz} which decomposes the wave function into two components: $\psi_e$ and $\psi_n$ which are the eigenfunction solutions to $H_e$ and $H_n$ respectively.
+
+\begin{equation}
+	\Psi_{tot} (\bold{r}_l,\bold{R}_i, t) = \sum_{l=k}^\infty \psi_e(\bold{r}_l, \bold{R}_i) \psi_n(\bold{R}_i)
+\end{equation}
 
 \begin{equation}
 	(H_n + H_e + V_{n-e})  (\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i)) =  (E_n  + E_e)(\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i) ) 
@@ -69,23 +70,28 @@ Given that the nuclei move so much slower than the electrons we assume they are 
 Examining the components of the above which deal with the electrons we get
 
 \begin{equation}
-	(H_e + V_{n-e})  \psi_e (\bold{r}_l,\bold{R}_i) =  E_e \psi_e (\bold{r}_l,\bold{R}_i) 
+	E_e \psi_e (\bold{r}_l,\bold{R}_i)  = (H_e + V_{n-e})  \psi_e (\bold{r}_l,\bold{R}_i) 
 \end{equation}
 
 %disregard $T_e$, $V_{n-e}$ and $V_{e-e}$ as they will be close to 0 compared to $T_n$ and $V_{n-n}$.
 
 %In the case of hydrogen we lose an order of magnitude so the approximation is less valid, especially at room temperature. CITATION NEEDED
 
+Substituting this expression for $E_e \psi_e$ back into the Schrodinger  equation we obtain 
+\begin{equation}
+	H_n + V_{n-e}
+\end{equation}
 
-\begin {equation}
-\Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
-\end {equation}
-
-The BO assumption means that we can neglect the cross terms from this separation and treat each wave function independently.
-
-\begin {equation}
-T_n + T_\Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
-\end {equation}
+%
+%\begin {equation}
+%\Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
+%\end {equation}
+%
+%The BO assumption means that we can neglect the cross terms from this separation and treat each wave function independently.
+%
+%\begin {equation}
+%T_n + T_\Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
+%\end {equation}
 
 
 \section{Classical MD, Molecular Motions Without Quantum Mechanics}
