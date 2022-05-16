@@ -29,7 +29,7 @@ Note that the wave function $\Psi (\textbf {x}, t)$ is still allowed to evolve i
 In an atom there are two types of particles, nuclei which we will denote with the subscript $i$ and electrons denoted by $e$. In order to treat these elements separately we decompose the Hamiltonian of the system into a few components. 
 
 \begin {equation}
-H = T_n + T_e + V_{n-n} + V_{n_e} + V_{e-e}
+H = \underbrace{T_n + V_{n-n}}_{H_n} + \underbrace{T_e +  V_{e-e}}_{H_e} + V_{n-e}
 \end {equation}
 
 Where $T_n$ and $T_e$ denote the kinetic energy of the nucleus and electrons respectively. While $V_{n-n}, V_{n-e}, V_{e-e}$ denote the potential energy for interactions between nuclei, between electrons and nuclei and between electrons respectively.
@@ -37,10 +37,10 @@ Where $T_n$ and $T_e$ denote the kinetic energy of the nucleus and electrons res
 Since the potential terms all describe charged species, they follow Coulomb's law and have the form.
 
 \begin{equation}
-	V_{n-n} = \sum_{i>j} \frac{q_e^2 z_i z_j }{|\textbf{R}_i-\textbf{R}_j|},\quad V_{n-e} = \sum_{i,l} \frac{q_e^2 z_i }{|\textbf{r}_l-\textbf{R}_i|},\quad  V_{e-e}  = \sum_{l>k} \frac{q_e^2 }{|\textbf{r}_l-\textbf{r}_k|}
+	V_{n-n} = \sum_{i>j} \frac{q_e^2 z_i z_j }{|\textbf{R}_i-\textbf{R}_j|},\quad V_{n-e} = -\sum_{i,l} \frac{q_e^2 z_i }{|\textbf{r}_l-\textbf{R}_i|},\quad  V_{e-e}  = \sum_{l>k} \frac{q_e^2 }{|\textbf{r}_l-\textbf{r}_k|}
 \end{equation}
 
-Here the $z_i$ represent the charge atomic number (and thus the charge) of the $i$th nucleus and $q_e$ is the unit charge of the electron. The reason for the separate coordinates $R_i$ and $r_l$ is to separate out the treatment of nuclei and electrons which will be important once we apply the Born-Oppenheimer approximation.
+Here the $z_i$ represent the atomic number (and thus the charge) of the $i$th nucleus and $q_e$ is the unit charge of the electron. The reason for the separate coordinates $R_i$ and $r_l$ is to separate out the treatment of nuclei and electrons which will be important once we apply the Born-Oppenheimer approximation.
 
 Meanwhile, the kinetic energy terms are quite simple. 
 
@@ -54,15 +54,19 @@ Here, the $M_i$ are the masses of the nuclei and the operator $\nabla^2 = \frac{
 
 
 \subsection{The Born-Oppenheimer approximation.}
-We now make use of the Born-Oppenheimer approximation \cite{Born1927}. This is motivated by the observation that electrons are 3-4 orders of magnitude lighter than the nucleus, and so we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can disregard $T_e$, $U_{n-e}$ and $U_{e-e}$ 
+We now make use of what's known as the Born-Oppenheimer approximation \cite{Born1927}. Here we observe that electrons are 3-4 orders of magnitude lighter than the nucleus, and so we can assume that the electrons will respond instantaneously to any changes in the wave function of the nucleus. Thus, we can separate out $T_e$, $V_{n-e}$ and $V_{e-e}$ as they will be small compared to $T_n$ and $V_{n-n}$. 
+
+%disregard $T_e$, $V_{n-e}$ and $V_{e-e}$ as they will be close to 0 compared to $T_n$ and $V_{n-n}$.
 
 %In the case of hydrogen we lose an order of magnitude so the approximation is less valid, especially at room temperature. CITATION NEEDED
 
-This allows us to split the total wave function into two parts using a direct product. One term deals with the nuclei and one with the electrons in the system. 
+This assumption makes the Hamiltonian of the system separable allowing us to split the total wave function into two parts using a direct product. One term deals with the nuclei and one with the electrons in the system. 
 
 \begin {equation}
 \Psi(R_i,t) = \psi_e (r_l,R_i) \psi_n(R_i,t)
 \end {equation}
+
+The BO assumption means that we can neglect the cross terms from this separation and treat each wave function independently.
 
 \section{Classical MD, Molecular Motions Without Quantum Mechanics}
 The Born-Oppenheimer approximation gives rise to Hartree-Fock methods which allow calculations of the organisation of electron clouds around small molecules. This lets us derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. 
@@ -193,7 +197,7 @@ The advances we are seeing at the moment which I find exciting are the use of ma
 \subsection{Accelerating Simulations with Virtual Site Topologies}
 The discrete time step, $\Delta t$ in equation \ref{verlet}, is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale, which usually runs to nanoseconds or milliseconds.  
 
-Due to Nyquist's theorem the $\Delta t$ parameter must be less than half the speed of the fastest degree of freedom in the system CITATION NEEDED. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds by enforcing a rigid hydrogen bond length, i.e interpolating its position backward from the 2 fs timestep.  
+Due to Nyquist's theorem the $\Delta t$ parameter must be less than half the speed of the fastest degree of freedom in the system CITATION NEEDED. The RATTLE and SHAKE algorithms usually used in MD software demand even tighter constraints (CITATION NEEDED). In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds by enforcing a rigid hydrogen bond length, i.e interpolating its position backward from the 2 fs timestep.  
 
 However, there are more involved strategies to account for these effects. Hydrogen Mass repartitioning and multiple time stepping have become popular but we will discuss Virtual Sites in detail as they were used for some simulations in this thesis.  
 
