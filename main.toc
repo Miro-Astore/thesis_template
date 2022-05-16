@@ -1,11 +1,11 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hyperref [chap:abbrev]{List of Abbreviations}}{ix}{chapter*.1}%
+\contentsline {chapter}{\hyperref [chap:abbrev]{List of Abbreviations}}{viii}{chapter*.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{xii}{section*.3}%
+\contentsline {chapter}{List of Figures}{xi}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xiii}{section*.5}%
+\contentsline {chapter}{List of Tables}{xii}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -27,64 +27,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}The Born-Oppenheimer approximation.}{9}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Classical MD, Molecular Motions Without Quantum Mechanics}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Classical MD, Molecular Motions Without Quantum Mechanics}{10}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Lennard-Jones Potential}{13}{section*.9}%
+\contentsline {subsubsection}{The Lennard-Jones Potential}{11}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Philosophy of Different Molecular Mechanics forcefields.}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Philosophy of Different Molecular Mechanics forcefields.}{11}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Controlling the Temperature and Pressure in a Simulation}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Controlling the Temperature and Pressure in a Simulation}{14}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Berendsen Thermostat}{14}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Berendsen Barostat}{14}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Berendsen Barostat}{15}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Nos\'e Hoover Thermostat}{14}{section*.11}%
+\contentsline {subsubsection}{Nos\'e Hoover Thermostat}{15}{section*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Periodic Boundaries to Simulate a Realistic System Size}{14}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Periodic Boundaries to Simulate a Realistic System Size}{15}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.6}The Process of Preparing a Simulation}{14}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.6}The Process of Preparing a Simulation}{15}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.7}Short Comings of Classical MD}{14}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.7}Short Comings of Classical MD}{15}{subsection.2.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Problem with Forcefields}{14}{section*.12}%
+\contentsline {subsubsection}{The Problem with Forcefields}{15}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Problem with Sampling}{15}{section*.13}%
+\contentsline {subsubsection}{The Problem with Sampling}{16}{section*.13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.8}Accelerating Simulations with Virtual Site Topologies}{16}{subsection.2.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Free Energy Calculations: Making Simulations More Useful}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Free Energy Calculations: Making Simulations More Useful}{18}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Umbrella Sampling}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Umbrella Sampling}{18}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Weighted Histogram Average Method}{17}{section*.15}%
+\contentsline {subsubsection}{Weighted Histogram Average Method}{18}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Metadynamics}{17}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Metadynamics}{18}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{19}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{20}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{21}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CFTR Structure}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.2}CFTR Structure}{22}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR classification and structure}{22}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{22}{section.3.4}%
+\contentsline {section}{\numberline {3.4}The Gating Cycle}{23}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{22}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{23}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{23}{section.3.6}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{24}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{23}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Correctors}{24}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Potentiators}{23}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Potentiators}{24}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{24}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{25}{subsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{25}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{26}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Concluding Remarks}{26}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Concluding Remarks}{27}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{27}{section*.18}%
+\contentsline {section}{References}{28}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{27}{appendix*.19}%
+\contentsline {chapter}{Bibliography}{28}{appendix*.19}%

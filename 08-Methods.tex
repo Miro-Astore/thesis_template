@@ -51,7 +51,7 @@ T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2,\quad  T_e = - \sum_l \frac{\hba
 $M_i$ represents the mass of the $i$th nucleon and $m_e$ represents the mass of an electron. The operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we derive the Born-Oppenheimer approximation to separate the wave functions and treat them separately.
 
 \subsection{The Born-Oppenheimer approximation.}
-In order to reach the Born-Oppenheier approximation we must start with the observation that 3-4 orders of magnitude lighter than the nucleus. This motivates the `clamped nuclei assumption" where we solve the Schrodinger equation whilst nuclei are fixed in space and do not move. We then make what's known as the "adiabatic assumption" which postulates that the electrons will respond instantaneously to any changes in the positions of the nuclei. Combining these physical assumptions we reach the Born-Oppenheimer which can be used to calculate the motion of several atoms at once. 
+In order to reach the Born-Oppenheier approximation we start with the observation that 3-4 orders of magnitude lighter than the nucleus. This motivates the `clamped nuclei assumption" where we solve the Schrodinger equation whilst nuclei are fixed in space and do not move. We then make what's known as the "adiabatic assumption" which postulates that the electrons will respond instantaneously to any changes in the positions of the nuclei. Combining these physical assumptions we derive the ``Born-Oppenheimer" approximation which can be used to simplify calculations involving several atoms at once. 
 
 We begin this derivation by examining the time-independent form of the electronic Schrodinger wave equation. 
 
@@ -69,6 +69,7 @@ Note that there is an implied direct product between the wave functions $\psi_e(
 
 \begin{equation}
 	i \hbar \frac{\partial} {\partial t} {\psi_n(\bold{R}_i)}_k = \Big[- \sum_i \frac{\hbar^2}{2M_i} \nabla^2_i  + {E_e} (\bold{R}_i)_k\Big] \psi_n (\bold{R}_i)_k + \sum_j C_{kj} \ {\psi_n(\bold{R}_i)}_j 
+	\label{adiabatic_approx}
 \end{equation}
 
 Where we have coupled the electronic wave functions to eachother with the operator 
@@ -77,8 +78,25 @@ Where we have coupled the electronic wave functions to eachother with the operat
 	C_{kj} = \int ({\psi_e})_k ^* \Big[\sum_i\frac{\hbar^2}{2M_i}\nabla^2_i\Big] ({\psi_e})_j d\bold{r}  + \frac{1}{M_i} \sum_{i}\int\bigg[({\psi_e})_k ^* [-\hbar i \nabla_i]({\psi_e})_jd\bold{r}\bigg] [-\hbar i \nabla_i]
 \end{equation}
 
-Using the ``adiabatic assumption" \cite{miller1976} the off-diagonal terms of 
+Using the ``adiabatic assumption" \cite{miller1976} the off-diagonal terms of $C_{kj}$ can be set to $0$. This completely decouples the wavefunction into two components 
+\begin{equation}
+	\Psi_{tot} (\bold{r}_l,\bold{R}_i, t) = \infty {\psi_e}(\bold{r}_l, \bold{R}_i)_k\ {\psi_n}(\bold{R}_i,t)_k
+\end{equation}
 
+Since all cross terms from the direct product can be ignored. With the further assumption that $C_{kk}$ can be ignored because it is 4 orders of magnitude smaller than the other terms in \ref{adiabatic_approx} \cite{sherrill}.
+
+We now write the Born-Oppenheimer approximated wave equation for an atomic system.  
+
+
+\begin{equation}
+	i\hbar \frac{\partial}{\partial t} \psi_n(\bold{R}_i)_k = \big[ -\sum_i \frac{\hbar^2}{2M_i} \nabla^2_i + E_e(\bold{R}_i)_k\big] \psi_n(\bold{R_i})_k 
+\end{equation}
+
+By rearranging this equation and taking derivative we can see how to use Newton's equations of motion to calculate the forces on the nuclei from the surrounding electric potential 
+
+\begin{equation}
+	M_i \ddot{\bold{R}}_i (t) = -\nabla_i E_e (\bold{R_i})
+\end{equation}
 %\begin{equation}
 %	(H_n + H_e + V_{n-e})  (\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i)) =  (E_n  + E_e)(\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i) ) 
 %\end{equation}
