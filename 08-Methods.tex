@@ -51,15 +51,15 @@ T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2,\quad  T_e = - \sum_l \frac{\hba
 $M_i$ represents the mass of the $i$th nucleon and $m_e$ represents the mass of an electron. The operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we derive the Born-Oppenheimer approximation to separate the wave functions and treat them separately.
 
 \subsection{The Born-Oppenheimer approximation.}
-In order to reach the Born-Oppenheier approximation we start with the observation that 3-4 orders of magnitude lighter than the nucleus. This motivates the `clamped nuclei assumption" where we solve the Schrodinger equation whilst nuclei are fixed in space and do not move. We then make what's known as the "adiabatic assumption" which postulates that the electrons will respond instantaneously to any changes in the positions of the nuclei. Combining these physical assumptions we derive the ``Born-Oppenheimer" approximation which can be used to simplify calculations involving several atoms at once. 
+In order to reach the Born-Oppenheier approximation we start with the observation that electrons have a mass 3-4 orders of magnitude smaller than the nuclei. This motivates two simplifications. The `clamped nuclei assumption" where we solve the Schrodinger equation whilst nuclei are fixed in space and do not move. And a related assumption known as the "adiabatic assumption" which postulates that the electrons will respond instantaneously to any changes in the positions of the nuclei. Combining these physical approximations we derive the ``Born-Oppenheimer approximation" for the Schrodinger equation which can be used to simplify calculations involving several atoms at once. 
 
-We begin this derivation by examining the time-independent form of the electronic Schrodinger wave equation. 
+We begin the derivation by examining the time-independent form of the electronic Schrodinger wave equation where the nuclei are fixed at positions $R_i$. 
 
 \begin{equation}
 	H_e(\bold{r}_l, \bold{R}_i)  \psi_e (\bold{r}_l,\bold{R}_i)  = E_e(\bold{R}_i) \psi_e (\bold{r}_l,\bold{R}_i) 
 \end{equation}
 
-Fixing the neucli in this way is known as the ``clamped nuclei" approximation \cite{sherrill}. To solve for the wave function for the whole system $\Psi_{tot}$ we use an \textit{ansatz} which decomposes the wave function into two components: $({\psi_e})_k$ and $({\psi_n})_k$ which are the $k$th eigenfunction solutions to $H_e$ and $H_n$ respectively.
+Fixing the neucli in this way gives the ``clamped nuclei" approximation \cite{sherrill}. To solve the wave function for the whole system $\Psi_{tot}$ we use an \textit{ansatz} which decomposes the wave function with an electronic basis into two components: $({\psi_e})_k$ and $({\psi_n})_k$ which are the $k$th eigenfunction solutions to $H_e$ and $H_n$ respectively.
 
 \begin{equation}
 	\Psi_{tot} (\bold{r}_l,\bold{R}_i, t) = \sum_{k=0}^\infty {\psi_e}(\bold{r}_l, \bold{R}_i)_k\ {\psi_n}(\bold{R}_i)_k
@@ -72,18 +72,18 @@ Note that there is an implied direct product between the wave functions $\psi_e(
 	\label{adiabatic_approx}
 \end{equation}
 
-Where we have coupled the electronic wave functions to eachother with the operator 
+Where we have coupled the electronic wave functions to each other with the operator 
 
 \begin{equation}
-	C_{kj} = \int ({\psi_e})_k ^* \Big[\sum_i\frac{\hbar^2}{2M_i}\nabla^2_i\Big] ({\psi_e})_j d\bold{r}  + \frac{1}{M_i} \sum_{i}\int\bigg[({\psi_e})_k ^* [-\hbar i \nabla_i]({\psi_e})_jd\bold{r}\bigg] [-\hbar i \nabla_i]
+	C_{kj} = \int ({\psi_e})_k ^* \Big[\sum_i\frac{\hbar^2}{2M_i}\nabla^2_i\Big] ({\psi_e})_j d\bold{r}  + \frac{1}{M_i}\sum_{i}\bigg[ \int({\psi_e})_k ^* [-\hbar i \nabla_i]({\psi_e})_jd\bold{r}\bigg] [-\hbar i \nabla_i]
 \end{equation}
 
 Using the ``adiabatic assumption" \cite{miller1976} the off-diagonal terms of $C_{kj}$ can be set to $0$. This completely decouples the wavefunction into two components 
 \begin{equation}
-	\Psi_{tot} (\bold{r}_l,\bold{R}_i, t) = \infty {\psi_e}(\bold{r}_l, \bold{R}_i)_k\ {\psi_n}(\bold{R}_i,t)_k
+	\Psi_{tot} (\bold{r}_l,\bold{R}_i, t) = {\psi_e}(\bold{r}_l, \bold{R}_i)_k\ {\psi_n}(\bold{R}_i,t)_k
 \end{equation}
 
-Since all cross terms from the direct product can be ignored. With the further assumption that $C_{kk}$ can be ignored because it is 4 orders of magnitude smaller than the other terms in \ref{adiabatic_approx} \cite{sherrill}.
+Since all cross terms from the direct product can be ignored. With the further assumption that the diagonal terms $C_{kk}$ can also be ignored because they are 4 orders of magnitude smaller than the other terms in \ref{adiabatic_approx} \cite{sherrill}.
 
 We now write the Born-Oppenheimer approximated wave equation for an atomic system.  
 
@@ -97,6 +97,8 @@ By rearranging this equation and taking derivative we can see how to use Newton'
 \begin{equation}
 	M_i \ddot{\bold{R}}_i (t) = -\nabla_i E_e (\bold{R_i})
 \end{equation}
+
+By choosing an appropriate time-step one can simply iteratively solve this equation of motion to understand the dynamics of an atomic system. The nuclei will move according to their relative positions to each other and the electron clouds will rearrange in response to that motion. There is no need to calculate the interactions between the nuclei and the electrons. This is sufficient accuracy to simulate many physical phenomena with the notable exception of energetic, fast interactions between nuclei and electrons such as spectroscpic phenomenon \cite{sheril}. 
 %\begin{equation}
 %	(H_n + H_e + V_{n-e})  (\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i)) =  (E_n  + E_e)(\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i) ) 
 %\end{equation}
@@ -120,9 +122,9 @@ By rearranging this equation and taking derivative we can see how to use Newton'
 
 
 \section{Classical MD, Molecular Motions Without Quantum Mechanics}
-The Born-Oppenheimer approximation gives rise to Hartree-Fock methods which allow calculations of the organisation of electron clouds around small molecules. This lets us derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. 
+The Born-Oppenheimer approximation gives rise to Hartree-Fock methods and density functional theory (DFT). These more sophisticated physical methods allow us to simulate the the organisation of electron clouds around small molecules, finding broad applications in chemistry and materials science \cite{vanmourik2014}. We can derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. These can be useful when designing novel materials. 
 
-However, even with these approximations simulating a large number of atoms is still not computationally tractable. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical system.
+However, even with these approximations simulating a large number of atoms is still not computationally tractable. State of the art DFT methods can only simulate up to a few 10s of thousands of atoms \cite{luo2020} and scales as $O(N^3)$ \cite{kresse1996}. This is not sufficient to simulate proteins and their surrounding solvation environment. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical system.
 
 This formulation gives us classical molecular dynamics sometimes referred to as molecular mechanics. The aim of the classical forcefields discussed here is to use \textit {ab initio} MD as a target to approximate. 
 
@@ -216,6 +218,11 @@ Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t
 
 
 \subsection{Periodic Boundaries to Simulate a Realistic System Size}
+A protein system doesn't exist in a vacuum. It is surrounded by a cellular environment. If we were to place the protein in some water and then truncate that solvation box with vacuum we would get all sorts of artefacts, such as an ordered solvation box which might influence the protein's dynamics. Additionally, the protein would stick to the hydrophbic extrenal surface of the box. So, to avoid a computationally prohibitive system size we enforce periodic boundary conditions where atoms are allowed to move to between neighbouring images of the molecular system. However, this means that we must also calculate the forces placed on atoms from one edge to another, increasing the computational load considerably. This is less of an issue with  Lennard-Jones forces with their short ranged $1/r^6$ and $1/r^{12}$ terms but in the case of electrostatic forces, we must be more careful, $1/r$ decays much more slowly than terms in $U_{LJ}$. We cannot simply introduce a cutoff distance after which $U_{coloumb}$ is no longer calculated.
+
+with a clever scheme known as Particle Mesh Ewald Summation. PME scales as $O (N\log N)$ for the number of atoms \cite{darden1993}.
+
+For a detailed review of Particle Mesh Ewald Summation methods sese \cite{shan2005}. Unfortunatley, unlike the Lennard-Jones potential in \ref{LJ_figure} we cannot a cutoff distnace without into 
 
 \subsection{The Process of Preparing a Simulation}
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
@@ -248,7 +255,7 @@ The advances we are seeing at the moment which I find exciting are the use of ma
 \subsection{Accelerating Simulations with Virtual Site Topologies}
 The discrete time step, $\Delta t$ in equation \ref{verlet}, is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale, which usually runs to nanoseconds or milliseconds.  
 
-Due to Nyquist's theorem the $\Delta t$ parameter must be less than half the speed of the fastest degree of freedom in the system CITATION NEEDED. The RATTLE and SHAKE algorithms usually used in MD software demand even tighter constraints (CITATION NEEDED). In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds by enforcing a rigid hydrogen bond length, i.e interpolating its position backward from the 2 fs timestep.  
+Due to Nyquist's theorem the $\Delta t$ parameter must be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, emperically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2001}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds by enforcing a rigid hydrogen bond length, i.e interpolating its position backward from the 2 fs timestep.  
 
 However, there are more involved strategies to account for these effects. Hydrogen Mass repartitioning and multiple time stepping have become popular but we will discuss Virtual Sites in detail as they were used for some simulations in this thesis.  
 
@@ -284,7 +291,7 @@ However, there are more involved strategies to account for these effects. Hydrog
 %	\hline
 %\end{tabular}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. This stands in tension with the phenomena we are interested in on longer timescales such as protein folding. Sources: \cite{schlick2010}\cite{brooks1988}\cite{flood2019}\cite{werner2012}}
+\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. This stands in tension with the phenomena we are interested in on longer timescales such as protein folding. Sources: \cite{leah2001}\cite{schlick2010}\cite{brooks1988}\cite{flood2019}\cite{werner2012}}
 \end{table}
 
 As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. This follows from the 3600cm$^{-1}$ peak in the resonance infrared resonance spectrum of biomolecules corresponding to the bond stretching oscillation of the H-O bond. \cite{schlick2010} Setting the time step of simluations to 1/10th of this period gives sufficient gives the Verlet integrator sufficient resolution to capture the motion and maintain the stability of the energy function.
