@@ -60,7 +60,7 @@
       {{hash=SCD}{%
          family={Sherrill},
          familyi={S\bibinitperiod},
-         given={C\bibnamedelima David},
+         given={C.\bibnamedelima David},
          giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
@@ -572,6 +572,74 @@
     \field{year}{2005}
   \endentry
 
+  \entry{gapsys2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GV}{%
+         family={Gapsys},
+         familyi={G\bibinitperiod},
+         given={Vytautas},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=dBL}{%
+         family={{de Groot}},
+         familyi={d\bibinitperiod},
+         given={Bert\bibnamedelima L},
+         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=FJD}{%
+         family={{Faraldo-G{\'o}mez}},
+         familyi={F\bibinitperiod},
+         given={Jos{\'e}\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Grossfield},
+         familyi={G\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{eLife Sciences Publications, Ltd}}%
+    }
+    \keyw{kinetics,molecular dynamics,simulation,statistics,thermodynamics}
+    \strng{namehash}{GVdBL1}
+    \strng{fullhash}{GVdBL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Computational simulations, akin to wetlab experimentation, are subject to
+  statistical fluctuations. Assessing the magnitude of these fluctuations, that
+  is, assigning uncertainties to the computed results, is of critical
+  importance to drawing statistically reliable conclusions. Here, we use a
+  simulation box size as an independent variable, to demonstrate how crucial it
+  is to gather sufficient amounts of data before drawing any conclusions about
+  the potential thermodynamic and kinetic effects. In various systems, ranging
+  from solvation free energies to protein conformational transition rates, we
+  showcase how the proposed simulation box size effect disappears with
+  increased sampling. This indicates that, if at all, the simulation box size
+  only minimally affects both the thermodynamics and kinetics of the type of
+  biomolecular systems presented in this work.%
+    }
+    \verb{doi}
+    \verb 10.7554/eLife.57589
+    \endverb
+    \field{issn}{2050-084X}
+    \field{pages}{e57589}
+    \field{title}{On the Importance of Statistics in Molecular Simulations for
+  Thermodynamics, Kinetics and Simulation Box Size}
+    \field{volume}{9}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/QGNJJX6S/Gapsys and de Groot - 2020 - On th
+    \verb e importance of statistics in molecular simul.pdf
+    \endverb
+    \field{journaltitle}{eLife}
+    \field{month}{08}
+    \field{year}{2020}
+  \endentry
+
   \entry{auffinger1995}{article}{}
     \name{author}{2}{}{%
       {{hash=AP}{%
@@ -877,6 +945,97 @@
     \field{year}{1993}
   \endentry
 
+  \entry{hardy2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=HDJ}{%
+         family={Hardy},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=PJC}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={James\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SJE}{%
+         family={Stone},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SRD}{%
+         family={Skeel},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schulten},
+         familyi={S\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDJ+1}
+    \strng{fullhash}{HDJWZPJCSJESRDSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The multilevel summation method (MSM) offers an efficient algorithm
+  utilizing convolution for evaluating long-range forces arising in molecular
+  dynamics simulations. Shifting the balance of computation and communication,
+  MSM provides key advantages over the ubiquitous particle-mesh Ewald (PME)
+  method, offering better scaling on parallel computers and permitting more
+  modeling flexibility, with support for periodic systems as does PME but also
+  for semiperiodic and nonperiodic systems. The version of MSM available in the
+  simulation program NAMD is described, and its performance and accuracy are
+  compared with the PME method. The accuracy feasible for MSM in practical
+  applications reproduces PME results for water property calculations of
+  density, diffusion constant, dielectric constant, surface tension, radial
+  distribution function, and distancedependent Kirkwood factor, even though the
+  numerical accuracy of PME is higher than that of MSM. Excellent agreement
+  between MSM and PME is found also for interface potentials of air-water and
+  membrane-water interfaces, where long-range Coulombic interactions are
+  crucial. Applications demonstrate also the suitability of MSM for systems
+  with semiperiodic and nonperiodic boundaries. For this purpose, simulations
+  have been performed with periodic boundaries along directions parallel to a
+  membrane surface but not along the surface normal, yielding membrane pore
+  formation induced by an imbalance of charge across the membrane. Using a
+  similar semiperiodic boundary condition, ion conduction through a graphene
+  nanopore driven by an ion gradient has been simulated. Furthermore, proteins
+  have been simulated inside a single spherical water droplet. Finally,
+  parallel scalability results show the ability of MSM to outperform PME when
+  scaling a system of modest size (less than 100 K atoms) to over a thousand
+  processors, demonstrating the suitability of MSM for large-scale parallel
+  simulation.%
+    }
+    \verb{doi}
+    \verb 10.1021/ct5009075
+    \endverb
+    \field{issn}{1549-9618, 1549-9626}
+    \field{number}{2}
+    \field{pages}{766\bibrangedash 779}
+    \field{title}{Multilevel {{Summation Method}} for {{Electrostatic Force
+  Evaluation}}}
+    \field{volume}{11}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ZMRP8LGB/Hardy et al. - 2015 - Multilevel S
+    \verb ummation Method for Electrostatic Forc.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{02}
+    \field{year}{2015}
+  \endentry
+
   \entry{shan2005}{article}{}
     \name{author}{5}{}{%
       {{hash=SY}{%
@@ -1057,6 +1216,407 @@
     \field{journaltitle}{Proceedings of the IRE}
     \field{month}{01}
     \field{year}{1949}
+  \endentry
+
+  \entry{mazur1997}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MAK}{%
+         family={Mazur},
+         familyi={M\bibinitperiod},
+         given={Alexy\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MAK1}
+    \strng{fullhash}{MAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The St\"ormer\textendash Verlet\textendash leapfrog group of integrators
+  commonly used in molecular dynamics simulations has long become a textbook
+  subject and seems to have been studied exhaustively. There are, however, a
+  few striking effects in performance of algorithms which are well known but
+  have not received adequate attention in the literature. A closer view of
+  these unclear observations results in unexpected conclusions. It is shown
+  here that contrary to the conventional point of view, the leapfrog scheme is
+  distinguished in this group both in terms of the order of truncation errors
+  and the conservation of the total energy. In this case the characteristic
+  square growth of fluctuations of the total energy with the step size,
+  commonly measured in numerical tests, results from additional interpolation
+  errors with no relation to the accuracy of the computed trajectory. An
+  alternative procedure is described for checking energy conservation of
+  leapfrog-like algorithms which is free from interpolation errors. Preliminary
+  tests on a representative model system suggest that standard step size values
+  used at present are lower than necessary for accurate sampling.%
+    }
+    \verb{doi}
+    \verb 10.1006/jcph.1997.5740
+    \endverb
+    \field{issn}{0021-9991}
+    \field{number}{2}
+    \field{pages}{354\bibrangedash 365}
+    \field{shorttitle}{Common {{Molecular Dynamics Algorithms Revisited}}}
+    \field{title}{Common {{Molecular Dynamics Algorithms Revisited}}:
+  {{Accuracy}} and {{Optimal Time Steps}} of {{St\"ormer}}\textendash{{Leapfrog
+  Integrators}}}
+    \field{volume}{136}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/GAIC8A9H/Mazur - 1997 - Common Molecular Dy
+    \verb namics Algorithms Revisited Ac.pdf;/home/miro/Zotero/storage/UG8XXM82
+    \verb /S0021999197957405.html
+    \endverb
+    \field{journaltitle}{Journal of Computational Physics}
+    \field{month}{09}
+    \field{year}{1997}
+  \endentry
+
+  \entry{feenstra1999}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FKA}{%
+         family={Feenstra},
+         familyi={F\bibinitperiod},
+         given={K.\bibnamedelima Anton},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hess},
+         familyi={H\bibinitperiod},
+         given={Berk},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BHJ}{%
+         family={Berendsen},
+         familyi={B\bibinitperiod},
+         given={Herman\bibnamedelima J.C.},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{John Wiley and Sons Inc.}}%
+    }
+    \keyw{Accuracy of integration,Constraints,Large time-scale
+  dynamics,Molecular dynamics,Protein simulation,Time step optimization,Water
+  simulation}
+    \strng{namehash}{FKA+1}
+    \strng{fullhash}{FKAHBBHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A systematic analysis is performed on the effectiveness of removing degrees
+  of freedom from hydrogen atoms and/or increasing hydrogen masses to increase
+  the efficiency of molecular dynamics simulations of hydrogen-rich systems
+  such as proteins in water. In proteins, high-frequency bond-angle vibrations
+  involving hydrogen atoms limit the time step to 3 fs, which is already a
+  factor of 1.5 beyond the commonly used time step of 2 fs. Removing these
+  degrees of freedom from the system by constructing hydrogen atoms as dummy
+  atoms, allows the time step to be increased to 7 fs, a factor of 3.5 compared
+  with 2 fs. Additionally, a gain in simulation stability can be achieved by
+  increasing the masses of hydrogen atoms with remaining degrees of freedom
+  from 1 to 4 u. Increasing hydrogen mass without removing the high-frequency
+  degrees of freedom allows the time step to be increased only to 4 fs, a
+  factor of two, compared with 2 fs. The net gain in efficiency of sampling
+  configurational space may be up to 15\% lower than expected from the increase
+  in time step due to the increase in viscosity and decrease in diffusion
+  constant. In principle, introducing dummy atoms and increasing hydrogen mass
+  do not influence thermodynamical properties of the system and dynamical
+  properties are shown to be influenced only to a moderate degree. Comparing
+  the maximum time step attainable with these methods (7 fs) to the time step
+  of 2 fs that is routinely used in simulation, and taking into account the
+  increase in viscosity and decrease in diffusion constant, we can say that a
+  net gain in simulation efficiency of a factor of 3 to 3.5 can be achieved.
+  \textcopyright{} 1999 John Wiley \& Sons, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/(SICI)1096-987X(199906)20:8<786::AID-JCC5>3.0.CO;2-B
+    \endverb
+    \field{issn}{01928651}
+    \field{number}{8}
+    \field{pages}{786\bibrangedash 798}
+    \field{title}{Improving Efficiency of Large Time-Scale Molecular Dynamics
+  Simulations of Hydrogen-Rich Systems}
+    \field{volume}{20}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{06}
+    \field{year}{1999}
+  \endentry
+
+  \entry{braun2019}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BE}{%
+         family={Braun},
+         familyi={B\bibinitperiod},
+         given={Efrem},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gilmer},
+         familyi={G\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MHB}{%
+         family={Mayes},
+         familyi={M\bibinitperiod},
+         given={Heather\bibnamedelima B.},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MDL}{%
+         family={Mobley},
+         familyi={M\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MJI}{%
+         family={Monroe},
+         familyi={M\bibinitperiod},
+         given={Jacob\bibnamedelima I.},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Prasad},
+         familyi={P\bibinitperiod},
+         given={Samarjeet},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZDM}{%
+         family={Zuckerman},
+         familyi={Z\bibinitperiod},
+         given={Daniel\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BE+1}
+    \strng{fullhash}{BEGJMHBMDLMJIPSZDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document provides a starting point for approaching molecular
+  simulations, guiding beginning practitioners to what issues they need to know
+  about before and while starting their first simulations, and why those issues
+  are so critical. This document makes no claims to provide an adequate
+  introduction to the subject on its own. Instead, our goal is to help people
+  know what issues are critical before beginning, and to provide references to
+  good resources on those topics. We also provide a checklist of key issues to
+  consider before and while setting up molecular simulations which may serve as
+  a foundation for other best practices documents.%
+    }
+    \verb{doi}
+    \verb 10.33011/livecoms.1.1.5957
+    \endverb
+    \field{issn}{2575-6524}
+    \field{number}{1}
+    \field{pages}{5957}
+    \field{title}{Best {{Practices}} for {{Foundations}} in {{Molecular
+  Simulations}} [{{Article}} v1.0]}
+    \field{volume}{1}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/7632BXSG/Braun et al. - 2019 - Best Practic
+    \verb es for Foundations in Molecular Simula.pdf
+    \endverb
+    \field{journaltitle}{Living journal of computational molecular science}
+    \field{year}{2019}
+  \endentry
+
+  \entry{andersen1983}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AHC}{%
+         family={Andersen},
+         familyi={A\bibinitperiod},
+         given={Hans\bibnamedelima C},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AHC1}
+    \strng{fullhash}{AHC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1016/0021-9991(83)90014-1
+    \endverb
+    \field{issn}{00219991}
+    \field{number}{1}
+    \field{pages}{24\bibrangedash 34}
+    \field{shorttitle}{Rattle}
+    \field{title}{Rattle: {{A}} ``Velocity'' Version of the Shake Algorithm for
+  Molecular Dynamics Calculations}
+    \field{volume}{52}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Computational Physics}
+    \field{month}{10}
+    \field{year}{1983}
+  \endentry
+
+  \entry{hess1997}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HB}{%
+         family={Hess},
+         familyi={H\bibinitperiod},
+         given={Berk},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bekker},
+         familyi={B\bibinitperiod},
+         given={Henk},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BHJC}{%
+         family={Berendsen},
+         familyi={B\bibinitperiod},
+         given={Herman J.\bibnamedelima C.},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=FJGEM}{%
+         family={Fraaije},
+         familyi={F\bibinitperiod},
+         given={Johannes G. E.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{constraints,Langevin dynamics,molecular dynamics,SHAKE}
+    \strng{namehash}{HB+1}
+    \strng{fullhash}{HBBHBHJCFJGEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    In this article, we present a new LINear Constraint Solver (LINCS) for
+  molecular simulations with bond constraints. The algorithm is inherently
+  stable, as the constraints themselves are reset instead of derivatives of the
+  constraints, thereby eliminating drift. Although the derivation of the
+  algorithm is presented in terms of matrices, no matrix matrix multiplications
+  are needed and only the nonzero matrix elements have to be stored, making the
+  method useful for very large molecules. At the same accuracy, the LINCS
+  algorithm is three to four times faster than the SHAKE algorithm.
+  Parallelization of the algorithm is straightforward. \textcopyright{} 1997
+  John Wiley \& Sons, Inc. J Comput Chem 18: 1463\textendash 1472, 1997%
+    }
+    \verb{doi}
+    \verb 10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H
+    \endverb
+    \field{issn}{1096-987X}
+    \field{number}{12}
+    \field{pages}{1463\bibrangedash 1472}
+    \field{shorttitle}{{{LINCS}}}
+    \field{title}{{{LINCS}}: {{A}} Linear Constraint Solver for Molecular
+  Simulations}
+    \field{volume}{18}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/PKTNSP98/Hess et al. - 1997 - LINCS A linea
+    \verb r constraint solver for molecular si.pdf;/home/miro/Zotero/storage/5F
+    \verb JCJU68/(SICI)1096-987X(199709)18121463AID-JCC43.0.html
+    \endverb
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{annotation}{%
+    \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1002/\%28SICI\%291096-987X\%28199709\%2918\%3A12\%3C1463\%3A\%3AAID-JCC4\%3E3.0.CO\%3B2-H%
+    }
+    \field{year}{1997}
+  \endentry
+
+  \entry{balusek2019}{article}{}
+    \name{author}{10}{}{%
+      {{hash=BC}{%
+         family={Balusek},
+         familyi={B\bibinitperiod},
+         given={Curtis},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Hyea},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LCH}{%
+         family={Lau},
+         familyi={L\bibinitperiod},
+         given={Chun\bibnamedelima Hon},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lundquist},
+         familyi={L\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hazel},
+         familyi={H\bibinitperiod},
+         given={Anthony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pavlova},
+         familyi={P\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LDL}{%
+         family={Lynch},
+         familyi={L\bibinitperiod},
+         given={Diane\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RPH}{%
+         family={Reggio},
+         familyi={R\bibinitperiod},
+         given={Patricia\bibnamedelima H.},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GJC}{%
+         family={Gumbart},
+         familyi={G\bibinitperiod},
+         given={James\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BC+1}
+    \strng{fullhash}{BCHHLCHLKHAPALDLRPHWYGJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The time step of atomistic molecular dynamics (MD) simulations is
+  determined by the fastest motions in the system and is typically limited to 2
+  fs. An increasingly popular solution is to increase the mass of the hydrogen
+  atoms to \textasciitilde 3 amu and decrease the mass of the parent atom by an
+  equivalent amount. This approach, known as hydrogen-mass repartitioning
+  (HMR), permits time steps up to 4 fs with reasonable simulation stability.
+  While HMR has been applied in many published studies to date, it has not been
+  extensively tested for membrane-containing systems. Here, we compare the
+  results of simulations of a variety of membranes and membrane-protein systems
+  run using a 2-fs time step and a 4-fs time step with HMR. For pure membrane
+  systems, we find almost no difference in structural properties, such as
+  area-per-lipid, electron density profiles, and order parameters, although
+  there are differences in kinetic properties such as the diffusion constant.
+  Conductance through a porin in an applied field, partitioning of a small
+  peptide, hydrogen-bond dynamics, and membrane mixing show very little
+  dependence on HMR and the time step. We also tested a 9-\AA{} cutoff compared
+  to the standard CHARMM cutoff of 12 \AA, finding significant deviations in
+  many properties tested. We conclude that HMR is a valid approach for membrane
+  systems but a 9-\AA{} cutoff is not.,%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.9b00160
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{8}
+    \field{pages}{4673\bibrangedash 4686}
+    \field{title}{Accelerating Membrane Simulations with {{Hydrogen Mass
+  Repartitioning}}}
+    \field{volume}{15}
+    \field{journaltitle}{Journal of chemical theory and computation}
+    \field{month}{08}
+    \field{year}{2019}
   \endentry
 
   \entry{schlick2010}{book}{}
@@ -1766,7 +2326,7 @@
     }
     \keyw{ABC exporter,CFTR,Comparative modeling,Cryo-electron
   microscopy,Filamin,Metadynamics}
-    \strng{namehash}{HB+1}
+    \strng{namehash}{HB+2}
     \strng{fullhash}{HBEALPDJLPFMJPCI1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  18 MAY 2022 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  18 MAY 2022 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1551,59 +1551,49 @@ File: figures/PME_miro.pdf Graphic file (type pdf)
 <use figures/PME_miro.pdf>
 Package pdftex.def Info: figures/PME_miro.pdf  used on input line 224.
 (pdftex.def)             Requested size: 441.01773pt x 270.36966pt.
+ [15 <./figures/PME_miro.pdf>] [16]
 
-
-LaTeX Warning: Citation 'gapsys2020' on page 15 undefined on input line 231.
-
-[15 <./figures/PME_miro.pdf>]
-
-LaTeX Warning: Citation 'hardy2015' on page 16 undefined on input line 235.
-
-
-LaTeX Warning: Citation 'hardy2015' on page 16 undefined on input line 235.
-
-[16]
-
-Package caption Warning: \label without proper reference on input line 282.
+Package caption Warning: \label without proper reference on input line 283.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 17 undefined on input line 264.
+LaTeX Warning: Reference `timescales' on page 17 undefined on input line 266.
 
 [17]
 
-LaTeX Warning: Reference `verlet' on page 18 undefined on input line 274.
+LaTeX Warning: Reference `verlet' on page 18 undefined on input line 276.
 
 
-LaTeX Warning: Citation 'leach2001' on page 18 undefined on input line 276.
+LaTeX Warning: Citation 'leach2001' on page 18 undefined on input line 278.
 
 
-LaTeX Warning: Citation 'leah2001' on page 18 undefined on input line 312.
+LaTeX Warning: Citation 'leah2001' on page 18 undefined on input line 313.
 
 
-Package caption Warning: \label without proper reference on input line 282.
+Package caption Warning: \label without proper reference on input line 283.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 18 undefined on input line 315.
-
-
-LaTeX Warning: Reference `sampling_problem' on page 18 undefined on input line 
-318.
+LaTeX Warning: Reference `timescales' on page 18 undefined on input line 316.
 
 [18]
-<figures/umbrella_sampling.png.pdf, id=734, 1054.59818pt x 326.65247pt>
+
+LaTeX Warning: Reference `sampling_problem' on page 19 undefined on input line 
+319.
+
+[19]
+<figures/umbrella_sampling.png.pdf, id=762, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
-331.
+332.
 (pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
- [19]) (./09-CFTR-Review.tex [20 <./figures/umbrella_sampling.png.pdf>]
+) (./09-CFTR-Review.tex [20 <./figures/umbrella_sampling.png.pdf>]
 Chapter 3.
 [21
 
 ]
-<figures/CFTR_structure.pdf, id=770, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=789, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
 Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
@@ -1650,13 +1640,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30533 strings out of 481239
- 559261 string characters out of 5920378
- 1191337 words of memory out of 5000000
- 45022 multiletter control sequences out of 15000+600000
+ 30581 strings out of 481239
+ 560772 string characters out of 5920378
+ 1191731 words of memory out of 5000000
+ 45062 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,96p,1410b,2911s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,96p,1410b,2910s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1677,10 +1667,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (47 pages, 7202696 bytes).
+Output written on main.pdf (47 pages, 7206916 bytes).
 PDF statistics:
- 1015 PDF objects out of 1200 (max. 8388607)
- 836 compressed objects within 9 object streams
- 160 named destinations out of 1000 (max. 500000)
+ 1048 PDF objects out of 1200 (max. 8388607)
+ 869 compressed objects within 9 object streams
+ 168 named destinations out of 1000 (max. 500000)
  355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
