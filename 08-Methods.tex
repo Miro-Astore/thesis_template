@@ -191,7 +191,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[The Lennard-Jones Potential] {\textbf{The Lennard-Jones Potential}}{A) The Lennard-Jones potential function has two regimes, the far region one dominated by attractive dispersion forces and the close region dominated by repulsion. In the case of atomic systems this is due to the Pauli exclusion principal. B) An example of a fluid modelled with Lennard-Jones particles \cite{chari2019}. C) The radial distribution function ($g$) for a Lennard-Jones fluid \cite{morsali2005}. Note that the peaks in the distribution are roughly 1 $\sigma$ apart. }
-	\label{morse_potential}
+	\label{Lennard-Jones_figure}
 \end{figure}
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
@@ -218,11 +218,22 @@ Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t
 
 
 \subsection{Periodic Boundaries to Simulate a Realistic System Size}
-A protein system doesn't exist in a vacuum. It is surrounded by a cellular environment. If we were to place the protein in some water and then truncate that solvation box with vacuum we would get all sorts of artefacts, such as an ordered solvation box which might influence the protein's dynamics. Additionally, the protein would stick to the hydrophbic extrenal surface of the box. So, to avoid a computationally prohibitive system size we enforce periodic boundary conditions where atoms are allowed to move to between neighbouring images of the molecular system. However, this means that we must also calculate the forces placed on atoms from one edge to another, increasing the computational load considerably. This is less of an issue with  Lennard-Jones forces with their short ranged $1/r^6$ and $1/r^{12}$ terms but in the case of electrostatic forces, we must be more careful, $1/r$ decays much more slowly than terms in $U_{LJ}$. We cannot simply introduce a cutoff distance after which $U_{coloumb}$ is no longer calculated.
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=\textwidth]{figures/PME_miro.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Particle Mesh Ewald Summation] {\textbf{Particle Mesh Ewald Summation}}{A)The molecular system is repeated infinitely along all axes, when atoms reach the edge of the simulation box they are allowed wrap around to the other side of the box. B) The charges in the infinite periodic system are approximated as Gaussian functions on a grid. Then the potential on these screening charges is calculated via a Fast Fourier Transform (FFT). C) A more detailed view of the charge mapping procedure. A series of Gaussian charges centered on the grid points are constructed to reflect the potential from the point charges in the unit cell. }
+	\label{PME_illustration}
+\end{figure}
 
-with a clever scheme known as Particle Mesh Ewald Summation. PME scales as $O (N\log N)$ for the number of atoms \cite{darden1993}.
+In the body, proteins are immersed in a large celluar environment. In order to avoid artefacts we have to replicate this environment somehow. We could make a simulation box large enough to replicate the behavior of a bulk solvent, but even with a large simulation box we can still observe artifacts associated with the vacuum at the boundaries \cite{gapsys2020}. So to avoid these boundary effects use periodic boundary conditions (PBCs), allowing atoms to move between images in the simulation box \ref{PME_illustration}. This replicates the molecular system infinitely along each basis vector for the unit cell. 
 
-For a detailed review of Particle Mesh Ewald Summation methods sese \cite{shan2005}. Unfortunatley, unlike the Lennard-Jones potential in \ref{LJ_figure} we cannot a cutoff distnace without into 
+Using PBCs might remove vacuum from our molecular system but now we have a different problem. Effectively, with the PBCs we have created a system with an infinite number of atoms. We have to somehow limit the number of computations we perform. We could simply ctruncate teh calculation of interactions $U_{non-bonded}$ after a certain cutoff distance. This is not an issue for $U_{LJ}$ because the $1/r^6$ and $1/r^{12}$ terms in \ref{Lennard-Jones_figure} as they decay very quickly for large $r$. We can simply use a cutoff or a smooth switching function to scale down the effects of the VDW interaction past a certain distance \cite{}. On the other hand, the $1/r$ dependence in $U_{Coloumb}$ scales much more slowly so truncating it leads to many artefacts in the simulation.\cite{auffinger1995}\cite{perera1995}\cite{roberts1994}\cite{delbuono1996}\cite{essmann1995}. 
+
+With a clever scheme known as Particle Mesh Ewald Summation. PME scales as $O (N\log N)$ for the number of atoms \cite{darden1993}.
+
+For a detailed review of Particle Mesh Ewald Summation methods sese \cite{shan2005}. 
 
 \subsection{The Process of Preparing a Simulation}
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
@@ -308,10 +319,6 @@ Note how the $U_{biased}$ term is explicitly dependent on a parameter $\xi$. Thi
 The particular form of $U_{bias}$ depends on the Free energy technique being employed. There are two varieties, equilibrium and non-equilibrium methods. We will focus on the equilibrium methods in this work. We note that there is another set of methods called alchemical methods which modify the chemical composition of the system which we will not cover.  
 
 \subsection{Umbrella Sampling}
-
-This is 
-
-\subsubsection{Weighted Histogram Average Method}
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{figures/umbrella_sampling.png.pdf}
@@ -320,5 +327,9 @@ This is
 	\caption[Illustration of Umbrella Sampling] {\textbf{Illustration of Umbrella Sampling}}{A) Several simulations are repeated with only one change. A bias  potential is added somewhere along the reaction coordinate $\xi$. B) The value of $\xi$ is recorded in each of the windows and then graphed as histograms. C) The Overlap in neighbouring histograms is integrated via the WHAM method to calculate the Potential of Mean Force. This gives us the energy landscape. Fluctuations in the overlap in the data can be used to estimate the error for the PMF. }
 	\label{umbrella_sampling_illustration}
 \end{figure}
+
+This is 
+
+\subsubsection{Weighted Histogram Average Method}
 
 \subsection{Metadynamics}

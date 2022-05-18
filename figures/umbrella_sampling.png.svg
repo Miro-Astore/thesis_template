@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -134,13 +134,13 @@
      inkscape:window-height="1376"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.89399998"
-     inkscape:cx="268.78563"
-     inkscape:cy="329.79379"
+     inkscape:zoom="1.788"
+     inkscape:cx="986.95114"
+     inkscape:cy="305.61209"
      inkscape:window-x="1920"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="g5076"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -523,4 +523,15 @@
        id="path3857"
        inkscape:connector-curvature="0" />
   </g>
+  <text
+     id="text3765-3"
+     y="118.57777"
+     x="957.83453"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.76180649px;line-height:1.25;font-family:'modern latin';-inkscape-font-specification:'modern latin';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54404515"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.54404515"
+       id="tspan3767-7"
+       y="118.57777"
+       x="957.83453"
+       sodipodi:role="line">WHAM</tspan></text>
 </svg>

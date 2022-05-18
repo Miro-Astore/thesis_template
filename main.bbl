@@ -55,35 +55,26 @@
     \field{year}{1952}
   \endentry
 
-  \entry{Born1927}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BM}{%
-         family={Born},
-         familyi={B\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=OR}{%
-         family={Oppenheimer},
-         familyi={O\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
+  \entry{sherrill}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SCD}{%
+         family={Sherrill},
+         familyi={S\bibinitperiod},
+         given={C\bibnamedelima David},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{BMOR1}
-    \strng{fullhash}{BMOR1}
+    \strng{namehash}{SCD1}
+    \strng{fullhash}{SCD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1002/andp.19273892002
+    \field{pages}{7}
+    \field{title}{The {{Born-Oppenheimer Approximation}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/9D327JUS/Sherrill - The Born-Oppenheimer Ap
+    \verb proximation.pdf
     \endverb
-    \field{issn}{00033804}
-    \field{number}{20}
-    \field{pages}{457\bibrangedash 484}
-    \field{title}{Zur {{Quantentheorie}} Der {{Molekeln}}}
-    \field{volume}{389}
-    \field{journaltitle}{Annalen der Physik}
-    \field{year}{1927}
   \endentry
 
   \entry{miller1976}{book}{}
@@ -117,6 +108,192 @@
     \verb lar Collisions Part B.pdf
     \endverb
     \field{year}{1976}
+  \endentry
+
+  \entry{vanmourik2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=vT}{%
+         family={{van Mourik}},
+         familyi={v\bibinitperiod},
+         given={Tanja},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={B{\"u}hl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GMP}{%
+         family={Gaigeot},
+         familyi={G\bibinitperiod},
+         given={Marie-Pierre},
+         giveni={M\bibinithyphendelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Royal Society}}%
+    }
+    \keyw{density functional theory,EPR,excited states,liquid state,NMR,solid
+  state}
+    \strng{namehash}{vT+1}
+    \strng{fullhash}{vTBMGMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The past decades have seen density functional theory (DFT) evolve from a
+  rising star in computational quantum chemistry to one of its major players.
+  This Theme Issue, which comes half a century after the publication of the
+  Hohenberg\textendash Kohn theorems that laid the foundations of modern DFT,
+  reviews progress and challenges in present-day DFT research. Rather than
+  trying to be comprehensive, this Theme Issue attempts to give a flavour of
+  selected aspects of DFT.%
+    }
+    \verb{doi}
+    \verb 10.1098/rsta.2012.0488
+    \endverb
+    \field{number}{2011}
+    \field{pages}{20120488}
+    \field{title}{Density Functional Theory across Chemistry, Physics and
+  Biology}
+    \field{volume}{372}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/GDNNA8JY/van Mourik et al. - 2014 - Density
+    \verb  functional theory across chemistry, physic.pdf
+    \endverb
+    \field{journaltitle}{Philosophical Transactions of the Royal Society A:
+  Mathematical, Physical and Engineering Sciences}
+    \field{month}{03}
+    \field{year}{2014}
+  \endentry
+
+  \entry{luo2020}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LZ}{%
+         family={Luo},
+         familyi={L\bibinitperiod},
+         given={Zhaolong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=QX}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Xinming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wan},
+         familyi={W\bibinitperiod},
+         given={Lingyun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Jinlong},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LZ+1}
+    \strng{fullhash}{LZQXWLHWYJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Linear-scaling density functional theory (DFT) is an efficient method to
+  describe the electronic structures of molecules, semiconductors, and
+  insulators to avoid the high cubic-scaling cost in conventional DFT
+  calculations. Here, we present a parallel implementation of linear-scaling
+  density matrix trace correcting (TC) purification algorithm to solve the
+  Kohn\textendash Sham (KS) equations with the numerical atomic orbitals in the
+  HONPAS package. Such a linear-scaling density matrix purification algorithm
+  is based on the Kohn's nearsightedness principle, resulting in a sparse
+  Hamiltonian matrix with localized basis sets in the DFT calculations.
+  Therefore, sparse matrix multiplication is the most time-consuming step in
+  the density matrix purification algorithm for linear-scaling DFT
+  calculations. We propose to use the MPI\_Allgather function for parallel
+  programming to deal with the sparse matrix multiplication within the
+  compressed sparse row (CSR) format, which can scale up to hundreds of
+  processing cores on modern heterogeneous supercomputers. We demonstrate the
+  computational accuracy and efficiency of this parallel density matrix
+  purification algorithm by performing large-scale DFT calculations on boron
+  nitrogen nanotubes containing tens of thousands of atoms.%
+    }
+    \field{issn}{2296-2646}
+    \field{title}{Parallel {{Implementation}} of {{Large-Scale Linear Scaling
+  Density Functional Theory Calculations With Numerical Atomic Orbitals}} in
+  {{HONPAS}}}
+    \field{volume}{8}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ACQVZHLL/Luo et al. - 2020 - Parallel Imple
+    \verb mentation of Large-Scale Linear Scal.pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Chemistry}
+    \field{year}{2020}
+  \endentry
+
+  \entry{kresse1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KG}{%
+         family={Kresse},
+         familyi={K\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Furthm{\"u}ller},
+         familyi={F\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KGFJ1}
+    \strng{fullhash}{KGFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present a detailed description and comparison of algorithms for
+  performing ab-initio quantum-mechanical calculations using pseudopotentials
+  and a plane-wave basis set. We will discuss: (a) partial occupancies within
+  the framework of the linear tetrahedron method and the finite temperature
+  density-functional theory, (b) iterative methods for the diagonalization of
+  the Kohn-Sham Hamiltonian and a discussion of an efficient iterative method
+  based on the ideas of Pulay's residual minimization, which is close to an
+  order Natoms2 scaling even for relatively large systems, (c) efficient
+  Broyden-like and Pulay-like mixing methods for the charge density including a
+  new special `preconditioning' optimized for a plane-wave basis set, (d)
+  conjugate gradient methods for minimizing the electronic free energy with
+  respect to all degrees of freedom simultaneously. We have implemented these
+  algorithms within a powerful package called VAMP (Vienna ab-initio
+  molecular-dynamics package). The program and the techniques have been used
+  successfully for a large number of different systems (liquid and amorphous
+  semiconductors, liquid simple and transition metals, metallic and
+  semi-conducting surfaces, phonons in simple metals, transition metals and
+  semiconductors) and turned out to be very reliable.%
+    }
+    \verb{doi}
+    \verb 10.1016/0927-0256(96)00008-0
+    \endverb
+    \field{issn}{0927-0256}
+    \field{number}{1}
+    \field{pages}{15\bibrangedash 50}
+    \field{title}{Efficiency of Ab-Initio Total Energy Calculations for Metals
+  and Semiconductors Using a Plane-Wave Basis Set}
+    \field{volume}{6}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/NHLZCVLK/Kresse and Furthmüller - 1996 - E
+    \verb fficiency of ab-initio total energy calculations .pdf;/home/miro/Zote
+    \verb ro/storage/IQW565YT/0927025696000080.html
+    \endverb
+    \field{journaltitle}{Computational Materials Science}
+    \field{month}{07}
+    \field{year}{1996}
   \endentry
 
   \entry{yoo2018a}{article}{}
@@ -395,6 +572,368 @@
     \field{year}{2005}
   \endentry
 
+  \entry{auffinger1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AP}{%
+         family={Auffinger},
+         familyi={A\bibinitperiod},
+         given={Pascal},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BDL}{%
+         family={Beveridge},
+         familyi={B\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{APBDL1}
+    \strng{fullhash}{APBDL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We report the results from a molecular dynamics (MD) simulation on a 1.0 M
+  aqueous NaCl solution using the classical SPC water model and a treatment of
+  long-range electrostatic forces involving a 9\textendash 16 \AA{} twin-range
+  cut-off. This study was undertaken to explore the importance of truncation
+  effects in simulations involving charged species which employ cut-offs at
+  longer range than typically used in MD. Artefacts were discerned in the
+  ion-ion radial distribution functions at {$\approx$} 16 \AA, indicating that
+  increasing the length scale of the truncation scheme does not necessarily
+  lead to reliable trajectories. Our results indicate that `charge group-charge
+  group' radial distribution functions are a sensitive test for the detection
+  of artefacts due to truncation and it is suggested that they should be used
+  as a routine screening device in the analysis of MD systems involving charged
+  groups.%
+    }
+    \verb{doi}
+    \verb 10.1016/0009-2614(95)00065-C
+    \endverb
+    \field{issn}{0009-2614}
+    \field{number}{4}
+    \field{pages}{413\bibrangedash 415}
+    \field{title}{A Simple Test for Evaluating the Truncation Effects in
+  Simulations of Systems Involving Charged Groups}
+    \field{volume}{234}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/SYYN2G7G/Auffinger and Beveridge - 1995 - A
+    \verb  simple test for evaluating the truncation effect.pdf;/home/miro/Zote
+    \verb ro/storage/R7ZBX4KA/000926149500065C.html
+    \endverb
+    \field{journaltitle}{Chemical Physics Letters}
+    \field{month}{03}
+    \field{year}{1995}
+  \endentry
+
+  \entry{perera1995}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PL}{%
+         family={Perera},
+         familyi={P\bibinitperiod},
+         given={Lalith},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=EU}{%
+         family={Essmann},
+         familyi={E\bibinitperiod},
+         given={Ulrich},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=BML}{%
+         family={Berkowitz},
+         familyi={B\bibinitperiod},
+         given={Max\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{PL+1}
+    \strng{fullhash}{PLEUBML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.469422
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{1}
+    \field{pages}{450\bibrangedash 456}
+    \field{title}{Effect of the Treatment of Long-range Forces on the Dynamics
+  of Ions in Aqueous Solutions}
+    \field{volume}{102}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ERPUB2G8/Perera et al. - 1995 - Effect of t
+    \verb he treatment of long‐range forces on th.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{01}
+    \field{year}{1995}
+  \endentry
+
+  \entry{roberts1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RJE}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schnitker},
+         familyi={S\bibinitperiod},
+         given={Jurgen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{RJESJ1}
+    \strng{fullhash}{RJESJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.467425
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{6}
+    \field{pages}{5024\bibrangedash 5031}
+    \field{title}{How the Unit Cell Surface Charge Distribution Affects the
+  Energetics of Ion\textendash Solvent Interactions in Simulations}
+    \field{volume}{101}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ZZMSYLYV/Roberts and Schnitker - 1994 - How
+    \verb  the unit cell surface charge distribution affe.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{09}
+    \field{year}{1994}
+  \endentry
+
+  \entry{delbuono1996}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DBGS}{%
+         family={Del\bibnamedelima Buono},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Gabriela\bibnamedelima S.},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=FFE}{%
+         family={Figueirido},
+         familyi={F\bibinitperiod},
+         given={Francisco\bibnamedelima E.},
+         giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LRM}{%
+         family={Levy},
+         familyi={L\bibinitperiod},
+         given={Ronald\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DBGS+1}
+    \strng{fullhash}{DBGSFFELRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The solvent dielectric response has been evaluated for a system of two
+  oppositely charged ions in aqueous solution. When the Ewald potential is used
+  to model the long-range interactions, the correct high dielectric shielding
+  of the ions by the water is obtained by either of two methods; from the ion
+  charging free energies, or the slope of the ion-ion potential of mean force
+  in the asymptotic region. In contrast, simply truncating the Coulomb
+  interactions leads to unphysical dielectric behavior.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0009-2614(96)01234-1
+    \endverb
+    \field{issn}{0009-2614}
+    \field{number}{3}
+    \field{pages}{521\bibrangedash 529}
+    \field{shorttitle}{Dielectric Response of Solvent Surrounding an Ion Pair}
+    \field{title}{Dielectric Response of Solvent Surrounding an Ion Pair:
+  {{Ewald}} Potential versus Spherical Truncation}
+    \field{volume}{263}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/Y7H7F8YC/Del Buono et al. - 1996 - Dielectr
+    \verb ic response of solvent surrounding an ion .pdf;/home/miro/Zotero/stor
+    \verb age/4WLCXPG4/S0009261496012341.html
+    \endverb
+    \field{journaltitle}{Chemical Physics Letters}
+    \field{month}{12}
+    \field{year}{1996}
+  \endentry
+
+  \entry{essmann1995}{article}{}
+    \name{author}{6}{}{%
+      {{hash=EU}{%
+         family={Essmann},
+         familyi={E\bibinitperiod},
+         given={Ulrich},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Perera},
+         familyi={P\bibinitperiod},
+         given={Lalith},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BML}{%
+         family={Berkowitz},
+         familyi={B\bibinitperiod},
+         given={Max\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DT}{%
+         family={Darden},
+         familyi={D\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Hsing},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PLG}{%
+         family={Pedersen},
+         familyi={P\bibinitperiod},
+         given={Lee\bibnamedelima G.},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{EU+1}
+    \strng{fullhash}{EUPLBMLDTLHPLG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.470117
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{19}
+    \field{pages}{8577\bibrangedash 8593}
+    \field{title}{A Smooth Particle Mesh {{Ewald}} Method}
+    \field{volume}{103}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/E2IYAUSH/Essmann et al. - 1995 - A smooth p
+    \verb article mesh Ewald method.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{11}
+    \field{year}{1995}
+  \endentry
+
+  \entry{darden1993}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DT}{%
+         family={Darden},
+         familyi={D\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=YD}{%
+         family={York},
+         familyi={Y\bibinitperiod},
+         given={Darrin},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pedersen},
+         familyi={P\bibinitperiod},
+         given={Lee},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{DT+1}
+    \strng{fullhash}{DTYDPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1063/1.464397
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{12}
+    \field{pages}{10089\bibrangedash 10092}
+    \field{shorttitle}{Particle Mesh {{Ewald}}}
+    \field{title}{Particle Mesh {{Ewald}}: {{An N}}{$\cdot$}log({{N}}) Method
+  for {{Ewald}} Sums in Large Systems}
+    \field{volume}{98}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ZJE5IH4H/Darden et al. - 1993 - Particle me
+    \verb sh Ewald An N⋅log(N) method for Ewald .pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{06}
+    \field{year}{1993}
+  \endentry
+
+  \entry{shan2005}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SY}{%
+         family={Shan},
+         familyi={S\bibinitperiod},
+         given={Yibing},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KJL}{%
+         family={Klepeis},
+         familyi={K\bibinitperiod},
+         given={John\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=EMP}{%
+         family={Eastwood},
+         familyi={E\bibinitperiod},
+         given={Michael\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=DRO}{%
+         family={Dror},
+         familyi={D\bibinitperiod},
+         given={Ron\bibnamedelima O.},
+         giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=SDE}{%
+         family={Shaw},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SY+1}
+    \strng{fullhash}{SYKJLEMPDROSDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1063/1.1839571
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{5}
+    \field{pages}{054101}
+    \field{shorttitle}{Gaussian Split {{Ewald}}}
+    \field{title}{Gaussian Split {{Ewald}}: {{A}} Fast {{Ewald}} Mesh Method
+  for Molecular Simulation}
+    \field{volume}{122}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/QNM6TYJM/Shan et al. - 2005 - Gaussian spli
+    \verb t Ewald A fast Ewald mesh method for.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{02}
+    \field{year}{2005}
+  \endentry
+
   \entry{ngo2021}{article}{}
     \name{author}{6}{}{%
       {{hash=NV}{%
@@ -473,6 +1012,51 @@
     \field{journaltitle}{Journal of Chemical Theory and Computation}
     \field{month}{03}
     \field{year}{2021}
+  \endentry
+
+  \entry{shannon1949}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SC}{%
+         family={Shannon},
+         familyi={S\bibinitperiod},
+         given={C.E.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Bandwidth,Circuits,Communication systems,Electron tubes,Frequency
+  measurement,Gain measurement,Klystrons,Shape,Telephony,Voltage}
+    \strng{namehash}{SC1}
+    \strng{fullhash}{SC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A method is developed for representing any communication system
+  geometrically. Messages and the corresponding signals are points in two
+  "function spaces," and the modulation process is a mapping of one space into
+  the other. Using this representation, a number of results in communication
+  theory are deduced concerning expansion and compression of bandwidth and the
+  threshold effect. Formulas are found for the maxmum rate of transmission of
+  binary digits over a system when the signal is perturbed by various types of
+  noise. Some of the properties of "ideal" systems which transmit at this
+  maxmum rate are discussed. The equivalent number of binary digits per second
+  for certain information sources is calculated.%
+    }
+    \verb{doi}
+    \verb 10.1109/JRPROC.1949.232969
+    \endverb
+    \field{issn}{2162-6634}
+    \field{number}{1}
+    \field{pages}{10\bibrangedash 21}
+    \field{title}{Communication in the {{Presence}} of {{Noise}}}
+    \field{volume}{37}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/FRIY3MRS/Shannon - 1949 - Communication in
+    \verb the Presence of Noise.pdf;/home/miro/Zotero/storage/WXXLMHJT/authors.
+    \verb html
+    \endverb
+    \field{journaltitle}{Proceedings of the IRE}
+    \field{month}{01}
+    \field{year}{1949}
   \endentry
 
   \entry{schlick2010}{book}{}
