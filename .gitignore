@@ -1,1 +1,5 @@
 *.swp
+*log
+*aux 
+0*.pdf 
+
