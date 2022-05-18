@@ -59,7 +59,7 @@ We begin the derivation by examining the time-independent form of the electronic
 	H_e(\bold{r}_l, \bold{R}_i)  \psi_e (\bold{r}_l,\bold{R}_i)  = E_e(\bold{R}_i) \psi_e (\bold{r}_l,\bold{R}_i) 
 \end{equation}
 
-Fixing the neucli in this way gives the ``clamped nuclei" approximation \cite{sherrill}. To solve the wave function for the whole system $\Psi_{tot}$ we use an \textit{ansatz} which decomposes the wave function with an electronic basis into two components: $({\psi_e})_k$ and $({\psi_n})_k$ which are the $k$th eigenfunction solutions to $H_e$ and $H_n$ respectively.
+Fixing the nuclei in this way gives the ``clamped nuclei" approximation \cite{sherrill}. To solve the wave function for the whole system $\Psi_{tot}$ we use an \textit{ansatz} which decomposes the wave function with an electronic basis into two components: $({\psi_e})_k$ and $({\psi_n})_k$ which are the $k$th eigenfunction solutions to $H_e$ and $H_n$ respectively.
 
 \begin{equation}
 	\Psi_{tot} (\bold{r}_l,\bold{R}_i, t) = \sum_{k=0}^\infty {\psi_e}(\bold{r}_l, \bold{R}_i)_k\ {\psi_n}(\bold{R}_i)_k
@@ -96,9 +96,10 @@ By rearranging this equation and taking derivative we can see how to use Newton'
 
 \begin{equation}
 	M_i \ddot{\bold{R}}_i (t) = -\nabla_i E_e (\bold{R_i})
+	\label{Newtons_equations}
 \end{equation}
 
-By choosing an appropriate time-step one can simply iteratively solve this equation of motion to understand the dynamics of an atomic system. The nuclei will move according to their relative positions to each other and the electron clouds will rearrange in response to that motion. There is no need to calculate the interactions between the nuclei and the electrons. This is sufficient accuracy to simulate many physical phenomena with the notable exception of energetic, fast interactions between nuclei and electrons such as spectroscpic phenomenon \cite{sheril}. 
+By choosing an appropriate time-step one can simply iteratively solve this equation of motion to understand the dynamics of an atomic system. The nuclei will move according to their relative positions to each other and the electron clouds will rearrange in response to that motion. There is no need to calculate the interactions between the nuclei and the electrons. This is sufficient accuracy to simulate many physical phenomena with the notable exception of energetic, fast interactions between nuclei and electrons such as spectroscpic phenomenon \cite{sherrill}. 
 %\begin{equation}
 %	(H_n + H_e + V_{n-e})  (\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i)) =  (E_n  + E_e)(\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i) ) 
 %\end{equation}
@@ -141,7 +142,7 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 
 \begin{equation}\label{bonded_eqs}
 	\begin{aligned}
-	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2+ \sum_{Urey-Bradley} k_u(r_{UB}-r_{UB_0})^2   \\ + \sum_{dihedrals} k_\phi (1+\cos(n \psi - \delta)) + \sum_{improper-dihedrals}  k_{\phi} (\phi - \phi_0)^2 
+	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2+ \sum_{Urey-Bradley} k_u(r_{UB}-r_{UB_0})^2   \\ + \sum_{dihedrals} k_\varphi (1+\cos(n \varphi - \delta)) + \sum_{improper-dihedrals}  k_{\phi} (\phi - \phi_0)^2 
 \end{aligned}
 \end{equation}
 
@@ -179,7 +180,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\includegraphics[width=\textwidth]{figures/QM_MM_compared.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Comparison Between Potentials in Quantum and Classical Forcefields] {\textbf{Comparison Between Potentials in Quantum and Classical Forcefields}}{ A) The Morse potential was formulated to approximate the potential the potential energy surface associated with the stretching of covalent bonds (blue). At low temperatures (the ground state, $v=0$) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006 B) Here the potential of the dihedral angle in a butane molecule is calculated using two methods \cite{lemkul2020}: Quantum Chemical calculations and Approximations using the functional form in \ref{CHARMM}. Note how the appropriate choice of $k_\phi$,$n$ and $\delta$ have closely approximated the results the more accurate quantum mechanical calculations.}
+	\caption[Comparison Between Potentials in Quantum and Classical Forcefields] {\textbf{Comparison Between Potentials in Quantum and Classical Forcefields}}{ A) The Morse potential was formulated to approximate the potential the potential energy surface associated with the stretching of covalent bonds (blue). At low temperatures (the ground state, $v=0$) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006 B) Here the potential of the dihedral angle between the atoms C1,C2,C3 and C4 in a butane molecule is calculated using two methods: Quantum Chemical calculations and approximations using the functional form in \ref{bonded_eqs} \cite{lemkul2020}. Note how the appropriate choice of $k_\varphi$, $n$ and $\delta$ have closely approximated the results the more accurate quantum mechanical calculations.}
 
 	\label{morse_potential}
 \end{figure}
@@ -217,7 +218,7 @@ Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t
 \subsubsection{Nos\'e Hoover Thermostat}
 
 
-\subsection{Periodic Boundaries to Simulate a Realistic System Size}
+\subsection{Periodic Boundaries to Simulate the Inside of Cell}
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{figures/PME_miro.pdf}
@@ -227,13 +228,19 @@ Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t
 	\label{PME_illustration}
 \end{figure}
 
-In the body, proteins are immersed in a large celluar environment. In order to avoid artefacts we have to replicate this environment somehow. We could make a simulation box large enough to replicate the behavior of a bulk solvent, but even with a large simulation box we can still observe artifacts associated with the vacuum at the boundaries \cite{gapsys2020}. So to avoid these boundary effects use periodic boundary conditions (PBCs), allowing atoms to move between images in the simulation box \ref{PME_illustration}. This replicates the molecular system infinitely along each basis vector for the unit cell. 
+In the body, proteins are immersed in a large cellular environment. In order to avoid artefacts we have to replicate this environment somehow. We could make a simulation box large enough to replicate the behavior of a bulk solvent, but even with a large simulation box we can still observe artifacts associated with the vacuum at the boundaries \cite{gapsys2020}. So, to avoid these boundary effects we use periodic boundary conditions (PBCs), allowing atoms to move between images in the simulation box \ref{PME_illustration}. This replicates the molecular system infinitely in every direction. 
 
-Using PBCs might remove vacuum from our molecular system but now we have a different problem. Effectively, with the PBCs we have created a system with an infinite number of atoms. We have to somehow limit the number of computations we perform. We could simply ctruncate teh calculation of interactions $U_{non-bonded}$ after a certain cutoff distance. This is not an issue for $U_{LJ}$ because the $1/r^6$ and $1/r^{12}$ terms in \ref{Lennard-Jones_figure} as they decay very quickly for large $r$. We can simply use a cutoff or a smooth switching function to scale down the effects of the VDW interaction past a certain distance \cite{}. On the other hand, the $1/r$ dependence in $U_{Coloumb}$ scales much more slowly so truncating it leads to many artefacts in the simulation.\cite{auffinger1995}\cite{perera1995}\cite{roberts1994}\cite{delbuono1996}\cite{essmann1995}. 
+Using PBCs might remove vacuum from our molecular system but now we have a different problem. Effectively, with the PBCs, we have created a system with an infinite number of atoms. We have to somehow limit the number of computations we perform. We could simply truncate the calculation of interactions $U_{non-bonded}$ after a certain cutoff distance. This is not an issue for $U_{LJ}$ because the $1/r^6$ and $1/r^{12}$ terms in \ref{Lennard-Jones_figure} decay very quickly for large $r$. Innacuracies due to this approximation can be further ameliorated with the use of a smooth switching function \cite{}. On the other hand, the $1/r$ dependence in $U_{Coloumb}$ scales much more slowly so truncating it leads to many artefacts in the simulation.\cite{auffinger1995}\cite{perera1995}\cite{roberts1994}\cite{delbuono1996}\cite{essmann1995}. 
 
-With a clever scheme known as Particle Mesh Ewald Summation. PME scales as $O (N\log N)$ for the number of atoms \cite{darden1993}.
+To avoid these artefacts and limit computational intensively of our calculations we use a clever scheme known as Particle Mesh Ewald Summation. Interestingly, this scheme ends up scaling better than the pairwise summation in equation \ref{nonbonded_eqs} might imply. The direct summation scales with computational complexity $O(N^2)$  with the number of atoms while the infinite PME scheme scales as $O (N\log N)$ for the number of atoms \cite{darden1993}, though there are some further considerations for large systems on parallel architectures \cite{hardy2015}. Even with these sophisticated algorithms, the calculation of electrostatic potential still represents the largest computational bottle-neck in classical MD \cite{hardy2015}.
 
-For a detailed review of Particle Mesh Ewald Summation methods sese \cite{shan2005}. 
+For a detailed review of different Particle Mesh Ewald Summation methods see \cite{shan2005}. The speed up is achieved with a sophisticated procedure whereby the periodic system is divided into a grid, the point charges of the atomic system are then approximated onto this fine grid as charge densities following a Gaussian distribution, with the charge centers centered on the grid points. This scheme means that a Fourier transform can be taken of the system to calculate the solution to Poisson's equation in frequency space (referred to sometimes as $k$-space). The use of a Fast Fourier Transform algorithm means that the potential energy surface for all the charges can be quickly calculated. The potential can then be used to calculate the forces on the charged atoms according to their charge and Newton's second law.
+
+\begin{equation}
+	\label {Poissons_equation}
+	\nabla^2 U(\bold{r})  = \rho (\bold{r})
+\end{equation}
+
 
 \subsection{The Process of Preparing a Simulation}
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.

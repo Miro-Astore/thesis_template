@@ -16,7 +16,7 @@
 \BOOKMARK [2][-]{subsection.2.2.2}{Controlling the Temperature and Pressure in a Simulation}{section.2.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.3}{Berendsen Thermostat}{section.2.2}% 17
 \BOOKMARK [2][-]{subsection.2.2.4}{Berendsen Barostat}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.5}{Periodic Boundaries to Simulate a Realistic System Size}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.5}{Periodic Boundaries to Simulate the Inside of Cell}{section.2.2}% 19
 \BOOKMARK [2][-]{subsection.2.2.6}{The Process of Preparing a Simulation}{section.2.2}% 20
 \BOOKMARK [2][-]{subsection.2.2.7}{Short Comings of Classical MD}{section.2.2}% 21
 \BOOKMARK [2][-]{subsection.2.2.8}{Accelerating Simulations with Virtual Site Topologies}{section.2.2}% 22
