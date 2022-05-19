@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  19 MAY 2022 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  19 MAY 2022 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1551,25 +1551,10 @@ File: figures/PME_miro.pdf Graphic file (type pdf)
 <use figures/PME_miro.pdf>
 Package pdftex.def Info: figures/PME_miro.pdf  used on input line 227.
 (pdftex.def)             Requested size: 441.01773pt x 270.36966pt.
+ [15] [16 <./figures/PME_miro.pdf>]
+[17]
 
-
-LaTeX Warning: Citation 'phillips2012' on page 15 undefined on input line 234.
-
-
-LaTeX Warning: Citation 'ross2018' on page 15 undefined on input line 234.
-
-
-LaTeX Warning: Citation 'klauda2007' on page 15 undefined on input line 236.
-
-
-LaTeX Warning: Citation 'venable2009' on page 15 undefined on input line 236.
-
-
-LaTeX Warning: Citation 'hub2014' on page 15 undefined on input line 236.
-
-[15] [16 <./figures/PME_miro.pdf>] [17]
-
-Package caption Warning: \label without proper reference on input line 304.
+Package caption Warning: \label without proper reference on input line 305.
 See the caption package documentation for explanation.
 
 
@@ -1580,10 +1565,6 @@ LaTeX Warning: Reference `timescales' on page 18 undefined on input line 286.
 LaTeX Warning: Reference `verlet' on page 19 undefined on input line 298.
 
 
-LaTeX Warning: Citation 'robustelli2022' on page 19 undefined on input line 298
-.
-
-
 LaTeX Warning: Citation 'leach2009' on page 19 undefined on input line 300.
 
 
@@ -1591,7 +1572,7 @@ LaTeX Warning: Citation 'leach2009' on page 19 undefined on input line 335.
 
 [19]
 
-Package caption Warning: \label without proper reference on input line 304.
+Package caption Warning: \label without proper reference on input line 305.
 See the caption package documentation for explanation.
 
 
@@ -1602,7 +1583,7 @@ LaTeX Warning: Reference `timescales' on page 20 undefined on input line 338.
 LaTeX Warning: Reference `sampling_problem' on page 21 undefined on input line 
 360.
 
-<figures/umbrella_sampling.png.pdf, id=780, 1054.59818pt x 326.65247pt>
+<figures/umbrella_sampling.png.pdf, id=792, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
@@ -1613,7 +1594,7 @@ Chapter 3.
 [23
 
 ]
-<figures/CFTR_structure.pdf, id=814, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=826, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
 Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
@@ -1636,7 +1617,13 @@ ol-ogy and Trans-la-tional Sci-ence\OT1/cmr/m/n/12 , Strodel,
 
 [31
 
-] [32] [33] [34
+]
+Overfull \hbox (10.70018pt too wide) in paragraph at lines 184--184
+[]\OT1/cmr/m/n/12 Robustelli, P.; Ibanez-de-Opakua, A.; Campbell-Bezat, C.; Gio
+r-danetto, F.; Becker,
+ []
+
+[32] [33] [34] [35
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
@@ -1651,9 +1638,6 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -1663,13 +1647,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30592 strings out of 481239
- 560890 string characters out of 5920378
- 1191807 words of memory out of 5000000
- 45063 multiletter control sequences out of 15000+600000
+ 30617 strings out of 481239
+ 561739 string characters out of 5920378
+ 1192987 words of memory out of 5000000
+ 45081 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,96p,1410b,2910s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,96p,1410b,2909s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1690,10 +1674,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (49 pages, 7211695 bytes).
+Output written on main.pdf (50 pages, 7213986 bytes).
 PDF statistics:
- 1075 PDF objects out of 1200 (max. 8388607)
- 894 compressed objects within 9 object streams
- 178 named destinations out of 1000 (max. 500000)
+ 1100 PDF objects out of 1200 (max. 8388607)
+ 917 compressed objects within 10 object streams
+ 185 named destinations out of 1000 (max. 500000)
  363 words of extra memory for PDF output out of 10000 (max. 10000000)
 

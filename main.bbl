@@ -55,6 +55,83 @@
     \field{year}{1952}
   \endentry
 
+  \entry{braun2019}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BE}{%
+         family={Braun},
+         familyi={B\bibinitperiod},
+         given={Efrem},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gilmer},
+         familyi={G\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MHB}{%
+         family={Mayes},
+         familyi={M\bibinitperiod},
+         given={Heather\bibnamedelima B.},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MDL}{%
+         family={Mobley},
+         familyi={M\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MJI}{%
+         family={Monroe},
+         familyi={M\bibinitperiod},
+         given={Jacob\bibnamedelima I.},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Prasad},
+         familyi={P\bibinitperiod},
+         given={Samarjeet},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZDM}{%
+         family={Zuckerman},
+         familyi={Z\bibinitperiod},
+         given={Daniel\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BE+1}
+    \strng{fullhash}{BEGJMHBMDLMJIPSZDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document provides a starting point for approaching molecular
+  simulations, guiding beginning practitioners to what issues they need to know
+  about before and while starting their first simulations, and why those issues
+  are so critical. This document makes no claims to provide an adequate
+  introduction to the subject on its own. Instead, our goal is to help people
+  know what issues are critical before beginning, and to provide references to
+  good resources on those topics. We also provide a checklist of key issues to
+  consider before and while setting up molecular simulations which may serve as
+  a foundation for other best practices documents.%
+    }
+    \verb{doi}
+    \verb 10.33011/livecoms.1.1.5957
+    \endverb
+    \field{issn}{2575-6524}
+    \field{number}{1}
+    \field{pages}{5957}
+    \field{title}{Best {{Practices}} for {{Foundations}} in {{Molecular
+  Simulations}} [{{Article}} v1.0]}
+    \field{volume}{1}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/7632BXSG/Braun et al. - 2019 - Best Practic
+    \verb es for Foundations in Molecular Simula.pdf
+    \endverb
+    \field{journaltitle}{Living journal of computational molecular science}
+    \field{year}{2019}
+  \endentry
+
   \entry{sherrill}{article}{}
     \name{author}{1}{}{%
       {{hash=SCD}{%
@@ -572,6 +649,138 @@
     \field{year}{2005}
   \endentry
 
+  \entry{phillips2012}{book}{}
+    \name{author}{5}{}{%
+      {{hash=PR}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kondev},
+         familyi={K\bibinitperiod},
+         given={Jan{\'e}},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Theriot},
+         familyi={T\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Garcia},
+         familyi={G\bibinitperiod},
+         given={Hernan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kondev},
+         familyi={K\bibinitperiod},
+         given={Jane},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Garland Science}}%
+    }
+    \strng{namehash}{PR+1}
+    \strng{fullhash}{PRKJTJGHKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{2nd edition}
+    \field{isbn}{978-0-8153-4450-6}
+    \field{title}{Physical {{Biology}} of the {{Cell}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Boca Raton London New York}}%
+    }
+    \field{month}{10}
+    \field{year}{2012}
+  \endentry
+
+  \entry{ross2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RGA}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={Gregory\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RAS}{%
+         family={Rustenburg},
+         familyi={R\bibinitperiod},
+         given={Ari{\"e}n\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GPB}{%
+         family={Grinaway},
+         familyi={G\bibinitperiod},
+         given={Patrick\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fass},
+         familyi={F\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJD}{%
+         family={Chodera},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RGA+1}
+    \strng{fullhash}{RGARASGPBFJCJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Biomolecular simulations are typically performed in an aqueous environment
+  where the number of ions remains fixed for the duration of the simulation,
+  generally with either a minimally neutralizing ion environment or a number of
+  salt pairs intended to match the macroscopic salt concentration. In contrast,
+  real biomolecules experience local ion environments where the salt
+  concentration is dynamic and may differ from bulk. The degree of salt
+  concentration variability and average deviation from the macroscopic
+  concentration remains, as yet, unknown. Here, we describe the theory and
+  implementation of a Monte Carlo osmostat that can be added to explicit
+  solvent molecular dynamics or Monte Carlo simulations to sample from a
+  semigrand canonical ensemble in which the number of salt pairs fluctuates
+  dynamically during the simulation. The osmostat reproduce the correct
+  equilibrium statistics for a simulation volume that can exchange ions with a
+  large reservoir at a defined macroscopic salt concentration. To achieve
+  useful Monte Carlo acceptance rates, the method makes use of nonequilibrium
+  candidate Monte Carlo (NCMC) moves in which monovalent ions and water
+  molecules are alchemically transmuted using short nonequilibrium
+  trajectories, with a modified Metropolis-Hastings criterion ensuring correct
+  equilibrium statistics for an {$\Delta\mu$}, N, p, T) ensemble. We
+  demonstrate how typical protein (DHFR and the tyrosine kinase Src) and
+  nucleic acid (Drew-Dickerson B-DNA dodecamer) systems exhibit salt
+  concentration distributions that significantly differ from fixed-salt bulk
+  simulations and display fluctuations that are on the same order of magnitude
+  as the average.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jpcb.7b11734
+    \endverb
+    \field{issn}{1520-6106}
+    \field{number}{21}
+    \field{pages}{5466\bibrangedash 5486}
+    \field{title}{Biomolecular {{Simulations}} under {{Realistic Macroscopic
+  Salt Conditions}}}
+    \field{volume}{122}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/HRMPKPA2/Ross et al. - 2018 - Biomolecular
+    \verb Simulations under Realistic Macroscop.pdf
+    \endverb
+    \field{journaltitle}{The journal of physical chemistry. B}
+    \field{month}{05}
+    \field{year}{2018}
+  \endentry
+
   \entry{gapsys2020}{article}{}
     \name{author}{2}{}{%
       {{hash=GV}{%
@@ -638,6 +847,160 @@
     \field{journaltitle}{eLife}
     \field{month}{08}
     \field{year}{2020}
+  \endentry
+
+  \entry{klauda2007}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KJB}{%
+         family={Klauda},
+         familyi={K\bibinitperiod},
+         given={Jeffery\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Xiongwu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=PRW}{%
+         family={Pastor},
+         familyi={P\bibinitperiod},
+         given={Richard\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BBR}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={Bernard\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{KJB+1}
+    \strng{fullhash}{KJBWXPRWBBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Molecular dynamics (MD) simulations of heptane/vapor, hexadecane/vapor,
+  water/vapor, hexadecane/water, and dipalmitoylphosphatidylcholine (DPPC)
+  bilayers and monolayers are analyzed to determine the accuracy of treating
+  long-range interactions in interfaces with the isotropic periodic sum (IPS)
+  method. The method and cutoff (rc) dependences of surface tensions, density
+  profiles, water dipole orientation, and electrostatic potential profiles are
+  used as metrics. The water/vapor, heptane/vapor, and hexadecane/vapor
+  interfaces are accurately and efficiently calculated with 2D IPS (rc = 10 \AA
+  ). It is demonstrated that 3D IPS is not practical for any of the interfacial
+  systems studied. However, the hybrid method PME/IPS [Particle Mesh Ewald for
+  electrostatics and 3D IPS for Lennard-Jones (LJ) interactions] provides an
+  efficient way to include both types of long-range forces in simulations of
+  large liquid/vacuum and all liquid/liquid interfaces, including lipid
+  monolayers and bilayers. A previously published pressure-based long-range LJ
+  correction yields results similar to those of PME/IPS for liquid/liquid
+  interfaces. The contributions to surface tension of LJ terms arising from
+  interactions beyond 10 \AA{} range from 13 dyn/cm for the hexadecane/vapor
+  interface to approximately 3 dyn/cm for hexadecane/water and DPPC bilayers
+  and monolayers. Surface tensions of alkane/vapor, hexadecane/water, and DPPC
+  monolayers based on the CHARMM lipid force fields agree very well with
+  experiment, whereas surface tensions of the TIP3P and TIP4P-Ew water models
+  underestimate experiment by 16 and 11 dyn/cm, respectively. Dipole potential
+  drops ({$\Delta\Psi$}) are less sensitive to long-range LJ interactions than
+  surface tensions. However, {$\Delta\Psi$} for the DPPC bilayer (845 {$\pm$} 3
+  mV proceeding from water to lipid) and water (547 {$\pm$} 2 mV for TIP4P-Ew
+  and 521 {$\pm$} 3 mV for TIP3P) overestimate experiment by factors of 3 and
+  5, respectively, and represent expected deficiencies in nonpolarizable force
+  fields.%
+    }
+    \verb{doi}
+    \verb 10.1021/jp068767m
+    \endverb
+    \field{issn}{1520-6106}
+    \field{number}{17}
+    \field{pages}{4393\bibrangedash 4400}
+    \field{shorttitle}{Long-{{Range Lennard-Jones}} and {{Electrostatic
+  Interactions}} in {{Interfaces}}}
+    \field{title}{Long-{{Range Lennard-Jones}} and {{Electrostatic
+  Interactions}} in {{Interfaces}}:\, {{Application}} of the {{Isotropic
+  Periodic Sum Method}}}
+    \field{volume}{111}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/7Y2VXM9J/Klauda et al. - 2007 - Long-Range
+    \verb Lennard-Jones and Electrostatic Interac.pdf;/home/miro/Zotero/storage
+    \verb /3VN9PQ9M/jp068767m.html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry B}
+    \field{month}{05}
+    \field{year}{2007}
+  \endentry
+
+  \entry{venable2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VRM}{%
+         family={Venable},
+         familyi={V\bibinitperiod},
+         given={Richard\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CLE}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Linda\bibnamedelima E.},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PRW}{%
+         family={Pastor},
+         familyi={P\bibinitperiod},
+         given={Richard\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{VRM+1}
+    \strng{fullhash}{VRMCLEPRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    3D-IPS/DFFT is an extension of the three-dimensional isotropic periodic sum
+  (3D-IPS) for evaluation of electrostatic and Lennard-Jones interactions in
+  heterogeneous systems; it utilizes a discrete fast Fourier transform (DFFT)
+  for efficient calculation of the IPS potential with a large local region
+  radius. The method is demonstrated to be highly accurate for simple bulk
+  fluids, liquid/liquid and liquid/vapor interfaces, and lipid bilayers and
+  monolayers. Values for rC (the cutoff distance for direct evaluation of
+  pairs) and RC (the local region radius) equal to 10 \AA{} and twice the
+  longest edge of the periodic cell, respectively, provide excellent efficiency
+  and accuracy. Dimyristoylphosphatidylcholine (DMPC) monolayers simulated with
+  the CHARMM (Chemistry at HARvard Molecular Mechanics) C27r lipid parameter
+  set and 3D-IPS/DFFT yield surface tensions approximately 8 dyn/cm higher than
+  those simulated using particle mesh Ewald (PME), and with experiment. In
+  contrast, surface tensions for DMPC bilayers are 16 dyn/cm/leaflet with both
+  3D-IPS/DFFT (rC = 10 and 12 \AA ) and PME (rC = 12 \AA ). This indicates that
+  PME (rC = 12 \AA ) may be used for simulations of bilayers, but not
+  monolayers, and that the large bilayer surface tension arising from C27r is
+  incorrect.%
+    }
+    \verb{doi}
+    \verb 10.1021/jp900843x
+    \endverb
+    \field{issn}{1520-6106}
+    \field{number}{17}
+    \field{pages}{5855\bibrangedash 5862}
+    \field{title}{Comparison of the {{Extended Isotropic Periodic Sum}} and
+  {{Particle Mesh Ewald Methods}} for {{Simulations}} of {{Lipid Bilayers}} and
+  {{Monolayers}}}
+    \field{volume}{113}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/3FL8952F/Venable et al. - 2009 - Comparison
+    \verb  of the Extended Isotropic Periodic Sum .pdf;/home/miro/Zotero/storag
+    \verb e/RUQICR38/jp900843x.html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry B}
+    \field{month}{04}
+    \field{year}{2009}
   \endentry
 
   \entry{auffinger1995}{article}{}
@@ -896,6 +1259,88 @@
     \field{journaltitle}{The Journal of Chemical Physics}
     \field{month}{11}
     \field{year}{1995}
+  \endentry
+
+  \entry{hub2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HJS}{%
+         family={Hub},
+         familyi={H\bibinitperiod},
+         given={Jochen\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=dBL}{%
+         family={{de Groot}},
+         familyi={d\bibinitperiod},
+         given={Bert\bibnamedelima L.},
+         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Grubm{\"u}ller},
+         familyi={G\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Groenhof},
+         familyi={G\bibinitperiod},
+         given={Gerrit},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{HJS+1}
+    \strng{fullhash}{HJSdBLGHGG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Ewald summation, which has become the de facto standard for computing
+  electrostatic interactions in biomolecular simulations, formally requires
+  that the simulation box is neutral. For non-neutral systems, the Ewald
+  algorithm implicitly introduces a uniform background charge distribution that
+  effectively neutralizes the simulation box. Because a uniform distribution of
+  counter charges typically deviates from the spatial distribution of
+  counterions in real systems, artifacts may arise, in particular in systems
+  with an inhomogeneous dielectric constant. Here, we derive an analytical
+  expression for the effect of using an implicit background charge instead of
+  explicit counterions, on the chemical potential of ions in heterogeneous
+  systems, which (i) provides a quantitative criterium for deciding if the
+  background charge offers an acceptable trade-off between artifacts arising
+  from sampling problems and artifacts arising from the homogeneous background
+  charge distribution, and (ii) can be used to correct this artifact in certain
+  cases. Our model quantifies the artifact in terms of the difference in charge
+  density between the non-neutral system with a uniform neutralizing background
+  charge and the real neutral system with a physically correct distribution of
+  explicit counterions. We show that for inhomogeneous systems, such as
+  proteins and membranes in water, the artifact manifests itself by an
+  overstabilization of ions inside the lower dielectric by tens to even
+  hundreds kilojoules per mole. We have tested the accuracy of our model in
+  molecular dynamics simulations and found that the error in the calculated
+  free energy for moving a test charge from water into hexadecane, at different
+  net charges of the system and different simulation box sizes, is correctly
+  predicted by the model. The calculations further confirm that the incorrect
+  distribution of counter charges in the simulation box is solely responsible
+  for the errors in the PMFs.%
+    }
+    \verb{doi}
+    \verb 10.1021/ct400626b
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{1}
+    \field{pages}{381\bibrangedash 390}
+    \field{title}{Quantifying {{Artifacts}} in {{Ewald Simulations}} of
+  {{Inhomogeneous Systems}} with a {{Net Charge}}}
+    \field{volume}{10}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/68ZEHS69/Hub et al. - 2014 - Quantifying Ar
+    \verb tifacts in Ewald Simulations of Inho.pdf;/home/miro/Zotero/storage/3Y
+    \verb NGM74D/ct400626b.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{01}
+    \field{year}{2014}
   \endentry
 
   \entry{darden1993}{article}{}
@@ -1173,6 +1618,104 @@
     \field{year}{2021}
   \endentry
 
+  \entry{robustelli2022}{article}{}
+    \name{author}{8}{}{%
+      {{hash=RP}{%
+         family={Robustelli},
+         familyi={R\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={{Ibanez-de-Opakua}},
+         familyi={I\bibinitperiod},
+         given={Alain},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={{Campbell-Bezat}},
+         familyi={C\bibinitperiod},
+         given={Cecily},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Giordanetto},
+         familyi={G\bibinitperiod},
+         given={Fabrizio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zweckstetter},
+         familyi={Z\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PAC}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Albert\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SDE}{%
+         family={Shaw},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{RP+1}
+    \strng{fullhash}{RPIACCGFBSZMPACSDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Intrinsically disordered proteins (IDPs) are implicated in many human
+  diseases. They have generally not been amenable to conventional
+  structure-based drug design, however, because their intrinsic conformational
+  variability has precluded an atomic-level understanding of their binding to
+  small molecules. Here we present long-time-scale, atomic-level molecular
+  dynamics (MD) simulations of monomeric {$\alpha$}-synuclein (an IDP whose
+  aggregation is associated with Parkinson's disease) binding the
+  small-molecule drug fasudil in which the observed protein\textendash ligand
+  interactions were found to be in good agreement with previously reported NMR
+  chemical shift data. In our simulations, fasudil, when bound, favored certain
+  charge\textendash charge and {$\pi$}-stacking interactions near the C
+  terminus of {$\alpha$}-synuclein but tended not to form these interactions
+  simultaneously, rather breaking one of these interactions and forming another
+  nearby (a mechanism we term dynamic shuttling). Further simulations with
+  small molecules chosen to modify these interactions yielded binding
+  affinities and key structural features of binding consistent with subsequent
+  NMR experiments, suggesting the potential for MD-based strategies to
+  facilitate the rational design of small molecules that bind with disordered
+  proteins.%
+    }
+    \verb{doi}
+    \verb 10.1021/jacs.1c07591
+    \endverb
+    \field{issn}{0002-7863}
+    \field{number}{6}
+    \field{pages}{2501\bibrangedash 2510}
+    \field{title}{Molecular {{Basis}} of {{Small-Molecule Binding}} to
+  {$\alpha$}-{{Synuclein}}}
+    \field{volume}{144}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/D4J83WST/Robustelli et al. - 2022 - Molecul
+    \verb ar Basis of Small-Molecule Binding to α-Syn.pdf;/home/miro/Zotero/st
+    \verb orage/ZSW5CIL2/jacs.html
+    \endverb
+    \field{journaltitle}{Journal of the American Chemical Society}
+    \field{month}{02}
+    \field{year}{2022}
+  \endentry
+
   \entry{shannon1949}{article}{}
     \name{author}{1}{}{%
       {{hash=SC}{%
@@ -1339,83 +1882,6 @@
     \field{journaltitle}{Journal of Computational Chemistry}
     \field{month}{06}
     \field{year}{1999}
-  \endentry
-
-  \entry{braun2019}{article}{}
-    \name{author}{7}{}{%
-      {{hash=BE}{%
-         family={Braun},
-         familyi={B\bibinitperiod},
-         given={Efrem},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Gilmer},
-         familyi={G\bibinitperiod},
-         given={Justin},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MHB}{%
-         family={Mayes},
-         familyi={M\bibinitperiod},
-         given={Heather\bibnamedelima B.},
-         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=MDL}{%
-         family={Mobley},
-         familyi={M\bibinitperiod},
-         given={David\bibnamedelima L.},
-         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=MJI}{%
-         family={Monroe},
-         familyi={M\bibinitperiod},
-         given={Jacob\bibnamedelima I.},
-         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=PS}{%
-         family={Prasad},
-         familyi={P\bibinitperiod},
-         given={Samarjeet},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=ZDM}{%
-         family={Zuckerman},
-         familyi={Z\bibinitperiod},
-         given={Daniel\bibnamedelima M.},
-         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BE+1}
-    \strng{fullhash}{BEGJMHBMDLMJIPSZDM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    This document provides a starting point for approaching molecular
-  simulations, guiding beginning practitioners to what issues they need to know
-  about before and while starting their first simulations, and why those issues
-  are so critical. This document makes no claims to provide an adequate
-  introduction to the subject on its own. Instead, our goal is to help people
-  know what issues are critical before beginning, and to provide references to
-  good resources on those topics. We also provide a checklist of key issues to
-  consider before and while setting up molecular simulations which may serve as
-  a foundation for other best practices documents.%
-    }
-    \verb{doi}
-    \verb 10.33011/livecoms.1.1.5957
-    \endverb
-    \field{issn}{2575-6524}
-    \field{number}{1}
-    \field{pages}{5957}
-    \field{title}{Best {{Practices}} for {{Foundations}} in {{Molecular
-  Simulations}} [{{Article}} v1.0]}
-    \field{volume}{1}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/7632BXSG/Braun et al. - 2019 - Best Practic
-    \verb es for Foundations in Molecular Simula.pdf
-    \endverb
-    \field{journaltitle}{Living journal of computational molecular science}
-    \field{year}{2019}
   \endentry
 
   \entry{andersen1983}{article}{}
