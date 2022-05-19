@@ -8896,6 +8896,23 @@
   keywords = {Activity coefficient,Chemical potential,Liquid-liquid equilibria,Method of calculation,Molecular simulation,Vapour-liquid equilibria}
 }
 
+@article{klauda2007,
+  title = {Long-{{Range Lennard-Jones}} and {{Electrostatic Interactions}} in {{Interfaces}}:\, {{Application}} of the {{Isotropic Periodic Sum Method}}},
+  shorttitle = {Long-{{Range Lennard-Jones}} and {{Electrostatic Interactions}} in {{Interfaces}}},
+  author = {Klauda, Jeffery B. and Wu, Xiongwu and Pastor, Richard W. and Brooks, Bernard R.},
+  year = {2007},
+  month = may,
+  journal = {The Journal of Physical Chemistry B},
+  volume = {111},
+  number = {17},
+  pages = {4393--4400},
+  publisher = {{American Chemical Society}},
+  issn = {1520-6106},
+  doi = {10.1021/jp068767m},
+  abstract = {Molecular dynamics (MD) simulations of heptane/vapor, hexadecane/vapor, water/vapor, hexadecane/water, and dipalmitoylphosphatidylcholine (DPPC) bilayers and monolayers are analyzed to determine the accuracy of treating long-range interactions in interfaces with the isotropic periodic sum (IPS) method. The method and cutoff (rc) dependences of surface tensions, density profiles, water dipole orientation, and electrostatic potential profiles are used as metrics. The water/vapor, heptane/vapor, and hexadecane/vapor interfaces are accurately and efficiently calculated with 2D IPS (rc = 10 \AA ). It is demonstrated that 3D IPS is not practical for any of the interfacial systems studied. However, the hybrid method PME/IPS [Particle Mesh Ewald for electrostatics and 3D IPS for Lennard-Jones (LJ) interactions] provides an efficient way to include both types of long-range forces in simulations of large liquid/vacuum and all liquid/liquid interfaces, including lipid monolayers and bilayers. A previously published pressure-based long-range LJ correction yields results similar to those of PME/IPS for liquid/liquid interfaces. The contributions to surface tension of LJ terms arising from interactions beyond 10 \AA{} range from 13 dyn/cm for the hexadecane/vapor interface to approximately 3 dyn/cm for hexadecane/water and DPPC bilayers and monolayers. Surface tensions of alkane/vapor, hexadecane/water, and DPPC monolayers based on the CHARMM lipid force fields agree very well with experiment, whereas surface tensions of the TIP3P and TIP4P-Ew water models underestimate experiment by 16 and 11 dyn/cm, respectively. Dipole potential drops ({$\Delta\Psi$}) are less sensitive to long-range LJ interactions than surface tensions. However, {$\Delta\Psi$} for the DPPC bilayer (845 {$\pm$} 3 mV proceeding from water to lipid) and water (547 {$\pm$} 2 mV for TIP4P-Ew and 521 {$\pm$} 3 mV for TIP3P) overestimate experiment by factors of 3 and 5, respectively, and represent expected deficiencies in nonpolarizable force fields.},
+  file = {/home/miro/Zotero/storage/7Y2VXM9J/Klauda et al. - 2007 - Long-Range Lennard-Jones and Electrostatic Interac.pdf;/home/miro/Zotero/storage/3VN9PQ9M/jp068767m.html}
+}
+
 @book{kleimann2004,
   title = {[{{Bandicoots}} to Vespertilionid Bats. {{Index Vols}} 12-16]},
   author = {Kleimann, Devra},
@@ -9277,6 +9294,23 @@
   publisher = {{The Royal Society of Chemistry}},
   doi = {10.1039/c4nj01596g},
   abstract = {In this article, we have compared the anions of sodium salts (Is) and ionic liquids (ILs) with the stability and structure of {$\alpha$}-chymotrypsin (CT), through fluorescence, thermal fluorescence analysis and circular dichroism (CD) spectroscopy. The experimental results revealed that the Hofmeister series of anions such as SCN-, SO42-, Cl-, Br-, CH3COO- and I- of Is destabilized the native structure of CT. On the contrary, the anions such as CH3COO-, Cl- and Br- of imidazolium-based IL with a fixed cation such as 1-butyl-3-methylimidazolium, [Bmim]+, stabilized the native structure of CT. The remaining anions of ILs such as SCN-, HSO4-, and I- acted as denaturing agents for the native structure of CT. Furthermore, molecular docking results show that the imidazolium-cation of the IL enters the sub-domains of CT and interacts with the ionic residues of CT, that is, Ser217 close to Trp215. This interaction is in well agreement with the fluorescence quenching observed for CT in the presence of [Bmim]+. On the other hand, the destabilizing anion such as SO42- was observed to be directly interacting with Ser195 in the active site of CT. We have observed that the Hofmeister series effects of anions of either Is or ILs are entirely based on the interaction of the anions with their counterions, that is, cations, with solvent molecules, as well as with the protein surface. Evidently, these interactions vary with the co-solvent system and the type of protein. Hence, the stability of a biomolecule in the presence of the anions may or may not obey the Hofmeister series.}
+}
+
+@article{lague2004,
+  title = {Pressure-{{Based Long-Range Correction}} for {{Lennard-Jones Interactions}} in {{Molecular Dynamics Simulations}}:\, {{Application}} to {{Alkanes}} and {{Interfaces}}},
+  shorttitle = {Pressure-{{Based Long-Range Correction}} for {{Lennard-Jones Interactions}} in {{Molecular Dynamics Simulations}}},
+  author = {Lag{\"u}e, Patrick and Pastor, Richard W. and Brooks, Bernard R.},
+  year = {2004},
+  month = jan,
+  journal = {The Journal of Physical Chemistry B},
+  volume = {108},
+  number = {1},
+  pages = {363--368},
+  publisher = {{American Chemical Society}},
+  issn = {1520-6106},
+  doi = {10.1021/jp030458y},
+  abstract = {A straightforward method that accounts for the long-range Lennard-Jones (LJ) terms in constant pressure molecular dynamics simulations is presented. This long-range correction (LRC) consists of an additional applied pressure tensor which is periodically calculated from the difference of instantaneous pressures at the selected cutoff and a very long cutoff. It provides results that are nearly independent of the LJ cutoff distance at negligible additional calculation costs, and is particularly suited for anisotropic systems such as liquid/liquid interfaces or heterogeneous macromolecules where approximations based on spherically symmetric radial distribution functions are expected to fail. The utility of the method is demonstrated for a series of alkanes and water, and for interfaces including a lipid bilayer. The LRC increases densities and decreases isothermal compressibilities, with the changes larger for alkanes than for water (where the long-range interactions are dominated by electrostatic interactions). While implementation of the LRC will not necessarily improve agreement with a particular experiment, it will provide a baseline for improvements in a parameter set that are consistent with the long-range Lennard-Jones interactions.},
+  file = {/home/miro/Zotero/storage/5DJD9AVM/Lagüe et al. - 2004 - Pressure-Based Long-Range Correction for Lennard-J.pdf;/home/miro/Zotero/storage/YS86VE4W/jp030458y.html}
 }
 
 @article{laio2002,
@@ -13703,28 +13737,6 @@
   keywords = {Acetylcholine,Betaine,Biomarker,Choline,Extraction,Folate,Glycerophosphocholine,Hydrolysis,Metabolism,Methylation,Phosphatidylcholine,Phosphocholine,Sphingomyelin}
 }
 
-@book{phillips2019,
-  title = {Physical Biology of the Cell},
-  editor = {Phillips, Rob},
-  year = {2019},
-  edition = {Second edition, first issued in paperback},
-  publisher = {{CRC Press}},
-  address = {{Boca Raton London New York}},
-  isbn = {978-0-8153-4450-6},
-  langid = {english}
-}
-
-@book{phillips2019a,
-  title = {Physical Biology of the Cell},
-  editor = {Phillips, Rob},
-  year = {2019},
-  edition = {Second edition, first issued in paperback},
-  publisher = {{CRC Press}},
-  address = {{Boca Raton London New York}},
-  isbn = {978-0-8153-4450-6},
-  langid = {english}
-}
-
 @article{piana2012,
   title = {Protein Folding Kinetics and Thermodynamics from Atomistic Simulation},
   author = {Piana, Stefano and {Lindorff-Larsen}, Kresten and Shaw, David E.},
@@ -17706,6 +17718,22 @@
   publisher = {{American Society for Cell Biology}},
   doi = {10.1091/mbc.E14-04-0935},
   abstract = {More than 2000 mutations in the cystic fibrosis transmembrane conductance regulator (CFTR) have been described that confer a range of molecular cell biological and functional phenotypes. Most of these mutations lead to compromised anion conductance at the apical plasma membrane of secretory epithelia and cause cystic fibrosis (CF) with variable disease severity. Based on the molecular phenotypic complexity of CFTR mutants and their susceptibility to pharmacotherapy, it has been recognized that mutations may impose combinatorial defects in CFTR channel biology. This notion led to the conclusion that the combination of pharmacotherapies addressing single defects (e.g., transcription, translation, folding, and/or gating) may show improved clinical benefit over available low-efficacy monotherapies. Indeed, recent phase 3 clinical trials combining ivacaftor (a gating potentiator) and lumacaftor (a folding corrector) have proven efficacious in CF patients harboring the most common mutation (deletion of residue F508, {$\delta$}F508, or Phe508del). This drug combination was recently approved by the U.S. Food and Drug Administration for patients homozygous for {$\delta$}F508. Emerging studies of the structural, cell biological, and functional defects caused by rare mutations provide a new framework that reveals a mixture of deficiencies in different CFTR alleles. Establishment of a set of combinatorial categories of the previously defined basic defects in CF alleles will aid the design of even more efficacious therapeutic interventions for CF patients.}
+}
+
+@article{venable2009,
+  title = {Comparison of the {{Extended Isotropic Periodic Sum}} and {{Particle Mesh Ewald Methods}} for {{Simulations}} of {{Lipid Bilayers}} and {{Monolayers}}},
+  author = {Venable, Richard M. and Chen, Linda E. and Pastor, Richard W.},
+  year = {2009},
+  month = apr,
+  journal = {The Journal of Physical Chemistry B},
+  volume = {113},
+  number = {17},
+  pages = {5855--5862},
+  publisher = {{American Chemical Society}},
+  issn = {1520-6106},
+  doi = {10.1021/jp900843x},
+  abstract = {3D-IPS/DFFT is an extension of the three-dimensional isotropic periodic sum (3D-IPS) for evaluation of electrostatic and Lennard-Jones interactions in heterogeneous systems; it utilizes a discrete fast Fourier transform (DFFT) for efficient calculation of the IPS potential with a large local region radius. The method is demonstrated to be highly accurate for simple bulk fluids, liquid/liquid and liquid/vapor interfaces, and lipid bilayers and monolayers. Values for rC (the cutoff distance for direct evaluation of pairs) and RC (the local region radius) equal to 10 \AA{} and twice the longest edge of the periodic cell, respectively, provide excellent efficiency and accuracy. Dimyristoylphosphatidylcholine (DMPC) monolayers simulated with the CHARMM (Chemistry at HARvard Molecular Mechanics) C27r lipid parameter set and 3D-IPS/DFFT yield surface tensions approximately 8 dyn/cm higher than those simulated using particle mesh Ewald (PME), and with experiment. In contrast, surface tensions for DMPC bilayers are 16 dyn/cm/leaflet with both 3D-IPS/DFFT (rC = 10 and 12 \AA ) and PME (rC = 12 \AA ). This indicates that PME (rC = 12 \AA ) may be used for simulations of bilayers, but not monolayers, and that the large bilayer surface tension arising from C27r is incorrect.},
+  file = {/home/miro/Zotero/storage/3FL8952F/Venable et al. - 2009 - Comparison of the Extended Isotropic Periodic Sum .pdf;/home/miro/Zotero/storage/RUQICR38/jp900843x.html}
 }
 
 @article{venable2013,

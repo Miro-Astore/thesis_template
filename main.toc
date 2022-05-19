@@ -29,13 +29,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Classical MD, Molecular Motions Without Quantum Mechanics}{10}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Lennard-Jones Potential}{13}{section*.9}%
+\contentsline {subsubsection}{The Lennard-Jones Potential}{14}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Philosophy of Different Molecular Mechanics forcefields.}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Philosophy of Different Molecular Mechanics forcefields.}{14}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Controlling the Temperature and Pressure in a Simulation}{14}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Berendsen Thermostat}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Berendsen Thermostat}{15}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.4}Berendsen Barostat}{15}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
@@ -43,50 +43,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.5}Periodic Boundaries to Simulate the Inside of Cell}{15}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.6}The Process of Preparing a Simulation}{16}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.6}The Process of Preparing a Simulation}{17}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.7}Short Comings of Classical MD}{16}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.7}Short Comings of Classical MD}{17}{subsection.2.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Problem with Forcefields}{17}{section*.13}%
+\contentsline {subsubsection}{The Problem with Forcefields}{18}{section*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Problem with Sampling}{17}{section*.14}%
+\contentsline {subsubsection}{The Problem with Sampling}{18}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Choosing an Appropriate Time Step}{18}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Choosing an Appropriate Time Step}{19}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1} Verlet Leap-Frog Integration}{19}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1} Verlet Leap-Frog Integration}{20}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Free Energy Calculations: Making Simulations More Useful}{20}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Free Energy Calculations: Making Simulations More Useful}{21}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Umbrella Sampling}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Umbrella Sampling}{21}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Weighted Histogram Average Method}{20}{section*.17}%
+\contentsline {subsubsection}{Weighted Histogram Average Method}{21}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Metadynamics}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Metadynamics}{21}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{22}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{23}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{24}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CFTR Structure}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.2}CFTR Structure}{25}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{24}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR classification and structure}{25}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{25}{section.3.4}%
+\contentsline {section}{\numberline {3.4}The Gating Cycle}{26}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{25}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{26}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{26}{section.3.6}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{27}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{26}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Correctors}{27}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Potentiators}{26}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Potentiators}{27}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{27}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{28}{subsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{28}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{29}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Concluding Remarks}{29}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Concluding Remarks}{30}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{30}{section*.19}%
+\contentsline {section}{References}{31}{section*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{30}{appendix*.20}%
+\contentsline {chapter}{Bibliography}{31}{appendix*.20}%

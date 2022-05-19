@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  18 MAY 2022 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  19 MAY 2022 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1520,87 +1520,108 @@ Chapter 2.
 ] [8]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 59.
+d on input line 61.
 
 [9]
-Overfull \hbox (14.73613pt too wide) in paragraph at lines 125--125
+Overfull \hbox (14.73613pt too wide) in paragraph at lines 127--127
 []\OT1/cmr/bx/n/17.28 Classical MD, Molec-u-lar Mo-tions With-out Quan-
  []
 
 [10]
-<figures/bonded_interactions.pdf, id=380, 355.57504pt x 286.09044pt>
+<figures/bonded_interactions.pdf, id=382, 355.57504pt x 286.09044pt>
 File: figures/bonded_interactions.pdf Graphic file (type pdf)
 <use figures/bonded_interactions.pdf>
 Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 15
-3.
+5.
 (pdftex.def)             Requested size: 284.52756pt x 228.93376pt.
  [11] [12 <./figures/bonded_interactions.pdf>]
 <figures/QM_MM_compared.pdf, id=532, 2644.36272pt x 1348.22972pt>
 File: figures/QM_MM_compared.pdf Graphic file (type pdf)
 <use figures/QM_MM_compared.pdf>
-Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 180.
+Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 182.
 (pdftex.def)             Requested size: 441.01773pt x 224.83469pt.
 <figures/LJ_figure.pdf, id=535, 968.16644pt x 471.10486pt>
 File: figures/LJ_figure.pdf Graphic file (type pdf)
 <use figures/LJ_figure.pdf>
-Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 191.
+Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 193.
 (pdftex.def)             Requested size: 441.01773pt x 214.59744pt.
  [13 <./figures/QM_MM_compared.pdf>] [14 <./figures/LJ_figure.pdf>]
-<figures/PME_miro.pdf, id=639, 1433.26959pt x 878.70018pt>
+<figures/PME_miro.pdf, id=640, 1433.26959pt x 878.70018pt>
 File: figures/PME_miro.pdf Graphic file (type pdf)
 <use figures/PME_miro.pdf>
-Package pdftex.def Info: figures/PME_miro.pdf  used on input line 224.
+Package pdftex.def Info: figures/PME_miro.pdf  used on input line 227.
 (pdftex.def)             Requested size: 441.01773pt x 270.36966pt.
- [15 <./figures/PME_miro.pdf>] [16]
 
-Package caption Warning: \label without proper reference on input line 283.
+
+LaTeX Warning: Citation 'phillips2012' on page 15 undefined on input line 234.
+
+
+LaTeX Warning: Citation 'ross2018' on page 15 undefined on input line 234.
+
+
+LaTeX Warning: Citation 'klauda2007' on page 15 undefined on input line 236.
+
+
+LaTeX Warning: Citation 'venable2009' on page 15 undefined on input line 236.
+
+
+LaTeX Warning: Citation 'hub2014' on page 15 undefined on input line 236.
+
+[15] [16 <./figures/PME_miro.pdf>] [17]
+
+Package caption Warning: \label without proper reference on input line 304.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 17 undefined on input line 266.
+LaTeX Warning: Reference `timescales' on page 18 undefined on input line 286.
 
-[17]
+[18]
 
-LaTeX Warning: Reference `verlet' on page 18 undefined on input line 276.
-
-
-LaTeX Warning: Citation 'leach2009' on page 18 undefined on input line 278.
+LaTeX Warning: Reference `verlet' on page 19 undefined on input line 298.
 
 
-LaTeX Warning: Citation 'leach2009' on page 18 undefined on input line 313.
+LaTeX Warning: Citation 'robustelli2022' on page 19 undefined on input line 298
+.
 
 
-Package caption Warning: \label without proper reference on input line 283.
+LaTeX Warning: Citation 'leach2009' on page 19 undefined on input line 300.
+
+
+LaTeX Warning: Citation 'leach2009' on page 19 undefined on input line 335.
+
+[19]
+
+Package caption Warning: \label without proper reference on input line 304.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 18 undefined on input line 316.
+LaTeX Warning: Reference `timescales' on page 20 undefined on input line 338.
 
-[18] [19]
+[20]
 
-LaTeX Warning: Reference `sampling_problem' on page 20 undefined on input line 
-338.
+LaTeX Warning: Reference `sampling_problem' on page 21 undefined on input line 
+360.
 
-<figures/umbrella_sampling.png.pdf, id=770, 1054.59818pt x 326.65247pt>
+<figures/umbrella_sampling.png.pdf, id=780, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
-351.
+373.
 (pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
-) (./09-CFTR-Review.tex [20] [21 <./figures/umbrella_sampling.png.pdf>]
+) (./09-CFTR-Review.tex [21] [22 <./figures/umbrella_sampling.png.pdf>]
 Chapter 3.
-[22
+[23
 
 ]
-<figures/CFTR_structure.pdf, id=803, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=814, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
 Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
 (pdftex.def)             Requested size: 441.01773pt x 181.19447pt.
- [23 <./figures/CFTR_structure.pdf>] [24] [25] [26] [27])
-(./15-Conclusion.tex [28]
+ [24 <./figures/CFTR_structure.pdf>] [25] [26] [27] [28])
+(./15-Conclusion.tex [29]
 Chapter 4.
-) (./16-Appendix.tex [29
+) (./16-Appendix.tex [30
 
 ])
 
@@ -1613,9 +1634,9 @@ Overfull \hbox (3.59633pt too wide) in paragraph at lines 184--184
 ol-ogy and Trans-la-tional Sci-ence\OT1/cmr/m/n/12 , Strodel,
  []
 
-[30
+[31
 
-] [31] [32] [33
+] [32] [33] [34
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
@@ -1630,6 +1651,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -1639,13 +1663,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30587 strings out of 481239
- 560872 string characters out of 5920378
- 1191752 words of memory out of 5000000
- 45064 multiletter control sequences out of 15000+600000
+ 30592 strings out of 481239
+ 560890 string characters out of 5920378
+ 1191807 words of memory out of 5000000
+ 45063 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,96p,1410b,2900s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,96p,1410b,2910s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1666,10 +1690,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (48 pages, 7208776 bytes).
+Output written on main.pdf (49 pages, 7211695 bytes).
 PDF statistics:
- 1062 PDF objects out of 1200 (max. 8388607)
- 882 compressed objects within 9 object streams
- 172 named destinations out of 1000 (max. 500000)
+ 1075 PDF objects out of 1200 (max. 8388607)
+ 894 compressed objects within 9 object streams
+ 178 named destinations out of 1000 (max. 500000)
  363 words of extra memory for PDF output out of 10000 (max. 10000000)
 
