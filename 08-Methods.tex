@@ -163,7 +163,6 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for t
 
 In classical forcefields the non-bonded interactions are expressed using the Couloumb's law because the partial charges assigned to each atom and the Lennard-Jones potential to approximate the interactions arising from both Pauli exclusion and Van Der Walls Interactions.
 
-
 \begin{equation}\label{nonbonded_eqs}
 	\begin{aligned}
 		U_{non-bonded} = \underbrace{\sum_{i>j} \epsilon_{ij} \Big( \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} \Big)}_{U_{Lennard-Jones}} - \underbrace{\sum_{i>j} \frac{q_i q_j } {r_{ij}}}_{U_{coulomb}}
@@ -225,35 +224,37 @@ Despite starting from the same Cartesian coordinates, randomly sampling velociti
 
 After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nose-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
 
-The Nose-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths.
-
-
+The Nose-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
 
 \begin{equation}
-	H_{NH} = H_0(\bold{x},\bold{p/s) + gk_BT \ln s (p_s^2/2Q)
+	H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM}(\bold{x},\bold{p}) + \sum_j \frac{p^2_{\eta_i}}{2Q_j} + 3N k_BT  \eta_1   + k_BT\sum_{j=2}^M\eta_j.
 \end{equation}
-Where $H_0$ is the Hamiltonian defined by 
 
- but the momentum $\bold{p}$ is divided by a scalar quantify $s$.
+Here, $\eta$ denotes the degree of freedom for the thermostat (a scalar variable) with mass $Q$ and $H_0$ is the Hamiltonian defined by 
+
 \begin{equation}
-	H_0 = \underbrace{{\sum_i (\bold{p}_i/s)^2/2m}_{T_{MM}} + \U_{MM} (\bold{x})
+	H_{MM}(\bold{x},\bold{p}) = \underbrace{\sum_i^N (\bold{p}_i/s)^2/2m_i}_{E_{kinetic}} + U_{MM} (\bold{x}). 
 \end{equation}
 
-Here the subscript $s$ denotes the configuration of the heat bath.
+By using Hamilton's theorem, the equations of motion associated with $H_{NH}$ are then
 
-The equations of motion associated with $H_{NH}$ are then
 \begin{equation}
 	\begin{aligned}
-		\dot{\bold{q}_i} = \bold{p}_i/ms^2
-		\dot{\bold{p}_i} = \bold{F}_i
-		\dot{s_i} = p_s/Q
-		\dot{p_s} = \sum_i \frac{p^2_i}{ms^3} - \frac{gk_bT}{s}
+		\dot{\bold{x}_i} &= \bold{p}_i/m_i \\
+		\dot{\bold{p}_i} &= \bold{F}_i-\bold{p}_i\frac{p_{\eta_1}}{Q_1} \\
+		\dot{\eta_j} &= p_{\eta_j}/Q_j \\
+		\dot{p_{\eta_1}} &= \bigg[\sum_i^N \frac{\bold{p}_i^2}{m_i} - 3N k_B T\bigg]  - p_{\eta_1}\frac{p_{\eta_2}}{Q_2} \\ 
+		\dot{p_{\eta_j}} &= \bigg[ \frac{p^2_{\eta_{j-1}}}{Q_{j-1}} - k_bT \bigg]  - p_{\eta_{j}}\frac{p_{\eta_{j+1}}}{Q_{j+1}} \\ 
+		\dot{p_{\eta_M}} &= \bigg[ \frac{p^2_{\eta_{M-1}}}{Q_{M-1}} - k_bT \bigg]
 	\end{aligned}
 \end{equation}
+Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculated from $U_{MM}$ using equation Newton's second law. 
 
+The parameters $Q_j$ are chosen by the user to control the coupling strength of th baths to each other. We usually choose   
 \begin{equation}
-	pass
+	Q_j = \frac{\tau_TT}{4\pi^2} \forall j
 \end{equation}
+where $\tau_T$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a timestep that is a multiple of $\tau_T$  we can just evaluate $U_{MM}$ as normal but every interval of $tau_T$ we rescale the velocities to match the correct temperature $T$.
 
 \subsection{Periodic Boundaries to Simulate the Inside of Cell}
 \begin{figure}
@@ -413,6 +414,6 @@ The particular form of $U_{bias}$ depends on the Free energy technique being emp
 
 This is 
 
-\subsubsection{Weighted Histogram Average Method}
+\subsubsection{Weighted Histogram Average Method (WHAM)}
 
 \subsection{Metadynamics}
