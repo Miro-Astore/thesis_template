@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  20 MAY 2022 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  20 MAY 2022 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1336,20 +1336,7 @@ Overfull \hbox (11.95161pt too wide) in paragraph at lines 62--124
 |  | 
  []
 
-[7] (./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
-
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [8
-
-])
+[7] (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1358,7 +1345,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 133.
 
-(./06-Abbreviations.tex [9]
+(./06-Abbreviations.tex [8
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 10.
 
@@ -1474,29 +1475,29 @@ Overfull \hbox (56.90552pt too wide) in alignment at lines 30--45
  [] [] 
  []
 
-[10
+[9
 
-]) [11] (./main.lof)
+]) [10] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [12
+ [11
 
 ] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [13
+ [12
 
-] [14
+] [13
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.xiv}) h
-as been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.xiii}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.160 \blankpage
-                 [14
+                 [13
 
 
 ] (./07-Introduction.tex
@@ -1528,19 +1529,19 @@ Overfull \hbox (14.73613pt too wide) in paragraph at lines 127--127
  []
 
 [10]
-<figures/bonded_interactions.pdf, id=377, 355.57504pt x 286.09044pt>
+<figures/bonded_interactions.pdf, id=225, 355.57504pt x 286.09044pt>
 File: figures/bonded_interactions.pdf Graphic file (type pdf)
 <use figures/bonded_interactions.pdf>
 Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 15
 5.
 (pdftex.def)             Requested size: 284.52756pt x 228.93376pt.
  [11] [12 <./figures/bonded_interactions.pdf>]
-<figures/QM_MM_compared.pdf, id=527, 2644.36272pt x 1348.22972pt>
+<figures/QM_MM_compared.pdf, id=378, 2644.36272pt x 1348.22972pt>
 File: figures/QM_MM_compared.pdf Graphic file (type pdf)
 <use figures/QM_MM_compared.pdf>
 Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 182.
 (pdftex.def)             Requested size: 441.01773pt x 224.83469pt.
-<figures/LJ_figure.pdf, id=530, 968.16644pt x 471.10486pt>
+<figures/LJ_figure.pdf, id=381, 968.16644pt x 471.10486pt>
 File: figures/LJ_figure.pdf Graphic file (type pdf)
 <use figures/LJ_figure.pdf>
 Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 193.
@@ -1555,149 +1556,84 @@ LaTeX Warning: Citation 'bussi2007' on page 15 undefined on input line 226.
 
 LaTeX Warning: Citation 'bussi2007' on page 15 undefined on input line 226.
 
-<figures/PME_miro.pdf, id=635, 1433.26959pt x 878.70018pt>
-File: figures/PME_miro.pdf Graphic file (type pdf)
-<use figures/PME_miro.pdf>
-Package pdftex.def Info: figures/PME_miro.pdf  used on input line 243.
-(pdftex.def)             Requested size: 441.01773pt x 270.36966pt.
-[15] [16 <./figures/PME_miro.pdf>] [17]
-
-Package caption Warning: \label without proper reference on input line 315.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `timescales' on page 18 undefined on input line 302.
-
-[18]
-
-LaTeX Warning: Reference `verlet' on page 19 undefined on input line 314.
-
-
-LaTeX Warning: Citation 'leach2009' on page 19 undefined on input line 316.
-
-[19]
-
-LaTeX Warning: Citation 'leach2009' on page 20 undefined on input line 351.
-
-
-Package caption Warning: \label without proper reference on input line 315.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `timescales' on page 20 undefined on input line 354.
-
-[20]
-
-LaTeX Warning: Reference `sampling_problem' on page 21 undefined on input line 
-376.
-
-<figures/umbrella_sampling.png.pdf, id=790, 1054.59818pt x 326.65247pt>
-File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
-<use figures/umbrella_sampling.png.pdf>
-Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
-389.
-(pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
-) (./09-CFTR-Review.tex [21] [22 <./figures/umbrella_sampling.png.pdf>]
-Chapter 3.
-[23
-
-]
-<figures/CFTR_structure.pdf, id=824, 955.70105pt x 392.65889pt>
-File: figures/CFTR_structure.pdf Graphic file (type pdf)
-<use figures/CFTR_structure.pdf>
-Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
-(pdftex.def)             Requested size: 441.01773pt x 181.19447pt.
- [24 <./figures/CFTR_structure.pdf>] [25] [26] [27] [28])
-(./15-Conclusion.tex [29]
-Chapter 4.
-) (./16-Appendix.tex [30
-
-])
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 183.
-
-
-Overfull \hbox (3.59633pt too wide) in paragraph at lines 184--184
-[]\OT1/cmr/m/n/12 Lemkul, J. A. In \OT1/cmr/m/it/12 Progress in Molec-u-lar Bi-
-ol-ogy and Trans-la-tional Sci-ence\OT1/cmr/m/n/12 , Strodel,
- []
-
-[31
-
-]
-Overfull \hbox (10.70018pt too wide) in paragraph at lines 184--184
-[]\OT1/cmr/m/n/12 Robustelli, P.; Ibanez-de-Opakua, A.; Campbell-Bezat, C.; Gio
-r-danetto, F.; Becker,
- []
-
-[32] [33] [34] [35
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: DE690E4A4A142EA4E1F288DA822F7D1A;3024
-(rerunfilecheck)             After:  FC3577EB946490E9682CEF8E0079A7EC;2950.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
+Runaway argument?
+{p/s) + gk_BT \ln s (p_s^2/2Q) \end {equation} Where $H_0$ is the ham\ETC.
+! Paragraph ended before \math@egroup was complete.
+<to be read again> 
+                   \par 
+l.236 
+      
+? C
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? X
+ 
 Here is how much of TeX's memory you used:
- 30618 strings out of 481239
- 561744 string characters out of 5920378
- 1193027 words of memory out of 5000000
- 45080 multiletter control sequences out of 15000+600000
- 544387 words of font info for 66 fonts, out of 8000000 for 9000
+ 30322 strings out of 481239
+ 554896 string characters out of 5920378
+ 1188114 words of memory out of 5000000
+ 44906 multiletter control sequences out of 15000+600000
+ 543881 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,96p,1410b,2909s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.2.2.6} has been referenced but does no
+ 60i,18n,96p,1410b,1836s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.0@morsali2005} has been referenced but does no
 t exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (50 pages, 7216686 bytes).
+pdfTeX warning (dest): name{cite.0@chari2019} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@yoo2018a} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@lemkul2020} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@kresse1996} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@luo2020} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@vanmourik2014} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@miller1976} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@sherrill} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@braun2019} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@hodgkin1952} has been referenced but does no
+t exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmri10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
+ymbols/msbm10.pfb>
+Output written on main.pdf (28 pages, 4810853 bytes).
 PDF statistics:
- 1099 PDF objects out of 1200 (max. 8388607)
- 916 compressed objects within 10 object streams
- 187 named destinations out of 1000 (max. 500000)
- 355 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 444 compressed objects within 5 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
