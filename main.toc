@@ -59,30 +59,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Metadynamics}{23}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{24}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{25}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{26}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CFTR Structure}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.2}CFTR Structure}{27}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR classification and structure}{27}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{27}{section.3.4}%
+\contentsline {section}{\numberline {3.4}The Gating Cycle}{28}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{27}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{28}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{28}{section.3.6}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{29}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{28}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Correctors}{29}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Potentiators}{28}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Potentiators}{29}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{29}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{30}{subsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{30}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{31}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Concluding Remarks}{31}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Concluding Remarks}{32}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{32}{section*.18}%
+\contentsline {section}{References}{33}{section*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{32}{appendix*.19}%
+\contentsline {chapter}{Bibliography}{33}{appendix*.20}%
