@@ -202,24 +202,40 @@ At the time of writing, the four popular forcefields for the simulation of biomo
 
 
 \subsection{Controlling the Temperature and Pressure in a Simulation}
-Living things generally die if you put them in the freezer, as a rule, they also do not survive in an autoclave. As such, to correctly understand their function with simulations we not only need to correctly calculate the forces being exerted on every atom in their bodies but we must also keep those virtual bodies at realistic temperatures and pressures. In general, we seek to approximate the environment conceptualised as an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
+Living things are very sensitive to their external environment. Enzymes only work in a narrow range of temperatures and cells burst apart in the absence of pressure. As such, to correctly understand the events in biological bodies with simulations we not only need to correctly calculate the forces being exerted on every atom in their bodies but we must also make sure that the virtual environment in our simulations matches that found in the body or in the laboratory. Conceptually, we seek to approximate the environment as an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
 
-\subsection{Berendsen Thermostat}
-Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensembel of velocities we can control the temperature. The simplest way to do this dynamically is taking the equations of motion and add both a damping term, to lower the temperature and a random acceleration to raise the temperature. 
-Reference temperature $T_0$ 
-
-\begin{equation}
-	m_i  \dot{v} _i = F_i + m_i \gamma_i \bold{v}_i + R(t)
-\end{equation}
+%Langevin dynamics
+%\begin{equation}
+%	m_i  \dot{v} _i = F_i + m_i \gamma_i \bold{v}_i + R(t)
+%\end{equation}
 
 Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t)$ is a random variable to the kick.
 
 
-\subsection{Berendsen Barostat}
+\subsection{Maintain Temperature with the Nos\'e-Hoover Thermostat}
+Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
 
-\subsubsection{Nos\'e Hoover Thermostat}
-The themostat begins by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. Despite starting from the same cartesian coordinates, this means that two replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run . A good rule of thumb
+\begin{equation}
+	f(v_i) = \Big(\frac{m_i}{2\pi k_B T}\Big)^{3/2} \exp{\Big(-\frac{m_iv_i^2}{2k_BT}\Big)}
+\end{equation}
 
+Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Bolztman's constant. Note that $i=1,...,3N$ as we choose a velocity component for $x,y \text{and} z$ components separately. 
+
+Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al., a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources\cite{knapp2018}. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
+
+After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nose-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
+
+The Nose-Hoover thermostat is defined by the use of an extra massive particle coupled to an external bath. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths.
+
+\begin{equation}
+	pass
+\end{equation}
+\begin{equation}
+	pass
+\end{equation}
+\begin{equation}
+	pass
+\end{equation}
 
 \subsection{Periodic Boundaries to Simulate the Inside of Cell}
 \begin{figure}
