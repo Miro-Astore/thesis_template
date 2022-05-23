@@ -200,106 +200,6 @@ By focussing on these two physical parameters we can isolate and improve the non
 At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. This philosophy is closest to physics 
 
 
-\section{Controlling the Temperature and Pressure in a Simulation}
-Living things are very sensitive to their external environment. Enzymes only work in a narrow range of temperatures and cells burst apart in the absence of pressure. As such, to correctly understand the events in biological bodies with simulations we not only need to correctly calculate the forces being exerted on every atom in their bodies but we must also make sure that the virtual environment in our simulations matches that found in the body or in the laboratory. Conceptually, we seek to approximate the environment as an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
-
-%Langevin dynamics
-%\begin{equation}
-%	m_i  \dot{v} _i = F_i + m_i \gamma_i \bold{v}_i + R(t)
-%\end{equation}
-
-Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t)$ is a random variable to the kick.
-
-
-\subsubsection{Hot and Cold with the Nos\'e-Hoover Thermostat}
-Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
-
-\begin{equation}
-	f(v_i) = \Big(\frac{m_i}{2\pi k_B T}\Big)^{3/2} \exp{\Big(-\frac{m_iv_i^2}{2k_BT}\Big)}
-\end{equation}
-
-Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Bolztman's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \text{and} z$ components separately. 
-
-Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al., a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources\cite{knapp2018}. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
-
-After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nose-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
-
-The Nose-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
-
-\begin{equation}
-	H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM}(\bold{x},\bold{p}) + \sum_j^M \frac{p^2_{\eta_j}}{2Q_j} + N_{df} k_BT  \eta_1   + k_BT\sum_{j=2}^M\eta_j.
-\end{equation}
-
-Here, usually $N_{df} := 3N$ unless there are constraints placed within the system to freeze atoms. $\eta$ denotes the coordinates in the thermostat of freedom for the thermostat (a scalar variable) with mass $Q$ and $H_{MM}$ is the Hamiltonian defined by 
-
-\begin{equation}
-H_{MM}(\bold{x},\bold{p}) = \underbrace{\sum_i^N \frac{\bold{p}_i^2}{2 m_i}}_{E_{kinetic}} + U_{MM} (\bold{x}). 
-\end{equation}
-
-By using Hamilton's theorem, the equations of motion associated with $H_{NH}$ are then
-
-\begin{equation}
-	\begin{aligned}
-		\dot{\bold{x}_i} &= \bold{p}_i/m_i \\
-		\dot{\bold{p}_i} &= \bold{F}_i-\bold{p}_i\frac{p_{\eta_1}}{Q_1} \\
-		\dot{\eta_j} &= p_{\eta_j}/Q_j \\
-		\dot{p_{\eta_1}} &= \bigg[\sum_i^N \frac{\bold{p}_i^2}{m_i} - N_{df} k_B T\bigg]  - p_{\eta_1}\frac{p_{\eta_2}}{Q_2} \\ 
-		\dot{p_{\eta_j}} &= \bigg[ \frac{p^2_{\eta_{j-1}}}{Q_{j-1}} - k_bT \bigg]  - p_{\eta_{j}}\frac{p_{\eta_{j+1}}}{Q_{j+1}} \\ 
-		\dot{p_{\eta_M}} &= \bigg[ \frac{p^2_{\eta_{M-1}}}{Q_{M-1}} - k_bT \bigg]
-	\end{aligned}
-\end{equation}
-Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculated from $U_{MM}$ using equation Newton's second law. 
-
-The parameters $Q_j$ are chosen by the user to control the coupling strength of th baths to each other. We usually choose   
-\begin{equation}
-	Q_j = \frac{\tau_{NH}T}{4\pi^2}\qquad  \forall j
-\end{equation}
-where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a timestep that is a multiple of $\tau_T$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_eqs} to match the correct temperature $T$.
-
-Remember that we can always calculate the temperature  kinetic energy using the following
-
-\begin{equation}
-	\begin{aligned}
-		E_{kinetic} &= \frac{3}{2}Nk_BT 
-	\end{aligned}
-\end{equation}
-	Or, using a tensor which we will use to calculate the pressure in the system. 
-\begin{equation}
-\begin{aligned}
-		E_{kinetic} = \frac{3}{2}Nk_BT 
-\end{aligned}
-\end{equation}
-	
-
-
-\subsubsection{Under Pressure with the Parinello-Rahman Barostat}
-Pressure is critical to the function of living organisms. Membranes burst apart at low pressures\cite{karal2021} and at high pressures cellular function is disrupted\cite{macdonald2001}. In order to accurately reflect the atmospheric pressure at which living things thrive we have to accurately calculate and modulate it during our simulation.
-
-In order to measure the pressure at the simulation walls we follow the procedure in \cite{allen1991}. We begin by calculating a quantity known as the virial:
-
-\begin{equation}
-	W(\bold{x}) = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}
-\end{equation}
-
-This is then substituted into the equation 
-
-\begin{equation}
-	P (\bold{x}) = \frac{N k_B T + \langle W \rangle_i}{V}
-	\label{instantaneous_pressure}
-\end{equation}
-
-where $\bold{r}_{ij}$  is the Cartesian distance between the  $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. And so using equation \ref{instantaneous_pressure} we can see how we can modulate the volume $V$ of the simulation in order to control the pressure throughout the simulation.
-
-To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinello1980}\cite{parrinello1981a}, with a procedure with a similar philosophy to the extended Hamiltonian used in the Nose-Hoover thermostat. In this way the system is coupled to an external pressure bath rather than an external temperature bath. First we define that the basis vectors for the periodic simulation box to be $h:= [\bold{a}, \bold{b} ,\bold{c}]$. When the box is scaled to change the volume these basis vectors are multiplied by a set of scalars $s := \xi_i$, $\eta_i, \zeta_i ) \in [0,1]$. We perform a change of coordinates so that the contributions of the particles onto the boundaries is easily calculated from our equations so we express the atomic coordinates as
-
-\begin{equation}
-\begin{aligned}
-	\bold{x}_i &= \xi_i \bold{a} +\eta_i \bold{b} +\zeta_i \bold{c}  \\
-	           &= \underline{h}\bold{s}_i
-\end{aligned}
-\end{equation}
-
-
 \section{Periodic Boundaries to Simulate the Inside of Cell}
 \begin{figure}
 	\begin{center}
@@ -343,10 +243,129 @@ For a detailed review of different Particle Mesh Ewald Summation methods and the
 %\end{equation}
 %
 
-\subsection{The Process of Preparing a Simulation}
+\section{Controlling the Temperature and Pressure in a Simulation}
+Living things are very sensitive to their external environment. Enzymes only work in a narrow range of temperatures and cells burst apart in the absence of pressure. As such, to correctly understand the events in biological bodies with simulations we not only need to correctly calculate the forces being exerted on every atom in their bodies but we must also make sure that the virtual environment in our simulations matches that found in the body or in the laboratory. Conceptually, we seek to approximate the environment as an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
+
+%Langevin dynamics
+%\begin{equation}
+%	m_i  \dot{v} _i = F_i + m_i \gamma_i \bold{v}_i + R(t)
+%\end{equation}
+
+Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t)$ is a random variable to the kick.
+
+
+\subsection{Hot and Cold with the Nos\'e-Hoover Thermostat}
+Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
+
+\begin{equation}
+	f(v_i) = \Big(\frac{m_i}{2\pi k_B T}\Big)^{3/2} \exp{\Big(-\frac{m_iv_i^2}{2k_BT}\Big)}
+\end{equation}
+
+Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Bolztman's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \text{and} z$ components separately. 
+
+Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al., a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources\cite{knapp2018}. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
+
+After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nose-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
+
+The Nose-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
+
+\begin{equation}
+	%H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM}(\bold{x},\bold{p}) + \sum_j^M \frac{p^2_{\eta_j}}{2Q_j} +k_BT(  N_{df}   \eta_1   + \sum_{j=2}^M\eta_j)
+	H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM} + \sum_j^M \frac{p^2_{\eta_j}}{2Q_j} +k_BT  N_{df}   \eta_1   + k_BT \sum_{j=2}^M\eta_j
+\end{equation}
+
+Here, usually $N_{df} := 3N$ unless there are constraints placed within the system to freeze atoms. $\eta$ denotes the coordinates in the thermostat of freedom for the thermostat (a scalar variable) with mass $Q$ and $H_{MM}$ is the Hamiltonian defined by 
+
+\begin{equation}
+H_{MM}(\bold{x},\bold{p}) = \underbrace{\sum_i^N \frac{\bold{p}_i^2}{2 m_i}}_{E_{kinetic}} + U_{MM} (\bold{x}). 
+\end{equation}
+
+By using Hamilton's equations of motion, $H_{NH}$ evolves by
+
+\begin{equation}
+	\begin{aligned}
+		\dot{\bold{x}_i} &= \bold{p}_i/m_i \\
+		\dot{\bold{p}_i} &= \bold{F}_i-\bold{p}_i\frac{p_{\eta_1}}{Q_1} \\
+		\dot{\eta_j} &= p_{\eta_j}/Q_j \\
+		\dot{p_{\eta_1}} &= \bigg[\sum_i^N \frac{\bold{p}_i^2}{m_i} - N_{df} k_B T\bigg]  - p_{\eta_1}\frac{p_{\eta_2}}{Q_2} \\ 
+		\dot{p_{\eta_j}} &= \bigg[ \frac{p^2_{\eta_{j-1}}}{Q_{j-1}} - k_bT \bigg]  - p_{\eta_{j}}\frac{p_{\eta_{j+1}}}{Q_{j+1}} \\ 
+		\dot{p_{\eta_M}} &= \bigg[ \frac{p^2_{\eta_{M-1}}}{Q_{M-1}} - k_bT \bigg]
+	\end{aligned}
+\end{equation}
+Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculated from $U_{MM}$ using equation Newton's second law. 
+
+The parameters $Q_j$ are chosen by the user to control the coupling strength of th baths to each other. We usually choose   
+\begin{equation}
+	Q_j = \frac{\tau_{NH}T}{4\pi^2}\qquad  \forall j
+\end{equation}
+where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a timestep that is a multiple of $\tau_T$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_eqs} to match the correct temperature $T$.
+
+Remember that we can always calculate the temperature  kinetic energy using the following
+
+\begin{equation}
+	\begin{aligned}
+		E_{kinetic} &= \frac{3}{2}Nk_BT 
+	\end{aligned}
+\end{equation}
+	
+
+
+\subsection{Under Pressure with the Parinello-Rahman Barostat}
+Pressure is critical to the function of living organisms. Membranes burst apart at low pressures\cite{karal2021} and at high pressures cellular function is disrupted\cite{macdonald2001}. In order to accurately reflect the atmospheric pressure at which living things thrive we have to accurately calculate and modulate it during our simulation.
+
+In order to measure the pressure at the simulation walls we follow the procedure in \cite{allen1991}. We begin by calculating a quantity known as the virial:
+
+\begin{equation}
+	W(\bold{x}) = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}
+\end{equation}
+
+This is then substituted into the equation 
+
+\begin{equation}
+	P (\bold{x}) = \frac{N k_B T + \langle W \rangle_i}{V}
+	\label{instantaneous_pressure}
+\end{equation}
+
+where $\bold{r}_{ij}$  is the Cartesian distance between the  $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. And so using equation \ref{instantaneous_pressure} we can see how we can modulate the volume $V$ of the simulation in order to control the pressure throughout the simulation.
+
+To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinello1980}\cite{parrinello1981a}, with a procedure with a similar philosophy to the extended Hamiltonian used in the Nose-Hoover thermostat. In this way the system is coupled to an external pressure bath rather than an external temperature bath. First we define that the basis vectors for the periodic simulation box to be $h:= [\bold{a}, \bold{b} ,\bold{c}]$. When the box is scaled to change the volume these basis vectors are multiplied by a set of scalars $s := \xi_i$, $\eta_i, \zeta_i ) \in [0,1]$. We perform a change of coordinates so that the contributions of the particles onto the boundaries is easily calculated from our equations so we express the atomic coordinates as
+
+\begin{equation}
+\begin{aligned}
+	\bold{x}_i &= \xi_i \bold{a} +\eta_i \bold{b} +\zeta_i \bold{c}  \\
+	           &= \underline{h}\bold{s}_i
+\end{aligned}
+\end{equation}
+
+Define $\underline{G} = \underline{h}^T\underline{h}$
+\begin{equation}
+\begin{aligned}
+	L = \frac{1}{2} \sum_i^N \  m_i \dot{\bold{s}}_i^T\underline{G}\dot{\bold{s}}_i - W(\bold{x}) + \frac{1}{2}M \text{Tr}(\dot{\underline{h}}^T\dot{\underline{h}})   - P_0 V
+\end{aligned}
+\end{equation}
+
+Here, $M$ is a constant of proportionality associated with the kinetic energy derived from the movement the particles undergo as they scale. It has units of mass. $P_0$ is our target pressure. This lagrangian allows us to derive the equations of motion  
+
+\begin{equation}
+\begin{aligned}
+	\ddot{\bold{s}}_i &= \frac{1}{m_i} \sum_{j\neq i}  \chi(\bold{r}_{ij})  (\bold{s}_i - \bold{s}_j) - G^{-1}\dot{G} \dot{\bold{s}}_i \\
+	\ddot{\bold{h}} &= \frac{1}{W} (\bold{Y} -P_o) \underline{\sigma}
+\end{aligned}
+\end{equation}
+Sadly we have to now introduce some more quantities. $\bold{Y}$ represents $\underline{\sigma}$
+
+
+\begin{equation}
+\begin{aligned}
+	\bold{Y} = \frac{1}{V}\sum_i m_i \bold{v}_i \bold{v}_i^T + \sum_i \sum_{j>i} \chi (\bold{r}_{ij} \bold{r}_{ij}\bold{r}_{ij}^T
+\end{aligned}
+\end{equation}
+
+
+\section{The Process of Preparing a Simulation}
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
 
-\subsection{Short Comings of Classical MD}
+\section{Short Comings of Classical MD}
 The short comings of classical molecular dynamics fall into two classes whose solutions stand opposed to one another. These are the accuracy of the chemical forcefields outlined above and the inability of modern computers to deliver enough samples of the energy landscape to collect sufficient statistics for rigorous conclusions. The issue is that, as the above physical formulation might indicate. The more accurate the forcefields, the more computationally expensive. And so the solutions to the two are constantly in tension with one another. In the next section we will explore the current efforts to bring solutions.
 
 \subsubsection{The Problem with Forcefields}
@@ -415,6 +434,7 @@ The use of schemes such as hydrogen mass repartitioning \cite{balusek2019}, virt
 \end{table}
 
 As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. This follows from the 3600cm$^{-1}$ peak in the resonance infrared resonance spectrum of biomolecules corresponding to the bond stretching oscillation of the H-O bond. \cite{schlick2010} Setting the time step of simluations to 1/10th of this period gives sufficient gives the Verlet integrator sufficient resolution to capture the motion and maintain the stability of the energy function.
+
 \subsection{ Verlet Leap-Frog Integration}
 Due to the large number of timesteps we have to iterate our system through we must use a symplectic integrator. This unfortunatley means we cannot use 4th order solvers such as the Runge Kutta method which would allow usto use a larger timestep. We are thus limited to symplectic 2nd order methods such as verlet integration\cite{}. 
 

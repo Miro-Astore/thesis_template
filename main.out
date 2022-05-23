@@ -13,26 +13,28 @@
 \BOOKMARK [2][-]{subsection.2.1.2}{The Born-Oppenheimer approximation.}{section.2.1}% 13
 \BOOKMARK [1][-]{section.2.2}{Classical MD, Molecular Motions Without Quantum Mechanics}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.2.1}{Philosophy of Different Molecular Mechanics forcefields.}{section.2.2}% 15
-\BOOKMARK [1][-]{section.2.3}{Controlling the Temperature and Pressure in a Simulation}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.4}{Periodic Boundaries to Simulate the Inside of Cell}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.4.1}{The Process of Preparing a Simulation}{section.2.4}% 18
-\BOOKMARK [2][-]{subsection.2.4.2}{Short Comings of Classical MD}{section.2.4}% 19
-\BOOKMARK [1][-]{section.2.5}{Choosing an Appropriate Time Step}{chapter.2}% 20
-\BOOKMARK [2][-]{subsection.2.5.1}{ Verlet Leap-Frog Integration}{section.2.5}% 21
-\BOOKMARK [1][-]{section.2.6}{Free Energy Calculations: Making Simulations More Useful}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.6.1}{Umbrella Sampling}{section.2.6}% 23
-\BOOKMARK [2][-]{subsection.2.6.2}{Metadynamics}{section.2.6}% 24
-\BOOKMARK [0][-]{chapter.3}{Review of the Molecular Cause of Cystic Fibrosis}{}% 25
-\BOOKMARK [1][-]{section.3.1}{Clinical outcomes of Cystic Fibrosis}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.2}{CFTR Structure}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.3}{CFTR classification and structure}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.4}{The Gating Cycle}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.5}{Classes of Misfunction to CFTR}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.6}{CFTR Modulators}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.6.1}{Correctors}{section.3.6}% 32
-\BOOKMARK [2][-]{subsection.3.6.2}{Potentiators}{section.3.6}% 33
-\BOOKMARK [2][-]{subsection.3.6.3}{Annion Selectivity}{section.3.6}% 34
-\BOOKMARK [1][-]{section.3.7}{Patient Derived Organoids}{chapter.3}% 35
-\BOOKMARK [0][-]{chapter.4}{Concluding Remarks}{}% 36
-\BOOKMARK [1][-]{section*.21}{References}{chapter.4}% 37
-\BOOKMARK [0][-]{appendix*.22}{Bibliography}{}% 38
+\BOOKMARK [1][-]{section.2.3}{Periodic Boundaries to Simulate the Inside of Cell}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.4}{Controlling the Temperature and Pressure in a Simulation}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.4.1}{Hot and Cold with the Nos\351-Hoover Thermostat}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.2}{Under Pressure with the Parinello-Rahman Barostat}{section.2.4}% 19
+\BOOKMARK [1][-]{section.2.5}{The Process of Preparing a Simulation}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.6}{Short Comings of Classical MD}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.7}{Choosing an Appropriate Time Step}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.7.1}{ Verlet Leap-Frog Integration}{section.2.7}% 23
+\BOOKMARK [1][-]{section.2.8}{Free Energy Calculations: Making Simulations More Useful}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.8.1}{Umbrella Sampling}{section.2.8}% 25
+\BOOKMARK [2][-]{subsection.2.8.2}{Metadynamics}{section.2.8}% 26
+\BOOKMARK [0][-]{chapter.3}{Review of the Molecular Cause of Cystic Fibrosis}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Clinical outcomes of Cystic Fibrosis}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{CFTR Structure}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{CFTR classification and structure}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.4}{The Gating Cycle}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.5}{Classes of Misfunction to CFTR}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.6}{CFTR Modulators}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.6.1}{Correctors}{section.3.6}% 34
+\BOOKMARK [2][-]{subsection.3.6.2}{Potentiators}{section.3.6}% 35
+\BOOKMARK [2][-]{subsection.3.6.3}{Annion Selectivity}{section.3.6}% 36
+\BOOKMARK [1][-]{section.3.7}{Patient Derived Organoids}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Concluding Remarks}{}% 38
+\BOOKMARK [1][-]{section*.19}{References}{chapter.4}% 39
+\BOOKMARK [0][-]{appendix*.20}{Bibliography}{}% 40
