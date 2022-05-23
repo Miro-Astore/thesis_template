@@ -35,54 +35,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Controlling the Temperature and Pressure in a Simulation}{14}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Maintain Temperature with the Nos\'e-Hoover Thermostat}{15}{subsection.2.2.3}%
+\contentsline {subsubsection}{Maintain Temperature with the Nos\'e-Hoover Thermostat}{15}{section*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Periodic Boundaries to Simulate the Inside of Cell}{16}{subsection.2.2.4}%
+\contentsline {subsubsection}{Under Pressure with the Parinello-Rahman Barostat}{17}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}The Process of Preparing a Simulation}{19}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.3}Periodic Boundaries to Simulate the Inside of Cell}{17}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.6}Short Comings of Classical MD}{19}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.4}The Process of Preparing a Simulation}{19}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Problem with Forcefields}{19}{section*.12}%
+\contentsline {subsection}{\numberline {2.2.5}Short Comings of Classical MD}{19}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Problem with Sampling}{20}{section*.13}%
+\contentsline {subsubsection}{The Problem with Forcefields}{20}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Choosing an Appropriate Time Step}{20}{section.2.3}%
+\contentsline {subsubsection}{The Problem with Sampling}{20}{section*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Choosing an Appropriate Time Step}{21}{section.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1} Verlet Leap-Frog Integration}{22}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Free Energy Calculations: Making Simulations More Useful}{22}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Free Energy Calculations: Making Simulations More Useful}{23}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Umbrella Sampling}{23}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{23}{section*.16}%
+\contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{23}{section*.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Metadynamics}{23}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{25}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{26}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{26}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{27}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CFTR Structure}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.2}CFTR Structure}{28}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{27}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR classification and structure}{28}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{28}{section.3.4}%
+\contentsline {section}{\numberline {3.4}The Gating Cycle}{29}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{28}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{29}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{29}{section.3.6}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{30}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{29}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Correctors}{30}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Potentiators}{29}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Potentiators}{30}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{30}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{31}{subsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{31}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{32}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Concluding Remarks}{32}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Concluding Remarks}{33}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{33}{section*.19}%
+\contentsline {section}{References}{34}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{33}{appendix*.20}%
+\contentsline {chapter}{Bibliography}{34}{appendix*.22}%
