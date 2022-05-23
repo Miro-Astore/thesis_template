@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  23 MAY 2022 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  23 MAY 2022 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1549,97 +1549,66 @@ File: figures/LJ_figure.pdf Graphic file (type pdf)
 <use figures/LJ_figure.pdf>
 Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 192.
 (pdftex.def)             Requested size: 441.01773pt x 214.59744pt.
- [13 <./figures/QM_MM_compared.pdf>] [14 <./figures/LJ_figure.pdf>]
-
-LaTeX Warning: Citation 'knapp2018' on page 15 undefined on input line 223.
-
-
-LaTeX Warning: Citation 'bussi2007' on page 15 undefined on input line 225.
-
-
-LaTeX Warning: Citation 'bussi2007' on page 15 undefined on input line 225.
-
-
-LaTeX Warning: Citation 'martyna1992' on page 15 undefined on input line 227.
-
-
-LaTeX Warning: Citation 'martyna1996' on page 15 undefined on input line 227.
-
-[15]
+ [13 <./figures/QM_MM_compared.pdf>] [14 <./figures/LJ_figure.pdf>] [15]
 
 LaTeX Warning: Reference `NH_eqs' on page 16 undefined on input line 257.
 
 [16]
-
-LaTeX Warning: Citation 'karal2021' on page 17 undefined on input line 276.
-
-
-LaTeX Warning: Citation 'macdonald2001' on page 17 undefined on input line 276.
-
-
-
-Overfull \hbox (22.5637pt too wide) in paragraph at lines 276--277
-\OT1/cmr/m/n/12 pressures[[]] and at high pres-sures cel-lu-lar func-tion is di
-srupted[[]].
- []
-
-
-LaTeX Warning: Citation 'allen1991' on page 17 undefined on input line 278.
-
-<figures/PME_miro.pdf, id=649, 1433.26959pt x 878.70018pt>
+<figures/PME_miro.pdf, id=664, 1433.26959pt x 878.70018pt>
 File: figures/PME_miro.pdf Graphic file (type pdf)
 <use figures/PME_miro.pdf>
-Package pdftex.def Info: figures/PME_miro.pdf  used on input line 298.
+Package pdftex.def Info: figures/PME_miro.pdf  used on input line 306.
 (pdftex.def)             Requested size: 441.01773pt x 270.36966pt.
-[17] [18 <./figures/PME_miro.pdf>] [19]
+ [17] [18 <./figures/PME_miro.pdf>] [19] [20]
 
-Package caption Warning: \label without proper reference on input line 371.
+Package caption Warning: \label without proper reference on input line 387.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 20 undefined on input line 357.
-
-[20]
-
-LaTeX Warning: Reference `verlet' on page 21 undefined on input line 369.
+LaTeX Warning: Reference `timescales' on page 21 undefined on input line 365.
 
 
-LaTeX Warning: Citation 'leach2009' on page 21 undefined on input line 371.
+LaTeX Warning: Reference `verlet' on page 21 undefined on input line 377.
 
 
-LaTeX Warning: Citation 'leach2009' on page 21 undefined on input line 406.
+LaTeX Warning: Citation 'leach2009' on page 21 undefined on input line 379.
+
+[21]
+
+LaTeX Warning: Citation 'leach2009' on page 22 undefined on input line 414.
 
 
-Package caption Warning: \label without proper reference on input line 371.
+Package caption Warning: \label without proper reference on input line 387.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 21 undefined on input line 409.
+LaTeX Warning: Reference `timescales' on page 22 undefined on input line 417.
 
-[21] [22]
+[22]
 
 LaTeX Warning: Reference `sampling_problem' on page 23 undefined on input line 
-431.
+439.
 
-<figures/umbrella_sampling.png.pdf, id=804, 1054.59818pt x 326.65247pt>
+[23]
+<figures/umbrella_sampling.png.pdf, id=833, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
-444.
+452.
 (pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
-<figures/METAD_demonstration.pdf, id=805, 229.83649pt x 294.60641pt>
+<figures/METAD_demonstration.pdf, id=834, 229.83649pt x 294.60641pt>
 File: figures/METAD_demonstration.pdf Graphic file (type pdf)
 <use figures/METAD_demonstration.pdf>
-Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 45
-8.
+Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 46
+6.
 (pdftex.def)             Requested size: 441.01773pt x 565.35466pt.
-) (./09-CFTR-Review.tex [23] [24 <./figures/umbrella_sampling.png.pdf>]
-[25 <./figures/METAD_demonstration.pdf>]
+) (./09-CFTR-Review.tex [24 <./figures/umbrella_sampling.png.pdf>] [25 <./figur
+es/METAD_demonstration.pdf>]
 Chapter 3.
 [26
 
 ]
-<figures/CFTR_structure.pdf, id=856, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=883, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
 Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
@@ -1662,13 +1631,13 @@ ol-ogy and Trans-la-tional Sci-ence\OT1/cmr/m/n/12 , Strodel,
 
 [34
 
-]
+] [35]
 Overfull \hbox (10.70018pt too wide) in paragraph at lines 184--184
 []\OT1/cmr/m/n/12 Robustelli, P.; Ibanez-de-Opakua, A.; Campbell-Bezat, C.; Gio
 r-danetto, F.; Becker,
  []
 
-[35] [36] [37] [38
+[36] [37] [38
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
@@ -1676,9 +1645,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2B323AB0895CEFC1FD1A9D197B633449;2950.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 2B323AB0895CEFC1FD1A9D197B633449;2950
+(rerunfilecheck)             After:  B7DA86D18DC1EAC85BC2E6871F587385;2936.
 
 LaTeX Warning: There were undefined references.
 
@@ -1695,37 +1670,52 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30633 strings out of 481239
- 562053 string characters out of 5920378
- 1193178 words of memory out of 5000000
- 45085 multiletter control sequences out of 15000+600000
+ 30681 strings out of 481239
+ 563592 string characters out of 5920378
+ 1192589 words of memory out of 5000000
+ 45118 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,18n,96p,1410b,2909s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (53 pages, 7251067 bytes).
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (53 pages, 7255671 bytes).
 PDF statistics:
- 1132 PDF objects out of 1200 (max. 8388607)
- 941 compressed objects within 10 object streams
- 196 named destinations out of 1000 (max. 500000)
+ 1170 PDF objects out of 1200 (max. 8388607)
+ 979 compressed objects within 10 object streams
+ 211 named destinations out of 1000 (max. 500000)
  352 words of extra memory for PDF output out of 10000 (max. 10000000)
 

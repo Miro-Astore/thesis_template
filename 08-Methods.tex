@@ -200,7 +200,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. This philosophy is closest to physics 
 
 
-\subsection{Controlling the Temperature and Pressure in a Simulation}
+\section{Controlling the Temperature and Pressure in a Simulation}
 Living things are very sensitive to their external environment. Enzymes only work in a narrow range of temperatures and cells burst apart in the absence of pressure. As such, to correctly understand the events in biological bodies with simulations we not only need to correctly calculate the forces being exerted on every atom in their bodies but we must also make sure that the virtual environment in our simulations matches that found in the body or in the laboratory. Conceptually, we seek to approximate the environment as an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
 
 %Langevin dynamics
@@ -211,7 +211,7 @@ Living things are very sensitive to their external environment. Enzymes only wor
 Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t)$ is a random variable to the kick.
 
 
-\subsubsection{Maintain Temperature with the Nos\'e-Hoover Thermostat}
+\subsubsection{Hot and Cold with the Nos\'e-Hoover Thermostat}
 Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
 
 \begin{equation}
@@ -278,21 +278,29 @@ Pressure is critical to the function of living organisms. Membranes burst apart 
 In order to measure the pressure at the simulation walls we follow the procedure in \cite{allen1991}. We begin by calculating a quantity known as the virial:
 
 \begin{equation}
-	W = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}
+	W(\bold{x}) = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}
 \end{equation}
 
 This is then substituted into the equation 
 
 \begin{equation}
-	P = \frac{N k_B T + \langle W \rangle}{V}
+	P (\bold{x}) = \frac{N k_B T + \langle W \rangle_i}{V}
+	\label{instantaneous_pressure}
 \end{equation}
 
-where $\bold{r}_{ij}$  is the Cartesian distance between the  $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. 
+where $\bold{r}_{ij}$  is the Cartesian distance between the  $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. And so using equation \ref{instantaneous_pressure} we can see how we can modulate the volume $V$ of the simulation in order to control the pressure throughout the simulation.
+
+To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinello1980}\cite{parrinello1981a}, with a procedure with a similar philosophy to the extended Hamiltonian used in the Nose-Hoover thermostat. In this way the system is coupled to an external pressure bath rather than an external temperature bath. First we define that the basis vectors for the periodic simulation box to be $h:= [\bold{a}, \bold{b} ,\bold{c}]$. When the box is scaled to change the volume these basis vectors are multiplied by a set of scalars $s := \xi_i$, $\eta_i, \zeta_i ) \in [0,1]$. We perform a change of coordinates so that the contributions of the particles onto the boundaries is easily calculated from our equations so we express the atomic coordinates as
+
+\begin{equation}
+\begin{aligned}
+	\bold{x}_i &= \xi_i \bold{a} +\eta_i \bold{b} +\zeta_i \bold{c}  \\
+	           &= \underline{h}\bold{s}_i
+\end{aligned}
+\end{equation}
 
 
-
-
-\subsection{Periodic Boundaries to Simulate the Inside of Cell}
+\section{Periodic Boundaries to Simulate the Inside of Cell}
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{figures/PME_miro.pdf}
@@ -408,24 +416,24 @@ The use of schemes such as hydrogen mass repartitioning \cite{balusek2019}, virt
 
 As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. This follows from the 3600cm$^{-1}$ peak in the resonance infrared resonance spectrum of biomolecules corresponding to the bond stretching oscillation of the H-O bond. \cite{schlick2010} Setting the time step of simluations to 1/10th of this period gives sufficient gives the Verlet integrator sufficient resolution to capture the motion and maintain the stability of the energy function.
 \subsection{ Verlet Leap-Frog Integration}
-Due to hte large number of timesteps we have to iterate our system through we must use a symplectic integrator. This unfortunatley means we cannot use 4th order solvers such as the Runge Kutta method which would allow usto use a larger timestep. We are thus limited to 2nd order methods such as verlet integration. 
+Due to the large number of timesteps we have to iterate our system through we must use a symplectic integrator. This unfortunatley means we cannot use 4th order solvers such as the Runge Kutta method which would allow usto use a larger timestep. We are thus limited to symplectic 2nd order methods such as verlet integration\cite{}. 
 
 By Newton's 2nd law we can use the potential $U_{MM}$ which we calculated with equation \ref{CHARMM_effective_potential_eq} and calculate the forces exerted on the atoms in the system. 
 
 \begin{equation}
-	a_i = \frac{d^2 r_i(t)}{dt^2} = - \frac{1}{M_i} \nabla_i U(\bold{r}_i)
+	\bold{a}_i = \frac{d^2 \bold{x}_i(t)}{dt^2} = - \frac{1}{M_i} \nabla_i U_{MM}(\bold{x}_i)
 \end{equation}
  
 We can use this calculation of acceleration to update the postions and velocities of the atoms in the molecular system with the following triplet of equations known as the leapfrog verlet method \cite{schlick2010}:
 
 \begin{equation} \label {leap-frog_equation}
 	\begin{aligned}
-		v_i^{n+1/2} &= v_i^{n-1/2} + \Delta t\  a_i^n \\
-		r^{n+1}_i &= r_i^{n} + \Delta t\  v_i^{n+1/2}  \\
-		v^{n+1}_i &= v_i^{n+1/2} + \frac{\Delta t} {2} a_i^{n+1} \\
+		\bold{v}_i^{n+1/2} &= \bold{v}_i^{n-1/2} + \Delta t\  \bold{a}_i^n \\
+		\bold{x}^{n+1}_i &= \bold{x}_i^{n} + \Delta t\  \bold{v}_i^{n+1/2}  \\
+		\bold{v}^{n+1}_i &= \bold{v}_i^{n+1/2} + \frac{\Delta t} {2} \bold{a}_i^{n+1} \\
 	\end{aligned}
  \end{equation}
-Note that $v_i^{n-1/2}$ will have  been calculated during the previous time step and $a_i^{n+1}$ may be  calculated by the updated positions found by calculating  $r^{n+1}_i$.
+ Note that $v_i^{n-1/2}$ will have  been calculated during the previous time step and $a_i^{n+1}$ may be  calculated by the updated positions found by calculating  $\bold{x}^{n+1}_i$.
 
 \section{Free Energy Calculations: Making Simulations More Useful}
 The above work sets out how to perform unbiased MD simulations. These are powerful tools but as mentioned in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. So we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
