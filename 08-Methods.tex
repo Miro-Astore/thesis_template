@@ -182,7 +182,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Comparison Between Potentials in Quantum and Classical Forcefields] {\textbf{Comparison Between Potentials in Quantum and Classical Forcefields}}{ A) The Morse potential was formulated to approximate the potential the potential energy surface associated with the stretching of covalent bonds (blue). At low temperatures (the ground state, $v=0$) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006 B) Here the potential of the dihedral angle between the atoms C1,C2,C3 and C4 in a butane molecule is calculated using two methods: Quantum Chemical calculations and approximations using the functional form in \ref{bonded_eqs} \cite{lemkul2020}. Note how the appropriate choice of $k_\varphi$, $n$ and $\delta$ have closely approximated the results the more accurate quantum mechanical calculations.}
-
+ 
 	\label{morse_potential}
 \end{figure}
 
@@ -319,6 +319,8 @@ In order to measure the pressure at the simulation walls we follow the procedure
 	W(\bold{x}) = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}
 \end{equation}
 
+where $\bold{r}_{ij} = \bold{x}_i - \bold{x}_j$  is the Cartesian distance between the $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. 
+
 This is then substituted into the equation 
 
 \begin{equation}
@@ -326,9 +328,9 @@ This is then substituted into the equation
 	\label{instantaneous_pressure}
 \end{equation}
 
-where $\bold{r}_{ij}$  is the Cartesian distance between the  $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. And so using equation \ref{instantaneous_pressure} we can see how we can modulate the volume $V$ of the simulation in order to control the pressure throughout the simulation.
+And so using equation \ref{instantaneous_pressure} we can see how we can modulate the volume $V$ of the simulation in order to control the pressure throughout the simulation.
 
-To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinello1980}\cite{parrinello1981a}, with a procedure with a similar philosophy to the extended Hamiltonian used in the Nose-Hoover thermostat. In this way the system is coupled to an external pressure bath rather than an external temperature bath. First we define that the basis vectors for the periodic simulation box to be $h:= [\bold{a}, \bold{b} ,\bold{c}]$. When the box is scaled to change the volume these basis vectors are multiplied by a set of scalars $s := \xi_i$, $\eta_i, \zeta_i ) \in [0,1]$. We perform a change of coordinates so that the contributions of the particles onto the boundaries is easily calculated from our equations so we express the atomic coordinates as
+To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinello1980}\cite{parrinello1981a}, with a procedure with a similar philosophy to the extended Hamiltonian used in the Nose-Hoover thermostat. In this way the system is coupled to an external pressure bath rather than an external temperature bath. First we define that the basis vectors for the periodic simulation box to be $\underline{h}:= [\bold{a}, \bold{b} ,\bold{c}]$. When the box is scaled to change the volume these basis vectors are multiplied by a set of scalars $s_i := (\xi_i$, $\eta_i, \zeta_i ) \in [0,1]$. We perform a change of coordinates so that the contributions of the particles onto the boundaries is easily calculated from our equations so we express the atomic coordinates as
 
 \begin{equation}
 \begin{aligned}
@@ -340,7 +342,7 @@ To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinell
 Define $\underline{G} = \underline{h}^T\underline{h}$
 \begin{equation}
 \begin{aligned}
-	L = \frac{1}{2} \sum_i^N \  m_i \dot{\bold{s}}_i^T\underline{G}\dot{\bold{s}}_i - W(\bold{x}) + \frac{1}{2}M \text{Tr}(\dot{\underline{h}}^T\dot{\underline{h}})   - P_0 V
+	L = \frac{1}{2} \sum_i^N \  m_i \dot{\bold{s}}_i^T\underline{G}\dot{\bold{s}}_i - \sum_i \sum_{j > i } \phi (\bold{x}) + \frac{1}{2} \ M \text{Tr}(\dot{\underline{h}}^T\dot{\underline{h}})   - {P}_{ext} V
 \end{aligned}
 \end{equation}
 
@@ -349,17 +351,20 @@ Here, $M$ is a constant of proportionality associated with the kinetic energy de
 \begin{equation}
 \begin{aligned}
 	\ddot{\bold{s}}_i &= \frac{1}{m_i} \sum_{j\neq i}  \chi(\bold{r}_{ij})  (\bold{s}_i - \bold{s}_j) - G^{-1}\dot{G} \dot{\bold{s}}_i \\
-	\ddot{\bold{h}} &= \frac{1}{W} (\bold{Y} -P_o) \underline{\sigma}
+	\ddot{\bold{h}} &= \frac{1}{M} (\bold{Y} -P_{ext}) \underline{\sigma}
 \end{aligned}
 \end{equation}
-Sadly we have to now introduce some more quantities. $\bold{Y}$ represents $\underline{\sigma}$
-
+The matrix $\underline{\sigma} := V {\bold{h}^T}^{-1} = V  [\bold{b} \times \bold{c}, \bold{c} \times \bold{a}, \bold{a} \times \bold{b}] $  contains information about the size and orientation of the simulation box, while 
 
 \begin{equation}
 \begin{aligned}
-	\bold{Y} = \frac{1}{V}\sum_i m_i \bold{v}_i \bold{v}_i^T + \sum_i \sum_{j>i} \chi (\bold{r}_{ij} \bold{r}_{ij}\bold{r}_{ij}^T
+	\bold{Y} = \frac{1}{V}\sum_i m_i (\underline{h}\dot{\bold{s}}_i) (\underline{h}\dot{\bold{s}}_i)^T + \sum_i \sum_{j>i} \chi (\bold{r}_{ij}) \bold{r}_{ij}\bold{r}_{ij}^T
 \end{aligned}
 \end{equation}
+
+represents is the stress tensor which acts accross each of the faces of the unit cell. 
+
+This system of equations can be itterated to control the pressure of the simulation system.
 
 
 \section{The Process of Preparing a Simulation}
