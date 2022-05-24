@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Quantum Mechanics is Not Tractable at the Scale of Biology.}{7}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}A full quantum mechanical treatment}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}A full quantum mechanical treatment}{8}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}The Born-Oppenheimer approximation.}{9}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
@@ -41,7 +41,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Under Pressure with the Parinello-Rahman Barostat}{19}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}The Process of Preparing a Simulation}{20}{section.2.5}%
+\contentsline {section}{\numberline {2.5}The Process of Preparing an MD Simulation}{20}{section.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Short Comings of Classical MD}{20}{section.2.6}%
 \defcounter {refsection}{0}\relax 
@@ -57,9 +57,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.8.1}Umbrella Sampling}{24}{subsection.2.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{24}{section*.16}%
+\contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{25}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.2}Metadynamics}{24}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.2}Metadynamics}{26}{subsection.2.8.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{27}{chapter.3}%
 \defcounter {refsection}{0}\relax 

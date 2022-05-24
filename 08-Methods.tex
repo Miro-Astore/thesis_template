@@ -3,7 +3,7 @@
 \numberwithin{equation}{chapter}
 \label{chap:methods}
 
-The purpose of this chapter is to train those who have studied physics in some of the details they will need to understand the models we use to simulate molecular systems (and the many technical problems they will encounter). An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019}. We will go flesh out the physics in some more detail here but this article provides a broader overview of different techniques and resources for where one might be able to find more physical details. We assume natural units for all equations. 
+This chapter is written for somebody who has studied undergraduate physics and now wishes to model biological systems at the molecular level. Care is taken to dive deeper into the mathematical formulations of simulation methods than is conventionally given in introductory texts. An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019}. We will go flesh out the physics in some more detail here but this article provides a broader overview of different techniques and resources for where one might be able to find more physical details. We assume natural units for all equations. 
 
 \section{Quantum Mechanics is Not Tractable at the Scale of Biology.}
 Living things are made of atoms and atoms themselves are composed of many particles. The motions of atoms and their constituent particles are governed by quantum mechanics. Unfortunately, performing simulations for the number of atoms involved in proteins and other cellular components at quantum mechanical accuracy is impossible. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply approximations in order to produce a model which is capable of simulating macromolecular systems at biologically relevant timescales. 
@@ -339,22 +339,22 @@ To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinell
 \end{aligned}
 \end{equation}
 
-Define $\underline{G} = \underline{h}^T\underline{h}$
+Define $\underline{G} := \underline{h}^T\underline{h}$. The Lagrangian for the scaling system then becomes
 \begin{equation}
 \begin{aligned}
-	L = \frac{1}{2} \sum_i^N \  m_i \dot{\bold{s}}_i^T\underline{G}\dot{\bold{s}}_i - \sum_i \sum_{j > i } \phi (\bold{x}) + \frac{1}{2} \ M \text{Tr}(\dot{\underline{h}}^T\dot{\underline{h}})   - {P}_{ext} V
+	L = \frac{1}{2} \sum_i^N \  m_i \dot{\bold{s}}_i^T\underline{G}\dot{\bold{s}}_i - \sum_i \sum_{j > i } \phi (\bold{r_{ij}}) + \frac{1}{2} \ M \text{Tr}(\dot{\underline{h}}^T\dot{\underline{h}})   - {P}_{ext} V
 \end{aligned}
 \end{equation}
 
-Here, $M$ is a constant of proportionality associated with the kinetic energy derived from the movement the particles undergo as they scale. It has units of mass. $P_0$ is our target pressure. This lagrangian allows us to derive the equations of motion  
+Here, $M$ is a constant of proportionality associated with the kinetic energy derived from the movement the particles undergo as they scale. It has units of mass. $P_{0}$ is our target pressure. This lagrangian allows us to derive the equations of motion  
 
 \begin{equation}
 \begin{aligned}
-	\ddot{\bold{s}}_i &= \frac{1}{m_i} \sum_{j\neq i}  \chi(\bold{r}_{ij})  (\bold{s}_i - \bold{s}_j) - G^{-1}\dot{G} \dot{\bold{s}}_i \\
+	\ddot{\bold{s}}_i &= \frac{1}{m_i} \sum_{j\neq i}  \frac{1}{\bold{r}_{ij}}\phi(\bold{r}_{ij})  (\bold{s}_i - \bold{s}_j) - G^{-1}\dot{G} \dot{\bold{s}}_i \\
 	\ddot{\bold{h}} &= \frac{1}{M} (\bold{Y} -P_{ext}) \underline{\sigma}
 \end{aligned}
 \end{equation}
-The matrix $\underline{\sigma} := V {\bold{h}^T}^{-1} = V  [\bold{b} \times \bold{c}, \bold{c} \times \bold{a}, \bold{a} \times \bold{b}] $  contains information about the size and orientation of the simulation box, while 
+The matrix $\underline{\sigma} := V (\bold{h}^T)^{-1} = V  [\bold{b} \times \bold{c}, \bold{c} \times \bold{a}, \bold{a} \times \bold{b}] $  contains information about the size and orientation of the simulation box, while 
 
 \begin{equation}
 \begin{aligned}
@@ -364,10 +364,10 @@ The matrix $\underline{\sigma} := V {\bold{h}^T}^{-1} = V  [\bold{b} \times \bol
 
 represents is the stress tensor which acts accross each of the faces of the unit cell. 
 
-This system of equations can be itterated to control the pressure of the simulation system.
+This system of equations can be solved numerically to control the pressure of the simulation system by modulating the length of the basis vectors $a, b$ and $c$ contained in $\underline{h}$.
 
 
-\section{The Process of Preparing a Simulation}
+\section{The Process of Preparing an MD Simulation}
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
 
 \section{Short Comings of Classical MD}
@@ -461,7 +461,7 @@ We can use this calculation of acceleration to update the postions and velocitie
  Note that $v_i^{n-1/2}$ will have  been calculated during the previous time step and $a_i^{n+1}$ may be  calculated by the updated positions found by calculating  $\bold{x}^{n+1}_i$.
 
 \section{Free Energy Calculations: Making Simulations More Useful}
-The above work sets out how to perform unbiased MD simulations. These are powerful tools but as mentioned in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. So we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
+The above work sets out how to perform what is known as unbiased MD simulations. These are powerful tools but as mentioned in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. So we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically, but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
 
 \begin{equation}
 U_{MM}'  = U_{MM} + U_{bias} (\xi)
@@ -469,7 +469,7 @@ U_{MM}'  = U_{MM} + U_{bias} (\xi)
 
 Note how the $U_{biased}$ term is explicitly dependent on a parameter $\xi$. This parameter is known by many names, an order parameter, a collective variable or a reaction coordinate. Each of these names has its origin in a different subfield but they all refer to the progress toward a target state. This could be a phase transition from a liquid to a gas, the progress of a chemical reaction or more likely in our case, the distance toward a target molecular configuration. 
 
-The particular form of $U_{bias}$ depends on the Free energy technique being employed. There are two varieties, equilibrium and non-equilibrium methods. We will focus on the equilibrium methods in this work. We note that there is another set of methods called alchemical methods which modify the chemical composition of the system which we will not cover.  
+The functional form of $U_{bias}$ depends on the Free energy technique being employed. There are two varieties of techniques, equilibrium and non-equilibrium methods. We will focus on the equilibrium methods in this work. We note that there is another set of methods called alchemical methods which modify the chemical composition of the system which we will not cover.
 
 \subsection{Umbrella Sampling}
 \begin{figure}
@@ -481,14 +481,33 @@ The particular form of $U_{bias}$ depends on the Free energy technique being emp
 	\label{umbrella_sampling_illustration}
 \end{figure}
 
-This is 
+This is possibly the most popular method of calcualting the potential of a system along a reaction coordinate. The conceptual philogophy for the method is demonstrated in figure \ref{umbrella_sampling_illustration}. The molecular system is replicated in several "windows" and a harmonic $U_{biased}$ is added at several points along the collective variable $\xi$. Statistics are then collected in order to calculate the potential of mean force (PMF) and thus the energy landscape along between those windows. The more overlap between adjacent windows the more those windows are attracted to eachother and the steeper the gradient of the FES must be pushing those windows together. Conversly, when there is less overlap between adjacent windows it indicates the preseence of a barrier in the energy landscape between those windows. 
+
+The functional form of $U_{bias}$ in umbrella sampling is then seperated into $N$ windows. With the $n$th window having the equation:
+
+\begin{equation}
+	{U_{bias}}^n = \frac{k^n_{\xi}}{2}(\xi(\bold{x}) - \xi_0^n)^2
+	\label{umbrella_bias}
+\end{equation}
+
+Where \xi_0^n is the equilibrium position of the restraint. $k_{\xi}^n$ is the strength of the harmonic restraint in the $n$th window. Typically this is the same in all windows.
+
+Umbrella sampling is extremly useful for calculating all sorts of experimental quantities and physiologically relevant proprties such as folding energies \cite{meshkin2017}, lipid binding \cite{domanski2017}, ion conduction \cite{zhu2012b}, and drug binding \cite{subramanian2019}. However, it is particularly sensetive to the choice of initial configuration and collective variable \cite{domanski2017}. The former issue is partiuclar to umbrella sampling because generally short runs are used since so many windows are spawned during the method, the simulations must be at equilibrium \textit{before} the method is attempted, and then sufficient statistics must be collected to average over any conformational changes orthogonal to the collective variable. In these ways, care must be taken when using this method to not introduce systematic error into the calculation \cite{you2019}. A deep knowledge of the molecular system under investigation can help aleviate some of these issues. 
 
 \subsubsection{Weighted Histogram Average Method (WHAM)}
+There a few candidates for calculating the PMF using the statistics calculated in umbrella sampling. The Weighted Histogram Average Method (WHAM)\cite{}, Umbrella Integration and the Multistate Bennet Acceptance Ratio (MBAR)\cite{}. We will breifly outline the mathematical formulation and estimation of errors of the former as it is more popular\cite{zhu2012}\cite{kastner2011}. 
+\begin{equation}
+	P^u_\xi = \sum_i^N p_i(\xi)P^u_i (\xi)
+\end{equation}
+
+The weights, $p_i$ are chosen such that the statistical error is minimised. This gives the best estimates of the PMF given the data that has been collected. 
+
 
 \subsection{Metadynamics}
+Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. 
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=\textwidth]{figures/METAD_demonstration.pdf}
+		\includegraphics[width=0.7\textwidth]{figures/METAD_demonstration.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Illustration of Metadynamics] {\textbf{Illustration of Metadynamics}}{A) B)}
