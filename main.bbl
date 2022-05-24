@@ -649,485 +649,6 @@
     \field{year}{2005}
   \endentry
 
-  \entry{knapp2018}{article}{}
-    \name{author}{3}{}{%
-      {{hash=KB}{%
-         family={Knapp},
-         familyi={K\bibinitperiod},
-         given={Bernhard},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=OL}{%
-         family={Ospina},
-         familyi={O\bibinitperiod},
-         given={Luis},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=DCM}{%
-         family={Deane},
-         familyi={D\bibinitperiod},
-         given={Charlotte\bibnamedelima M.},
-         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Chemical Society}}%
-    }
-    \strng{namehash}{KB+1}
-    \strng{fullhash}{KBOLDCM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    Molecular simulations are a computational technique used to investigate the
-  dynamics of proteins and other molecules. The free energy landscape of these
-  simulations is often rugged, and minor differences in the initial velocities,
-  floating-point precision, or underlying hardware can cause identical
-  simulations (replicas) to take different paths in the landscape. In this
-  study we investigated the magnitude of these effects based on 310\,000 ns of
-  simulation time. We performed 100 identically parametrized replicas of 3000
-  ns each for a small 10 amino acid system as well as 100 identically
-  parametrized replicas of 100 ns each for an 827 residue T-cell receptor/MHC
-  system. Comparing randomly chosen subgroups within these replica sets, we
-  estimated the reproducibility and reliability that can be achieved by a given
-  number of replicas at a given simulation time. These results demonstrate that
-  conclusions drawn from single simulations are often not reproducible and that
-  conclusions drawn from multiple shorter replicas are more reliable than those
-  from a single longer simulation. The actual number of replicas needed will
-  always depend on the question asked and the level of reliability sought. On
-  the basis of our data, it appears that a good rule of thumb is to perform a
-  minimum of five to 10 replicas.%
-    }
-    \verb{doi}
-    \verb 10.1021/acs.jctc.8b00391
-    \endverb
-    \field{issn}{1549-9618}
-    \field{number}{12}
-    \field{pages}{6127\bibrangedash 6138}
-    \field{shorttitle}{Avoiding {{False Positive Conclusions}} in {{Molecular
-  Simulation}}}
-    \field{title}{Avoiding {{False Positive Conclusions}} in {{Molecular
-  Simulation}}: {{The Importance}} of {{Replicas}}}
-    \field{volume}{14}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/USGWJJQ8/Knapp et al. - 2018 - Avoiding Fal
-    \verb se Positive Conclusions in Molecular S.pdf;/home/miro/Zotero/storage/
-    \verb PBLQMUPA/acs.jctc.html
-    \endverb
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{12}
-    \field{year}{2018}
-  \endentry
-
-  \entry{bussi2007}{article}{}
-    \name{author}{3}{}{%
-      {{hash=BG}{%
-         family={Bussi},
-         familyi={B\bibinitperiod},
-         given={Giovanni},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=DD}{%
-         family={Donadio},
-         familyi={D\bibinitperiod},
-         given={Davide},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Parrinello},
-         familyi={P\bibinitperiod},
-         given={Michele},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Institute of Physics}}%
-    }
-    \keyw{Lennard-Jones potential,liquid theory,molecular dynamics
-  method,stochastic processes,water}
-    \strng{namehash}{BG+1}
-    \strng{fullhash}{BGDDPM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The authors present a new molecular dynamics algorithm for sampling the
-  canonical distribution. In this approach the velocities of all the particles
-  are rescaled by a properly chosen random factor. The algorithm is formally
-  justified and it is shown that, in spite of its stochastic nature, a quantity
-  can still be defined that remains constant during the evolution. In numerical
-  applications this quantity can be used to measure the accuracy of the
-  sampling. The authors illustrate the properties of this new method on
-  Lennard-Jones and TIP4P water models in the solid and liquid phases. Its
-  performance is excellent and largely independent of the thermostat parameter
-  also with regard to the dynamic properties. \textcopyright{} 2007 American
-  Institute of Physics.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.2408420
-    \endverb
-    \field{issn}{00219606}
-    \field{number}{1}
-    \field{pages}{014101}
-    \field{title}{Canonical Sampling through Velocity Rescaling}
-    \field{volume}{126}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/XCIDQBAA/Bussi et al. - 2007 - Canonical sa
-    \verb mpling through velocity rescaling.pdf
-    \endverb
-    \field{journaltitle}{Journal of Chemical Physics}
-    \field{annotation}{%
-    \_eprint: 0803.4060%
-    }
-    \field{month}{01}
-    \field{year}{2007}
-  \endentry
-
-  \entry{martyna1992}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MGJ}{%
-         family={Martyna},
-         familyi={M\bibinitperiod},
-         given={Glenn\bibnamedelima J.},
-         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=KML}{%
-         family={Klein},
-         familyi={K\bibinitperiod},
-         given={Michael\bibnamedelima L.},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=TM}{%
-         family={Tuckerman},
-         familyi={T\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MGJ+1}
-    \strng{fullhash}{MGJKMLTM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1063/1.463940
-    \endverb
-    \field{issn}{0021-9606, 1089-7690}
-    \field{number}{4}
-    \field{pages}{2635\bibrangedash 2643}
-    \field{shorttitle}{Nos\'e\textendash{{Hoover}} Chains}
-    \field{title}{Nos\'e\textendash{{Hoover}} Chains: {{The}} Canonical
-  Ensemble via Continuous Dynamics}
-    \field{volume}{97}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/DEJ782VU/Martyna et al. - 1992 - Nosé–Ho
-    \verb over chains The canonical ensemble via con.pdf
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{08}
-    \field{year}{1992}
-  \endentry
-
-  \entry{martyna1996}{article}{}
-    \name{author}{4}{}{%
-      {{hash=MGJ}{%
-         family={Martyna},
-         familyi={M\bibinitperiod},
-         given={Glenn\bibnamedelima J.},
-         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=TME}{%
-         family={Tuckerman},
-         familyi={T\bibinitperiod},
-         given={Mark\bibnamedelima E.},
-         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=TDJ}{%
-         family={Tobias},
-         familyi={T\bibinitperiod},
-         given={Douglas\bibnamedelima J.},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=KML}{%
-         family={Klein},
-         familyi={K\bibinitperiod},
-         given={Michael\bibnamedelima L.},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MGJ+1}
-    \strng{fullhash}{MGJTMETDJKML1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1080/00268979600100761
-    \endverb
-    \field{issn}{0026-8976, 1362-3028}
-    \field{number}{5}
-    \field{pages}{1117\bibrangedash 1157}
-    \field{title}{Explicit Reversible Integrators for Extended Systems
-  Dynamics}
-    \field{volume}{87}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/JQ5FD4B7/Martyna et al. - 1996 - Explicit r
-    \verb eversible integrators for extended syste.pdf
-    \endverb
-    \field{journaltitle}{Molecular Physics}
-    \field{month}{04}
-    \field{year}{1996}
-  \endentry
-
-  \entry{karal2021}{article}{}
-    \name{author}{4}{}{%
-      {{hash=KMAS}{%
-         family={Karal},
-         familyi={K\bibinitperiod},
-         given={Mohammad Abu\bibnamedelima Sayem},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
-      }}%
-      {{hash=AMK}{%
-         family={Ahamed},
-         familyi={A\bibinitperiod},
-         given={Md.\bibnamedelima Kabir},
-         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Ahmed},
-         familyi={A\bibinitperiod},
-         given={Marzuk},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=MZB}{%
-         family={Mahbub},
-         familyi={M\bibinitperiod},
-         given={Zaid\bibnamedelima Bin},
-         giveni={Z\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KMAS+1}
-    \strng{fullhash}{KMASAMKAMMZB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The kinetics of ruptures of giant vesicles under constant tension have been
-  investigated under various conditions, which will help in the application of
-  these techniques in the biomedical, bioengineering, and biotechnological
-  fields. , External tension in membranes plays a vital role in numerous
-  physiological and physicochemical phenomena. In this review, recent
-  developments in the constant electric- and mechanical-tension-induced rupture
-  of giant unilamellar vesicles (GUVs) are considered. We summarize the results
-  relating to the kinetics of GUV rupture as a function of membrane surface
-  charge, ions in the bathing solution, lipid composition, cholesterol content
-  in the membrane, and osmotic pressure. The mechanical stability and line
-  tension of the membrane under these conditions are discussed. The membrane
-  tension due to osmotic pressure and the critical tension of rupture for
-  various membrane compositions are also discussed. The results and their
-  analysis provide a biophysical description of the kinetics of rupture, along
-  with insight into biological processes. Future directions and possible
-  developments in this research area are included.%
-    }
-    \verb{doi}
-    \verb 10.1039/D1RA04647K
-    \endverb
-    \field{issn}{2046-2069}
-    \field{number}{47}
-    \field{pages}{29598\bibrangedash 29619}
-    \field{title}{Recent Developments in the Kinetics of Ruptures of Giant
-  Vesicles under Constant Tension}
-    \field{volume}{11}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/VMKSSNNJ/Karal et al. - 2021 - Recent devel
-    \verb opments in the kinetics of ruptures of.pdf
-    \endverb
-    \field{journaltitle}{RSC Advances}
-    \field{year}{2021}
-  \endentry
-
-  \entry{macdonald2001}{incollection}{}
-    \name{author}{1}{}{%
-      {{hash=MAG}{%
-         family={Macdonald},
-         familyi={M\bibinitperiod},
-         given={Alister\bibnamedelima G.},
-         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \name{editor}{1}{}{%
-      {{hash=SN}{%
-         family={Sperelakis},
-         familyi={S\bibinitperiod},
-         given={Nicholas},
-         giveni={N\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Academic Press}}%
-    }
-    \strng{namehash}{MAG1}
-    \strng{fullhash}{MAG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    This chapter discusses that high hydrostatic pressure affects equilibria
-  and reaction rates through the molar volume changes involved in the reaction
-  system as a whole. The chapter explains how high hydrostatic pressure affects
-  molecules of biological interest, and their interactions; the ways in which
-  pressure affects cellular processes; and how animals, including humans are
-  affected by pressure. Along with high pressure, the chapter also intends to
-  stimulate interest in a particular approach to physiology. The discussion on
-  molecular effects of pressure and temperature includes equilibrium processes
-  in aqueous solution, lipid bilayers under pressure and rates of chemical
-  reactions. It is mentioned that hydrostatic pressure is not directional and
-  that osmotic pressure is also quite separate from hydrostatic pressure.
-  Hydrostatic pressure is a force acting in all directions, in the air one
-  breathes, in water, or in body fluids. While high pressure, surprisingly
-  perhaps, dissociates molecules in aqueous solution, it has the intuitively
-  expected effect on lipid bilayers, compressing and ordering their structure.
-  The thermodynamics of equilibrium processes in aqueous solution, and the
-  phase state of lipid bilayers at high pressure, inevitably fall short of
-  explaining how pressure affects rates of reaction. Muscle, a tissue whose
-  cells are conspicuously filled with polymerized proteins, is affected by high
-  pressure in ways determined by the contraction cycle. Simple processes, such
-  as the diffusion of gases or water in aqueous solution, are little affected
-  by the pressure range of interest here. Chondrocytes are cells, which
-  synthesize the load-bearing extracellular matrixthat covers the articulating
-  surfaces of joints. The buoyancy of aquatic animals subjected to significant
-  pressure is interesting because buoyancy requires the creation of a void or
-  region of low-density, working against the ambient pressure. Animals and
-  bacteria live at high pressures in the deep sea, down to the greatest depths
-  where the pressure is approximately 100 MPa. Several technological
-  applications have arisen from high pressure biology\textemdash the
-  manipulation of ploidy, and of membrane proteins; sterilization and
-  inactivation of microorganisms; food processing; and safe human diving.%
-    }
-    \field{booktitle}{Cell {{Physiology Source Book}} ({{Third Edition}})}
-    \verb{doi}
-    \verb 10.1016/B978-012656976-6/50151-7
-    \endverb
-    \field{isbn}{978-0-12-656976-6}
-    \field{pages}{1003\bibrangedash 1023}
-    \field{title}{59 - {{Effects}} of {{High Pressure}} on {{Cellular
-  Processes}}}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{San Diego}}%
-    }
-    \field{month}{01}
-    \field{year}{2001}
-  \endentry
-
-  \entry{allen1991}{book}{}
-    \name{author}{2}{}{%
-      {{hash=AM}{%
-         family={Allen},
-         familyi={A\bibinitperiod},
-         given={M},
-         giveni={M},
-      }}%
-      {{hash=TD}{%
-         family={Tildesley},
-         familyi={T\bibinitperiod},
-         given={D},
-         giveni={D},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Clarendon Press Oxford}}%
-    }
-    \strng{namehash}{AMTD1}
-    \strng{fullhash}{AMTD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Computer {{Simulation}} of {{Liquids}}}
-    \field{year}{1991}
-  \endentry
-
-  \entry{parrinello1980}{article}{}
-    \name{author}{2}{}{%
-      {{hash=PM}{%
-         family={Parrinello},
-         familyi={P\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=RA}{%
-         family={Rahman},
-         familyi={R\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Physical Society}}%
-    }
-    \strng{namehash}{PMRA1}
-    \strng{fullhash}{PMRA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    With use of a Lagrangian which allows for the variation of the shape and
-  size of the periodically repeating molecular-dynamics cell, it is shown that
-  different pair potentials lead to different crystal structures.%
-    }
-    \verb{doi}
-    \verb 10.1103/PhysRevLett.45.1196
-    \endverb
-    \field{number}{14}
-    \field{pages}{1196\bibrangedash 1199}
-    \field{shorttitle}{Crystal {{Structure}} and {{Pair Potentials}}}
-    \field{title}{Crystal {{Structure}} and {{Pair Potentials}}: {{A
-  Molecular-Dynamics Study}}}
-    \field{volume}{45}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/TELVD5LM/Parrinello and Rahman - 1980 - Cry
-    \verb stal Structure and Pair Potentials A Molecular.pdf;/home/miro/Zotero/
-    \verb storage/UNDAWYKS/PhysRevLett.45.html
-    \endverb
-    \field{journaltitle}{Physical Review Letters}
-    \field{month}{10}
-    \field{year}{1980}
-  \endentry
-
-  \entry{parrinello1981a}{article}{}
-    \name{author}{2}{}{%
-      {{hash=PM}{%
-         family={Parrinello},
-         familyi={P\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=RA}{%
-         family={Rahman},
-         familyi={R\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PMRA1}
-    \strng{fullhash}{PMRA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1063/1.328693
-    \endverb
-    \field{issn}{0021-8979, 1089-7550}
-    \field{number}{12}
-    \field{pages}{7182\bibrangedash 7190}
-    \field{shorttitle}{Polymorphic Transitions in Single Crystals}
-    \field{title}{Polymorphic Transitions in Single Crystals: {{A}} New
-  Molecular Dynamics Method}
-    \field{volume}{52}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/A9HJ63HM/Parrinello and Rahman - 1981 - Pol
-    \verb ymorphic transitions in single crystals A new .pdf
-    \endverb
-    \field{journaltitle}{Journal of Applied Physics}
-    \field{month}{12}
-    \field{year}{1981}
-  \endentry
-
   \entry{phillips2012}{book}{}
     \name{author}{5}{}{%
       {{hash=PR}{%
@@ -2017,6 +1538,491 @@
     \field{year}{2005}
   \endentry
 
+  \entry{knapp2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KB}{%
+         family={Knapp},
+         familyi={K\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OL}{%
+         family={Ospina},
+         familyi={O\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DCM}{%
+         family={Deane},
+         familyi={D\bibinitperiod},
+         given={Charlotte\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{KB+1}
+    \strng{fullhash}{KBOLDCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Molecular simulations are a computational technique used to investigate the
+  dynamics of proteins and other molecules. The free energy landscape of these
+  simulations is often rugged, and minor differences in the initial velocities,
+  floating-point precision, or underlying hardware can cause identical
+  simulations (replicas) to take different paths in the landscape. In this
+  study we investigated the magnitude of these effects based on 310\,000 ns of
+  simulation time. We performed 100 identically parametrized replicas of 3000
+  ns each for a small 10 amino acid system as well as 100 identically
+  parametrized replicas of 100 ns each for an 827 residue T-cell receptor/MHC
+  system. Comparing randomly chosen subgroups within these replica sets, we
+  estimated the reproducibility and reliability that can be achieved by a given
+  number of replicas at a given simulation time. These results demonstrate that
+  conclusions drawn from single simulations are often not reproducible and that
+  conclusions drawn from multiple shorter replicas are more reliable than those
+  from a single longer simulation. The actual number of replicas needed will
+  always depend on the question asked and the level of reliability sought. On
+  the basis of our data, it appears that a good rule of thumb is to perform a
+  minimum of five to 10 replicas.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.8b00391
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{12}
+    \field{pages}{6127\bibrangedash 6138}
+    \field{shorttitle}{Avoiding {{False Positive Conclusions}} in {{Molecular
+  Simulation}}}
+    \field{title}{Avoiding {{False Positive Conclusions}} in {{Molecular
+  Simulation}}: {{The Importance}} of {{Replicas}}}
+    \field{volume}{14}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/USGWJJQ8/Knapp et al. - 2018 - Avoiding Fal
+    \verb se Positive Conclusions in Molecular S.pdf;/home/miro/Zotero/storage/
+    \verb PBLQMUPA/acs.jctc.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{12}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bussi2007}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BG}{%
+         family={Bussi},
+         familyi={B\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Donadio},
+         familyi={D\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \keyw{Lennard-Jones potential,liquid theory,molecular dynamics
+  method,stochastic processes,water}
+    \strng{namehash}{BG+1}
+    \strng{fullhash}{BGDDPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The authors present a new molecular dynamics algorithm for sampling the
+  canonical distribution. In this approach the velocities of all the particles
+  are rescaled by a properly chosen random factor. The algorithm is formally
+  justified and it is shown that, in spite of its stochastic nature, a quantity
+  can still be defined that remains constant during the evolution. In numerical
+  applications this quantity can be used to measure the accuracy of the
+  sampling. The authors illustrate the properties of this new method on
+  Lennard-Jones and TIP4P water models in the solid and liquid phases. Its
+  performance is excellent and largely independent of the thermostat parameter
+  also with regard to the dynamic properties. \textcopyright{} 2007 American
+  Institute of Physics.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.2408420
+    \endverb
+    \field{issn}{00219606}
+    \field{number}{1}
+    \field{pages}{014101}
+    \field{title}{Canonical Sampling through Velocity Rescaling}
+    \field{volume}{126}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/XCIDQBAA/Bussi et al. - 2007 - Canonical sa
+    \verb mpling through velocity rescaling.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Physics}
+    \field{annotation}{%
+    \_eprint: 0803.4060%
+    }
+    \field{month}{01}
+    \field{year}{2007}
+  \endentry
+
+  \entry{martyna1992}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MGJ}{%
+         family={Martyna},
+         familyi={M\bibinitperiod},
+         given={Glenn\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KML}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={Michael\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tuckerman},
+         familyi={T\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGJ+1}
+    \strng{fullhash}{MGJKMLTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1063/1.463940
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{4}
+    \field{pages}{2635\bibrangedash 2643}
+    \field{shorttitle}{Nos\'e\textendash{{Hoover}} Chains}
+    \field{title}{Nos\'e\textendash{{Hoover}} Chains: {{The}} Canonical
+  Ensemble via Continuous Dynamics}
+    \field{volume}{97}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/DEJ782VU/Martyna et al. - 1992 - Nosé–Ho
+    \verb over chains The canonical ensemble via con.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{08}
+    \field{year}{1992}
+  \endentry
+
+  \entry{martyna1996}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MGJ}{%
+         family={Martyna},
+         familyi={M\bibinitperiod},
+         given={Glenn\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=TME}{%
+         family={Tuckerman},
+         familyi={T\bibinitperiod},
+         given={Mark\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=TDJ}{%
+         family={Tobias},
+         familyi={T\bibinitperiod},
+         given={Douglas\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KML}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={Michael\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGJ+1}
+    \strng{fullhash}{MGJTMETDJKML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/00268979600100761
+    \endverb
+    \field{issn}{0026-8976, 1362-3028}
+    \field{number}{5}
+    \field{pages}{1117\bibrangedash 1157}
+    \field{title}{Explicit Reversible Integrators for Extended Systems
+  Dynamics}
+    \field{volume}{87}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/JQ5FD4B7/Martyna et al. - 1996 - Explicit r
+    \verb eversible integrators for extended syste.pdf
+    \endverb
+    \field{journaltitle}{Molecular Physics}
+    \field{month}{04}
+    \field{year}{1996}
+  \endentry
+
+  \entry{karal2021}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KMAS}{%
+         family={Karal},
+         familyi={K\bibinitperiod},
+         given={Mohammad Abu\bibnamedelima Sayem},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=AMK}{%
+         family={Ahamed},
+         familyi={A\bibinitperiod},
+         given={Md.\bibnamedelima Kabir},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Ahmed},
+         familyi={A\bibinitperiod},
+         given={Marzuk},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MZB}{%
+         family={Mahbub},
+         familyi={M\bibinitperiod},
+         given={Zaid\bibnamedelima Bin},
+         giveni={Z\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KMAS+1}
+    \strng{fullhash}{KMASAMKAMMZB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The kinetics of ruptures of giant vesicles under constant tension have been
+  investigated under various conditions, which will help in the application of
+  these techniques in the biomedical, bioengineering, and biotechnological
+  fields. , External tension in membranes plays a vital role in numerous
+  physiological and physicochemical phenomena. In this review, recent
+  developments in the constant electric- and mechanical-tension-induced rupture
+  of giant unilamellar vesicles (GUVs) are considered. We summarize the results
+  relating to the kinetics of GUV rupture as a function of membrane surface
+  charge, ions in the bathing solution, lipid composition, cholesterol content
+  in the membrane, and osmotic pressure. The mechanical stability and line
+  tension of the membrane under these conditions are discussed. The membrane
+  tension due to osmotic pressure and the critical tension of rupture for
+  various membrane compositions are also discussed. The results and their
+  analysis provide a biophysical description of the kinetics of rupture, along
+  with insight into biological processes. Future directions and possible
+  developments in this research area are included.%
+    }
+    \verb{doi}
+    \verb 10.1039/D1RA04647K
+    \endverb
+    \field{issn}{2046-2069}
+    \field{number}{47}
+    \field{pages}{29598\bibrangedash 29619}
+    \field{title}{Recent Developments in the Kinetics of Ruptures of Giant
+  Vesicles under Constant Tension}
+    \field{volume}{11}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/VMKSSNNJ/Karal et al. - 2021 - Recent devel
+    \verb opments in the kinetics of ruptures of.pdf
+    \endverb
+    \field{journaltitle}{RSC Advances}
+    \field{year}{2021}
+  \endentry
+
+  \entry{macdonald2001}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=MAG}{%
+         family={Macdonald},
+         familyi={M\bibinitperiod},
+         given={Alister\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=SN}{%
+         family={Sperelakis},
+         familyi={S\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Academic Press}}%
+    }
+    \strng{namehash}{MAG1}
+    \strng{fullhash}{MAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This chapter discusses that high hydrostatic pressure affects equilibria
+  and reaction rates through the molar volume changes involved in the reaction
+  system as a whole. The chapter explains how high hydrostatic pressure affects
+  molecules of biological interest, and their interactions; the ways in which
+  pressure affects cellular processes; and how animals, including humans are
+  affected by pressure. Along with high pressure, the chapter also intends to
+  stimulate interest in a particular approach to physiology. The discussion on
+  molecular effects of pressure and temperature includes equilibrium processes
+  in aqueous solution, lipid bilayers under pressure and rates of chemical
+  reactions. It is mentioned that hydrostatic pressure is not directional and
+  that osmotic pressure is also quite separate from hydrostatic pressure.
+  Hydrostatic pressure is a force acting in all directions, in the air one
+  breathes, in water, or in body fluids. While high pressure, surprisingly
+  perhaps, dissociates molecules in aqueous solution, it has the intuitively
+  expected effect on lipid bilayers, compressing and ordering their structure.
+  The thermodynamics of equilibrium processes in aqueous solution, and the
+  phase state of lipid bilayers at high pressure, inevitably fall short of
+  explaining how pressure affects rates of reaction. Muscle, a tissue whose
+  cells are conspicuously filled with polymerized proteins, is affected by high
+  pressure in ways determined by the contraction cycle. Simple processes, such
+  as the diffusion of gases or water in aqueous solution, are little affected
+  by the pressure range of interest here. Chondrocytes are cells, which
+  synthesize the load-bearing extracellular matrixthat covers the articulating
+  surfaces of joints. The buoyancy of aquatic animals subjected to significant
+  pressure is interesting because buoyancy requires the creation of a void or
+  region of low-density, working against the ambient pressure. Animals and
+  bacteria live at high pressures in the deep sea, down to the greatest depths
+  where the pressure is approximately 100 MPa. Several technological
+  applications have arisen from high pressure biology\textemdash the
+  manipulation of ploidy, and of membrane proteins; sterilization and
+  inactivation of microorganisms; food processing; and safe human diving.%
+    }
+    \field{booktitle}{Cell {{Physiology Source Book}} ({{Third Edition}})}
+    \verb{doi}
+    \verb 10.1016/B978-012656976-6/50151-7
+    \endverb
+    \field{isbn}{978-0-12-656976-6}
+    \field{pages}{1003\bibrangedash 1023}
+    \field{title}{59 - {{Effects}} of {{High Pressure}} on {{Cellular
+  Processes}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{San Diego}}%
+    }
+    \field{month}{01}
+    \field{year}{2001}
+  \endentry
+
+  \entry{allen1991}{book}{}
+    \name{author}{2}{}{%
+      {{hash=AM}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=TD}{%
+         family={Tildesley},
+         familyi={T\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Clarendon Press Oxford}}%
+    }
+    \strng{namehash}{AMTD1}
+    \strng{fullhash}{AMTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Computer {{Simulation}} of {{Liquids}}}
+    \field{year}{1991}
+  \endentry
+
+  \entry{parrinello1980}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rahman},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Physical Society}}%
+    }
+    \strng{namehash}{PMRA1}
+    \strng{fullhash}{PMRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    With use of a Lagrangian which allows for the variation of the shape and
+  size of the periodically repeating molecular-dynamics cell, it is shown that
+  different pair potentials lead to different crystal structures.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.45.1196
+    \endverb
+    \field{number}{14}
+    \field{pages}{1196\bibrangedash 1199}
+    \field{shorttitle}{Crystal {{Structure}} and {{Pair Potentials}}}
+    \field{title}{Crystal {{Structure}} and {{Pair Potentials}}: {{A
+  Molecular-Dynamics Study}}}
+    \field{volume}{45}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/TELVD5LM/Parrinello and Rahman - 1980 - Cry
+    \verb stal Structure and Pair Potentials A Molecular.pdf;/home/miro/Zotero/
+    \verb storage/UNDAWYKS/PhysRevLett.45.html
+    \endverb
+    \field{journaltitle}{Physical Review Letters}
+    \field{month}{10}
+    \field{year}{1980}
+  \endentry
+
+  \entry{parrinello1981a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rahman},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \keyw{COMPARATIVE EVALUATIONS,COMPRESSION,CONFIGURATION,CUBIC
+  LATTICES,DYNAMICS,HCP LATTICES,IMPACT SHOCK,LAGRANGE
+  EQUATIONS,MONOCRYSTALS,NICKEL,PHASE
+  TRANSFORMATIONS,SIZE,STRAINS,STRESSES,STRUCTURAL MODELS,TENSILE
+  PROPERTIES,THEORETICAL DATA}
+    \strng{namehash}{PMRA1}
+    \strng{fullhash}{PMRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A new Lagrangian formulation is introduced. It can be used to make
+  molecular dynamics (MD) calculations on systems under the most general,
+  externally applied, conditions of stress. In this formulat...%
+    }
+    \verb{doi}
+    \verb 10.1063/1.328693
+    \endverb
+    \field{number}{12}
+    \field{pages}{7182\bibrangedash 7190}
+    \field{title}{Polymorphic Transitions in Single Crystals: {{A}} New
+  Molecular Dynamics Method}
+    \field{volume}{52}
+    \field{journaltitle}{Journal of Applied Physics}
+    \field{month}{12}
+    \field{year}{1981}
+  \endentry
+
   \entry{ngo2021}{article}{}
     \name{author}{6}{}{%
       {{hash=NV}{%
@@ -2238,6 +2244,33 @@
     \field{journaltitle}{Proceedings of the IRE}
     \field{month}{01}
     \field{year}{1949}
+  \endentry
+
+  \entry{leach2009}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LAR}{%
+         family={Leach},
+         familyi={L\bibinitperiod},
+         given={Andrew\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Pearson/Prentice Hall}}%
+    }
+    \strng{namehash}{LAR1}
+    \strng{fullhash}{LAR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{2. ed., 12. [Dr.]}
+    \field{isbn}{978-0-582-38210-7}
+    \field{shorttitle}{Molecular Modelling}
+    \field{title}{Molecular Modelling: Principles and Applications}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Harlow}}%
+    }
+    \field{year}{2009}
   \endentry
 
   \entry{mazur1997}{article}{}
@@ -2595,7 +2628,7 @@
   \endentry
 
   \entry{brooks1988}{book}{}
-    \name{editor}{3}{}{%
+    \name{author}{3}{}{%
       {{hash=BCL}{%
          family={Brooks},
          familyi={B\bibinitperiod},
@@ -2616,25 +2649,22 @@
       }}%
     }
     \list{publisher}{1}{%
-      {{John Wiley \& Sons, Inc.}}%
+      {{Wiley}}%
     }
     \strng{namehash}{BCL+1}
     \strng{fullhash}{BCLKMPBM1}
-    \field{labelnamesource}{editor}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1002/9780470141205
-    \endverb
-    \field{isbn}{978-0-470-14120-5 978-0-471-62801-9}
-    \field{series}{Advances in {{Chemical Physics}}}
-    \field{shorttitle}{Advances in {{Chemical Physics}}}
-    \field{title}{Advances in {{Chemical Physics}}: {{Proteins}}: {{A
-  Theoretical Perspective}} of {{Dynamics}}, {{Structure}}, and
-  {{Thermodynamics}}}
+    \field{isbn}{978-0-471-52977-4 978-0-471-62801-9}
+    \field{number}{71}
+    \field{series}{Advances in Chemical Physics}
+    \field{shorttitle}{Proteins}
+    \field{title}{Proteins: A Theoretical Perspective of Dynamics, Structure,
+  and Thermodynamics}
+    \field{langid}{english}
     \list{location}{1}{%
-      {{Hoboken, NJ, USA}}%
+      {{New York}}%
     }
-    \field{month}{01}
     \field{year}{1988}
   \endentry
 
@@ -2692,7 +2722,16 @@
   provide unbiased exploration of mechanisms, supplemented by biased free
   energy methodologies. We illustrate the use of these approaches to describe
   ion conduction and selectivity in voltage-gated sodium and acid-sensing ion
-  channels. Studies of channel gating present a significant challenge, as ...%
+  channels. Studies of channel gating present a significant challenge, as
+  activation occurs on longer time scales. Enhanced sampling approaches can
+  ensure convergence on minimum free energy pathways for activation, as
+  illustrated here for pentameric ligand-gated ion channels that are principal
+  to nervous system function and the actions of general anesthetics. We also
+  examine recent studies of local anesthetic and antiepileptic drug binding to
+  a sodium channel, revealing sites and pathways that may offer new targets for
+  drug development. Modern simulations thus offer a range of molecular-level
+  insights into ion channel function and modulation as a learning platform for
+  mechanistic discovery and drug development.%
     }
     \verb{doi}
     \verb 10.1021/acs.chemrev.8b00630
@@ -2703,6 +2742,11 @@
     \field{title}{Atomistic {{Simulations}} of {{Membrane Ion Channel
   Conduction}}, {{Gating}}, and {{Modulation}}}
     \field{volume}{119}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/32GBH8TV/Flood et al. - 2019 - Atomistic Si
+    \verb mulations of Membrane Ion Channel Cond.pdf;/home/miro/Zotero/storage/
+    \verb YX5M5KUN/acs.chemrev.html
+    \endverb
     \field{journaltitle}{Chemical Reviews}
     \field{month}{07}
     \field{year}{2019}
@@ -2752,6 +2796,470 @@
     \field{journaltitle}{Advanced Drug Delivery Reviews}
     \field{month}{03}
     \field{year}{2012}
+  \endentry
+
+  \entry{meshkin2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MH}{%
+         family={Meshkin},
+         familyi={M\bibinitperiod},
+         given={Hamed},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZF}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Fangqiang},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{MHZF1}
+    \strng{fullhash}{MHZF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Spontaneous transitions between the native and non-native protein
+  conformations are normally rare events that hardly take place in typical
+  unbiased molecular dynamics simulations. It was recently demonstrated that
+  such transitions can be well described by a reaction coordinate, Q, that
+  represents the collective fraction of the native contacts between the protein
+  atoms. Here we attempt to use this reaction coordinate to enhance the
+  conformational sampling. We perform umbrella sampling simulations with
+  biasing potentials on Q for two model proteins, Trp-Cage and BBA, using the
+  CHARMM force field. Hamiltonian replica exchange is implemented in these
+  simulations to further facilitate the sampling. The simulations appear to
+  have reached satisfactory convergence, resulting in unbiased free energies as
+  a function of Q. In addition to the native structure, multiple folded
+  conformations are identified in the reconstructed equilibrium ensemble. Some
+  conformations without any native contacts nonetheless have rather compact
+  geometries and are stabilized by hydrogen bonds not present in the native
+  structure. Whereas the enhanced sampling along Q reasonably reproduces the
+  equilibrium conformational space, we also find that the folding of an
+  {$\alpha$}-helix in Trp-Cage is a slow degree of freedom orthogonal to Q and
+  therefore cannot be accelerated by biasing the reaction coordinate. Overall,
+  we conclude that whereas Q is an excellent parameter to analyze the
+  simulations, it is not necessarily a perfect reaction coordinate for enhanced
+  sampling, and better incorporation of other slow degrees of freedom may
+  further improve this reaction coordinate.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.6b01171
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{5}
+    \field{pages}{2086\bibrangedash 2097}
+    \field{title}{Thermodynamics of {{Protein Folding Studied}} by {{Umbrella
+  Sampling}} along a {{Reaction Coordinate}} of {{Native Contacts}}}
+    \field{volume}{13}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/5YPPLRHS/Meshkin and Zhu - 2017 - Thermodyn
+    \verb amics of Protein Folding Studied by Umbre.pdf;/home/miro/Zotero/stora
+    \verb ge/5MZIBIQP/acs.jctc.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{05}
+    \field{year}{2017}
+  \endentry
+
+  \entry{domanski2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DJ}{%
+         family={Doma{\'n}ski},
+         familyi={D\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hedger},
+         familyi={H\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BRB}{%
+         family={Best},
+         familyi={B\bibinitperiod},
+         given={Robert\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=SPJ}{%
+         family={Stansfeld},
+         familyi={S\bibinitperiod},
+         given={Phillip\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SMSP}{%
+         family={Sansom},
+         familyi={S\bibinitperiod},
+         given={Mark S.\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJHGBRBSPJSMSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Potential of mean force (PMF) calculations are used to characterize the
+  free energy landscape of protein\textendash lipid and protein\textendash
+  protein association within membranes. Coarse-grained simulations allow
+  binding free energies to be determined with reasonable statistical error.
+  This accuracy relies on defining a good collective variable to describe the
+  binding and unbinding transitions, and upon criteria for assessing the
+  convergence of the simulation toward representative equilibrium sampling. As
+  examples, we calculate protein\textendash lipid binding PMFs for
+  ANT/cardiolipin and Kir2.2/PIP2, using umbrella sampling on a distance
+  coordinate. These highlight the importance of replica exchange between
+  windows for convergence. The use of two independent sets of simulations,
+  initiated from bound and unbound states, provide strong evidence for
+  simulation convergence. For a model protein\textendash protein interaction
+  within a membrane, center-of-mass distance is shown to be a poor collective
+  variable for describing transmembrane helix\textendash helix dimerization.
+  Instead, we employ an alternative intermolecular distance matrix RMS (DRMS)
+  coordinate to obtain converged PMFs for the association of the glycophorin
+  transmembrane domain. While the coarse-grained force field gives a reasonable
+  Kd for dimerization, the majority of the bound population is revealed to be
+  in a near-native conformation. Thus, the combination of a refined reaction
+  coordinate with improved sampling reveals previously unnoticed complexities
+  of the dimerization free energy landscape. We propose the use of
+  replica-exchange umbrella sampling starting from different initial conditions
+  as a robust approach for calculation of the binding energies in membrane
+  simulations.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jpcb.6b08445
+    \endverb
+    \field{issn}{1520-6106}
+    \field{number}{15}
+    \field{pages}{3364\bibrangedash 3375}
+    \field{title}{Convergence and {{Sampling}} in {{Determining Free Energy
+  Landscapes}} for {{Membrane Protein Association}}}
+    \field{volume}{121}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/UELJV98D/Domański et al. - 2017 - Converge
+    \verb nce and Sampling in Determining Free Energ.pdf;/home/miro/Zotero/stor
+    \verb age/E8RVX2L5/acs.jpcb.html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry B}
+    \field{month}{04}
+    \field{year}{2017}
+  \endentry
+
+  \entry{zhu2012b}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZF}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Fangqiang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hummer},
+         familyi={H\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZFHG1}
+    \strng{fullhash}{ZFHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    GLIC is a bacterial member of the large family of pentameric ligand-gated
+  ion channels. To study ion conduction through GLIC and other membrane
+  channels, we combine the one-dimensional potential of mean force for ion
+  passage with a Smoluchowski diffusion model, making it possible to calculate
+  single-channel conductance in the regime of low ion concentrations from
+  all-atom molecular dynamics (MD) simulations. We then perform MD simulations
+  to examine sodium ion conduction through the GLIC transmembrane pore in two
+  systems with different bulk ion concentrations. The ion potentials of mean
+  force, calculated from umbrella sampling simulations with Hamiltonian replica
+  exchange, reveal a major barrier at the hydrophobic constriction of the pore.
+  The relevance of this barrier for ion transport is confirmed by a committor
+  function that rises sharply in the barrier region. From the free evolution of
+  Na(+) ions starting at the barrier top, we estimate the effective diffusion
+  coefficient in the barrier region, and subsequently calculate the conductance
+  of the pore. The resulting diffusivity compares well with the
+  position-dependent ion diffusion coefficient obtained from restrained
+  simulations. The ion conductance obtained from the diffusion model agrees
+  with the value determined via a reactive-flux rate calculation. Our results
+  show that the conformation in the GLIC crystal structure, with an estimated
+  conductance of \textasciitilde 1 picosiemens at 140 mM ion concentration, is
+  consistent with a physiologically open state of the channel.%
+    }
+    \verb{doi}
+    \verb 10.1021/ct2009279
+    \endverb
+    \field{issn}{1549-9626}
+    \field{number}{10}
+    \field{pages}{3759\bibrangedash 3768}
+    \field{title}{Theory and Simulation of Ion Conduction in the Pentameric
+  {{GLIC}} Channel}
+    \field{volume}{8}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/YADL7M58/Zhu and Hummer - 2012 - Theory and
+    \verb  simulation of ion conduction in the pen.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{10}
+    \field{year}{2012}
+  \endentry
+
+  \entry{subramanian2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SN}{%
+         family={Subramanian},
+         familyi={S\bibinitperiod},
+         given={Nandhitha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={{Schumann-Gillett}},
+         familyi={S\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MAE}{%
+         family={Mark},
+         familyi={M\bibinitperiod},
+         given={Alan\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=OML}{%
+         family={O'Mara},
+         familyi={O\bibinitperiod},
+         given={Megan\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{SN+1}
+    \strng{fullhash}{SNSAMAEOML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The human multidrug transporter P-glycoprotein (P-gp) transports over 200
+  chemically diverse substrates, influencing their bioavailability and tissue
+  distribution. Pharmacological studies have identified both competitive and
+  noncompetitive P-gp substrates, but neither the precise location of the
+  substrate binding sites, nor the basis of competitive and noncompetitive
+  interactions has been fully characterized. Here, potential of mean force
+  (PMF) calculations are used to identify the transport-competent minimum free
+  energy binding locations of five compounds, Hoechst 33342, Rhodamine 123,
+  paclitaxel, tariquidar, and verapamil to P-gp. Unrestrained molecular
+  dynamics simulations were also performed to confirm the substrates were
+  stable in the energy wells determined using the PMF calculations. All
+  compounds had energy minima within the P-gp transmembrane (TM) pore. For
+  Hoechst 33342 and Rhodamine 123, a second minimum outside the TM pore was
+  also identified. Based on this and previous studies of nicardipine and
+  morphine [ Subramanian et al. J. Chem. Inf. Model. 2015, 55, 1202 ], a
+  general scheme that accounts for the observed noncompetitive and competitive
+  substrate interactions with P-gp is proposed.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jcim.8b00624
+    \endverb
+    \field{number}{5}
+    \field{pages}{2287\bibrangedash 2298}
+    \field{title}{Probing the {{Pharmacological Binding Sites}} of
+  {{P-Glycoprotein Using Umbrella Sampling Simulations}}}
+    \field{volume}{59}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/KZN8FC9Y/Subramanian et al. - 2019 - Probin
+    \verb g the Pharmacological Binding Sites of P-Gly.pdf;/home/miro/Zotero/st
+    \verb orage/7PHQFPAU/acs.jcim.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Information and Modeling}
+    \field{month}{05}
+    \field{year}{2019}
+  \endentry
+
+  \entry{you2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YW}{%
+         family={You},
+         familyi={Y\bibinitperiod},
+         given={Wanli},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=TZ}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Zhiye},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CCeA}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Chia-en\bibnamedelima A.},
+         giveni={C\bibinithyphendelim e\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{YW+1}
+    \strng{fullhash}{YWTZCCeA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Changes in free energy provide valuable information for molecular
+  recognition, including both ligand\textendash receptor binding thermodynamics
+  and kinetics. Umbrella sampling (US), a widely used free energy calculation
+  method, has long been used to explore the dissociation process of
+  ligand\textendash receptor systems and compute binding free energy. In
+  existing publications, the binding free energy computed from the potential of
+  mean force (PMF) with US simulation mostly yielded ``ball park'' values with
+  experimental data. However, the computed PMF values are highly influenced by
+  factors such as initial conformations and/or trajectories provided, the
+  reaction coordinate, and sampling of conformational space in each US window.
+  These critical factors have rarely been carefully studied. Here we used US to
+  study the guest aspirin and 1-butanol dissociation processes of
+  {$\beta$}-cyclodextrin ({$\beta$}-CD) and an inhibitor SB2 dissociation from
+  a p38{$\alpha$} mitogen-activated protein kinase (MAPK) complex. For
+  {$\beta$}-CD, we used three different {$\beta$}-CD conformations to generate
+  the dissociation path with US windows. For p38{$\alpha$}, we generated the
+  dissociation pathway by using accelerated molecular dynamics followed by
+  conformational relaxing with short conventional MD, steered MD, and manual
+  pulling. We found that, even for small {$\beta$}-CD complexes, different
+  {$\beta$}-CD conformations altered the height of the PMF, but the pattern of
+  PMF was not affected if the MD sampling in each US window was well-converged.
+  Because changing the macrocyclic ring conformation needs to rotate dihedral
+  angles in the ring, a bound ligand largely restrains the motion of
+  cyclodextrin. Therefore, once a guest is in the binding site, cyclodextrin
+  cannot freely change its initial conformation, resulting in different
+  absolute heights of the PMF, which cannot be overcome by running excessively
+  long MD simulations for each US window. Moreover, if the US simulations were
+  not converged, the important barrier and minimum were missed. For
+  ligand\textendash protein systems, our studies also suggest that the
+  dissociation trajectories modeled by an enhanced sampling method must
+  maintain a natural molecular movement to avoid biased PMF plots when using US
+  simulations.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.8b01142
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{4}
+    \field{pages}{2433\bibrangedash 2443}
+    \field{shorttitle}{Potential {{Mean Force}} from {{Umbrella Sampling
+  Simulations}}}
+    \field{title}{Potential {{Mean Force}} from {{Umbrella Sampling
+  Simulations}}: {{What Can We Learn}} and {{What Is Missed}}?}
+    \field{volume}{15}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/WPLIPNVS/You et al. - 2019 - Potential Mean
+    \verb  Force from Umbrella Sampling Simula.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
+
+  \entry{zhu2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZF}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Fangqiang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hummer},
+         familyi={H\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Algorithms,Computer Simulation,Models; Biological,Models;
+  Statistical,Sodium,Sodium Channels,Thermodynamics}
+    \strng{namehash}{ZFHG1}
+    \strng{fullhash}{ZFHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The weighted histogram analysis method (WHAM) has become the standard
+  technique for the analysis of umbrella sampling simulations. In this article,
+  we address the challenges (1) of obtaining fast and accurate solutions of the
+  coupled nonlinear WHAM equations, (2) of quantifying the statistical errors
+  of the resulting free energies, (3) of diagnosing possible systematic errors,
+  and (4) of optimally allocating of the computational resources.
+  Traditionally, the WHAM equations are solved by a fixed-point direct
+  iteration method, despite poor convergence and possible numerical
+  inaccuracies in the solutions. Here, we instead solve the mathematically
+  equivalent problem of maximizing a target likelihood function, by using
+  superlinear numerical optimization algorithms with a significantly faster
+  convergence rate. To estimate the statistical errors in one-dimensional free
+  energy profiles obtained from WHAM, we note that for densely spaced umbrella
+  windows with harmonic biasing potentials, the WHAM free energy profile can be
+  approximated by a coarse-grained free energy obtained by integrating the mean
+  restraining forces. The statistical errors of the coarse-grained free
+  energies can be estimated straightforwardly and then used for the WHAM
+  results. A generalization to multidimensional WHAM is described. We also
+  propose two simple statistical criteria to test the consistency between the
+  histograms of adjacent umbrella windows, which help identify inadequate
+  sampling and hysteresis in the degrees of freedom orthogonal to the reaction
+  coordinate. Together, the estimates of the statistical errors and the
+  diagnostics of inconsistencies in the potentials of mean force provide a
+  basis for the efficient allocation of computational resources in free energy
+  simulations.%
+    }
+    \verb{doi}
+    \verb 10.1002/jcc.21989
+    \endverb
+    \field{issn}{1096-987X}
+    \field{number}{4}
+    \field{pages}{453\bibrangedash 465}
+    \field{title}{Convergence and Error Estimation in Free Energy Calculations
+  Using the Weighted Histogram Analysis Method}
+    \field{volume}{33}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/5AQKP3HN/Zhu and Hummer - 2012 - Convergenc
+    \verb e and error estimation in free energy ca.pdf
+    \endverb
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{02}
+    \field{year}{2012}
+  \endentry
+
+  \entry{kastner2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KJ}{%
+         family={K{\"a}stner},
+         familyi={K\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJ1}
+    \strng{fullhash}{KJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1002/wcms.66
+    \endverb
+    \field{issn}{17590876}
+    \field{number}{6}
+    \field{pages}{932\bibrangedash 942}
+    \field{shorttitle}{Umbrella Sampling}
+    \field{title}{Umbrella Sampling: {{Umbrella}} Sampling}
+    \field{volume}{1}
+    \field{langid}{english}
+    \field{journaltitle}{Wiley Interdisciplinary Reviews: Computational
+  Molecular Science}
+    \field{month}{11}
+    \field{year}{2011}
   \endentry
 
   \entry{boucher2007}{misc}{}
@@ -3210,7 +3718,6 @@
     \verb{doi}
     \verb 10.1016/j.cell.2017.06.041
     \endverb
-    \field{issn}{10974172}
     \field{number}{3}
     \field{pages}{483\bibrangedash 491.e8}
     \field{title}{Conformational {{Changes}} of {{CFTR}} upon
