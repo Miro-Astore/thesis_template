@@ -3,7 +3,7 @@
 \numberwithin{equation}{chapter}
 \label{chap:methods}
 
-This chapter is written for somebody who has studied undergraduate physics and now wishes to model biological systems at the molecular level. Care is taken to dive deeper into the mathematical formulations of simulation methods than is conventionally given in introductory texts. Essentially, these are the explanations for the physics of the simulations I wish I was given when I started doing them. An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019}. We will go flesh out the physics in some more detail here but this article provides a broader overview of different techniques and resources for where one might be able to find more physical details. We assume natural units for all equations. 
+This chapter is written for somebody who has studied undergraduate physics and now wishes to model biological systems at the molecular level. Care is taken to dive deeper into the mathematical formulations of simulation methods than is conventionally given in introductory texts. Essentially, these are the explanations for the physics of the simulations I wish I was given when I started doing them. An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019} followed by \cite{gapsys2020} for statistical rigour and \cite{pohorille2010} for free energy calculations. We assume natural units for all equations. 
 
 \section{Quantum Mechanics is Not Tractable at the Scale of Biology.}
 Living things are made of atoms and atoms themselves are composed of many particles. The motions of atoms and their constituent particles are governed by quantum mechanics. Unfortunately, performing simulations for the number of atoms involved in proteins and other cellular components at quantum mechanical accuracy is impossible. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply approximations in order to produce a model which is capable of simulating macromolecular systems at biologically relevant timescales. 
@@ -392,7 +392,7 @@ The slow time step demanded in classical MD due to the fast motions of certain a
 
 Methods are now emerging which intelligently drive the simulation toward regions unexplored in the collective variable space by unbiased simulations. For some time the field has used steered methods or adaptive sampling methods such as Umbrella Sampling or Metadynamics to drive the simulation toward sections of the energy landscape which are under sampled. These methods universally rely on a choice of collective variable which closely corresponds to a slow degree of freedom. Such a choice is not usually simple. In the case of ion channels one may rationally choose the placement of the ion along the conduction pathway as the collective variable but the choice is less obvious in the case of more global conformational changes.
 
-The success of simulations at the millisecond timescale by D.E Shaw research suggest that we are in reach of an exciting area in biological research \cite{}. Enhanced sampling methods will be able to routinely reach motions that occur on these time scales and as software and hardware improve we will be able to push further for larger systems. This indicates that the enhanced sampling approach holds great promise.
+The success of simulations at the millisecond timescale by D.E Shaw research suggest that we are in reach of an exciting area in biological research \cite{lindorff-larsen2016}. Enhanced sampling methods will be able to routinely reach motions that occur on these time scales and as software and hardware improve we will be able to push further for larger systems. This indicates that the enhanced sampling approach holds great promise.
 
 The advances we are seeing at the moment which I find exciting are the use of machine learning methods to tease out these degrees of freedom in order to accelerate them with already established free energy methods. These have the potential to uncover new drug binding pockets and revolutionise our understanding of biomolecular systems. 
 
@@ -402,7 +402,7 @@ The discrete time step, $\Delta t$ in equation \ref{verlet}, is one of the most 
 
 Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, emperically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2009}. The Verlet leap-frog scheme used in most MD codes requires 5 integration steps per period of the fastest harmonic oscillation in a system \cite{mazur1997}\cite{feenstra1999}. The choice of too large a timestep means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
 
-The use of schemes such as hydrogen mass repartitioning \cite{balusek2019}, virtual site topologies \cite{feenstra1999} and multiple time step schemes\cite{} have also gained popularity in recent years in order to increase time steps further, to $\Delta t = 5$fs. 
+The use of schemes such as hydrogen mass repartitioning \cite{balusek2019}, virtual site topologies \cite{feenstra1999} and multiple time step schemes\cite{streett1978} have also gained popularity in recent years in order to increase time steps further, to $\Delta t = 5$fs. 
 
 \begin{table}
 	\label{timescales}
@@ -441,15 +441,12 @@ The use of schemes such as hydrogen mass repartitioning \cite{balusek2019}, virt
 As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. This follows from the 3600cm$^{-1}$ peak in the resonance infrared resonance spectrum of biomolecules corresponding to the bond stretching oscillation of the H-O bond. \cite{schlick2010} Setting the time step of simluations to 1/10th of this period gives sufficient gives the Verlet integrator sufficient resolution to capture the motion and maintain the stability of the energy function.
 
 \subsection{ Verlet Leap-Frog Integration}
-Due to the large number of timesteps we have to iterate our system through we must use a symplectic integrator. This unfortunatley means we cannot use 4th order solvers such as the Runge Kutta method which would allow usto use a larger timestep. We are thus limited to symplectic 2nd order methods such as verlet integration\cite{}. 
-
-By Newton's 2nd law we can use the potential $U_{MM}$ which we calculated with equation \ref{CHARMM_effective_potential_eq} and calculate the forces exerted on the atoms in the system. 
-
+To produce molecular trajectories we can use the potential $U_{MM}$ which we calculated with equation \ref{CHARMM_effective_potential_eq} and calculate the forces exerted on the atoms in the system.  By Newton's 2nd law ew have 
 \begin{equation}
-	\bold{a}_i = \frac{d^2 \bold{x}_i(t)}{dt^2} = - \frac{1}{M_i} \nabla_i U_{MM}(\bold{x}_i)
+	\bold{a(\bold{x})}_i = \frac{d^2 \bold{x}_i(t)}{dt^2} = - \frac{1}{M_i} \nabla_i U_{MM}(\bold{x}_i).
 \end{equation}
  
-We can use this calculation of acceleration to update the postions and velocities of the atoms in the molecular system with the following triplet of equations known as the leapfrog verlet method \cite{schlick2010}:
+We can use this calculation of acceleration $a_i$ of the $i$th atom to update the postions and velocities of the atoms in the molecular system with the following triplet of equations known as the leap-frog verlet method \cite{schlick2010}:
 
 \begin{equation} \label {leap-frog_equation}
 	\begin{aligned}
@@ -459,6 +456,8 @@ We can use this calculation of acceleration to update the postions and velocitie
 	\end{aligned}
  \end{equation}
  Note that $v_i^{n-1/2}$ will have  been calculated during the previous time step and $a_i^{n+1}$ may be  calculated by the updated positions found by calculating  $\bold{x}^{n+1}_i$.
+
+ In MD, we are less concerned with the accuracy of a particular trajectory so much as collecting sufficient statistics to calculate macroscopic properties such as free energies or diffusion profiles. This means the choice 4th order solvers such as the Runge Kutta method would be innapropriate. Although they may use a large timestep they require 4 evaluations of $U_{MM}$ per timestep and are thus expensive. Hence, we prefer symplectic (energy preserving), 2nd order methods such as verlet integration so the simulation remains stable after millions of timesteps\cite{streett1978}. 
 
 \section{Free Energy Calculations: Making Simulations More Useful}
 The above work sets out how to perform what is known as unbiased MD simulations. These are powerful tools but as mentioned in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. Imagine there is an event our system undergoes that we know from experimental evidence our system must exist but is slow. Examples of this include the passage of an ion through a channel and the binding of a drug. We \textit{could} estimate the energetics of the slow process by looking at the statistics collected from unbiased simulations
@@ -502,7 +501,7 @@ Where $\xi_0^n$ is the equilibrium position of the restraint. $k_{\xi}^n$ is the
 Umbrella sampling is extremly useful for calculating all sorts of experimental quantities and physiologically relevant proprties such as folding energies \cite{meshkin2017}, lipid binding \cite{domanski2017}, ion conduction \cite{zhu2012b}, and drug binding \cite{subramanian2019}. However, it is particularly sensetive to the choice of initial configuration and collective variable \cite{domanski2017}. The former issue is partiuclar to umbrella sampling because generally short runs are used since so many windows are spawned during the method, the simulations must be at equilibrium \textit{before} the method is attempted, and then sufficient statistics must be collected to average over any conformational changes orthogonal to the collective variable. In these ways, care must be taken when using this method to not introduce systematic error into the calculation \cite{you2019}. A deep knowledge of the molecular system under investigation can help aleviate some of these issues. 
 
 \subsubsection{Weighted Histogram Average Method (WHAM)}
-There a few candidates for calculating the PMF using the statistics calculated in umbrella sampling. The Weighted Histogram Average Method (WHAM)\cite{}, Umbrella Integration and the Multistate Bennet Acceptance Ratio (MBAR)\cite{}. We will breifly outline the mathematical formulation and estimation of errors of the former as it is more popular\cite{zhu2012}. Our explanation follows \cite{kastner2011} which covers the topic in more detail.
+There a few candidates for calculating the PMF using the statistics calculated in umbrella sampling. The Weighted Histogram Average Method (WHAM)\cite{kumar1992}, Umbrella Integration (UI)\cite{kastner2005} and the Multistate Bennet Acceptance Ratio (MBAR)\cite{kim2012} are all used. We will breifly outline the mathematical formulation and estimation of errors of the WHAM method as it is more popular\cite{zhu2012}. Our explanation follows \cite{kastner2011} which covers the topic in more detail.
 
 The unbiased PMF can be estimated (poorly) from the $i$th biased window using 
 
@@ -510,29 +509,37 @@ The unbiased PMF can be estimated (poorly) from the $i$th biased window using
 	P^{unbiased}_i(\xi) = P^{biased}_i(\xi) \exp(\beta U^{biased}_i (\xi)) \langle \exp(-\beta U^{biased}_i (\xi))\rangle
 \end{equation}
 
-Where $P$ is simply the probability density function of samples collected at point $\xi$ 
+Where the functions $P$ represent the probability density function calculated from samples collected at point $\xi$ 
 
-We splitting the data from our individual windows into several bins in the CV space along $xi$. The samples collected in each of these regions gives us an estimate of the PMF in the region according to equation \ref{}. These estimates are combined using
+We begin splitting the data from our individual windows into several bins in the CV space along $xi$. The samples collected in each of these regions gives us an estimate of the PMF in the region according to equation \ref{}. These estimates are combined using
 
 \begin{equation}
 	P^u_\xi = \sum_i^N p_i(\xi)P^u_i (\xi)
 \end{equation}
 
-where weights, $p_i$ are chosen such that the statistical error is minimised. This means an optimisation problem of the form 
+where weights, $p_i$ are chosen such that the statistical error is minimised. This means an optimisation problem for the variance of the unbiased estimates
 
 \begin{equation}
 	\frac{\partial\text{Var} (P^u)}{\partial p_i}
 \end{equation}
 
-Is solved to give the best estimates of the PMF given the data that has been collected. 
+is solved to give the best estimates of the PMF given the data that has been collected. Essentially we are shifting the estimates obtained in each of the histograms in order to minimise the error accross the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distribution of $P^u_i (\xi)$ and constructing PMFs from these independent samples. The Standard Error of the Mean (SEM) can then be used to estimate the error accross the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM of independent samples has fallen below 1kcal/mol accross the region of interest. Note that there may be sources of systematic error not captured by this criterion. 
 
 \subsection{Metadynamics}
-Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. 
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{figures/METAD_demonstration.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Illustration of Metadynamics] {\textbf{Illustration of Metadynamics}}{A) B)}
+	\caption[Illustration of Metadynamics] {\textbf{Illustration of Metadynamics}}{A) B) Source\cite{bussi2020}:}
 	\label{umbrella_sampling_illustration}
 \end{figure}
+Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. This method is more suited to an exploration of free energy space where it can intelligently explore regions which are poorly sampled, whereas umbrella sampling requires some foreknowledge of the surface being investigated. However, metadynamics can be very difficult converge.
+
+The method relies on a time dependent form of $U_{bias}$ given by 
+
+\begin{equation}
+	U_{bias} (\xi,t) = \sum\limits_{\substack{t' = \tau_D, 2 \tau_D,... \\ t' < t}} 
+\end{equation}
+
+ This means the simulation is dropping virtual, replusive gaussian potentials at the positions along $\xi$ in order to encourage the simulation to sample regions of $\xi$ it has not visited already. The thermodynamic assumption of this method is that the deposition is done slow enough that the system remains at equilibrium, so the gaussian height $W$ is chosen to be 0.1-0.2 kJ/mol in molecular systems. Usually, the gaussian widths $\sigma$ are chosen to be the size of the variance in the unbiased measurements of $\xi$. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.21)  24 MAY 2022 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.21)  24 MAY 2022 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1519,6 +1519,9 @@ LaTeX Warning: Citation 'Hoffstadter2008' on page 3 undefined on input line 49.
 
 [3] [4] [5]) (./08-Methods.tex [6]
 Chapter 2.
+
+LaTeX Warning: Citation 'pohorille2010' on page 7 undefined on input line 6.
+
 [7
 
 ] [8]
@@ -1532,25 +1535,25 @@ Overfull \hbox (14.73613pt too wide) in paragraph at lines 127--127
  []
 
 [10]
-<figures/bonded_interactions.pdf, id=382, 355.57504pt x 286.09044pt>
+<figures/bonded_interactions.pdf, id=384, 355.57504pt x 286.09044pt>
 File: figures/bonded_interactions.pdf Graphic file (type pdf)
 <use figures/bonded_interactions.pdf>
 Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 15
 5.
 (pdftex.def)             Requested size: 284.52756pt x 228.93376pt.
  [11] [12 <./figures/bonded_interactions.pdf>]
-<figures/QM_MM_compared.pdf, id=534, 2644.36272pt x 1348.22972pt>
+<figures/QM_MM_compared.pdf, id=536, 2644.36272pt x 1348.22972pt>
 File: figures/QM_MM_compared.pdf Graphic file (type pdf)
 <use figures/QM_MM_compared.pdf>
 Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 181.
 (pdftex.def)             Requested size: 441.01773pt x 224.83469pt.
-<figures/LJ_figure.pdf, id=537, 968.16644pt x 471.10486pt>
+<figures/LJ_figure.pdf, id=539, 968.16644pt x 471.10486pt>
 File: figures/LJ_figure.pdf Graphic file (type pdf)
 <use figures/LJ_figure.pdf>
 Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 192.
 (pdftex.def)             Requested size: 441.01773pt x 214.59744pt.
  [13 <./figures/QM_MM_compared.pdf>]
-<figures/PME_miro.pdf, id=592, 1433.26959pt x 878.70018pt>
+<figures/PME_miro.pdf, id=594, 1433.26959pt x 878.70018pt>
 File: figures/PME_miro.pdf Graphic file (type pdf)
 <use figures/PME_miro.pdf>
 Package pdftex.def Info: figures/PME_miro.pdf  used on input line 206.
@@ -1570,7 +1573,14 @@ LaTeX Warning: Reference `timescales' on page 21 undefined on input line 389.
 
 [21]
 
+LaTeX Warning: Citation 'lindorff-larsen2016' on page 22 undefined on input lin
+e 395.
+
+
 LaTeX Warning: Reference `verlet' on page 22 undefined on input line 401.
+
+
+LaTeX Warning: Citation 'streett1978' on page 22 undefined on input line 405.
 
 
 Package caption Warning: \label without proper reference on input line 408.
@@ -1579,41 +1589,57 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `timescales' on page 22 undefined on input line 441.
 
-[22] [23]
+[22]
+
+LaTeX Warning: Citation 'streett1978' on page 23 undefined on input line 460.
+
+[23]
 
 LaTeX Warning: Reference `sampling_problem' on page 24 undefined on input line 
-464.
+463.
 
-<figures/umbrella_sampling.png.pdf, id=842, 1054.59818pt x 326.65247pt>
+<figures/umbrella_sampling.png.pdf, id=843, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
-477.
+483.
 (pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
 [24] [25 <./figures/umbrella_sampling.png.pdf>]
 
-LaTeX Warning: Reference `' on page 26 undefined on input line 508.
+LaTeX Warning: Citation 'kumar1992' on page 26 undefined on input line 504.
 
-<figures/METAD_demonstration.pdf, id=887, 229.83649pt x 294.60641pt>
+
+LaTeX Warning: Citation 'kastner2005' on page 26 undefined on input line 504.
+
+
+LaTeX Warning: Citation 'kim2012' on page 26 undefined on input line 504.
+
+
+LaTeX Warning: Reference `' on page 26 undefined on input line 514.
+
+<figures/METAD_demonstration.pdf, id=885, 229.83649pt x 294.60641pt>
 File: figures/METAD_demonstration.pdf Graphic file (type pdf)
 <use figures/METAD_demonstration.pdf>
-Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 52
-7.
+Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 53
+1.
 (pdftex.def)             Requested size: 308.71106pt x 395.74602pt.
-) (./09-CFTR-Review.tex [26] [27 <./figures/METAD_demonstration.pdf>]
+
+LaTeX Warning: Citation 'bussi2020' on page 26 undefined on input line 534.
+
+[26] [27 <./figures/METAD_demonstration.pdf>]) (./09-CFTR-Review.tex [28]
 Chapter 3.
-[28
+[29
 
 ]
-<figures/CFTR_structure.pdf, id=920, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=928, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
 Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
 (pdftex.def)             Requested size: 441.01773pt x 181.19447pt.
- [29 <./figures/CFTR_structure.pdf>] [30] [31] [32] [33])
-(./15-Conclusion.tex [34]
+ [30 <./figures/CFTR_structure.pdf>] [31] [32] [33] [34])
+(./15-Conclusion.tex [35]
 Chapter 4.
-) (./16-Appendix.tex [35
+) (./16-Appendix.tex [36
 
 ])
 
@@ -1626,15 +1652,15 @@ Overfull \hbox (3.59633pt too wide) in paragraph at lines 184--184
 ol-ogy and Trans-la-tional Sci-ence\OT1/cmr/m/n/12 , Strodel,
  []
 
-[36
+[37
 
-] [37]
+] [38]
 Overfull \hbox (10.70018pt too wide) in paragraph at lines 184--184
 []\OT1/cmr/m/n/12 Robustelli, P.; Ibanez-de-Opakua, A.; Campbell-Bezat, C.; Gio
 r-danetto, F.; Becker,
  []
 
-[38] [39] [40] [41
+[39] [40] [41] [42
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
@@ -1661,13 +1687,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30746 strings out of 481239
- 565349 string characters out of 5920377
- 1194033 words of memory out of 5000000
- 45171 multiletter control sequences out of 15000+600000
+ 30750 strings out of 481239
+ 565401 string characters out of 5920377
+ 1194292 words of memory out of 5000000
+ 45172 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,96p,1410b,2914s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,96p,1410b,2909s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1688,10 +1714,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (56 pages, 7267630 bytes).
+Output written on main.pdf (57 pages, 7271514 bytes).
 PDF statistics:
- 1225 PDF objects out of 1440 (max. 8388607)
- 1030 compressed objects within 11 object streams
- 223 named destinations out of 1000 (max. 500000)
+ 1233 PDF objects out of 1440 (max. 8388607)
+ 1037 compressed objects within 11 object streams
+ 226 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -55,36 +55,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.8}Free Energy Calculations: Making Simulations More Useful}{24}{section.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.1}Umbrella Sampling}{24}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.1}Umbrella Sampling}{25}{subsection.2.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{25}{section*.16}%
+\contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{26}{section*.16}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.8.2}Metadynamics}{26}{subsection.2.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{28}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{29}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{30}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CFTR Structure}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.2}CFTR Structure}{31}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR classification and structure}{31}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{31}{section.3.4}%
+\contentsline {section}{\numberline {3.4}The Gating Cycle}{32}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{31}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{32}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{32}{section.3.6}%
+\contentsline {section}{\numberline {3.6}CFTR Modulators}{33}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{32}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Correctors}{33}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Potentiators}{32}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Potentiators}{33}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{33}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{34}{subsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{34}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{35}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Concluding Remarks}{35}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Concluding Remarks}{36}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{36}{section*.19}%
+\contentsline {section}{References}{37}{section*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{36}{appendix*.20}%
+\contentsline {chapter}{Bibliography}{37}{appendix*.20}%
