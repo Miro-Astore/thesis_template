@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="128.51732"
-     inkscape:cy="129.59795"
+     inkscape:zoom="2.8"
+     inkscape:cx="288.67717"
+     inkscape:cy="170.09854"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -264,15 +264,17 @@
          id="path74"
          inkscape:connector-curvature="0" />
     </g>
-    <g
-       id="g76"
-       transform="matrix(0.35277777,0,0,-0.35277777,355.42767,467.25594)">
-      <path
-         d="m 0,0 1.609,-5.838 1.972,-6.616 c 26.955,-88.031 46.109,0.051 68.783,-17.824 l 1.971,-1.713 1.972,-2.05 1.947,-2.257 1.971,-2.257 c 3.03,-3.306 7.014,-7.781 11.806,-4.515 l 1.946,1.609 1.972,2.154 c 4.132,5.096 7.169,10.832 11.805,15.567 l 1.946,1.816 1.972,1.453 1.972,1.09 1.972,0.779 c 4.269,1.248 8.372,0.581 11.78,-2.388 l 1.971,-2.023 1.972,-2.725 c 5.546,-9.236 8.613,-21.705 11.779,-31.966 l 1.972,-6.356 1.972,-5.657 1.972,-4.514 1.946,-2.932 1.972,-1.012 1.972,1.064 1.972,3.191 1.946,5.163 c 5.886,19.845 9.006,41.108 13.777,61.337 L 174.306,0"
-         style="fill:none;stroke:#1c1c1b;stroke-width:2.04500008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path78"
-         inkscape:connector-curvature="0" />
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path78"
+       style="fill:none;stroke:#1c1c1b;stroke-width:0.72143054;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 355.42767,467.25594 0.56762,2.05952 0.69568,2.33397 c 9.50912,31.05538 16.26623,-0.018 24.26511,6.28792 l 0.69533,0.6043 0.69567,0.7232 0.68686,0.79622 0.69533,0.79622 c 1.06891,1.16628 2.47438,2.74496 4.16489,1.59279 l 0.68651,-0.56762 0.69567,-0.75988 c 1.45768,-1.79776 2.52907,-3.82129 4.16455,-5.4917 l 0.6865,-0.64064 0.69568,-0.51259 0.69568,-0.38452 0.69567,-0.27482 c 1.50601,-0.44026 2.95346,-0.20496 4.15573,0.84244 l 0.69532,0.71366 0.69568,0.96132 c 1.95651,3.25826 3.03847,7.65705 4.15537,11.2769 l 0.69568,2.24225 0.69567,1.99567 0.69568,1.59244 0.68651,1.03434 0.69568,0.35701 0.69567,-0.37535 0.69568,-1.12572 0.68651,-1.82139 c 2.07645,-7.00087 3.17711,-14.50199 4.86022,-21.63833 l 0.59513,-2.61761" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path78-3"
+       style="fill:none;stroke:#1c1c1b;stroke-width:0.72143054;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 358.3321,488.09177 h 4.57076" />
     <g
        id="g80"
        transform="matrix(0.35277777,0,0,-0.35277777,352.52643,495.63972)">
@@ -1933,17 +1935,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.6415px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0660375"
-       x="376.48935"
-       y="486.96231"
+       x="380.19357"
+       y="487.42557"
        id="text3800"><tspan
          sodipodi:role="line"
-         x="376.48935"
-         y="486.96231"
+         x="380.19357"
+         y="487.42557"
          style="stroke-width:0.0660375"
          id="tspan3893">Potential Filled </tspan><tspan
          sodipodi:role="line"
-         x="376.48935"
-         y="490.26419"
+         x="380.19357"
+         y="490.72745"
          style="stroke-width:0.0660375"
          id="tspan4356">From Gaussians</tspan></text>
     <g
@@ -2077,5 +2079,16 @@
          x="343.71402"
          y="437.05505"
          style="stroke-width:0.12483755">B)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.92842627px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04821066"
+       x="364.35175"
+       y="488.81067"
+       id="text3724-9-2-8-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan3722-1-0-9-4-6"
+         x="364.35175"
+         y="488.81067"
+         style="stroke-width:0.04821066">True Potential</tspan></text>
   </g>
 </svg>

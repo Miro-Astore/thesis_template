@@ -127,13 +127,13 @@ By choosing an appropriate time-step one can simply iteratively solve this equat
 \section{Classical MD, Molecular Motions Without Quantum Mechanics}
 The Born-Oppenheimer approximation gives rise to Hartree-Fock methods and density functional theory (DFT). These more sophisticated physical methods allow us to simulate the the organisation of electron clouds around small molecules, finding broad applications in chemistry and materials science \cite{vanmourik2014}. We can derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. These can be useful when designing novel materials. 
 
-However, even with these approximations simulating a large number of atoms is still not computationally tractable. State of the art DFT methods can only simulate up to a few 10s of thousands of atoms \cite{luo2020} and scales as $O(N^3)$ \cite{kresse1996}. This is not sufficient to simulate proteins and their surrounding solvation environment. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. So named because it effectively approximates the behaviour of the full quantum mechanical system.
+However, even with these approximations simulating a large number of atoms is still not computationally tractable. State of the art DFT methods can only simulate up to a few 10s of thousands of atoms \cite{luo2020} and scales as $O(N^3)$ \cite{kresse1996}. This is not sufficient to simulate proteins and their surrounding solvation environment. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. 
 
 This formulation gives us classical molecular dynamics sometimes referred to as molecular mechanics. The aim of the classical forcefields discussed here is to use \textit {ab initio} MD as a target to approximate. 
 
 The CHARMM effective potential employed in this work is similar to those found in all common all-atom molecular dynamics forcefields. The same  functional forms are used in other forcefields such as AMBER, GROMOS and OPLS but with different parameters and design philosophies\cite{lemkul2020}. 
 
-We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and bending. As well as energies associated with the forces that atoms exert on each other when they are not bonded together. Namely Coulomb forces due to electric charges on the atom and attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term we will analyse in detail $U_{LJ}$.
+We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and bending. As well as energies associated with the forces that atoms exert on each other when they are not bonded together. 
 
 \begin{equation}
 	U_{MM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded} }
@@ -161,8 +161,7 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for t
 \end{figure}
 
 
-In classical forcefields the non-bonded interactions are expressed using the Couloumb's law because the partial charges assigned to each atom and the Lennard-Jones potential to approximate the interactions arising from both Pauli exclusion and Van Der Walls Interactions.
-
+There are also interactions which arise when atoms are not covalently bonded to eachother. Namely, Coulomb forces due to electric charges on the atom, attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term $U_{LJ}$ which we will analyse in detail 
 \begin{equation}\label{nonbonded_eqs}
 	\begin{aligned}
 		U_{non-bonded} = \underbrace{\sum_{i>j} \epsilon_{ij} \Big( \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} \Big)}_{U_{Lennard-Jones}} - \underbrace{\sum_{i>j} \frac{q_i q_j } {r_{ij}}}_{U_{coulomb}}
@@ -192,12 +191,21 @@ By focussing on these two physical parameters we can isolate and improve the non
 		\includegraphics[width=\textwidth]{figures/LJ_figure.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[The Lennard-Jones Potential] {\textbf{The Lennard-Jones Potential}}{A) The Lennard-Jones potential function has two regimes, the far region one dominated by attractive dispersion forces and the close region dominated by repulsion. In the case of atomic systems this is due to the Pauli exclusion principal. B) An example of a fluid modelled with Lennard-Jones particles \cite{chari2019}. C) The radial distribution function ($g$) for a Lennard-Jones fluid \cite{morsali2005}. Note that the peaks in the distribution are roughly 1 $\sigma$ apart. }
+	\caption[The Lennard-Jones Potential] {\textbf{The Lennard-Jones Potential}}{A) The Lennard-Jones potential function has two regimes, the far region one dominated by attractive dispersion forces and the close region dominated by repulsion. In the case of atomic systems this is due to the Pauli exclusion principal. B) An example of a fluid modelled with Lennard-Jones particles \cite{chari2019}. C) The radial distribution function ($g$) for a Lennard-Jones fluid \cite{morsali2005}. Note that the peaks in the distribution are spaced roughly 1 $\sigma$ apart. }
 	\label{Lennard-Jones_figure}
 \end{figure}
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
-At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. This philosophy is closest to physics 
+At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. The following summary is taken from the review \cite{lemkul2020} which has an indepth discussion of the history of the development of each of these forcefields.
+
+\begin{itemize}
+	\item CHARMM: An all atom forcefield which attempts to be the most faithful to quantum mechanical quantities. The QM optimized geometrie is compared to that found in CHARMM model but the molecular dipole moment and rotational energy profile are also compared to the results from the classical forcefield. Macroscopic experimental quantities may also be used such as 
+	\item AMBER: An all atom forcefield which is validated based on its agreement with experimental data such as solvation free energies, crystallographic geometry and conformational energies from \textit{ab initio} QM calculations.
+	\item OPLS:
+	\item GROMOS: A united atom forcefield where hydrogen atoms are typically merged into the heavy atom they are bound to, so they are not explicitly treated.
+
+\end{itemize}
+Some forcefields share common design philosophies. For example CHARMM and AMBER both increase the molecular dipole moment by 20\% in order to account for the presence of polar water during a classical simulation.
 
 
 \section{Periodic Boundaries to Simulate the Inside of Cell}
@@ -502,7 +510,7 @@ is solved to give the best estimates of the PMF given the data that has been col
 		\includegraphics[width=0.7\textwidth]{figures/METAD_demonstration.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Illustration of Metadynamics] {\textbf{Illustration of Metadynamics}}{A) B) Source\cite{bussi2020}:}
+	\caption[Illustration of Metadynamics] {\textbf{Illustration of Metadynamics}}{A) The trajectory of a collective variable $\xi$ in a  metadynamics simulation. The blue region denotes the trajectory up to the time where 20 Gaussians have been deposited. After which the basin at $\xi=0$ has been filled. The red data points denote the time up until 69 Gaussians have been deposited, after which time the second basin at $\xi=-4$ has been adequately sampled. Finally the Orange data indicates that the 3rd basin at $\xi=4$ has been adequately sampled after which which time the system begins to sample $\xi$ diffusively and the simulation has converged. B) The upper pannel demonstrates the repulsive potentials that have been added to the simulation in order to drive it to new, unexplored regions. Multiplying the values of this function by $-1$  will be the estimate of the free energy surface. Note how in the lower panel the true potential the true potential energy surface is gradually filled by the added Gaussians functions.  Source\cite{bussi2020}}
 	\label{umbrella_sampling_illustration}
 \end{figure}
 
@@ -526,11 +534,11 @@ Formally, convergence is reached when the observed probability density is unifor
 	\label{convergence_criterion_metad}
 \end{equation}
 
-where $V_\xi$ is the volume of the phase space spanned by $\xi$. However, conventionally we simply inspect the $U_{bias}(\xi)$ quantity at various intervals for fluctuations about an average function \cite{}. 
+where $V_\xi$ is the volume of the phase space spanned by $\xi$. However, conventionally we simply inspect the $U_{bias}(\xi)$ quantity at various intervals for fluctuations about an average function \cite{sun2016}. 
 
 There are many flavours of metadynamics. The most popular is well-tempered metadynamics which gradually reduces the Gaussian height $B$ as the simulation progresses\cite{barducci2008}. However,this method requires an estimate of how long the simulation will take to converge. There is also infrequent metadynamics which can be used to estimate the diffusion profile along $\xi$\cite{tiwary2013}\cite{tiwary2016}\cite{salvalaglio2014}.  
 
-A useful feature of the Metadynamics method is that it can be linearly sped up with the number of parallel simulations. This is known as multiple walker metadynamics. Since we are simply attempting to sample from the same potential $U_{MM}$ up to a desired time, when the criterion in equation \ref{convergence_criterion_metad} is met we can speed this process up by running simulations in parallel and adding Gaussian to the same $U_{bias}$ function.
+A useful feature of the Metadynamics method is that it can be linearly sped up with the number of parallel simulations. This is known as multiple walker metadynamics\cite{raiteri2006}. Since we are simply attempting to sample from the same potential $U_{MM}$ up to a desired time, until the criterion in equation \ref{convergence_criterion_metad} is met, we can speed this process up by running simulations in parallel and adding Gaussian to the same $U_{bias}$ function.
 
 Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. This method is more suited to an exploration of free energy space where it can intelligently explore regions which are poorly sampled, whereas umbrella sampling requires some foreknowledge of the surface being investigated. However, metadynamics can be very difficult converge. A good indicator of such systematic errors are the presence of unphysically large barriers, indicating that there are orthogonal degrees of freedom not sampled along $\xi$ which might correspond to a minimum energy pathway. These barriers will eventually come down in the infinite sampling limit but many barrier crossings will need to be observed. 
 
