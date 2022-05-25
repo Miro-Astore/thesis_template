@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.21)  24 MAY 2022 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  25 MAY 2022 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -50,9 +50,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language65) on input line 105.
+(babel)             (\language21) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language65) on input line 108.
+(babel)             (\language21) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pdfcolmk/pdfcolmk.sty
 Package: pdfcolmk 2019/11/24 v2.0 Color support for pdfTeX via marks
@@ -1561,50 +1561,55 @@ Package pdftex.def Info: figures/PME_miro.pdf  used on input line 206.
  [14 <./figures/LJ_figure.pdf>] [15 <./figures/PME_miro.pdf>] [16]
 [17]
 
-LaTeX Warning: Reference `NH_eqs' on page 18 undefined on input line 301.
+LaTeX Warning: Reference `NH_eqs' on page 18 undefined on input line 298.
 
 [18] [19] [20]
 
-Package caption Warning: \label without proper reference on input line 408.
+Package caption Warning: \label without proper reference on input line 405.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 21 undefined on input line 389.
+LaTeX Warning: Reference `timescales' on page 21 undefined on input line 386.
 
 [21]
 
 LaTeX Warning: Citation 'lindorff-larsen2016' on page 22 undefined on input lin
-e 395.
+e 392.
 
 
-LaTeX Warning: Reference `verlet' on page 22 undefined on input line 401.
+LaTeX Warning: Reference `verlet' on page 22 undefined on input line 398.
 
 
-LaTeX Warning: Citation 'streett1978' on page 22 undefined on input line 405.
+LaTeX Warning: Citation 'streett1978' on page 22 undefined on input line 402.
 
 
-Package caption Warning: \label without proper reference on input line 408.
+Package caption Warning: \label without proper reference on input line 405.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 22 undefined on input line 441.
+LaTeX Warning: Reference `timescales' on page 22 undefined on input line 438.
 
 [22]
 
-LaTeX Warning: Citation 'streett1978' on page 23 undefined on input line 460.
+LaTeX Warning: Citation 'streett1978' on page 23 undefined on input line 457.
 
 [23]
 
 LaTeX Warning: Reference `sampling_problem' on page 24 undefined on input line 
-463.
+460.
 
-<figures/umbrella_sampling.png.pdf, id=843, 1054.59818pt x 326.65247pt>
+
+LaTeX Warning: Reference `unbiased estimate' on page 24 undefined on input line
+ 468.
+
+[24]
+<figures/umbrella_sampling.png.pdf, id=849, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
 483.
 (pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
-[24] [25 <./figures/umbrella_sampling.png.pdf>]
+ [25 <./figures/umbrella_sampling.png.pdf>]
 
 LaTeX Warning: Citation 'kumar1992' on page 26 undefined on input line 504.
 
@@ -1615,23 +1620,42 @@ LaTeX Warning: Citation 'kastner2005' on page 26 undefined on input line 504.
 LaTeX Warning: Citation 'kim2012' on page 26 undefined on input line 504.
 
 
-LaTeX Warning: Reference `' on page 26 undefined on input line 514.
+LaTeX Warning: Reference `' on page 26 undefined on input line 512.
 
-<figures/METAD_demonstration.pdf, id=885, 229.83649pt x 294.60641pt>
+[26]
+<figures/METAD_demonstration.pdf, id=896, 229.83649pt x 294.60641pt>
 File: figures/METAD_demonstration.pdf Graphic file (type pdf)
 <use figures/METAD_demonstration.pdf>
-Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 53
-1.
+Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 52
+9.
 (pdftex.def)             Requested size: 308.71106pt x 395.74602pt.
 
-LaTeX Warning: Citation 'bussi2020' on page 26 undefined on input line 534.
 
-[26] [27 <./figures/METAD_demonstration.pdf>]) (./09-CFTR-Review.tex [28]
+LaTeX Warning: Citation 'bussi2020' on page 27 undefined on input line 532.
+
+[27 <./figures/METAD_demonstration.pdf>]
+
+LaTeX Warning: Reference `METAD_demonstration' on page 28 undefined on input li
+ne 543.
+
+
+LaTeX Warning: Citation 'barducci2008' on page 28 undefined on input line 552.
+
+
+LaTeX Warning: Citation 'tiwary2013' on page 28 undefined on input line 552.
+
+
+Overfull \hbox (61.67094pt too wide) in paragraph at lines 552--553
+\OT1/cmr/m/n/12 nam-ics which grad-u-ally re-duces the Gaus-sian height $\OML/c
+mm/m/it/12 B$ \OT1/cmr/m/n/12 as the sim-u-la-tion progresses[[]].
+ []
+
+) (./09-CFTR-Review.tex [28]
 Chapter 3.
 [29
 
 ]
-<figures/CFTR_structure.pdf, id=928, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=929, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
 Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
@@ -1687,10 +1711,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30750 strings out of 481239
- 565401 string characters out of 5920377
- 1194292 words of memory out of 5000000
- 45172 multiletter control sequences out of 15000+600000
+ 30753 strings out of 481239
+ 565454 string characters out of 5920378
+ 1194340 words of memory out of 5000000
+ 45174 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,18n,96p,1410b,2909s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1714,10 +1738,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (57 pages, 7271514 bytes).
+Output written on main.pdf (57 pages, 7274967 bytes).
 PDF statistics:
- 1233 PDF objects out of 1440 (max. 8388607)
- 1037 compressed objects within 11 object streams
- 226 named destinations out of 1000 (max. 500000)
+ 1234 PDF objects out of 1440 (max. 8388607)
+ 1038 compressed objects within 11 object streams
+ 227 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 

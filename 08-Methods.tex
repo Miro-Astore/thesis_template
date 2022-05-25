@@ -3,7 +3,7 @@
 \numberwithin{equation}{chapter}
 \label{chap:methods}
 
-This chapter is written for somebody who has studied undergraduate physics and now wishes to model biological systems at the molecular level. Care is taken to dive deeper into the mathematical formulations of simulation methods than is conventionally given in introductory texts. Essentially, these are the explanations for the physics of the simulations I wish I was given when I started doing them. An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019} followed by \cite{gapsys2020} for statistical rigour and \cite{pohorille2010} for free energy calculations. We assume natural units for all equations. 
+This chapter is written for somebody who has studied undergraduate physics and now wishes to model biological systems at the molecular level. Care is taken to dive deeper into the mathematical formulations of simulation methods than is conventionally given in introductory texts. Essentially, this is the understanding of simulation techniques I wish I had when I started studying them. An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019} followed by \cite{gapsys2020} for statistical rigour and \cite{pohorille2010} for free energy calculations. We assume natural units for all equations. 
 
 \section{Quantum Mechanics is Not Tractable at the Scale of Biology.}
 Living things are made of atoms and atoms themselves are composed of many particles. The motions of atoms and their constituent particles are governed by quantum mechanics. Unfortunately, performing simulations for the number of atoms involved in proteins and other cellular components at quantum mechanical accuracy is impossible. Hence, we will show how to take the fundamental formulation of atomic interactions in the Schr\"{o}dinger wave equation and apply approximations in order to produce a model which is capable of simulating macromolecular systems at biologically relevant timescales. 
@@ -251,9 +251,6 @@ Living things are very sensitive to their external environment. Enzymes only wor
 %	m_i  \dot{v} _i = F_i + m_i \gamma_i \bold{v}_i + R(t)
 %\end{equation}
 
-Here $gamma_i$ is the damping factor, $m_i$ is the mass of the particle and $R(t)$ is a random variable to the kick.
-
-
 \subsection{Hot and Cold with the Nos\'e-Hoover Thermostat}
 Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
 
@@ -263,7 +260,7 @@ Remember that the temperature of a system is a direct function of the velocity o
 
 Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Bolztman's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \text{and} z$ components separately. 
 
-Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al., a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources\cite{knapp2018}. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
+Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al.\cite{knapp2018}, a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
 
 After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nose-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
 
@@ -346,11 +343,11 @@ Define $\underline{G} := \underline{h}^T\underline{h}$. The Lagrangian for the s
 \end{aligned}
 \end{equation}
 
-Here, $M$ is a constant of proportionality associated with the kinetic energy derived from the movement the particles undergo as they scale. It has units of mass. $P_{0}$ is our target pressure. This lagrangian allows us to derive the equations of motion  
+Here, $M$ is a constant of proportionality associated with the kinetic energy derived from the movement the particles undergo as they scale. It has units of mass. $P_{ext}$ is our target, externally appplied pressure and $\phi$ representes the pairwise potential from $U_{MM}$ between the $i$th and $j$th atoms. This Lagrangian allows us to derive the equations of motion  
 
 \begin{equation}
 \begin{aligned}
-	\ddot{\bold{s}}_i &= \frac{1}{m_i} \sum_{j\neq i}  \frac{1}{\bold{r}_{ij}}\phi(\bold{r}_{ij})  (\bold{s}_i - \bold{s}_j) - G^{-1}\dot{G} \dot{\bold{s}}_i \\
+	\ddot{\bold{s}}_i &= -\sum_{j\neq i}   \frac{1}{m_i\bold{r}_{ij} }\frac{d\phi(\bold{r}_{ij})}{d r_{ij}}  (\bold{s}_i - \bold{s}_j) - G^{-1}\dot{G} \dot{\bold{s}}_i \\
 	\ddot{\bold{h}} &= \frac{1}{M} (\bold{Y} -P_{ext}) \underline{\sigma}
 \end{aligned}
 \end{equation}
@@ -358,7 +355,7 @@ The matrix $\underline{\sigma} := V (\bold{h}^T)^{-1} = V  [\bold{b} \times \bol
 
 \begin{equation}
 \begin{aligned}
-	\bold{Y} = \frac{1}{V}\sum_i m_i (\underline{h}\dot{\bold{s}}_i) (\underline{h}\dot{\bold{s}}_i)^T + \sum_i \sum_{j>i} \chi (\bold{r}_{ij}) \bold{r}_{ij}\bold{r}_{ij}^T
+	\bold{Y} = \frac{1}{V}\sum_i m_i (\underline{h}\dot{\bold{s}}_i) (\underline{h}\dot{\bold{s}}_i)^T + \sum_i \sum_{j>i}\frac{1}{{r}_{ij}} \frac{d \phi (\bold{r}_{ij})}{dr_{ij}} \bold{r}_{ij}\bold{r}_{ij}^T
 \end{aligned}
 \end{equation}
 
@@ -460,17 +457,20 @@ We can use this calculation of acceleration $a_i$ of the $i$th atom to update th
  In MD, we are less concerned with the accuracy of a particular trajectory so much as collecting sufficient statistics to calculate macroscopic properties such as free energies or diffusion profiles. This means the choice 4th order solvers such as the Runge Kutta method would be innapropriate. Although they may use a large timestep they require 4 evaluations of $U_{MM}$ per timestep and are thus expensive. Hence, we prefer symplectic (energy preserving), 2nd order methods such as verlet integration so the simulation remains stable after millions of timesteps\cite{streett1978}. 
 
 \section{Free Energy Calculations: Making Simulations More Useful}
-The above work sets out how to perform what is known as unbiased MD simulations. These are powerful tools but as mentioned in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. Imagine there is an event our system undergoes that we know from experimental evidence our system must exist but is slow. Examples of this include the passage of an ion through a channel and the binding of a drug. We \textit{could} estimate the energetics of the slow process by looking at the statistics collected from unbiased simulations
-
+The above work sets out how to perform what is known as unbiased MD simulations. These are powerful tools but as will be discussed in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. Imagine there is an event our system undergoes that we know from experimental evidence our system must exist but is slow. Examples of this include the passage of an ion through a channel and the binding of a drug. We \textit{could} calculate the Gibbs free energy of a given molecular configuration $\bold{x}_0$ using 
 \begin{equation}
-	U^{unbiased} (\xi) = -\ln(P^{unbiased}(\xi))
+	G (\bold{x}_0) = -\frac{1}{k_BT}\ln(P_{u}(\bold{x}_0)).
 	\label{unbiased_estimate}
 \end{equation}
 
-but given the exponentially poor sampling in regions with high $U_{MM}$ it is clear that we will not collect sufficient statistics for a good estimate with available computer power. So, we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically, but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
+Where $P^u(\bold{x}_0$ represents the probability of obtaining state $\bold{x}_0$, estimated from an unbiased simulation. From here on a subscript of $u$ indicates an quantity obtained from an unbiased simulation and a subscript $b$ represents a quantity from a biased simulation. 
+
+Equation \ref{unbiased estimate} shows how there is exponentially poor sampling in regions with high $U_{MM}$. So it is clear that we will not collect sufficient statistics for a good estimate with available computer power. So, we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically, but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
 
 \begin{equation}
+\begin{aligned}
 U_{MM}'  = U_{MM} + U_{bias} (\xi)
+\end{aligned}
 \end{equation}
 
 Note how the $U_{biased}$ term is explicitly dependent on a parameter $\xi$. This parameter is known by many names, an order parameter, a collective variable or a reaction coordinate. Each of these names has its origin in a different subfield but they all refer to the progress toward a target state. This could be a phase transition from a liquid to a gas, the progress of a chemical reaction or more likely in our case, the distance toward a target molecular configuration. 
@@ -487,43 +487,41 @@ The functional form of $U_{bias}$ depends on the Free energy technique being emp
 	\label{umbrella_sampling_illustration}
 \end{figure}
 
-This is possibly the most popular method of calcualting the potential of a system along a reaction coordinate. The conceptual philogophy for the method is demonstrated in figure \ref{umbrella_sampling_illustration}. The molecular system is replicated in several "windows" and a harmonic $U_{biased}$ is added at several points along the collective variable $\xi$. Statistics are then collected in order to calculate the potential of mean force (PMF) and thus the energy landscape along between those windows. The more overlap between adjacent windows the more those windows are attracted to eachother and the steeper the gradient of the FES must be pushing those windows together. Conversly, when there is less overlap between adjacent windows it indicates the preseence of a barrier in the energy landscape between those windows. 
+This is possibly the most popular method of calculating the potential of a system along a reaction coordinate. The conceptual philosophy for the method is demonstrated in figure \ref{umbrella_sampling_illustration}. The molecular system is replicated in several "windows" and a harmonic $U_{biased}$ is added at several points along the collective variable $\xi$. Statistics are then collected in order to calculate the potential of mean force (PMF) and thus the energy landscape along between those windows.  
 
-The functional form of $U_{bias}$ in umbrella sampling is then seperated into $N$ windows. With the $n$th window having the equation:
+The functional form of $U_{bias}$ in umbrella sampling is then separated into $N$ windows. With the $n$th window having the biasing function:
 
 \begin{equation}
-	{U_{bias}}^n = \frac{k^n_{\xi}}{2}(\xi(\bold{x}) - \xi_0^n)^2
+	U_{b}^n = \frac{k^n_{\xi}}{2}(\xi(\bold{x}) - \xi_0^n)^2
 	\label{umbrella_bias}
 \end{equation}
 
-Where $\xi_0^n$ is the equilibrium position of the restraint. $k_{\xi}^n$ is the strength of the harmonic restraint in the $n$th window. Typically this is the same in all windows.
+Where $\xi_0^n$ is the equilibrium position of the restraint. $k_{\xi}^n$ is the strength of the harmonic restraint in the $n$th window. Typically this is the same in all windows. The more overlap between adjacent windows the more those windows are attracted to each other and the steeper the gradient of the free energy surface (FES) must be pushing those windows together. Conversely, when there is less overlap between adjacent windows it indicates the presence of a barrier in the energy landscape between those windows.
 
 Umbrella sampling is extremly useful for calculating all sorts of experimental quantities and physiologically relevant proprties such as folding energies \cite{meshkin2017}, lipid binding \cite{domanski2017}, ion conduction \cite{zhu2012b}, and drug binding \cite{subramanian2019}. However, it is particularly sensetive to the choice of initial configuration and collective variable \cite{domanski2017}. The former issue is partiuclar to umbrella sampling because generally short runs are used since so many windows are spawned during the method, the simulations must be at equilibrium \textit{before} the method is attempted, and then sufficient statistics must be collected to average over any conformational changes orthogonal to the collective variable. In these ways, care must be taken when using this method to not introduce systematic error into the calculation \cite{you2019}. A deep knowledge of the molecular system under investigation can help aleviate some of these issues. 
 
 \subsubsection{Weighted Histogram Average Method (WHAM)}
 There a few candidates for calculating the PMF using the statistics calculated in umbrella sampling. The Weighted Histogram Average Method (WHAM)\cite{kumar1992}, Umbrella Integration (UI)\cite{kastner2005} and the Multistate Bennet Acceptance Ratio (MBAR)\cite{kim2012} are all used. We will breifly outline the mathematical formulation and estimation of errors of the WHAM method as it is more popular\cite{zhu2012}. Our explanation follows \cite{kastner2011} which covers the topic in more detail.
 
-The unbiased PMF can be estimated (poorly) from the $i$th biased window using 
+The method begins by dividing the sampled region into a set of $K$ histograms with $K$ being greater than the number of biased windows $N$.  The whole PMF can be estimated (poorly) from the $j$th biased histogram using 
 
 \begin{equation}
-	P^{unbiased}_i(\xi) = P^{biased}_i(\xi) \exp(\beta U^{biased}_i (\xi)) \langle \exp(-\beta U^{biased}_i (\xi))\rangle
+	P_u^j(\xi) = P_b^j(\xi) \exp(\beta U_{b}^j (\xi)) \langle \exp(-\beta U_b^j (\xi))\rangle
 \end{equation}
 
-Where the functions $P$ represent the probability density function calculated from samples collected at point $\xi$ 
-
-We begin splitting the data from our individual windows into several bins in the CV space along $xi$. The samples collected in each of these regions gives us an estimate of the PMF in the region according to equation \ref{}. These estimates are combined using
+Where the $P(\xi)$  functions represent the probability density function calculated from samples collected at point $\xi$. The samples collected in each of these regions gives us an estimate of the PMF in the region according to equation \ref{}. These estimates are combined in a weighted sum using
 
 \begin{equation}
-	P^u_\xi = \sum_i^N p_i(\xi)P^u_i (\xi)
+	P_u(\xi) = \sum_j^K p_j(\xi)P_u^j (\xi)
 \end{equation}
 
-where weights, $p_i$ are chosen such that the statistical error is minimised. This means an optimisation problem for the variance of the unbiased estimates
+where the weights, $\sum_j^K p_j = 1$ are chosen such that the statistical error is minimised. This means an optimisation problem for the variance of the unbiased estimates
 
 \begin{equation}
-	\frac{\partial\text{Var} (P^u)}{\partial p_i}
+	\frac{\partial\text{Var} (P_u)}{\partial p_i}
 \end{equation}
 
-is solved to give the best estimates of the PMF given the data that has been collected. Essentially we are shifting the estimates obtained in each of the histograms in order to minimise the error accross the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distribution of $P^u_i (\xi)$ and constructing PMFs from these independent samples. The Standard Error of the Mean (SEM) can then be used to estimate the error accross the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM of independent samples has fallen below 1kcal/mol accross the region of interest. Note that there may be sources of systematic error not captured by this criterion. 
+is solved to give the best estimates of the PMF given the data that has been collected. Essentially we are vertically shifting the estimates obtained in each of the histograms in order to minimise the error accross the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distributions of $P^b_i (\xi)$ and constructing PMFs from these independent samples. For example, we might have collected 100ns of data in each window, but we could construct 5 independent estimates for the PMF using 20ns blocks of trajectories. The Standard Error of the Mean (SEM) can then be used to estimate the error accross the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM from these independent samples has fallen below 1kcal/mol accross the PMF. Note that there may be sources of systematic error not captured by this criterion. 
 
 \subsection{Metadynamics}
 \begin{figure}
@@ -534,12 +532,23 @@ is solved to give the best estimates of the PMF given the data that has been col
 	\caption[Illustration of Metadynamics] {\textbf{Illustration of Metadynamics}}{A) B) Source\cite{bussi2020}:}
 	\label{umbrella_sampling_illustration}
 \end{figure}
-Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. This method is more suited to an exploration of free energy space where it can intelligently explore regions which are poorly sampled, whereas umbrella sampling requires some foreknowledge of the surface being investigated. However, metadynamics can be very difficult converge.
+Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. This method is more suited to an exploration of free energy space where it can intelligently explore regions which are poorly sampled, whereas umbrella sampling requires some foreknowledge of the surface being investigated. However, metadynamics can be very difficult converge. A good indicator of such systematic errors are the presence of unphysically large barriers, indicating that there are orthogonal degrees of freedom not sampled along $\xi$ which might correspond to a minimum energy pathway. These barriers will eventually come down in the infinite sampling limit but many barrier crossings will need to be observed. 
 
 The method relies on a time dependent form of $U_{bias}$ given by 
 
 \begin{equation}
-	U_{bias} (\xi,t) = \sum\limits_{\substack{t' = \tau_D, 2 \tau_D,... \\ t' < t}} 
+	U_{bias} (\xi,t) = \sum\limits_{\substack{t' = \tau_D, 2 \tau_D,... \\ t' < t}}  B \ \exp\bigg( - \frac{(\xi(t) - \xi(t') )^2}{2\sigma^2 }\bigg)
 \end{equation}
 
- This means the simulation is dropping virtual, replusive gaussian potentials at the positions along $\xi$ in order to encourage the simulation to sample regions of $\xi$ it has not visited already. The thermodynamic assumption of this method is that the deposition is done slow enough that the system remains at equilibrium, so the gaussian height $W$ is chosen to be 0.1-0.2 kJ/mol in molecular systems. Usually, the gaussian widths $\sigma$ are chosen to be the size of the variance in the unbiased measurements of $\xi$. 
+This means the simulation is dropping virtual, repulsive Gaussian potentials at the positions along $\xi$ in order to encourage the simulation to sample regions of $\xi$ it has not visited already. The process is illustrated in figure \ref{METAD_demonstration}. The thermodynamic assumption of this method is that the deposition is done slow enough that the system remains at equilibrium, so the Gaussian height $B$ is chosen to be 0.1-0.2 kJ/mol in molecular systems. Usually, the Gaussian widths $\sigma$ are chosen to be the size of the variance in the unbiased measurements of $\xi$. 
+
+Formally, convergence is reached when the observed probability density is uniform across $\xi$
+\begin{equation}
+	P_b (\xi)= \frac{1}{V_\xi }. 
+\end{equation}
+
+Where $V_\xi$ is the volume of the phase space spanned by $\xi$. However, conventionally we simply inspect the $U_{bias}(\xi)$ quantity at various intervals for fluctuations about an average function \cite{}. 
+
+There are many flavours of metadynamics. The most popular is well-tempered metadynamics which gradually reduces the Gaussian height $B$ as the simulation progresses\cite{barducci2008}. However,this method requires an estimate of how long the simulation will take to converge. There is also infrequent metadynamics which can be used to estimate the diffusion profile along $\xi$\cite{tiwary2013}.  
+
+A useful feature of the Metadynamics method is that it can be linearly sped up with the number of parallel simulations. Since we are simply attempting to sample from the same potential $U_{MM}$ up to a desired time, when $\langle P_b\rangle = 0$ we can speed this process up by running simulations in parallel.
