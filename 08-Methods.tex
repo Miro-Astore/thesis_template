@@ -201,11 +201,11 @@ At the time of writing, the four popular forcefields for the simulation of biomo
 \begin{itemize}
 	\item CHARMM: An all atom forcefield which attempts to be the most faithful to quantum mechanical quantities. The QM optimized geometrie is compared to that found in CHARMM model but the molecular dipole moment and rotational energy profile are also compared to the results from the classical forcefield. Macroscopic experimental quantities may also be used such as 
 	\item AMBER: An all atom forcefield which is validated based on its agreement with experimental data such as solvation free energies, crystallographic geometry and conformational energies from \textit{ab initio} QM calculations.
-	\item OPLS:
+	\item OPLS: An all atom forcefield. The OPLS forcefield takes the philosophy that since many biomolecules share similar geometries to certain organic liquids, macromolecules can be accurately parameterised by creating a forcefield which correctly reproduces the experimental measurements for these species. These molecular geometries are then combined to be able to create topologies of larger molecules such as proteins, lipids and nucleic acids.
 	\item GROMOS: A united atom forcefield where hydrogen atoms are typically merged into the heavy atom they are bound to, so they are not explicitly treated.
 
 \end{itemize}
-Some forcefields share common design philosophies. For example CHARMM and AMBER both increase the molecular dipole moment by 20\% in order to account for the presence of polar water during a classical simulation.
+Some forcefields share common design philosophies. For example CHARMM and AMBER both manipulate molecular dipole moments in order to account for the presence of polar water water molecules during a classical simulation, while the \textit{ab inito} calculations are often done in a vacuum.
 
 
 \section{Periodic Boundaries to Simulate the Inside of Cell}
