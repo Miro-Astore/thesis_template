@@ -18,12 +18,12 @@
 \BOOKMARK [2][-]{subsection.2.4.1}{Hot and Cold with the Nos\351-Hoover Thermostat}{section.2.4}% 18
 \BOOKMARK [2][-]{subsection.2.4.2}{Under Pressure with the Parinello-Rahman Barostat}{section.2.4}% 19
 \BOOKMARK [1][-]{section.2.5}{The Process of Preparing an MD Simulation}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.6}{Short Comings of Classical MD}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.7}{Choosing an Appropriate Time Step}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.7.1}{ Verlet Leap-Frog Integration}{section.2.7}% 23
-\BOOKMARK [1][-]{section.2.8}{Free Energy Calculations: Making Simulations More Useful}{chapter.2}% 24
-\BOOKMARK [2][-]{subsection.2.8.1}{Umbrella Sampling}{section.2.8}% 25
-\BOOKMARK [2][-]{subsection.2.8.2}{Metadynamics}{section.2.8}% 26
+\BOOKMARK [1][-]{section.2.6}{Choosing an Appropriate Time Step}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.6.1}{ Verlet Leap-Frog Integration}{section.2.6}% 22
+\BOOKMARK [1][-]{section.2.7}{Free Energy Calculations: Making Simulations More Useful}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.7.1}{Umbrella Sampling}{section.2.7}% 24
+\BOOKMARK [2][-]{subsection.2.7.2}{Metadynamics}{section.2.7}% 25
+\BOOKMARK [1][-]{section.2.8}{Short Comings of Classical MD}{chapter.2}% 26
 \BOOKMARK [0][-]{chapter.3}{Review of the Molecular Cause of Cystic Fibrosis}{}% 27
 \BOOKMARK [1][-]{section.3.1}{Clinical outcomes of Cystic Fibrosis}{chapter.3}% 28
 \BOOKMARK [1][-]{section.3.2}{CFTR Structure}{chapter.3}% 29
