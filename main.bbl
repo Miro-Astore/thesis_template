@@ -17,6 +17,41 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{frauenfelder1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FH}{%
+         family={Frauenfelder},
+         familyi={F\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WPG}{%
+         family={Wolynes},
+         familyi={W\bibinitperiod},
+         given={Peter\bibnamedelima G.},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FHWPG1}
+    \strng{fullhash}{FHWPG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1063/1.881414
+    \endverb
+    \field{issn}{0031-9228, 1945-0699}
+    \field{number}{2}
+    \field{pages}{58\bibrangedash 64}
+    \field{shorttitle}{Biomolecules}
+    \field{title}{Biomolecules: {{Where}} the {{Physics}} of {{Complexity}} and
+  {{Simplicity Meet}}}
+    \field{volume}{47}
+    \field{langid}{english}
+    \field{journaltitle}{Physics Today}
+    \field{month}{02}
+    \field{year}{1994}
+  \endentry
+
   \entry{hodgkin1952}{article}{}
     \name{author}{2}{}{%
       {{hash=HAL}{%
@@ -2648,6 +2683,36 @@
     \field{year}{1981}
   \endentry
 
+  \entry{schlick2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Schlick},
+         familyi={S\bibinitperiod},
+         given={Tamar},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer}}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{2nd ed}
+    \field{isbn}{978-1-4419-6351-2}
+    \field{number}{v. 21}
+    \field{series}{Interdisciplinary Applied Mathematics}
+    \field{shorttitle}{Molecular Modeling and Simulation}
+    \field{title}{Molecular Modeling and Simulation: An Interdisciplinary
+  Guide}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York}}%
+    }
+    \field{year}{2010}
+  \endentry
+
   \entry{shannon1949}{article}{}
     \name{author}{1}{}{%
       {{hash=SC}{%
@@ -3054,36 +3119,6 @@
     \field{journaltitle}{Molecular Physics}
     \field{month}{03}
     \field{year}{1978}
-  \endentry
-
-  \entry{schlick2010}{book}{}
-    \name{author}{1}{}{%
-      {{hash=ST}{%
-         family={Schlick},
-         familyi={S\bibinitperiod},
-         given={Tamar},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Springer}}%
-    }
-    \strng{namehash}{ST1}
-    \strng{fullhash}{ST1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{edition}{2nd ed}
-    \field{isbn}{978-1-4419-6351-2}
-    \field{number}{v. 21}
-    \field{series}{Interdisciplinary Applied Mathematics}
-    \field{shorttitle}{Molecular Modeling and Simulation}
-    \field{title}{Molecular Modeling and Simulation: An Interdisciplinary
-  Guide}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{New York}}%
-    }
-    \field{year}{2010}
   \endentry
 
   \entry{brooks1988}{book}{}

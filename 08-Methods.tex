@@ -4,7 +4,7 @@
 
 \label{chap:methods}
 
-\chapquote{Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.- Richard P. Feynnman}  {}
+\chapquote{Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.- Richard P. Feynman}  {}
 
 This chapter is written for somebody who has studied undergraduate physics and now wishes to model biological systems at the molecular level. Care is taken to dive deeper into the mathematical formulations of simulation methods than is conventionally given in introductory texts. Essentially, this is the understanding of simulation techniques I wish I had when I started studying them. An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019} followed by \cite{gapsys2020} for statistical rigour and \cite{pohorille2010} for free energy calculations.  
 
@@ -84,12 +84,12 @@ Where we have coupled the electronic wave functions to each other with the opera
 	C_{kj} = \int ({\psi_e})_k ^* \Big[\sum_i\frac{\hbar^2}{2M_i}\nabla^2_i\Big] ({\psi_e})_j d\bold{r}  + \frac{1}{M_i}\sum_{i}\bigg[ \int({\psi_e})_k ^* [-\hbar i \nabla_i]({\psi_e})_jd\bold{r}\bigg] [-\hbar i \nabla_i]
 \end{equation}
 
-Using the ``adiabatic assumption" \cite{miller1976} the off-diagonal terms of $C_{kj}$ can be set to $0$. This completely decouples the wavefunction into two components 
+Using the ``adiabatic assumption" \cite{miller1976} the off-diagonal terms of $C_{kj}$ can be set to $0$ as they represent the interactions between the electrons and the nuclei. This completely decouples the wave function into two components 
 \begin{equation}
 	\Psi_{tot} (\bold{r}_l,\bold{R}_i, t) = {\psi_e}(\bold{r}_l, \bold{R}_i)_k\ {\psi_n}(\bold{R}_i,t)_k
 \end{equation}
 
-Since all cross terms from the direct product can be ignored. With the further assumption that the diagonal terms $C_{kk}$ can also be ignored because they are 4 orders of magnitude smaller than the other terms in \ref{adiabatic_approx} \cite{sherrill}.
+A further approximation is justified by ignoring the diagonal terms $C_{kk}$ as they are 4 orders of magnitude smaller than the other terms in equation \ref{adiabatic_approx} \cite{sherrill}.
 
 We now write the Born-Oppenheimer approximated wave equation for an atomic system.  
 
@@ -105,7 +105,7 @@ By rearranging this equation and taking derivative we can see how to use Newton'
 	\label{Newtons_equations}
 \end{equation}
 
-By choosing an appropriate time-step one can simply iteratively solve this equation of motion to understand the dynamics of an atomic system. The nuclei will move according to their relative positions to each other and the electron clouds will rearrange in response to that motion. There is no need to calculate the interactions between the nuclei and the electrons. This is sufficient accuracy to simulate the low energy motions of molecules such as the environment found in biological systems. 
+By choosing an appropriate time-step one can simply iteratively solve this equation of motion to understand the dynamics of an atomic system. The nuclei will move according to their relative positions to each other and the electron clouds will rearrange in response to that motion. There is no need to explicitly treat the electrons at all. This is sufficient accuracy to simulate the low energy motions of molecules such as the environment found in biological systems. 
 %\begin{equation}
 %	(H_n + H_e + V_{n-e})  (\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i)) =  (E_n  + U_e)(\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i) ) 
 %\end{equation}
@@ -129,14 +129,14 @@ By choosing an appropriate time-step one can simply iteratively solve this equat
 
 
 \section{Classical MD, Molecular Motions Without Quantum Mechanics}
-The Born-Oppenheimer approximation gives rise to Hartree-Fock methods and density functional theory (DFT). These more sophisticated physical methods allow us to simulate the organisation of electron clouds around small molecules, finding broad applications in chemistry and materials science \cite{vanmourik2014}. These methods are known as \textit{ab initio} MD. We can derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. These can be useful when designing novel materials. 
+The Born-Oppenheimer approximation gives rise to Hartree-Fock methods and density functional theory (DFT). These more sophisticated physical methods allow us to simulate the organisation of electron clouds around small molecules, finding broad applications in chemistry and materials science \cite{vanmourik2014}. These methods are known as \textit{ab initio} MD. 
 
 However, even with these approximations simulating a large number of atoms is still not computationally tractable. State of the art DFT methods can only simulate on the order of $10^3$ atoms \cite{luo2020} and scales as $O(N^3)$ \cite{kresse1996}. This is not sufficient to simulate proteins and their surrounding solvation environment where the molecular system is usually on the order of $10^4-10^6$ atoms. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions to simplify the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. 
 
 
 The CHARMM effective potential employed in this work is similar to those found in all common all-atom molecular dynamics forcefields. The same  functional forms are used in other forcefields such as AMBER, GROMOS and OPLS but with different parameters and design philosophies\cite{lemkul2020}. 
 
-This formulation gives us classical molecular dynamics, sometimes referred to as molecular mechanics (MM). The aim of the classical forcefields discussed here is to use \textit {ab initio} MD as a target for approximation and then refine the parameters to better match experimental quantities. This is discussed in detail in section \ref{forcefields_review}.
+This formulation gives us classical molecular dynamics, sometimes referred to as molecular mechanics (MM). The aim of the classical forcefields discussed here is to use \textit {ab initio} MD as an initial target for approximation and then refine the model to better match certain experimental quantities. This is discussed in detail in section \ref{forcefields_review}.
 
 We split up the molecular mechanics potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and bending as well as contributions associated with the forces that atoms exert on each other when they are not bonded together 
 
@@ -155,7 +155,7 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 
 Here, the $k_i$ terms correspond to the strength of the harmonic restraint for a parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to be a reasonable approximation for the potential energy functions of quantum mechanics in covalently bonded chemical species. Examples can be seen in figure \ref{QM_MM_compared}.
 
-\begin{figure}
+\begin{figure}[H]
 	\begin{center}
 	\includegraphics[width=10cm]{figures/bonded_interactions.pdf}
 	\end{center}
@@ -165,20 +165,20 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for a
 	\label{charmm_bonded}
 \end{figure}
 
+\subsubsection{Non Bonded Interactions}
 
-The term $U_{non-bonded}$ captures interactions which arise when atoms are not covalently bound to each other. Namely, Coulomb forces due to electric charges on the atom, attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term, $U_{Lennard-Jones}$, which we will analyse in detail 
+The term $U_{non-bonded}$ captures interactions which arise when atoms are not covalently bound to each other. Namely, Coulomb forces due to electric charges on the atom, attractive Van Der Walls interactions and repulsion due to Pauli Exclusion,
 \begin{equation}\label{nonbonded_eqs}
 	\begin{aligned}
-		U_{non-bonded} = \underbrace{\sum_{i>j} \epsilon_{ij} \Big( \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} \Big)}_{U_{Lennard-Jones}} - \underbrace{\sum_{i>j} \frac{q_i q_j } {r_{ij}}}_{U_{coulomb}}
+		U_{non-bonded} = \underbrace{\sum_{i>j} \epsilon_{ij} \Big( \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} \Big)}_{U_{Lennard-Jones}} - \underbrace{\sum_{i>j} \frac{q_i q_j } {r_{ij}}}_{U_{coulomb}}. 
 	\end{aligned}
 \end{equation}
 
+Note how the repulsive Pauli Exclusion and attractive dispersion forces have been combined into one term known as the Lennard-Jones potential or $U_{LJ}$. The $\sigma$ parameter denotes the location of the local minima in the Lennard-Jones potential. This is the optimum distance that two atoms will rest against each other in the absence of other effects. The $\epsilon$ parameter denotes the depth of the potential well, or how stable the two atoms will be in the minimum energy configuration. This is very important for certain physical parameters such as osmotic pressure  \cite{yoo2018a}
 
-The $\sigma$ parameter denotes the location of the local minima in the Lennard-Jones potential. This is the optimum distance that two atoms will rest against each other in the absence of other effects. The $\epsilon$ parameter denotes the depth of the potential well, or how stable the two atoms will be in the minimum energy configuration. This is very important for certain physical parameters such as osmotic pressure  \cite{yoo2018a}
+Meanwhile, the partial assignments $q_i$ each atom are very important in a biological context, for stability of protein conformations of salt bridges and the solvation energy of different molecules. 
 
-Conversely, the partial charges in a system have the greatest influence on the solvation energy.
-
-By focussing on these two physical parameters we can isolate and improve the non-bonded parameters.
+By focussing on adjusting the charges of an atom to fit the solvation energy of a molecule and adjusting the Lennard-Jones parameters to fit the osmotic pressure measurements, we can  these two physical parameters we can isolate and improve the non-bonded parameters.
 
 \begin{figure}
 	\begin{center}
@@ -190,7 +190,6 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\label{QM_MM_compared}
 \end{figure}
 
-\subsubsection{The Lennard-Jones Potential}
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{figures/LJ_figure.pdf}
@@ -202,7 +201,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
 \label{forcefields_review}
-At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of OPLS and. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. Ultimately, the results from \textit{in silico} experiments must match those of wet lab experimetns so the development of all forcefields has elements of both philosophies. All forcefields assign the partial charges to atoms using the results of \textit{ab initio} QM calculations. The rest of the parameters parameters are derived with other methods. For example, the Lennard-Jones parameters $\sigma$ and $\epsilon$ can be chosen to reproduce calculations of the osmotic pressure from solvated ions \cite{yoo2018a} or dihedral parameters can be chosen to reproduce known secondary structure characteristics of pepteides\cite{huang2017}. Different forcefields have different methods of deriving their parameters. Below is a short summary of the philosophy for the 4 major forcefields taken from the review by Justin Lemkul \cite{lemkul2020} which has an indepth discussion of the history of the development of each of these forcefields.
+At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of OPLS and. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. Ultimately, the results from \textit{in silico} experiments must match those of wet lab experiments so the development of all forcefields has elements of both philosophies. All forcefields assign the partial charges to atoms using the results of \textit{ab initio} QM calculations. The rest of the parameters parameters are derived with other methods. For example, the Lennard-Jones parameters $\sigma$ and $\epsilon$ can be chosen to reproduce calculations of the osmotic pressure from solvated ions \cite{yoo2018a} or dihedral parameters can be chosen to reproduce known secondary structure characteristics of peptides\cite{huang2017}. Different forcefields have different methods of deriving their parameters. Below is a short summary of the philosophy for the 4 major forcefields taken from the review by Justin Lemkul \cite{lemkul2020} which has an in-depth discussion of the history of the development of each of these forcefields.
 
 \begin{itemize}
 	\item CHARMM: An all atom forcefield which takes the most inspiration from quantum mechanical calculations. The QM optimized geometries are compared to that found in the geometry taken in the MD simulation in addition to attempts to match molecular dipole moments and rotational energy profiles from QM calculations are also compared to the results from the classical forcefield. An example can be seen in \ref{QM_MM_compared}. Macroscopic experimental quantities may also be used to validate parameters such as solvation energies, crystal geometries, heats of vaporization and sublimation for solids, enthalpy of vaporization and conformational sampling of biomolecules\cite{huang2017}. This is probably the most popular forcefield for the simulation of biomolecules because of of its considerably library of supported compounds especially when combined with its generalised version CGENFF \cite{vanommeslaeghe2010}. 
@@ -215,7 +214,7 @@ At the time of writing, the four popular forcefields for the simulation of biomo
 	\item OPLS: An all atom forcefield. The OPLS forcefield takes the philosophy that since many biomolecules share similar geometries to certain organic liquids, macromolecules can be accurately parameterised by creating a forcefield which correctly reproduces the experimental measurements for these species. Parameters are derived to accurately reproduce the liquid density of certain organic liquids. These parameters are then used as roots to construct larger biomolecules. This method is sometimes used to refine specific in other forcefields \cite{huang2017}.
 
 
-	\item GROMOS: A united atom forcefield where hydrogen atoms are typically merged into the heavy atom they are bound to, so they are not explicitly treated. Charge assignment is done with DFT. Interstingly, GROMOS uses a quartic form of the bond stretching term 
+	\item GROMOS: A united atom forcefield where hydrogen atoms are typically merged into the heavy atom they are bound to, so they are not explicitly treated. Charge assignment is done with DFT. Interestingly, GROMOS uses a quartic form of the bond stretching term 
 		\begin{equation}
 			U_b = \frac{1}{4} k_b (b^2-b^2_0)^2
 		\end{equation}
@@ -223,7 +222,7 @@ At the time of writing, the four popular forcefields for the simulation of biomo
 		Parametrised with enthalpy and liquid densities.
 
 \end{itemize}
-Some forcefields share common design philosophies. For example CHARMM and AMBER both manipulate molecular dipole moments in order to account for the presence of polar water water molecules during a classical simulation, while the \textit{ab inito} calculations are often done in a vacuum.
+Some forcefields share common design philosophies. For example CHARMM and AMBER both manipulate molecular dipole moments in order to account for the presence of polar water water molecules during a classical simulation, while the \textit{ab into} calculations are often done in a vacuum.
 
 
 \section{Periodic Boundaries to Simulate the Inside of Cell}
@@ -251,7 +250,7 @@ For a detailed review of different Particle Mesh Ewald Summation methods and the
 			U_{coulomb} &= U_{screening-charges} + U_{coulomb}  - U_{screening-charges}
 			\end{aligned}
 		\end{equation}
-		Terms in these equations are then rearranged such that one term is evaluated with a fourier transform and one term is evaluted using a direct sum.
+		Terms in these equations are then rearranged such that one term is evaluated with a Fourier transform and one term is evaluated using a direct sum.
 		\begin{equation}
 			\begin{aligned}
 			U_{coulomb} &= U_{FT}  + U_{direct-sum}
@@ -263,24 +262,11 @@ For a detailed review of different Particle Mesh Ewald Summation methods and the
 		\begin{equation}	
 			\nabla^2\tilde{U} = 4\pi \tilde{\rho}(\bold{k})
 		\end{equation}	
-		Where $\tilde{U}$ is the component of $U_{FT}$ we solve for in $k$-space and $\tilde{\rho}$ is the fourier transform of the smooth scalar function for the interpolated charge densities. 
+		Where $\tilde{U}$ is the component of $U_{FT}$ we solve for in $k$-space and $\tilde{\rho}$ is the Fourier transform of the smooth scalar function for the interpolated charge densities. 
 	\item An inverse Fourier transform is calculated to calculate solution to the Poisson equation in real space. 
 	\item The interactions in $U_{direct-sum}$ are evaluated using a simple pairwise summation.
 	\item Now that $U_{coulomb}$ is known at every position in the unit cell we can move atoms according to this potential using Newton's second law.
 \end{enumerate}
-
-%\begin{equation}
-%	\label {couloumb_eq}
-%	U_{coulomb} =  \frac{1}{2} \sum_{i,j=1}^N \sum\limits_{\substack{\bold{n}\neq \bold{0}, \\i\neq j}}\frac{q_iq_j}{|\bold{r}_i -\bold{r}_j -\bold{n} L  |} 
-%\end{equation}
-%
-%The variable $\bold{n} = (n_x,n_y,n_z) \in \mathbb{Z}_3$  is used to locate the locate the periodic image of an atom in the unit cell. If an atom is located at $\bold{r}$ it will have a periodic image located at $\bold{r} + \bold{n} L$.
-%
-%\begin{equation}
-%	\label {Poissons_equation}
-%	\nabla^2 U(\bold{r})  = \rho (\bold{r})
-%\end{equation}
-%
 
 \section{Controlling the Temperature and Pressure in a Simulation}
 Living things are very sensitive to their external environment. Enzymes only work in a narrow range of temperatures and cells burst apart in the absence of pressure. As such, to correctly understand the events in biological bodies with simulations we not only need to correctly calculate the forces being exerted on every atom in their bodies but we must also make sure that the virtual environment in our simulations matches that found in the body or in the laboratory. Conceptually, we seek to approximate the environment as an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
@@ -297,16 +283,15 @@ Remember that the temperature of a system is a direct function of the velocity o
 	f(v_i) = \Big(\frac{m_i}{2\pi k_B T}\Big)^{3/2} \exp{\Big(-\frac{m_iv_i^2}{2k_BT}\Big)}
 \end{equation}
 
-Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Bolztman's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \ \text{and}\  z$ components separately. 
+Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Boltzmann's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \ \text{and}\  z$ components separately. 
 
 Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al.\cite{knapp2018}, a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
 
 After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nos\'e-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
 
-The Nos\'e-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. Usually, the software simluation package GROMACS uses a chain of 10 baths, $M=10$\cite{abraham2015}. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
+The Nos\'e-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. Usually, the software simulation package GROMACS uses a chain of 10 baths, $M=10$\cite{abraham2015}. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
 
 \begin{equation}
-	%H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM}(\bold{x},\bold{p}) + \sum_j^M \frac{p^2_{\eta_j}}{2Q_j} +k_BT(  N_{df}   \eta_1   + \sum_{j=2}^M\eta_j)
 	H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM} + \sum_j^M \frac{p^2_{\eta_j}}{2Q_j} +k_BT  N_{df}   \eta_1   + k_BT \sum_{j=2}^M\eta_j
 \end{equation}
 
@@ -337,7 +322,7 @@ The parameters $Q_j$ are chosen by the user to control the coupling strength of 
 \begin{equation}
 	Q_j = \frac{\tau_{NH}T}{4\pi^2}\qquad  \forall j
 \end{equation}
-where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a timestep that is a multiple of $\tau_T$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_eqs} to match the correct temperature $T$.
+where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a time step that is a multiple of $\tau_T$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_eqs} to match the correct temperature $T$.
 
 Remember that we can always calculate the temperature  kinetic energy using the following
 
@@ -355,10 +340,10 @@ Pressure is critical to the function of living organisms. Membranes burst apart 
 In order to measure the pressure at the simulation walls we follow the procedure in \cite{allen1991} by calculating a quantity known as the virial:
 
 \begin{equation}
-	W(\bold{x}) = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}
+	W(\bold{x}) = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}.
 \end{equation}
 
-where $\bold{r}_{ij} = \bold{x}_i - \bold{x}_j$  is the Cartesian distance between the $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. 
+Where $\bold{r}_{ij} = \bold{x}_i - \bold{x}_j$  is the Cartesian distance between the $i$th and $j$th atoms, while $\bold F_{ij}$ is the force extorted on atom $j$ by atom $i$. 
 
 This is then substituted into the equation 
 
@@ -412,9 +397,9 @@ The process of taking a molecular structure and putting it in a cellular environ
 \section{Choosing an Appropriate Time Step}
 The discrete time step, $\Delta t$ which is used to integrate our equations of motion is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale. In the case of proteins this usually runs between $10^{-6}$ and $10^{-3}$s\cite{robustelli2022}.  
 
-As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by stretching of covalent bonds. Studies of the resonance of molecules by Infrared Spectroscapy determined that the O-H type bonds oscillate the fastest, with a resonance peak at 3600cm$^{-1}$\cite{schlick2010}. 
+As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by stretching of covalent bonds. Studies of the resonance of molecules by infrared spectroscopy determined that the O-H type bonds oscillate the fastest, with a resonance peak at 3600cm$^{-1}$\cite{schlick2010}. 
 
-Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, emperically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2009}. The Verlet leap-frog scheme used in most MD codes requires between 5 and 10 integration steps per period of the fastest harmonic mode in a system, to maintain stability \cite{mazur1997}\cite{feenstra1999}. The choice of too large a timestep means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
+Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, empirically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2009a}. The Verlet leap-frog scheme used in most MD codes requires between 5 and 10 integration steps per period of the fastest harmonic mode in a system, to maintain stability \cite{mazur1997}\cite{feenstra1999}. The choice of too large a time step means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseconds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
 
 The use of techniques such as hydrogen mass repartitioning \cite{balusek2019}, virtual site topologies \cite{feenstra1999} and multiple time step schemes\cite{streett1978} have also gained popularity in recent years in order to increase time steps further, up to $\Delta t = 5$fs. 
 
@@ -454,12 +439,12 @@ The use of techniques such as hydrogen mass repartitioning \cite{balusek2019}, v
 
 
 \subsection{ Verlet Leap-Frog Integration}
-To produce molecular trajectories we can use the potential $U_{MM}$ which we calculated with equation \ref{CHARMM_effective_potential_eq} and calculate the forces exerted on the atoms in the system.  By Newton's 2nd law ew have 
+To produce molecular trajectories we can use the potential $U_{MM}$ which we calculated with equation \ref{CHARMM_effective_potential_eq} and calculate the forces exerted on the atoms in the system.  By Newton's 2nd law have 
 \begin{equation}
 	\bold{a(\bold{x})}_i = \frac{d^2 \bold{x}_i(t)}{dt^2} = - \frac{1}{M_i} \nabla_i U_{MM}(\bold{x}_i).
 \end{equation}
  
-We can use this calculation of acceleration $a_i$ of the $i$th atom to update the postions and velocities of the atoms in the molecular system with the following triplet of equations known as the leap-frog verlet method \cite{schlick2010}:
+We can use this calculation of acceleration $a_i$ of the $i$th atom to update the positions and velocities of the atoms in the molecular system with the following triplet of equations known as the leap-frog Verlet method \cite{schlick2010}:
 
 \begin{equation} \label {leap-frog_equation}
 	\begin{aligned}
@@ -470,7 +455,7 @@ We can use this calculation of acceleration $a_i$ of the $i$th atom to update th
  \end{equation}
  Note that $v_i^{n-1/2}$ will have  been calculated during the previous time step and $a_i^{n+1}$ may be  calculated by the updated positions found by calculating  $\bold{x}^{n+1}_i$.
 
- In MD, we are less concerned with the accuracy of a particular trajectory so much as collecting sufficient statistics to calculate macroscopic properties such as free energies or diffusion profiles. This means the choice 4th order solvers such as the Runge Kutta method would be innapropriate. Although they may use a large timestep they require 4 evaluations of $U_{MM}$ per timestep and are thus expensive. Hence, we prefer symplectic (energy preserving), 2nd order methods such as verlet integration so the simulation remains stable after millions of timesteps\cite{streett1978}. 
+ In MD, we are less concerned with the accuracy of a particular trajectory so much as collecting sufficient statistics to calculate macroscopic properties such as free energies or diffusion profiles. This means the choice 4th order solvers such as the Runge-Kutta method would be inappropriate. Although they may use a large time step they require 4 evaluations of $U_{MM}$ per iteration and are thus expensive more expensive than any second order method. Hence, we prefer symplectic (energy preserving), 2nd order methods such as Verlet integration so the simulation remains stable after millions of time steps\cite{streett1978}. 
 
 \section{Free Energy Calculations: Making Simulations More Useful}
 The above work sets out how to perform what is known as unbiased MD simulations. These are powerful tools but as will be discussed in section \nameref{sampling_problem} if one only relies on unbiased simulations they will quickly exceed the available computer power. Imagine there is an event our system undergoes that we know from experimental evidence our system must exist but is slow. Examples of this include the passage of an ion through a channel and the binding of a drug. We \textit{could} calculate the Gibbs free energy of a given molecular configuration $\bold{x}_0$ using 
@@ -479,9 +464,9 @@ The above work sets out how to perform what is known as unbiased MD simulations.
 	\label{unbiased_estimate}
 \end{equation}
 
-Where $P^u(\bold{x}_0$ represents the probability of obtaining state $\bold{x}_0$, estimated from an unbiased simulation. From here on a subscript of $u$ indicates an quantity obtained from an unbiased simulation and a subscript $b$ represents a quantity from a biased simulation. 
+Where $P^u(\bold{x}_0)$ represents the probability of obtaining state $\bold{x}_0$, estimated from an unbiased simulation. From here on a subscript of $u$ indicates an quantity obtained from an unbiased simulation and a subscript $b$ represents a quantity from a biased simulation. 
 
-Equation \ref{unbiased estimate} shows how there is exponentially poor sampling in regions with high $U_{MM}$. So it is clear that we will not collect sufficient statistics for a good estimate with available computer power. So, we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically, but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
+Equation \ref{unbiased_estimate} shows how there is exponentially poor sampling in regions with high $U_{MM}$. So it is clear that we will not collect sufficient statistics for a good estimate with available computer power. So, we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically, but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{MM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest. 
 
 \begin{equation}
 \begin{aligned}
@@ -514,18 +499,18 @@ The functional form of $U_{bias}$ in umbrella sampling is then separated into $N
 
 Where $\xi_0^n$ is the equilibrium position of the restraint. $k_{\xi}^n$ is the strength of the harmonic restraint in the $n$th window. Typically this is the same in all windows. The more overlap between adjacent windows the more those windows are attracted to each other and the steeper the gradient of the free energy surface (FES) must be pushing those windows together. Conversely, when there is less overlap between adjacent windows it indicates the presence of a barrier in the energy landscape between those windows.
 
-Umbrella sampling is extremly useful for calculating all sorts of experimental quantities and physiologically relevant proprties such as folding energies \cite{meshkin2017}, lipid binding \cite{domanski2017}, ion conduction \cite{zhu2012b}, and drug binding \cite{subramanian2019}. However, it is particularly sensetive to the choice of initial configuration and collective variable \cite{domanski2017}. The former issue is partiuclar to umbrella sampling because generally short runs are used since so many windows are spawned during the method, the simulations must be at equilibrium \textit{before} the method is attempted, and then sufficient statistics must be collected to average over any conformational changes orthogonal to the collective variable. In these ways, care must be taken when using this method to not introduce systematic error into the calculation \cite{you2019}. A deep knowledge of the molecular system under investigation can help aleviate some of these issues. 
+Umbrella sampling is extremely useful for calculating all sorts of experimental quantities and physiologically relevant properties such as folding energies \cite{meshkin2017}, lipid binding \cite{domanski2017}, ion conduction \cite{zhu2012b}, and drug binding \cite{subramanian2019}. However, it is particularly sensitive to the choice of initial configuration and collective variable \cite{domanski2017}. The former issue is particular to umbrella sampling because generally short runs are used since so many windows are spawned during the method, the simulations must be at equilibrium \textit{before} the method is attempted, and then sufficient statistics must be collected to average over any conformational changes orthogonal to the collective variable. In these ways, care must be taken when using this method to not introduce systematic error into the calculation \cite{you2019a}. A deep knowledge of the molecular system under investigation can help alleviate some of these issues. 
 
 \subsubsection{Weighted Histogram Average Method (WHAM)}
-There a few candidates for calculating the PMF using the statistics calculated in umbrella sampling. The Weighted Histogram Average Method (WHAM)\cite{kumar1992}, Umbrella Integration (UI)\cite{kastner2005} and the Multistate Bennet Acceptance Ratio (MBAR)\cite{kim2012} are all used. We will breifly outline the mathematical formulation and estimation of errors of the WHAM method as it is more popular\cite{zhu2012}. Our explanation follows \cite{kastner2011} which covers the topic in more detail.
+There a few candidates for calculating the PMF using the statistics calculated in umbrella sampling. The Weighted Histogram Average Method (WHAM)\cite{kumar1992}, Umbrella Integration (UI)\cite{kastner2005} and the Multistate Bennett acceptance ratio (MBAR)\cite{kim2012} are all used. We will briefly outline the mathematical formulation and estimation of errors of the WHAM method as it is more popular\cite{zhu2012}. Our explanation follows \cite{kastner2011} which covers the topic in more detail.
 
 The method begins by dividing the sampled region into a set of $K$ histograms with $K$ being greater than the number of biased windows $N$.  The whole PMF can be estimated (poorly) from the $j$th biased histogram using 
 
 \begin{equation}
-	P_u^j(\xi) = P_b^j(\xi) \exp(\beta U_{b}^j (\xi)) \langle \exp(-\beta U_b^j (\xi))\rangle
+	P_u^j(\xi) = P_b^j(\xi) \exp(\beta U_{b}^j (\xi)) \langle \exp(-\beta U_b^j (\xi))\rangle.
 \end{equation}
 
-Where the $P(\xi)$  functions represent the probability density function calculated from samples collected at point $\xi$. The samples collected in each of these regions gives us an estimate of the PMF in the region according to equation \ref{}. These estimates are combined in a weighted sum using
+Where the $P(\xi)$  functions represent the probability density function calculated from samples collected at point $\xi$. The samples collected in each of these regions gives us an estimate of the PMF in the region according to equation \ref{unbiased_estimate}. These estimates are combined in a weighted sum using
 
 \begin{equation}
 	P_u(\xi) = \sum_j^K p_j(\xi)P_u^j (\xi)
@@ -537,7 +522,7 @@ where the weights, $\sum_j^K p_j = 1$ are chosen such that the statistical error
 	\frac{\partial\text{Var} (P_u)}{\partial p_i}
 \end{equation}
 
-is solved to give the best estimates of the PMF given the data that has been collected. Essentially we are vertically shifting the estimates obtained in each of the histograms in order to minimise the error accross the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distributions of $P^b_i (\xi)$ and constructing PMFs from these independent samples. For example, we might have collected 100ns of data in each window, but we could construct 5 independent estimates for the PMF using 20ns blocks of trajectories. The Standard Error of the Mean (SEM) can then be used to estimate the error accross the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM from these independent samples has fallen below 1kcal/mol accross the PMF. Note that there may be sources of systematic error not captured by this criterion. 
+is solved to give the best estimates of the PMF given the data that has been collected. Essentially we are vertically shifting the estimates obtained in each of the histograms in order to minimise the error across the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distributions of $P^b_i (\xi)$ and constructing PMFs from these independent samples. For example, we might have collected 100ns of data in each window, but we could construct 5 independent estimates for the PMF using 20ns blocks of trajectories. The Standard Error of the Mean (SEM) can then be used to estimate the error across the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM from these independent samples has fallen below 1kcal/mol across the PMF. Note that there may be sources of systematic error not captured by this criterion. 
 
 \subsection{Metadynamics}
 \begin{figure}
@@ -546,7 +531,7 @@ is solved to give the best estimates of the PMF given the data that has been col
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Illustration of Metadynamics] {\textbf{Illustration of Metadynamics}}{A) The trajectory of a collective variable $\xi$ in a  metadynamics simulation. The blue region denotes the trajectory up to the time where 20 Gaussians have been deposited. After which the basin at $\xi=0$ has been filled. The red data points denote the time up until 69 Gaussians have been deposited, after which time the second basin at $\xi=-4$ has been adequately sampled. Finally the Orange data indicates that the 3rd basin at $\xi=4$ has been adequately sampled after which which time the system begins to sample $\xi$ diffusively and the simulation has converged. B) The upper pannel demonstrates the repulsive potentials that have been added to the simulation in order to drive it to new, unexplored regions. Multiplying the values of this function by $-1$  will be the estimate of the free energy surface. Note how in the lower panel the true potential the true potential energy surface is gradually filled by the added Gaussians functions.  Source\cite{bussi2020}}
-	\label{umbrella_sampling_illustration}
+	\label{METAD_demonstration}
 \end{figure}
 
 Metadynamics has proven to be a popular . The method relies on a time dependent form of $U_{bias}$ given by 
@@ -557,7 +542,7 @@ Metadynamics has proven to be a popular . The method relies on a time dependent 
 
 This means the simulation is dropping virtual, repulsive Gaussian potentials at the positions along $\xi$ in order to encourage the simulation to sample regions of $\xi$ it has not visited already. The process is illustrated in figure \ref{METAD_demonstration}. The thermodynamic assumption of this method is that the deposition is done slow enough that the system remains at equilibrium, so the Gaussian height $B$ is chosen to be 0.1-0.2 kJ/mol in molecular systems. Usually, the Gaussian widths $\sigma$ are chosen to be the size of the variance in the unbiased measurements of $\xi$. 
 
-The FES estimate at time $t$ from this method is simply the sum of all the gaussians we have added into the system inverted:  
+The FES estimate at time $t$ from this method is simply the sum of all the Gaussians we have added into the system inverted:  
 
 \begin{equation}
 	U_u (\xi,t)  =  \frac{1}{t_c-t} \int_{t_c}^t U_b(\xi,t) dt
@@ -592,6 +577,7 @@ There are several efforts to correct address some of the above issues. These inc
 Ultimately, the functional form in equation \ref{CHARMM_effective_potential_eq} used by classical forcefields does not have sufficient degrees of freedom to address all possible chemical contexts. Careful consideration must always be given to whether the forcefield is being used in a faithful way to the situations it was intended to accurately represent. So long as the user is aware of the situations where a given forcefield falls short, classical forcefields can be a powerful tool for the study of molecular systems.
 
 \subsubsection{The Problem with Sampling}
+\label{sampling_problem}
 
 To physicists the sampling is the more intuitive. Collecting sufficient statistics about the system of interest is difficult and comes at both a computational and human cost. Even though computers have sped up exponentially for the last 50 years we are still orders of magnitude from being able to reach the time scales of many biological processes, as displayed in table \ref{timescales}.
 
