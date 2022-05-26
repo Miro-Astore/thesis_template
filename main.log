@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  26 MAY 2022 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  26 MAY 2022 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1506,8 +1506,8 @@ l.160 \blankpage
 ] (./07-Introduction.tex
 Chapter 1.
 
-LaTeX Warning: Reference `frauenfelder1994' on page 1 undefined on input line 7
-.
+LaTeX Warning: Citation 'frauenfelder1994' on page 1 undefined on input line 7.
+
 
 [1
 
@@ -1524,151 +1524,109 @@ Chapter 2.
 ] [8]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 61.
+d on input line 65.
 
 [9]
-Overfull \hbox (14.73613pt too wide) in paragraph at lines 127--127
+Overfull \hbox (14.73613pt too wide) in paragraph at lines 131--131
 []\OT1/cmr/bx/n/17.28 Classical MD, Molec-u-lar Mo-tions With-out Quan-
  []
 
 [10]
-
-LaTeX Warning: Reference `forcefields_review' on page 11 undefined on input lin
-e 135.
-
-
-LaTeX Warning: Reference `morse_potential' on page 11 undefined on input line 1
-52.
-
 <figures/bonded_interactions.pdf, id=392, 355.57504pt x 286.09044pt>
 File: figures/bonded_interactions.pdf Graphic file (type pdf)
 <use figures/bonded_interactions.pdf>
-Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 15
-6.
+Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 16
+0.
 (pdftex.def)             Requested size: 284.52756pt x 228.93376pt.
-[11] [12 <./figures/bonded_interactions.pdf>]
-<figures/QM_MM_compared.pdf, id=544, 2644.36272pt x 1348.22972pt>
+ [11] [12 <./figures/bonded_interactions.pdf>]
+<figures/QM_MM_compared.pdf, id=545, 2644.36272pt x 1348.22972pt>
 File: figures/QM_MM_compared.pdf Graphic file (type pdf)
 <use figures/QM_MM_compared.pdf>
-Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 181.
+Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 185.
 (pdftex.def)             Requested size: 441.01773pt x 224.83469pt.
-<figures/LJ_figure.pdf, id=547, 968.16644pt x 471.10486pt>
+<figures/LJ_figure.pdf, id=548, 968.16644pt x 471.10486pt>
 File: figures/LJ_figure.pdf Graphic file (type pdf)
 <use figures/LJ_figure.pdf>
-Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 192.
+Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 196.
 (pdftex.def)             Requested size: 441.01773pt x 214.59744pt.
- [13 <./figures/QM_MM_compared.pdf>]
-
-LaTeX Warning: Reference `QM_MM_compared' on page 14 undefined on input line 20
-3.
-
-[14 <./figures/LJ_figure.pdf>]
-Overfull \hbox (3.19293pt too wide) in paragraph at lines 210--211
+ [13 <./figures/QM_MM_compared.pdf>] [14 <./figures/LJ_figure.pdf>]
+Overfull \hbox (3.19293pt too wide) in paragraph at lines 215--216
 \OT1/cmr/m/n/12 since many biomolecules share sim-i-lar ge-ome-tries to cer-tai
 n or-ganic liq-uids, macro-
  []
 
-<figures/PME_miro.pdf, id=663, 1433.26959pt x 878.70018pt>
+<figures/PME_miro.pdf, id=666, 1433.26959pt x 878.70018pt>
 File: figures/PME_miro.pdf Graphic file (type pdf)
 <use figures/PME_miro.pdf>
-Package pdftex.def Info: figures/PME_miro.pdf  used on input line 227.
+Package pdftex.def Info: figures/PME_miro.pdf  used on input line 232.
 (pdftex.def)             Requested size: 441.01773pt x 270.36966pt.
-[15] [16 <./figures/PME_miro.pdf>] [17]
+[15] [16 <./figures/PME_miro.pdf>] [17] [18] [19] [20] [21]
 
-LaTeX Warning: Citation 'abraham2015' on page 18 undefined on input line 301.
-
-[18]
-
-LaTeX Warning: Reference `NH_eqs' on page 19 undefined on input line 334.
-
-[19] [20]
-
-LaTeX Warning: Reference `verlet' on page 21 undefined on input line 407.
+LaTeX Warning: Citation 'leach2009' on page 22 undefined on input line 415.
 
 
-LaTeX Warning: Citation 'leach2009' on page 21 undefined on input line 409.
-
-[21]
-
-LaTeX Warning: Citation 'leach2009' on page 22 undefined on input line 444.
+LaTeX Warning: Citation 'leach2009' on page 22 undefined on input line 450.
 
 
-Package caption Warning: \label without proper reference on input line 414.
+Package caption Warning: \label without proper reference on input line 420.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 22 undefined on input line 447.
+LaTeX Warning: Reference `timescales' on page 22 undefined on input line 453.
 
-[22]
+[22] [23]
 
-LaTeX Warning: Reference `sampling_problem' on page 23 undefined on input line 
-469.
+LaTeX Warning: Reference `sampling_problem' on page 24 undefined on input line 
+475.
 
 
-LaTeX Warning: Reference `unbiased estimate' on page 23 undefined on input line
- 477.
+LaTeX Warning: Reference `unbiased estimate' on page 24 undefined on input line
+ 483.
 
-[23]
-<figures/umbrella_sampling.png.pdf, id=868, 1054.59818pt x 326.65247pt>
+<figures/umbrella_sampling.png.pdf, id=873, 1054.59818pt x 326.65247pt>
 File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
 <use figures/umbrella_sampling.png.pdf>
 Package pdftex.def Info: figures/umbrella_sampling.png.pdf  used on input line 
-492.
+498.
 (pdftex.def)             Requested size: 441.01773pt x 136.59996pt.
- [24 <./figures/umbrella_sampling.png.pdf>]
+[24]
 
-LaTeX Warning: Citation 'you2019' on page 25 undefined on input line 510.
+LaTeX Warning: Citation 'you2019' on page 25 undefined on input line 516.
 
+[25 <./figures/umbrella_sampling.png.pdf>]
 
-LaTeX Warning: Reference `' on page 25 undefined on input line 521.
+LaTeX Warning: Reference `' on page 26 undefined on input line 527.
 
-[25]
-<figures/METAD_demonstration.pdf, id=918, 229.83649pt x 294.60641pt>
+<figures/METAD_demonstration.pdf, id=917, 229.83649pt x 294.60641pt>
 File: figures/METAD_demonstration.pdf Graphic file (type pdf)
 <use figures/METAD_demonstration.pdf>
-Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 53
-8.
+Package pdftex.def Info: figures/METAD_demonstration.pdf  used on input line 54
+4.
 (pdftex.def)             Requested size: 308.71106pt x 395.74602pt.
-
-
-LaTeX Warning: Reference `METAD_demonstration' on page 26 undefined on input li
-ne 551.
-
 [26] [27 <./figures/METAD_demonstration.pdf>]
 
-LaTeX Warning: Reference `forcefields_review' on page 28 undefined on input lin
-e 574.
+LaTeX Warning: Reference `METAD_demonstration' on page 28 undefined on input li
+ne 557.
 
+[28] [29]
 
-LaTeX Warning: Citation 'born-oppenheimer' on page 28 undefined on input line 5
-74.
-
-[28]
-
-LaTeX Warning: Citation 'li2017' on page 29 undefined on input line 583.
-
-
-LaTeX Warning: Citation 'shi2013' on page 29 undefined on input line 583.
-
-
-Package caption Warning: \label without proper reference on input line 414.
+Package caption Warning: \label without proper reference on input line 420.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `timescales' on page 29 undefined on input line 589.
+LaTeX Warning: Reference `timescales' on page 30 undefined on input line 595.
 
-[29]) (./09-CFTR-Review.tex [30]
+) [30] (./09-CFTR-Review.tex [31]
 Chapter 3.
-[31
-
-]
-<figures/CFTR_structure.pdf, id=992, 955.70105pt x 392.65889pt>
+<figures/CFTR_structure.pdf, id=1004, 955.70105pt x 392.65889pt>
 File: figures/CFTR_structure.pdf Graphic file (type pdf)
 <use figures/CFTR_structure.pdf>
-Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 19.
+Package pdftex.def Info: figures/CFTR_structure.pdf  used on input line 20.
 (pdftex.def)             Requested size: 441.01773pt x 181.19447pt.
- [32 <./figures/CFTR_structure.pdf>] [33] [34] [35] [36])
-(./15-Conclusion.tex [37]
+[32
+
+] [33 <./figures/CFTR_structure.pdf>] [34] [35] [36]) (./15-Conclusion.tex
+[37]
 Chapter 4.
 ) (./16-Appendix.tex [38
 
@@ -1725,10 +1683,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30836 strings out of 481239
- 568248 string characters out of 5920378
- 1195281 words of memory out of 5000000
- 45229 multiletter control sequences out of 15000+600000
+ 30848 strings out of 481239
+ 568650 string characters out of 5920378
+ 1195605 words of memory out of 5000000
+ 45238 multiletter control sequences out of 15000+600000
  544387 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,18n,96p,1563b,2914s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1752,10 +1710,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (60 pages, 7289243 bytes).
+Output written on main.pdf (60 pages, 7292143 bytes).
 PDF statistics:
- 1331 PDF objects out of 1440 (max. 8388607)
- 1131 compressed objects within 12 object streams
- 255 named destinations out of 1000 (max. 500000)
+ 1348 PDF objects out of 1440 (max. 8388607)
+ 1148 compressed objects within 12 object streams
+ 258 named destinations out of 1000 (max. 500000)
  376 words of extra memory for PDF output out of 10000 (max. 10000000)
 

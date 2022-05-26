@@ -17,11 +17,15 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 17649 items from 5000.
+Reallocated field_info (elt_size=4) to 18205 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: ./library.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Database file #3: library.bib
+Repeated entry---line 165 of file library.bib
+ : @article{abraham2015
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 333 of file library.bib
  : @book{allen1991
  :                ,
@@ -178,243 +182,252 @@ Repeated entry---line 9890 of file library.bib
  : @incollection{lemkul2020
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10213 of file library.bib
+Repeated entry---line 10058 of file library.bib
+ : @article{li2017
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10229 of file library.bib
  : @article{lindorff-larsen2016
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10274 of file library.bib
+Repeated entry---line 10290 of file library.bib
  : @article{linsdell2018
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10694 of file library.bib
+Repeated entry---line 10710 of file library.bib
  : @article{luo2020
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10765 of file library.bib
+Repeated entry---line 10781 of file library.bib
  : @incollection{macdonald2001
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11191 of file library.bib
+Repeated entry---line 11207 of file library.bib
  : @article{martyna1992
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11207 of file library.bib
+Repeated entry---line 11223 of file library.bib
  : @article{martyna1996
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11241 of file library.bib
+Repeated entry---line 11257 of file library.bib
  : @article{mazur1997
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11562 of file library.bib
+Repeated entry---line 11578 of file library.bib
  : @article{meshkin2017
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11715 of file library.bib
+Repeated entry---line 11731 of file library.bib
  : @article{mihalyi2020
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11740 of file library.bib
+Repeated entry---line 11756 of file library.bib
  : @book{miller1976
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12129 of file library.bib
+Repeated entry---line 12145 of file library.bib
  : @article{morsali2005
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12720 of file library.bib
+Repeated entry---line 12736 of file library.bib
  : @article{ngo2021
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13429 of file library.bib
+Repeated entry---line 13445 of file library.bib
  : @article{parrinello1980
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13461 of file library.bib
+Repeated entry---line 13477 of file library.bib
  : @article{parrinello1981a
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13765 of file library.bib
+Repeated entry---line 13781 of file library.bib
  : @article{perera1995
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 14018 of file library.bib
+Repeated entry---line 14034 of file library.bib
  : @book{phillips2012
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 14208 of file library.bib
+Repeated entry---line 14224 of file library.bib
  : @article{pohorille2010
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 14633 of file library.bib
+Repeated entry---line 14649 of file library.bib
  : @article{raiteri2006
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 14923 of file library.bib
+Repeated entry---line 14939 of file library.bib
  : @article{roberts1994
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 14949 of file library.bib
+Repeated entry---line 14965 of file library.bib
  : @article{robustelli2018
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 14965 of file library.bib
+Repeated entry---line 14981 of file library.bib
  : @article{robustelli2022
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 15096 of file library.bib
+Repeated entry---line 15112 of file library.bib
  : @article{ross2018
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 15438 of file library.bib
+Repeated entry---line 15454 of file library.bib
  : @article{salvalaglio2014
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 15637 of file library.bib
+Repeated entry---line 15653 of file library.bib
  : @book{schlick2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16124 of file library.bib
+Repeated entry---line 16140 of file library.bib
  : @article{shan2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16140 of file library.bib
+Repeated entry---line 16156 of file library.bib
  : @article{shannon1949
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16339 of file library.bib
+Repeated entry---line 16355 of file library.bib
  : @article{sherrill
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16756 of file library.bib
+Repeated entry---line 16363 of file library.bib
+ : @article{shi2013
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16788 of file library.bib
  : @article{stratford2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16773 of file library.bib
+Repeated entry---line 16805 of file library.bib
  : @article{streett1978
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16881 of file library.bib
+Repeated entry---line 16913 of file library.bib
  : @article{subramanian2019
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 16938 of file library.bib
+Repeated entry---line 16970 of file library.bib
  : @article{sun2016
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 17474 of file library.bib
+Repeated entry---line 17506 of file library.bib
  : @article{tiwary2013
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 17489 of file library.bib
+Repeated entry---line 17521 of file library.bib
  : @article{tiwary2016
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 17850 of file library.bib
+Repeated entry---line 17882 of file library.bib
  : @article{vangoor2014
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 17910 of file library.bib
+Repeated entry---line 17942 of file library.bib
  : @article{vanmourik2014
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 17926 of file library.bib
+Repeated entry---line 17958 of file library.bib
  : @article{vanommeslaeghe2010
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18089 of file library.bib
+Repeated entry---line 18121 of file library.bib
  : @article{venable2009
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18476 of file library.bib
+Repeated entry---line 18508 of file library.bib
  : @article{wang2004
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18490 of file library.bib
+Repeated entry---line 18522 of file library.bib
  : @article{wang2006
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18875 of file library.bib
+Repeated entry---line 18907 of file library.bib
  : @article{werner2012
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 19278 of file library.bib
+Repeated entry---line 19310 of file library.bib
  : @article{yang2002
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 19584 of file library.bib
+Repeated entry---line 19616 of file library.bib
  : @article{yoo2018a
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20029 of file library.bib
+Repeated entry---line 20061 of file library.bib
  : @article{zhang2016
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20057 of file library.bib
+Repeated entry---line 20089 of file library.bib
  : @article{zhang2017a
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20074 of file library.bib
+Repeated entry---line 20106 of file library.bib
  : @article{zhang2018
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20405 of file library.bib
+Repeated entry---line 20437 of file library.bib
  : @article{zhu2012
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20423 of file library.bib
+Repeated entry---line 20455 of file library.bib
  : @article{zhu2012b
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20455 of file library.bib
+Repeated entry---line 20487 of file library.bib
  : @article{zhu2019
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Hoffstadter2008"
 Warning--I didn't find a database entry for "leach2009"
 Warning--I didn't find a database entry for "you2019"
+Warning--I didn't find a database entry for "born-oppenheimer"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 88 entries,
+You've used 91 entries,
             6365 wiz_defined-function locations,
-            2000 strings with 112770 characters,
-and the built_in function-call counts, 767854 in all, are:
-= -- 59290
-> -- 12227
-< -- 3394
-+ -- 18894
-- -- 4955
-* -- 59854
-:= -- 84361
+            2025 strings with 118510 characters,
+and the built_in function-call counts, 805216 in all, are:
+= -- 62272
+> -- 12829
+< -- 3560
++ -- 20035
+- -- 5230
+* -- 62778
+:= -- 88820
 add.period$ -- 0
-call.type$ -- 88
-change.case$ -- 1751
-chr.to.int$ -- 494
-cite$ -- 174
-duplicate$ -- 74470
-empty$ -- 69087
-format.name$ -- 8169
-if$ -- 156049
+call.type$ -- 91
+change.case$ -- 1833
+chr.to.int$ -- 512
+cite$ -- 180
+duplicate$ -- 78393
+empty$ -- 72130
+format.name$ -- 8608
+if$ -- 163381
 int.to.chr$ -- 0
-int.to.str$ -- 240
+int.to.str$ -- 250
 missing$ -- 0
-newline$ -- 4243
-num.names$ -- 4593
-pop$ -- 33302
+newline$ -- 4451
+num.names$ -- 4777
+pop$ -- 34640
 preamble$ -- 1
-purify$ -- 2488
+purify$ -- 2613
 quote$ -- 0
-skip$ -- 17531
+skip$ -- 18270
 stack$ -- 0
-substring$ -- 114079
-swap$ -- 17518
-text.length$ -- 2541
+substring$ -- 119589
+swap$ -- 18307
+text.length$ -- 2666
 text.prefix$ -- 2
 top$ -- 1
-type$ -- 2980
+type$ -- 3082
 warning$ -- 0
-while$ -- 10922
+while$ -- 11554
 width$ -- 0
-write$ -- 4156
-(There were 87 error messages)
+write$ -- 4361
+(There were 90 error messages)

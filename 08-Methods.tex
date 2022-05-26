@@ -1,7 +1,10 @@
 %=======================================================================================%
 \chapter{From Protons to Proteins: Methods to simulate the inside of a cell.}
 \numberwithin{equation}{chapter}
+
 \label{chap:methods}
+
+\chapquote{Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.- Richard P. Feynnman}  {}
 
 This chapter is written for somebody who has studied undergraduate physics and now wishes to model biological systems at the molecular level. Care is taken to dive deeper into the mathematical formulations of simulation methods than is conventionally given in introductory texts. Essentially, this is the understanding of simulation techniques I wish I had when I started studying them. An excellent overview which I would recommend as first reading for any new student can be found in an article by Braun et al. \cite{braun2019} followed by \cite{gapsys2020} for statistical rigour and \cite{pohorille2010} for free energy calculations.  
 
@@ -53,6 +56,7 @@ T_n = - \sum_i \frac{\hbar^2}{2M_i} \nabla_i ^2,\quad  T_e = - \sum_l \frac{\hba
 $M_i$ represents the mass of the $i$th nucleon and $m_e$ represents the mass of an electron. The operator $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2 }{\partial y^2} + \frac{\partial^2}{\partial z^2} $. The separate subscripts $i$ and $l$ are due to the different coordinates which we use to denote the positions of the nuclei and the electrons. The reason for this will become clear when we derive the Born-Oppenheimer approximation to separate the wave functions and treat them separately.
 
 \subsection{The Born-Oppenheimer approximation.}
+\label{born-oppenheimer}
 In order to reach the Born-Oppenheimer approximation we start with the observation that electrons have a mass 3-4 orders of magnitude smaller than the nuclei. This motivates two simplifications. The ``clamped nuclei assumption" where we solve the Schr\"odinger equation whilst nuclei are fixed in space and do not move. And a related assumption known as the ``adiabatic assumption" which postulates that the electrons will respond instantaneously to any changes in the positions of the nuclei. Combining these physical approximations we derive the ``Born-Oppenheimer approximation" for the Schr\"odinger equation which can be used to simplify calculations involving several atoms at once. 
 
 We begin the derivation by examining the time-independent form of the electronic Schr\"odinger wave equation where the nuclei are fixed at positions $R_i$. 
@@ -149,7 +153,7 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 \end{aligned}
 \end{equation}
 
-Here, the $k_i$ terms correspond to the strength of the harmonic restraint for a parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to be a reasonable approximation for the potential energy functions of quantum mechanics in covalently bonded chemical species. Examples can be seen in figure \ref{morse_potential}.
+Here, the $k_i$ terms correspond to the strength of the harmonic restraint for a parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to be a reasonable approximation for the potential energy functions of quantum mechanics in covalently bonded chemical species. Examples can be seen in figure \ref{QM_MM_compared}.
 
 \begin{figure}
 	\begin{center}
@@ -183,7 +187,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Comparison Between Potentials in Quantum and Classical Forcefields] {\textbf{Comparison Between Potentials in Quantum and Classical Forcefields}}{ A) The Morse potential was formulated to approximate the potential the potential energy surface associated with the stretching of covalent bonds (blue). At low temperatures (the ground state, $v=0$) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006 B) Here the potential of the dihedral angle between the atoms C1,C2,C3 and C4 in a butane molecule is calculated using two methods: Quantum Chemical calculations and approximations using the functional form in \ref{bonded_eqs} \cite{lemkul2020}. Note how the appropriate choice of $k_\varphi$, $n$ and $\delta$ have closely approximated the results the more accurate quantum mechanical calculations.}
  
-	\label{QMM_MM_compared}
+	\label{QM_MM_compared}
 \end{figure}
 
 \subsubsection{The Lennard-Jones Potential}
@@ -197,6 +201,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 \end{figure}
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
+\label{forcefields_review}
 At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of OPLS and. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. Ultimately, the results from \textit{in silico} experiments must match those of wet lab experimetns so the development of all forcefields has elements of both philosophies. All forcefields assign the partial charges to atoms using the results of \textit{ab initio} QM calculations. The rest of the parameters parameters are derived with other methods. For example, the Lennard-Jones parameters $\sigma$ and $\epsilon$ can be chosen to reproduce calculations of the osmotic pressure from solvated ions \cite{yoo2018a} or dihedral parameters can be chosen to reproduce known secondary structure characteristics of pepteides\cite{huang2017}. Different forcefields have different methods of deriving their parameters. Below is a short summary of the philosophy for the 4 major forcefields taken from the review by Justin Lemkul \cite{lemkul2020} which has an indepth discussion of the history of the development of each of these forcefields.
 
 \begin{itemize}
@@ -324,6 +329,7 @@ By using Hamilton's equations of motion, $H_{NH}$ evolves by
 		\vdots \\ 
 		\dot{p_{\eta_M}} &= \bigg[ \frac{p^2_{\eta_{M-1}}}{Q_{M-1}} - k_bT \bigg]
 	\end{aligned}
+	\label{NH_eqs}
 \end{equation}
 Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculated from $U_{MM}$ using Newton's second law. 
 
@@ -404,14 +410,15 @@ This system of equations can be solved numerically to control the pressure of th
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
 
 \section{Choosing an Appropriate Time Step}
-The discrete time step, $\Delta t$ in equation \ref{verlet}, is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale. In the case of proteins this usually runs between $10^{-6}$ and $10^{-3}$s\cite{robustelli2022}.  
+The discrete time step, $\Delta t$ which is used to integrate our equations of motion is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale. In the case of proteins this usually runs between $10^{-6}$ and $10^{-3}$s\cite{robustelli2022}.  
 
-Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, emperically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2009}. The Verlet leap-frog scheme used in most MD codes requires 5 integration steps per period of the fastest harmonic oscillation in a system \cite{mazur1997}\cite{feenstra1999}. The choice of too large a timestep means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
+As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by stretching of covalent bonds. Studies of the resonance of molecules by Infrared Spectroscapy determined that the O-H type bonds oscillate the fastest, with a resonance peak at 3600cm$^{-1}$\cite{schlick2010}. 
 
-The use of schemes such as hydrogen mass repartitioning \cite{balusek2019}, virtual site topologies \cite{feenstra1999} and multiple time step schemes\cite{streett1978} have also gained popularity in recent years in order to increase time steps further, to $\Delta t = 5$fs. 
+Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, emperically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2009}. The Verlet leap-frog scheme used in most MD codes requires between 5 and 10 integration steps per period of the fastest harmonic mode in a system, to maintain stability \cite{mazur1997}\cite{feenstra1999}. The choice of too large a timestep means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
+
+The use of techniques such as hydrogen mass repartitioning \cite{balusek2019}, virtual site topologies \cite{feenstra1999} and multiple time step schemes\cite{streett1978} have also gained popularity in recent years in order to increase time steps further, up to $\Delta t = 5$fs. 
 
 \begin{table}
-	\label{timescales}
 	\begin{center}   
 		\begin{tabular}{ |c|c|c|}
 			\hline
@@ -442,9 +449,9 @@ The use of schemes such as hydrogen mass repartitioning \cite{balusek2019}, virt
 %\end{tabular}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. This stands in tension with the phenomena we are interested in on longer timescales such as protein folding. Sources: \cite{leach2009}\cite{schlick2010}\cite{brooks1988}\cite{flood2019}\cite{werner2012}} \cite{feenstra1999}
+	\label{timescales}
 \end{table}
 
-As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by the translation of hydrogen atoms. Virtual site topologies aim to remove the requirement for calculating these motions every time step by instead interpolating the positions of hydrogen atoms from the positions of surrounding heavy atoms. This follows from the 3600cm$^{-1}$ peak in the resonance infrared resonance spectrum of biomolecules corresponding to the bond stretching oscillation of the H-O bond. \cite{schlick2010} Setting the time step of simluations to 1/10th of this period gives sufficient gives the Verlet integrator sufficient resolution to capture the motion and maintain the stability of the energy function.
 
 \subsection{ Verlet Leap-Frog Integration}
 To produce molecular trajectories we can use the potential $U_{MM}$ which we calculated with equation \ref{CHARMM_effective_potential_eq} and calculate the forces exerted on the atoms in the system.  By Newton's 2nd law ew have 
@@ -571,7 +578,7 @@ A useful feature of the Metadynamics method is that it can be linearly sped up w
 Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. This method is more suited to an exploration of free energy space where it can intelligently explore regions which are poorly sampled, whereas umbrella sampling requires some foreknowledge of the surface being investigated in order to guess which parts of the landscape require more sampling. However, metadynamics can be very difficult converge. A good indicator of such systematic errors are the presence of unphysically large barriers, indicating that there are orthogonal degrees of freedom not sampled along $\xi$ which might correspond to a minimum energy pathway. These barriers will eventually come down in the infinite sampling limit but many barrier crossings will need to be observed. 
 
 \section{Short Comings of Classical MD}
-The short comings of classical molecular dynamics fall into two classes whose solutions stand opposed to one another. These are the accuracy of the chemical forcefields outlined in section \ref{forcefields_review} and the inability of modern computers to deliver enough samples of the energy landscape to collect sufficient statistics for rigorous conclusions. The issue is that, as the above physical formulation might indicate in section \cite{born-oppenheimer}. The more accurate the forcefields, the more computationally expensive calculations in its potential will be. And so the solutions to the two are constantly in tension with one another. In the next section we will explore the current efforts to bring solutions to both problems.
+The short comings of classical molecular dynamics fall into two classes whose solutions stand opposed to one another. These are the accuracy of the chemical forcefields outlined in section \ref{forcefields_review} and the inability of modern computers to deliver enough samples of the energy landscape to collect sufficient statistics for rigorous conclusions. The issue is that, as the above physical formulation might indicate in section \ref{born-oppenheimer}. The more accurate the forcefields, the more computationally expensive calculations in its potential will be. And so the solutions to the two are constantly in tension with one another. In the next section we will explore the current efforts to bring solutions to both problems.
 
 \subsubsection{The Problem with Forcefields}
 These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current\cite{ngo2021}.

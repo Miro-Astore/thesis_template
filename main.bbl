@@ -2318,6 +2318,84 @@
     \field{year}{1996}
   \endentry
 
+  \entry{abraham2015}{article}{}
+    \name{author}{7}{}{%
+      {{hash=AMJ}{%
+         family={Abraham},
+         familyi={A\bibinitperiod},
+         given={Mark\bibnamedelima James},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Murtola},
+         familyi={M\bibinitperiod},
+         given={Teemu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Schulz},
+         familyi={S\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={P{\'a}ll},
+         familyi={P\bibinitperiod},
+         given={Szil{\'a}rd},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJC}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Jeremy\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hess},
+         familyi={H\bibinitperiod},
+         given={Berk},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lindah},
+         familyi={L\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \keyw{Free energy,Gpu,Molecular dynamics,Simd}
+    \strng{namehash}{AMJ+1}
+    \strng{fullhash}{AMJMTSRPSSJCHBLE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    GROMACS is one of the most widely used open-source and free software codes
+  in chemistry, used primarily for dynamical simulations of biomolecules. It
+  provides a rich set of calculation types, preparation and analysis tools.
+  Several advanced techniques for free-energy calculations are supported. In
+  version 5, it reaches new performance heights, through several new and
+  enhanced parallelization algorithms. These work on every level; SIMD
+  registers inside cores, multithreading, heterogeneous CPU-GPU acceleration,
+  state-of-the-art 3D domain decomposition, and ensemble-level parallelization
+  through built-in replica exchange and the separate Copernicus framework. The
+  latest best-in-class compressed trajectory storage format is supported.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.softx.2015.06.001
+    \endverb
+    \field{issn}{23527110}
+    \field{pages}{19\bibrangedash 25}
+    \field{title}{Gromacs: {{High}} Performance Molecular Simulations through
+  Multi-Level Parallelism from Laptops to Supercomputers}
+    \field{volume}{1--2}
+    \field{journaltitle}{SoftwareX}
+    \field{month}{09}
+    \field{year}{2015}
+  \endentry
+
   \entry{karal2021}{article}{}
     \name{author}{4}{}{%
       {{hash=KMAS}{%
@@ -4124,57 +4202,6 @@
     \field{year}{2006}
   \endentry
 
-  \entry{hollingsworth2018}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HSA}{%
-         family={Hollingsworth},
-         familyi={H\bibinitperiod},
-         given={Scott\bibnamedelima A.},
-         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=DRO}{%
-         family={Dror},
-         familyi={D\bibinitperiod},
-         given={Ron\bibnamedelima O.},
-         giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HSADRO1}
-    \strng{fullhash}{HSADRO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The impact of molecular dynamics (MD) simulations in molecular biology and
-  drug discovery has expanded dramatically in recent years. These simulations
-  capture the behavior of proteins and other biomolecules in full atomic detail
-  and at very fine temporal resolution. Major improvements in simulation speed,
-  accuracy, and accessibility, together with the proliferation of experimental
-  structural data, have increased the appeal of biomolecular simulation to
-  experimentalists\textemdash a trend particularly noticeable in , though
-  certainly not limited to, neuroscience. Simulations have proven valuable in
-  deciphering functional mechanisms of proteins and other biomolecules, in
-  uncovering the structural basis for disease, and in the design and
-  optimization of small molecules, peptides, and proteins. Here we describe in
-  practical terms the types of information MD simulations can provide and the
-  ways in which they typically motivate further experimental work.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.neuron.2018.08.011
-    \endverb
-    \field{issn}{0896-6273}
-    \field{number}{6}
-    \field{pages}{1129\bibrangedash 1143}
-    \field{title}{Molecular Dynamics Simulation for All}
-    \field{volume}{99}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/8EVFE85F/Hollingsworth and Dror - 2018 - Mo
-    \verb lecular dynamics simulation for all.pdf
-    \endverb
-    \field{journaltitle}{Neuron}
-    \field{month}{09}
-    \field{year}{2018}
-  \endentry
-
   \entry{ngo2021}{article}{}
     \name{author}{6}{}{%
       {{hash=NV}{%
@@ -4253,6 +4280,251 @@
     \field{journaltitle}{Journal of Chemical Theory and Computation}
     \field{month}{03}
     \field{year}{2021}
+  \endentry
+
+  \entry{hollingsworth2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HSA}{%
+         family={Hollingsworth},
+         familyi={H\bibinitperiod},
+         given={Scott\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DRO}{%
+         family={Dror},
+         familyi={D\bibinitperiod},
+         given={Ron\bibnamedelima O.},
+         giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HSADRO1}
+    \strng{fullhash}{HSADRO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The impact of molecular dynamics (MD) simulations in molecular biology and
+  drug discovery has expanded dramatically in recent years. These simulations
+  capture the behavior of proteins and other biomolecules in full atomic detail
+  and at very fine temporal resolution. Major improvements in simulation speed,
+  accuracy, and accessibility, together with the proliferation of experimental
+  structural data, have increased the appeal of biomolecular simulation to
+  experimentalists\textemdash a trend particularly noticeable in , though
+  certainly not limited to, neuroscience. Simulations have proven valuable in
+  deciphering functional mechanisms of proteins and other biomolecules, in
+  uncovering the structural basis for disease, and in the design and
+  optimization of small molecules, peptides, and proteins. Here we describe in
+  practical terms the types of information MD simulations can provide and the
+  ways in which they typically motivate further experimental work.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuron.2018.08.011
+    \endverb
+    \field{issn}{0896-6273}
+    \field{number}{6}
+    \field{pages}{1129\bibrangedash 1143}
+    \field{title}{Molecular Dynamics Simulation for All}
+    \field{volume}{99}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/8EVFE85F/Hollingsworth and Dror - 2018 - Mo
+    \verb lecular dynamics simulation for all.pdf
+    \endverb
+    \field{journaltitle}{Neuron}
+    \field{month}{09}
+    \field{year}{2018}
+  \endentry
+
+  \entry{li2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chowdhary},
+         familyi={C\bibinitperiod},
+         given={Janamejaya},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Xibing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Beno{\^i}t},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{LH+1}
+    \strng{fullhash}{LHCJHLHXMADRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Additive force fields are designed to account for induced electronic
+  polarization in a mean-field average way, using effective empirical fixed
+  charges. The limitation of this approximation is cause for serious concerns,
+  particularly in the case of lipid membranes, where the molecular environment
+  undergoes dramatic variations over microscopic length scales. A polarizable
+  force field based on the classical Drude oscillator offers a practical and
+  computationally efficient framework for an improved representation of
+  electrostatic interactions in molecular simulations. Building on the
+  first-generation Drude polarizable force field for the
+  dipalmitoylphosphatidylcholine 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  (DPPC) molecule, the present effort was undertaken to improve this initial
+  model and expand the force field to a wider range of phospholipid molecules.
+  New lipids parametrized include dimyristoylphosphatidylcholine (DMPC),
+  dilauroylphosphatidylcholine (DLPC),
+  1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC),
+  1,2-dioleoyl-sn-glycero-3-phosphocholine (DOPC),
+  dipalmitoylphosphatidylethanolamine (DPPE),
+  1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine (POPE), and
+  1,2-dioleoyl-sn-glycero-3-phosphoethanolamine (DOPE). The iterative
+  optimization protocol employed in this effort led to lipid models that
+  achieve a good balance between reproducing quantum mechanical data on model
+  compound representative of phospholipids and reproducing a range of
+  experimental condensed phase properties of bilayers. A parametrization
+  strategy based on a restrained ensemble\textendash maximum entropy
+  methodology was used to help accurately match the experimental NMR order
+  parameters in the polar headgroup region. All the parameters were developed
+  to be compatible with the remainder of the Drude polarizable force field,
+  which includes water, ions, proteins, DNA, and selected carbohydrates.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.7b00262
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{9}
+    \field{pages}{4535\bibrangedash 4552}
+    \field{title}{Drude {{Polarizable Force Field}} for {{Molecular Dynamics
+  Simulations}} of {{Saturated}} and {{Unsaturated Zwitterionic Lipids}}}
+    \field{volume}{13}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/4TMKNM86/Li et al. - 2017 - Drude Polarizab
+    \verb le Force Field for Molecular Dynami.pdf;/home/miro/Zotero/storage/W5M
+    \verb GT9T9/acs.jctc.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{09}
+    \field{year}{2017}
+  \endentry
+
+  \entry{shi2013}{article}{}
+    \name{author}{7}{}{%
+      {{hash=SY}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XZ}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Zhen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jiajing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Best},
+         familyi={B\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Chuanjie},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PJW}{%
+         family={Ponder},
+         familyi={P\bibinitperiod},
+         given={Jay\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Pengyu},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{SY+2}
+    \strng{fullhash}{SYXZZJBRWCPJWRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Development of the AMOEBA (atomic multipole optimized energetics for
+  biomolecular simulation) force field for proteins is presented. The current
+  version (AMOEBA-2013) utilizes permanent electrostatic multipole moments
+  through the quadrupole at each atom, and explicitly treats polarization
+  effects in various chemical and physical environments. The atomic multipole
+  electrostatic parameters for each amino acid residue type are derived from
+  high-level gas phase quantum mechanical calculations via a consistent and
+  extensible protocol. Molecular polarizability is modeled via a Thole-style
+  damped interactive induction model based upon distributed atomic
+  polarizabilities. Inter- and intramolecular polarization is treated in a
+  consistent fashion via the Thole model. The intramolecular polarization model
+  ensures transferability of electrostatic parameters among different
+  conformations, as demonstrated by the agreement between QM and AMOEBA
+  electrostatic potentials, and dipole moments of dipeptides. The backbone and
+  side chain torsional parameters were determined by comparing to gas-phase QM
+  (RI-TRIM MP2/CBS) conformational energies of dipeptides and to statistical
+  distributions from the Protein Data Bank. Molecular dynamics simulations are
+  reported for short peptides in explicit water to examine their conformational
+  properties in solution. Overall the calculated conformational free energies
+  and J-coupling constants are consistent with PDB statistics and experimental
+  NMR results, respectively. In addition, the experimental crystal structures
+  of a number of proteins are well maintained during molecular dynamics (MD)
+  simulation. While further calculations are necessary to fully validate the
+  force field, initial results suggest the AMOEBA polarizable multipole force
+  field is able to describe the structure and energetics of peptides and
+  proteins, in both gas-phase and solution environments.%
+    }
+    \verb{doi}
+    \verb 10.1021/ct4003702
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{9}
+    \field{pages}{4046\bibrangedash 4063}
+    \field{title}{Polarizable {{Atomic Multipole-Based AMOEBA Force Field}} for
+  {{Proteins}}}
+    \field{volume}{9}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/42CIJ4PQ/Shi et al. - 2013 - Polarizable At
+    \verb omic Multipole-Based AMOEBA Force Fi.pdf;/home/miro/Zotero/storage/M9
+    \verb QWCFHP/ct4003702.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{09}
+    \field{year}{2013}
   \endentry
 
   \entry{lindorff-larsen2016}{article}{}
