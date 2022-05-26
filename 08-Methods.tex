@@ -201,30 +201,27 @@ By focussing on adjusting the charges of an atom to fit the solvation energy of 
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
 \label{forcefields_review}
-At the time of writing, the four popular forcefields for the simulation of biomolecules are CHARMM, AMBER, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of OPLS. Bottom up forcefields take the results from \textit{ab initio} MD calculations as an initial guess and approximate them by tweaking the parameters in the functional form in equation \ref{CHARMM_effective_potential_eq}. Conversely, top down forcefields tweak these parameters with reference to experimental measurable. Ultimately, the results from \textit{in silico} experiments must match those of wet lab experiments so the development of all forcefields has elements of both philosophies. All forcefields assign the partial charges to atoms using the results of \textit{ab initio} MD calculations. The rest of the parameters parameters are derived with other methods such as attempting to match the known secondary structure of peptides\cite{huang2017}. Different forcefields have different methods of deriving their parameters. Below is a short summary of the philosophy for the 4 major forcefields taken from the review by Justin Lemkul \cite{lemkul2020} which has an in-depth discussion of the history of the development of each of these forcefields.
+At the time of writing, the four popular forcefields for the simulation of biomolecules are CHARMM, AMBER, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of OPLS. Bottom up forcefields take the results from \textit{ab initio} MD calculations as an initial guess and approximate them by tweaking the parameters in the functional form in equation \ref{CHARMM_effective_potential_eq}. Conversely, top down forcefields tweak these parameters with reference to experimental measurable. Ultimately, the results from \textit{in silico} experiments must match those of wet lab experiments so the development of all forcefields has elements of both philosophies. All forcefields assign the partial charges to atoms using the results of \textit{ab initio} MD calculations. The rest of the parameters parameters are derived with other methods such as attempting to match the known secondary structure of peptides\cite{huang2017}. Different forcefields have different methods of deriving their parameters. Below is a short summary of the philosophy for the 4 major forcefields taken from the review by Justin Lemkul \cite{lemkul2020}. 
 
 \begin{itemize}
-	\item CHARMM: An all atom forcefield which takes the most inspiration from quantum mechanical calculations. The QM optimized geometries are compared to that found in the geometry taken in the MD simulation in addition to attempts to match molecular dipole moments and rotational energy profiles from QM calculations are also compared to the results from the classical forcefield. An example can be seen in \ref{QM_MM_compared}. Macroscopic experimental quantities are also used to validate the parameters in this forcefield, such as solvation energies, crystal geometries, heats of vaporization and conformational sampling of biomolecules\cite{huang2017}. This is probably the most popular forcefield for the simulation of biomolecules because of of its considerably library of supported compounds especially when combined with its generalised version CGENFF \cite{vanommeslaeghe2010}. 
+	\item CHARMM: The most popular all atom forcefield. To build CHARMM, QM optimized geometries and molecular dipole moments are compared to those found found from calssical MD simulations. Molecular degrees of freedom such as dihedral angles are also fit with QM energy profiles, an example can be seen in \ref{QM_MM_compared}. Macroscopic experimental quantities are also used to validate the parameters in this forcefield, such as solvation energies, crystal geometries, heats of vaporization and conformational sampling of biomolecules\cite{huang2017}. One of the reasons for this forcefield's popularity is its considerably library of supported compounds, especially when combined with its generalisation module CGENFF \cite{vanommeslaeghe2010}. 
 
-	\item AMBER: An all atom forcefield which is validated based on its agreement with experimental data such as solvation free energies, crystallographic geometry as well as conformational energies from \textit{ab initio} QM calculations. Similar to CHARMM 
+	\item AMBER: An all atom forcefield which is built from the ground up from results from quantum mechanical calculations and results from spectroscopy. A version forcefield has become the favorite for the simulation of disordered proteins \cite{robustelli2022}\cite{robustelli2018}.
 
-		A version forcefield has become the favorite for the simulation of disordered proteins \cite{robustelli2022}\cite{robustelli2018}.
+There is also a generalised version of the AMBER forcefield known as GAFF \cite{wang2004}\cite{wang2006}. Comparisons between generalised forcefields can be found in \cite{zhu2019}.
 
-		There is also a generalised version of the AMBER forcefield known as GAFF \cite{wang2004}\cite{wang2006}. Comparisons between generalised forcefields can be found in \cite{zhu2019}.
-
-	\item OPLS: An all atom forcefield. The OPLS forcefield takes the philosophy that since many biomolecules share similar geometries to certain organic liquids, macromolecules can be accurately parameterised by creating a forcefield which correctly reproduces the experimental measurements for these species. Parameters are derived to accurately reproduce the liquid density of certain organic liquids. These parameters are then used as roots to construct larger biomolecules by drawing analogies between the molecular geometries. 
-
+	\item OPLS: An all atom forcefield. The OPLS forcefield takes the philosophy that, since many biomolecules share similar geometries to certain organic liquids, biomolecules can be accurately parameterised by creating a forcefield which correctly reproduces the experimental measurements for these species. Parameters are derived to accurately reproduce the liquid density of certain organic liquids. These parameters are then used as roots to construct larger biomolecules by drawing analogies between similar molecular geometries. 
 
 	\item GROMOS: A united atom forcefield, where hydrogen atoms are typically merged into the heavy atom they are bound to. Hence, they are not explicitly treated. Charge assignment is done with DFT. Interestingly, GROMOS uses a quartic form of the bond stretching term 
 		\begin{equation}
 			U_b = \frac{1}{4} k_b (b^2-b^2_0)^2
 		\end{equation}
 
-		Parametrised with enthalpy and liquid densities.
+		The parameters are adjusted for agreement with experimental parameters such as  solvation energies, liquid densities. GROMOS forcefields are popular in some contexts because of its ability to reproduce parititon coefficients between polar and non-polar media, a similar chemical context to what is found at the interface between a membrane and bulk water.
 
 \end{itemize}
 
-\section{Periodic Boundaries to Simulate the Inside of Cell}
+\section{Periodic Boundaries to Simulate the Inside of a Cell}
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{figures/PME_miro.pdf}
