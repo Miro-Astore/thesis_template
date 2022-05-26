@@ -14,7 +14,7 @@ We will gradually integrate upwards, beginning with the interactions in a single
 Since we are dealing with atoms which are governed by quantum mechanics we must begin our journey upwards with the time dependent form of the Schr\"{o}dinger wave equation. 
 
 \begin{equation}
-i\hbar \frac {\partial}{\partial t} \Psi (\textbf{x},t) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + U (\textbf{x}, t) \big] \Psi (\textbf{x},t) 
+i\hbar \frac {\partial}{\partial t} \Psi (\textbf{x},t) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}, t) \big] \Psi (\textbf{x},t) 
 \label {schordinger_time_dependent}
 \end{equation}
 
@@ -26,7 +26,7 @@ When the external potential $V$ has no explicit dependence on time, this equatio
 	U \Psi (\textbf{x}, t) = \big[ -\frac{\hbar ^2}{2m}\nabla^2 + V (\textbf{x}) \big] \Psi (\textbf{x}, t) = H \Psi(\textbf{x}, t) 
  \end{equation}
 
-Note that the wave function $\Psi (\textbf {x}, t)$ is still allowed to evolve in time. 
+Here, $U$ is an eigenvalue of the Hamiltonian operator $H$. Note that the wave function $\Psi (\textbf {x}, t)$ is still allowed to evolve in time. 
 
 In atomic systems there are two types of particles, nuclei which we will denote with the subscript $n$ and electrons denoted by $e$. In order to treat these elements separately we decompose the Hamiltonian of the system into a few components. 
 
@@ -101,7 +101,7 @@ By rearranging this equation and taking derivative we can see how to use Newton'
 	\label{Newtons_equations}
 \end{equation}
 
-By choosing an appropriate time-step one can simply iteratively solve this equation of motion to understand the dynamics of an atomic system. The nuclei will move according to their relative positions to each other and the electron clouds will rearrange in response to that motion. There is no need to calculate the interactions between the nuclei and the electrons. This is sufficient accuracy to simulate many physical phenomena with the notable exception of energetic, fast interactions between nuclei and electrons such as spectroscpic phenomenon \cite{sherrill}. 
+By choosing an appropriate time-step one can simply iteratively solve this equation of motion to understand the dynamics of an atomic system. The nuclei will move according to their relative positions to each other and the electron clouds will rearrange in response to that motion. There is no need to calculate the interactions between the nuclei and the electrons. This is sufficient accuracy to simulate the low energy motions of molecules such as the environment found in biological systems. 
 %\begin{equation}
 %	(H_n + H_e + V_{n-e})  (\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i)) =  (E_n  + U_e)(\psi_e (\bold{r}_l,\bold{R}_i) \psi_n(\bold{R}_i) ) 
 %\end{equation}
@@ -125,15 +125,16 @@ By choosing an appropriate time-step one can simply iteratively solve this equat
 
 
 \section{Classical MD, Molecular Motions Without Quantum Mechanics}
-The Born-Oppenheimer approximation gives rise to Hartree-Fock methods and density functional theory (DFT). These more sophisticated physical methods allow us to simulate the the organisation of electron clouds around small molecules, finding broad applications in chemistry and materials science \cite{vanmourik2014}. We can derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. These can be useful when designing novel materials. 
+The Born-Oppenheimer approximation gives rise to Hartree-Fock methods and density functional theory (DFT). These more sophisticated physical methods allow us to simulate the organisation of electron clouds around small molecules, finding broad applications in chemistry and materials science \cite{vanmourik2014}. These methods are known as \textit{ab initio} MD. We can derive the energy profile of certain degrees of freedom within the molecule such as the energetics of stretching out a bond or twisting a dihedral angle. These can be useful when designing novel materials. 
 
-However, even with these approximations simulating a large number of atoms is still not computationally tractable. State of the art DFT methods can only simulate up to a few 10s of thousands of atoms \cite{luo2020} and scales as $O(N^3)$ \cite{kresse1996}. This is not sufficient to simulate proteins and their surrounding solvation environment. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. 
+However, even with these approximations simulating a large number of atoms is still not computationally tractable. State of the art DFT methods can only simulate on the order of $10^3$ atoms \cite{luo2020} and scales as $O(N^3)$ \cite{kresse1996}. This is not sufficient to simulate proteins and their surrounding solvation environment where the molecular system is usually on the order of $10^4-10^6$ atoms. So, we must use another round of approximations to reach the spatial and time scales necessary to simulate biological molecules. We do this by creating a set of mathematical functions to simplify the calculations further. Here we use a set of virtual springs and other simple models for the energetic interactions between atoms. This creates what's known as an effective potential. 
 
-This formulation gives us classical molecular dynamics sometimes referred to as molecular mechanics. The aim of the classical forcefields discussed here is to use \textit {ab initio} MD as a target to approximate. 
 
 The CHARMM effective potential employed in this work is similar to those found in all common all-atom molecular dynamics forcefields. The same  functional forms are used in other forcefields such as AMBER, GROMOS and OPLS but with different parameters and design philosophies\cite{lemkul2020}. 
 
-We split up the molecular potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and bending. As well as energies associated with the forces that atoms exert on each other when they are not bonded together. 
+This formulation gives us classical molecular dynamics, sometimes referred to as molecular mechanics (MM). The aim of the classical forcefields discussed here is to use \textit {ab initio} MD as a target for approximation and then refine the parameters to better match experimental quantities. This is discussed in detail in section \ref{forcefields_review}.
+
+We split up the molecular mechanics potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and bending as well as contributions associated with the forces that atoms exert on each other when they are not bonded together 
 
 \begin{equation}
 	U_{MM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded} }
@@ -144,11 +145,11 @@ Interestingly, the bonded terms may all reasonably be approximated by harmonic s
 
 \begin{equation}\label{bonded_eqs}
 	\begin{aligned}
-	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2+ \sum_{Urey-Bradley} k_u(r_{UB}-r_{UB_0})^2   \\ + \sum_{dihedrals} k_\varphi (1+\cos(n \varphi - \delta)) + \sum_{improper-dihedrals}  k_{\phi} (\phi - \phi_0)^2 
+	U_{bonded} = \sum_{bonds} k_{b} (b-b_0)^2 + \sum_{angles} k_\theta(\theta-\theta_0)^2+ \sum_{Urey-Bradley} k_u(r_{UB}-r_{UB_0})^2   \\ + \sum_{dihedrals} k_\varphi (1+\cos(n \varphi - \delta)) + \sum_{improper-dihedrals}  k_{\phi} (\phi - \phi_0)^2.
 \end{aligned}
 \end{equation}
 
-Here, the $k_i$ terms correspond to the strength of the harmonic restraint for that parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to be a reasonable approximation for the potential energy functions of quantum mechanics in covalently bonded bonded species. Examples can be seen in figure \ref{morse_potential}.
+Here, the $k_i$ terms correspond to the strength of the harmonic restraint for a parameter. The $0$ subscript denotes the equilibrium position for that parameter. Even though this formulation is quite simple, it has empirically been shown to be a reasonable approximation for the potential energy functions of quantum mechanics in covalently bonded chemical species. Examples can be seen in figure \ref{morse_potential}.
 
 \begin{figure}
 	\begin{center}
@@ -161,7 +162,7 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for t
 \end{figure}
 
 
-There are also interactions which arise when atoms are not covalently bonded to eachother. Namely, Coulomb forces due to electric charges on the atom, attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term $U_{LJ}$ which we will analyse in detail 
+The term $U_{non-bonded}$ captures interactions which arise when atoms are not covalently bound to each other. Namely, Coulomb forces due to electric charges on the atom, attractive Van Der Walls interactions and repulsion due to Pauli Exclusion the latter two forces are combined into one term, $U_{Lennard-Jones}$, which we will analyse in detail 
 \begin{equation}\label{nonbonded_eqs}
 	\begin{aligned}
 		U_{non-bonded} = \underbrace{\sum_{i>j} \epsilon_{ij} \Big( \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} \Big)}_{U_{Lennard-Jones}} - \underbrace{\sum_{i>j} \frac{q_i q_j } {r_{ij}}}_{U_{coulomb}}
@@ -182,7 +183,7 @@ By focussing on these two physical parameters we can isolate and improve the non
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Comparison Between Potentials in Quantum and Classical Forcefields] {\textbf{Comparison Between Potentials in Quantum and Classical Forcefields}}{ A) The Morse potential was formulated to approximate the potential the potential energy surface associated with the stretching of covalent bonds (blue). At low temperatures (the ground state, $v=0$) like those found in classical MD there is good agreement between the Morse potential and the harmonic oscillator (green). Credit Mark Somoza 2006 B) Here the potential of the dihedral angle between the atoms C1,C2,C3 and C4 in a butane molecule is calculated using two methods: Quantum Chemical calculations and approximations using the functional form in \ref{bonded_eqs} \cite{lemkul2020}. Note how the appropriate choice of $k_\varphi$, $n$ and $\delta$ have closely approximated the results the more accurate quantum mechanical calculations.}
  
-	\label{morse_potential}
+	\label{QMM_MM_compared}
 \end{figure}
 
 \subsubsection{The Lennard-Jones Potential}
@@ -196,12 +197,19 @@ By focussing on these two physical parameters we can isolate and improve the non
 \end{figure}
 
 \subsection{Philosophy of Different Molecular Mechanics forcefields.}
-At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of GROMOS and OPLS. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. The following summary is taken from the review \cite{lemkul2020} which has an indepth discussion of the history of the development of each of these forcefields.
+At the time of writing, the four popular forcefields for the simulation of biomolecules are: AMBER, CHARMM, GROMOS and OPLS. Each of these have a slightly different philosophy in their formulation. They may be bottom up, as in the case of AMBER and CHARMM or top down, in the case of OPLS and. Bottom up forcefields take the results from quantum \textit{ab initio} calculations and approximate them with the functional form mentioned above. Conversely, top down forcefields take experimental measurable such as Osmotic pressure, solvation energy. Ultimately, the results from \textit{in silico} experiments must match those of wet lab experimetns so the development of all forcefields has elements of both philosophies. All forcefields assign the partial charges to atoms using the results of \textit{ab initio} QM calculations. The rest of the parameters parameters are derived with other methods. For example, the Lennard-Jones parameters $\sigma$ and $\epsilon$ can be chosen to reproduce calculations of the osmotic pressure from solvated ions \cite{yoo2018a} or dihedral parameters can be chosen to reproduce known secondary structure characteristics of pepteides\cite{huang2017}. Different forcefields have different methods of deriving their parameters. Below is a short summary of the philosophy for the 4 major forcefields taken from the review by Justin Lemkul \cite{lemkul2020} which has an indepth discussion of the history of the development of each of these forcefields.
 
 \begin{itemize}
-	\item CHARMM: An all atom forcefield which attempts to be the most faithful to quantum mechanical quantities. The QM optimized geometrie is compared to that found in CHARMM model but the molecular dipole moment and rotational energy profile are also compared to the results from the classical forcefield. Macroscopic experimental quantities may also be used such as 
-	\item AMBER: An all atom forcefield which is validated based on its agreement with experimental data such as solvation free energies, crystallographic geometry and conformational energies from \textit{ab initio} QM calculations.
-	\item OPLS: An all atom forcefield. The OPLS forcefield takes the philosophy that since many biomolecules share similar geometries to certain organic liquids, macromolecules can be accurately parameterised by creating a forcefield which correctly reproduces the experimental measurements for these species. These molecular geometries are then combined to be able to create topologies of larger molecules such as proteins, lipids and nucleic acids.
+	\item CHARMM: An all atom forcefield which takes the most inspiration from quantum mechanical calculations. The QM optimized geometries are compared to that found in the geometry taken in the MD simulation in addition to attempts to match molecular dipole moments and rotational energy profiles from QM calculations are also compared to the results from the classical forcefield. An example can be seen in \ref{QM_MM_compared}. Macroscopic experimental quantities may also be used to validate parameters such as solvation energies, crystal geometries, heats of vaporization and sublimation for solids, enthalpy of vaporization and conformational sampling of biomolecules\cite{huang2017}. This is probably the most popular forcefield for the simulation of biomolecules because of of its considerably library of supported compounds especially when combined with its generalised version CGENFF \cite{vanommeslaeghe2010}. 
+	\item AMBER: An all atom forcefield which is validated based on its agreement with experimental data such as solvation free energies, crystallographic geometry as well as conformational energies from \textit{ab initio} QM calculations. Similar to CHARMM 
+
+		This forcefield has become the favorite for the simulation of disordered proteins due to its agreement with experimental quantities such as radius of gyration \cite{robustelli2022}\cite{robustelli2018}.
+
+		There is also a generalised version of the AMBER forcefield known as GAFF \cite{wang2004}\cite{wang2006}. Comparisons between generalised forcefields can be found in \cite{zhu2019}.
+
+	\item OPLS: An all atom forcefield. The OPLS forcefield takes the philosophy that since many biomolecules share similar geometries to certain organic liquids, macromolecules can be accurately parameterised by creating a forcefield which correctly reproduces the experimental measurements for these species. Parameters are derived to accurately reproduce the liquid density of certain organic liquids. These parameters are then used as roots to construct larger biomolecules. This method is sometimes used to refine specific in other forcefields \cite{huang2017}.
+
+
 	\item GROMOS: A united atom forcefield where hydrogen atoms are typically merged into the heavy atom they are bound to, so they are not explicitly treated. Charge assignment is done with DFT. Interstingly, GROMOS uses a quartic form of the bond stretching term 
 		\begin{equation}
 			U_b = \frac{1}{4} k_b (b^2-b^2_0)^2
@@ -232,14 +240,27 @@ To avoid these artefacts and limit computational intensively of our calculations
 For a detailed review of different Particle Mesh Ewald Summation methods and the mathematics behind the method see \cite{shan2005}. A brief outline of the Smooth Particle Mesh Ewald summation is given below 
 
 \begin{enumerate}
-	\item Point charges from atoms are interpolated onto a grid using B-spline interpolation functions. This procedure is demonstrated in figure \ref{PME_illustration}.
+	\item An \textit{ansatz}  is used where $U_{coulomb}$  has Gaussian screening charges added to it and simultaneously subtracted away to create a smooth potential. The details can be found in \cite{shan2005}.
+		\begin{equation}
+			\begin{aligned}
+			U_{coulomb} &= U_{screening-charges} + U_{coulomb}  - U_{screening-charges}
+			\end{aligned}
+		\end{equation}
+		Terms in these equations are then rearranged such that one term is evaluated with a fourier transform and one term is evaluted using a direct sum.
+		\begin{equation}
+			\begin{aligned}
+			U_{coulomb} &= U_{FT}  + U_{direct-sum}
+			\end{aligned}
+		\end{equation}
+	\item The charges to be evaluated using $U_{FT}$ are interpolated onto a grid a grid using B-spline interpolation functions. This procedure is demonstrated in figure \ref{PME_illustration}.
 	\item The charge density functions in the grid are transformed into $k$-space using Fast Fourier Transforms.
 	\item The Poisson equation is solved numerically in $k$-space.
 		\begin{equation}	
-			\nabla^2\tilde{U} = \tilde{\rho}(\bold{k})
+			\nabla^2\tilde{U} = 4\pi \tilde{\rho}(\bold{k})
 		\end{equation}	
-		Where $\tilde{U}$ is the component of $U_{coulomb}$ we solve for in $k$-space and $\tilde{\rho}$ is the fourier transform of the smooth scalar function for the interpolated charge densities. 
+		Where $\tilde{U}$ is the component of $U_{FT}$ we solve for in $k$-space and $\tilde{\rho}$ is the fourier transform of the smooth scalar function for the interpolated charge densities. 
 	\item An inverse Fourier transform is calculated to calculate solution to the Poisson equation in real space. 
+	\item The interactions in $U_{direct-sum}$ are evaluated using a simple pairwise summation.
 	\item Now that $U_{coulomb}$ is known at every position in the unit cell we can move atoms according to this potential using Newton's second law.
 \end{enumerate}
 
@@ -265,19 +286,19 @@ Living things are very sensitive to their external environment. Enzymes only wor
 %\end{equation}
 
 \subsection{Hot and Cold with the Nos\'e-Hoover Thermostat}
-Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
+Remember that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin a simulation by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
 
 \begin{equation}
 	f(v_i) = \Big(\frac{m_i}{2\pi k_B T}\Big)^{3/2} \exp{\Big(-\frac{m_iv_i^2}{2k_BT}\Big)}
 \end{equation}
 
-Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Bolztman's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \text{and} z$ components separately. 
+Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Bolztman's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \ \text{and}\  z$ components separately. 
 
 Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al.\cite{knapp2018}, a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
 
 After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nos\'e-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
 
-The Nos\'e-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
+The Nos\'e-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. Usually, the software simluation package GROMACS uses a chain of 10 baths, $M=10$\cite{abraham2015}. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
 
 \begin{equation}
 	%H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM}(\bold{x},\bold{p}) + \sum_j^M \frac{p^2_{\eta_j}}{2Q_j} +k_BT(  N_{df}   \eta_1   + \sum_{j=2}^M\eta_j)
@@ -298,11 +319,13 @@ By using Hamilton's equations of motion, $H_{NH}$ evolves by
 		\dot{\bold{p}_i} &= \bold{F}_i-\bold{p}_i\frac{p_{\eta_1}}{Q_1} \\
 		\dot{\eta_j} &= p_{\eta_j}/Q_j \\
 		\dot{p_{\eta_1}} &= \bigg[\sum_i^N \frac{\bold{p}_i^2}{m_i} - N_{df} k_B T\bigg]  - p_{\eta_1}\frac{p_{\eta_2}}{Q_2} \\ 
+		\vdots \\ 
 		\dot{p_{\eta_j}} &= \bigg[ \frac{p^2_{\eta_{j-1}}}{Q_{j-1}} - k_bT \bigg]  - p_{\eta_{j}}\frac{p_{\eta_{j+1}}}{Q_{j+1}} \\ 
+		\vdots \\ 
 		\dot{p_{\eta_M}} &= \bigg[ \frac{p^2_{\eta_{M-1}}}{Q_{M-1}} - k_bT \bigg]
 	\end{aligned}
 \end{equation}
-Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculated from $U_{MM}$ using equation Newton's second law. 
+Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculated from $U_{MM}$ using Newton's second law. 
 
 The parameters $Q_j$ are chosen by the user to control the coupling strength of th baths to each other. We usually choose   
 \begin{equation}
@@ -323,7 +346,7 @@ Remember that we can always calculate the temperature  kinetic energy using the 
 \subsection{Under Pressure with the Parinello-Rahman Barostat}
 Pressure is critical to the function of living organisms. Membranes burst apart at low pressures\cite{karal2021} and at high pressures cellular function is disrupted\cite{macdonald2001}. In order to accurately reflect the atmospheric pressure at which living things thrive we have to accurately calculate and modulate it during our simulation.
 
-In order to measure the pressure at the simulation walls we follow the procedure in \cite{allen1991}. We begin by calculating a quantity known as the virial:
+In order to measure the pressure at the simulation walls we follow the procedure in \cite{allen1991} by calculating a quantity known as the virial:
 
 \begin{equation}
 	W(\bold{x}) = \sum_i^{N-1} \sum^N_{j>i} \bold{r}_{ij} \cdot \bold{F}_{ij}
@@ -338,7 +361,7 @@ This is then substituted into the equation
 	\label{instantaneous_pressure}
 \end{equation}
 
-And so using equation \ref{instantaneous_pressure} we can see how we can modulate the volume $V$ of the simulation in order to control the pressure throughout the simulation.
+And so using equation \ref{instantaneous_pressure} we can see that we can modulate the volume $V$ of the simulation in order to control the pressure throughout the simulation.
 
 To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinello1980}\cite{parrinello1981a}, with a procedure with a similar philosophy to the extended Hamiltonian used in the Nos\'e-Hoover thermostat. In this way the system is coupled to an external pressure bath rather than an external temperature bath. First we define that the basis vectors for the periodic simulation box to be $\underline{h}:= [\bold{a}, \bold{b} ,\bold{c}]$. When the box is scaled to change the volume these basis vectors are multiplied by a set of scalars $s_i := (\xi_i$, $\eta_i, \zeta_i ) \in [0,1]$. We perform a change of coordinates so that the contributions of the particles onto the boundaries is easily calculated from our equations so we express the atomic coordinates as
 
@@ -349,14 +372,14 @@ To modulate the pressure we apply the Parrinello-Rahman barostat \cite{parrinell
 \end{aligned}
 \end{equation}
 
-Define $\underline{G} := \underline{h}^T\underline{h}$. The Lagrangian for the scaling system then becomes
+Defining $\underline{G} := \underline{h}^T\underline{h}$. The Lagrangian for the scaling system then becomes
 \begin{equation}
 \begin{aligned}
 	L = \frac{1}{2} \sum_i^N \  m_i \dot{\bold{s}}_i^T\underline{G}\dot{\bold{s}}_i - \sum_i \sum_{j > i } \phi (\bold{r_{ij}}) + \frac{1}{2} \ M \text{Tr}(\dot{\underline{h}}^T\dot{\underline{h}})   - {P}_{ext} V
 \end{aligned}
 \end{equation}
 
-Here, $M$ is a constant of proportionality associated with the kinetic energy derived from the movement the particles undergo as they scale. It has units of mass. $P_{ext}$ is our target, externally appplied pressure and $\phi$ representes the pairwise potential from $U_{MM}$ between the $i$th and $j$th atoms. This Lagrangian allows us to derive the equations of motion  
+Where $\phi(\bold{r}_{ij}$ is the pairwise potential between two atoms in $U_{MM}$, while $M$ is a constant of proportionality associated with the kinetic energy derived from the movement the particles undergo as they scale. It has units of mass. $P_{ext}$ is our target, externally applied pressure. This Lagrangian allows us to derive the equations of motion  
 
 \begin{equation}
 \begin{aligned}
@@ -372,16 +395,16 @@ The matrix $\underline{\sigma} := V (\bold{h}^T)^{-1} = V  [\bold{b} \times \bol
 \end{aligned}
 \end{equation}
 
-represents is the stress tensor which acts accross each of the faces of the unit cell. 
+represents the stress tensor which acts across each of the faces of the unit cell. 
 
-This system of equations can be solved numerically to control the pressure of the simulation system by modulating the length of the basis vectors $a, b$ and $c$ contained in $\underline{h}$.
+This system of equations can be solved numerically to control the pressure of the simulation system by modulating the length of the basis vectors $\bold{a}, \bold{b}$ and $\bold{c}$ contained in $\underline{h}$.
 
 
 \section{The Process of Preparing an MD Simulation}
 The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
 
 \section{Choosing an Appropriate Time Step}
-The discrete time step, $\Delta t$ in equation \ref{verlet}, is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale. In the case of proteins this usually runs between $10^-6$ and $10^-3$s\cite{robustelli2022}.  
+The discrete time step, $\Delta t$ in equation \ref{verlet}, is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale. In the case of proteins this usually runs between $10^{-6}$ and $10^{-3}$s\cite{robustelli2022}.  
 
 Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, emperically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2009}. The Verlet leap-frog scheme used in most MD codes requires 5 integration steps per period of the fastest harmonic oscillation in a system \cite{mazur1997}\cite{feenstra1999}. The choice of too large a timestep means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseonds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
 
@@ -539,25 +562,25 @@ Formally, convergence is reached when the observed probability density is unifor
 	\label{convergence_criterion_metad}
 \end{equation}
 
-where $V_\xi$ is the volume of the phase space spanned by $\xi$. However, conventionally we simply inspect the $U_{bias}(\xi)$ quantity at various intervals for fluctuations about an average function \cite{sun2016}. 
+where $V_\xi$ is the volume of the phase space spanned by $\xi$. However, in practice the function $U_{bias}(\xi)$ is simply inspected at intervals for fluctuations about an average function \cite{sun2016}. 
 
-There are many flavours of metadynamics. The most popular is well-tempered metadynamics which gradually reduces the Gaussian height $B$ as the simulation progresses\cite{barducci2008}. However,this method requires an estimate of how long the simulation will take to converge. There is also infrequent metadynamics which can be used to estimate the diffusion profile along $\xi$\cite{tiwary2013}\cite{tiwary2016}\cite{salvalaglio2014}.  
+There are many flavours of metadynamics. The most popular is well-tempered metadynamics which gradually reduces the Gaussian height $B$ as the simulation progresses\cite{barducci2008}. In theory, this guarantees convergence with vanishingly small error. However,this method requires an estimate of how long the simulation will take to converge. There is also infrequent metadynamics which can be used to estimate the diffusion profile along $\xi$\cite{tiwary2013}\cite{tiwary2016}\cite{salvalaglio2014}.  
 
 A useful feature of the Metadynamics method is that it can be linearly sped up with the number of parallel simulations. This is known as multiple walker metadynamics\cite{raiteri2006}. Since we are simply attempting to sample from the same potential $U_{MM}$ up to a desired time, until the criterion in equation \ref{convergence_criterion_metad} is met, we can speed this process up by running simulations in parallel and adding Gaussian to the same $U_{bias}$ function.
 
-Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. This method is more suited to an exploration of free energy space where it can intelligently explore regions which are poorly sampled, whereas umbrella sampling requires some foreknowledge of the surface being investigated. However, metadynamics can be very difficult converge. A good indicator of such systematic errors are the presence of unphysically large barriers, indicating that there are orthogonal degrees of freedom not sampled along $\xi$ which might correspond to a minimum energy pathway. These barriers will eventually come down in the infinite sampling limit but many barrier crossings will need to be observed. 
+Conceptually, metadynamics performs the same role as umbrella sampling and should in theory produce the same results in the same system with the same collective variable $\xi$. However, it has some specific contexts where it outperforms umbrella sampling. This method is more suited to an exploration of free energy space where it can intelligently explore regions which are poorly sampled, whereas umbrella sampling requires some foreknowledge of the surface being investigated in order to guess which parts of the landscape require more sampling. However, metadynamics can be very difficult converge. A good indicator of such systematic errors are the presence of unphysically large barriers, indicating that there are orthogonal degrees of freedom not sampled along $\xi$ which might correspond to a minimum energy pathway. These barriers will eventually come down in the infinite sampling limit but many barrier crossings will need to be observed. 
 
 \section{Short Comings of Classical MD}
-The short comings of classical molecular dynamics fall into two classes whose solutions stand opposed to one another. These are the accuracy of the chemical forcefields outlined above and the inability of modern computers to deliver enough samples of the energy landscape to collect sufficient statistics for rigorous conclusions. The issue is that, as the above physical formulation might indicate. The more accurate the forcefields, the more computationally expensive. And so the solutions to the two are constantly in tension with one another. In the next section we will explore the current efforts to bring solutions.
+The short comings of classical molecular dynamics fall into two classes whose solutions stand opposed to one another. These are the accuracy of the chemical forcefields outlined in section \ref{forcefields_review} and the inability of modern computers to deliver enough samples of the energy landscape to collect sufficient statistics for rigorous conclusions. The issue is that, as the above physical formulation might indicate in section \cite{born-oppenheimer}. The more accurate the forcefields, the more computationally expensive calculations in its potential will be. And so the solutions to the two are constantly in tension with one another. In the next section we will explore the current efforts to bring solutions to both problems.
 
 \subsubsection{The Problem with Forcefields}
-These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current.
+These approximations are not without a cost to accuracy. In certain situations, many of which are biologically relevant, it has been shown that quantum effects such as polarisation play an important role in the dynamics of the system. This has been demonstrated in the literature for Gramicidin where polarisable forcefields are able to more accurately reproduce the experimental results of current\cite{ngo2021}.
 
 The other context where polarisation is important to consider are on divalent ions. Here, the solvation energy is underestimated due to the consistent lack of polarisation, making investigations of these biologically important chemical species difficult.
 
-However, for most situations, particularly those involving bulk water and protein motions Molecular Dynamics is proving to be an invaluable tool for investigating the properties of biological systems \cite{hollingsworth2018}. Sadly, it should be kept in mind that classical MD is not able to simulate any chemistry such as forming and breaking or the change a change in profanation state. Such interactions require considerations of Quantum Mechanics which are computationally expensive.
+However, for most situations, particularly those involving bulk water and protein motions Molecular Dynamics is proving to be an invaluable tool for investigating the properties of biological systems \cite{hollingsworth2018}. Sadly, it should be kept in mind that classical MD is not able to simulate any chemistry such as forming and breaking or the change a change in protonation state. Such interactions require considerations of Quantum Mechanics which are computationally expensive.
 
-There are several efforts to correct address some of the above issues. These include the inclusion of the effects of polarisation, the most popular methods at the moment being adding a massless drude oscillator as an extra bead to most(?) atoms as in the CHARMM drude forcefields, championed by the Mackerell lab and the use of forcefields such as AMOEBA which explicitly calculate the dipole and quadrupole moments of each atom. These both substantially increase computational cost but have displayed much better agreement with experiments in biological systems where classical forcefields have been shown to fail \cite{ngo2021}. 
+There are several efforts to correct address some of the above issues. These include the inclusion of the effects of polarisation, the most popular methods at the moment being adding a massless drude oscillator as an extra bead to atoms as in the CHARMM drude forcefields, championed by the Mackerell lab and the use of forcefields such as AMOEBA which explicitly calculate the dipole and quadrupole moments of each atom. These both substantially increase computational cost but have displayed much better agreement with experiments in biological systems where classical forcefields have been shown to fail \cite{ngo2021}\cite{li2017}\cite{shi2013}. 
 
 Ultimately, the functional form in equation \ref{CHARMM_effective_potential_eq} used by classical forcefields does not have sufficient degrees of freedom to address all possible chemical contexts. Careful consideration must always be given to whether the forcefield is being used in a faithful way to the situations it was intended to accurately represent. So long as the user is aware of the situations where a given forcefield falls short, classical forcefields can be a powerful tool for the study of molecular systems.
 
@@ -573,4 +596,5 @@ The success of simulations at the millisecond timescale by D.E Shaw research sug
 
 The advances we are seeing at the moment which I find exciting are the use of machine learning methods to tease out these degrees of freedom in order to accelerate them with already established free energy methods. These have the potential to uncover new drug binding pockets and revolutionise our understanding of biomolecular systems. 
 
-
+\section{Conclusion}
+It is hoped that the preceding chapter can serve as a roadmap for any physicists interested in beginning to study the exciting field of biophysics. The information in each section should serve to help you understand the foundations of what you are trying to simulate. The next steps would be to learn more about the molecular biology and biochemistry of macromolecules so they can better understand the wet, messy dance occurring inside cells. There is a lot to learn and the barrier to entry can seem daunting. The reader is encouraged to join mailing lists and other forums where the thriving computational chemistry and computational biophysics communities communicate. Send cold emails asking for help when you are stuck, read software manuals. No individual who has studied a specific discipline has the skills necessary to pick up biomolecular simulation software and begin using it. Physicists lack the understanding of the biology and the chemistry involved in the biological systems, while chemists and biologists will lack an understanding of the deep mathematics that has gone into producing highly accurate simulations of molecular systems. The reader is encouraged to seek out members of other disciplines such as cell biologists and protein chemists and learn how they do what they do and how their skills and knowledge can compliment each other.

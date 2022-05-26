@@ -132,6 +132,134 @@
     \field{year}{2019}
   \endentry
 
+  \entry{gapsys2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GV}{%
+         family={Gapsys},
+         familyi={G\bibinitperiod},
+         given={Vytautas},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=dBL}{%
+         family={{de Groot}},
+         familyi={d\bibinitperiod},
+         given={Bert\bibnamedelima L},
+         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=FJD}{%
+         family={{Faraldo-G{\'o}mez}},
+         familyi={F\bibinitperiod},
+         given={Jos{\'e}\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Grossfield},
+         familyi={G\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{eLife Sciences Publications, Ltd}}%
+    }
+    \keyw{kinetics,molecular dynamics,simulation,statistics,thermodynamics}
+    \strng{namehash}{GVdBL1}
+    \strng{fullhash}{GVdBL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Computational simulations, akin to wetlab experimentation, are subject to
+  statistical fluctuations. Assessing the magnitude of these fluctuations, that
+  is, assigning uncertainties to the computed results, is of critical
+  importance to drawing statistically reliable conclusions. Here, we use a
+  simulation box size as an independent variable, to demonstrate how crucial it
+  is to gather sufficient amounts of data before drawing any conclusions about
+  the potential thermodynamic and kinetic effects. In various systems, ranging
+  from solvation free energies to protein conformational transition rates, we
+  showcase how the proposed simulation box size effect disappears with
+  increased sampling. This indicates that, if at all, the simulation box size
+  only minimally affects both the thermodynamics and kinetics of the type of
+  biomolecular systems presented in this work.%
+    }
+    \verb{doi}
+    \verb 10.7554/eLife.57589
+    \endverb
+    \field{issn}{2050-084X}
+    \field{pages}{e57589}
+    \field{title}{On the Importance of Statistics in Molecular Simulations for
+  Thermodynamics, Kinetics and Simulation Box Size}
+    \field{volume}{9}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/QGNJJX6S/Gapsys and de Groot - 2020 - On th
+    \verb e importance of statistics in molecular simul.pdf
+    \endverb
+    \field{journaltitle}{eLife}
+    \field{month}{08}
+    \field{year}{2020}
+  \endentry
+
+  \entry{pohorille2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PA}{%
+         family={Pohorille},
+         familyi={P\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=JC}{%
+         family={Jarzynski},
+         familyi={J\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Chipot},
+         familyi={C\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PAJCCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    As access to computational resources continues to increase, free-energy
+  calculations have emerged as a powerful tool that can play a predictive role
+  in a wide range of research areas. Yet, the reliability of these calculations
+  can often be improved significantly if a number of precepts, or good
+  practices, are followed. Although the theory upon which these good practices
+  rely has largely been known for many years, it is often overlooked or simply
+  ignored. In other cases, the theoretical developments are too recent for
+  their potential to be fully grasped and merged into popular platforms for the
+  computation of free-energy differences. In this contribution, the current
+  best practices for carrying out free-energy calculations using free energy
+  perturbation and nonequilibrium work methods are discussed, demonstrating
+  that at little to no additional cost, free-energy estimates could be markedly
+  improved and bounded by meaningful error estimates. Monitoring the
+  probability distributions that underlie the transformation between the states
+  of interest, performing the calculation bidirectionally, stratifying the
+  reaction pathway, and choosing the most appropriate paradigms and algorithms
+  for transforming between states offer significant gains in both accuracy and
+  precision. \textcopyright{} 2010 American Chemical Society.%
+    }
+    \verb{doi}
+    \verb 10.1021/jp102971x
+    \endverb
+    \field{number}{32}
+    \field{pages}{10235\bibrangedash 10253}
+    \field{title}{Good Practices in Free-Energy Calculations}
+    \field{volume}{114}
+    \field{journaltitle}{Journal of Physical Chemistry B}
+    \field{month}{08}
+    \field{year}{2010}
+  \endentry
+
   \entry{sherrill}{article}{}
     \name{author}{1}{}{%
       {{hash=SCD}{%
@@ -373,67 +501,6 @@
     \field{year}{1996}
   \endentry
 
-  \entry{yoo2018a}{article}{}
-    \name{author}{2}{}{%
-      {{hash=YJ}{%
-         family={Yoo},
-         familyi={Y\bibinitperiod},
-         given={Jejoong},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=AA}{%
-         family={Aksimentiev},
-         familyi={A\bibinitperiod},
-         given={Aleksei},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{The Royal Society of Chemistry}}%
-    }
-    \strng{namehash}{YJAA1}
-    \strng{fullhash}{YJAA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    In contrast to ordinary polymers, the vast majority of biological
-  macromolecules adopt highly ordered three-dimensional structures that define
-  their functions. The key to folding of a biopolymer into a unique 3D
-  structure or to an assembly of several biopolymers into a functional unit is
-  a delicate balance between the attractive and repulsive forces that also
-  makes such self-assembly reversible under physiological conditions. The
-  all-atom molecular dynamics (MD) method has emerged as a powerful tool for
-  studies of individual biomolecules and their functional assemblies,
-  encompassing systems of ever increasing complexity. However, advances in
-  parallel computing technology have outpaced the development of the underlying
-  theoretical models - the molecular force fields, pushing the MD method into
-  an untested territory. Recent tests of the MD method have found the most
-  commonly used molecular force fields to be out of balance, overestimating
-  attractive interactions between charged and hydrophobic groups, which can
-  promote artificial aggregation in MD simulations of multi-component protein,
-  nucleic acid, and lipid systems. One route towards improving the force fields
-  is through the NBFIX corrections method, in which the intermolecular forces
-  are calibrated against experimentally measured quantities such as osmotic
-  pressure by making atom pair-specific adjustments to the non-bonded
-  interactions. In this article, we review development of the NBFIX (Non-Bonded
-  FIX) corrections to the AMBER and CHARMM force fields and discuss their
-  implications for MD simulations of electrolyte solutions, dense DNA systems,
-  Holliday junctions, protein folding, and lipid bilayer membranes.%
-    }
-    \verb{doi}
-    \verb 10.1039/c7cp08185e
-    \endverb
-    \field{number}{13}
-    \field{pages}{8432\bibrangedash 8449}
-    \field{title}{New Tricks for Old Dogs: {{Improving}} the Accuracy of
-  Biomolecular Force Fields by Pair-Specific Corrections to Non-Bonded
-  Interactions}
-    \field{volume}{20}
-    \field{journaltitle}{Physical Chemistry Chemical Physics}
-    \field{month}{03}
-    \field{year}{2018}
-  \endentry
-
   \entry{lemkul2020}{incollection}{}
     \name{author}{1}{}{%
       {{hash=LJA}{%
@@ -510,6 +577,67 @@
     \endverb
     \field{month}{01}
     \field{year}{2020}
+  \endentry
+
+  \entry{yoo2018a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YJ}{%
+         family={Yoo},
+         familyi={Y\bibinitperiod},
+         given={Jejoong},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aksimentiev},
+         familyi={A\bibinitperiod},
+         given={Aleksei},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{The Royal Society of Chemistry}}%
+    }
+    \strng{namehash}{YJAA1}
+    \strng{fullhash}{YJAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In contrast to ordinary polymers, the vast majority of biological
+  macromolecules adopt highly ordered three-dimensional structures that define
+  their functions. The key to folding of a biopolymer into a unique 3D
+  structure or to an assembly of several biopolymers into a functional unit is
+  a delicate balance between the attractive and repulsive forces that also
+  makes such self-assembly reversible under physiological conditions. The
+  all-atom molecular dynamics (MD) method has emerged as a powerful tool for
+  studies of individual biomolecules and their functional assemblies,
+  encompassing systems of ever increasing complexity. However, advances in
+  parallel computing technology have outpaced the development of the underlying
+  theoretical models - the molecular force fields, pushing the MD method into
+  an untested territory. Recent tests of the MD method have found the most
+  commonly used molecular force fields to be out of balance, overestimating
+  attractive interactions between charged and hydrophobic groups, which can
+  promote artificial aggregation in MD simulations of multi-component protein,
+  nucleic acid, and lipid systems. One route towards improving the force fields
+  is through the NBFIX corrections method, in which the intermolecular forces
+  are calibrated against experimentally measured quantities such as osmotic
+  pressure by making atom pair-specific adjustments to the non-bonded
+  interactions. In this article, we review development of the NBFIX (Non-Bonded
+  FIX) corrections to the AMBER and CHARMM force fields and discuss their
+  implications for MD simulations of electrolyte solutions, dense DNA systems,
+  Holliday junctions, protein folding, and lipid bilayer membranes.%
+    }
+    \verb{doi}
+    \verb 10.1039/c7cp08185e
+    \endverb
+    \field{number}{13}
+    \field{pages}{8432\bibrangedash 8449}
+    \field{title}{New Tricks for Old Dogs: {{Improving}} the Accuracy of
+  Biomolecular Force Fields by Pair-Specific Corrections to Non-Bonded
+  Interactions}
+    \field{volume}{20}
+    \field{journaltitle}{Physical Chemistry Chemical Physics}
+    \field{month}{03}
+    \field{year}{2018}
   \endentry
 
   \entry{chari2019}{article}{}
@@ -649,6 +777,499 @@
     \field{year}{2005}
   \endentry
 
+  \entry{huang2017}{article}{}
+    \name{author}{9}{}{%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rauscher},
+         familyi={R\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nawrocki},
+         familyi={N\bibinitperiod},
+         given={Grzegorz},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Ran},
+         familyi={R\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feig},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dBL}{%
+         family={{de Groot}},
+         familyi={d\bibinitperiod},
+         given={Bert\bibnamedelima L},
+         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Grubm{\"u}ller},
+         familyi={G\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=J}{%
+         family={{Jr.}},
+         familyi={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Computational biophysics,Protein structure
+  predictions,Proteins,Software,Structure determination}
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJRSNGRTFMdBLGHMADJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/nmeth.4067
+    \endverb
+    \field{number}{1}
+    \field{pages}{71\bibrangedash 73}
+    \field{title}{{{CHARMM36m}}: {{An Improved Force Field For Folded}} and
+  {{Intrinsically Disordered Proteins}}}
+    \field{volume}{14}
+    \field{journaltitle}{Nature Methods}
+    \field{month}{01}
+    \field{year}{2017}
+  \endentry
+
+  \entry{vanommeslaeghe2010}{article}{}
+    \name{author}{11}{}{%
+      {{hash=VK}{%
+         family={Vanommeslaeghe},
+         familyi={V\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HE}{%
+         family={Hatcher},
+         familyi={H\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Acharya},
+         familyi={A\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kundu},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhong},
+         familyi={Z\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shim},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Darian},
+         familyi={D\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Guvench},
+         familyi={G\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lopes},
+         familyi={L\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vorobyov},
+         familyi={V\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={Mackerell},
+         familyi={M\bibinitperiod},
+         given={A.\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Simulation,Models; Chemical,Models; Molecular,Molecular
+  Dynamics Simulation,Pyrrolidines,Quantum Theory,Software}
+    \strng{namehash}{VK+1}
+    \strng{fullhash}{VKHEACKSZSSJDEGOLPVIMAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The widely used CHARMM additive all-atom force field includes parameters
+  for proteins, nucleic acids, lipids, and carbohydrates. In the present
+  article, an extension of the CHARMM force field to drug-like molecules is
+  presented. The resulting CHARMM General Force Field (CGenFF) covers a wide
+  range of chemical groups present in biomolecules and drug-like molecules,
+  including a large number of heterocyclic scaffolds. The parametrization
+  philosophy behind the force field focuses on quality at the expense of
+  transferability, with the implementation concentrating on an extensible force
+  field. Statistics related to the quality of the parametrization with a focus
+  on experimental validation are presented. Additionally, the parametrization
+  procedure, described fully in the present article in the context of the model
+  systems, pyrrolidine, and 3-phenoxymethylpyrrolidine will allow users to
+  readily extend the force field to chemical groups that are not explicitly
+  covered in the force field as well as add functional groups to and link
+  together molecules already available in the force field. CGenFF thus makes it
+  possible to perform "all-CHARMM" simulations on drug-target interactions
+  thereby extending the utility of CHARMM force fields to medicinally relevant
+  systems.%
+    }
+    \verb{doi}
+    \verb 10.1002/jcc.21367
+    \endverb
+    \field{issn}{1096-987X}
+    \field{number}{4}
+    \field{pages}{671\bibrangedash 690}
+    \field{shorttitle}{{{CHARMM}} General Force Field}
+    \field{title}{{{CHARMM}} General Force Field: {{A}} Force Field for
+  Drug-like Molecules Compatible with the {{CHARMM}} All-Atom Additive
+  Biological Force Fields}
+    \field{volume}{31}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{03}
+    \field{year}{2010}
+  \endentry
+
+  \entry{robustelli2022}{article}{}
+    \name{author}{8}{}{%
+      {{hash=RP}{%
+         family={Robustelli},
+         familyi={R\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={{Ibanez-de-Opakua}},
+         familyi={I\bibinitperiod},
+         given={Alain},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={{Campbell-Bezat}},
+         familyi={C\bibinitperiod},
+         given={Cecily},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Giordanetto},
+         familyi={G\bibinitperiod},
+         given={Fabrizio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zweckstetter},
+         familyi={Z\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PAC}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Albert\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SDE}{%
+         family={Shaw},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{RP+2}
+    \strng{fullhash}{RPIACCGFBSZMPACSDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Intrinsically disordered proteins (IDPs) are implicated in many human
+  diseases. They have generally not been amenable to conventional
+  structure-based drug design, however, because their intrinsic conformational
+  variability has precluded an atomic-level understanding of their binding to
+  small molecules. Here we present long-time-scale, atomic-level molecular
+  dynamics (MD) simulations of monomeric {$\alpha$}-synuclein (an IDP whose
+  aggregation is associated with Parkinson's disease) binding the
+  small-molecule drug fasudil in which the observed protein\textendash ligand
+  interactions were found to be in good agreement with previously reported NMR
+  chemical shift data. In our simulations, fasudil, when bound, favored certain
+  charge\textendash charge and {$\pi$}-stacking interactions near the C
+  terminus of {$\alpha$}-synuclein but tended not to form these interactions
+  simultaneously, rather breaking one of these interactions and forming another
+  nearby (a mechanism we term dynamic shuttling). Further simulations with
+  small molecules chosen to modify these interactions yielded binding
+  affinities and key structural features of binding consistent with subsequent
+  NMR experiments, suggesting the potential for MD-based strategies to
+  facilitate the rational design of small molecules that bind with disordered
+  proteins.%
+    }
+    \verb{doi}
+    \verb 10.1021/jacs.1c07591
+    \endverb
+    \field{issn}{0002-7863}
+    \field{number}{6}
+    \field{pages}{2501\bibrangedash 2510}
+    \field{title}{Molecular {{Basis}} of {{Small-Molecule Binding}} to
+  {$\alpha$}-{{Synuclein}}}
+    \field{volume}{144}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/D4J83WST/Robustelli et al. - 2022 - Molecul
+    \verb ar Basis of Small-Molecule Binding to α-Syn.pdf;/home/miro/Zotero/st
+    \verb orage/ZSW5CIL2/jacs.html
+    \endverb
+    \field{journaltitle}{Journal of the American Chemical Society}
+    \field{month}{02}
+    \field{year}{2022}
+  \endentry
+
+  \entry{robustelli2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RP}{%
+         family={Robustelli},
+         familyi={R\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Piana},
+         familyi={P\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SDE}{%
+         family={Shaw},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer simulations,Intrinsically disordered proteins,Protein
+  dynamics}
+    \strng{namehash}{RP+2}
+    \strng{fullhash}{RPPSSDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1073/pnas.1800690115
+    \endverb
+    \field{issn}{0027-8424, 1091-6490}
+    \field{number}{21}
+    \field{pages}{E4758\bibrangedash E4766}
+    \field{title}{Developing a Molecular Dynamics Force Field for Both Folded
+  and Disordered Protein States}
+    \field{volume}{115}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/VZ8NUN82/Robustelli et al. - 2018 - Develop
+    \verb ing a molecular dynamics force field for bo.pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{month}{05}
+    \field{year}{2018}
+  \endentry
+
+  \entry{wang2004}{article}{}
+    \name{author}{5}{}{%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Junmei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WRM}{%
+         family={Wolf},
+         familyi={W\bibinitperiod},
+         given={Romain\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CJW}{%
+         family={Caldwell},
+         familyi={C\bibinitperiod},
+         given={James\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KPA}{%
+         family={Kollman},
+         familyi={K\bibinitperiod},
+         given={Peter\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CDA}{%
+         family={Case},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ+1}
+    \strng{fullhash}{WJWRMCJWKPACDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/jcc.20035
+    \endverb
+    \field{issn}{0192-8651, 1096-987X}
+    \field{number}{9}
+    \field{pages}{1157\bibrangedash 1174}
+    \field{title}{Development and Testing of a General Amber Force Field}
+    \field{volume}{25}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{07}
+    \field{year}{2004}
+  \endentry
+
+  \entry{wang2006}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Junmei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KPA}{%
+         family={Kollman},
+         familyi={K\bibinitperiod},
+         given={Peter\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CDA}{%
+         family={Case},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ+1}
+    \strng{fullhash}{WJWWKPACDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.jmgm.2005.12.005
+    \endverb
+    \field{issn}{10933263}
+    \field{number}{2}
+    \field{pages}{247\bibrangedash 260}
+    \field{title}{Automatic Atom Type and Bond Type Perception in Molecular
+  Mechanical Calculations}
+    \field{volume}{25}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Molecular Graphics and Modelling}
+    \field{month}{10}
+    \field{year}{2006}
+  \endentry
+
+  \entry{zhu2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ZS}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Shun},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{ZS1}
+    \strng{fullhash}{ZS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Accurate force field parameters for proteins and drugs are of fundamental
+  importance for predicting protein-drug binding poses and binding free
+  energies in structure-based drug design. Osmotic pressure simulations have
+  recently gained popularity as a means to validate common force fields for
+  biomolecules such as proteins; up to now, however, little such effort has
+  been made to use these methods to validate common force fields for small
+  drug-like molecules. In this work, osmotic coefficients of 16 drug-like
+  molecules were calculated from osmotic pressure molecular dynamics
+  simulations using four common force fields for drug-like molecules: GAFF,
+  CGenFF, OPLS-AA, and PRODRGFF. While GAFF, CGenFF, and OPLS-AA produced
+  osmotic coefficients that are in good agreement with the corresponding
+  experimental osmotic coefficients, PRODRGFF, which attempts to use GROMOS
+  parameters, often produced osmotic coefficients that are in poor agreement.
+  All four force fields poorly reproduced the experimental osmotic coefficients
+  of purine-derived molecules including purine, 6-methylpurine, and caffeine,
+  suggesting common issues in describing interactions of this particular
+  molecule type. The poor overall performance of PRODRGFF can be mainly
+  attributed to the poor results with two macrocyclic molecules HMT and TAT,
+  which can be significantly improved by reparameterizing the van der Waals
+  (vdW) parameters of alkyl carbons and using lower solute concentration. In
+  addition, the recently developed GAFF2 with revamped vdW parameters was found
+  to produce osmotic coefficients that are in slightly better agreement with
+  experiments than GAFF. Overall, the four common force fields for drug-like
+  molecules tested in this study performed reasonably well at reproducing
+  experimental osmotic coefficients of drug-like molecules, although failures
+  of certain force fields on certain molecules suggest that further force field
+  reparameterizations, especially for vdW parameters, might be required to
+  improve their accuracy.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jcim.9b00552
+    \endverb
+    \field{issn}{1549-9596}
+    \field{number}{10}
+    \field{pages}{4239\bibrangedash 4247}
+    \field{title}{Validation of the {{Generalized Force Fields GAFF}},
+  {{CGenFF}}, {{OPLS-AA}}, and {{PRODRGFF}} by {{Testing Against Experimental
+  Osmotic Coefficient Data}} for {{Small Drug-Like Molecules}}}
+    \field{volume}{59}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/5P6EC37J/Zhu - 2019 - Validation of the Gen
+    \verb eralized Force Fields GAFF, C.pdf;/home/miro/Zotero/storage/WXLV5IMQ/
+    \verb acs.jcim.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Information and Modeling}
+    \field{month}{10}
+    \field{year}{2019}
+  \endentry
+
   \entry{phillips2012}{book}{}
     \name{author}{5}{}{%
       {{hash=PR}{%
@@ -779,74 +1400,6 @@
     \field{journaltitle}{The journal of physical chemistry. B}
     \field{month}{05}
     \field{year}{2018}
-  \endentry
-
-  \entry{gapsys2020}{article}{}
-    \name{author}{2}{}{%
-      {{hash=GV}{%
-         family={Gapsys},
-         familyi={G\bibinitperiod},
-         given={Vytautas},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=dBL}{%
-         family={{de Groot}},
-         familyi={d\bibinitperiod},
-         given={Bert\bibnamedelima L},
-         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \name{editor}{2}{}{%
-      {{hash=FJD}{%
-         family={{Faraldo-G{\'o}mez}},
-         familyi={F\bibinitperiod},
-         given={Jos{\'e}\bibnamedelima D},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=GA}{%
-         family={Grossfield},
-         familyi={G\bibinitperiod},
-         given={Alan},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{eLife Sciences Publications, Ltd}}%
-    }
-    \keyw{kinetics,molecular dynamics,simulation,statistics,thermodynamics}
-    \strng{namehash}{GVdBL1}
-    \strng{fullhash}{GVdBL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Computational simulations, akin to wetlab experimentation, are subject to
-  statistical fluctuations. Assessing the magnitude of these fluctuations, that
-  is, assigning uncertainties to the computed results, is of critical
-  importance to drawing statistically reliable conclusions. Here, we use a
-  simulation box size as an independent variable, to demonstrate how crucial it
-  is to gather sufficient amounts of data before drawing any conclusions about
-  the potential thermodynamic and kinetic effects. In various systems, ranging
-  from solvation free energies to protein conformational transition rates, we
-  showcase how the proposed simulation box size effect disappears with
-  increased sampling. This indicates that, if at all, the simulation box size
-  only minimally affects both the thermodynamics and kinetics of the type of
-  biomolecular systems presented in this work.%
-    }
-    \verb{doi}
-    \verb 10.7554/eLife.57589
-    \endverb
-    \field{issn}{2050-084X}
-    \field{pages}{e57589}
-    \field{title}{On the Importance of Statistics in Molecular Simulations for
-  Thermodynamics, Kinetics and Simulation Box Size}
-    \field{volume}{9}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/QGNJJX6S/Gapsys and de Groot - 2020 - On th
-    \verb e importance of statistics in molecular simul.pdf
-    \endverb
-    \field{journaltitle}{eLife}
-    \field{month}{08}
-    \field{year}{2020}
   \endentry
 
   \entry{klauda2007}{article}{}
@@ -1993,212 +2546,28 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {{American Institute of Physics}}%
-    }
-    \keyw{COMPARATIVE EVALUATIONS,COMPRESSION,CONFIGURATION,CUBIC
-  LATTICES,DYNAMICS,HCP LATTICES,IMPACT SHOCK,LAGRANGE
-  EQUATIONS,MONOCRYSTALS,NICKEL,PHASE
-  TRANSFORMATIONS,SIZE,STRAINS,STRESSES,STRUCTURAL MODELS,TENSILE
-  PROPERTIES,THEORETICAL DATA}
     \strng{namehash}{PMRA1}
     \strng{fullhash}{PMRA1}
     \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    A new Lagrangian formulation is introduced. It can be used to make
-  molecular dynamics (MD) calculations on systems under the most general,
-  externally applied, conditions of stress. In this formulat...%
-    }
+    \field{labeltitlesource}{shorttitle}
     \verb{doi}
     \verb 10.1063/1.328693
     \endverb
+    \field{issn}{0021-8979, 1089-7550}
     \field{number}{12}
     \field{pages}{7182\bibrangedash 7190}
+    \field{shorttitle}{Polymorphic Transitions in Single Crystals}
     \field{title}{Polymorphic Transitions in Single Crystals: {{A}} New
   Molecular Dynamics Method}
     \field{volume}{52}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/A9HJ63HM/Parrinello and Rahman - 1981 - Pol
+    \verb ymorphic transitions in single crystals A new .pdf
+    \endverb
     \field{journaltitle}{Journal of Applied Physics}
     \field{month}{12}
     \field{year}{1981}
-  \endentry
-
-  \entry{ngo2021}{article}{}
-    \name{author}{6}{}{%
-      {{hash=NV}{%
-         family={Ngo},
-         familyi={N\bibinitperiod},
-         given={Van},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=LH}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Hui},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=MAD}{%
-         family={MacKerell},
-         familyi={M\bibinitperiod},
-         given={Alexander\bibnamedelima D.},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=ATW}{%
-         family={Allen},
-         familyi={A\bibinitperiod},
-         given={Toby\bibnamedelima W.},
-         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=RB}{%
-         family={Roux},
-         familyi={R\bibinitperiod},
-         given={Beno{\^i}t},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=NS}{%
-         family={Noskov},
-         familyi={N\bibinitperiod},
-         given={Sergei},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NV+1}
-    \strng{fullhash}{NVLHMADATWRBNS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Despite the progress in modeling complex molecular systems of
-  ever-increasing complexity, a quantitatively accurate computational treatment
-  of ion permeation through narrow membrane channels remains challenging. An
-  important factor to reach this goal is induced electronic polarization, which
-  is likely to impact the permeation rate of small ions through narrow
-  molecular pores. In this work, we extended the recently developed polarizable
-  force field based on the classical Drude oscillators to assess the role of
-  induced polarization effects on the energetics of sodium and potassium ion
-  transport across the gramicidin A (gA) ion channel. The inclusion of induced
-  polarization lowers barriers present in 1D potential of mean force (PMF) for
-  cation permeation by {$\sim$}50\% compared to those obtained with the
-  additive force field. Conductance properties calculated with 1D PMFs from
-  Drude simulations are in better agreement with experimental results.
-  Polarization of single-file water molecules and protein atoms forming the
-  narrow pore has a direct impact on the free-energy barriers and
-  cation-specific solid-state NMR chemical shifts. Sensitivity analysis
-  indicates that small changes to water\textendash channel interactions can
-  alter the free energy barrier for ion permeation. These results, illustrating
-  polarization effects present in the complex electrostatic environment of the
-  gA channel, have broad implications for revising proposed mechanisms of ion
-  permeation and selectivity in a variety of ion channels.%
-    }
-    \verb{doi}
-    \verb 10.1021/acs.jctc.0c00968
-    \endverb
-    \field{issn}{1549-9618}
-    \field{number}{3}
-    \field{pages}{1726\bibrangedash 1741}
-    \field{title}{Polarization {{Effects}} in {{Water-Mediated Selective Cation
-  Transport}} across a {{Narrow Transmembrane Channel}}}
-    \field{volume}{17}
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{03}
-    \field{year}{2021}
-  \endentry
-
-  \entry{robustelli2022}{article}{}
-    \name{author}{8}{}{%
-      {{hash=RP}{%
-         family={Robustelli},
-         familyi={R\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=IA}{%
-         family={{Ibanez-de-Opakua}},
-         familyi={I\bibinitperiod},
-         given={Alain},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=CC}{%
-         family={{Campbell-Bezat}},
-         familyi={C\bibinitperiod},
-         given={Cecily},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=GF}{%
-         family={Giordanetto},
-         familyi={G\bibinitperiod},
-         given={Fabrizio},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Becker},
-         familyi={B\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=ZM}{%
-         family={Zweckstetter},
-         familyi={Z\bibinitperiod},
-         given={Markus},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PAC}{%
-         family={Pan},
-         familyi={P\bibinitperiod},
-         given={Albert\bibnamedelima C.},
-         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=SDE}{%
-         family={Shaw},
-         familyi={S\bibinitperiod},
-         given={David\bibnamedelima E.},
-         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Chemical Society}}%
-    }
-    \strng{namehash}{RP+1}
-    \strng{fullhash}{RPIACCGFBSZMPACSDE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Intrinsically disordered proteins (IDPs) are implicated in many human
-  diseases. They have generally not been amenable to conventional
-  structure-based drug design, however, because their intrinsic conformational
-  variability has precluded an atomic-level understanding of their binding to
-  small molecules. Here we present long-time-scale, atomic-level molecular
-  dynamics (MD) simulations of monomeric {$\alpha$}-synuclein (an IDP whose
-  aggregation is associated with Parkinson's disease) binding the
-  small-molecule drug fasudil in which the observed protein\textendash ligand
-  interactions were found to be in good agreement with previously reported NMR
-  chemical shift data. In our simulations, fasudil, when bound, favored certain
-  charge\textendash charge and {$\pi$}-stacking interactions near the C
-  terminus of {$\alpha$}-synuclein but tended not to form these interactions
-  simultaneously, rather breaking one of these interactions and forming another
-  nearby (a mechanism we term dynamic shuttling). Further simulations with
-  small molecules chosen to modify these interactions yielded binding
-  affinities and key structural features of binding consistent with subsequent
-  NMR experiments, suggesting the potential for MD-based strategies to
-  facilitate the rational design of small molecules that bind with disordered
-  proteins.%
-    }
-    \verb{doi}
-    \verb 10.1021/jacs.1c07591
-    \endverb
-    \field{issn}{0002-7863}
-    \field{number}{6}
-    \field{pages}{2501\bibrangedash 2510}
-    \field{title}{Molecular {{Basis}} of {{Small-Molecule Binding}} to
-  {$\alpha$}-{{Synuclein}}}
-    \field{volume}{144}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/D4J83WST/Robustelli et al. - 2022 - Molecul
-    \verb ar Basis of Small-Molecule Binding to α-Syn.pdf;/home/miro/Zotero/st
-    \verb orage/ZSW5CIL2/jacs.html
-    \endverb
-    \field{journaltitle}{Journal of the American Chemical Society}
-    \field{month}{02}
-    \field{year}{2022}
   \endentry
 
   \entry{shannon1949}{article}{}
@@ -2244,33 +2613,6 @@
     \field{journaltitle}{Proceedings of the IRE}
     \field{month}{01}
     \field{year}{1949}
-  \endentry
-
-  \entry{leach2009}{book}{}
-    \name{author}{1}{}{%
-      {{hash=LAR}{%
-         family={Leach},
-         familyi={L\bibinitperiod},
-         given={Andrew\bibnamedelima R.},
-         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Pearson/Prentice Hall}}%
-    }
-    \strng{namehash}{LAR1}
-    \strng{fullhash}{LAR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{edition}{2. ed., 12. [Dr.]}
-    \field{isbn}{978-0-582-38210-7}
-    \field{shorttitle}{Molecular Modelling}
-    \field{title}{Molecular Modelling: Principles and Applications}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{Harlow}}%
-    }
-    \field{year}{2009}
   \endentry
 
   \entry{mazur1997}{article}{}
@@ -2597,6 +2939,45 @@
     \field{year}{2019}
   \endentry
 
+  \entry{streett1978}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SW}{%
+         family={Streett},
+         familyi={S\bibinitperiod},
+         given={W.B.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tildesley},
+         familyi={T\bibinitperiod},
+         given={D.J.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Saville},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SW+1}
+    \strng{fullhash}{SWTDSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/00268977800100471
+    \endverb
+    \field{issn}{0026-8976, 1362-3028}
+    \field{number}{3}
+    \field{pages}{639\bibrangedash 648}
+    \field{title}{Multiple Time-Step Methods in Molecular Dynamics}
+    \field{volume}{35}
+    \field{langid}{english}
+    \field{journaltitle}{Molecular Physics}
+    \field{month}{03}
+    \field{year}{1978}
+  \endentry
+
   \entry{schlick2010}{book}{}
     \name{author}{1}{}{%
       {{hash=ST}{%
@@ -2628,7 +3009,7 @@
   \endentry
 
   \entry{brooks1988}{book}{}
-    \name{author}{3}{}{%
+    \name{editor}{3}{}{%
       {{hash=BCL}{%
          family={Brooks},
          familyi={B\bibinitperiod},
@@ -2649,22 +3030,25 @@
       }}%
     }
     \list{publisher}{1}{%
-      {{Wiley}}%
+      {{John Wiley \& Sons, Inc.}}%
     }
     \strng{namehash}{BCL+1}
     \strng{fullhash}{BCLKMPBM1}
-    \field{labelnamesource}{author}
+    \field{labelnamesource}{editor}
     \field{labeltitlesource}{shorttitle}
-    \field{isbn}{978-0-471-52977-4 978-0-471-62801-9}
-    \field{number}{71}
-    \field{series}{Advances in Chemical Physics}
-    \field{shorttitle}{Proteins}
-    \field{title}{Proteins: A Theoretical Perspective of Dynamics, Structure,
-  and Thermodynamics}
-    \field{langid}{english}
+    \verb{doi}
+    \verb 10.1002/9780470141205
+    \endverb
+    \field{isbn}{978-0-470-14120-5 978-0-471-62801-9}
+    \field{series}{Advances in {{Chemical Physics}}}
+    \field{shorttitle}{Advances in {{Chemical Physics}}}
+    \field{title}{Advances in {{Chemical Physics}}: {{Proteins}}: {{A
+  Theoretical Perspective}} of {{Dynamics}}, {{Structure}}, and
+  {{Thermodynamics}}}
     \list{location}{1}{%
-      {{New York}}%
+      {{Hoboken, NJ, USA}}%
     }
+    \field{month}{01}
     \field{year}{1988}
   \endentry
 
@@ -2722,16 +3106,7 @@
   provide unbiased exploration of mechanisms, supplemented by biased free
   energy methodologies. We illustrate the use of these approaches to describe
   ion conduction and selectivity in voltage-gated sodium and acid-sensing ion
-  channels. Studies of channel gating present a significant challenge, as
-  activation occurs on longer time scales. Enhanced sampling approaches can
-  ensure convergence on minimum free energy pathways for activation, as
-  illustrated here for pentameric ligand-gated ion channels that are principal
-  to nervous system function and the actions of general anesthetics. We also
-  examine recent studies of local anesthetic and antiepileptic drug binding to
-  a sodium channel, revealing sites and pathways that may offer new targets for
-  drug development. Modern simulations thus offer a range of molecular-level
-  insights into ion channel function and modulation as a learning platform for
-  mechanistic discovery and drug development.%
+  channels. Studies of channel gating present a significant challenge, as ...%
     }
     \verb{doi}
     \verb 10.1021/acs.chemrev.8b00630
@@ -2742,11 +3117,6 @@
     \field{title}{Atomistic {{Simulations}} of {{Membrane Ion Channel
   Conduction}}, {{Gating}}, and {{Modulation}}}
     \field{volume}{119}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/32GBH8TV/Flood et al. - 2019 - Atomistic Si
-    \verb mulations of Membrane Ion Channel Cond.pdf;/home/miro/Zotero/storage/
-    \verb YX5M5KUN/acs.chemrev.html
-    \endverb
     \field{journaltitle}{Chemical Reviews}
     \field{month}{07}
     \field{year}{2019}
@@ -2966,49 +3336,55 @@
          giveni={G\bibinitperiod},
       }}%
     }
+    \keyw{Algorithms,Computer Simulation,Models; Biological,Models;
+  Statistical,Sodium,Sodium Channels,Thermodynamics}
     \strng{namehash}{ZFHG1}
     \strng{fullhash}{ZFHG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    GLIC is a bacterial member of the large family of pentameric ligand-gated
-  ion channels. To study ion conduction through GLIC and other membrane
-  channels, we combine the one-dimensional potential of mean force for ion
-  passage with a Smoluchowski diffusion model, making it possible to calculate
-  single-channel conductance in the regime of low ion concentrations from
-  all-atom molecular dynamics (MD) simulations. We then perform MD simulations
-  to examine sodium ion conduction through the GLIC transmembrane pore in two
-  systems with different bulk ion concentrations. The ion potentials of mean
-  force, calculated from umbrella sampling simulations with Hamiltonian replica
-  exchange, reveal a major barrier at the hydrophobic constriction of the pore.
-  The relevance of this barrier for ion transport is confirmed by a committor
-  function that rises sharply in the barrier region. From the free evolution of
-  Na(+) ions starting at the barrier top, we estimate the effective diffusion
-  coefficient in the barrier region, and subsequently calculate the conductance
-  of the pore. The resulting diffusivity compares well with the
-  position-dependent ion diffusion coefficient obtained from restrained
-  simulations. The ion conductance obtained from the diffusion model agrees
-  with the value determined via a reactive-flux rate calculation. Our results
-  show that the conformation in the GLIC crystal structure, with an estimated
-  conductance of \textasciitilde 1 picosiemens at 140 mM ion concentration, is
-  consistent with a physiologically open state of the channel.%
+    The weighted histogram analysis method (WHAM) has become the standard
+  technique for the analysis of umbrella sampling simulations. In this article,
+  we address the challenges (1) of obtaining fast and accurate solutions of the
+  coupled nonlinear WHAM equations, (2) of quantifying the statistical errors
+  of the resulting free energies, (3) of diagnosing possible systematic errors,
+  and (4) of optimally allocating of the computational resources.
+  Traditionally, the WHAM equations are solved by a fixed-point direct
+  iteration method, despite poor convergence and possible numerical
+  inaccuracies in the solutions. Here, we instead solve the mathematically
+  equivalent problem of maximizing a target likelihood function, by using
+  superlinear numerical optimization algorithms with a significantly faster
+  convergence rate. To estimate the statistical errors in one-dimensional free
+  energy profiles obtained from WHAM, we note that for densely spaced umbrella
+  windows with harmonic biasing potentials, the WHAM free energy profile can be
+  approximated by a coarse-grained free energy obtained by integrating the mean
+  restraining forces. The statistical errors of the coarse-grained free
+  energies can be estimated straightforwardly and then used for the WHAM
+  results. A generalization to multidimensional WHAM is described. We also
+  propose two simple statistical criteria to test the consistency between the
+  histograms of adjacent umbrella windows, which help identify inadequate
+  sampling and hysteresis in the degrees of freedom orthogonal to the reaction
+  coordinate. Together, the estimates of the statistical errors and the
+  diagnostics of inconsistencies in the potentials of mean force provide a
+  basis for the efficient allocation of computational resources in free energy
+  simulations.%
     }
     \verb{doi}
-    \verb 10.1021/ct2009279
+    \verb 10.1002/jcc.21989
     \endverb
-    \field{issn}{1549-9626}
-    \field{number}{10}
-    \field{pages}{3759\bibrangedash 3768}
-    \field{title}{Theory and Simulation of Ion Conduction in the Pentameric
-  {{GLIC}} Channel}
-    \field{volume}{8}
+    \field{issn}{1096-987X}
+    \field{number}{4}
+    \field{pages}{453\bibrangedash 465}
+    \field{title}{Convergence and Error Estimation in Free Energy Calculations
+  Using the Weighted Histogram Analysis Method}
+    \field{volume}{33}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/YADL7M58/Zhu and Hummer - 2012 - Theory and
-    \verb  simulation of ion conduction in the pen.pdf
+    \verb /home/miro/Zotero/storage/5AQKP3HN/Zhu and Hummer - 2012 - Convergenc
+    \verb e and error estimation in free energy ca.pdf
     \endverb
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{10}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{02}
     \field{year}{2012}
   \endentry
 
@@ -3083,87 +3459,130 @@
     \field{year}{2019}
   \endentry
 
-  \entry{you2019}{article}{}
-    \name{author}{3}{}{%
-      {{hash=YW}{%
-         family={You},
-         familyi={Y\bibinitperiod},
-         given={Wanli},
-         giveni={W\bibinitperiod},
+  \entry{kumar1992}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KS}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Shankar},
+         giveni={S\bibinitperiod},
       }}%
-      {{hash=TZ}{%
-         family={Tang},
+      {{hash=RJM}{%
+         family={Rosenberg},
+         familyi={R\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bouzida},
+         familyi={B\bibinitperiod},
+         given={Djamal},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SRH}{%
+         family={Swendsen},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KPA}{%
+         family={Kollman},
+         familyi={K\bibinitperiod},
+         given={Peter\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KS+1}
+    \strng{fullhash}{KSRJMBDSRHKPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/jcc.540130812
+    \endverb
+    \field{issn}{0192-8651, 1096-987X}
+    \field{number}{8}
+    \field{pages}{1011\bibrangedash 1021}
+    \field{title}{{{THE}} Weighted Histogram Analysis Method for Free-Energy
+  Calculations on Biomolecules. {{I}}. {{The}} Method}
+    \field{volume}{13}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{10}
+    \field{year}{1992}
+  \endentry
+
+  \entry{kastner2005}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KJ}{%
+         family={K{\"a}stner},
+         familyi={K\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Thiel},
          familyi={T\bibinitperiod},
-         given={Zhiye},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=CCeA}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Chia-en\bibnamedelima A.},
-         giveni={C\bibinithyphendelim e\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {{American Chemical Society}}%
+      {{American Institute of Physics}}%
     }
-    \strng{namehash}{YW+1}
-    \strng{fullhash}{YWTZCCeA1}
+    \strng{namehash}{KJTW1}
+    \strng{fullhash}{KJTW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    Changes in free energy provide valuable information for molecular
-  recognition, including both ligand\textendash receptor binding thermodynamics
-  and kinetics. Umbrella sampling (US), a widely used free energy calculation
-  method, has long been used to explore the dissociation process of
-  ligand\textendash receptor systems and compute binding free energy. In
-  existing publications, the binding free energy computed from the potential of
-  mean force (PMF) with US simulation mostly yielded ``ball park'' values with
-  experimental data. However, the computed PMF values are highly influenced by
-  factors such as initial conformations and/or trajectories provided, the
-  reaction coordinate, and sampling of conformational space in each US window.
-  These critical factors have rarely been carefully studied. Here we used US to
-  study the guest aspirin and 1-butanol dissociation processes of
-  {$\beta$}-cyclodextrin ({$\beta$}-CD) and an inhibitor SB2 dissociation from
-  a p38{$\alpha$} mitogen-activated protein kinase (MAPK) complex. For
-  {$\beta$}-CD, we used three different {$\beta$}-CD conformations to generate
-  the dissociation path with US windows. For p38{$\alpha$}, we generated the
-  dissociation pathway by using accelerated molecular dynamics followed by
-  conformational relaxing with short conventional MD, steered MD, and manual
-  pulling. We found that, even for small {$\beta$}-CD complexes, different
-  {$\beta$}-CD conformations altered the height of the PMF, but the pattern of
-  PMF was not affected if the MD sampling in each US window was well-converged.
-  Because changing the macrocyclic ring conformation needs to rotate dihedral
-  angles in the ring, a bound ligand largely restrains the motion of
-  cyclodextrin. Therefore, once a guest is in the binding site, cyclodextrin
-  cannot freely change its initial conformation, resulting in different
-  absolute heights of the PMF, which cannot be overcome by running excessively
-  long MD simulations for each US window. Moreover, if the US simulations were
-  not converged, the important barrier and minimum were missed. For
-  ligand\textendash protein systems, our studies also suggest that the
-  dissociation trajectories modeled by an enhanced sampling method must
-  maintain a natural molecular movement to avoid biased PMF plots when using US
-  simulations.%
-    }
     \verb{doi}
-    \verb 10.1021/acs.jctc.8b01142
+    \verb 10.1063/1.2052648
     \endverb
-    \field{issn}{1549-9618}
-    \field{number}{4}
-    \field{pages}{2433\bibrangedash 2443}
-    \field{shorttitle}{Potential {{Mean Force}} from {{Umbrella Sampling
-  Simulations}}}
-    \field{title}{Potential {{Mean Force}} from {{Umbrella Sampling
-  Simulations}}: {{What Can We Learn}} and {{What Is Missed}}?}
-    \field{volume}{15}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/WPLIPNVS/You et al. - 2019 - Potential Mean
-    \verb  Force from Umbrella Sampling Simula.pdf
+    \field{issn}{0021-9606}
+    \field{number}{14}
+    \field{pages}{144104}
+    \field{shorttitle}{Bridging the Gap between Thermodynamic Integration and
+  Umbrella Sampling Provides a Novel Analysis Method}
+    \field{title}{Bridging the Gap between Thermodynamic Integration and
+  Umbrella Sampling Provides a Novel Analysis Method: ``{{Umbrella}}
+  Integration''}
+    \field{volume}{123}
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{10}
+    \field{year}{2005}
+  \endentry
+
+  \entry{kim2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KI}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Ilsoo},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KIATW1}
+    \strng{fullhash}{KIATW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.3701766
     \endverb
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{16}
+    \field{pages}{164103}
+    \field{title}{Bennett's Acceptance Ratio and Histogram Analysis Methods
+  Enhanced by Umbrella Sampling along a Reaction Coordinate in Configurational
+  Space}
+    \field{volume}{136}
+    \field{langid}{english}
+    \field{journaltitle}{The Journal of Chemical Physics}
     \field{month}{04}
-    \field{year}{2019}
+    \field{year}{2012}
   \endentry
 
   \entry{zhu2012}{article}{}
@@ -3181,55 +3600,49 @@
          giveni={G\bibinitperiod},
       }}%
     }
-    \keyw{Algorithms,Computer Simulation,Models; Biological,Models;
-  Statistical,Sodium,Sodium Channels,Thermodynamics}
     \strng{namehash}{ZFHG1}
     \strng{fullhash}{ZFHG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    The weighted histogram analysis method (WHAM) has become the standard
-  technique for the analysis of umbrella sampling simulations. In this article,
-  we address the challenges (1) of obtaining fast and accurate solutions of the
-  coupled nonlinear WHAM equations, (2) of quantifying the statistical errors
-  of the resulting free energies, (3) of diagnosing possible systematic errors,
-  and (4) of optimally allocating of the computational resources.
-  Traditionally, the WHAM equations are solved by a fixed-point direct
-  iteration method, despite poor convergence and possible numerical
-  inaccuracies in the solutions. Here, we instead solve the mathematically
-  equivalent problem of maximizing a target likelihood function, by using
-  superlinear numerical optimization algorithms with a significantly faster
-  convergence rate. To estimate the statistical errors in one-dimensional free
-  energy profiles obtained from WHAM, we note that for densely spaced umbrella
-  windows with harmonic biasing potentials, the WHAM free energy profile can be
-  approximated by a coarse-grained free energy obtained by integrating the mean
-  restraining forces. The statistical errors of the coarse-grained free
-  energies can be estimated straightforwardly and then used for the WHAM
-  results. A generalization to multidimensional WHAM is described. We also
-  propose two simple statistical criteria to test the consistency between the
-  histograms of adjacent umbrella windows, which help identify inadequate
-  sampling and hysteresis in the degrees of freedom orthogonal to the reaction
-  coordinate. Together, the estimates of the statistical errors and the
-  diagnostics of inconsistencies in the potentials of mean force provide a
-  basis for the efficient allocation of computational resources in free energy
-  simulations.%
+    GLIC is a bacterial member of the large family of pentameric ligand-gated
+  ion channels. To study ion conduction through GLIC and other membrane
+  channels, we combine the one-dimensional potential of mean force for ion
+  passage with a Smoluchowski diffusion model, making it possible to calculate
+  single-channel conductance in the regime of low ion concentrations from
+  all-atom molecular dynamics (MD) simulations. We then perform MD simulations
+  to examine sodium ion conduction through the GLIC transmembrane pore in two
+  systems with different bulk ion concentrations. The ion potentials of mean
+  force, calculated from umbrella sampling simulations with Hamiltonian replica
+  exchange, reveal a major barrier at the hydrophobic constriction of the pore.
+  The relevance of this barrier for ion transport is confirmed by a committor
+  function that rises sharply in the barrier region. From the free evolution of
+  Na(+) ions starting at the barrier top, we estimate the effective diffusion
+  coefficient in the barrier region, and subsequently calculate the conductance
+  of the pore. The resulting diffusivity compares well with the
+  position-dependent ion diffusion coefficient obtained from restrained
+  simulations. The ion conductance obtained from the diffusion model agrees
+  with the value determined via a reactive-flux rate calculation. Our results
+  show that the conformation in the GLIC crystal structure, with an estimated
+  conductance of \textasciitilde 1 picosiemens at 140 mM ion concentration, is
+  consistent with a physiologically open state of the channel.%
     }
     \verb{doi}
-    \verb 10.1002/jcc.21989
+    \verb 10.1021/ct2009279
     \endverb
-    \field{issn}{1096-987X}
-    \field{number}{4}
-    \field{pages}{453\bibrangedash 465}
-    \field{title}{Convergence and Error Estimation in Free Energy Calculations
-  Using the Weighted Histogram Analysis Method}
-    \field{volume}{33}
+    \field{issn}{1549-9626}
+    \field{number}{10}
+    \field{pages}{3759\bibrangedash 3768}
+    \field{title}{Theory and Simulation of Ion Conduction in the Pentameric
+  {{GLIC}} Channel}
+    \field{volume}{8}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/5AQKP3HN/Zhu and Hummer - 2012 - Convergenc
-    \verb e and error estimation in free energy ca.pdf
+    \verb /home/miro/Zotero/storage/YADL7M58/Zhu and Hummer - 2012 - Theory and
+    \verb  simulation of ion conduction in the pen.pdf
     \endverb
-    \field{journaltitle}{Journal of Computational Chemistry}
-    \field{month}{02}
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{10}
     \field{year}{2012}
   \endentry
 
@@ -3260,6 +3673,658 @@
   Molecular Science}
     \field{month}{11}
     \field{year}{2011}
+  \endentry
+
+  \entry{bussi2020}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=BG}{%
+         family={Bussi},
+         familyi={B\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Laio},
+         familyi={L\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tiwary},
+         familyi={T\bibinitperiod},
+         given={Pratyush},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=AW}{%
+         family={Andreoni},
+         familyi={A\bibinitperiod},
+         given={Wanda},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yip},
+         familyi={Y\bibinitperiod},
+         given={Sidney},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer International Publishing}}%
+    }
+    \strng{namehash}{BG+1}
+    \strng{fullhash}{BGLATP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{booktitle}{Handbook of {{Materials Modeling}}}
+    \verb{doi}
+    \verb 10.1007/978-3-319-44677-6_49
+    \endverb
+    \field{isbn}{978-3-319-44676-9 978-3-319-44677-6}
+    \field{pages}{565\bibrangedash 595}
+    \field{shorttitle}{Metadynamics}
+    \field{title}{Metadynamics: {{A Unified Framework}} for {{Accelerating Rare
+  Events}} and {{Sampling Thermodynamics}} and {{Kinetics}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Cham}}%
+    }
+    \field{year}{2020}
+  \endentry
+
+  \entry{sun2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SR}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DJF}{%
+         family={Dama},
+         familyi={D\bibinitperiod},
+         given={James\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=TJS}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Jeffrey\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RJP}{%
+         family={Rose},
+         familyi={R\bibinitperiod},
+         given={John\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=VGA}{%
+         family={Voth},
+         familyi={V\bibinitperiod},
+         given={Gregory\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{SR+1}
+    \strng{fullhash}{SRDJFTJSRJPVGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Metadynamics is an important enhanced sampling technique in molecular
+  dynamics simulation to efficiently explore potential energy surfaces. The
+  recently developed transition-tempered metadynamics (TTMetaD) has been proven
+  to converge asymptotically without sacrificing exploration of the collective
+  variable space in the early stages of simulations, unlike other convergent
+  metadynamics (MetaD) methods. We have applied TTMetaD to study the permeation
+  of drug-like molecules through a lipid bilayer to further investigate the
+  usefulness of this method as applied to problems of relevance to medicinal
+  chemistry. First, ethanol permeation through a lipid bilayer was studied to
+  compare TTMetaD with nontempered metadynamics and well-tempered metadynamics.
+  The bias energies computed from various metadynamics simulations were
+  compared to the potential of mean force calculated from umbrella sampling.
+  Though all of the MetaD simulations agree with one another asymptotically,
+  TTMetaD is able to predict the most accurate and reliable estimate of the
+  potential of mean force for permeation in the early stages of the simulations
+  and is robust to the choice of required additional parameters. We also show
+  that using multiple randomly initialized replicas allows convergence analysis
+  and also provides an efficient means to converge the simulations in shorter
+  wall times and, more unexpectedly, in shorter CPU times; splitting the CPU
+  time between multiple replicas appears to lead to less overall error. After
+  validating the method, we studied the permeation of a more complicated
+  drug-like molecule, trimethoprim. Three sets of TTMetaD simulations with
+  different choices of collective variables were carried out, and all converged
+  within feasible simulation time. The minimum free energy paths showed that
+  TTMetaD was able to predict almost identical permeation mechanisms in each
+  case despite significantly different definitions of collective variables.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.6b00206
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{10}
+    \field{pages}{5157\bibrangedash 5169}
+    \field{title}{Transition-{{Tempered Metadynamics Is}} a {{Promising Tool}}
+  for {{Studying}} the {{Permeation}} of {{Drug-like Molecules}} through
+  {{Membranes}}}
+    \field{volume}{12}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/8CYMRPUB/Sun et al. - 2016 - Transition-Tem
+    \verb pered Metadynamics Is a Promising To.pdf;/home/miro/Zotero/storage/54
+    \verb NA6CVN/acs.jctc.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{10}
+    \field{year}{2016}
+  \endentry
+
+  \entry{barducci2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BA}{%
+         family={Barducci},
+         familyi={B\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bussi},
+         familyi={B\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Physical Society}}%
+    }
+    \strng{namehash}{BA+1}
+    \strng{fullhash}{BABGPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We present a method for determining the free-energy dependence on a
+  selected number of collective variables using an adaptive bias. The formalism
+  provides a unified description which has metadynamics and canonical sampling
+  as limiting cases. Convergence and errors can be rigorously and easily
+  controlled. The parameters of the simulation can be tuned so as to focus the
+  computational effort only on the physically relevant regions of the order
+  parameter space. The algorithm is tested on the reconstruction of an alanine
+  dipeptide free-energy landscape.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.100.020603
+    \endverb
+    \field{number}{2}
+    \field{pages}{020603}
+    \field{shorttitle}{Well-{{Tempered Metadynamics}}}
+    \field{title}{Well-{{Tempered Metadynamics}}: {{A Smoothly Converging}} and
+  {{Tunable Free-Energy Method}}}
+    \field{volume}{100}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/TYM4JHTU/Barducci et al. - 2008 - Well-Temp
+    \verb ered Metadynamics A Smoothly Converging .pdf;/home/miro/Zotero/storag
+    \verb e/7LPJC4QH/PhysRevLett.100.html
+    \endverb
+    \field{journaltitle}{Physical Review Letters}
+    \field{month}{01}
+    \field{year}{2008}
+  \endentry
+
+  \entry{tiwary2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TP}{%
+         family={Tiwary},
+         familyi={T\bibinitperiod},
+         given={Pratyush},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Physical Society}}%
+    }
+    \strng{namehash}{TPPM1}
+    \strng{fullhash}{TPPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Metadynamics is a commonly used and successful enhanced sampling method. By
+  the introduction of a history dependent bias which depends on a restricted
+  number of collective variables it can explore complex free energy surfaces
+  characterized by several metastable states separated by large free energy
+  barriers. Here we extend its scope by introducing a simple yet powerful
+  method for calculating the rates of transition between different metastable
+  states. The method does not rely on a previous knowledge of the transition
+  states or reaction coordinates, as long as collective variables are known
+  that can distinguish between the various stable minima in free energy space.
+  We demonstrate that our method recovers the correct escape rates out of these
+  stable states and also preserves the correct sequence of state-to-state
+  transitions, with minimal extra computational effort needed over ordinary
+  metadynamics. We apply the formalism to three different problems and in each
+  case find excellent agreement with the results of long unbiased molecular
+  dynamics runs.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.111.230602
+    \endverb
+    \field{number}{23}
+    \field{pages}{230602}
+    \field{title}{From {{Metadynamics}} to {{Dynamics}}}
+    \field{volume}{111}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/PLYWPHPQ/Tiwary and Parrinello - 2013 - Fro
+    \verb m Metadynamics to Dynamics.pdf;/home/miro/Zotero/storage/GGZZ9H6W/Phy
+    \verb sRevLett.111.html
+    \endverb
+    \field{journaltitle}{Physical Review Letters}
+    \field{month}{12}
+    \field{year}{2013}
+  \endentry
+
+  \entry{tiwary2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TP}{%
+         family={Tiwary},
+         familyi={T\bibinitperiod},
+         given={Pratyush},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BBJ}{%
+         family={Berne},
+         familyi={B\bibinitperiod},
+         given={B.\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{TPBBJ1}
+    \strng{fullhash}{TPBBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We consider the rate of transition for a particle between two metastable
+  states coupled to a thermal environment for various magnitudes of the
+  coupling strength using the recently proposed infrequent metadynamics
+  approach [P. Tiwary and M. Parrinello, Phys. Rev. Lett. 111, 230602 (2013)].
+  We are interested in understanding how this approach for obtaining rate
+  constants performs as the dynamics regime changes from energy diffusion to
+  spatial diffusion. Reassuringly, we find that the approach works remarkably
+  well for various coupling strengths in the strong coupling regime, and to
+  some extent even in the weak coupling regime.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.4944577
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{13}
+    \field{pages}{134103}
+    \field{shorttitle}{Kramers Turnover}
+    \field{title}{Kramers Turnover: {{From}} Energy Diffusion to Spatial
+  Diffusion Using Metadynamics}
+    \field{volume}{144}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/WSCM22AQ/Tiwary and Berne - 2016 - Kramers
+    \verb turnover From energy diffusion to spatial.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{04}
+    \field{year}{2016}
+  \endentry
+
+  \entry{salvalaglio2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SM}{%
+         family={Salvalaglio},
+         familyi={S\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tiwary},
+         familyi={T\bibinitperiod},
+         given={Pratyush},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMTPPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Sampling a molecular process characterized by an activation free energy
+  significantly larger than kBT is a well-known challenge in molecular dynamics
+  simulations. In a recent work [Tiwary and Parrinello, Phys. Rev. Lett. 2013,
+  111, 230602], we have demonstrated that the transition times of activated
+  molecular transformations can be computed from well-tempered metadynamics
+  provided that no bias is deposited in the transition state region and that
+  the set of collective variables chosen to enhance sampling does not display
+  hysteresis. Ensuring though that these two criteria are met may not always be
+  simple. Here we build on the fact that the times of escape from a long-lived
+  metastable state obey Poisson statistics. This allows us to identify
+  quantitative measures of trustworthiness of our calculation. We test our
+  method on a few paradigmatic examples. \textcopyright{} 2014 American
+  Chemical Society.%
+    }
+    \verb{doi}
+    \verb 10.1021/ct500040r
+    \endverb
+    \field{number}{4}
+    \field{pages}{1420\bibrangedash 1425}
+    \field{title}{Assessing the Reliability of the Dynamics Reconstructed from
+  Metadynamics}
+    \field{volume}{10}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/AI8ZCM9F/Salvalaglio et al. - 2014 - Assess
+    \verb ing the Reliability of the Dynamics Reconstr.pdf;/home/miro/Zotero/st
+    \verb orage/RIEWEL3K/ct500040r.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{04}
+    \field{year}{2014}
+  \endentry
+
+  \entry{raiteri2006}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RP}{%
+         family={Raiteri},
+         familyi={R\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Laio},
+         familyi={L\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GFL}{%
+         family={Gervasio},
+         familyi={G\bibinitperiod},
+         given={Francesco\bibnamedelima Luigi},
+         giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Micheletti},
+         familyi={M\bibinitperiod},
+         given={Cristian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{RP+1}
+    \strng{fullhash}{RPLAGFLMCPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Recently, we have introduced a new method, metadynamics, which is able to
+  sample rarely occurring transitions and to reconstruct the free energy as a
+  function of several variables with a controlled accuracy. This method has
+  been successfully applied in many different fields, ranging from chemistry to
+  biophysics and ligand docking and from material science to crystal structure
+  prediction. We present an important development that speeds up metadynamics
+  calculations by orders of magnitude and renders the algorithm much more
+  robust. We use multiple interacting simulations, walkers, for exploring and
+  reconstructing the same free energy surface. Each walker contributes to the
+  history-dependent potential that, in metadynamics, is an estimate of the free
+  energy. We show that the error on the reconstructed free energy does not
+  depend on the number of walkers, leading to a fully linear scaling algorithm
+  even on inexpensive loosely coupled clusters of PCs. In addition, we show
+  that the accuracy and stability of the method are much improved by combining
+  it with a weighted histogram analysis. We check the validity of our new
+  method on a realistic application.%
+    }
+    \verb{doi}
+    \verb 10.1021/jp054359r
+    \endverb
+    \field{issn}{1520-6106}
+    \field{number}{8}
+    \field{pages}{3533\bibrangedash 3539}
+    \field{title}{Efficient {{Reconstruction}} of {{Complex Free Energy
+  Landscapes}} by {{Multiple Walkers Metadynamics}}}
+    \field{volume}{110}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/B7T7LWPX/Raiteri et al. - 2006 - Efficient
+    \verb Reconstruction of Complex Free Energy La.pdf;/home/miro/Zotero/storag
+    \verb e/IUXVEIE9/jp054359r.html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry B}
+    \field{month}{03}
+    \field{year}{2006}
+  \endentry
+
+  \entry{hollingsworth2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HSA}{%
+         family={Hollingsworth},
+         familyi={H\bibinitperiod},
+         given={Scott\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DRO}{%
+         family={Dror},
+         familyi={D\bibinitperiod},
+         given={Ron\bibnamedelima O.},
+         giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HSADRO1}
+    \strng{fullhash}{HSADRO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The impact of molecular dynamics (MD) simulations in molecular biology and
+  drug discovery has expanded dramatically in recent years. These simulations
+  capture the behavior of proteins and other biomolecules in full atomic detail
+  and at very fine temporal resolution. Major improvements in simulation speed,
+  accuracy, and accessibility, together with the proliferation of experimental
+  structural data, have increased the appeal of biomolecular simulation to
+  experimentalists\textemdash a trend particularly noticeable in , though
+  certainly not limited to, neuroscience. Simulations have proven valuable in
+  deciphering functional mechanisms of proteins and other biomolecules, in
+  uncovering the structural basis for disease, and in the design and
+  optimization of small molecules, peptides, and proteins. Here we describe in
+  practical terms the types of information MD simulations can provide and the
+  ways in which they typically motivate further experimental work.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuron.2018.08.011
+    \endverb
+    \field{issn}{0896-6273}
+    \field{number}{6}
+    \field{pages}{1129\bibrangedash 1143}
+    \field{title}{Molecular Dynamics Simulation for All}
+    \field{volume}{99}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/8EVFE85F/Hollingsworth and Dror - 2018 - Mo
+    \verb lecular dynamics simulation for all.pdf
+    \endverb
+    \field{journaltitle}{Neuron}
+    \field{month}{09}
+    \field{year}{2018}
+  \endentry
+
+  \entry{ngo2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=NV}{%
+         family={Ngo},
+         familyi={N\bibinitperiod},
+         given={Van},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Beno{\^i}t},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Noskov},
+         familyi={N\bibinitperiod},
+         given={Sergei},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NV+1}
+    \strng{fullhash}{NVLHMADATWRBNS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Despite the progress in modeling complex molecular systems of
+  ever-increasing complexity, a quantitatively accurate computational treatment
+  of ion permeation through narrow membrane channels remains challenging. An
+  important factor to reach this goal is induced electronic polarization, which
+  is likely to impact the permeation rate of small ions through narrow
+  molecular pores. In this work, we extended the recently developed polarizable
+  force field based on the classical Drude oscillators to assess the role of
+  induced polarization effects on the energetics of sodium and potassium ion
+  transport across the gramicidin A (gA) ion channel. The inclusion of induced
+  polarization lowers barriers present in 1D potential of mean force (PMF) for
+  cation permeation by {$\sim$}50\% compared to those obtained with the
+  additive force field. Conductance properties calculated with 1D PMFs from
+  Drude simulations are in better agreement with experimental results.
+  Polarization of single-file water molecules and protein atoms forming the
+  narrow pore has a direct impact on the free-energy barriers and
+  cation-specific solid-state NMR chemical shifts. Sensitivity analysis
+  indicates that small changes to water\textendash channel interactions can
+  alter the free energy barrier for ion permeation. These results, illustrating
+  polarization effects present in the complex electrostatic environment of the
+  gA channel, have broad implications for revising proposed mechanisms of ion
+  permeation and selectivity in a variety of ion channels.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.0c00968
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{3}
+    \field{pages}{1726\bibrangedash 1741}
+    \field{title}{Polarization {{Effects}} in {{Water-Mediated Selective Cation
+  Transport}} across a {{Narrow Transmembrane Channel}}}
+    \field{volume}{17}
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{03}
+    \field{year}{2021}
+  \endentry
+
+  \entry{lindorff-larsen2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LK}{%
+         family={{Lindorff-Larsen}},
+         familyi={L\bibinitperiod},
+         given={Kresten},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Maragakis},
+         familyi={M\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Piana},
+         familyi={P\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SDE}{%
+         family={Shaw},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{LK+1}
+    \strng{fullhash}{LKMPPSSDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Human ubiquitin has been extensively characterized using a variety of
+  experimental and computational methods and has become an important model for
+  studying protein dynamics. Nevertheless, it has proven difficult to
+  characterize the microsecond time scale dynamics of this protein with
+  atomistic resolution. Here we use an unbiased computer simulation to describe
+  the structural dynamics of ubiquitin on the picosecond to millisecond time
+  scale. In the simulation, ubiquitin interconverts between a small number of
+  distinct states on the microsecond to millisecond time scale. We find that
+  the conformations visited by free ubiquitin in solution are very similar to
+  those found various crystal structures of ubiquitin in complex with other
+  proteins, a finding in line with previous experimental studies. We also
+  observe weak but statistically significant correlated motions throughout the
+  protein, including long-range concerted movement across the entire {$\beta$}
+  sheet, consistent with recent experimental observations. We expect that the
+  detailed atomistic description of ubiquitin dynamics provided by this
+  unbiased simulation may be useful in interpreting current and future
+  experiments on this protein.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jpcb.6b02024
+    \endverb
+    \field{issn}{1520-6106}
+    \field{number}{33}
+    \field{pages}{8313\bibrangedash 8320}
+    \field{title}{Picosecond to {{Millisecond Structural Dynamics}} in {{Human
+  Ubiquitin}}}
+    \field{volume}{120}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/BKKUX4LC/Lindorff-Larsen et al. - 2016 - Pi
+    \verb cosecond to Millisecond Structural Dynamics in H.pdf;/home/miro/Zoter
+    \verb o/storage/V7ZBRRVS/acs.jpcb.html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry B}
+    \field{month}{08}
+    \field{year}{2016}
   \endentry
 
   \entry{boucher2007}{misc}{}
@@ -3718,6 +4783,7 @@
     \verb{doi}
     \verb 10.1016/j.cell.2017.06.041
     \endverb
+    \field{issn}{10974172}
     \field{number}{3}
     \field{pages}{483\bibrangedash 491.e8}
     \field{title}{Conformational {{Changes}} of {{CFTR}} upon
