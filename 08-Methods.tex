@@ -227,7 +227,7 @@ There is also a generalised version of the AMBER forcefield known as GAFF \cite{
 		\includegraphics[width=\textwidth]{figures/MD_unit_cell_example/MD_system.png}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[An Example of a Solvated Biomolecular Environment Ready for Simulation] {\textbf{An Example of a Solvated Biomolecular Environment Ready for Simulation}}{This rendering shows a CFTR protein embedded in a lipid bilayer, immersed in a potassium chloride solvent. Half of the bilayer has been stripped away, as has much of the solvent so the protein is visible. The phospholipid lipid bilayer is colored grey, while the potassium chloride ions are colored pink and yellow respectively. Water molecules are red and white. The blue box indicates the boundaries of the unit cell.}
+	\caption[An Example of a Solvated Biomolecular Environment Ready for Simulation] {\textbf{An Example of a Solvated Biomolecular Environment Ready for Simulation}}{This rendering shows a CFTR protein embedded in a lipid bilayer, immersed in a potassium chloride solvent. Half of the bilayer has been stripped away, as has much of the solvent so the protein is visible. The phospholipid lipid bilayer is colored grey, while the potassium chloride ions are colored pink and yellow respectively. Water molecules are red and white. The blue box indicates the boundaries of the unit cell. This system contains roughly 190 000 atoms in total.}
 	\label{MD_environment}
 \end{figure}
 
@@ -275,7 +275,7 @@ For a detailed review of different Particle Mesh Ewald Summation methods and the
 \end{enumerate}
 
 \section{Controlling the Temperature and Pressure in a Simulation}
-Living things are very sensitive to their external environment. Enzymes only work in a narrow range of temperatures and cells burst apart in the absence of pressure\cite{peterson2007}\cite{song2012}. As such, to correctly understand the events in biological bodies with simulations we not only need to correctly calculate the forces being exerted on every atom in their bodies. We must also make sure that the virtual environment in our simulations matches what is found inside the body or in the laboratory. Our simulations should seek to approximate the environment as an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
+Living things are very sensitive to their external environment. Enzymes only work in a narrow range of temperatures and cells burst apart in the absence of pressure\cite{peterson2007}\cite{song2012}. As such, to correctly understand biological systems we not only need to simulate the dynamics of the atoms inside them, but we must also make sure that the virtual environment in our simulations matches what is found inside cells or in the laboratory. Our simulations should seek to approximate the environment of an open topped test-tube sitting in a pressure and temperature controlled laboratory. To do this, we make use of some statistical ensembles chosen for their performance in regulating the thermodynamic quantities in a simulation and their computational expense.  
 
 %Langevin dynamics
 %\begin{equation}
@@ -283,25 +283,25 @@ Living things are very sensitive to their external environment. Enzymes only wor
 %\end{equation}
 
 \subsection{Hot and Cold with the Nos\'e-Hoover Thermostat}
-Recall that the temperature of a system is a direct function of the velocity of its constituent atoms. So by regulating the ensemble of velocities we can control the temperature. We begin a simulation by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
+Recall that the temperature of a system is a direct function of the velocity of its constituent particles. So by regulating the ensemble of velocities we can control the temperature. We begin a simulation by choosing the velocities of the atoms within the system from a Maxwell-Boltzmann distribution. 
 
 \begin{equation}
 	f(v_i) = \Big(\frac{m_i}{2\pi k_B T}\Big)^{3/2} \exp{\Big(-\frac{m_iv_i^2}{2k_BT}\Big)}
 \end{equation}
 
-Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Boltzmann's constant. Note that $i=1,...,N_{df}$ as we choose a velocity component for $x,y \ \text{and}\  z$ components separately. 
+Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Boltzmann's constant. Note that $i=1,...,N_{df}=3N$ as we choose a velocity component for $x,y \ \text{and}\  z$ separately. 
 
-Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. They will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al.\cite{knapp2018}, a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources. Due to the availability of computer time and the requirement to simulate long time scales to capture the slow motions in CFTR. In this thesis simulations were run in 3 replicates with runtimes between 1 and 2 microseconds. 
+Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. Their coordinates will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al.\cite{knapp2018}, a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources. In this thesis we prioritised long time scales to sample slow motions, so 3 replicates with runtimes between 1 and 2 microseconds were produced for all systems. 
 
-After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nos\'e-Hoover thermostat in detail because it was widely used during the production runs in this thesis. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat which as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
+After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nos\'e-Hoover thermostat in detail because it was during the production runs in this thesis\cite{nose1984}\cite{hoover1985}\cite{martyna1992}. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}\cite{berendsen1984a}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
 
-The Nos\'e-Hoover thermostat is characterised by the use of an extra massive particle coupled to an external bath. This particle is in turn baths to a chain of baths \cite{martyna1992}\cite{martyna1996}. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. Usually, the software simulation package GROMACS uses a chain of 10 baths, $M=10$\cite{abraham2015}. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
+The Nos\'e-Hoover thermostat is characterised by the use of an extra, massive particle coupled to an external bath. The use of a single bath has been associated with issues with ergodicity and so usually this particle is coupled to a chain of external baths. Usually, the software simulation package GROMACS uses a chain of 10 baths, $M=10$\cite{martyna1992}\cite{martyna1996}\cite{abraham2015}. The Hamiltonian for the Molecular Dynamics System Coupled to a chain of $M$ external baths is then
 
 \begin{equation}
 	H_{NH} (\bold{x},\bold{p},\eta_1 , ... , \eta_M, p_{\eta_1}, ...,  p_{\eta_M}  )= H_{MM} + \sum_j^M \frac{p^2_{\eta_j}}{2Q_j} +k_BT  N_{df}   \eta_1   + k_BT \sum_{j=2}^M\eta_j
 \end{equation}
 
-Here, usually $N_{df} := 3N$ unless there are constraints placed within the system to freeze atoms. $\eta$ denotes the coordinates in the thermostat of freedom for the thermostat (a scalar variable) with mass $Q$ and $H_{MM}$ is the Hamiltonian defined by 
+Here, usually $N_{df} := 3N$ unless there are constraints placed within the system to freeze atoms. $\eta$ denotes the 1 dimensional coordinate of the thermostat particle with mass $Q$, while $H_{MM}$ is the Hamiltonian of the unregulated molecular mechanics system 
 
 \begin{equation}
 H_{MM}(\bold{x},\bold{p}) = \underbrace{\sum_i^N \frac{\bold{p}_i^2}{2 m_i}}_{E_{kinetic}} + U_{MM} (\bold{x}). 
@@ -326,9 +326,9 @@ Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculat
 
 The parameters $Q_j$ are chosen by the user to control the coupling strength of th baths to each other. We usually choose   
 \begin{equation}
-	Q_j = \frac{\tau_{NH}T}{4\pi^2}\qquad  \forall j
+	Q_j = \frac{\tau_{NH}T_0}{4\pi^2}\qquad  \forall j
 \end{equation}
-where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a time step that is a multiple of $\tau_T$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_eqs} to match the correct temperature $T$.
+where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a time step that is a multiple of $\tau_{NH}$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_eqs} to match the correct temperature $T$.
 
 Remember that we can always calculate the temperature  kinetic energy using the following
 
@@ -338,7 +338,7 @@ Remember that we can always calculate the temperature  kinetic energy using the 
 	\end{aligned}
 \end{equation}
 	
-
+The Nos\'e-Hoover thermostat, when chained infinitely, allows us to use accurately produce what's known as an NVT ensemble, also called the canonical ensemble in the statistical mechanics literature \cite{martyna1992}. Where the number of particles in the system (N) remains constant, the volume of the system remains constant (V) and the temperature remains constant (T). In a realistic environment, the pressure also remains constant, so we need another regulatory mechanism to modulate the volume of the system to regulate the pressure (P) and produce an NPT ensemble. 
 
 \subsection{Under Pressure with the Parinello-Rahman Barostat}
 Pressure is critical to the function of living organisms. Membranes burst apart at low pressures\cite{karal2021} and at high pressures cellular function is disrupted\cite{macdonald2001}. In order to accurately reflect the atmospheric pressure at which living things thrive we have to accurately calculate and modulate it during our simulation.
@@ -396,9 +396,19 @@ represents the stress tensor which acts across each of the faces of the unit cel
 
 This system of equations can be solved numerically to control the pressure of the simulation system by modulating the length of the basis vectors $\bold{a}, \bold{b}$ and $\bold{c}$ contained in $\underline{h}$.
 
+	Together with the Nos\'e-Hoover thermostat, the Parrinello-Rahman barostat produces NPT, also called the isothermal-isobaric ensemble in the statistical mechanics literature. The combination of these two methods is thus appropriate for simulating a cellular environment. 
 
-\section{The Process of Preparing an MD Simulation}
-The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during the physiological context.
+
+	\section{The Process of Preparing an MD Simulation}
+	The process of taking a molecular structure and putting it in a cellular environment to simulate it at physiological temperatures is both an art and a science. It's a science because a biophysicist must be aware of the many tricks that structural biologists use to image a macromolecular complex. But it's an art because accounting for those tricks and making the necessary modifications is rarely straight forward. How do you build a missing loop? What charge state is an amino acid most likely to take during a physiological context. These questions must be carefully answered by analysing the literature about the system of interest. Once the protein structure has been built, the system is immersed in a water solvation bath alongside a concentration of salt ions, usually sodium chloride if the environment is thought at be extra cellular or potassium chloride if the environment is thought to be intracellular. Once the initial conditions have been decided, we need to make a few preparatory steps so the simulation collects reasonable results and doesn't hurtle along some unphysical trajectory. The steps so that the simulation remains realistic are fleshed out in some more detail in \cite{braun2019} but we produce a short summary below.
+
+	\begin{enumerate}
+		\item Minimisation: Here the atoms are moved down along $U_{MM}$ to resolve any clashes  in the system which would cause LINCS or SHAKE to diverge. This is usually done with simple minimistation algorithms such as steepest descent or conjugate gradient descent\cite{leach2001}. This is usually done with a constant volume. 
+	\item Relaxation: Harmonic restraints are placed on the heavy atoms (non hydrogen) in the system so that large conformational changes do not occur while the macromolecules are heated and settles into their solvation environment. This may be done under the NVT or NPT ensembles depending on the system. Sometimes the system is heated slowly from 0 Kelvin up to the desired thermal temperature in order to avoid large conformational changes which might result from different parts of the system heating at different rates. 
+\item Equilibration: Often after relaxation more simulation time is run so that the system can settle into local minima father. This process makes sure that the physically relevant local minima are being sampled once we move to production. This process could be run for a few nanoseconds or up to a microsecond. It depends on the system. This is usually done with the NPT ensemble.
+\item Production: Here the NPT ensemble is applied and the system is allowed to evolve under Newton's equations of motion while data is collected for analysis.
+\end{enumerate}
+
 
 \section{Choosing an Appropriate Time Step}
 The discrete time step, $\Delta t$ which is used to integrate our equations of motion is one of the most important determinants in the performance of the simulation. We would like $\Delta t$ to be as large as possible, so that the minimum number of calculations are made to sample the desired time scale. In the case of proteins this usually runs between $10^{-6}$ and $10^{-3}$s\cite{robustelli2022}.  

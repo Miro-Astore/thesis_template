@@ -2219,6 +2219,139 @@
     \field{year}{2005}
   \endentry
 
+  \entry{peterson2007}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PME}{%
+         family={Peterson},
+         familyi={P\bibinitperiod},
+         given={Michelle\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=DRM}{%
+         family={Daniel},
+         familyi={D\bibinitperiod},
+         given={Roy\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DMJ}{%
+         family={Danson},
+         familyi={D\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Eisenthal},
+         familyi={E\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PME+1}
+    \strng{fullhash}{PMEDRMDMJER1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Traditionally, the dependence of enzyme activity on temperature has been
+  described by a model consisting of two processes: the catalytic reaction
+  defined by {$\Delta$}GDaggercat, and irreversible inactivation defined by
+  {$\Delta$}GDaggerinact. However, such a model does not account for the
+  observed temperature-dependent behaviour of enzymes, and a new model has been
+  developed and validated. This model (the Equilibrium Model) describes a new
+  mechanism by which enzymes lose activity at high temperatures, by including
+  an inactive form of the enzyme (Einact) that is in reversible equilibrium
+  with the active form (Eact); it is the inactive form that undergoes
+  irreversible thermal inactivation to the thermally denatured state. This
+  equilibrium is described by an equilibrium constant whose
+  temperature-dependence is characterized in terms of the enthalpy of the
+  equilibrium, {$\Delta$}Heq, and a new thermal parameter, Teq, which is the
+  temperature at which the concentrations of Eact and Einact are equal; Teq may
+  therefore be regarded as the thermal equivalent of Km. Characterization of an
+  enzyme with respect to its temperature-dependent behaviour must therefore
+  include a determination of these intrinsic properties. The Equilibrium Model
+  has major implications for enzymology, biotechnology and understanding the
+  evolution of enzymes. The present study presents a new direct data-fitting
+  method based on fitting progress curves directly to the Equilibrium Model,
+  and assesses the robustness of this procedure and the effect of assay data on
+  the accurate determination of Teq and its associated parameters. It also
+  describes simpler experimental methods for their determination than have been
+  previously available, including those required for the application of the
+  Equilibrium Model to non-ideal enzyme reactions.%
+    }
+    \verb{doi}
+    \verb 10.1042/BJ20061143
+    \endverb
+    \field{issn}{0264-6021}
+    \field{number}{Pt 2}
+    \field{pages}{331\bibrangedash 337}
+    \field{shorttitle}{The Dependence of Enzyme Activity on Temperature}
+    \field{title}{The Dependence of Enzyme Activity on Temperature:
+  Determination and Validation of Parameters}
+    \field{volume}{402}
+    \field{journaltitle}{Biochemical Journal}
+    \field{month}{03}
+    \field{year}{2007}
+  \endentry
+
+  \entry{song2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SX}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Xiaoyong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yunfei},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SXLY1}
+    \strng{fullhash}{SXLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    To investigate the damage of cell membrane induced by vacuum treatment at
+  different pressure reduction rates, the onion epidermis was subjected to
+  three different pressure reduction rates in a miniaturized, visual and
+  vernier regulation experimental setup. The results of physical tests agreed
+  well with the result of optical microscopy, which showed that treatment at
+  the medium pressure reduction rate resulted in minimum changes in the spaces
+  between the cell membrane and cell wall, water loss, relative electrical
+  conductivity, color and micromechanical properties. Experimental results
+  showed that the pressure reduction rate had obvious effects on the cell
+  membrane integrity of vacuum-treated onion epidermis. PRACTICAL APPLICATIONS
+  This work tested the effect extent of different pressure rates on the cell
+  membrane integrity during vacuum treatment, which has been demonstrated to
+  provide many benefits to the food processing industry. This research could
+  help the users to choose the appropriate operating parameters, to predict the
+  characteristics of vacuum cooled products, to understand the mechanism of
+  vacuum treatment and to learn the design of vacuum cooling equipment.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1745-4530.2011.00641.x
+    \endverb
+    \field{issn}{1745-4530}
+    \field{number}{6}
+    \field{pages}{915\bibrangedash 922}
+    \field{title}{Cell {{Membrane Damage}} by {{Vacuum Treatment}} at
+  {{Different Pressure Reduction Rates}}}
+    \field{volume}{35}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/X9GLI699/Song and Li - 2012 - Cell Membrane
+    \verb  Damage by Vacuum Treatment at Differ.pdf;/home/miro/Zotero/storage/P
+    \verb D7HJ2VC/j.1745-4530.2011.00641.html
+    \endverb
+    \field{journaltitle}{Journal of Food Process Engineering}
+    \field{annotation}{%
+    \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1745-4530.2011.00641.x%
+    }
+    \field{year}{2012}
+  \endentry
+
   \entry{knapp2018}{article}{}
     \name{author}{3}{}{%
       {{hash=KB}{%
@@ -2776,6 +2909,27 @@
     \field{year}{1981}
   \endentry
 
+  \entry{leach2001}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LA}{%
+         family={Leach},
+         familyi={L\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Prentice Hall}}%
+    }
+    \strng{namehash}{LA1}
+    \strng{fullhash}{LA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-0-582-38210-7}
+    \field{title}{Molecular {{Modelling Principles}} and {{Applications}}}
+    \field{year}{2001}
+  \endentry
+
   \entry{schlick2010}{book}{}
     \name{author}{1}{}{%
       {{hash=ST}{%
@@ -2849,27 +3003,6 @@
     \field{journaltitle}{Proceedings of the IRE}
     \field{month}{01}
     \field{year}{1949}
-  \endentry
-
-  \entry{leach2001}{book}{}
-    \name{author}{1}{}{%
-      {{hash=LA}{%
-         family={Leach},
-         familyi={L\bibinitperiod},
-         given={Andrew},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Prentice Hall}}%
-    }
-    \strng{namehash}{LA1}
-    \strng{fullhash}{LA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{978-0-582-38210-7}
-    \field{title}{Molecular {{Modelling Principles}} and {{Applications}}}
-    \field{year}{2001}
   \endentry
 
   \entry{mazur1997}{article}{}
