@@ -52,6 +52,48 @@
     \field{year}{1994}
   \endentry
 
+  \entry{hofstadter2007}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HDR}{%
+         family={Hofstadter},
+         familyi={H\bibinitperiod},
+         given={Douglas\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{BasicBooks}}%
+    }
+    \strng{namehash}{HDR1}
+    \strng{fullhash}{HDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Hofstadter's long-awaited return to the themes of G\"odel, Escher, Bach--an
+  original and controversial view of the nature of consciousness and identity.
+  What do we mean when we say "I"? Can a self, a soul, a consciousness, an "I"
+  arise out of mere matter? If it cannot, then how can you or I be here? This
+  book argues that the key to understanding selves and consciousness is a
+  special kind of abstract feedback loop inhabiting our brains. Deep down, a
+  human brain is a chaotic soup of particles, on a higher level it is a jungle
+  of neurons, and on a yet higher level it is a network of abstractions that we
+  call "symbols." The most central and complex symbol in your brain or mine is
+  the one we both call "I." But how can such a mysterious abstraction be
+  real--or is our "I" merely a convenient fiction?--From publisher description%
+    }
+    \field{isbn}{978-0-465-03079-8 978-0-465-03078-1}
+    \field{title}{I Am a Strange Loop}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York, NY}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/H29UR6JK/Hofstadter - 2007 - I am a strange
+    \verb  loop.pdf
+    \endverb
+    \field{year}{2007}
+  \endentry
+
   \entry{hodgkin1952}{article}{}
     \name{author}{2}{}{%
       {{hash=HAL}{%
@@ -673,6 +715,57 @@
     \field{journaltitle}{Physical Chemistry Chemical Physics}
     \field{month}{03}
     \field{year}{2018}
+  \endentry
+
+  \entry{jambeck2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JJPM}{%
+         family={J{\"a}mbeck},
+         familyi={J\bibinitperiod},
+         given={Joakim P.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Mocci},
+         familyi={M\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LAP}{%
+         family={Lyubartsev},
+         familyi={L\bibinitperiod},
+         given={Alexander\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Laaksonen},
+         familyi={L\bibinitperiod},
+         given={Aatto},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JJPM+1}
+    \strng{fullhash}{JJPMMFLAPLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/jcc.23117
+    \endverb
+    \field{issn}{01928651}
+    \field{number}{3}
+    \field{pages}{187\bibrangedash 197}
+    \field{title}{Partial Atomic Charges and Their Impact on the Free Energy of
+  Solvation}
+    \field{volume}{34}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/DIGLZK3T/Jämbeck et al. - 2013 - Partial a
+    \verb tomic charges and their impact on the fre.pdf
+    \endverb
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{01}
+    \field{year}{2013}
   \endentry
 
   \entry{chari2019}{article}{}
@@ -2758,6 +2851,27 @@
     \field{year}{1949}
   \endentry
 
+  \entry{leach2001}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LA}{%
+         family={Leach},
+         familyi={L\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Prentice Hall}}%
+    }
+    \strng{namehash}{LA1}
+    \strng{fullhash}{LA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-0-582-38210-7}
+    \field{title}{Molecular {{Modelling Principles}} and {{Applications}}}
+    \field{year}{2001}
+  \endentry
+
   \entry{mazur1997}{article}{}
     \name{author}{1}{}{%
       {{hash=MAK}{%
@@ -3569,6 +3683,89 @@
     \endverb
     \field{journaltitle}{Journal of Chemical Information and Modeling}
     \field{month}{05}
+    \field{year}{2019}
+  \endentry
+
+  \entry{you2019a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YW}{%
+         family={You},
+         familyi={Y\bibinitperiod},
+         given={Wanli},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=TZ}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Zhiye},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CCeA}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Chia-en\bibnamedelima A.},
+         giveni={C\bibinithyphendelim e\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{YW+1}
+    \strng{fullhash}{YWTZCCeA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Changes in free energy provide valuable information for molecular
+  recognition, including both ligand\textendash receptor binding thermodynamics
+  and kinetics. Umbrella sampling (US), a widely used free energy calculation
+  method, has long been used to explore the dissociation process of
+  ligand\textendash receptor systems and compute binding free energy. In
+  existing publications, the binding free energy computed from the potential of
+  mean force (PMF) with US simulation mostly yielded ``ball park'' values with
+  experimental data. However, the computed PMF values are highly influenced by
+  factors such as initial conformations and/or trajectories provided, the
+  reaction coordinate, and sampling of conformational space in each US window.
+  These critical factors have rarely been carefully studied. Here we used US to
+  study the guest aspirin and 1-butanol dissociation processes of
+  {$\beta$}-cyclodextrin ({$\beta$}-CD) and an inhibitor SB2 dissociation from
+  a p38{$\alpha$} mitogen-activated protein kinase (MAPK) complex. For
+  {$\beta$}-CD, we used three different {$\beta$}-CD conformations to generate
+  the dissociation path with US windows. For p38{$\alpha$}, we generated the
+  dissociation pathway by using accelerated molecular dynamics followed by
+  conformational relaxing with short conventional MD, steered MD, and manual
+  pulling. We found that, even for small {$\beta$}-CD complexes, different
+  {$\beta$}-CD conformations altered the height of the PMF, but the pattern of
+  PMF was not affected if the MD sampling in each US window was well-converged.
+  Because changing the macrocyclic ring conformation needs to rotate dihedral
+  angles in the ring, a bound ligand largely restrains the motion of
+  cyclodextrin. Therefore, once a guest is in the binding site, cyclodextrin
+  cannot freely change its initial conformation, resulting in different
+  absolute heights of the PMF, which cannot be overcome by running excessively
+  long MD simulations for each US window. Moreover, if the US simulations were
+  not converged, the important barrier and minimum were missed. For
+  ligand\textendash protein systems, our studies also suggest that the
+  dissociation trajectories modeled by an enhanced sampling method must
+  maintain a natural molecular movement to avoid biased PMF plots when using US
+  simulations.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.8b01142
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{4}
+    \field{pages}{2433\bibrangedash 2443}
+    \field{shorttitle}{Potential {{Mean Force}} from {{Umbrella Sampling
+  Simulations}}}
+    \field{title}{Potential {{Mean Force}} from {{Umbrella Sampling
+  Simulations}}: {{What Can We Learn}} and {{What Is Missed}}?}
+    \field{volume}{15}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/WPLIPNVS/You et al. - 2019 - Potential Mean
+    \verb  Force from Umbrella Sampling Simula.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{04}
     \field{year}{2019}
   \endentry
 

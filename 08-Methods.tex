@@ -39,7 +39,7 @@ H = \underbrace{T_n + U_{n-n}}_{H_n} + \underbrace{T_e +  U_{e-e} + U_{n-e}}_{H_
 
 Where $T_n$ and $T_e$ denote the kinetic energy of the nuclei and electrons respectively. While $U_{n-n}, U_{n-e}, U_{e-e}$ denote the potential energy for interactions between nuclei, between electrons and nuclei and between electrons respectively.
 
-Since the potential terms all describe charged species, they follow Coulomb's law and have the form.
+Since the potential terms all describe charged species, they follow coulomb's law and have the form.
 
 \begin{equation}
 	U_{n-n} = \sum_{i>j} \frac{q_e^2 z_i z_j }{|\textbf{R}_i-\textbf{R}_j|},\quad U_{n-e} = -\sum_{i,l} \frac{q_e^2 z_i }{|\textbf{r}_l-\textbf{R}_i|},\quad  U_{e-e}  = \sum_{l>k} \frac{q_e^2 }{|\textbf{r}_l-\textbf{r}_k|}
@@ -141,7 +141,7 @@ This formulation gives us classical molecular dynamics, sometimes referred to as
 We split up the molecular mechanics potential into several components dealing with the energies from covalent bonds, including bond stretching, twisting and bending as well as contributions associated with the forces that atoms exert on each other when they are not bonded together 
 
 \begin{equation}
-	U_{MM} = \underbrace{U_{LJ} + U_{Coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded} }
+	U_{MM} = \underbrace{U_{LJ} + U_{coulomb}}_{U_{non-bonded}} + \underbrace{U_{bonds} + U_{angles} + U_{dihedrals} + U_{impropers}}_{U_{bonded} }
 	\label{CHARMM_effective_potential_eq}
 \end{equation}
 
@@ -167,7 +167,7 @@ Here, the $k_i$ terms correspond to the strength of the harmonic restraint for a
 
 \subsubsection{Non Bonded Interactions}
 
-The term $U_{non-bonded}$ captures interactions which arise when atoms are not covalently bound to each other. Namely, Coulomb forces due to electric charges on the atom, attractive Van Der Walls interactions and repulsion due to Pauli Exclusion,
+The term $U_{non-bonded}$ captures interactions which arise when atoms are not covalently bound to each other. Namely, coulomb forces due to electric charges on the atom, attractive Van Der Walls interactions and repulsion due to Pauli Exclusion,
 \begin{equation}\label{nonbonded_eqs}
 	\begin{aligned}
 		U_{non-bonded} = \underbrace{\sum_{i>j} \epsilon_{ij} \Big( \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{12} - \Big(\frac{\sigma_{ij}}{r_{ij}}\Big)^{6} \Big)}_{U_{Lennard-Jones}} - \underbrace{\sum_{i>j} \frac{q_i q_j } {r_{ij}}}_{U_{coulomb}}. 
@@ -217,25 +217,35 @@ There is also a generalised version of the AMBER forcefield known as GAFF \cite{
 			U_b = \frac{1}{4} k_b (b^2-b^2_0)^2
 		\end{equation}
 
-		The parameters are adjusted for agreement with experimental parameters such as  solvation energies, liquid densities. GROMOS forcefields are popular in some contexts because of its ability to reproduce parititon coefficients between polar and non-polar media, a similar chemical context to what is found at the interface between a membrane and bulk water.
+		The parameters are adjusted for agreement with experimental parameters such as  solvation energies, liquid densities. GROMOS forcefields are popular in some contexts because of its ability to reproduce partition coefficients between polar and non-polar media, a similar chemical context to what is found at the interface between a membrane and bulk water.
 
 \end{itemize}
 
 \section{Periodic Boundaries to Simulate the Inside of a Cell}
 \begin{figure}
 	\begin{center}
+		\includegraphics[width=\textwidth]{figures/MD_unit_cell_example/MD_system.png}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[An Example of a Solvated Biomolecular Environment Ready for Simulation] {\textbf{An Example of a Solvated Biomolecular Environment Ready for Simulation}}{This rendering shows a CFTR protein embedded in a lipid bilayer, immersed in a potassium chloride solvent. Half of the bilayer has been stripped away, as has much of the solvent so the protein is visible. The phospholipid lipid bilayer is colored grey, while the potassium chloride ions are colored pink and yellow respectively. Water molecules are red and white. The blue box indicates the boundaries of the unit cell.}
+	\label{MD_environment}
+\end{figure}
+
+Inside cells, proteins are immersed in a large solvation environment composed of water and salts \cite{phillips2012}. An example can be seen in figure \ref{MD_environment}. However, simulating such a large environment is computationally expensive and truncating it with vacuum at the boundaries leads to water molecules aligning their dipole moments along the boundary and perturbing equilibrium dynamics. In order to avoid artefacts we have to replicate the large cellular environment somehow\cite{ross2018}. We could make a simulation box large enough to replicate the behavior of a bulk solvent, but even with a large simulation box we can still observe artifacts associated with the vacuum at the boundaries \cite{gapsys2020}. So, to avoid these boundary effects we use periodic boundary conditions (PBCs), allowing atoms to move between images in the simulation box. This replicates the molecular system infinitely in every direction. 
+
+Using PBCs might remove vacuum from our molecular system but now we have a different problem. Effectively, with the PBCs, we have created a system with an infinite number of atoms. We have to somehow limit the number of computations we perform. We could simply truncate the calculation of interactions $U_{non-bonded}$ after a certain cutoff distance. This is not an issue for $U_{LJ}$ because the $1/r^6$ and $1/r^{12}$ terms in equation \ref{Lennard-Jones_figure} decay very quickly for large $r$. Inaccuracies due to this approximation can be further ameliorated with the use of a smooth switching function \cite{klauda2007}\cite{venable2009}. On the other hand, the $1/r$ dependence in $U_{coulomb}$ scales much more slowly so truncating it leads to a loss of accuracy in the results of the simulation.\cite{auffinger1995}\cite{perera1995}\cite{roberts1994}\cite{delbuono1996}\cite{essmann1995}. So, we have to calculate the contributions of $U_{coulomb}$ in between all periodic images. Note that this periodicity requires that the unit cell is electrically neutral, else the contribution of potential energy from $U_{coulomb}$ will be infinite, leading to artifacts \cite{hub2014}.
+
+\begin{figure}
+	\begin{center}
 		\includegraphics[width=\textwidth]{figures/PME_miro.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Particle Mesh Ewald Summation] {\textbf{Particle Mesh Ewald Summation}}{A)The molecular system is repeated infinitely along all axes, when atoms reach the edge of the simulation box they are allowed wrap around to the other side of the box. B) The charges in the infinite periodic system are approximated as Gaussian functions on a grid. Then the potential on these screening charges is calculated via a Fast Fourier Transform (FFT). C) A more detailed view of the charge mapping procedure. The point charges in the system are interpolated onto the grid using B-spline interpolation. }
+	\caption[Particle Mesh Ewald Summation] {\textbf{Particle Mesh Ewald Summation}}{A)The molecular system is repeated infinitely along all axes, when atoms reach the edge of the simulation box they are allowed wrap around to the other side of the box. B) The charges in the infinite periodic system are approximated onto a regular grid. Then the potential in the infinite system is calculated via a Fast Fourier Transform (FFT). C) A more detailed view of the charge mapping procedure. The point charges in the system are interpolated onto the grid using B-spline interpolation. }
 	\label{PME_illustration}
 \end{figure}
 
-Inside cells, proteins are immersed in a large solvation environment composed of water and salts \cite{phillips2012}. In order to avoid artefacts we have to replicate this environment somehow\cite{ross2018}. We could make a simulation box large enough to replicate the behavior of a bulk solvent, but even with a large simulation box we can still observe artifacts associated with the vacuum at the boundaries \cite{gapsys2020}. So, to avoid these boundary effects we use periodic boundary conditions (PBCs), allowing atoms to move between images in the simulation box \ref{PME_illustration}. This replicates the molecular system infinitely in every direction. 
 
-Using PBCs might remove vacuum from our molecular system but now we have a different problem. Effectively, with the PBCs, we have created a system with an infinite number of atoms. We have to somehow limit the number of computations we perform. We could simply truncate the calculation of interactions $U_{non-bonded}$ after a certain cutoff distance. This is not an issue for $U_{LJ}$ because the $1/r^6$ and $1/r^{12}$ terms in \ref{Lennard-Jones_figure} decay very quickly for large $r$. Inaccuracies due to this approximation can be further ameliorated with the use of a smooth switching function \cite{klauda2007}\cite{venable2009}. On the other hand, the $1/r$ dependence in $U_{coulomb}$ scales much more slowly so truncating it leads to many artefacts in the simulation.\cite{auffinger1995}\cite{perera1995}\cite{roberts1994}\cite{delbuono1996}\cite{essmann1995}. Note that this periodicity requires that the unit cell is neutral, else the contribution of potential energy from $U_{coulomb}$ will be infinite, leading to artifacts \cite{hub2014}.
-
-To avoid these artefacts and limit computational intensively of our calculations we use a clever scheme known as Particle Mesh Ewald Summation. Interestingly, this scheme ends up scaling better than the pairwise summation in equation \ref{nonbonded_eqs} might imply. The direct summation scales with computational complexity of $O(N^2)$  with the number of atoms while the infinite PME scheme scales as $O (N\log N)$ \cite{darden1993}, though there are some further considerations for large systems on parallel architectures \cite{hardy2015}. Even with these sophisticated algorithms, the calculation of electrostatic potential still represents the largest computational bottle-neck in classical MD \cite{hardy2015}.
+To calculate $U_{coulomb}$ in all periodic images and limit computational intensively of our calculations we use a clever scheme known as Particle Mesh Ewald summation (PME). Interestingly, this scheme ends up scaling better than the pairwise summation in equation \ref{nonbonded_eqs} might imply. The direct summation scales with computational complexity of $O(N^2)$  with the number of atoms while the infinite PME scheme scales as $O (N\log N)$ \cite{darden1993}, though there are some further considerations for large systems on parallel architectures \cite{hardy2015}. Even with these sophisticated algorithms, the calculation of electrostatic potential in the infinite system still represents the largest computational bottle-neck in classical MD \cite{hardy2015}.
 
 For a detailed review of different Particle Mesh Ewald Summation methods and the mathematics behind the method see \cite{shan2005}. A brief outline of the Smooth Particle Mesh Ewald summation is given below 
 
@@ -252,16 +262,16 @@ For a detailed review of different Particle Mesh Ewald Summation methods and the
 			U_{coulomb} &= U_{FT}  + U_{direct-sum}
 			\end{aligned}
 		\end{equation}
-	\item The charges to be evaluated using $U_{FT}$ are interpolated onto a grid a grid using B-spline interpolation functions. This procedure is demonstrated in figure \ref{PME_illustration}.
-	\item The charge density functions in the grid are transformed into $k$-space using Fast Fourier Transforms.
-	\item The Poisson equation is solved numerically in $k$-space.
+	\item The charges to be evaluated using $U_{FT}$ are interpolated onto a grid a grid using B-spline interpolation functions. This is the procedure demonstrated in figure \ref{PME_illustration}.
+	\item The charge density functions for the charges on the grid are transformed into frequency space using Fast Fourier Transforms.
+	\item The Poisson equation is solved numerically in frequency space for these charges.
 		\begin{equation}	
 			\nabla^2\tilde{U} = 4\pi \tilde{\rho}(\bold{k})
 		\end{equation}	
-		Where $\tilde{U}$ is the component of $U_{FT}$ we solve for in $k$-space and $\tilde{\rho}$ is the Fourier transform of the smooth scalar function for the interpolated charge densities. 
-	\item An inverse Fourier transform is calculated to calculate solution to the Poisson equation in real space. 
+		Where $\tilde{U}$ is the component of $U_{FT}$ we solve for in frequency space and $\tilde{\rho}$ is the Fourier transform of the smooth scalar function for the interpolated charge densities. 
+	\item An inverse Fourier transform is calculated to for the solution to $\tilde{U}$ to transform to the Poisson equation back into real space. 
 	\item The interactions in $U_{direct-sum}$ are evaluated using a simple pairwise summation.
-	\item Now that $U_{coulomb}$ is known at every position in the unit cell we can move atoms according to this potential using Newton's second law.
+	\item Now that $U_{coulomb}$ is known at every position in the unit cell we can move atoms according to the contributions from this potential using Newton's second law.
 \end{enumerate}
 
 \section{Controlling the Temperature and Pressure in a Simulation}
@@ -395,7 +405,7 @@ The discrete time step, $\Delta t$ which is used to integrate our equations of m
 
 As you can see in table \ref{timescales} the fastest motion in molecular systems is dictated by stretching of covalent bonds. Studies of the resonance of molecules by infrared spectroscopy determined that the O-H type bonds oscillate the fastest, with a resonance peak at 3600cm$^{-1}$\cite{schlick2010}. 
 
-Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, empirically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2009a}. The Verlet leap-frog scheme used in most MD codes requires between 5 and 10 integration steps per period of the fastest harmonic mode in a system, to maintain stability \cite{mazur1997}\cite{feenstra1999}. The choice of too large a time step means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseconds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
+Due to Nyquist's theorem the largest $\Delta t$ parameter we can choose \textit{must} be less than half the speed of the fastest degree of freedom in the system \cite{shannon1949}. However, empirically we have found that condensed matter systems require even shorter time steps to maintain their stability \cite{leach2001}. The Verlet leap-frog scheme used in most MD codes requires between 5 and 10 integration steps per period of the fastest harmonic mode in a system, to maintain stability \cite{mazur1997}\cite{feenstra1999}. The choice of too large a time step means that the system will escape local free energy minima, accumulating kinetic energy and eventually "blow-up" \cite{braun2019}. In the case of biomolecular systems we are challenged by the fact that they are so hydrogen-rich. Since hydrogen is so light, its motion is much faster compared to the other molecular motions involving heavier, slower moving atoms. Its correlation time is on the order of 1 femtosecond, in classical simulations we are able to get away with using 2 femtoseconds with the use of specialised integration schemes such as SHAKE\cite{andersen1983} and LINCS\cite{hess1997} to constrain the fast motion of hydrogen atoms. Allowing us to use $\Delta t = 2$fs in during atomistic classical MD simulations.
 
 The use of techniques such as hydrogen mass repartitioning \cite{balusek2019}, virtual site topologies \cite{feenstra1999} and multiple time step schemes\cite{streett1978} have also gained popularity in recent years in order to increase time steps further, up to $\Delta t = 5$fs. 
 
@@ -429,7 +439,7 @@ The use of techniques such as hydrogen mass repartitioning \cite{balusek2019}, v
 %	\hline
 %\end{tabular}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. This stands in tension with the phenomena we are interested in on longer timescales such as protein folding. Sources: \cite{leach2009}\cite{schlick2010}\cite{brooks1988}\cite{flood2019}\cite{werner2012}} \cite{feenstra1999}
+	\caption[Timescales of Motions in a Molecular System]{\textbf{Timescales of Motions in a Molecular System}} {The time step of a simulation must be small enough to capture the motions in the fastest degree of freedom. In hydrogen-rich biomolecular systems the bottle neck can be found in the fast bond vibrations in lighter atoms. This stands in tension with the phenomena we are interested in on longer timescales such as protein folding. Sources: \cite{leach2001}\cite{schlick2010}\cite{brooks1988}\cite{flood2019}\cite{werner2012}} \cite{feenstra1999}
 	\label{timescales}
 \end{table}
 
