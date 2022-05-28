@@ -2421,6 +2421,131 @@
     \field{year}{2018}
   \endentry
 
+  \entry{nose1984}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NS}{%
+         family={Nos{\'e}},
+         familyi={N\bibinitperiod},
+         given={Sh{\=u}ichi},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Taylor \& Francis}}%
+    }
+    \strng{namehash}{NS1}
+    \strng{fullhash}{NS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A molecular dynamics simulation method which can generate configurations
+  belonging to the canonical (T, V, N) ensemble or the constant temperature
+  constant pressure (T, P, N) ensemble, is proposed. The physical system of
+  interest consists of N particles (f degrees of freedom), to which an
+  external, macroscopic variable and its conjugate momentum are added. This
+  device allows the total energy of the physical system to fluctuate. The
+  equilibrium distribution of the energy coincides with the canonical
+  distribution both in momentum and in coordinate space. The method is tested
+  for an atomic fluid (Ar) and works well.%
+    }
+    \verb{doi}
+    \verb 10.1080/00268978400101201
+    \endverb
+    \field{issn}{0026-8976}
+    \field{number}{2}
+    \field{pages}{255\bibrangedash 268}
+    \field{title}{A Molecular Dynamics Method for Simulations in the Canonical
+  Ensemble}
+    \field{volume}{52}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/KN4XSGWS/00268978400101201.html
+    \endverb
+    \field{journaltitle}{Molecular Physics}
+    \field{annotation}{%
+    \_eprint: https://doi.org/10.1080/00268978400101201%
+    }
+    \field{month}{06}
+    \field{year}{1984}
+  \endentry
+
+  \entry{hoover1985}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HWG}{%
+         family={Hoover},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima G.},
+         giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HWG1}
+    \strng{fullhash}{HWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1103/PhysRevA.31.1695
+    \endverb
+    \field{issn}{0556-2791}
+    \field{number}{3}
+    \field{pages}{1695\bibrangedash 1697}
+    \field{shorttitle}{Canonical Dynamics}
+    \field{title}{Canonical Dynamics: {{Equilibrium}} Phase-Space
+  Distributions}
+    \field{volume}{31}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/7XGCMR4L/Hoover - 1985 - Canonical dynamics
+    \verb  Equilibrium phase-space distri.pdf
+    \endverb
+    \field{journaltitle}{Physical Review A}
+    \field{month}{03}
+    \field{year}{1985}
+  \endentry
+
+  \entry{martyna1992}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MGJ}{%
+         family={Martyna},
+         familyi={M\bibinitperiod},
+         given={Glenn\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KML}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={Michael\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tuckerman},
+         familyi={T\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGJ+1}
+    \strng{fullhash}{MGJKMLTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1063/1.463940
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{4}
+    \field{pages}{2635\bibrangedash 2643}
+    \field{shorttitle}{Nos\'e\textendash{{Hoover}} Chains}
+    \field{title}{Nos\'e\textendash{{Hoover}} Chains: {{The}} Canonical
+  Ensemble via Continuous Dynamics}
+    \field{volume}{97}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/DEJ782VU/Martyna et al. - 1992 - Nosé–Ho
+    \verb over chains The canonical ensemble via con.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{08}
+    \field{year}{1992}
+  \endentry
+
   \entry{bussi2007}{article}{}
     \name{author}{3}{}{%
       {{hash=BG}{%
@@ -2484,49 +2609,63 @@
     \field{year}{2007}
   \endentry
 
-  \entry{martyna1992}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MGJ}{%
-         family={Martyna},
-         familyi={M\bibinitperiod},
-         given={Glenn\bibnamedelima J.},
-         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+  \entry{berendsen1984a}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BHJC}{%
+         family={Berendsen},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima J.\bibnamedelima C.},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
       }}%
-      {{hash=KML}{%
-         family={Klein},
-         familyi={K\bibinitperiod},
-         given={Michael\bibnamedelima L.},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      {{hash=PJPM}{%
+         family={Postma},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima P.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
       }}%
-      {{hash=TM}{%
-         family={Tuckerman},
-         familyi={T\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
+      {{hash=vWF}{%
+         family={{van Gunsteren}},
+         familyi={v\bibinitperiod},
+         given={W.\bibnamedelima F.},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={DiNola},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HJR}{%
+         family={Haak},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{MGJ+1}
-    \strng{fullhash}{MGJKMLTM1}
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{BHJC+1}
+    \strng{fullhash}{BHJCPJPMvWFDAHJR1}
     \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
+    \field{labeltitlesource}{title}
     \verb{doi}
-    \verb 10.1063/1.463940
+    \verb 10.1063/1.448118
     \endverb
-    \field{issn}{0021-9606, 1089-7690}
-    \field{number}{4}
-    \field{pages}{2635\bibrangedash 2643}
-    \field{shorttitle}{Nos\'e\textendash{{Hoover}} Chains}
-    \field{title}{Nos\'e\textendash{{Hoover}} Chains: {{The}} Canonical
-  Ensemble via Continuous Dynamics}
-    \field{volume}{97}
-    \field{langid}{english}
+    \field{issn}{0021-9606}
+    \field{number}{8}
+    \field{pages}{3684\bibrangedash 3690}
+    \field{title}{Molecular Dynamics with Coupling to an External Bath}
+    \field{volume}{81}
     \verb{file}
-    \verb /home/miro/Zotero/storage/DEJ782VU/Martyna et al. - 1992 - Nosé–Ho
-    \verb over chains The canonical ensemble via con.pdf
+    \verb /home/miro/Zotero/storage/PBJTBJQG/Berendsen et al. - 1984 - Molecula
+    \verb r dynamics with coupling to an external ba.pdf
     \endverb
     \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{08}
-    \field{year}{1992}
+    \field{month}{10}
+    \field{year}{1984}
   \endentry
 
   \entry{martyna1996}{article}{}
@@ -4115,6 +4254,61 @@
     \field{journaltitle}{Wiley Interdisciplinary Reviews: Computational
   Molecular Science}
     \field{month}{11}
+    \field{year}{2011}
+  \endentry
+
+  \entry{chen2011}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CPC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Po-Chia},
+         giveni={P\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CPCKS1}
+    \strng{fullhash}{CPCKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Free energy calculations for protein-ligand dissociation have been tested
+  and validated for small ligands (50~atoms or less), but there has been a
+  paucity of studies for larger, peptide-size ligands due to computational
+  limitations. Previously we~have studied the energetics of dissociation in a
+  potassium channel-charybdotoxin complex by using umbrella sampling
+  molecular-dynamics simulations, and established the need for carefully chosen
+  coordinates and restraints to maintain the physiological ligand conformation.
+  Here we address the ligand integrity problem further by constructing
+  additional potential of mean forces for dissociation of charybdotoxin using
+  restraints. We show that the large discrepancies in binding free energy
+  arising from simulation artifacts can be avoided by using appropriate
+  restraints on the ligand, which enables determination of the binding free
+  energy within the chemical accuracy. We make several suggestions for optimal
+  choices of harmonic potential parameters and restraints to be used in binding
+  studies of large ligands.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bpj.2011.03.052
+    \endverb
+    \field{issn}{0006-3495}
+    \field{number}{10}
+    \field{pages}{2466\bibrangedash 2474}
+    \field{title}{Accurate {{Determination}} of the {{Binding Free Energy}} for
+  {{KcsA-Charybdotoxin Complex}} from the {{Potential}} of {{Mean Force
+  Calculations}} with {{Restraints}}}
+    \field{volume}{100}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/JKTIF69N/Chen and Kuyucak - 2011 - Accurate
+    \verb  Determination of the Binding Free Energy .pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{month}{05}
     \field{year}{2011}
   \endentry
 

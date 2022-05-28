@@ -291,7 +291,7 @@ Recall that the temperature of a system is a direct function of the velocity of 
 
 Where $f(v_i)$ is the proportion of particles with velocity $v_i$, $k_B$ is Boltzmann's constant. Note that $i=1,...,N_{df}=3N$ as we choose a velocity component for $x,y \ \text{and}\  z$ separately. 
 
-Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. Their coordinates will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al.\cite{knapp2018}, a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources. In this thesis we prioritised long time scales to sample slow motions, so 3 replicates with runtimes between 1 and 2 microseconds were produced for all systems. 
+Despite starting from the same Cartesian coordinates, randomly sampling velocities from the Maxwell-Boltzmann means that replicate simulations will immediately begin from different points in phase space. Their coordinates will quickly diverge, raising questions around how long one should run a simulation and how many replicates they should run in order to collect reliable statistics. According to Knapp et al.\cite{knapp2018}, a good rule of thumb is to simulate between 5 and 10 replicates depending on the availability of computing resources\footnote{Recall that in the ergodic limit, a quantity $f$ will be equal when calculated in the ensemble average, between replicates,  as when equal to when calculated using the time average, in one replicate. \[\langle f \rangle_i = \lim_{t\to\infty }f \]}. In this thesis we prioritised long time scales to sample slow motions, so 3 replicates with runtimes between 1 and 2 microseconds were produced for all systems. 
 
 After the initial choice of velocities, the temperature in a simulation is maintained by directly modulating the velocities of the atoms to maintain the target temperature $T_0$. There are many schemes which attempt this. We will discuss the Nos\'e-Hoover thermostat in detail because it was during the production runs in this thesis\cite{nose1984}\cite{hoover1985}\cite{martyna1992}. However, for the equilibration phase of the simulation we used the Berendsen thermostat because it is faster at correcting large temperature differentials but does not produce the correct statistical ensemble \cite{bussi2007}\cite{berendsen1984a}. We also note that the field has since moved on to favor the Bussi thermostat which is an extension of the Berendsen thermostat as it works well in most contexts \cite{bussi2007}\cite{braun2019}.
 
@@ -320,7 +320,7 @@ By using Hamilton's equations of motion, $H_{NH}$ evolves by
 		\vdots \\ 
 		\dot{p_{\eta_M}} &= \bigg[ \frac{p^2_{\eta_{M-1}}}{Q_{M-1}} - k_bT \bigg]
 	\end{aligned}
-	\label{NH_eqs}
+	\label{NH_equations}
 \end{equation}
 Where $\bold{F}_i$ is the force vector on the $i$th particle. It may be calculated from $U_{MM}$ using Newton's second law. 
 
@@ -328,13 +328,13 @@ The parameters $Q_j$ are chosen by the user to control the coupling strength of 
 \begin{equation}
 	Q_j = \frac{\tau_{NH}T_0}{4\pi^2}\qquad  \forall j
 \end{equation}
-where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a time step that is a multiple of $\tau_{NH}$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_eqs} to match the correct temperature $T$.
+where $\tau_{NH}$ is the time interval between when the thermostat parameters are updated. This means that whenever the simulation is not at a time step that is a multiple of $\tau_{NH}$  we can just evaluate $U_{MM}$ as normal but every interval of $\tau_{NH}$ we rescale the velocities according to the equations of motion in \ref{NH_equations} to match the correct temperature $T$.
 
-Remember that we can always calculate the temperature  kinetic energy using the following
+Remember that we can always calculate the temperature using the instantaneous velocities in the simulation using
 
 \begin{equation}
 	\begin{aligned}
-		E_{kinetic} &= \frac{3}{2}Nk_BT 
+		T &= \frac{2E_{kinetic}}{3Nk_B}  =  \frac{\sum_i m_i v_i^2}{3Nk_B} 
 	\end{aligned}
 \end{equation}
 	
@@ -520,25 +520,27 @@ Umbrella sampling is extremely useful for calculating all sorts of experimental 
 \subsubsection{Weighted Histogram Average Method (WHAM)}
 There a few candidates for calculating the PMF using the statistics calculated in umbrella sampling. The Weighted Histogram Average Method (WHAM)\cite{kumar1992}, Umbrella Integration (UI)\cite{kastner2005} and the Multistate Bennett acceptance ratio (MBAR)\cite{kim2012} are all used. We will briefly outline the mathematical formulation and estimation of errors of the WHAM method as it is more popular\cite{zhu2012}. Our explanation follows \cite{kastner2011} which covers the topic in more detail.
 
-The method begins by dividing the sampled region into a set of $K$ histograms with $K$ being greater than the number of biased windows $N$.  The whole PMF can be estimated (poorly) from the $j$th biased histogram using 
+The method begins by dividing the sampled region into a set of $K$ histograms with $K$ being greater than the number of biased windows $N$.  The whole PMF can be estimated (poorly) from the $i$th biased window using 
 
 \begin{equation}
-	P_u^j(\xi) = P_b^j(\xi) \exp(\beta U_{b}^j (\xi)) \langle \exp(-\beta U_b^j (\xi))\rangle.
+	P_u^i(\xi) = P_b^i(\xi) \exp(\beta U_{b}^i (\xi)) \langle \exp(-\beta U_b^i (\xi))\rangle.
 \end{equation}
 
-Where the $P(\xi)$  functions represent the probability density function calculated from samples collected at point $\xi$. The samples collected in each of these regions gives us an estimate of the PMF in the region according to equation \ref{unbiased_estimate}. These estimates are combined in a weighted sum using
+Where the $P(\xi)$  functions represent the probability density function calculated from samples collected at point $\xi$. The samples collected in each histogram then gives us an estimate of the PMF according to equation \ref{unbiased_estimate}. The estimates from each histogram are then are combined in a weighted sum using
 
 \begin{equation}
-	P_u(\xi) = \sum_j^K p_j(\xi)P_u^j (\xi)
+	P_u(\xi) = \sum_i^K p_i(\xi)P_u^i (\xi)
 \end{equation}
 
-where the weights, $\sum_j^K p_j = 1$ are chosen such that the statistical error is minimised. This means an optimisation problem for the variance of the unbiased estimates
+where the weights, $\sum_{i=0}^N p_j = 1$ are chosen such that the statistical error is minimised accross the domain of $\xi$\cite{chen2011}. This means we solve an optimisation problem for the variance of the unbiased estimates
 
 \begin{equation}
 	\frac{\partial\text{Var} (P_u)}{\partial p_i}
 \end{equation}
 
-is solved to give the best estimates of the PMF given the data that has been collected. Essentially we are vertically shifting the estimates obtained in each of the histograms in order to minimise the error across the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distributions of $P^b_i (\xi)$ and constructing PMFs from these independent samples. For example, we might have collected 100ns of data in each window, but we could construct 5 independent estimates for the PMF using 20ns blocks of trajectories. The Standard Error of the Mean (SEM) can then be used to estimate the error across the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM from these independent samples has fallen below 1kcal/mol across the PMF. Note that there may be sources of systematic error not captured by this criterion. 
+to give the best estimate of the PMF given the samples that have been in each $P_b^i(\xi)$. 
+
+Essentially we are vertically shifting the estimates obtained in each of the histograms in order to minimise the error across the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distributions of $P^b_i (\xi)$ and constructing PMFs from these independent samples. For example, we might have collected 100ns of data in each window, but we could construct 5 independent estimates for the PMF using 20ns blocks of trajectories. The Standard Error of the Mean (SEM) can then be used to estimate the error across the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM from these independent samples has fallen below 1kcal/mol across the PMF. Note that there may be sources of systematic error not captured by this criterion. 
 
 \subsection{Metadynamics}
 \begin{figure}
@@ -550,7 +552,7 @@ is solved to give the best estimates of the PMF given the data that has been col
 	\label{METAD_demonstration}
 \end{figure}
 
-Metadynamics has proven to be a popular . The method relies on a time dependent form of $U_{bias}$ given by 
+Metadynamics has proven to be a popular method in many applications of computational science, not just in molecular dynamics of biological systems \cite{}\cite{}\cite{}. The method relies on a time dependent form of $U_{bias}$ given by 
 
 \begin{equation}
 	U_{bias} (\xi,t) = \sum\limits_{\substack{t' = \tau_D, 2 \tau_D,... \\ t' < t}}  B \ \exp\bigg( - \frac{(\xi(t) - \xi(t') )^2}{2\sigma^2 }\bigg)
