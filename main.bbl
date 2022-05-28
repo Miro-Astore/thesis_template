@@ -4370,6 +4370,207 @@
     \field{year}{2020}
   \endentry
 
+  \entry{cheng2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CT}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GWA}{%
+         family={Goddard},
+         familyi={G\bibinitperiod},
+         given={William\bibnamedelima A.},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AQ}{%
+         family={An},
+         familyi={A\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=XH}{%
+         family={Xiao},
+         familyi={X\bibinitperiod},
+         given={Hai},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Merinov},
+         familyi={M\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Morozov},
+         familyi={M\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{The Royal Society of Chemistry}}%
+    }
+    \strng{namehash}{CT+1}
+    \strng{fullhash}{CTGWAAQXHMBMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The sluggish oxygen reduction reaction (ORR) is a major impediment to the
+  economic use of hydrogen fuel cells in transportation. In this work, we
+  report the full ORR reaction mechanism for Pt(111) based on Quantum Mechanics
+  (QM) based Reactive metadynamics (R{$\mu$}D) simulations including explicit
+  water to obtain free energy reaction barriers at 298 K. The lowest energy
+  pathway for 4 e- water formation is: first, *OOH formation; second, *OOH
+  reduction to H2O and O*; third, O* hydrolysis using surface water to produce
+  two *OH and finally *OH hydration to water. Water formation is the
+  rate-determining step (RDS) for potentials above 0.87 Volt, the normal
+  operating range. Considering the Eley\textendash Rideal (ER) mechanism
+  involving protons from the solvent, we predict the free energy reaction
+  barrier at 298 K for water formation to be 0.25 eV for an external potential
+  below U = 0.87 V and 0.41 eV at U = 1.23 V, in good agreement with
+  experimental values of 0.22 eV and 0.44 eV, respectively. With the mechanism
+  now fully understood, we can use this now validated methodology to examine
+  the changes upon alloying and surface modifications to increase the rate by
+  reducing the barrier for water formation.%
+    }
+    \verb{doi}
+    \verb 10.1039/C6CP08055C
+    \endverb
+    \field{issn}{1463-9084}
+    \field{number}{4}
+    \field{pages}{2666\bibrangedash 2673}
+    \field{title}{Mechanism and Kinetics of the Electrocatalytic Reaction
+  Responsible for the High Cost of Hydrogen Fuel Cells}
+    \field{volume}{19}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/QYBP9XDR/Cheng et al. - 2017 - Mechanism an
+    \verb d kinetics of the electrocatalytic rea.pdf;/home/miro/Zotero/storage/
+    \verb VL9FCFGE/Cheng et al. - 2017 - Mechanism and kinetics of the electroc
+    \verb atalytic rea.pdf;/home/miro/Zotero/storage/X74UFKTH/c6cp08055c.html
+    \endverb
+    \field{journaltitle}{Physical Chemistry Chemical Physics}
+    \field{month}{01}
+    \field{year}{2017}
+  \endentry
+
+  \entry{giberti2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GF}{%
+         family={Giberti},
+         familyi={G\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Salvalaglio},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{International Union of Crystallography}}%
+    }
+    \strng{namehash}{GF+1}
+    \strng{fullhash}{GFSMPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Crystallization processes are characterized by activated events and long
+  timescales. These characteristics prevent standard molecular dynamics
+  techniques from being efficiently used for the direct investigation of
+  processes such as nucleation. This short review provides an overview on the
+  use of metadynamics, a state-of-the-art enhanced sampling technique, for the
+  simulation of phase transitions involving the production of a crystalline
+  solid. In particular the principles of metadynamics are outlined, several
+  order parameters are described that have been or could be used in conjunction
+  with metadynamics to sample nucleation events and then an overview is given
+  of recent metadynamics results in the field of crystal nucleation.%
+    }
+    \verb{doi}
+    \verb 10.1107/S2052252514027626
+    \endverb
+    \field{issn}{2052-2525}
+    \field{number}{2}
+    \field{pages}{256\bibrangedash 266}
+    \field{title}{Metadynamics Studies of Crystal Nucleation}
+    \field{volume}{2}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/N7BFUW9C/Giberti et al. - 2015 - Metadynami
+    \verb cs studies of crystal nucleation.pdf;/home/miro/Zotero/storage/DWJQMP
+    \verb 2A/jt5007.html
+    \endverb
+    \field{journaltitle}{IUCrJ}
+    \field{month}{03}
+    \field{year}{2015}
+  \endentry
+
+  \entry{bussi2020a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BG}{%
+         family={Bussi},
+         familyi={B\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Laio},
+         familyi={L\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGLA1}
+    \strng{fullhash}{BGLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Metadynamics is an atomistic simulation technique that allows, within the
+  same framework{$\mkern1mu$}, acceleration of rare events and estimation of
+  the free energy of complex molecular systems. It is based on iteratively
+  `filling' the potential energy of the system by a sum of Gaussians centred
+  along the trajectory followed by a suitably chosen set of collective
+  variables (CVs), thereby forcing the system to migrate from one minimum to
+  the next. The power of metadynamics is demonstrated by the large number of
+  extensions and variants that have been developed. The first scope of this
+  Technical Review is to present a critical comparison of these variants,
+  discussing their advantages and disadvantages. The effectiveness of
+  metadynamics, and that of the numerous alternative methods, is strongly
+  influenced by the choice of the CVs. If an important variable is neglected,
+  the resulting estimate of the free energy is unreliable, and predicted
+  transition mechanisms may be qualitatively wrong. The second scope of this
+  Technical Review is to discuss how the CVs should be selected, how to verify
+  whether the chosen CVs are sufficient or redundant, and how to iteratively
+  improve the CVs using machine learning approaches.%
+    }
+    \verb{doi}
+    \verb 10.1038/s42254-020-0153-0
+    \endverb
+    \field{issn}{2522-5820}
+    \field{number}{4}
+    \field{pages}{200\bibrangedash 212}
+    \field{title}{Using Metadynamics to Explore Complex Free-Energy Landscapes}
+    \field{volume}{2}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/FN3RBUE9/Bussi and Laio - 2020 - Using meta
+    \verb dynamics to explore complex free-energy .pdf
+    \endverb
+    \field{journaltitle}{Nature Reviews Physics}
+    \field{month}{04}
+    \field{year}{2020}
+  \endentry
+
   \entry{sun2016}{article}{}
     \name{author}{5}{}{%
       {{hash=SR}{%
@@ -5156,6 +5357,1674 @@
     \field{journaltitle}{The Journal of Physical Chemistry B}
     \field{month}{08}
     \field{year}{2016}
+  \endentry
+
+  \entry{van1995python}{book}{}
+    \name{author}{2}{}{%
+      {{hash=VRG}{%
+         family={Van\bibnamedelima Rossum},
+         familyi={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Guido},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DJFL}{%
+         family={Drake\bibnamedelima Jr},
+         familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Fred\bibnamedelima L},
+         giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Centrum voor Wiskunde en Informatica Amsterdam}}%
+    }
+    \strng{namehash}{VRGDJFL1}
+    \strng{fullhash}{VRGDJFL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Python Reference Manual}
+    \field{year}{1995}
+  \endentry
+
+  \entry{humphrey1996}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HW}{%
+         family={Humphrey},
+         familyi={H\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dalke},
+         familyi={D\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schulten},
+         familyi={S\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HW+1}
+    \strng{fullhash}{HWDASK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1016/0263-7855(96)00018-5
+    \endverb
+    \field{issn}{02637855}
+    \field{number}{1}
+    \field{pages}{33\bibrangedash 38}
+    \field{shorttitle}{{{VMD}}}
+    \field{title}{{{VMD}}: {{Visual}} Molecular Dynamics}
+    \field{volume}{14}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Molecular Graphics}
+    \field{month}{02}
+    \field{year}{1996}
+  \endentry
+
+  \entry{mallajosyula2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MSS}{%
+         family={Mallajosyula},
+         familyi={M\bibinitperiod},
+         given={Sairam\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jo},
+         familyi={J\bibinitperiod},
+         given={Sunhwan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=IW}{%
+         family={Im},
+         familyi={I\bibinitperiod},
+         given={Wonpil},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={Mackerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{NIH Public Access}}%
+    }
+    \keyw{Carbohydrates,Empirical force field,Molecular dynamics
+  simulations,N-glycosylation,O-glycosylation}
+    \strng{namehash}{MSS+1}
+    \strng{fullhash}{MSSJSIWMAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Molecular dynamics simulations are an effective tool to study the
+  structure, dynamics, and thermodynamics of carbohydrates and proteins.
+  However, the simulations of heterogeneous glycoprotein systems have been
+  limited due to the lack of appropriate molecular force field parameters
+  describing the linkage between the carbohydrate and the protein regions as
+  well as the tools to prepare these systems for modeling studies. In this work
+  we outline the recent developments in the CHARMM carbohydrate force field to
+  treat glycoproteins and describe in detail the step-by-step procedures
+  involved in building glycoprotein geometries using CHARMM-GUI Glycan Reader.%
+    }
+    \verb{doi}
+    \verb 10.1007/978-1-4939-2343-4_25
+    \endverb
+    \field{issn}{10643745}
+    \field{pages}{407\bibrangedash 429}
+    \field{title}{Molecular Dynamics Simulations of Glycoproteins Using
+  {{CHARMM}}}
+    \field{volume}{1273}
+    \field{journaltitle}{Methods in Molecular Biology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{michaud-agrawal2011}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MN}{%
+         family={{Michaud-Agrawal}},
+         familyi={M\bibinitperiod},
+         given={Naveen},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DEJ}{%
+         family={Denning},
+         familyi={D\bibinitperiod},
+         given={Elizabeth\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WTB}{%
+         family={Woolf},
+         familyi={W\bibinitperiod},
+         given={Thomas\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BO}{%
+         family={Beckstein},
+         familyi={B\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \keyw{analysis,membrane systems,molecular dynamics
+  simulations,object-oriented design,proteins,Python programming
+  language,software}
+    \strng{namehash}{MN+1}
+    \strng{fullhash}{MNDEJWTBBO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1002/jcc.21787
+    \endverb
+    \field{issn}{01928651}
+    \field{number}{10}
+    \field{pages}{2319\bibrangedash 2327}
+    \field{shorttitle}{{{MDAnalysis}}}
+    \field{title}{{{MDAnalysis}}: {{A}} Toolkit for the Analysis of Molecular
+  Dynamics Simulations}
+    \field{volume}{32}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{07}
+    \field{year}{2011}
+  \endentry
+
+  \entry{gowers2016}{inproceedings}{}
+    \name{author}{11}{}{%
+      {{hash=GRJ}{%
+         family={Gowers},
+         familyi={G\bibinitperiod},
+         given={Richard\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Linke},
+         familyi={L\bibinitperiod},
+         given={Max},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Barnoud},
+         familyi={B\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RTJE}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={Tyler J.\bibnamedelima E.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  E\bibinitperiod},
+      }}%
+      {{hash=MMN}{%
+         family={Melo},
+         familyi={M\bibinitperiod},
+         given={Manuel\bibnamedelima N.},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=SSL}{%
+         family={Seyler},
+         familyi={S\bibinitperiod},
+         given={Sean\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Doma{\'n}ski},
+         familyi={D\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DDL}{%
+         family={Dotson},
+         familyi={D\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Buchoux},
+         familyi={B\bibinitperiod},
+         given={S{\'e}bastien},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KIM}{%
+         family={Kenney},
+         familyi={K\bibinitperiod},
+         given={Ian\bibnamedelima M.},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BO}{%
+         family={Beckstein},
+         familyi={B\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=BS}{%
+         family={Benthall},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rostrup},
+         familyi={R\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRJ+1}
+    \strng{fullhash}{GRJLMBJRTJEMMNSSLDJDDLBSKIMBO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 15th {{Python}} in {{Science
+  Conference}}}
+    \field{pages}{98\bibrangedash 105}
+    \field{title}{{{MDAnalysis}}: {{A Python Package}} for the {{Rapid
+  Analysis}} of {{Molecular Dynamics Simulations}}}
+    \field{year}{2016}
+  \endentry
+
+  \entry{sali1993}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Sali},
+         familyi={S\bibinitperiod},
+         given={Andrej},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BTL}{%
+         family={Blundell},
+         familyi={B\bibinitperiod},
+         given={Tom\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{Amino Acid Sequence,Animals,Comparative protein
+  modelling,Enzymes,Humans,Kallikreins,Mathematics,Models;
+  Theoretical,Molecular Sequence Data,Optimization,Pancreatic
+  Elastase,Probability,Protein Conformation,Protein
+  database,Proteins,Restraints,Sequence Homology; Amino Acid,Serine
+  proteinases,Software,Thermodynamics,Tissue Kallikreins,Trypsin}
+    \strng{namehash}{SABTL1}
+    \strng{fullhash}{SABTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1006/jmbi.1993.1626
+    \endverb
+    \field{issn}{00222836}
+    \field{number}{3}
+    \field{pages}{779\bibrangedash 815}
+    \field{title}{Comparative {{Protein Modelling}} by {{Satisfaction}} of
+  {{Spatial Restraints}}}
+    \field{volume}{234}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Molecular Biology}
+    \field{month}{12}
+    \field{year}{1993}
+  \endentry
+
+  \entry{shen2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SMy}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Min-yi},
+         giveni={M\bibinithyphendelim y\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sali},
+         familyi={S\bibinitperiod},
+         given={Andrej},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{John Wiley \& Sons, Ltd}}%
+    }
+    \keyw{comparative or homology modeling,model assessment,protein structure
+  prediction,statistical potential}
+    \strng{namehash}{SMySA1}
+    \strng{fullhash}{SMySA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Protein structures in the Protein Data Bank provide a wealth of data about
+  the interactions that determine the native states of proteins. Using the
+  probability theory, we derive an atomic distance-dependent statistical
+  potential from a sample of native structures that does not depend on any
+  adjustable parameters (Discrete Optimized Protein Energy, or DOPE). DOPE is
+  based on an improved reference state that corresponds to noninteracting atoms
+  in a homogeneous sphere with the radius dependent on a sample native
+  structure; it thus accounts for the finite and spherical shape of the native
+  structures. The DOPE potential was extracted from a nonredundant set of 1472
+  crystallographic structures. We tested DOPE and five other scoring functions
+  by the detection of the native state among six multiple target decoy sets,
+  the correlation between the score and model error, and the identification of
+  the most accurate non-native structure in the decoy set. For all decoy sets,
+  DOPE is the best performing function in terms of all criteria, except for a
+  tie in one criterion for one decoy set. To facilitate its use in various
+  applications, such as model assessment, loop modeling, and fitting into
+  cryo-electron microscopy mass density maps combined with comparative protein
+  structure modeling, DOPE was incorporated into the modeling package
+  MODELLER-8.%
+    }
+    \verb{doi}
+    \verb 10.1110/ps.062416606
+    \endverb
+    \field{issn}{09618368}
+    \field{number}{11}
+    \field{pages}{2507\bibrangedash 2524}
+    \field{title}{Statistical Potential for Assessment and Prediction of
+  Protein Structures}
+    \field{volume}{15}
+    \field{journaltitle}{Protein Science}
+    \field{month}{11}
+    \field{year}{2006}
+  \endentry
+
+  \entry{webb2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WB}{%
+         family={Webb},
+         familyi={W\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sali},
+         familyi={S\bibinitperiod},
+         given={Andrej},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBSA1}
+    \strng{fullhash}{WBSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/cpbi.3
+    \endverb
+    \field{issn}{1934-3396, 1934-340X}
+    \field{number}{1}
+    \field{title}{Comparative {{Protein Structure Modeling Using MODELLER}}}
+    \field{volume}{54}
+    \field{langid}{english}
+    \field{journaltitle}{Current Protocols in Bioinformatics}
+    \field{month}{06}
+    \field{year}{2016}
+  \endentry
+
+  \entry{phillips2005}{article}{}
+    \name{author}{10}{}{%
+      {{hash=PJC}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={James\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Braun},
+         familyi={B\bibinitperiod},
+         given={Rosemary},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gumbart},
+         familyi={G\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Tajkhorshid},
+         familyi={T\bibinitperiod},
+         given={Emad},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Villa},
+         familyi={V\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Chipot},
+         familyi={C\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SRD}{%
+         family={Skeel},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kal{\'e}},
+         familyi={K\bibinitperiod},
+         given={Laxmikant},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schulten},
+         familyi={S\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJC+1}
+    \strng{fullhash}{PJCBRWWGJTEVECCSRDKLSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/jcc.20289
+    \endverb
+    \field{issn}{0192-8651, 1096-987X}
+    \field{number}{16}
+    \field{pages}{1781\bibrangedash 1802}
+    \field{title}{Scalable Molecular Dynamics with {{NAMD}}}
+    \field{volume}{26}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{12}
+    \field{year}{2005}
+  \endentry
+
+  \entry{tribello2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=TGA}{%
+         family={Tribello},
+         familyi={T\bibinitperiod},
+         given={Gareth\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bonomi},
+         familyi={B\bibinitperiod},
+         given={Massimiliano},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Branduardi},
+         familyi={B\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Camilloni},
+         familyi={C\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bussi},
+         familyi={B\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{North-Holland}}%
+    }
+    \keyw{Dimensional reduction,Enhanced sampling,Free energy,Molecular
+  dynamics}
+    \strng{namehash}{TGA+1}
+    \strng{fullhash}{TGABMBDCCBG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Enhancing sampling and analyzing simulations are central issues in
+  molecular simulation. Recently, we introduced PLUMED, an open-source plug-in
+  that provides some of the most popular molecular dynamics (MD) codes with
+  implementations of a variety of different enhanced sampling algorithms and
+  collective variables (CVs). The rapid changes in this field, in particular
+  new directions in enhanced sampling and dimensionality reduction together
+  with new hardware, require a code that is more flexible and more efficient.
+  We therefore present PLUMED 2 here - a complete rewrite of the code in an
+  object-oriented programming language (C++). This new version introduces
+  greater flexibility and greater modularity, which both extends its core
+  capabilities and makes it far easier to add new methods and CVs. It also has
+  a simpler interface with the MD engines and provides a single software
+  library containing both tools and core facilities. Ultimately, the new code
+  better serves the ever-growing community of users and contributors in coping
+  with the new challenges arising in the field. \textcopyright{} 2013 Elsevier
+  B.V. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cpc.2013.09.018
+    \endverb
+    \field{issn}{00104655}
+    \field{number}{2}
+    \field{pages}{604\bibrangedash 613}
+    \field{title}{{{PLUMED}} 2: {{New}} Feathers for an Old Bird}
+    \field{volume}{185}
+    \field{journaltitle}{Computer Physics Communications}
+    \field{annotation}{%
+    \_eprint: 1310.0980%
+    }
+    \field{month}{02}
+    \field{year}{2014}
+  \endentry
+
+  \entry{theuniprotconsortium2021}{article}{}
+    \name{author}{134}{}{%
+      {{hash=T}{%
+         family={{The UniProt Consortium}},
+         familyi={T\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bateman},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MMJ}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Maria-Jesus},
+         giveni={M\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Orchard},
+         familyi={O\bibinitperiod},
+         given={Sandra},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Magrane},
+         familyi={M\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Agivetova},
+         familyi={A\bibinitperiod},
+         given={Rahat},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={Shadab},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Alpi},
+         familyi={A\bibinitperiod},
+         given={Emanuele},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BEH}{%
+         family={{Bowler-Barnett}},
+         familyi={B\bibinitperiod},
+         given={Emily\bibnamedelima H},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Britto},
+         familyi={B\bibinitperiod},
+         given={Ramona},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Bursteinas},
+         familyi={B\bibinitperiod},
+         given={Borisas},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={{Bye-A-Jee}},
+         familyi={B\bibinitperiod},
+         given={Hema},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Coetzee},
+         familyi={C\bibinitperiod},
+         given={Ray},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cukura},
+         familyi={C\bibinitperiod},
+         given={Austra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DSA}{%
+         family={Da\bibnamedelima Silva},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Denny},
+         familyi={D\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DT}{%
+         family={Dogan},
+         familyi={D\bibinitperiod},
+         given={Tunca},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Ebenezer},
+         familyi={E\bibinitperiod},
+         given={ThankGod},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CLG}{%
+         family={Castro},
+         familyi={C\bibinitperiod},
+         given={Leyla\bibnamedelima Garcia},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Garmiri},
+         familyi={G\bibinitperiod},
+         given={Penelope},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Georghiou},
+         familyi={G\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gonzales},
+         familyi={G\bibinitperiod},
+         given={Leonardo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HE}{%
+         family={{Hatton-Ellis}},
+         familyi={H\bibinitperiod},
+         given={Emma},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hussein},
+         familyi={H\bibinitperiod},
+         given={Abdulrahman},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Ignatchenko},
+         familyi={I\bibinitperiod},
+         given={Alexandr},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IG}{%
+         family={Insana},
+         familyi={I\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=IR}{%
+         family={Ishtiaq},
+         familyi={I\bibinitperiod},
+         given={Rizwan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Jokinen},
+         familyi={J\bibinitperiod},
+         given={Petteri},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JV}{%
+         family={Joshi},
+         familyi={J\bibinitperiod},
+         given={Vishal},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=JD}{%
+         family={Jyothi},
+         familyi={J\bibinitperiod},
+         given={Dushyanth},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lock},
+         familyi={L\bibinitperiod},
+         given={Antonia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lopez},
+         familyi={L\bibinitperiod},
+         given={Rodrigo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Luciani},
+         familyi={L\bibinitperiod},
+         given={Aurelien},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Luo},
+         familyi={L\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Lussi},
+         familyi={L\bibinitperiod},
+         given={Yvonne},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={MacDougall},
+         familyi={M\bibinitperiod},
+         given={Alistair},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Madeira},
+         familyi={M\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mahmoudy},
+         familyi={M\bibinitperiod},
+         given={Mahdi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Menchi},
+         familyi={M\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mishra},
+         familyi={M\bibinitperiod},
+         given={Alok},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Moulang},
+         familyi={M\bibinitperiod},
+         given={Katie},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nightingale},
+         familyi={N\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OCS}{%
+         family={Oliveira},
+         familyi={O\bibinitperiod},
+         given={Carla\bibnamedelima Susana},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pundir},
+         familyi={P\bibinitperiod},
+         given={Sangya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=QG}{%
+         family={Qi},
+         familyi={Q\bibinitperiod},
+         given={Guoying},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Raj},
+         familyi={R\bibinitperiod},
+         given={Shriya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rice},
+         familyi={R\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LMR}{%
+         family={Lopez},
+         familyi={L\bibinitperiod},
+         given={Milagros\bibnamedelima Rodriguez},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Saidi},
+         familyi={S\bibinitperiod},
+         given={Rabie},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sampson},
+         familyi={S\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sawford},
+         familyi={S\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Speretta},
+         familyi={S\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Turner},
+         familyi={T\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tyagi},
+         familyi={T\bibinitperiod},
+         given={Nidhi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Vasudev},
+         familyi={V\bibinitperiod},
+         given={Preethi},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Volynkin},
+         familyi={V\bibinitperiod},
+         given={Vladimir},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Warner},
+         familyi={W\bibinitperiod},
+         given={Kate},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Watkins},
+         familyi={W\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zaru},
+         familyi={Z\bibinitperiod},
+         given={Rossana},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zellner},
+         familyi={Z\bibinitperiod},
+         given={Hermann},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bridge},
+         familyi={B\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Poux},
+         familyi={P\bibinitperiod},
+         given={Sylvain},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Redaschi},
+         familyi={R\bibinitperiod},
+         given={Nicole},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AL}{%
+         family={Aimo},
+         familyi={A\bibinitperiod},
+         given={Lucila},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={{Argoud-Puy}},
+         familyi={A\bibinitperiod},
+         given={Ghislaine},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Auchincloss},
+         familyi={A\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Axelsen},
+         familyi={A\bibinitperiod},
+         given={Kristian},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bansal},
+         familyi={B\bibinitperiod},
+         given={Parit},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Baratin},
+         familyi={B\bibinitperiod},
+         given={Delphine},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Blatter},
+         familyi={B\bibinitperiod},
+         given={Marie-Claude},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bolleman},
+         familyi={B\bibinitperiod},
+         given={Jerven},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Boutet},
+         familyi={B\bibinitperiod},
+         given={Emmanuel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Breuza},
+         familyi={B\bibinitperiod},
+         given={Lionel},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={{Casals-Casas}},
+         familyi={C\bibinitperiod},
+         given={Cristina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=dE}{%
+         family={{de Castro}},
+         familyi={d\bibinitperiod},
+         given={Edouard},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=EKC}{%
+         family={Echioukh},
+         familyi={E\bibinitperiod},
+         given={Kamal\bibnamedelima Chikh},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Coudert},
+         familyi={C\bibinitperiod},
+         given={Elisabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cuche},
+         familyi={C\bibinitperiod},
+         given={Beatrice},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Doche},
+         familyi={D\bibinitperiod},
+         given={Mikael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Dornevil},
+         familyi={D\bibinitperiod},
+         given={Dolnide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Estreicher},
+         familyi={E\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FML}{%
+         family={Famiglietti},
+         familyi={F\bibinitperiod},
+         given={Maria\bibnamedelima Livia},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feuermann},
+         familyi={F\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gasteiger},
+         familyi={G\bibinitperiod},
+         given={Elisabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gehant},
+         familyi={G\bibinitperiod},
+         given={Sebastien},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GV}{%
+         family={Gerritsen},
+         familyi={G\bibinitperiod},
+         given={Vivienne},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gos},
+         familyi={G\bibinitperiod},
+         given={Arnaud},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={{Gruaz-Gumowski}},
+         familyi={G\bibinitperiod},
+         given={Nadine},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HU}{%
+         family={Hinz},
+         familyi={H\bibinitperiod},
+         given={Ursula},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hulo},
+         familyi={H\bibinitperiod},
+         given={Chantal},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={{Hyka-Nouspikel}},
+         familyi={H\bibinitperiod},
+         given={Nevila},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=JF}{%
+         family={Jungo},
+         familyi={J\bibinitperiod},
+         given={Florence},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Keller},
+         familyi={K\bibinitperiod},
+         given={Guillaume},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kerhornou},
+         familyi={K\bibinitperiod},
+         given={Arnaud},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LV}{%
+         family={Lara},
+         familyi={L\bibinitperiod},
+         given={Vicente},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LMP}{%
+         family={Le\bibnamedelima Mercier},
+         familyi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lieberherr},
+         familyi={L\bibinitperiod},
+         given={Damien},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lombardot},
+         familyi={L\bibinitperiod},
+         given={Thierry},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MX}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Masson},
+         familyi={M\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Morgat},
+         familyi={M\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NTB}{%
+         family={Neto},
+         familyi={N\bibinitperiod},
+         given={Teresa\bibnamedelima Batista},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Paesano},
+         familyi={P\bibinitperiod},
+         given={Salvo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Pedruzzi},
+         familyi={P\bibinitperiod},
+         given={Ivo},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pilbout},
+         familyi={P\bibinitperiod},
+         given={Sandrine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pourcel},
+         familyi={P\bibinitperiod},
+         given={Lucille},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pozzato},
+         familyi={P\bibinitperiod},
+         given={Monica},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pruess},
+         familyi={P\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rivoire},
+         familyi={R\bibinitperiod},
+         given={Catherine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sigrist},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sonesson},
+         familyi={S\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Stutz},
+         familyi={S\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sundaram},
+         familyi={S\bibinitperiod},
+         given={Shyamala},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tognolli},
+         familyi={T\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={Verbregue},
+         familyi={V\bibinitperiod},
+         given={Laure},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WCH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Cathy\bibnamedelima H},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=ACN}{%
+         family={Arighi},
+         familyi={A\bibinitperiod},
+         given={Cecilia\bibnamedelima N},
+         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=AL}{%
+         family={Arminski},
+         familyi={A\bibinitperiod},
+         given={Leslie},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Chuming},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yongxing},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GJS}{%
+         family={Garavelli},
+         familyi={G\bibinitperiod},
+         given={John\bibnamedelima S},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Hongzhan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Laiho},
+         familyi={L\bibinitperiod},
+         given={Kati},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={McGarvey},
+         familyi={M\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NDA}{%
+         family={Natale},
+         familyi={N\bibinitperiod},
+         given={Darren\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VCR}{%
+         family={Vinayaka},
+         familyi={V\bibinitperiod},
+         given={C\bibnamedelima R},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Qinghua},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yuqi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YLS}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Lai-Su},
+         giveni={L\bibinithyphendelim S\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Ruch},
+         familyi={R\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Teodoro},
+         familyi={T\bibinitperiod},
+         given={Douglas},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T+1}
+  \strng{fullhash}{TBAMMJOSMMARASAEBEHBRBBBHCRCADSADPDTETFJCLGGPGGGLHEHAIAIGIRJPJVJDLALRLALJLYMAMFMMMMMAMKNAOCSPSQGRSRDLMRSRSJSTSETETNVPVVWKWXZRZHBAPSRNALAGAAAKBPBDBMCBJBEBLCCdEEKCCECBDMDDEAFMLFMGEGSGVGAGNHUHCHNJFKGKALVLMPLDLTMXMPMANTBPSPIPSPLPMPMRCSCSKSASSTMVLWCHACNALCCCYGJSHHLKMPNDARKVCRWQWYYLSZJRPTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Abstract The aim of the UniProt Knowledgebase is to provide users with a
+  comprehensive, high-quality and freely accessible set of protein sequences
+  annotated with functional information. In this article, we describe
+  significant updates that we have made over the last two years to the
+  resource. The number of sequences in UniProtKB has risen to approximately 190
+  million, despite continued work to reduce sequence redundancy at the proteome
+  level. We have adopted new methods of assessing proteome completeness and
+  quality. We continue to extract detailed annotations from the literature to
+  add to reviewed entries and supplement these in unreviewed entries with
+  annotations provided by automated systems such as the newly implemented
+  Association-Rule-Based Annotator (ARBA). We have developed a credit-based
+  publication submission interface to allow the community to contribute
+  publications and annotations to UniProt entries. We describe how UniProtKB
+  responded to the COVID-19 pandemic through expert curation of relevant
+  entries that were rapidly made available to the research community through a
+  dedicated portal. UniProt resources are available under a CC-BY (4.0) license
+  via the web at https://www.uniprot.org/.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gkaa1100
+    \endverb
+    \field{issn}{0305-1048, 1362-4962}
+    \field{number}{D1}
+    \field{pages}{D480\bibrangedash D489}
+    \field{shorttitle}{{{UniProt}}}
+    \field{title}{{{UniProt}}: The Universal Protein Knowledgebase in 2021}
+    \field{volume}{49}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/X3EIF83Q/The UniProt Consortium et al. - 20
+    \verb 21 - UniProt the universal protein knowledgebase in 20.pdf
+    \endverb
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
+
+  \entry{jumper2021}{article}{}
+    \name{author}{34}{}{%
+      {{hash=JJ}{%
+         family={Jumper},
+         familyi={J\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pritzel},
+         familyi={P\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Figurnov},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Ronneberger},
+         familyi={R\bibinitperiod},
+         given={Olaf},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tunyasuvunakool},
+         familyi={T\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={Russ},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={{\v Z}{\'i}dek},
+         familyi={{\v Z}\bibinitperiod},
+         given={Augustin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Potapenko},
+         familyi={P\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bridgland},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Clemens},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KSAA}{%
+         family={Kohl},
+         familyi={K\bibinitperiod},
+         given={Simon A.\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=BAJ}{%
+         family={Ballard},
+         familyi={B\bibinitperiod},
+         given={Andrew\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cowie},
+         familyi={C\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={{Romera-Paredes}},
+         familyi={R\bibinitperiod},
+         given={Bernardino},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nikolov},
+         familyi={N\bibinitperiod},
+         given={Stanislav},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={Rishub},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Adler},
+         familyi={A\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Back},
+         familyi={B\bibinitperiod},
+         given={Trevor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Petersen},
+         familyi={P\bibinitperiod},
+         given={Stig},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Reiman},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={Ellen},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zielinski},
+         familyi={Z\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Steinegger},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pacholska},
+         familyi={P\bibinitperiod},
+         given={Michalina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Berghammer},
+         familyi={B\bibinitperiod},
+         given={Tamas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bodenstein},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=SAW}{%
+         family={Senior},
+         familyi={S\bibinitperiod},
+         given={Andrew\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kohli},
+         familyi={K\bibinitperiod},
+         given={Pushmeet},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hassabis},
+         familyi={H\bibinitperiod},
+         given={Demis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Computational biophysics,Machine learning,Protein structure
+  predictions,Structural biology}
+    \strng{namehash}{JJ+1}
+  \strng{fullhash}{JJERPAGTFMROTKBRZAPABAMCKSAABAJCARBNSJRAJBTPSRDCEZMSMPMBTBSSDVOSAWKKKPHD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Proteins are essential to life, and understanding their structure can
+  facilitate a mechanistic understanding of their function. Through an enormous
+  experimental effort1\textendash 4, the structures of around 100,000 unique
+  proteins have been determined5, but this represents a small fraction of the
+  billions of known protein sequences6,7. Structural coverage is bottlenecked
+  by the months to years of painstaking effort required to determine a single
+  protein structure. Accurate computational approaches are needed to address
+  this gap and to enable large-scale structural bioinformatics. Predicting the
+  three-dimensional structure that a protein will adopt based solely on its
+  amino acid sequence\textemdash the structure prediction component of the
+  `protein folding problem'8\textemdash has been an important open research
+  problem for more than 50~years9. Despite recent progress10\textendash 14,
+  existing methods fall far~short of atomic accuracy, especially when no
+  homologous structure is available. Here we provide the first computational
+  method that can regularly predict protein structures with atomic accuracy
+  even in cases in which no similar structure is known. We validated an
+  entirely redesigned version of our neural network-based model, AlphaFold, in
+  the challenging 14th Critical Assessment of protein Structure Prediction
+  (CASP14)15, demonstrating accuracy competitive with experimental structures
+  in a majority of cases and greatly outperforming other methods. Underpinning
+  the latest version of AlphaFold is a novel machine learning approach that
+  incorporates physical and biological knowledge about protein structure,
+  leveraging multi-sequence alignments, into the design of the deep learning
+  algorithm.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41586-021-03819-2
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{7873}
+    \field{pages}{583\bibrangedash 589}
+    \field{title}{Highly Accurate Protein Structure Prediction with
+  {{AlphaFold}}}
+    \field{volume}{596}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/559RCDZ7/Jumper et al. - 2021 - Highly accu
+    \verb rate protein structure prediction with .pdf
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{08}
+    \field{year}{2021}
   \endentry
 
   \entry{boucher2007}{misc}{}
