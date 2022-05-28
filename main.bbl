@@ -5042,6 +5042,145 @@
     \field{year}{2021}
   \endentry
 
+  \entry{mamatkulov2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MS}{%
+         family={Mamatkulov},
+         familyi={M\bibinitperiod},
+         given={Shavkat},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fyta},
+         familyi={F\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NRR}{%
+         family={Netz},
+         familyi={N\bibinitperiod},
+         given={Roland\bibnamedelima R.},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{MS+1}
+    \strng{fullhash}{MSFMNRR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We develop force field parameters for the divalent cations Mg2+, Ca2+,
+  Sr2+, and Ba2+ for molecular dynamics simulations with the simple point
+  charge-extended (SPC/E) water model. We follow an approach introduced
+  recently for the optimization of monovalent ions, based on the simultaneous
+  optimization of single-ion and ion-pair properties. We consider the solvation
+  free energy of the divalent cations as the relevant single-ion property. As a
+  probe for ion-pair properties we compute the activity derivatives of the salt
+  solutions. The optimization of the ionic force fields is done in two
+  consecutive steps. First, the cation solvation free energy is determined as a
+  function of the Lennard-Jones (LJ) parameters. The peak in the ion-water
+  radial distribution function (RDF) is used as a check of the structural
+  properties of the ions. Second, the activity derivatives of the electrolytes
+  MgY2, CaY2, BaY2, SrY2 are determined through Kirkwood-Buff solution theory,
+  where Y = Cl-, Br-, I-. The activity derivatives are determined for the
+  restricted set of LJ parameters which reproduce the exact solvation free
+  energy of the divalent cations. The optimal ion parameters are those that
+  match the experimental activity data and therefore simultaneously reproduce
+  single-ion and ion-pair thermodynamic properties. For Ca2+, Ba2+, and Sr2+
+  such LJ parameters exist. On the other hand, for Mg2+ the experimental
+  activity derivatives can only be reproduced if we generalize the combination
+  rule for the anion-cation LJ interaction and rescale the effective
+  cation-anion LJ radius, which is a modification that leaves the cation
+  solvation free energy invariant. The divalent cation force fields are
+  transferable within acceptable accuracy, meaning the same cation force field
+  is valid for all halide ions Cl-, Br-, I- tested in this study.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.4772808
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{2}
+    \field{pages}{024505}
+    \field{title}{Force Fields for Divalent Cations Based on Single-Ion and
+  Ion-Pair Properties}
+    \field{volume}{138}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/4LAPQNU3/Mamatkulov et al. - 2013 - Force f
+    \verb ields for divalent cations based on single-.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{01}
+    \field{year}{2013}
+  \endentry
+
+  \entry{bergonzo2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BC}{%
+         family={Bergonzo},
+         familyi={B\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HKB}{%
+         family={Hall},
+         familyi={H\bibinitperiod},
+         given={Kathleen\bibnamedelima B.},
+         giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CTE}{%
+         family={Cheatham},
+         familyi={C\bibinitperiod},
+         given={Thomas\bibnamedelima E.},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{BC+2}
+    \strng{fullhash}{BCHKBCTE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We compare the performance of five magnesium (Mg2+) ion models in
+  simulations of an RNA stem loop which has an experimentally determined
+  divalent ion dependent conformational shift. We show that despite their
+  differences in parametrization and resulting van der Waals terms, including
+  differences in the functional form of the nonbonded potential, when the RNA
+  adopts its folded conformation, all models behave similarly across ten
+  independent microsecond length simulations with each ion model. However, when
+  the entire structure ensemble is accounted for, chelation of Mg2+ to RNA is
+  seen in three of the five models, most egregiously and likely artifactual in
+  simulations using a 12-6-4 model for the Lennard-Jones potential. Despite the
+  simple nature of the fixed point-charge and van der Waals sphere models
+  employed, and with the exception of the likely oversampled directed chelation
+  of the 12-6-4 potential models, RNA\textendash Mg2+ interactions via first
+  shell water molecules are surprisingly well described by modern parameters,
+  allowing us to observe the spontaneous conformational shift from Mg2+ free
+  RNA to Mg2+ associated RNA structure in unrestrained molecular dynamics
+  simulations.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.6b00173
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{7}
+    \field{pages}{3382\bibrangedash 3389}
+    \field{title}{Divalent {{Ion Dependent Conformational Changes}} in an {{RNA
+  Stem-Loop Observed}} by {{Molecular Dynamics}}}
+    \field{volume}{12}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/XBI42SXQ/Bergonzo et al. - 2016 - Divalent
+    \verb Ion Dependent Conformational Changes in a.pdf;/home/miro/Zotero/stora
+    \verb ge/T3IVFIRC/acs.jctc.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{07}
+    \field{year}{2016}
+  \endentry
+
   \entry{hollingsworth2018}{article}{}
     \name{author}{2}{}{%
       {{hash=HSA}{%
@@ -5091,6 +5230,367 @@
     \field{journaltitle}{Neuron}
     \field{month}{09}
     \field{year}{2018}
+  \endentry
+
+  \entry{melo2018}{article}{}
+    \name{author}{13}{}{%
+      {{hash=MMCR}{%
+         family={Melo},
+         familyi={M\bibinitperiod},
+         given={Marcelo C.\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+      }}%
+      {{hash=BRC}{%
+         family={Bernardi},
+         familyi={B\bibinitperiod},
+         given={Rafael\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Rudack},
+         familyi={R\bibinitperiod},
+         given={Till},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Scheurer},
+         familyi={S\bibinitperiod},
+         given={Maximilian},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Riplinger},
+         familyi={R\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PJC}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={James\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MJDC}{%
+         family={Maia},
+         familyi={M\bibinitperiod},
+         given={Julio D.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=RGB}{%
+         family={Rocha},
+         familyi={R\bibinitperiod},
+         given={Gerd\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=RJV}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Jo{\~a}o\bibnamedelima V.},
+         giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=SJE}{%
+         family={Stone},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={Neese},
+         familyi={N\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schulten},
+         familyi={S\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={{Luthey-Schulten}},
+         familyi={L\bibinitperiod},
+         given={Zaida},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMCR+1}
+    \strng{fullhash}{MMCRBRCRTSMRCPJCMJDCRGBRJVSJENFSKLZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Applications of hybrid QM/MM methods range from reactions in active sites
+  of small enzymes to multiple sites in large bioenergetic complexes. By
+  combining the widely used molecular dynamics and visualization programs
+  NAMD/VMD with the quantum chemistry packages ORCA, and MOPAC, we provide an
+  integrated, comprehensive, customizable, and easy-to-use suite. Through the
+  QwikMD interface, setup, execution, visualization, and analysis are
+  streamlined for all levels of expertise.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.4638
+    \endverb
+    \field{issn}{1548-7091}
+    \field{number}{5}
+    \field{pages}{351\bibrangedash 354}
+    \field{shorttitle}{{{NAMD}} Goes Quantum}
+    \field{title}{{{NAMD}} Goes Quantum: {{An}} Integrative Suite for
+  {{QM}}/{{MM}} Simulations}
+    \field{volume}{15}
+    \field{journaltitle}{Nature methods}
+    \field{month}{05}
+    \field{year}{2018}
+  \endentry
+
+  \entry{nerenberg2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NPS}{%
+         family={Nerenberg},
+         familyi={N\bibinitperiod},
+         given={Paul\bibnamedelima S},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={{Head-Gordon}},
+         familyi={H\bibinitperiod},
+         given={Teresa},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NPSHT1}
+    \strng{fullhash}{NPSHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Biomolecular force field development has been instrumental in improving the
+  predictive power of molecular simulations over the past four decades. More
+  recently, the era of large quantitative experimental datasets and ubiquitous
+  high performance computing power has enabled rapid progress in the field. In
+  this review we summarize recent developments in all-atom protein, nucleic
+  acid, and small molecule force fields, paying specific attention to
+  developments in parameterization methods and improvements in the
+  representations of nonbonded interactions that are critical for solving the
+  challenging biophysical problems of the present. We also sketch out new
+  avenues for force field development and grand challenge applications for the
+  near future.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.sbi.2018.02.002
+    \endverb
+    \field{issn}{0959-440X}
+    \field{pages}{129\bibrangedash 138}
+    \field{series}{Theory and Simulation \textbullet{} {{Macromolecular}}
+  Assemblies}
+    \field{title}{New Developments in Force Fields for Biomolecular
+  Simulations}
+    \field{volume}{49}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/EC4NS3HR/Nerenberg and Head-Gordon - 2018 -
+    \verb  New developments in force fields for biomolecular .pdf;/home/miro/Zo
+    \verb tero/storage/URVDMMRG/S0959440X17301604.html
+    \endverb
+    \field{journaltitle}{Current Opinion in Structural Biology}
+    \field{month}{04}
+    \field{year}{2018}
+  \endentry
+
+  \entry{lin2020}{article}{}
+    \name{author}{7}{}{%
+      {{hash=LFY}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Fang-Yu},
+         giveni={F\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Pandey},
+         familyi={P\bibinitperiod},
+         given={Poonam},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rupakheti},
+         familyi={R\bibinitperiod},
+         given={Chetan},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Beno{\^i}t},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LFY+1}
+    \strng{fullhash}{LFYHJPPRCLJRBMAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The CHARMM Drude-2013 polarizable force field (FF) was developed to include
+  the explicit treatment of induced electronic polarizability, resulting in a
+  more accurate description of the electrostatic interactions in molecular
+  dynamics (MD) simulations. While the Drude-2013 protein FF has shown success
+  in improving the folding properties of {$\alpha$}-helical peptides and to
+  reproduce experimental observables in simulations up to 1 {$\mu$}s, some
+  limitations were noted regarding the stability of {$\beta$}-sheet structures
+  in simulations longer than 100 ns as well as larger deviations from crystal
+  structures in simulations of a number of proteins compared to the additive
+  CHARMM36 protein FF. The origin of the instability has been identified and
+  appears to be primarily due to overestimated atomic polarizabilities and
+  induced dipole-dipole interactions on the C{$\beta$}, C{$\gamma$} and
+  C{$\delta$} side chain atoms. To resolve this and other issues, a number of
+  aspects of the model were re-visited, resulting in Drude-2019 protein FF.
+  Backbone parameters were optimized targeting the conformational properties of
+  the (Ala)5 peptide in solution along with gas phase properties of the alanine
+  dipeptide. Dipeptides that contain N-acetylated and N'-methylamidated
+  termini, excluding Gly, Pro and Ala, were used as models to optimize the
+  atomic polarizabilities and Thole screening factors on selected C{$\beta$},
+  C{$\gamma$} and C{$\delta$} carbons by targeting quantum mechanical (QM)
+  dipole moments and molecular polarizabilities. In addition, to obtain better
+  conformational properties, side chain {$\chi$}1 and {$\chi$}2 dihedral
+  parameters were optimized targeting QM data for the respective side chain
+  dipeptide conformations as well as PDB survey data based on the {$\chi$}1,
+  {$\chi$}2 sampling from Hamiltonian replica-exchange MD simulations of
+  (Ala)4-X-(Ala)4 in solution, where X is the amino acid of interest. Further
+  improvements include optimizing nonbonded interactions between charged
+  residues to reproduce QM interactions energies of the charged-protein model
+  compounds and experimental osmotic pressures. Validation of the optimized
+  Drude protein FF includes MD simulations of a collection of peptides and
+  proteins including {$\beta$}-sheet structures, as well as transmembrane ion
+  channels. Results showed that the updated Drude-2019 protein FF yields
+  smaller overall RMS differences of proteins as compared to the additive
+  CHARMM36m and Drude-2013 FFs as well as similar or improved agreement with
+  experimental NMR properties, allowing for long timescale simulation studies
+  of proteins and more complex biomolecular systems in conjunction with the
+  remainder of the Drude polarizable FF.,%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.0c00057
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{5}
+    \field{pages}{3221\bibrangedash 3239}
+    \field{title}{Further {{Optimization}} and {{Validation}} of the
+  {{Classical Drude Polarizable Protein Force Field}}}
+    \field{volume}{16}
+    \field{journaltitle}{Journal of chemical theory and computation}
+    \field{month}{05}
+    \field{year}{2020}
+  \endentry
+
+  \entry{shi2013a}{article}{}
+    \name{author}{7}{}{%
+      {{hash=SY}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XZ}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Zhen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jiajing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Best},
+         familyi={B\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Chuanjie},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PJW}{%
+         family={Ponder},
+         familyi={P\bibinitperiod},
+         given={Jay\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Pengyu},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SY+2}
+    \strng{fullhash}{SYXZZJBRWCPJWRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Development of the AMOEBA (Atomic Multipole Optimized Energetics for
+  Biomolecular Simulation) force field for proteins is presented. The current
+  version (AMOEBA-2013) utilizes permanent electrostatic multipole moments
+  through the quadrupole at each atom, and explicitly treats polarization
+  effects in various chemical and physical environments. The atomic multipole
+  electrostatic parameters for each amino acid residue type are derived from
+  high-level gas phase quantum mechanical calculations via a consistent and
+  extensible protocol. Molecular polarizability is modeled via a Thole-style
+  damped interactive induction model based upon distributed atomic
+  polarizabilities. Inter- and intramolecular polarization is treated in a
+  consistent fashion via the Thole model. The intramolecular polarization model
+  ensures transferability of electrostatic parameters among different
+  conformations, as demonstrated by the agreement between QM and AMOEBA
+  electrostatic potentials, and dipole moments of dipeptides. The backbone and
+  side chain torsional parameters were determined by comparing to gas-phase QM
+  (RI-TRIM MP2/CBS) conformational energies of dipeptides and to statistical
+  distributions from the Protein Data Bank. Molecular dynamics simulations are
+  reported for short peptides in explicit water to examine their conformational
+  properties in solution. Overall the calculated conformational free energies
+  and J-coupling constants are consistent with PDB statistics and experimental
+  NMR results, respectively. In addition, the experimental crystal structures
+  of a number of proteins are well maintained during molecular dynamics (MD)
+  simulation. While further calculations are necessary to fully validate the
+  force field, initial results suggest the AMOEBA polarizable multipole force
+  field is able to describe the structure and energetics of peptides and
+  proteins, in both gas-phase and solution environments.%
+    }
+    \verb{doi}
+    \verb 10.1021/ct4003702
+    \endverb
+    \field{issn}{1549-9626}
+    \field{number}{9}
+    \field{pages}{4046\bibrangedash 4063}
+    \field{title}{The {{Polarizable Atomic Multipole-based AMOEBA Force Field}}
+  for {{Proteins}}}
+    \field{volume}{9}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/EHDYUHV4/Shi et al. - 2013 - Polarizable At
+    \verb omic Multipole-Based AMOEBA Force Fi.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{year}{2013}
   \endentry
 
   \entry{li2017}{article}{}
@@ -5357,6 +5857,285 @@
     \field{journaltitle}{The Journal of Physical Chemistry B}
     \field{month}{08}
     \field{year}{2016}
+  \endentry
+
+  \entry{noe2001}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{http://docs.markovmodel.org/lecture\_tica.html}
+    \field{title}{Theory}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/Q4WP6KCT/lecture_tica.html
+    \endverb
+  \endentry
+
+  \entry{schultze2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SS}{%
+         family={Schultze},
+         familyi={S\bibinitperiod},
+         given={Steffen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Grubm{\"u}ller},
+         familyi={G\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{SSGH1}
+    \strng{fullhash}{SSGH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Time-lagged independent component analysis (tICA) is a widely used
+  dimension reduction method for the analysis of molecular dynamics (MD)
+  trajectories and has proven particularly useful for the construction of
+  protein dynamics Markov models. It identifies those ``slow'' collective
+  degrees of freedom onto which the projections of a given trajectory show
+  maximal autocorrelation for a given lag time. Here we ask how much
+  information on the actual protein dynamics and, in particular, the free
+  energy landscape that governs these dynamics the tICA-projections of
+  MD-trajectories contain, as opposed to noise due to the inherently stochastic
+  nature of each trajectory. To answer this question, we have analyzed the
+  tICA-projections of high dimensional random walks using a combination of
+  analytical and numerical methods. We find that the projections resemble
+  cosine functions and strongly depend on the lag time, exhibiting strikingly
+  complex behavior. In particular, and contrary to previous studies of
+  principal component projections, the projections change noncontinuously with
+  increasing lag time. The tICA-projections of selected 1 {$\mu$}s protein
+  trajectories and those of random walks are strikingly similar, particularly
+  for larger proteins, suggesting that these trajectories contain only little
+  information on the energy landscape that governs the actual protein dynamics.
+  Further the tICA-projections of random walks show clusters very similar to
+  those observed for the protein trajectories, suggesting that clusters in the
+  tICA-projections of protein trajectories do not necessarily reflect local
+  minima in the free energy landscape. We also conclude that, in addition to
+  the previous finding that certain ensemble properties of nonconverged protein
+  trajectories resemble those of random walks; this is also true for their time
+  correlations.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.1c00273
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{9}
+    \field{pages}{5766\bibrangedash 5776}
+    \field{title}{Time-{{Lagged Independent Component Analysis}} of {{Random
+  Walks}} and {{Protein Dynamics}}}
+    \field{volume}{17}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/9JR8QFQS/Schultze and Grubmüller - 2021 -
+    \verb Time-Lagged Independent Component Analysis of Rand.pdf;/home/miro/Zot
+    \verb ero/storage/EF76SHVK/acs.jctc.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{09}
+    \field{year}{2021}
+  \endentry
+
+  \entry{brotzakis2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BZF}{%
+         family={Brotzakis},
+         familyi={B\bibinitperiod},
+         given={Z.\bibnamedelima Faidon},
+         giveni={Z\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=LV}{%
+         family={Limongelli},
+         familyi={L\bibinitperiod},
+         given={Vittorio},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BZF+1}
+    \strng{fullhash}{BZFLVPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1021/acs.jctc.8b00934
+    \endverb
+    \field{issn}{1549-9618, 1549-9626}
+    \field{number}{1}
+    \field{pages}{743\bibrangedash 750}
+    \field{title}{Accelerating the {{Calculation}} of
+  {{Protein}}\textendash{{Ligand Binding Free Energy}} and {{Residence Times
+  Using Dynamically Optimized Collective Variables}}}
+    \field{volume}{15}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/JH4WTYYV/Brotzakis et al. - 2019 - Accelera
+    \verb ting the Calculation of Protein–Ligand Bin.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
+
+  \entry{ribeiro2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RJML}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Jo{\~a}o Marcelo\bibnamedelima Lamim},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bravo},
+         familyi={B\bibinitperiod},
+         given={Pablo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yihang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tiwary},
+         familyi={T\bibinitperiod},
+         given={Pratyush},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{RJML+1}
+    \strng{fullhash}{RJMLBPWYTP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Here we propose the reweighted autoencoded variational Bayes for enhanced
+  sampling (RAVE) method, a new iterative scheme that uses the deep learning
+  framework of variational autoencoders to enhance sampling in molecular
+  simulations. RAVE involves iterations between molecular simulations and deep
+  learning in order to produce an increasingly accurate probability
+  distribution along a low-dimensional latent space that captures the key
+  features of the molecular simulation trajectory. Using the Kullback-Leibler
+  divergence between this latent space distribution and the distribution of
+  various trial reaction coordinates sampled from the molecular simulation,
+  RAVE determines an optimum, yet nonetheless physically interpretable,
+  reaction coordinate and optimum probability distribution. Both then directly
+  serve as the biasing protocol for a new biased simulation, which is once
+  again fed into the deep learning module with appropriate weights accounting
+  for the bias, the procedure continuing until estimates of desirable
+  thermodynamic observables are converged. Unlike recent methods using deep
+  learning for enhanced sampling purposes, RAVE stands out in that (a) it
+  naturally produces a physically interpretable reaction coordinate, (b) is
+  independent of existing enhanced sampling protocols to enhance the
+  fluctuations along the latent space identified via deep learning, and (c) it
+  provides the ability to easily filter out spurious solutions learned by the
+  deep learning procedure. The usefulness and reliability of RAVE is
+  demonstrated by applying it to model potentials of increasing complexity,
+  including computation of the binding free energy profile for a hydrophobic
+  ligand\textendash substrate system in explicit water with dissociation time
+  of more than 3 min, in computer time at least twenty times less than that
+  needed for umbrella sampling or metadynamics.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.5025487
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{7}
+    \field{pages}{072301}
+    \field{title}{Reweighted Autoencoded Variational {{Bayes}} for Enhanced
+  Sampling ({{RAVE}})}
+    \field{volume}{149}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/A5NFDXCB/Ribeiro et al. - 2018 - Reweighted
+    \verb  autoencoded variational Bayes for enhan.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{08}
+    \field{year}{2018}
+  \endentry
+
+  \entry{frauenfelder2010}{book}{}
+    \name{author}{4}{}{%
+      {{hash=FH}{%
+         family={Frauenfelder},
+         familyi={F\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CSS}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Shirley\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CWS}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Winnie\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=ARH}{%
+         family={Austin},
+         familyi={A\bibinitperiod},
+         given={Robert\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer}}%
+    }
+    \keyw{Biophysics,Molecular biology,Proteins,Structure}
+    \strng{namehash}{FH+1}
+    \strng{fullhash}{FHCSSCWSARH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{isbn}{978-1-4419-1043-1 978-1-4419-1044-8}
+    \field{series}{Biological and Medical Physics, Biomedical Engineering}
+    \field{shorttitle}{The Physics of Proteins}
+    \field{title}{The Physics of Proteins: An Introduction to Biological
+  Physics and Molecular Biophysics}
+    \list{location}{1}{%
+      {{New York}}%
+    }
+    \field{annotation}{%
+    OCLC: ocn646392217%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{phillips2019}{book}{}
+    \name{editor}{1}{}{%
+      {{hash=PR}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{CRC Press}}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{edition}{Second edition, first issued in paperback}
+    \field{isbn}{978-0-8153-4450-6}
+    \field{title}{Physical Biology of the Cell}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Boca Raton London New York}}%
+    }
+    \field{year}{2019}
   \endentry
 
   \entry{van1995python}{book}{}
