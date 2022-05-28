@@ -5842,6 +5842,130 @@
     \field{year}{2005}
   \endentry
 
+  \entry{eastman2017}{article}{}
+    \name{author}{13}{}{%
+      {{hash=EP}{%
+         family={Eastman},
+         familyi={E\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Swails},
+         familyi={S\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJD}{%
+         family={Chodera},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MRT}{%
+         family={McGibbon},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima T.},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Yutong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BKA}{%
+         family={Beauchamp},
+         familyi={B\bibinitperiod},
+         given={Kyle\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WLP}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Lee\bibnamedelima Ping},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SAC}{%
+         family={Simmonett},
+         familyi={S\bibinitperiod},
+         given={Andrew\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HMP}{%
+         family={Harrigan},
+         familyi={H\bibinitperiod},
+         given={Matthew\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SCD}{%
+         family={Stern},
+         familyi={S\bibinitperiod},
+         given={Chaya\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WRP}{%
+         family={Wiewiora},
+         familyi={W\bibinitperiod},
+         given={Rafal\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BBR}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={Bernard\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PVS}{%
+         family={Pande},
+         familyi={P\bibinitperiod},
+         given={Vijay\bibnamedelima S.},
+         giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=GR}{%
+         family={Gentleman},
+         familyi={G\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Public Library of Science}}%
+    }
+    \keyw{Algorithms,Amoebas,Biochemical simulations,Molecular dynamics,Monte
+  Carlo method,Programming languages,Simulation and modeling,Source code}
+    \strng{namehash}{EP+1}
+    \strng{fullhash}{EPSJCJDMRTZYBKAWLPSACHMPSCDWRPBBRPVS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    OpenMM is a molecular dynamics simulation toolkit with a unique focus on
+  extensibility. It allows users to easily add new features, including forces
+  with novel functional forms, new integration algorithms, and new simulation
+  protocols. Those features automatically work on all supported hardware types
+  (including both CPUs and GPUs) and perform well on all of them. In many cases
+  they require minimal coding, just a mathematical description of the desired
+  function. They also require no modification to OpenMM itself and can be
+  distributed independently of OpenMM. This makes it an ideal tool for
+  researchers developing new simulation methods, and also allows those new
+  methods to be immediately available to the larger community.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pcbi.1005659
+    \endverb
+    \field{issn}{15537358}
+    \field{number}{7}
+    \field{pages}{e1005659}
+    \field{title}{{{OpenMM}} 7: {{Rapid}} Development of High Performance
+  Algorithms for Molecular Dynamics}
+    \field{volume}{13}
+    \field{journaltitle}{PLoS Computational Biology}
+    \field{month}{07}
+    \field{year}{2017}
+  \endentry
+
   \entry{tribello2014}{article}{}
     \name{author}{5}{}{%
       {{hash=TGA}{%
@@ -7025,6 +7149,101 @@
     \field{journaltitle}{Nature}
     \field{month}{08}
     \field{year}{2021}
+  \endentry
+
+  \entry{shirts2017}{article}{}
+    \name{author}{8}{}{%
+      {{hash=SMR}{%
+         family={Shirts},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJM}{%
+         family={Swails},
+         familyi={S\bibinitperiod},
+         given={Jason\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yin},
+         familyi={Y\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GMK}{%
+         family={Gilson},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MDL}{%
+         family={Mobley},
+         familyi={M\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CDA}{%
+         family={Case},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZED}{%
+         family={Zhong},
+         familyi={Z\bibinitperiod},
+         given={Ellen\bibnamedelima D.},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \keyw{Molecular dynamics,Molecular simulation,SAMPL5,Simulation validation}
+    \strng{namehash}{SMR+1}
+    \strng{fullhash}{SMRKCSJMYJGMKMDLCDAZED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We describe our efforts to prepare common starting structures and models
+  for the SAMPL5 blind prediction challenge. We generated the starting input
+  files and single configuration potential energies for the host-guest in the
+  SAMPL5 blind prediction challenge for the GROMACS, AMBER, LAMMPS, DESMOND and
+  CHARMM molecular simulation programs. All conversions were fully automated
+  from the originally prepared AMBER input files using a combination of the
+  ParmEd and InterMol conversion programs. We find that the energy calculations
+  for all molecular dynamics engines for this molecular set agree to better
+  than 0.1~\% relative absolute energy for all energy components, and in most
+  cases an order of magnitude better, when reasonable choices are made for
+  different cutoff parameters. However, there are some surprising sources of
+  statistically significant differences. Most importantly, different choices of
+  Coulomb's constant between programs are one of the largest sources of
+  discrepancies in energies. We discuss the measures required to get good
+  agreement in the energies for equivalent starting configurations between the
+  simulation programs, and the energy differences that occur when simulations
+  are run with program-specific default simulation parameter values. Finally,
+  we discuss what was required to automate this conversion and comparison.%
+    }
+    \verb{doi}
+    \verb 10.1007/s10822-016-9977-1
+    \endverb
+    \field{issn}{1573-4951}
+    \field{number}{1}
+    \field{pages}{147\bibrangedash 161}
+    \field{title}{Lessons Learned from Comparing Molecular Dynamics Engines on
+  the {{SAMPL5}} Dataset}
+    \field{volume}{31}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/UVSRQTVV/Shirts et al. - 2017 - Lessons lea
+    \verb rned from comparing molecular dynamics .pdf
+    \endverb
+    \field{journaltitle}{Journal of Computer-Aided Molecular Design}
+    \field{month}{01}
+    \field{year}{2017}
   \endentry
 
   \entry{boucher2007}{misc}{}
