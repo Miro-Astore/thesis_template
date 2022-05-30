@@ -5834,7 +5834,7 @@
   issn = {1549-9596},
   doi = {10.1021/acs.jcim.0c00279},
   abstract = {An ad-hoc, yet widely adopted approach to investigate complex molecular objects in motion using importance-sampling schemes involves two steps, namely (i) mapping the multidimensional free-energy landscape that characterizes the movements in the molecular object at hand and (ii) finding the most probable transition path connecting basins of the free-energy hyperplane. To achieve this goal, we turn to an importance-sampling algorithm, coined well-tempered metadynamics-extended adaptive biasing force (WTM-eABF), aimed at mapping rugged free-energy landscapes, combined with a path-searching algorithm, which we call multidimensional lowest energy (MULE), to identify the underlying minimum free-energy pathway in the collective-variable space of interest. First, the well-tempered feature of the importance-sampling scheme confers to the latter an asymptotic convergence, while the overall algorithm inherits the advantage of high sampling efficiency of its predecessor, meta-eABF, making its performance less sensitive to user-defined parameters. Second, the Dijkstra algorithm implemented in MULE is able to identify with utmost efficiency a pathway that satisfies minimum free energy of activation among all the possible routes in the multidimensional free-energy landscape. Numerical simulations of three molecular assemblies indicate that association of WTM-eABF and MULE constitutes a reliable, efficient and robust approach for exploring coupled movements in complex molecular objects. On account of its ease of use and intrinsic performance, we expect WTM-eABF and MULE to become a tool of choice for both experts and nonexperts interested in the thermodynamics and the kinetics of processes relevant to chemistry and biology.},
-  file = {/home/miro/Zotero/storage/E23U6SJX/Fu et al. - 2020 - Finding an Optimal Pathway on a Multidimensional F.pdf}
+  file = {/home/miro/Zotero/storage/E23U6SJX/Fu et al. - 2020 - Finding an Optimal Pathway on a Multidimensional F.pdf;/home/miro/Zotero/storage/94LHAJ78/acs.jcim.html}
 }
 
 @article{fuller2004,
@@ -8179,6 +8179,22 @@
   abstract = {The detailed organization of cellular membranes remains rather elusive. Based on large-scale molecular dynamics simulations, we provide a high-resolution view of the lipid organization of a plasma membrane at an unprecedented level of complexity. Our plasma membrane model consists of 63 different lipid species, combining 14 types of headgroups and 11 types of tails asymmetrically distributed across the two leaflets, closely mimicking an idealized mammalian plasma membrane. We observe an enrichment of cholesterol in the outer leaflet and a general non-ideal lateral mixing of the different lipid species. Transient domains with liquid-ordered character form and disappear on the microsecond time scale. These domains are coupled across the two membrane leaflets. In the outer leaflet, distinct nanodomains consisting of gangliosides are observed. Phosphoinositides show preferential clustering in the inner leaflet. Our data provide a key view on the lateral organization of lipids in one of lifes fundamental structures, the cell membrane.}
 }
 
+@article{invernizzi2020,
+  title = {Rethinking {{Metadynamics}}: {{From Bias Potentials}} to {{Probability Distributions}}},
+  shorttitle = {Rethinking {{Metadynamics}}},
+  author = {Invernizzi, Michele and Parrinello, Michele},
+  year = {2020},
+  month = apr,
+  journal = {The Journal of Physical Chemistry Letters},
+  volume = {11},
+  number = {7},
+  pages = {2731--2736},
+  publisher = {{American Chemical Society}},
+  doi = {10.1021/acs.jpclett.0c00497},
+  abstract = {Metadynamics is an enhanced sampling method of great popularity, based on the on-the-fly construction of a bias potential that is a function of a selected number of collective variables. We propose here a change in perspective that shifts the focus from the bias to the probability distribution reconstruction while retaining some of the key characteristics of metadynamics, such as flexible on-the-fly adjustments to the free energy estimate. The result is an enhanced sampling method that presents a drastic improvement in convergence speed, especially when dealing with suboptimal and/or multidimensional sets of collective variables. The method is especially robust and easy to use and in fact requires only a few simple parameters to be set, and it has a straightforward reweighting scheme to recover the statistics of the unbiased ensemble. Furthermore, it gives more control of the desired exploration of the phase space since the deposited bias is not allowed to grow indefinitely and it does not push the simulation to uninteresting high free energy regions. We demonstrate the performance of the method in a number of representative examples.},
+  file = {/home/miro/Zotero/storage/2IS9VMEK/Invernizzi and Parrinello - 2020 - Rethinking Metadynamics From Bias Potentials to P.pdf}
+}
+
 @article{invernizzi2022,
   title = {Exploration vs {{Convergence Speed}} in {{Adaptive-Bias Enhanced Sampling}}},
   author = {Invernizzi, Michele and Parrinello, Michele},
@@ -8190,6 +8206,20 @@
   doi = {10.1021/acs.jctc.2c00152},
   abstract = {In adaptive-bias enhanced sampling methods, a bias potential is added to the system to drive transitions between metastable states. The bias potential is a function of a few collective variables and is gradually modified according to the underlying free energy surface. We show that when the collective variables are suboptimal, there is an exploration\textendash convergence tradeoff, and one must choose between a quickly converging bias that will lead to fewer transitions or a slower to converge bias that can explore the phase space more efficiently but might require a much longer time to produce an accurate free energy estimate. The recently proposed on-the-fly probability enhanced sampling (OPES) method focuses on fast convergence, but there are cases where fast exploration is preferred instead. For this reason, we introduce a new variant of the OPES method that focuses on quickly escaping metastable states at the expense of convergence speed. We illustrate the benefits of this approach in prototypical systems and show that it outperforms the popular metadynamics method.},
   file = {/home/miro/Zotero/storage/XXRXWNVN/Invernizzi and Parrinello - 2022 - Exploration vs Convergence Speed in Adaptive-Bias .pdf;/home/miro/Zotero/storage/EWVTTLTA/acs.jctc.html}
+}
+
+@article{invernizzi2022a,
+  title = {Exploration vs {{Convergence Speed}} in {{Adaptive-Bias Enhanced Sampling}}},
+  author = {Invernizzi, Michele and Parrinello, Michele},
+  year = {2022},
+  month = may,
+  journal = {Journal of Chemical Theory and Computation},
+  pages = {acs.jctc.2c00152},
+  issn = {1549-9618, 1549-9626},
+  doi = {10.1021/acs.jctc.2c00152},
+  abstract = {In adaptive-bias enhanced sampling methods, a bias potential is added to the system to drive transitions between metastable states. The bias potential is a function of a few collective variables and is gradually modified according to the underlying free energy surface. We show that when the collective variables are suboptimal, there is an exploration-convergence tradeoff, and one must choose between a quickly converging bias that will lead to fewer transitions or a slower to converge bias that can explore the phase space more efficiently but might require a much longer time to produce an accurate free energy estimate. The recently proposed on-the-fly probability enhanced sampling (OPES) method focuses on fast convergence, but there are cases where fast exploration is preferred instead. For this reason, we introduce a new variant of the OPES method that focuses on quickly escaping metastable states at the expense of convergence speed. We illustrate the benefits of this approach in prototypical systems and show that it outperforms the popular metadynamics method.},
+  langid = {english},
+  file = {/home/miro/Zotero/storage/QRGJWS2T/Invernizzi and Parrinello - 2022 - Exploration vs Convergence Speed in Adaptive-Bias .pdf}
 }
 
 @book{israelachvili2011,
