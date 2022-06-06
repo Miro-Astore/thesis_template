@@ -52,6 +52,30 @@
     \field{year}{1994}
   \endentry
 
+  \entry{carroll2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CSM}{%
+         family={Carroll},
+         familyi={C\bibinitperiod},
+         given={Sean\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSM1}
+    \strng{fullhash}{CSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9-10}
+    \field{pages}{16\bibrangedash 31}
+    \field{title}{Consciousness and the {{Laws}} of {{Physics}}}
+    \field{volume}{28}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/JHFKRJU5/CARCAT-33.html
+    \endverb
+    \field{journaltitle}{Journal of Consciousness Studies}
+    \field{year}{2021}
+  \endentry
+
   \entry{hofstadter2007}{book}{}
     \name{author}{1}{}{%
       {{hash=HDR}{%
@@ -130,6 +154,123 @@
     \field{journaltitle}{The Journal of Physiology}
     \field{month}{08}
     \field{year}{1952}
+  \endentry
+
+  \entry{santos2017}{article}{}
+    \name{author}{11}{}{%
+      {{hash=SR}{%
+         family={Santos},
+         familyi={S\bibinitperiod},
+         given={Rita},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=UO}{%
+         family={Ursu},
+         familyi={U\bibinitperiod},
+         given={Oleg},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gaulton},
+         familyi={G\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BAP}{%
+         family={Bento},
+         familyi={B\bibinitperiod},
+         given={A.\bibnamedelima Patr{\'i}cia},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=DRS}{%
+         family={Donadi},
+         familyi={D\bibinitperiod},
+         given={Ramesh\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BCG}{%
+         family={Bologa},
+         familyi={B\bibinitperiod},
+         given={Cristian\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Karlsson},
+         familyi={K\bibinitperiod},
+         given={Anneli},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={{Al-Lazikani}},
+         familyi={A\bibinitperiod},
+         given={Bissan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hersey},
+         familyi={H\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OTI}{%
+         family={Oprea},
+         familyi={O\bibinitperiod},
+         given={Tudor\bibnamedelima I.},
+         giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=OJP}{%
+         family={Overington},
+         familyi={O\bibinitperiod},
+         given={John\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{Databases; Pharmaceutical,Drug Approval,Drug Delivery Systems,Drug
+  Discovery,Drug Prescriptions,Genetic Variation,Genome;
+  Human,Humans,Pharmacogenetics,United States,United States Food and Drug
+  Administration}
+    \strng{namehash}{SR+1}
+    \strng{fullhash}{SRUOGABAPDRSBCGKAABHAOTIOJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The success of mechanism-based drug discovery depends on the definition of
+  the drug target. This definition becomes even more important as we try to
+  link drug response to genetic variation, understand stratified clinical
+  efficacy and safety, rationalize the differences between drugs in the same
+  therapeutic class and predict drug utility in patient subgroups. However,
+  drug targets are often poorly defined in the literature, both for launched
+  drugs and for potential therapeutic agents in discovery and development.
+  Here, we present an updated comprehensive map of molecular targets of
+  approved drugs. We curate a total of 893 human and pathogen-derived
+  biomolecules through which 1,578 US FDA-approved drugs act. These
+  biomolecules include 667 human-genome-derived proteins targeted by drugs for
+  human disease. Analysis of these drug targets indicates the continued
+  dominance of privileged target families across disease areas, but also the
+  growth of novel first-in-class mechanisms, particularly in oncology. We
+  explore the relationships between bioactivity class and clinical success, as
+  well as the presence of orthologues between human and animal models and
+  between pathogen and human genomes. Through the collaboration of three
+  independent teams, we highlight some of the ongoing challenges in accurately
+  defining the targets of molecular therapeutics and present conventions for
+  deconvoluting the complexities of molecular pharmacology and drug efficacy.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrd.2016.230
+    \endverb
+    \field{issn}{1474-1784}
+    \field{number}{1}
+    \field{pages}{19\bibrangedash 34}
+    \field{title}{A Comprehensive Map of Molecular Drug Targets}
+    \field{volume}{16}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/236ZTTWL/Santos et al. - 2017 - A comprehen
+    \verb sive map of molecular drug targets.pdf
+    \endverb
+    \field{journaltitle}{Nature Reviews. Drug Discovery}
+    \field{month}{01}
+    \field{year}{2017}
   \endentry
 
   \entry{braun2019}{article}{}
@@ -4074,7 +4215,7 @@
          giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{KS+1}
+    \strng{namehash}{KS+2}
     \strng{fullhash}{KSRJMBDSRHKPA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -4607,7 +4748,7 @@
     \list{publisher}{1}{%
       {{American Chemical Society}}%
     }
-    \strng{namehash}{SR+1}
+    \strng{namehash}{SR+2}
     \strng{fullhash}{SRDJFTJSRJPVGA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -5785,6 +5926,365 @@
     \field{journaltitle}{Journal of Chemical Theory and Computation}
     \field{month}{09}
     \field{year}{2013}
+  \endentry
+
+  \entry{souza2021}{article}{}
+    \name{author}{26}{}{%
+      {{hash=SPCT}{%
+         family={Souza},
+         familyi={S\bibinitperiod},
+         given={Paulo C.\bibnamedelima T.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Alessandri},
+         familyi={A\bibinitperiod},
+         given={Riccardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Barnoud},
+         familyi={B\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thallmair},
+         familyi={T\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FI}{%
+         family={Faustino},
+         familyi={F\bibinitperiod},
+         given={Ignacio},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Gr{\"u}newald},
+         familyi={G\bibinitperiod},
+         given={Fabian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Patmanidis},
+         familyi={P\bibinitperiod},
+         given={Ilias},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Abdizadeh},
+         familyi={A\bibinitperiod},
+         given={Haleh},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BBMH}{%
+         family={Bruininks},
+         familyi={B\bibinitperiod},
+         given={Bart M.\bibnamedelima H.},
+         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+      {{hash=WTA}{%
+         family={Wassenaar},
+         familyi={W\bibinitperiod},
+         given={Tsjerk\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KPC}{%
+         family={Kroon},
+         familyi={K\bibinitperiod},
+         given={Peter\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Melcr},
+         familyi={M\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Nieto},
+         familyi={N\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Corradi},
+         familyi={C\bibinitperiod},
+         given={Valentina},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KHM}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Hanif\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Doma{\'n}ski},
+         familyi={D\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Javanainen},
+         familyi={J\bibinitperiod},
+         given={Matti},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={{Martinez-Seara}},
+         familyi={M\bibinitperiod},
+         given={Hector},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Reuter},
+         familyi={R\bibinitperiod},
+         given={Nathalie},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BRB}{%
+         family={Best},
+         familyi={B\bibinitperiod},
+         given={Robert\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vattulainen},
+         familyi={V\bibinitperiod},
+         given={Ilpo},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Monticelli},
+         familyi={M\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PX}{%
+         family={Periole},
+         familyi={P\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=TDP}{%
+         family={Tieleman},
+         familyi={T\bibinitperiod},
+         given={D.\bibnamedelima Peter},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=dAH}{%
+         family={{de Vries}},
+         familyi={d\bibinitperiod},
+         given={Alex\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MSJ}{%
+         family={Marrink},
+         familyi={M\bibinitperiod},
+         given={Siewert\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Computational biology and bioinformatics,Computational
+  biophysics,Computational models}
+    \strng{namehash}{SPCT+1}
+  \strng{fullhash}{SPCTARBJTSFIGFPIAHBBMHWTAKPCMJNVCVKHMDJJMMHRNBRBVIMLPXTDPdAHMSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The coarse-grained Martini force field is widely used in biomolecular
+  simulations. Here we present the refined model, Martini 3
+  (http://cgmartini.nl), with an improved interaction balance, new bead types
+  and expanded ability to include specific interactions representing, for
+  example, hydrogen bonding and electronic polarizability. The updated model
+  allows more accurate predictions of molecular packing and interactions in
+  general, which is exemplified with a vast and diverse set of applications,
+  ranging from oil/water partitioning and miscibility data to complex molecular
+  systems, involving protein\textendash protein and protein\textendash lipid
+  interactions and material science applications as ionic liquids and
+  aedamers.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41592-021-01098-3
+    \endverb
+    \field{issn}{1548-7105}
+    \field{number}{4}
+    \field{pages}{382\bibrangedash 388}
+    \field{shorttitle}{Martini 3}
+    \field{title}{Martini 3: A General Purpose Force Field for Coarse-Grained
+  Molecular Dynamics}
+    \field{volume}{18}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/CNBFFJU7/Souza et al. - 2021 - Martini 3 a
+    \verb general purpose force field for coars.pdf
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{month}{04}
+    \field{year}{2021}
+  \endentry
+
+  \entry{takada2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=TS}{%
+         family={Takada},
+         familyi={T\bibinitperiod},
+         given={Shoji},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kanada},
+         familyi={K\bibinitperiod},
+         given={Ryo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Cheng},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Terakawa},
+         familyi={T\bibinitperiod},
+         given={Tsuyoshi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wenfei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kenzaki},
+         familyi={K\bibinitperiod},
+         given={Hiroo},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{DNA,Molecular Dynamics Simulation,Proteins}
+    \strng{namehash}{TS+1}
+    \strng{fullhash}{TSKRTCTTLWKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Due to hierarchic nature of biomolecular systems, their computational
+  modeling calls for multiscale approaches, in which coarse-grained (CG)
+  simulations are used to address long-time dynamics of large systems. Here, we
+  review recent developments and applications of CG modeling methods, focusing
+  on our methods primarily for proteins, DNA, and their complexes. These
+  methods have been implemented in the CG biomolecular simulator, CafeMol. Our
+  CG model has resolution such that {$\sim$}10 non-hydrogen atoms are grouped
+  into one CG particle on average. For proteins, each amino acid is represented
+  by one CG particle. For DNA, one nucleotide is simplified by three CG
+  particles, representing sugar, phosphate, and base. The protein modeling is
+  based on the idea that proteins have a globally funnel-like energy landscape,
+  which is encoded in the structure-based potential energy function. We first
+  describe two representative minimal models of proteins, called the elastic
+  network model and the classic G{$\overline o$} model. We then present a more
+  elaborate protein model, which extends the minimal model to incorporate
+  sequence and context dependent local flexibility and nonlocal contacts. For
+  DNA, we describe a model developed by de Pablo's group that was tuned to well
+  reproduce sequence-dependent structural and thermodynamic experimental data
+  for single- and double-stranded DNAs. Protein-DNA interactions are modeled
+  either by the structure-based term for specific cases or by electrostatic and
+  excluded volume terms for nonspecific cases. We also discuss the time scale
+  mapping in CG molecular dynamics simulations. While the apparent single time
+  step of our CGMD is about 10 times larger than that in the fully atomistic
+  molecular dynamics for small-scale dynamics, large-scale motions can be
+  further accelerated by two-orders of magnitude with the use of CG model and a
+  low friction constant in Langevin dynamics. Next, we present four examples of
+  applications. First, the classic G{$\overline o$} model was used to emulate
+  one ATP cycle of a molecular motor, kinesin. Second, nonspecific protein-DNA
+  binding was studied by a combination of elaborate protein and DNA models.
+  Third, a transcription factor, p53, that contains highly fluctuating regions
+  was simulated on two perpendicularly arranged DNA segments, addressing
+  intersegmental transfer of p53. Fourth, we simulated structural dynamics of
+  dinucleosomes connected by a linker DNA finding distinct types of
+  internucleosome docking and salt-concentration-dependent compaction. Finally,
+  we discuss many of limitations in the current approaches and future
+  directions. Especially, more accurate electrostatic treatment and a
+  phospholipid model that matches our CG resolutions are of immediate
+  importance.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.accounts.5b00338
+    \endverb
+    \field{issn}{1520-4898}
+    \field{number}{12}
+    \field{pages}{3026\bibrangedash 3035}
+    \field{title}{Modeling {{Structural Dynamics}} of {{Biomolecular
+  Complexes}} by {{Coarse-Grained Molecular Simulations}}}
+    \field{volume}{48}
+    \field{langid}{english}
+    \field{journaltitle}{Accounts of Chemical Research}
+    \field{month}{12}
+    \field{year}{2015}
+  \endentry
+
+  \entry{kmiecik2016}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KS}{%
+         family={Kmiecik},
+         familyi={K\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gront},
+         familyi={G\bibinitperiod},
+         given={Dominik},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kolinski},
+         familyi={K\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wieteska},
+         familyi={W\bibinitperiod},
+         given={Lukasz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DAE}{%
+         family={Dawid},
+         familyi={D\bibinitperiod},
+         given={Aleksandra\bibnamedelima Elzbieta},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kolinski},
+         familyi={K\bibinitperiod},
+         given={Andrzej},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KS+1}
+    \strng{fullhash}{KSGDKMWLDAEKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1021/acs.chemrev.6b00163
+    \endverb
+    \field{issn}{0009-2665, 1520-6890}
+    \field{number}{14}
+    \field{pages}{7898\bibrangedash 7936}
+    \field{title}{Coarse-{{Grained Protein Models}} and {{Their Applications}}}
+    \field{volume}{116}
+    \field{langid}{english}
+    \field{journaltitle}{Chemical Reviews}
+    \field{month}{07}
+    \field{year}{2016}
   \endentry
 
   \entry{lindorff-larsen2016}{article}{}

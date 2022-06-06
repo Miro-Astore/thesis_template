@@ -1,11 +1,19 @@
 %=======================================================================================%
+% the main points of this introduction are 
+% outline the complexity of biological systems for physicists
+% 	> even though our theoretical models should preidct everything on the energy and length scales of biology we can't because of their heterogeneity.
+%   > Give examples of the heterogenaity 
+% Give some points on the history of molecular biophysics  
+%   >  Hodgkin-Huxley Models
+%   > Gramicidin 
+% Point out how Cystic Fibrosis is an expression of this progression, going from genotype to phenotype using an ion channel to teach us biophysics. 
 \pagenumbering{arabic}
 \chapter{Introduction}
 \setcounter{page}{1}
 \label{chap:intro}
 \chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes \cite{frauenfelder1994} } {}
 
-\section{Physics in a test tube}
+\section{The Physics Inside your Cells}
 \chapquote{}{}
 
 \vskip 0.5cm
@@ -64,21 +72,21 @@ After this things start to run away from me with my handful of GPUs and limited 
 %Biological strange loops would not seem to be as self similar as the clean nice logics in the strange loop of the Godelian knot. Why is this?
 
 
-\section{Ion Channels: Natures laboratories to Teach Us Biophysics}
+\section{Using Ion Channels as Natural Laboratories to Learn Biophysics}
 The physiological importane of ion channels became clear after the experiments of Hodkin and Huxley. These mathematicians took nerves from fished giant squid and measured the current running through the nerve in response to electrical stimulation. What they found was intruiging. Current would only flow when the input signal was of a sufficient voltage. The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant electrochemical gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics. The following set coupled ordinary differential equations were discovered by testing functions which fit the measurements taken from the squid axon.   
 
 \begin{equation}
 \begin{aligned}
-	I = C_m \frac{dV}{dt} &+ \bar{g}_K n^4 (V - V_K) + \bar{g}_{Na} m^3 h (V - V_{Na} ) + \bar{g}_l (V-V_l) ,  \\
+	I = C_m \frac{dV}{dt} &+ \bar{g}_K n^4 (V - V_K) + \bar{g}_{Na} m^3 h (V - V_{Na} ) + \bar{g}_l (V-V_l) ,  \\ \\
 	\frac{dn}{dt} &= \alpha_n(V)  (1-n) - \beta_n(V)  n, \\
 	\frac{dm}{dt} &= \alpha_m(V)  (1-m) - \beta_m(V)  m, \\ 
 	\frac{dh}{dt} &= \alpha_h(V)  (1-h) - \beta_h(V)  h  
 \end{aligned}
 \end{equation}
 
-The $\alpha$ and $\beta$ parameters are the proportion of the sodium and potassium channel populations which are activated, respecitively.  This example shows how basic theoretical tools can be used to predict and discover physical phenemon in biological systems. The Hodkin Huxley model proved the existence of a cell's resting potential, the posibility of voltage gated ion channels, and channels whose pores are selective for certain ions. Even today the molecular mechanisms behind some of these discoveries are debated. In this thesis we aim to do the same by building up from fundamental quantum mechanics in order to understand the motion of single proteins so we might speculate as to the function of the whole organism.
+The $\alpha$ and $\beta \in [0,1]$ parameters are the proportion of the sodium and potassium channel populations which are activated, respectively.  This example shows how basic theoretical tools can be used to predict and discover physical phenomena in biological systems. The Hodgkin Huxley model proved the existence of a cell's resting potential, the possibility of voltage gated ion channels, and channels whose pores are selective for certain ions. Even today the molecular mechanisms behind some of these discoveries are debated. In this thesis we aim to do the same by building up from fundamental quantum mechanics in order to understand the motion of single proteins so we might speculate as to the function of the whole organism.
 
-Similar to the above story, ion channels have always motivated the early pioneers of molecular biophysics. This is due to their ubiquity and importance in biological systems and the ease of measuring their activity with biochemical assays. One just needs an oscilloscope to measure their current. As cell biolgoy has advanced it has become clear that the resting potential of a cell is critical to its function, regulating many chemical reactions inside it.
+Similar to the above story, ion channels have always motivated the early pioneers of molecular biophysics. This is due to their ubiquity and importance in biological systems and the ease of measuring their activity with biochemical assays. One just needs an oscilloscope to measure their current. As cell biology has advanced it has become clear that the resting potential of a cell is critical to its function, regulating many chemical reactions inside it.
 
 It's quite interesting that ion channels are the targets of comprise 19\% of approved drugs.\cite{santos2017} An exciting implication of this is the finesse with which we can now manipulate these systems in order to regulate morphogenesis in addition to the internal signalling environment of cells \cite{}. CITE MARK LEVIN.
 
@@ -90,7 +98,7 @@ The discovery of voltage gated channels and a resting potential are still subjec
 So by using ion channels as basic biophysical laboratories have been used consistently to understand higher level protein physics \cite{}, and now we can apply this molecular understanding to attempt to tackle other diseases as experimental techniques have improved such as diabetes, and neurodegenerative diseases. Having an atomistic understanding is allowing us to do personalised medicine with atomic precision.
 %=======================================================================================%
 
-\section{Studying Cystic Fibrosis to Learn Biophysics}
+\section{Studying Cystic Fibrosis is a way to Extend the Loop of Ion Channels. Learning Biophysics and Treating Disease}
 
 The sad truth of this debilitating disease is that those afflicted are extremely unlucky. A single, small change to the genome and their lungs fill with sticky mucus and become infected with bacteria, each breath cumbersome. Personally, I've not met somebody who has this disease. I have consistently wondered what perspective I'm missing by not suffering myself from such a condition or even knowing somebody with it. I'm not been trained in the ethics of studying medicine.
 
