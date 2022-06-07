@@ -1,3 +1,5 @@
+library.bib
+*.bib
 *.swp
 *log
 *aux 
