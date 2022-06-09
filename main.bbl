@@ -76,6 +76,51 @@
     \field{year}{2021}
   \endentry
 
+  \entry{chen2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CF}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CF1}
+    \strng{fullhash}{CF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The third edition of this classic text presents a complete introduction to
+  plasma physics and controlled fusion, written by one of the pioneering
+  scientists in this expanding field. It offers both a simple and intuitive
+  discussion of the basic concepts of the subject matter and an insight into
+  the challenging problems of current research. This outstanding text offers
+  students a painless introduction to this important field; for teachers, a
+  large collection of problems; and for researchers, a concise review of the
+  fundamentals as well as original treatments of a number of topics never
+  before explained so clearly. In a wholly lucid manner the second edition
+  covered charged-particle motions, plasmas as fluids, kinetic theory, and
+  nonlinear effects. For the third edition, two new chapters have been added to
+  incorporate discussion of more recent advances in the field. The new chapter
+  9 on Special Plasmas covers non-neutral plasmas, pure electron plasmas, solid
+  and ultra-cold plasmas, pair-ion plasmas, dusty plasmas, helicon plasmas,
+  atmospheric-pressure plasmas, sheath-bounded plasmas, reconnection and
+  turbulence. Following this, chapter 10 describes Plasma Applications such as
+  magnetic fusion (pinches, mirrors, FRCs, stellarators, tokamaks, spheromaks),
+  plasma accelerators and FELs, ine rtial fusion, semiconductor etching, and
+  spacecraft propulsion. This new revised edition remains an essential text for
+  those new to the field and an invaluable reference source for established
+  researchers.%
+    }
+    \field{isbn}{978-3-319-22309-4 978-3-319-79391-7}
+    \field{title}{Introduction to Plasma Physics and Controlled Fusion}
+    \field{langid}{english}
+    \field{annotation}{%
+    OCLC: 1129084309%
+    }
+    \field{year}{2018}
+  \endentry
+
   \entry{hofstadter2007}{book}{}
     \name{author}{1}{}{%
       {{hash=HDR}{%
@@ -153,6 +198,135 @@
     \endverb
     \field{journaltitle}{The Journal of Physiology}
     \field{month}{08}
+    \field{year}{1952}
+  \endentry
+
+  \entry{hodgkin1952a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HAL}{%
+         family={Hodgkin},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HAF}{%
+         family={Huxley},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Katz},
+         familyi={K\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HAL+1}
+    \strng{fullhash}{HALHAFKB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Images null%
+    }
+    \field{issn}{0022-3751}
+    \field{number}{4}
+    \field{pages}{424\bibrangedash 448}
+    \field{title}{Measurement of Current-Voltage Relations in the Membrane of
+  the Giant Axon of {{Loligo}}}
+    \field{volume}{116}
+    \field{journaltitle}{The Journal of Physiology}
+    \field{month}{04}
+    \field{year}{1952}
+  \endentry
+
+  \entry{hodgkin1952b}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HAL}{%
+         family={Hodgkin},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HAF}{%
+         family={Huxley},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HALHAF1}
+    \strng{fullhash}{HALHAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0022-3751}
+    \field{number}{4}
+    \field{pages}{497\bibrangedash 506}
+    \field{title}{The Dual Effect of Membrane Potential on Sodium Conductance
+  in the Giant Axon of {{Loligo}}}
+    \field{volume}{116}
+    \field{journaltitle}{The Journal of Physiology}
+    \field{month}{04}
+    \field{year}{1952}
+  \endentry
+
+  \entry{hodgkin1952c}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HAL}{%
+         family={Hodgkin},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HAF}{%
+         family={Huxley},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HALHAF1}
+    \strng{fullhash}{HALHAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0022-3751}
+    \field{number}{4}
+    \field{pages}{473\bibrangedash 496}
+    \field{title}{The Components of Membrane Conductance in the Giant Axon of
+  {{Loligo}}}
+    \field{volume}{116}
+    \field{journaltitle}{The Journal of Physiology}
+    \field{month}{04}
+    \field{year}{1952}
+  \endentry
+
+  \entry{hodgkin1952d}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HAL}{%
+         family={Hodgkin},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HAF}{%
+         family={Huxley},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HALHAF1}
+    \strng{fullhash}{HALHAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0022-3751}
+    \field{number}{4}
+    \field{pages}{449\bibrangedash 472}
+    \field{title}{Currents Carried by Sodium and Potassium Ions through the
+  Membrane of the Giant Axon of {{Loligo}}}
+    \field{volume}{116}
+    \field{journaltitle}{The Journal of Physiology}
+    \field{month}{04}
     \field{year}{1952}
   \endentry
 
