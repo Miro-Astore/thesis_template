@@ -63,38 +63,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.9}Conclusion}{33}{section.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis}{35}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Review of the Molecular Cause of Cystic Fibrosis and Its Treatment}{35}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{35}{section.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}CFTR Structure}{36}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR classification and structure}{36}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR is a Unique ABC Transporter}{36}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}The Gating Cycle}{37}{section.3.4}%
+\contentsline {section}{\numberline {3.4}CFTR classification and structure}{38}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Classes of Misfunction to CFTR}{37}{section.3.5}%
+\contentsline {section}{\numberline {3.5}The Gating Cycle}{38}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}CFTR Modulators}{38}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Classes of Misfunction to CFTR}{39}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Correctors}{39}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7}CFTR Modulators}{40}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Potentiators}{39}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.7.1}Correctors}{40}{subsection.3.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Annion Selectivity}{40}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.7.2}Potentiators}{40}{subsection.3.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Patient Derived Organoids}{40}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.3}Annion Selectivity}{41}{subsection.3.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Molecular Dynamics and Functional Characterization of I37R-CFTR Lasso Mutation Provide Insights into Channel Gating Activity}{41}{chapter.4}%
+\contentsline {section}{\numberline {3.8}Patient Derived Organoids}{41}{section.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect}{42}{chapter.5}%
+\contentsline {chapter}{\numberline {4}Molecular Dynamics and Functional Characterization of I37R-CFTR Lasso Mutation Provide Insights into Channel Gating Activity}{43}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Unique S945L-CFTR defect Restored by CFTR Modulator Co-Therapy In Vitro Correlates with In Vivo Biomarkers Post-Therapy}{43}{chapter.6}%
+\contentsline {chapter}{\numberline {5}Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect}{44}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Resolving a Conducting Conformation of CFTR Using Free Energy Calculations}{44}{chapter.7}%
+\contentsline {chapter}{\numberline {6}Unique S945L-CFTR defect Restored by CFTR Modulator Co-Therapy In Vitro Correlates with In Vivo Biomarkers Post-Therapy}{45}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Concluding Remarks}{45}{chapter.8}%
+\contentsline {chapter}{\numberline {7}Resolving a Conducting Conformation of CFTR Using Free Energy Calculations}{46}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{46}{section*.24}%
+\contentsline {chapter}{\numberline {8}Concluding Remarks}{47}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{46}{appendix*.25}%
+\contentsline {section}{References}{48}{section*.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{48}{appendix*.26}%
