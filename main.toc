@@ -1,11 +1,19 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {chapter}{List of Abbreviations}{x}{section*.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{xii}{section*.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Tables}{xiii}{section*.6}%
+=======
+\contentsline {chapter}{List of Abbreviations}{ix}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{xi}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{xii}{section*.6}%
+>>>>>>> 056f24306044a8294961912286965a609b91c0bb
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -49,11 +57,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.7}Free Energy Calculations: Making Simulations More Useful}{26}{section.2.7}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.7.1}Umbrella Sampling}{27}{subsection.2.7.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{28}{section*.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.2}Metadynamics}{29}{subsection.2.7.2}%
+=======
+\contentsline {subsection}{\numberline {2.7.1}Umbrella Sampling}{26}{subsection.2.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Weighted Histogram Average Method (WHAM)}{28}{section*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.2}Metadynamics}{28}{subsection.2.7.2}%
+>>>>>>> 056f24306044a8294961912286965a609b91c0bb
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.8}Short Comings of Classical MD}{31}{section.2.8}%
 \defcounter {refsection}{0}\relax 
@@ -67,6 +83,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Clinical outcomes of Cystic Fibrosis}{35}{section.3.1}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3.2}CFTR Structure}{36}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}CFTR is a Unique ABC Transporter}{37}{section.3.3}%
@@ -102,3 +119,40 @@
 \contentsline {section}{References}{50}{section*.26}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliography}{50}{appendix*.27}%
+=======
+\contentsline {section}{\numberline {3.2}CFTR Structure}{37}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}CFTR is a Unique ABC Transporter}{38}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}CFTR classification and structure}{38}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}The Gating Cycle}{40}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Classes of Misfunction to CFTR}{40}{section.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}CFTR Modulators}{41}{section.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}Correctors}{42}{subsection.3.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.2}Potentiators}{42}{subsection.3.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.3}Anion Selectivity}{43}{subsection.3.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Addressing Controversies Surrounding the Structure of CFTR}{43}{section.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}Patient Derived Organoids}{45}{section.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Molecular Dynamics and Functional Characterization of I37R-CFTR Lasso Mutation Provide Insights into Channel Gating Activity}{46}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect}{47}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Unique S945L-CFTR defect Restored by CFTR Modulator Co-Therapy In Vitro Correlates with In Vivo Biomarkers Post-Therapy}{48}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Resolving a Conducting Conformation of CFTR Using Free Energy Calculations}{49}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Concluding Remarks}{50}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{51}{section*.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{51}{appendix*.27}%
+>>>>>>> 056f24306044a8294961912286965a609b91c0bb
