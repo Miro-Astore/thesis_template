@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.21)  14 JUN 2022 17:16
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.8)  21 JUN 2022 17:59
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -50,9 +54,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language65) on input line 105.
+(babel)             (\language21) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language65) on input line 108.
+(babel)             (\language21) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pdfcolmk/pdfcolmk.sty
 Package: pdfcolmk 2019/11/24 v2.0 Color support for pdfTeX via marks
@@ -1350,7 +1354,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [8
 
 ]
-Overfull \hbox (9.28035pt too wide) in paragraph at lines 94--94
+Overfull \hbox (9.28035pt too wide) in paragraph at lines 96--96
  [] [][][]\OT1/cmr/bx/n/12 Unique S945L-CFTR de-fect Re-stored by CFTR Mod-u-la
 -tor Co-Therapy 
  []
@@ -1506,7 +1510,7 @@ Chapter 1.
 
 
 ] [2] [3]
-<figures/Hodgkin-Huxley_action_potential.pdf, id=361, 263.90121pt x 217.41325pt
+<figures/Hodgkin-Huxley_action_potential.pdf, id=368, 263.90121pt x 217.41325pt
 >
 File: figures/Hodgkin-Huxley_action_potential.pdf Graphic file (type pdf)
 <use figures/Hodgkin-Huxley_action_potential.pdf>
@@ -1529,19 +1533,31 @@ Overfull \hbox (14.73613pt too wide) in paragraph at lines 131--131
  []
 
 [11]
+<<<<<<< HEAD
 <figures/bonded_interactions.pdf, id=464, 355.57504pt x 286.09044pt>
+=======
+<figures/bonded_interactions.pdf, id=469, 355.57504pt x 286.09044pt>
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a
 File: figures/bonded_interactions.pdf Graphic file (type pdf)
 <use figures/bonded_interactions.pdf>
 Package pdftex.def Info: figures/bonded_interactions.pdf  used on input line 16
 0.
 (pdftex.def)             Requested size: 284.52756pt x 228.93376pt.
  [12] [13 <./figures/bonded_interactions.pdf>]
+<<<<<<< HEAD
 <figures/QM_MM_compared.pdf, id=618, 2644.36272pt x 1348.22972pt>
+=======
+<figures/QM_MM_compared.pdf, id=623, 2644.36272pt x 1348.22972pt>
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a
 File: figures/QM_MM_compared.pdf Graphic file (type pdf)
 <use figures/QM_MM_compared.pdf>
 Package pdftex.def Info: figures/QM_MM_compared.pdf  used on input line 185.
 (pdftex.def)             Requested size: 441.01773pt x 224.83469pt.
+<<<<<<< HEAD
 <figures/LJ_figure.pdf, id=621, 968.16644pt x 471.10486pt>
+=======
+<figures/LJ_figure.pdf, id=626, 968.16644pt x 471.10486pt>
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a
 File: figures/LJ_figure.pdf Graphic file (type pdf)
 <use figures/LJ_figure.pdf>
 Package pdftex.def Info: figures/LJ_figure.pdf  used on input line 195.
@@ -1552,7 +1568,11 @@ Overfull \hbox (32.6329pt too wide) in paragraph at lines 213--214
 n or-ganic liq-uids, biomolecules
  []
 
+<<<<<<< HEAD
 <figures/MD_unit_cell_example/MD_system_compressed.jpg, id=737, 1927.2pt x 2168
+=======
+<figures/MD_unit_cell_example/MD_system_compressed.jpg, id=742, 1927.2pt x 2168
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a
 .1pt>
 File: figures/MD_unit_cell_example/MD_system_compressed.jpg Graphic file (type 
 jpg)
@@ -1561,11 +1581,16 @@ Package pdftex.def Info: figures/MD_unit_cell_example/MD_system_compressed.jpg
  used on input line 227.
 (pdftex.def)             Requested size: 441.01773pt x 496.13824pt.
 [16] [17 <./figures/MD_unit_cell_example/MD_system_compressed.jpg>]
+<<<<<<< HEAD
 <figures/PME_miro.pdf, id=769, 1433.26959pt x 878.70018pt>
+=======
+<figures/PME_miro.pdf, id=774, 1433.26959pt x 878.70018pt>
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a
 File: figures/PME_miro.pdf Graphic file (type pdf)
 <use figures/PME_miro.pdf>
 Package pdftex.def Info: figures/PME_miro.pdf  used on input line 240.
 (pdftex.def)             Requested size: 441.01773pt x 270.36966pt.
+<<<<<<< HEAD
  [18 <./figures/PME_miro.pdf>] [19]
 
 LaTeX Warning: Citation 'berendsen1984a' on page 20 undefined on input line 296
@@ -1768,3 +1793,9 @@ PDF statistics:
  344 named destinations out of 1000 (max. 500000)
  431 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+ [18 <./figures/PME_miro.pdf>] [19] [20] [21] [22] [23] [24] [25] [26]
+<figures/umbrella_sampling.png.pdf, id=992, 1054.59818pt x 326.65247pt>
+File: figures/umbrella_sampling.png.pdf Graphic file (type pdf)
+<use figures/umbrella_samplin
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a

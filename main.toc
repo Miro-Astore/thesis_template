@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
@@ -100,3 +101,5 @@
 \contentsline {section}{References}{48}{section*.25}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliography}{48}{appendix*.26}%
+=======
+>>>>>>> dfa8ae7c815116d94d0aada27fa917fd6409538a
