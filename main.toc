@@ -69,23 +69,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}CFTR Structure}{36}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CFTR is a Unique ABC Transporter}{36}{section.3.3}%
+\contentsline {section}{\numberline {3.3}CFTR is a Unique ABC Transporter}{37}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}CFTR classification and structure}{38}{section.3.4}%
+\contentsline {section}{\numberline {3.4}CFTR classification and structure}{37}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}The Gating Cycle}{38}{section.3.5}%
+\contentsline {section}{\numberline {3.5}The Gating Cycle}{39}{section.3.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Classes of Misfunction to CFTR}{39}{section.3.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}CFTR Modulators}{40}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}Correctors}{40}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.1}Correctors}{41}{subsection.3.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.2}Potentiators}{40}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.2}Potentiators}{41}{subsection.3.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.3}Annion Selectivity}{41}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.3}Annion Selectivity}{42}{subsection.3.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Patient Derived Organoids}{41}{section.3.8}%
+\contentsline {section}{\numberline {3.8}Patient Derived Organoids}{42}{section.3.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Molecular Dynamics and Functional Characterization of I37R-CFTR Lasso Mutation Provide Insights into Channel Gating Activity}{43}{chapter.4}%
 \defcounter {refsection}{0}\relax 
