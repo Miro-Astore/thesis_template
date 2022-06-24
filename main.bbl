@@ -1211,6 +1211,218 @@
     \field{year}{2004}
   \endentry
 
+  \entry{ramachandran1963}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RGN}{%
+         family={Ramachandran},
+         familyi={R\bibinitperiod},
+         given={G.\bibnamedelima N.},
+         giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Ramakrishnan},
+         familyi={R\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Sasisekharan},
+         familyi={S\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RGN+1}
+    \strng{fullhash}{RGNRCSV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Tuberculosis (TB) is a serious communicative disease caused by
+  Mycobacterium tuberculosis. Although there are vaccines and drugs available
+  to treat the disease, they are not efficient, moreover, multidrug-resistant
+  TB (MDR-TB) become a major hurdle in its therapy. These MDR strains utilize
+  the multidrug efflux pump as a decisive weapon to fight against
+  antitubercular drugs. Tap membrane protein was observed as a crucial
+  multidrug efflux pump in M. tuberculosis and its critical implication in
+  MDR-MTB development makes it an effective drug target. In the present study,
+  we have utilized various in silico approaches to predict the applicability of
+  FDA-approved ion channel inhibitors and blockers as therapeutic leads against
+  Tuberculosis by targeting multidrug efflux protein; Tap in MTB. Tap protein
+  structure is predicted by Phyre2 server followed by model refinement,
+  validation, physio-chemical catheterization and target prediction. Further,
+  the interaction between Tap protein and ligands were analysed by molecular
+  docking and MD simulation run of 100 ns. Based on implication and
+  compatibility, 18 FDA-approved ion channel inhibitors and blockers are
+  selected as a ligand against the Tap protein and eventually observed five
+  ligands; Glimepiride, Flecainide, Flupiritine, Nimodipine and Amlodipine as
+  promising compounds which have exhibited the significant stable interaction
+  with Tap protein and are proposed to modulate or interfere with its activity.
+  These compounds illustrated the substantial docking score and total binding
+  enthalpy more than -7 kcal/mol and -42 kcal/mol respectively which implies
+  that the selected FDA-approved compounds can spontaneously interact with the
+  Tap protein to modulate its function. This study proposed Tap protein as a
+  prominent drug target in MTB and investigated compounds that show
+  considerable interaction with the Tap protein as potential therapeutic
+  molecules. These interactions may lead to modulating or inhibit the activity
+  of drug efflux protein thereby making MTB susceptible to antitubercular
+  drugs. A deep insight into the 3D structures of the proteins is essential to
+  understand their functions and will be helpful in drug design and making
+  decisions for the treatment of diseases. The 3D structure for less than
+  one-thousandth of the protein sequences has been determined so far due to the
+  slow structure elucidation procedures with experimental methods, such as
+  X-ray. For this reason, different computational methods were used to
+  determine the structure of the proteins, including template-based and de novo
+  approaches. Much software has been developed to facilitate the computational
+  approaches in protein modeling, some of which need user expertise and
+  extensive knowledge in bioinformatics. The present study attempted to provide
+  a user-friendly environment to motivate the researchers in computational
+  biology, a Python-based interface based on MODELLER software. PyProtModel can
+  be used as a toolbox in structural bioinformatics for protein modeling from
+  sequence to the prediction of 3D structure. In addition, the users can take
+  benefits of PyProtModel in order to prepare and evaluate protein PDB files
+  prior to other in silico experiments. PyProtModel allows the user to apply
+  different MODELLER options, automates, and speeds up time-consuming homology
+  modeling steps. Different aspects of PyProtModel and a comprehensive view of
+  the application will be discussed in this paper. The application is available
+  for download and use at: https://github.com/msisakht/pyprotmodel.git. Typhoid
+  disease caused by the bacterium Salmonella typhi becomes fatal if not treated
+  timely. To expedite its timely and accurate diagnosis at an early stage, a
+  biomimetic sensor based on epitope imprinting technique is developed for the
+  detection of typhoid. Epitope sequence of Salmonella invasive protein D
+  (SipD) was predicted using immunoinformatic tools and utilized for
+  imprinting. A molecularly imprinted matrix was developed on the surface of
+  quartz crystal microbalance chip through electropolymerization in presence of
+  template - a 14-mer synthetic peptide predicted. Binding of {$\sim$} -3000 Hz
+  from the blood plasma sample of infected persons showed the selectivity of
+  imprinted sites towards the SipD proteins of bacteria. The sensor was able to
+  detect bacteria at an early stage with an LOD value of 0.50 (ng/ml). On
+  extraction of the peptide sequence, imprinted cavities were able to
+  selectively and specifically bind targeted epitope sequences in laboratory
+  samples as well as `real' samples of patients. An accurate, robust,
+  cost-effective, facile diagnostic tool to aid the healthcare industry is
+  presented here. Recent developments in the SARS-CoV-2 pandemic point to its
+  inevitable transformation into an endemic disease, urging both refinement of
+  diagnostics for emerging variants of concern (VOCs) and design of
+  variant-specific drugs in addition to vaccine adjustments. Exploring the
+  structure and dynamics of the SARS-CoV-2 Spike protein, we argue that the
+  high-mutability characteristic of RNA viruses coupled with the remarkable
+  flexibility and dynamics of viral proteins result in a substantial
+  involvement of allosteric mechanisms. While allosteric effects of mutations
+  should be considered in predictions and diagnostics of new VOCs, allosteric
+  drugs advantageously avoid escape mutations via non-competitive inhibition
+  originating from alternative distal locations. The exhaustive allosteric
+  signaling and probing maps presented herein provide a comprehensive picture
+  of allostery in the spike protein, making it possible to locate potential
+  mutations that could work as new VOC ``drivers'' and to determine binding
+  patches that may be targeted by newly developed allosteric drugs.
+  Structure-based antibody design and accurate predictions of antibody-antigen
+  interactions remain major challenges in computational biology. By using
+  molecular dynamics simulations, we show that a single static X-ray structure
+  is not sufficient to identify determinants of antibody-antigen recognition.
+  Here, we investigate antibodies that undergo substantial conformational
+  changes upon antigen binding and have been classified as difficult cases in
+  an extensive benchmark for antibody-antigen docking. We present
+  thermodynamics and transition kinetics of these conformational rearrangements
+  and show that paratope states can be used to improve antibody-antigen
+  docking. By using the unbound antibody X-ray structure as starting structure
+  for molecular dynamics simulations, we retain a binding competent
+  conformation substantially different to the unbound antibody X-ray structure.
+  We also observe that the kinetically dominant antibody paratope conformations
+  are chosen by the bound antigen conformation with the highest probability.
+  Thus, we show that paratope states in solution can improve antibody-antigen
+  docking and structure prediction.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0022-2836(63)80023-6
+    \endverb
+    \field{issn}{0022-2836}
+    \field{number}{1}
+    \field{pages}{95\bibrangedash 99}
+    \field{title}{Stereochemistry of Polypeptide Chain Configurations}
+    \field{volume}{7}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/YESFP568/S0022283663800236.html
+    \endverb
+    \field{journaltitle}{Journal of Molecular Biology}
+    \field{month}{07}
+    \field{year}{1963}
+  \endentry
+
+  \entry{huang2017}{article}{}
+    \name{author}{9}{}{%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rauscher},
+         familyi={R\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nawrocki},
+         familyi={N\bibinitperiod},
+         given={Grzegorz},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Ran},
+         familyi={R\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feig},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dBL}{%
+         family={{de Groot}},
+         familyi={d\bibinitperiod},
+         given={Bert\bibnamedelima L},
+         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Grubm{\"u}ller},
+         familyi={G\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=J}{%
+         family={{Jr.}},
+         familyi={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Computational biophysics,Protein structure
+  predictions,Proteins,Software,Structure determination}
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJRSNGRTFMdBLGHMADJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/nmeth.4067
+    \endverb
+    \field{number}{1}
+    \field{pages}{71\bibrangedash 73}
+    \field{title}{{{CHARMM36m}}: {{An Improved Force Field For Folded}} and
+  {{Intrinsically Disordered Proteins}}}
+    \field{volume}{14}
+    \field{journaltitle}{Nature Methods}
+    \field{month}{01}
+    \field{year}{2017}
+  \endentry
+
   \entry{yoo2018a}{article}{}
     \name{author}{2}{}{%
       {{hash=YJ}{%
@@ -1359,78 +1571,66 @@
     \field{year}{2020}
   \endentry
 
-  \entry{huang2017}{article}{}
-    \name{author}{9}{}{%
-      {{hash=HJ}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Jing},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=RS}{%
-         family={Rauscher},
-         familyi={R\bibinitperiod},
-         given={Sarah},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NG}{%
-         family={Nawrocki},
-         familyi={N\bibinitperiod},
-         given={Grzegorz},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=RT}{%
-         family={Ran},
-         familyi={R\bibinitperiod},
-         given={Ting},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={Feig},
-         familyi={F\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=dBL}{%
-         family={{de Groot}},
-         familyi={d\bibinitperiod},
-         given={Bert\bibnamedelima L},
-         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=GH}{%
-         family={Grubm{\"u}ller},
-         familyi={G\bibinitperiod},
-         given={Helmut},
-         giveni={H\bibinitperiod},
+  \entry{savelyev2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Savelyev},
+         familyi={S\bibinitperiod},
+         given={Alexey},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=MAD}{%
          family={MacKerell},
          familyi={M\bibinitperiod},
-         given={Alexander\bibnamedelima D},
+         given={Alexander\bibnamedelima D.},
          giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
-      {{hash=J}{%
-         family={{Jr.}},
-         familyi={J\bibinitperiod},
-      }}%
     }
-    \keyw{Computational biophysics,Protein structure
-  predictions,Proteins,Software,Structure determination}
-    \strng{namehash}{HJ+1}
-    \strng{fullhash}{HJRSNGRTFMdBLGHMADJ1}
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{SAMAD1}
+    \strng{fullhash}{SAMAD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In the present study we report on interactions of and competition between
+  monovalent ions for two DNA sequences in MD simulations. Efforts included the
+  development and validation of parameters for interactions among the
+  first-group monovalent cations, Li+, Na+, K+, and Rb+, and DNA in the Drude
+  polarizable and additive CHARMM36 force fields (FF). The optimization process
+  targeted gas-phase QM interaction energies of various model compounds with
+  ions and osmotic pressures of bulk electrolyte solutions of chemically
+  relevant ions. The optimized ionic parameters are validated against
+  counterion condensation theory and buffer exchange\textendash atomic emission
+  spectroscopy measurements providing quantitative data on the competitive
+  association of different monovalent ions with DNA. Comparison between
+  experimental and MD simulation results demonstrates that, compared to the
+  additive CHARMM36 model, the Drude FF provides an improved description of the
+  general features of the ionic atmosphere around DNA and leads to closer
+  agreement with experiment on the ionic competition within the ion atmosphere.
+  Results indicate the importance of extended simulation systems on the order
+  of 25 \AA{} beyond the DNA surface to obtain proper convergence of ion
+  distributions.%
+    }
     \verb{doi}
-    \verb 10.1038/nmeth.4067
+    \verb 10.1021/acs.jpcb.5b00683
     \endverb
-    \field{number}{1}
-    \field{pages}{71\bibrangedash 73}
-    \field{title}{{{CHARMM36m}}: {{An Improved Force Field For Folded}} and
-  {{Intrinsically Disordered Proteins}}}
-    \field{volume}{14}
-    \field{journaltitle}{Nature Methods}
-    \field{month}{01}
-    \field{year}{2017}
+    \field{issn}{1520-6106}
+    \field{number}{12}
+    \field{pages}{4428\bibrangedash 4440}
+    \field{title}{Competition among {{Li}}+, {{Na}}+, {{K}}+, and {{Rb}}+
+  {{Monovalent Ions}} for {{DNA}} in {{Molecular Dynamics Simulations Using}}
+  the {{Additive CHARMM36}} and {{Drude Polarizable Force Fields}}}
+    \field{volume}{119}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/VVPERP9X/Savelyev and MacKerell - 2015 - Co
+    \verb mpetition among Li+, Na+, K+, and Rb+ Monovalent.pdf;/home/miro/Zoter
+    \verb o/storage/HJCDC4SI/acs.jpcb.html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry B}
+    \field{month}{03}
+    \field{year}{2015}
   \endentry
 
   \entry{jambeck2013}{article}{}
@@ -10410,6 +10610,212 @@
     \field{year}{2002}
   \endentry
 
+  \entry{depoel2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=dE}{%
+         family={{de Poel}},
+         familyi={d\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LJW}{%
+         family={Lefferts},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekman},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{CFTR modulators,Cystic Fibrosis,Drug development,Humans,In vitro
+  model systems,In Vitro Techniques,Intestines,Organoids,Patient-Specific
+  Modeling,Personalized medicine,Precision Medicine,Primary Cell Culture}
+    \strng{namehash}{dE+1}
+    \strng{fullhash}{dELJWBJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Significant progress has been made in the development of CFTR modulator
+  therapy; however, current CFTR modulator therapies are only available for a
+  minority of the CF-patient population. Additionally, heterogeneity in in vivo
+  modulator response has been reported among individuals carrying homozygous
+  F508del-CFTR, adding to the desire for an optimal prediction of
+  response-to-therapy on an individual level. In the last decade, a lot of
+  progress has been made in the development of primary cell cultures into 3D
+  patient-derived disease models. The advantage of these models is that the
+  endogenous CFTR function is affected by the patient's mutation as well as
+  other genetic or environmental factors. In this review we focus on intestinal
+  organoids as in vitro model for CF, enabling for CF disease classification,
+  drug development and treatment optimization in a personalized manner, taking
+  into account rare CFTR mutations and clinical heterogeneity among individuals
+  with CF.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jcf.2019.11.002
+    \endverb
+    \field{issn}{1873-5010}
+    \field{pages}{S60\bibrangedash S64}
+    \field{title}{Intestinal Organoids for {{Cystic Fibrosis}} Research}
+    \field{volume}{19 Suppl 1}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/G6ACZK3F/de Poel et al. - 2020 - Intestinal
+    \verb  organoids for Cystic Fibrosis research.pdf
+    \endverb
+    \field{journaltitle}{Journal of Cystic Fibrosis: Official Journal of the
+  European Cystic Fibrosis Society}
+    \field{month}{03}
+    \field{year}{2020}
+  \endentry
+
+  \entry{dekkers2013}{article}{}
+    \name{author}{16}{}{%
+      {{hash=DJF}{%
+         family={Dekkers},
+         familyi={D\bibinitperiod},
+         given={Johanna\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=WCL}{%
+         family={Wiegerinck},
+         familyi={W\bibinitperiod},
+         given={Caroline\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=dHR}{%
+         family={{de Jonge}},
+         familyi={d\bibinitperiod},
+         given={Hugo\bibnamedelima R.},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bronsveld},
+         familyi={B\bibinitperiod},
+         given={Inez},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=JHM}{%
+         family={Janssens},
+         familyi={J\bibinitperiod},
+         given={Hettie\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=dKM}{%
+         family={{de Winter-de Groot}},
+         familyi={d\bibinitperiod},
+         given={Karin\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BAM}{%
+         family={Brandsma},
+         familyi={B\bibinitperiod},
+         given={Arianne\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=dNWM}{%
+         family={{de Jong}},
+         familyi={d\bibinitperiod},
+         given={Nienke W.\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=BMJC}{%
+         family={Bijvelds},
+         familyi={B\bibinitperiod},
+         given={Marcel J.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=SBJ}{%
+         family={Scholte},
+         familyi={S\bibinitperiod},
+         given={Bob\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NEES}{%
+         family={Nieuwenhuis},
+         familyi={N\bibinitperiod},
+         given={Edward E.\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=vS}{%
+         family={{van den Brink}},
+         familyi={v\bibinitperiod},
+         given={Stieneke},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Clevers},
+         familyi={C\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=vCK}{%
+         family={{van der Ent}},
+         familyi={v\bibinitperiod},
+         given={Cornelis\bibnamedelima K.},
+         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Middendorp},
+         familyi={M\bibinitperiod},
+         given={Sabine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekman},
+         familyi={B\bibinitperiod},
+         given={Jeffrey\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Biological Assay,Cells; Cultured,Cystic Fibrosis,Cystic
+  Fibrosis Transmembrane Conductance Regulator,Female,HEK293
+  Cells,Humans,Intestinal Mucosa,Male,Mice,Mice; Inbred C57BL,Mice; Inbred
+  CFTR,Mutant Proteins,Organoids,Primary Cell Culture,Water}
+    \strng{namehash}{DJF+1}
+    \strng{fullhash}{DJFWCLdHRBIJHMdKMBAMdNWMBMJCSBJNEESvSCHvCKMSBJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We recently established conditions allowing for long-term expansion of
+  epithelial organoids from intestine, recapitulating essential features of the
+  in vivo tissue architecture. Here we apply this technology to study primary
+  intestinal organoids of people suffering from cystic fibrosis, a disease
+  caused by mutations in CFTR, encoding cystic fibrosis transmembrane
+  conductance regulator. Forskolin induces rapid swelling of organoids derived
+  from healthy controls or wild-type mice, but this effect is strongly reduced
+  in organoids of subjects with cystic fibrosis or in mice carrying the Cftr
+  F508del mutation and is absent in Cftr-deficient organoids. This pattern is
+  phenocopied by CFTR-specific inhibitors. Forskolin-induced swelling of in
+  vitro-expanded human control and cystic fibrosis organoids corresponds
+  quantitatively with forskolin-induced anion currents in freshly excised ex
+  vivo rectal biopsies. Function of the CFTR F508del mutant protein is restored
+  by incubation at low temperature, as well as by CFTR-restoring compounds.
+  This relatively simple and robust assay will facilitate diagnosis, functional
+  studies, drug development and personalized medicine approaches in cystic
+  fibrosis.%
+    }
+    \verb{doi}
+    \verb 10.1038/nm.3201
+    \endverb
+    \field{issn}{1546-170X}
+    \field{number}{7}
+    \field{pages}{939\bibrangedash 945}
+    \field{title}{A Functional {{CFTR}} Assay Using Primary Cystic Fibrosis
+  Intestinal Organoids}
+    \field{volume}{19}
+    \field{langid}{english}
+    \field{journaltitle}{Nature Medicine}
+    \field{month}{07}
+    \field{year}{2013}
+  \endentry
+
   \entry{kogan2003}{article}{}
     \name{author}{8}{}{%
       {{hash=KI}{%
@@ -10675,212 +11081,6 @@
     \field{journaltitle}{Protein Expression and Purification}
     \field{month}{12}
     \field{year}{2015}
-  \endentry
-
-  \entry{depoel2020}{article}{}
-    \name{author}{3}{}{%
-      {{hash=dE}{%
-         family={{de Poel}},
-         familyi={d\bibinitperiod},
-         given={E.},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=LJW}{%
-         family={Lefferts},
-         familyi={L\bibinitperiod},
-         given={J.\bibnamedelima W.},
-         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=BJM}{%
-         family={Beekman},
-         familyi={B\bibinitperiod},
-         given={J.\bibnamedelima M.},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \keyw{CFTR modulators,Cystic Fibrosis,Drug development,Humans,In vitro
-  model systems,In Vitro Techniques,Intestines,Organoids,Patient-Specific
-  Modeling,Personalized medicine,Precision Medicine,Primary Cell Culture}
-    \strng{namehash}{dE+1}
-    \strng{fullhash}{dELJWBJM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Significant progress has been made in the development of CFTR modulator
-  therapy; however, current CFTR modulator therapies are only available for a
-  minority of the CF-patient population. Additionally, heterogeneity in in vivo
-  modulator response has been reported among individuals carrying homozygous
-  F508del-CFTR, adding to the desire for an optimal prediction of
-  response-to-therapy on an individual level. In the last decade, a lot of
-  progress has been made in the development of primary cell cultures into 3D
-  patient-derived disease models. The advantage of these models is that the
-  endogenous CFTR function is affected by the patient's mutation as well as
-  other genetic or environmental factors. In this review we focus on intestinal
-  organoids as in vitro model for CF, enabling for CF disease classification,
-  drug development and treatment optimization in a personalized manner, taking
-  into account rare CFTR mutations and clinical heterogeneity among individuals
-  with CF.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.jcf.2019.11.002
-    \endverb
-    \field{issn}{1873-5010}
-    \field{pages}{S60\bibrangedash S64}
-    \field{title}{Intestinal Organoids for {{Cystic Fibrosis}} Research}
-    \field{volume}{19 Suppl 1}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/G6ACZK3F/de Poel et al. - 2020 - Intestinal
-    \verb  organoids for Cystic Fibrosis research.pdf
-    \endverb
-    \field{journaltitle}{Journal of Cystic Fibrosis: Official Journal of the
-  European Cystic Fibrosis Society}
-    \field{month}{03}
-    \field{year}{2020}
-  \endentry
-
-  \entry{dekkers2013}{article}{}
-    \name{author}{16}{}{%
-      {{hash=DJF}{%
-         family={Dekkers},
-         familyi={D\bibinitperiod},
-         given={Johanna\bibnamedelima F.},
-         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=WCL}{%
-         family={Wiegerinck},
-         familyi={W\bibinitperiod},
-         given={Caroline\bibnamedelima L.},
-         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=dHR}{%
-         family={{de Jonge}},
-         familyi={d\bibinitperiod},
-         given={Hugo\bibnamedelima R.},
-         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=BI}{%
-         family={Bronsveld},
-         familyi={B\bibinitperiod},
-         given={Inez},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=JHM}{%
-         family={Janssens},
-         familyi={J\bibinitperiod},
-         given={Hettie\bibnamedelima M.},
-         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=dKM}{%
-         family={{de Winter-de Groot}},
-         familyi={d\bibinitperiod},
-         given={Karin\bibnamedelima M.},
-         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=BAM}{%
-         family={Brandsma},
-         familyi={B\bibinitperiod},
-         given={Arianne\bibnamedelima M.},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=dNWM}{%
-         family={{de Jong}},
-         familyi={d\bibinitperiod},
-         given={Nienke W.\bibnamedelima M.},
-         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-      }}%
-      {{hash=BMJC}{%
-         family={Bijvelds},
-         familyi={B\bibinitperiod},
-         given={Marcel J.\bibnamedelima C.},
-         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
-      }}%
-      {{hash=SBJ}{%
-         family={Scholte},
-         familyi={S\bibinitperiod},
-         given={Bob\bibnamedelima J.},
-         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=NEES}{%
-         family={Nieuwenhuis},
-         familyi={N\bibinitperiod},
-         given={Edward E.\bibnamedelima S.},
-         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
-      }}%
-      {{hash=vS}{%
-         family={{van den Brink}},
-         familyi={v\bibinitperiod},
-         given={Stieneke},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=CH}{%
-         family={Clevers},
-         familyi={C\bibinitperiod},
-         given={Hans},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=vCK}{%
-         family={{van der Ent}},
-         familyi={v\bibinitperiod},
-         given={Cornelis\bibnamedelima K.},
-         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Middendorp},
-         familyi={M\bibinitperiod},
-         given={Sabine},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BJM}{%
-         family={Beekman},
-         familyi={B\bibinitperiod},
-         given={Jeffrey\bibnamedelima M.},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \keyw{Animals,Biological Assay,Cells; Cultured,Cystic Fibrosis,Cystic
-  Fibrosis Transmembrane Conductance Regulator,Female,HEK293
-  Cells,Humans,Intestinal Mucosa,Male,Mice,Mice; Inbred C57BL,Mice; Inbred
-  CFTR,Mutant Proteins,Organoids,Primary Cell Culture,Water}
-    \strng{namehash}{DJF+1}
-    \strng{fullhash}{DJFWCLdHRBIJHMdKMBAMdNWMBMJCSBJNEESvSCHvCKMSBJM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    We recently established conditions allowing for long-term expansion of
-  epithelial organoids from intestine, recapitulating essential features of the
-  in vivo tissue architecture. Here we apply this technology to study primary
-  intestinal organoids of people suffering from cystic fibrosis, a disease
-  caused by mutations in CFTR, encoding cystic fibrosis transmembrane
-  conductance regulator. Forskolin induces rapid swelling of organoids derived
-  from healthy controls or wild-type mice, but this effect is strongly reduced
-  in organoids of subjects with cystic fibrosis or in mice carrying the Cftr
-  F508del mutation and is absent in Cftr-deficient organoids. This pattern is
-  phenocopied by CFTR-specific inhibitors. Forskolin-induced swelling of in
-  vitro-expanded human control and cystic fibrosis organoids corresponds
-  quantitatively with forskolin-induced anion currents in freshly excised ex
-  vivo rectal biopsies. Function of the CFTR F508del mutant protein is restored
-  by incubation at low temperature, as well as by CFTR-restoring compounds.
-  This relatively simple and robust assay will facilitate diagnosis, functional
-  studies, drug development and personalized medicine approaches in cystic
-  fibrosis.%
-    }
-    \verb{doi}
-    \verb 10.1038/nm.3201
-    \endverb
-    \field{issn}{1546-170X}
-    \field{number}{7}
-    \field{pages}{939\bibrangedash 945}
-    \field{title}{A Functional {{CFTR}} Assay Using Primary Cystic Fibrosis
-  Intestinal Organoids}
-    \field{volume}{19}
-    \field{langid}{english}
-    \field{journaltitle}{Nature Medicine}
-    \field{month}{07}
-    \field{year}{2013}
   \endentry
 \enddatalist
 \endinput
