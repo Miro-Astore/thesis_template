@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="1294.6624mm"
+   height="334.30188mm"
+   viewBox="0 0 1294.6624 334.30188"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="classes_mutations.svg">
+   sodipodi:docname="classes_mutations.svg"
+   inkscape:export-filename="/data/phd/phd_thesis/figures/classes_mutations.png"
+   inkscape:export-xdpi="92"
+   inkscape:export-ydpi="92">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="2871.0302"
-     inkscape:cy="75.58529"
+     inkscape:zoom="1.4"
+     inkscape:cx="2768.5609"
+     inkscape:cy="131.78061"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,7 +39,11 @@
      inkscape:window-x="1920"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:lockguides="true" />
+     inkscape:lockguides="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -45,16 +52,17 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-29.070039,-30.843749)">
     <rect
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect815"
        width="140.3044"
        height="31.499159"
@@ -75,113 +83,94 @@
     <g
        id="g934"
        transform="translate(123.67898,-0.80180876)" />
-    <g
-       transform="translate(-104.95508,1.6036191)"
-       id="g921-23">
-      <rect
-         ry="0"
-         y="31.086143"
-         x="453.55478"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-7"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-5"
-         y="50.781219"
-         x="500.08005"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="50.781219"
-           x="500.08005"
-           id="tspan817-7-5-0-2-9"
-           sodipodi:role="line">Class V</tspan></text>
-    </g>
-    <g
-       transform="translate(-264.32515,0.53454103)"
-       id="g921-3">
-      <rect
-         ry="0"
-         y="31.086143"
-         x="453.55478"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-61"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-29"
-         y="50.781219"
-         x="500.08005"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="50.781219"
-           x="500.08005"
-           id="tspan817-7-5-0-2-3"
-           sodipodi:role="line">Class I</tspan></text>
-    </g>
-    <g
-       id="g1236"
-       transform="translate(123.94204,-234.65964)">
-      <rect
-         ry="0"
-         y="369.98389"
-         x="65.287186"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-9-9-8-0-9-5"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-2-4-4-3-3-2"
-         y="382.8754"
-         x="132.30473"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan1074-4-4"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="382.8754"
-           x="132.30473"
-           sodipodi:role="line">Domain</tspan><tspan
-           id="tspan1224"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="396.10455"
-           x="132.30473"
-           sodipodi:role="line">Deletion</tspan></text>
-    </g>
-    <g
-       id="g1236-7"
-       transform="translate(123.94204,-190.82742)">
-      <g
-         id="g1273">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-9-9-8-0-9-5-4"
-           width="134.17462"
-           height="31.499157"
-           x="65.287186"
-           y="369.98389"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="132.70781"
-           y="382.8754"
-           id="text819-6-3-7-6-2-4-4-3-3-2-4"><tspan
-             sodipodi:role="line"
-             x="132.70781"
-             y="382.8754"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-             id="tspan1224-0">Premature</tspan><tspan
-             id="tspan1267"
-             sodipodi:role="line"
-             x="132.70781"
-             y="396.10455"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Truncation</tspan></text>
-      </g>
-    </g>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-7"
+       width="134.17462"
+       height="31.499157"
+       x="348.5997"
+       y="32.689762"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="395.12497"
+       y="52.384838"
+       id="text819-6-3-7-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-9"
+         x="395.12497"
+         y="52.384838"
+         style="stroke-width:0.26458332">Class V</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-61"
+       width="134.17462"
+       height="31.499157"
+       x="189.22963"
+       y="31.620684"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="235.7549"
+       y="51.315762"
+       id="text819-6-3-7-6-29"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-3"
+         x="235.7549"
+         y="51.315762"
+         style="stroke-width:0.26458332">Class I</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0-9-5"
+       width="134.17462"
+       height="31.499157"
+       x="189.22923"
+       y="135.32425"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="256.24677"
+       y="148.21576"
+       id="text819-6-3-7-6-2-4-4-3-3-2"><tspan
+         sodipodi:role="line"
+         x="256.24677"
+         y="148.21576"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1074-4-4">Domain</tspan><tspan
+         sodipodi:role="line"
+         x="256.24677"
+         y="161.44493"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1224">Deletion</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0-9-5-4"
+       width="134.17462"
+       height="31.499157"
+       x="189.22923"
+       y="179.15646"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="256.64984"
+       y="192.04797"
+       id="text819-6-3-7-6-2-4-4-3-3-2-4"><tspan
+         sodipodi:role="line"
+         x="256.64984"
+         y="192.04797"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1224-0">Premature</tspan><tspan
+         id="tspan1267"
+         sodipodi:role="line"
+         x="256.64984"
+         y="205.27715"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Truncation</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect815-3-5-2-0-9-9-8-0-9-5-4-1"
        width="134.17462"
        height="31.499157"
@@ -191,70 +180,59 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="255.83965"
+       x="255.84009"
        y="236.91714"
        id="text819-6-3-7-6-2-4-4-3-3-2-4-4"><tspan
          sodipodi:role="line"
-         x="255.83965"
+         x="255.84009"
          y="236.91714"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan1224-0-9">Defective mRNA</tspan><tspan
          id="tspan1267-2"
          sodipodi:role="line"
-         x="255.83965"
+         x="255.84009"
          y="250.14632"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Truncation</tspan></text>
-    <g
-       id="g921"
-       transform="translate(529.34619,0.53454103)">
-      <rect
-         ry="0"
-         y="31.086143"
-         x="453.55478"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6"
-         y="50.781219"
-         x="500.08005"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="50.781219"
-           x="500.08005"
-           id="tspan817-7-5-0-2"
-           sodipodi:role="line">Class IV</tspan></text>
-    </g>
-    <g
-       id="g1278-0"
-       transform="translate(565.89814,-37.48537)">
-      <g
-         id="g1729">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-9-9-68"
-           width="134.17462"
-           height="31.499157"
-           x="415.60147"
-           y="170.33356"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="441.61893"
-           y="189.5374"
-           id="text819-6-3-7-6-2-4-9"><tspan
-             sodipodi:role="line"
-             id="tspan817-7-5-0-2-0-7-2"
-             x="441.61893"
-             y="189.5374"
-             style="stroke-width:0.26458332">Steric Blockage</tspan></text>
-      </g>
-    </g>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0"
+       width="134.17462"
+       height="31.499157"
+       x="982.90094"
+       y="31.620684"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1029.4263"
+       y="51.315762"
+       id="text819-6-3-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2"
+         x="1029.4263"
+         y="51.315762"
+         style="stroke-width:0.26458332">Class IV</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-68"
+       width="134.17462"
+       height="31.499157"
+       x="981.49963"
+       y="132.84819"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1007.5171"
+       y="152.05203"
+       id="text819-6-3-7-6-2-4-9"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-7-2"
+         x="1007.5171"
+         y="152.05203"
+         style="stroke-width:0.26458332">Steric Blockage</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect815-3-5-2-0-9-9-86-4"
        width="134.17462"
        height="31.499157"
@@ -278,7 +256,7 @@
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan1415">Barrier</tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect815-3-5-2-0-87"
        width="134.17462"
        height="31.499157"
@@ -297,118 +275,93 @@
          y="101.45692"
          style="stroke-width:0.26458332">Decreased Conductance</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 94.11607,151.85714 H 66.14583 Z"
-       id="path1258"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 189.06216,194.09586 H 163.67142"
        id="path1260"
        inkscape:connector-curvature="0" />
-    <g
-       id="g955"
-       transform="translate(143.93367)">
-      <g
-         id="g921-2"
-         transform="translate(591.88293,2.6726972)">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-6"
-           width="134.17462"
-           height="31.499157"
-           x="453.55478"
-           y="31.086143"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="500.08005"
-           y="50.781219"
-           id="text819-6-3-7-6-1"><tspan
-             sodipodi:role="line"
-             id="tspan817-7-5-0-2-8"
-             x="500.08005"
-             y="50.781219"
-             style="stroke-width:0.26458332">Class VI</tspan></text>
-      </g>
-      <g
-         transform="translate(-3.2871094e-5,-2.1381587)"
-         id="g1742">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-6-2"
-           width="134.17462"
-           height="31.499157"
-           x="1045.4377"
-           y="83.900009"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="1060.9442"
-           y="103.59509"
-           id="text819-6-3-7-6-1-2"><tspan
-             sodipodi:role="line"
-             id="tspan817-7-5-0-2-8-6"
-             x="1060.9442"
-             y="103.59509"
-             style="stroke-width:0.26458332">Decreased Lifetime</tspan></text>
-      </g>
-      <g
-         transform="translate(281.16641,36.077046)"
-         id="g1565">
-        <rect
-           ry="0"
-           y="96.771141"
-           x="764.2713"
-           height="31.499157"
-           width="134.17462"
-           id="rect815-3-5-2-0-9-9-86-4-7"
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <text
-           id="text819-6-3-7-6-2-4-8-9-3"
-           y="108.82586"
-           x="831.06219"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             id="tspan1415-5"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-             y="108.82586"
-             x="832.74426"
-             sodipodi:role="line">Membrane </tspan><tspan
-             id="tspan1559"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-             y="122.05502"
-             x="831.06219"
-             sodipodi:role="line">Stability</tspan></text>
-      </g>
-    </g>
-    <g
-       transform="translate(321.47421,0.53455335)"
-       id="g921-7">
-      <rect
-         ry="0"
-         y="31.086143"
-         x="453.55478"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-9"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-2"
-         y="50.781219"
-         x="500.08005"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="50.781219"
-           x="500.08005"
-           id="tspan817-7-5-0-2-0"
-           sodipodi:role="line">Class III</tspan></text>
-    </g>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-6"
+       width="134.17462"
+       height="31.499157"
+       x="1189.3713"
+       y="33.758842"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1235.8966"
+       y="53.453918"
+       id="text819-6-3-7-6-1"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-8"
+         x="1235.8966"
+         y="53.453918"
+         style="stroke-width:0.26458332">Class VI</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-6-2"
+       width="134.17462"
+       height="31.499157"
+       x="1189.3713"
+       y="81.761848"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1204.8778"
+       y="101.45693"
+       id="text819-6-3-7-6-1-2"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-8-6"
+         x="1204.8778"
+         y="101.45693"
+         style="stroke-width:0.26458332">Decreased Lifetime</tspan></text>
+    <rect
+       ry="0"
+       y="132.84819"
+       x="1189.3713"
+       height="31.499157"
+       width="134.17462"
+       id="rect815-3-5-2-0-9-9-86-4-7"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text819-6-3-7-6-2-4-8-9-3"
+       y="144.90291"
+       x="1256.1622"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan1415-5"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="144.90291"
+         x="1257.8444"
+         sodipodi:role="line">Membrane </tspan><tspan
+         id="tspan1559"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="158.13208"
+         x="1256.1622"
+         sodipodi:role="line">Stability</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9"
+       width="134.17462"
+       height="31.499157"
+       x="775.02899"
+       y="31.620697"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="821.55426"
+       y="51.315773"
+       id="text819-6-3-7-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0"
+         x="821.55426"
+         y="51.315773"
+         style="stroke-width:0.26458332">Class III</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect815-3-5-2-0-9-9"
        width="134.17462"
        height="31.499157"
@@ -417,15 +370,20 @@
        ry="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="787.72516"
-       y="352.66391"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="843.25146"
+       y="345.51477"
        id="text819-6-3-7-6-2-4"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7"
-         x="787.72516"
-         y="352.66391"
-         style="stroke-width:0.26458332">Catalytic ATP Binding</tspan></text>
+         x="844.93353"
+         y="345.51477"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Inhibited </tspan><tspan
+         sodipodi:role="line"
+         x="843.25146"
+         y="358.74393"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1327">Catalytic ATP Binding</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -437,372 +395,275 @@
          x="720.01361"
          y="350.35605"
          style="stroke-width:0.26458332">G551D</tspan></text>
-    <g
-       id="g1284"
-       transform="translate(205.21284,-32.053456)">
-      <rect
-         ry="0"
-         y="164.45364"
-         x="569.81604"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-9-9-8"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-2-4-4"
-         y="177.34514"
-         x="636.6424"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="177.34514"
-           x="638.32446"
-           id="tspan817-7-5-0-2-0-7-5"
-           sodipodi:role="line">R domain </tspan><tspan
-           id="tspan1046"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="190.57431"
-           x="636.6424"
-           sodipodi:role="line">Transition</tspan></text>
-    </g>
-    <g
-       id="g1290"
-       transform="translate(269.92431,-48.891866)">
-      <rect
-         ry="0"
-         y="231.68181"
-         x="505.10458"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-9-9-8-0"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-2-4-4-3"
-         y="244.57332"
-         x="571.93091"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan1046-1"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="244.57332"
-           x="573.61298"
-           sodipodi:role="line">TM Helix </tspan><tspan
-           id="tspan1074"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="257.80249"
-           x="571.93091"
-           sodipodi:role="line">Movement</tspan></text>
-    </g>
-    <g
-       id="g1296"
-       transform="translate(164.46894,-34.031883)">
-      <rect
-         ry="0"
-         y="267.21158"
-         x="610.55994"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-9-9-8-0-0"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-2-4-4-3-6"
-         y="280.10309"
-         x="677.38629"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan1074-2"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="280.10309"
-           x="677.38629"
-           sodipodi:role="line">NBD</tspan><tspan
-           id="tspan1102"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="293.33224"
-           x="677.38629"
-           sodipodi:role="line">Dimerisation</tspan></text>
-    </g>
-    <g
-       id="g1230"
-       transform="translate(545.98201,46.685767)">
-      <rect
-         ry="0"
-         y="236.88368"
-         x="229.04733"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-9-9-6"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-2-4-5"
-         y="248.9384"
-         x="295.6153"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="248.9384"
-           x="297.29736"
-           id="tspan817-7-5-0-2-0-7-6"
-           sodipodi:role="line">Non-catalytic </tspan><tspan
-           id="tspan1172"
-           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="262.16757"
-           x="295.6153"
-           sodipodi:role="line">ATP Binding</tspan></text>
-    </g>
-    <g
-       id="g1278-7"
-       transform="translate(359.4276,213.01682)">
-      <g
-         id="g1334">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-9-9-86"
-           width="134.17462"
-           height="31.499157"
-           x="415.60147"
-           y="170.33356"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="482.39163"
-           y="182.38828"
-           id="text819-6-3-7-6-2-4-8"><tspan
-             sodipodi:role="line"
-             id="tspan817-7-5-0-2-0-7-8"
-             x="484.0737"
-             y="182.38828"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Catalytic ATP </tspan><tspan
-             id="tspan1328"
-             sodipodi:role="line"
-             x="482.39163"
-             y="195.61745"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Hydrolysis</tspan></text>
-      </g>
-    </g>
-    <g
-       transform="translate(321.47409,50.675717)"
-       id="g921-7-1">
-      <rect
-         ry="0"
-         y="31.086143"
-         x="453.55478"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-9-0"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-2-6"
-         y="50.781219"
-         x="476.02982"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="50.781219"
-           x="476.02982"
-           id="tspan817-7-5-0-2-0-1"
-           sodipodi:role="line">Defective Gating</tspan></text>
-    </g>
-    <g
-       transform="translate(-104.95509,51.744785)"
-       id="g921-23-5">
-      <rect
-         ry="0"
-         y="31.086143"
-         x="453.55478"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-7-9"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-5-4"
-         y="50.781219"
-         x="459.75693"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="50.781219"
-           x="459.75693"
-           id="tspan817-7-5-0-2-9-9"
-           sodipodi:role="line">Less Expressed Protein</tspan></text>
-    </g>
-    <g
-       transform="translate(-264.32515,50.675707)"
-       id="g921-3-7">
-      <rect
-         ry="0"
-         y="31.086143"
-         x="453.55478"
-         height="31.499157"
-         width="134.17462"
-         id="rect815-3-5-2-0-61-1"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text819-6-3-7-6-29-1"
-         y="50.781219"
-         x="467.89597"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="50.781219"
-           x="467.89597"
-           id="tspan817-7-5-0-2-3-5"
-           sodipodi:role="line">Defective Synthesis</tspan></text>
-    </g>
-    <g
-       id="g1043">
-      <g
-         transform="translate(322.81345,95.225228)"
-         id="g1339-9">
-        <g
-           id="g1531">
-          <rect
-             ry="0"
-             y="137.95447"
-             x="243.53261"
-             height="31.499157"
-             width="134.17462"
-             id="rect815-3-5-2-0-9-9-8-0-0-0-5-7"
-             style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             id="text819-6-3-7-6-2-4-4-3-6-6-4-7"
-             y="150.00919"
-             x="310.35898"
-             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               id="tspan1102-5-7-6"
-               style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-               y="150.00919"
-               x="310.35898"
-               sodipodi:role="line">Interactions with</tspan><tspan
-               style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-               y="163.23836"
-               x="310.35898"
-               sodipodi:role="line"
-               id="tspan1525">Trafficking Partners</tspan></text>
-        </g>
-      </g>
-      <g
-         id="g921-22"
-         transform="translate(114.30318,0.5345372)">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-8"
-           width="134.17462"
-           height="31.499157"
-           x="453.55478"
-           y="31.086143"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="500.08005"
-           y="50.781219"
-           id="text819-6-3-7-6-9"><tspan
-             sodipodi:role="line"
-             id="tspan817-7-5-0-2-7"
-             x="500.08005"
-             y="50.781219"
-             style="stroke-width:0.26458332">Class II</tspan></text>
-      </g>
-      <g
-         transform="translate(0,-4.2986186)"
-         id="g1724">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-9-9-8-0-0-0"
-           width="134.17462"
-           height="31.499157"
-           x="567.85797"
-           y="136.69881"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="634.90649"
-           y="156.39363"
-           id="text819-6-3-7-6-2-4-4-3-6-6"><tspan
-             sodipodi:role="line"
-             x="634.90649"
-             y="156.39363"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-             id="tspan1102-5">Lasoo Folding</tspan></text>
-      </g>
-      <g
-         transform="translate(322.81345,145.61498)"
-         id="g1339">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-9-9-8-0-0-0-5"
-           width="134.17462"
-           height="31.499157"
-           x="243.53261"
-           y="137.95447"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="310.35898"
-           y="157.64952"
-           id="text819-6-3-7-6-2-4-4-3-6-6-4"><tspan
-             sodipodi:role="line"
-             x="310.35898"
-             y="157.64952"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-             id="tspan1102-5-7">NBD Folding</tspan></text>
-      </g>
-      <g
-         transform="translate(238.79906,-21.447332)"
-         id="g1302">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-9-9-8-0-9"
-           width="134.17462"
-           height="31.499157"
-           x="329.0589"
-           y="204.23727"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="395.88528"
-           y="217.12881"
-           id="text819-6-3-7-6-2-4-4-3-3"><tspan
-             sodipodi:role="line"
-             x="397.56735"
-             y="217.12881"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-             id="tspan1046-1-7">TM Helix </tspan><tspan
-             sodipodi:role="line"
-             x="395.88528"
-             y="230.35799"
-             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-             id="tspan1074-4">Folding</tspan></text>
-      </g>
-      <g
-         id="g921-22-0"
-         transform="translate(114.30318,50.924291)">
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.37286514;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect815-3-5-2-0-8-9"
-           width="134.17462"
-           height="31.499157"
-           x="453.55478"
-           y="31.086143"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="466.4852"
-           y="50.781219"
-           id="text819-6-3-7-6-9-1"><tspan
-             sodipodi:role="line"
-             id="tspan817-7-5-0-2-7-7"
-             x="466.4852"
-             y="50.781219"
-             style="stroke-width:0.26458332">Defective Trafficking</tspan></text>
-      </g>
-    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8"
+       width="134.17462"
+       height="31.499157"
+       x="775.02887"
+       y="132.40019"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="841.85522"
+       y="145.29169"
+       id="text819-6-3-7-6-2-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-7-5"
+         x="843.53729"
+         y="145.29169"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Inhibited R domain </tspan><tspan
+         sodipodi:role="line"
+         x="841.85522"
+         y="158.52086"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1046">Transition</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0"
+       width="134.17462"
+       height="31.499157"
+       x="775.02887"
+       y="182.78995"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="841.85522"
+       y="195.68146"
+       id="text819-6-3-7-6-2-4-4-3"><tspan
+         sodipodi:role="line"
+         x="843.53729"
+         y="195.68146"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1046-1">Inhibited TM Helix </tspan><tspan
+         sodipodi:role="line"
+         x="841.85522"
+         y="208.91063"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1074">Movement</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0-0"
+       width="134.17462"
+       height="31.499157"
+       x="775.02887"
+       y="233.1797"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="841.85522"
+       y="246.07121"
+       id="text819-6-3-7-6-2-4-4-3-6"><tspan
+         sodipodi:role="line"
+         x="841.85522"
+         y="246.07121"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1074-2">Inhibited NBD</tspan><tspan
+         sodipodi:role="line"
+         x="841.85522"
+         y="259.30038"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1102">Dimerisation</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-6"
+       width="134.17462"
+       height="31.499157"
+       x="775.02936"
+       y="283.56946"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="841.59729"
+       y="295.62418"
+       id="text819-6-3-7-6-2-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-7-6"
+         x="843.27936"
+         y="295.62418"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Inhibited Non-catalytic </tspan><tspan
+         sodipodi:role="line"
+         x="841.59729"
+         y="308.85333"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1172">ATP Binding</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-0"
+       width="134.17462"
+       height="31.499157"
+       x="775.02887"
+       y="81.761864"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="797.50391"
+       y="101.45694"
+       id="text819-6-3-7-6-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-1"
+         x="797.50391"
+         y="101.45694"
+         style="stroke-width:0.26458332">Defective Gating</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-7-9"
+       width="134.17462"
+       height="31.499157"
+       x="348.5997"
+       y="82.830925"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="354.80185"
+       y="102.526"
+       id="text819-6-3-7-6-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-9-9"
+         x="354.80185"
+         y="102.526"
+         style="stroke-width:0.26458332">Less Expressed Protein</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-61-1"
+       width="134.17462"
+       height="31.499157"
+       x="189.22963"
+       y="81.761848"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="203.57082"
+       y="101.45692"
+       id="text819-6-3-7-6-29-1"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-3-5"
+         x="203.57082"
+         y="101.45692"
+         style="stroke-width:0.26458332">Defective Synthesis</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="634.68433"
+       y="245.23442"
+       id="text819-6-3-7-6-2-4-4-3-6-6-4-7"><tspan
+         sodipodi:role="line"
+         x="634.68433"
+         y="245.23442"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1102-5-7-6">Interactions with</tspan><tspan
+         id="tspan1525"
+         sodipodi:role="line"
+         x="634.68433"
+         y="258.46359"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Trafficking Partners</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-8"
+       width="134.17462"
+       height="31.499157"
+       x="567.85797"
+       y="31.62068"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="614.38324"
+       y="51.315758"
+       id="text819-6-3-7-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-7"
+         x="614.38324"
+         y="51.315758"
+         style="stroke-width:0.26458332">Class II</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0-0-0"
+       width="134.17462"
+       height="31.499157"
+       x="567.85797"
+       y="132.40019"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="634.90649"
+       y="152.09502"
+       id="text819-6-3-7-6-2-4-4-3-6-6"><tspan
+         sodipodi:role="line"
+         x="634.90649"
+         y="152.09502"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1102-5">Lasoo Folding</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0-0-0-5"
+       width="134.17462"
+       height="31.499157"
+       x="567.85797"
+       y="283.56946"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="634.68433"
+       y="303.2645"
+       id="text819-6-3-7-6-2-4-4-3-6-6-4"><tspan
+         sodipodi:role="line"
+         x="634.68433"
+         y="303.2645"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1102-5-7">NBD Folding</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0-9"
+       width="134.17462"
+       height="31.499157"
+       x="567.85797"
+       y="182.78995"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="634.68433"
+       y="195.68149"
+       id="text819-6-3-7-6-2-4-4-3-3"><tspan
+         sodipodi:role="line"
+         x="636.36639"
+         y="195.68149"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1046-1-7">TM Helix </tspan><tspan
+         sodipodi:role="line"
+         x="634.68433"
+         y="208.91066"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1074-4">Folding</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-8-9"
+       width="134.17462"
+       height="31.499157"
+       x="567.85797"
+       y="82.010437"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="580.78839"
+       y="101.70551"
+       id="text819-6-3-7-6-9-1"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-7-7"
+         x="580.78839"
+         y="101.70551"
+         style="stroke-width:0.26458332">Defective Trafficking</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -861,50 +722,50 @@
          y="178.73335"
          style="stroke-width:0.26458332">S945L</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 766.79628,197.97664 v -49.51168 h 8.35217"
        id="path1226"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 766.79628,148.46496 H 750.76009"
        id="path1228"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 927.74256,205.52976 H 908.84374"
        id="path1230"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 926.98659,189.65476 h -11.15028 v 15.49702"
        id="path1232"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 965.35117,190.03274 h 16.06399"
        id="path1234"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 968.186,151.10119 h 12.85118"
        id="path1236"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 758.37726,346.31122 h 16.70437"
        id="path1238"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="509.42484"
-       y="303.26453"
+       x="719.20587"
+       y="280.20798"
        id="text819-6-3-7-6-2-4-3-5-5-7-6"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7-67-3-6-0-0"
-         x="509.42484"
-         y="303.26453"
+         x="719.20587"
+         y="280.20798"
          style="stroke-width:0.26458332">dF508</tspan></text>
     <text
        xml:space="preserve"
@@ -920,43 +781,43 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="721.41022"
+       x="719.06116"
        y="305.0148"
        id="text819-6-3-7-6-2-4-3-5-9-61"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7-67-3-3-8"
-         x="721.41022"
+         x="719.06116"
          y="305.0148"
          style="stroke-width:0.26458332">L467P</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 758.06307,300.23515 h 16.70437"
        id="path1238-7"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 968.186,151.10119 v 38.88429"
        id="path1236-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 968.30413,168.93694 h -2.3151"
        id="path1022"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 734.40773,179.90763 v 18.44058 h -32.22246"
        id="path1024"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 751.41666,175.00818 h 15.11906"
        id="path1026"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 766.79628,197.97664 h 8.05492"
        id="path1028"
        inkscape:connector-curvature="0" />
@@ -971,34 +832,29 @@
          x="931.34875"
          y="352.16821"
          style="stroke-width:0.26458332">Q1291F/H</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 549.777,299.31903 h 16.70437"
-       id="path1238-7-5"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="512.68042"
+       x="495.74683"
        y="253.23788"
        id="text819-6-3-7-6-2-4-3-5-5-7-6-3"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7-67-3-6-0-0-5"
-         x="512.68042"
+         x="495.74683"
          y="253.23788"
-         style="stroke-width:0.26458332">S13F</tspan></text>
+         style="stroke-width:0.26458332">S13F, P5L</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 549.777,248.92927 h 16.70437"
        id="path1238-7-5-6"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 909.48298,347.80734 h 16.70437"
        id="path1238-3"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 189.37301,151.86018 H 163.98227"
        id="path1260-6"
        inkscape:connector-curvature="0" />
@@ -1016,18 +872,99 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="517.86804"
+       x="484.53003"
        y="151.92986"
        id="text819-6-3-7-6-2-4-3-5-5-7-6-3-3"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7-67-3-6-0-0-5-5"
-         x="517.86804"
+         x="484.53003"
          y="151.92986"
-         style="stroke-width:0.26458332">E56K</tspan></text>
+         style="stroke-width:0.26458332">R75Q, E56K</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 550.73122,147.62124 h 16.70437"
        id="path1238-7-5-6-6"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="717.27832"
+       y="253.37624"
+       id="text819-6-3-7-6-2-4-3-5-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-7-67-3-67-6"
+         x="717.27832"
+         y="253.37624"
+         style="stroke-width:0.26458332">D579G</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 758.06307,248.92927 h 16.70437"
+       id="path1238-7-7"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1139.1416"
+       y="153.06378"
+       id="text819-6-3-7-6-2-4-3-5-5-7-5"><tspan
+         sodipodi:role="line"
+         id="tspan817-7-5-0-2-0-7-67-3-6-0-3"
+         x="1139.1416"
+         y="153.06378"
+         style="stroke-width:0.26458332">L206W</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 702.08951,301.41833 h 14.05854"
+       id="path1238-7-7-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 718.55411,276.95477 h -10.28988 v 24.45517"
+       id="path1110"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 753.56642,276.01934 h 15.36801 v -27.12786"
+       id="path1112"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1176.5203,148.72329 h 12.8511"
+       id="path1236-2"
+       inkscape:connector-curvature="0" />
+    <rect
+       transform="translate(324.32535,95.225227)"
+       ry="0"
+       y="137.95447"
+       x="243.53261"
+       height="31.499157"
+       width="134.17462"
+       id="rect815-3-5-2-0-9-9-8-0-0-0-5-7"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-3-5-2-0-9-9-8-0-9-5-4-1-9"
+       width="134.17462"
+       height="31.499157"
+       x="189.2282"
+       y="271.35333"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="256.46796"
+       y="284.24484"
+       id="text819-6-3-7-6-2-4-4-3-3-2-4-4-1"><tspan
+         id="tspan1267-2-7"
+         sodipodi:role="line"
+         x="256.46796"
+         y="284.24484"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Glycosylation</tspan><tspan
+         sodipodi:role="line"
+         x="256.46796"
+         y="297.474"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1303">Inhibition</tspan></text>
   </g>
 </svg>
