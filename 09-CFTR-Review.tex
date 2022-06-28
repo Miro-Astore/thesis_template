@@ -1,7 +1,7 @@
 %=======================================================================================%
 \chapter{Review of the Molecular Cause of Cystic Fibrosis and Its Treatment}
 \label{chap:cftr_review}
-\chapquote{Because of what's inside me; Because of my genes;-Bob Flanagan, "Why."}{}
+\chapquote{Because of what's inside me; Because of my genes.-Bob Flanagan, ``Why."}{}
 \newpage
 %Authors note:
 % We begin with a breif overview of the disease Cystic Fibrosis as it is the main motiation for this project. A horrendous disease for which we will soon find a cure.
@@ -60,7 +60,7 @@ ATP-Binding Cassette (ABC) transporters are an intriguing super family of protei
 
 CFTR is unique, as it is not a transporter, but rather an anion \textit{channel}. The kinetic energy of the ATP is not used to translocate substrate across the membrane but rather simply used in the regulation of the gating cycle. Chloride, bicarbonate and other anions are able to \textit{passively} diffuse through the channel. This evolutionary misappropriation of a transporter to a "leaky channel" is perhaps the reason so many mutations can create a non-functional protein \cite{linsdell2018}.
 
-\section{CFTR classification and structure}
+\section{CFTR Structure and Function}
 
 The primary cause of the disease Cystic Fibrosis (CF) is the malfunction of a chloride channel, the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR). This ion channel is a member of the ABCC subfamily of ABC transporters, designated ABCC7. This channel is unique amongst this family because it is not generally considered an active transporter but something of a low conductivity channel or a "weak pump"\cite{linsdell2018}.
 
@@ -72,10 +72,16 @@ An open state of the channel has been proposed by combining both the zebra fish 
 
 This salt bridge is clearly visible in the recent cryo-EM structure of ATP-bound human CFTR \cite{zhang2018}.
 
-\section{The Gating Cycle}
-The conformational transition from inactive to active differs significantly in CFTR compared to other ABC transporters. The NBDs are largely similar to other to those found in other ABC transporters, they dimerise in what is termed a head to tail configuration so both subunits contact both bound ATP molecules \cite{} See FIGURE. Residue E1371 allows nucleophilic attack on the $\gamma$ phosphate of the ATP bound to Walker B \cite{Stratford2007}. This provides a "kick" to provide the kinetic energy for the opening of the channel CITATION NEEDED. 
+\subsection{The Gating Cycle}
+The conformational transition from inactive to active differs significantly in CFTR compared to other ABC transporters. The NBDs are largely similar to other to those found in other ABC transporters, they dimerise in what is termed a head to tail configuration so both subunits contact both bound ATP molecules \cite{} See FIGURE. Residue E1371 allows nucleophilic attack by surrounding water on the $\gamma$ phosphate  of the ATP bound to Walker B \cite{Stratford2007}. The hydrolysis of ATP is the event which causes the channel to gate back to the closed conformation \cite{}. 
 
-\section{Classes of Misfunction to CFTR}
+\subsection {Anion Selectivity}
+CFTR is weakly selective for specific anions. F337 is the most important amino acid for selectivity. Bicarbonate (HCO$_3^-$ is known to have roughly 26\% the permeability of chloride through the channel. Note that Fluoride has even higher conductance through CFTR, likely due to its small size and high solvation energy (does this indicate hydrated conductance?). WNK1 is known to influence the selectivity of the channel https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6889609/. The permeation of bicarbonate is very important physiologically because if a mutation permeates bicarbonate it means there is a high likelihood the patient will be pancreatic sufficient. 
+
+Compared to cation channels like Gramicidin and KcsA, CFTR is only weakly selective, permeating a large set of annions with varying radii and geometries. Supposedly it is more permeant to lyotropic (low solvation energy annions) rather than cosmotropic anions (high solvation energy annions) indicating that dehydration of the anion is likely during conductance (CITATION NEEDED). The radius of hydrated chloride ions is 1.7A\cite{yang2002} so even with this larger pore partial dehydration must take place. 
+
+
+\section{Classes of Mutation Which Cause Cystic Fibrosis}
 The 360 disease causing mutations to CFTR have been classified into 6 common classes based on the nature of the CF they cause, their reaction to CFTR modulators, and results \textit{in vitro} assays. Ultimately I aim to show that at the atomic level these classes of mutations are less meaningful and as patient specific theratyping evolves these classes will become less relevant, serving as illustrative tools only to communicate at a higher level what is going wrong with the CFTR protein. The canonical classification is as follows:
 \begin{itemize}
 	\item \textbf{Class I} No functional protein. Under these mutations no protein is transcribed due to either problems with the transcription of mRNA or a premature stop codon truncating protein synthesis early, meaning the resulting peptide is missing key domains. 
@@ -109,21 +115,27 @@ These drugs are clinically efficacious \cite{VanGoor2014} on several mutants wit
 This provides a rationale for why it appears possible for diverse range of molecular defects to be treatable by these small molecules. In our work we've found that the atomic nature of the defects introduced by each mutation varies widely, what is interesting is that experiments in \textit{ex vivo} models have shown that these drugs treat a variety of different defects. The classification of classes of defect is outdated, really there are as many classes as there are mutations.
 
 
-\section {Anion Selectivity}
-CFTR is weakly selective for specific anions. F337 is the most important amino acid for selectivity. Bicarbonate (HCO$_3^-$ is known to have roughly 26\% the permeability of chloride through the channel. Note that Fluoride has even higher conductance through CFTR, likely due to its small size and high solvation energy (does this indicate hydrated conductance?). WNK1 is known to influence the selectivity of the channel https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6889609/. The permeation of bicarbonate is very important physiologically because if a mutation permeates bicarbonate it means there is a high likelihood the patient will be pancreatic sufficient. 
 
-Compared to cation channels like Gramicidin and KcsA, CFTR is only weakly selective, permeating a large set of annions with varying radii and geometries. Supposedly it is more permeant to lyotropic (low solvation energy annions) rather than cosmotropic anions (high solvation energy annions) indicating that dehydration of the anion is likely during conductance (CITATION NEEDED). The radius of hydrated chloride ions is 1.7A\cite{yang2002} so even with this larger pore partial dehydration must take place. This will be analysed in detail in Chapter \ref{chap:opening}.
+\section{Patient Derived Organoids as a Pre Clinical Model}
+The basic unit of living things are cells. In the medical field there is growing capability to discern the functioning of an individual patient's cells. These can be used as models for testing what might produce the best clinical outcomes for the patient. For the case of Cystic Fibrosis researchers have begun to take samples of epithelial stem cells of patients with the disease and grow those samples into tissues which mimic the function of the entire organ\cite{depoel2020}. This is possible in the epithelium due to a population of adult stem cells which maintain the ability to differentiate into a variety of cell types (a property known as pluripotency). 
 
-\section{Patient Derived Organoids}
-The basic unit of living things are cells. In the medical field there is growing capability to discern the functioning of an individual patient's cells. In the field of Cystic Fibrosis Medical Research a recent breakthrough has been to take samples from the epithelium of patients with the disease and grow those samples into tissues which mimic the function of the entire organ\cite{depoel2020}. This is possible in the epithelium due to a population of adult stem cells which maintain the ability to differentiate into a variety of cell types (a property known as pluripotency). 
+Primarily, these epithelial stem cells are taken from the nasal passages of patients or from rectal biopsies. These samples can then be grown into organoid models of the lung or gut respectively. 
 
-Adult stem cells in the epithelium are preferable because other sources of stem cells such as induced pluripotent stem cells (iPSCs) require complex, time consuming protocols to grow into fully developed organoids. 
+Adult stem cells in the epithelium are preferable because other sources of stem cells such as induced pluripotent stem cells (iPSCs) require complex, time consuming protocols to grow into fully developed organoids. Already the differentiation and expansion of epithelial samples takes a month \cite{}.
 
 In the case of CF this technology allows the construction of a scalable, patient specific platform where a patient's own tissues can be tested to determine the best treatment for them. These pre-clinical models will allow more patients in the heterogeneous set of disease causing mutations to access modulators. 
 
-Forskolin Induced Swelling (FIS) assays have been used to characterise the patient specific response of a patient's organoids to a drug regimen \cite{dekkers2013}. 
+%One limitation of these organoid platforms is the lack of an inflammatory response since no immune cells are present in the tissue culture. 
+The response of the patient's epithelium is characterised using a few \textit{in vitro} assays which we will briefly discuss below. 
 
-One limitation of these organoid platforms is the lack of an inflammatory response since no immune cells are present in the tissue culture. 
+\subsection{Forskolin Induced Swelling}
+Forskolin Induced Swelling (FIS) assays have been used to characterise the patient specific response of a patient's organoids to a drug regimen \cite{dekkers2013}. When epithelial cells are exposed to a chemical known as Forskolin they begin to rapidly produce cyclic AMP (cAMP, a precursor to ATP in a cell) \cite{}. This allows the down stream activation of CFTR ion channels, causing the organoids themselves to swell. This swelling allows cell biologists to easily quantify the activity of CFTR within a patient, in a variety of conditions.
 
+\subsection{Cilia Beating Frequency}
+The lungs are covered in cilia which fluctuate or "beat" in order to clear mucus and other particles in the respiratory tract \cite{mitchison2010, bustamante-marin2017}. One of the most characteristic symptoms of patients with Cystic Fibrosis is the build up of mucus around the epithelium. This causes cilia to collapse, meaning they cannot move \cite{}. By measuring .
 
-%
+\subsection{Electrophysiology}
+Since CFTR is an ion channel, measuring its electrical activity is a direct way to assess its function. For single channel studies this is done with a patch clamp. However, this does not give an assessment of the whole epithelium. Often the whole organoid is used as a patch and put in an Ussing chamber. By blocking other ion channels such as ENAC a clear picture of CFTR function can be .
+
+\subsection{Western Blotting to Assess CFTR Trafficking}
+The above methods may be able to properly quantify gating class mutations but they will struggle to assess the amount of CFTR at the cell surface. For this we employ .

@@ -7,8 +7,9 @@
 %   >  Hodgkin-Huxley Models
 %   > Gramicidin 
 % Point out how Cystic Fibrosis is an expression of this progression, going from genotype to phenotype using an ion channel to teach us biophysics. 
+% conclusion.
 \pagenumbering{arabic}
-\chapter{Introduction}
+\chapter{What is Biophysics?}
 \setcounter{page}{1}
 \label{chap:intro}
 \chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes \cite{frauenfelder1994} } {}
@@ -20,19 +21,19 @@
 
 Why can't I  write down an equation will tell me how long I will live? Or how many hairs I will grow?
 
-This might seem like an inane question but if you asked a physicist for the formula for how long it takes a radioactive material to decay or how long it will take an object to fall into a black hole they will be able to answer easily.
+This might seem like an inane question but if you asked a physicist how much power it would take to ionise a gas or how long it will take an object to fall into a black hole they will have highly accurate models at the ready to answer easily. 
 
 What makes the first set of questions so much more difficult to answer?
 
-Our current physical theories have sufficient accuracy at the energy and length scales of biology that we can accuarately model every component inside a living being\cite{carroll2021}. So why are living systems so hard to study?
+Our current physical theories have sufficient accuracy at the energy and length scales of biology that we can accuarately model every phenomenon inside a living being\cite{carroll2021}. So why are living systems so hard to study for theorists?
 
-I posit that it is the diversity of components that makes biological questions so difficult to both ask and answer. Biology distinguishes itself amongst scientific disciplines requiring the study of systems that are both complex and heterogeneous. In the study of more simple physical systems a simple analogy such as a mass on a spring or a gas of hard spheres can be extremely successful in explaining macroscopic phenomena. For biological systems there appears to be too much complexity for such analogies to have the same level of success. They may struggle to answer questions such as "If this gene mutates how will that affect lung function?" "If this drug were given at a higher dosage what would its effect be?" "What if we change this chemical moiety?" At the moment, a trained chemist needs to go and answer these questions pipette in hand, the physicist with their notebook is hopeless.
+The complexity of biology does not arise from intractable pair wise interactions but rather from the interactions between many different components. It is the diversity of components that makes biological questions so difficult to both ask and answer. Biology distinguishes itself from more tradiational physics as it requires the study of systems that are highly heterogeneous and anisotropic. For simple physical systems the physicist can draw on conceptual tools such as a mass on a spring or a gas of hard spheres which can be extremely successful in explaining macroscopic phenomena. For biological systems there appears to be too much complexity for such analogies to have the same level of success. They may struggle to answer questions such as "If this gene mutates how will that affect lung function?" "If this drug were given at a higher dosage what would its effect be?" "What if we change this chemical moiety?" At the moment, a trained chemist needs to go and answer these questions pipette in hand, the physicist with their notebook is hopeless.
 
 It seems like a silly question but it seems important to ask why we can't just use a device similar to a harmonic oscillator or a perfect black body to speculate at useful answers for these quantitative questions. 
 
 The answer is just as silly. If you look with your naked eye at your arm, you will notice hair, pores, dry skin, dead skin, perhaps even tendons and muscles under the all that. Under that top layer, there are two more layers to your skin with different functions and composition. If you were to take a single cell from any of those layers and stain it to distinguish features in an electron microscope you would notice all sorts of complex structures and the size and number of these structures would vary depending on where you took the cell from in the body. Within and between each those structures is a salty, wet dance of molecules large and small. This heterogeneity on length scales hints at the reasons behind biology's physical complexity. Plasma physics is often characterised by the density of the plasma studied. This parameter may span 28 orders of magnitude from a dense stellar core to the sparse intergalactic nebulae \cite{chen2018}. The same mathematical tools can be used to map any plasma in these energy scales. Would that we were so lucky in biology. We struggle to apply same physical models to deal with phenomena across a single order of magnitude.  
 
-Thus, in order to move towards more predictive theories of biology it is necessary to consider much more of the fundamental physical processes occurring within biological systems than simply searching for statistical trends. One form of this from fundamentals approach is the simulation of every atom in a biological system. Although computationally expensive, this approach appears necessary due to the heterogeneous nature of biological systems \cite{} kuyucak, corry. 
+Thus, in order to move towards more predictive theories of biology it is necessary to consider much more of the fundamental physical processes occurring within biological systems than simply searching for statistical trends. One form of this from fundamentals approach is the simulation of every atom in a biological system. Although computationally expensive, this approach has been proven necessary due to the heterogeneous nature of biological systems \cite{moy2000, corry2000a}. We can sadly get away with very little idealisation when it comes to the molecular details of proteins.
 
 One of the things we're trying to do with molecular dynamics is fill in the gap left by the sequence->function paradigm which is internalised in current understandings of molecular biology. We usually talk about how the sequence of the gene defines its function because it gives the protein its structure but really there is a considerably larger amount of regulatory pressure exerted by the environment. This is what is missing from the sequence alone paradigm.
 
@@ -122,9 +123,9 @@ Moreover, by learning the nuts and bolts of what goes wrong with CFTR we can sta
 
 The reality of disease pathogenesis being caused by so many different mutations means that there has been decades of investigation into the function of every domain in the protein. 
 
-Due to the array of disease causing mutations which occur accross the cystic fibrosis protein, there is a large body of literature on its unique function. This allows us a glance into its function and an opportunity to simultaneously perform basic biophysical research while directly assisting in furthering patient outcomes.  
+Due to the array of disease causing mutations which occur accross the cystic fibrosis protein, there is a large body of literature on its unique function. This allows us a glance into its function and an opportunity to simultaneously perform basic biophysical research while directly assisting in furthering patient outcomes. This is the sort of inquiry which drives basic science forward, combining interesting experimental data into theoretical models to make testable predictions. The aim of this thesis is to build a model to make predictions about which kind of drugs will produce positive patient outcomes.
 
-\section{Well. We're in the future}
+\section{Welcome to the Future}
 Throughout science, the integration of experimental data with theoretical models leads to new and exciting research, this is particularly true in biology with its important applications in medicine, agriculture and increasingly, manufacturing. Wet lab biologists take advantage of experimental techniques which allow them to understand the dynamics and structure of living things from the top down. The finer the experimental instrument, the finer the detail they may resolve. Conversely, computational and theoretical biologists take a bottom up approach, we aim to take the granular details of a system, and integrate them upwards to model the macroscopic behaviour of that system. With more powerful computers and more detailed models we can make predictions about the behaviour of more complex systems. What is so exciting about the current era of biological research is that the domains of these two approaches are beginning to overlap, where they can synergize  and drive further breakthroughs. As we discover more systems where this overlap can be found we will develop more sophisticated treatments for diseases and problems found around the world.
 
 The reason this has happened before in physics is two fold. Physical systems are much more homogeneous. So it's much easier to integrate upwards in length scale. Once you understand the pairwise interaction between two components it's simply a question of having the theoretical and computational capacity to model the bulk behaviour of that system. 
