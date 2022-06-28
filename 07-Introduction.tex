@@ -9,49 +9,30 @@
 % Point out how Cystic Fibrosis is an expression of this progression, going from genotype to phenotype using an ion channel to teach us biophysics. 
 % conclusion.
 \pagenumbering{arabic}
-\chapter{Introduction}
+\chapter{Introduction: A Philosophy on Physical Biology}
 \setcounter{page}{1}
 \label{chap:intro}
 \chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes \cite{frauenfelder1994} } {}
-In this short chapter we will quickly build a philosophy of biophysics. First we will delineate what the goal of a physicist is, to create abstract formalisms which can be used to model the natural world. We will then observe what makes the construction of such analogies so dififcult in biology and how a specific set of examples allow us to work upward and model more complex biological systems. 
+\section{Thesis and Chapter Summary}
+This thesis seeks to apply a molecular philosophy on biophysics to demonstrate its ability to elucidate pressing problems in biology and medicine. In particular, we will look at how knowledge of the molecular details in the function of a protein ion channel has important cellualr functions.
 
-\section{The Physics Inside your Cells}
-\chapquote{}{}
+In this first short chapter we will quickly build a philosophy of how to look at biology through the lens of a physicist. First we will delineate what the goal of a physicist is, to create abstract formalisms which can be used to model the natural world. We will then observe what makes the construction of such analogies so dififcult in biology and how a specific set of examples, namely ion channels, allow us to work upward and model more complex biological systems. 
 
-\vskip 0.5cm
+Chapter \ref{chap:methods} describes in some detail the chemical and numerical simulation techniques we used to study the CFTR protein system.  Chapters \ref{chap:i37r}, \ref{chap:r352q}, \ref{chap:s945l} and \ref{chap:opening} demonstrate how a diverse application of these techniques can be used to discover unique modes of misfunction introduced by a mutation and in combination with \textit {in vitro} cellular techniques, prove that these mutations can be rescued by existing drug regimens.  Finally, chapter \ref{chap:conclusion} argues for a physical model for the action of cystic fibrosis .
 
-Why can't I  write down an equation which will tell me how long I will live? Or how tall I will grow?
-
-This might seem like an inane question but if you asked a physicist how much power it would take to ionise a gas or how long it will take a black hole to evaporate and they will have highly accurate models at the ready to answer easily. 
-
-What makes the first set of questions so much more difficult to answer?
-
-Our current physical theories have sufficient accuracy at the energy and length scales of biology that we can accuarately model every phenomenon inside a living being\cite{carroll2021}. So why are living systems so hard to study for theorists?
-
-The complexity of biology does not arise from complex interactions. As we will see in \ref{chap:methods} the interactions between atoms within living things is surprisngly simple. Rather, the complexity arises from the simple interactions between many diverse components. Inside cells we find proteins, lipids, solvents, salts each with their own properties. Biophysics distinguishes itself from more tradiational physics as it considers systems that are highly heterogeneous and anisotropic. For simple physical systems the physicist can draw on conceptual tools such as a mass on a spring or a gas of hard spheres which can be extremely successful in explaining many phenomena. 
-
-For biological systems there appears to be too much complexity for such analogies to have the same level of success. 
-
-The heterogeneity of biology is easy to observe. If you look with your naked eye at your arm, you will notice hair, pores, dry skin, dead skin, perhaps even tendons and muscles under the all that. Under that top layer, there are two more layers to your skin with different functions and composition. If you were to take a single cell from any of those layers and stain it to distinguish features in an electron microscope you would notice all sorts of complex structures and the size and number of these structures would vary depending on where you took the cell from in the body. Within and between each those structures is a salty, wet dance of molecules large and small. This heterogeneity on length scales hints at the reasons behind biology's physical complexity. Plasma physicists may use the same mathematical tools to describe materials as diverse as the dense stellar core to the sparse intergalactic nebulae these span 28 orders of magnitude in density \cite{chen2018}. Would that we were so lucky in biology. We struggle to apply same physical models to deal with phenomena across a single order of magnitude.  
-
-Thus, in order to move towards more predictive theories of biology it is necessary to consider much more of the fundamental physical processes occurring within biological systems than simply searching for statistical trends. One form of this from fundamentals approach is the simulation of every atom in a biological system. Although computationally expensive, this approach has been proven necessary due to the heterogeneous nature of biological systems \cite{moy2000, corry2000a}. We can sadly get away with very little idealisation when it comes to the molecular details of proteins.
-
-One of the things we're trying to do with molecular dynamics is fill in the gap left by the sequence->function paradigm which is internalised in current understandings of molecular biology. We usually talk about how the sequence of the gene defines its function because it gives the protein its structure but really there is a considerably larger amount of regulatory pressure exerted by the environment. This is what is missing from the sequence alone paradigm.
 
 \section{What is Physics?}
-Personally I have always given answers along the lines of "the study of the movement of energy within a system" or when I was in high school "The study of how things move". Although adequate for a layman these might obscure the fundamental structure within physics that make it such a powerful tool. It is the conception of some causal unit in a system and the ability to scale up the behaviour of that unit to make predictions about measurable phenomena.
+Personally, I have always described physics answers along the lines of "the study of the movement of energy within a system" or when I was in high school "The study of how things move". Although adequate for a layman these might obscure the process of creating physical models that make it such a powerful tool. Physical theories rely on the conceptualisation of some causal unit in a system and then use mathematics to scale up the behaviour of that unit to make predictions about measurable phenomena. This is what makes physics feel like the most "fundamental" of the sciences
 
-This might take a few different forms at different scales, it's what makes physics feel like the most "fundamental" of the sciences. 
+This might take a few different forms at different scales. Examples might be.
 
-Examples include:
-
-Newton's laws of gravitation to explain the organisation of the solar system. 
+Newton's laws of gravitation to explain the movements of the celestial bodies in the solar system. 
 
 Einstein's theories employing Reimannian geometry to track the motions of galaxies and black holes.
 
-The conception of atoms as hard spheres used to derive the macroscopic behaviour of gasses.
+The approximation of atoms as hard spheres used to derive the macroscopic behaviour of gasses.
 
-The schrodinger wave function to find the structure of atoms, which can then be integrated further up to find their macroscopic organisations. In chatper \ref{chap:methods} I'll walk you through how we use these laws to model biomolecular dynamics.  
+The schrodinger wave function to find the structure of atoms, which can then be integrated further up to find their macroscopic organisations. In chapter \ref{chap:methods} I'll walk you through how we use these laws to model biomolecular dynamics.  
 
 The field of biophysics has an interesting origin. Erwin Schroedinger wrote an essay titled "What is Life?" This remarkable work, written in  1944 before the discovery of DNA or the maturation of information theory speculates from first principals in thermodynamics and quantum mechanics, the nature of life at the atomic level. The most remarkble thing about this essay is how much the author gets right. The observation that since organisms exist at high (?) temperatures the phyical encoding of their genome must be chemical in nature, as energy barriers lower than that of chemistry would be oblated by at physiological temperatures. Schroedinger posits the existence of what he  calls an "aperiodic crystal". He was right, this crystal just happened to be one dimensional. This allegory is an example of how physcial principals can in fact be used to make testable, far reaching predictions about fundamental biology. The details may simply be more difficult since it is harder to capture the heterogeneous details inside cells.
 
@@ -74,6 +55,29 @@ It is hoped that illustrating the monumental task in both intellectual effort an
 After this things start to run away from me with my handful of GPUs and limited patience. So in this thesis we will only discuss single proteins.
 %Biological strange loops would not seem to be as self similar as the clean nice logics in the strange loop of the Godelian knot. Why is this?
 
+\section{The Physics Inside your Cells}
+\chapquote{}{}
+
+\vskip 0.5cm
+
+Why can't I  write down an equation which will tell me how long I will live? Or how tall I will grow?
+
+This might seem like an inane question but if you asked a physicist how much power it would take to ionise a gas or how long it will take a black hole to evaporate and they will have highly accurate models at the ready to answer easily. 
+
+What makes the first set of questions so much more difficult to answer?
+
+Our current physical theories have sufficient accuracy at the energy and length scales of biology that we can accuarately model every phenomenon inside a living being\cite{carroll2021}. So why are living systems so hard to study for theorists?
+
+The complexity of biology does not arise from complex interactions. As we will see in \ref{chap:methods} the interactions between atoms within living things is surprisngly simple. Rather, the complexity arises from the simple interactions between many diverse components. Inside cells we find proteins, lipids, solvents, salts each with their own properties. Biophysics distinguishes itself from more tradiational physics as it considers systems that are highly heterogeneous and anisotropic. For simple physical systems the physicist can draw on conceptual tools such as a mass on a spring or a gas of hard spheres which can be extremely successful in explaining many phenomena. 
+
+For biological systems there appears to be too much complexity for such analogies to have the same level of success. 
+
+The heterogeneity of biology is easy to observe. If you look at your arm, you will notice hair, pores, dry skin, dead skin, perhaps even tendons and muscles twitching beneath the surface. That skin is itself made of layers there are two more layers to your skin with different functions and composition. If you were to take a single cell from any of those layers and stain it to distinguish features in an electron microscope you would notice all sorts of complex structures and the size and number of these structures would vary depending on where you took the cell from in the body. Within and between each those structures is a salty, wet dance of molecules large and small. This heterogeneity on length scales hints at the reasons behind biology's physical complexity. Plasma physicists may use the same mathematical tools to describe materials as diverse as the dense stellar core to the sparse intergalactic nebulae these span 28 orders of magnitude in density \cite{chen2018}. Would that we were so lucky in biology. We struggle to apply same physical models to deal with phenomena across a single order of magnitude.  
+
+Thus, in order to move towards more predictive theories of biology it is necessary to consider much more of the fundamental physical processes occurring within biological systems than simply searching for statistical trends. One form of this from fundamentals approach is the simulation of every atom in a biological system. Although computationally expensive, this approach has been proven necessary due to the heterogeneous nature of biological systems \cite{moy2000, corry2000a}. We can sadly get away with very little idealisation when it comes to the molecular details of proteins.
+
+One of the things we're trying to do with molecular dynamics is fill in the gap left by the sequence->function paradigm which is internalised in current understandings of molecular biology. We usually talk about how the sequence of the gene defines its function because it gives the protein its structure but really there is a considerably larger amount of regulatory pressure exerted by the environment. This is what is missing from the sequence alone paradigm.
+
 
 \section{Using Ion Channels as Natural Laboratories to Learn Biophysics}
 The physiological importane of ion channels became clear after the experiments of Hodkin and Huxley. These mathematicians took nerves from giant squid and measured the current running through the nerve in response to electrical stimulation. What they found was intruiging. Current would only flow when the input signal was of a sufficient voltage. The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant electrochemical gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics. The following set coupled ordinary differential equations were discovered by testing functions which fit the measurements taken from the squid axon.   
@@ -95,7 +99,7 @@ The $\alpha$ and $\beta \in [0,1]$ parameters are the proportion of the sodium a
 		\includegraphics[width=0.5\textwidth]{figures/Hodgkin-Huxley_action_potential.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[The Action Potential is a Solution to the Hodkin-Huxley Model] {\textbf{The Action Potential is a Solution to the Hodgkin-Huxley Model }}{The shape of the action potential is a similar sight in many physiology textbooks. It was is in fact discovered as a result of the mathematical modelling of Hodgkin and Huxley hinting at the deep biophysics of ion channels won them the 1963 Noble Prize in medicine. This discovery is an excellent example of how deep theoretical insight can lead to predictable models of living systems \cite{hodgkin1952}\cite{hodgkin1952a}\cite{hodgkin1952b}\cite{hodgkin1952c}\cite{hodgkin1952d}\cite{hodgkin1952e}.}
+	\caption[The Action Potential is a Solution to the Hodkin-Huxley Model] {\textbf{The Action Potential is a Solution to the Hodgkin-Huxley Model }}{The shape of the action potential is a similar sight in many physiology textbooks. It was is in fact discovered as a result of the mathematical modelling of Hodgkin and Huxley hinting at the deep biophysics of ion channels won them the 1963 Noble Prize in medicine. This discovery is an excellent example of how deep theoretical insight can lead to predictable models of living systems \cite{hodgkin1952, hodgkin1952a, hodgkin1952b, hodgkin1952c, hodgkin1952d, hodgkin1952e}.}
 	\label{action_potential_graphic}
 \end{figure}
 
@@ -133,6 +137,8 @@ The reason this has happened before in physics is two fold. Physical systems are
 
 The difference with biological systems is that they have so many different components that finding an analytic or even computationally tractable solution is usually impossible. However, as we collect more data and build more powerful computers we can approach more complete models. These in turn inform more powerful theoretical models these help direct the material efforts of experimental expertise . 
 
-While previously we were limited it functional data concerning ion channels we now have unprecedented resolution for the structure dynamics for the inside of a cell. Advances in cryoEM, confocal microscopy, fluorescent microscopy and genetic engineering allow us to glimpse unprecendented information about the salty dance of life inside cells.
+While previously we were limited it functional data concerning ion channels we now have unprecedented resolution for the structure dynamics for the inside of a cell. Advances in cryogenic electron microscopy, confocal microscopy, X-ray Crystallography, fluorescent microscopy and genetic engineering allow us to glimpse unprecendented information about the salty dance of life inside cells.
 
 Alphafold is a good example. This new breakthrough builds on decades of inquiry from the structural biology community and advancements in AI to give high resolution protein structures. Now this result can be used to fill in the gaps of structural biology. Crucually, alphafold konws what it doesn't know. So we can tell where to direct the efforts of structural biology. Together these advances will fill more gaps in our knowledge of protein physics. 
+
+Armed with this philosophy we will delineate how to use the causal unit of the Schr\"oedinger wave equation to make approximations to atomic systems in order to create a biophysical model for macromolecular systmes like proteins.
