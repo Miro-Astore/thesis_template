@@ -52,6 +52,48 @@
     \field{year}{1994}
   \endentry
 
+  \entry{hofstadter2007}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HDR}{%
+         family={Hofstadter},
+         familyi={H\bibinitperiod},
+         given={Douglas\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{BasicBooks}}%
+    }
+    \strng{namehash}{HDR1}
+    \strng{fullhash}{HDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Hofstadter's long-awaited return to the themes of G\"odel, Escher, Bach--an
+  original and controversial view of the nature of consciousness and identity.
+  What do we mean when we say "I"? Can a self, a soul, a consciousness, an "I"
+  arise out of mere matter? If it cannot, then how can you or I be here? This
+  book argues that the key to understanding selves and consciousness is a
+  special kind of abstract feedback loop inhabiting our brains. Deep down, a
+  human brain is a chaotic soup of particles, on a higher level it is a jungle
+  of neurons, and on a yet higher level it is a network of abstractions that we
+  call "symbols." The most central and complex symbol in your brain or mine is
+  the one we both call "I." But how can such a mysterious abstraction be
+  real--or is our "I" merely a convenient fiction?--From publisher description%
+    }
+    \field{isbn}{978-0-465-03079-8 978-0-465-03078-1}
+    \field{title}{I Am a Strange Loop}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York, NY}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/H29UR6JK/Hofstadter - 2007 - I am a strange
+    \verb  loop.pdf
+    \endverb
+    \field{year}{2007}
+  \endentry
+
   \entry{carroll2021}{article}{}
     \name{author}{1}{}{%
       {{hash=CSM}{%
@@ -121,46 +163,139 @@
     \field{year}{2018}
   \endentry
 
-  \entry{hofstadter2007}{book}{}
-    \name{author}{1}{}{%
-      {{hash=HDR}{%
-         family={Hofstadter},
-         familyi={H\bibinitperiod},
-         given={Douglas\bibnamedelima R.},
-         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+  \entry{moy2000}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MG}{%
+         family={Moy},
+         familyi={M\bibinitperiod},
+         given={Glenn},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Corry},
+         familyi={C\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CSH}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Shin-Ho},
+         giveni={S\bibinithyphendelim H\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {{BasicBooks}}%
-    }
-    \strng{namehash}{HDR1}
-    \strng{fullhash}{HDR1}
+    \strng{namehash}{MG+1}
+    \strng{fullhash}{MGCBKSCSH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Hofstadter's long-awaited return to the themes of G\"odel, Escher, Bach--an
-  original and controversial view of the nature of consciousness and identity.
-  What do we mean when we say "I"? Can a self, a soul, a consciousness, an "I"
-  arise out of mere matter? If it cannot, then how can you or I be here? This
-  book argues that the key to understanding selves and consciousness is a
-  special kind of abstract feedback loop inhabiting our brains. Deep down, a
-  human brain is a chaotic soup of particles, on a higher level it is a jungle
-  of neurons, and on a yet higher level it is a network of abstractions that we
-  call "symbols." The most central and complex symbol in your brain or mine is
-  the one we both call "I." But how can such a mysterious abstraction be
-  real--or is our "I" merely a convenient fiction?--From publisher description%
+    Continuum theories of electrolytes are widely used to describe physical
+  processes in various biological systems. Although these are well-established
+  theories in macroscopic situations, it is not clear from the outset that they
+  should work in small systems whose dimensions are comparable to or smaller
+  than the Debye length. Here, we test the validity of the mean-field
+  approximation in Poisson-Boltzmann theory by comparing its predictions with
+  those of Brownian dynamics simulations. For this purpose we use spherical and
+  cylindrical boundaries and a catenary shape similar to that of the
+  acetylcholine receptor channel. The interior region filled with electrolyte
+  is assumed to have a high dielectric constant, and the exterior region
+  representing protein a low one. Comparisons of the force on a test ion
+  obtained with the two methods show that the shielding effect due to
+  counterions is overestimated in Poisson-Boltzmann theory when the ion is
+  within a Debye length of the boundary. As the ion gets closer to the
+  boundary, the discrepancy in force grows rapidly. The implication for
+  membrane channels, whose radii are typically smaller than the Debye length,
+  is that Poisson-Boltzmann theory cannot be used to obtain reliable estimates
+  of the electrostatic potential energy and force on an ion in the channel
+  environment.%
     }
-    \field{isbn}{978-0-465-03079-8 978-0-465-03078-1}
-    \field{title}{I Am a Strange Loop}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{New York, NY}}%
-    }
-    \verb{file}
-    \verb /home/miro/Zotero/storage/H29UR6JK/Hofstadter - 2007 - I am a strange
-    \verb  loop.pdf
+    \verb{doi}
+    \verb 10.1016/S0006-3495(00)76780-4
     \endverb
-    \field{year}{2007}
+    \field{issn}{0006-3495}
+    \field{number}{5}
+    \field{pages}{2349\bibrangedash 2363}
+    \field{title}{Tests of {{Continuum Theories}} as {{Models}} of {{Ion
+  Channels}}. {{I}}. {{Poisson}}-{{Boltzmann Theory}} versus {{Brownian
+  Dynamics}}}
+    \field{volume}{78}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/XPR967SK/Moy et al. - 2000 - Tests of Conti
+    \verb nuum Theories as Models of Ion Chann.pdf;/home/miro/Zotero/storage/5S
+    \verb 3W9DIM/S0006349500767804.html
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{month}{05}
+    \field{year}{2000}
+  \endentry
+
+  \entry{corry2000a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CB}{%
+         family={Corry},
+         familyi={C\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CSH}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Shin\bibnamedelima Ho},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cell Press}}%
+    }
+    \strng{namehash}{CB+1}
+    \strng{fullhash}{CBKSCSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We test the validity of the mean-field approximation in Poisson-Nernst-
+  Planck theory by contrasting its predictions with those of Brownian dynamics
+  simulations in schematic cylindrical channels and in a realistic potassium
+  channel. Equivalence of the two theories in bulk situations is demonstrated
+  in a control study. In simple cylindrical channels, considerable differences
+  are found between the two theories with regard to the concentration profiles
+  in the channel and its conductance properties. These differences are at a
+  maximum in narrow channels with a radius smaller than the Debye length and
+  diminish with increasing radius. Convergence occurs when the channel radius
+  is over 2 Debye lengths. These tests unequivocally demonstrate that the mean-
+  field approximation in the Poisson-Nernst-Planck theory breaks down in narrow
+  ion channels that have radii smaller than the Debye length.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0006-3495(00)76781-6
+    \endverb
+    \field{issn}{0006-3495}
+    \field{number}{5}
+    \field{pages}{2364\bibrangedash 2381}
+    \field{title}{Tests of Continuum Theories as Models of Ion Channels.
+  {{II}}. {{Poisson- Nernst-Planck}} Theory versus Brownian Dynamics}
+    \field{volume}{78}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/RRAXF2A9/Corry et al. - 2000 - Tests of Con
+    \verb tinuum Theories as Models of Ion Chann.pdf;/home/miro/Zotero/storage/
+    \verb XNS6XNQX/S0006349500767816.html
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{month}{05}
+    \field{year}{2000}
   \endentry
 
   \entry{hodgkin1952}{article}{}
@@ -178,6 +313,7 @@
          giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
     }
+    \keyw{Axons,AXONS,Humans}
     \strng{namehash}{HALHAF1}
     \strng{fullhash}{HALHAF1}
     \field{labelnamesource}{author}
@@ -261,9 +397,9 @@
     \field{labeltitlesource}{title}
     \field{issn}{0022-3751}
     \field{number}{4}
-    \field{pages}{497\bibrangedash 506}
-    \field{title}{The Dual Effect of Membrane Potential on Sodium Conductance
-  in the Giant Axon of {{Loligo}}}
+    \field{pages}{449\bibrangedash 472}
+    \field{title}{Currents Carried by Sodium and Potassium Ions through the
+  Membrane of the Giant Axon of {{Loligo}}}
     \field{volume}{116}
     \field{journaltitle}{The Journal of Physiology}
     \field{month}{04}
@@ -321,51 +457,12 @@
     \field{labeltitlesource}{title}
     \field{issn}{0022-3751}
     \field{number}{4}
-    \field{pages}{449\bibrangedash 472}
-    \field{title}{Currents Carried by Sodium and Potassium Ions through the
-  Membrane of the Giant Axon of {{Loligo}}}
+    \field{pages}{497\bibrangedash 506}
+    \field{title}{The Dual Effect of Membrane Potential on Sodium Conductance
+  in the Giant Axon of {{Loligo}}}
     \field{volume}{116}
     \field{journaltitle}{The Journal of Physiology}
     \field{month}{04}
-    \field{year}{1952}
-  \endentry
-
-  \entry{hodgkin1952e}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HAL}{%
-         family={Hodgkin},
-         familyi={H\bibinitperiod},
-         given={A.\bibnamedelima L.},
-         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=HAF}{%
-         family={Huxley},
-         familyi={H\bibinitperiod},
-         given={A.\bibnamedelima F.},
-         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \keyw{Axons,AXONS,Humans}
-    \strng{namehash}{HALHAF1}
-    \strng{fullhash}{HALHAF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1113/jphysiol.1952.sp004764
-    \endverb
-    \field{issn}{0022-3751}
-    \field{number}{4}
-    \field{pages}{500\bibrangedash 544}
-    \field{title}{A Quantitative Description of Membrane Current and Its
-  Application to Conduction and Excitation in Nerve}
-    \field{volume}{117}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/3E4FYKG2/Hodgkin and Huxley - 1952 - A quan
-    \verb titative description of membrane current and.pdf
-    \endverb
-    \field{journaltitle}{The Journal of Physiology}
-    \field{month}{08}
     \field{year}{1952}
   \endentry
 
@@ -484,6 +581,60 @@
     \field{journaltitle}{Nature Reviews. Drug Discovery}
     \field{month}{01}
     \field{year}{2017}
+  \endentry
+
+  \entry{depristo2005a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DMA}{%
+         family={DePristo},
+         familyi={D\bibinitperiod},
+         given={Mark\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WDM}{%
+         family={Weinreich},
+         familyi={W\bibinitperiod},
+         given={Daniel\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HDL}{%
+         family={Hartl},
+         familyi={H\bibinitperiod},
+         given={Daniel\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Agriculture,Animal Genetics and Genomics,Biomedicine,Cancer
+  Research,Gene Function,general,Human Genetics}
+    \strng{namehash}{DMA+1}
+    \strng{fullhash}{DMAWDMHDL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Proteins are finicky molecules; they are barely stable and are prone to
+  aggregate, but they must function in a crowded environment that is full of
+  degradative enzymes bent on their destruction. It is no surprise that many
+  common diseases are due to missense mutations that affect protein stability
+  and aggregation. Here we review the literature on biophysics as it relates to
+  molecular evolution, focusing on how protein stability and aggregation affect
+  organismal fitness. We then advance a biophysical model of protein evolution
+  that helps us to understand phenomena that range from the dynamics of
+  molecular adaptation to the clock-like rate of protein evolution.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrg1672
+    \endverb
+    \field{number}{9}
+    \field{pages}{678\bibrangedash 687}
+    \field{title}{Missense Meanderings in Sequence Space: {{A}} Biophysical
+  View of Protein Evolution}
+    \field{volume}{6}
+    \field{journaltitle}{Nature Reviews Genetics}
+    \field{month}{09}
+    \field{year}{2005}
   \endentry
 
   \entry{braun2019}{article}{}
@@ -1058,79 +1209,20 @@
     \field{volume}{25}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/9V2L5XPD/Mackerell Jr. - 2004 - Empirical f
-    \verb orce fields for biological macromolecul.pdf;/home/miro/Zotero/storage
-    \verb /G2DNGB5Q/jcc.html
+    \verb /home/miro/Zotero/storage/2U4RWNQN/Mackerell - 2004 - Empirical force
+    \verb  fields for biological macromolecul.pdf;/home/miro/Zotero/storage/9V2
+    \verb L5XPD/Mackerell Jr. - 2004 - Empirical force fields for biological ma
+    \verb cromolecul.pdf;/home/miro/Zotero/storage/G2DNGB5Q/jcc.html
     \endverb
     \field{journaltitle}{Journal of Computational Chemistry}
     \field{annotation}{%
     \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.20082%
     }
+    \field{month}{10}
     \field{year}{2004}
   \endentry
 
   \entry{mackerell2004}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MAD}{%
-         family={MacKerell},
-         familyi={M\bibinitperiod},
-         given={Alexander\bibnamedelima D.},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={Feig},
-         familyi={F\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BCL}{%
-         family={Brooks},
-         familyi={B\bibinitperiod},
-         given={Charles\bibnamedelima L.},
-         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Chemical Society}}%
-    }
-    \strng{namehash}{MAD+1}
-    \strng{fullhash}{MADFMBCL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Empirical force field-based calculations of proteins, including
-  protein-folding studies, have improved our understanding of the relationship
-  of their structure to their biological function. However, limitations in the
-  accuracy of empirical force fields in the treatment of the peptide backbone
-  exist. Presented is a grid correction approach to improve the treatment of
-  the peptide backbone {$\varphi$}/{$\psi$} conformational energies. Inclusion
-  of this correction with the CHARMM22 all-atom protein force field is shown to
-  lead to significant improvement in the treatment of the conformational
-  energies of both the peptide model compound, the alanine dipeptide, and of
-  proteins in their crystal environment. The developed approach is suggested to
-  lead to significant improvements in the accuracy of empirical force fields to
-  treat peptides and proteins.%
-    }
-    \verb{doi}
-    \verb 10.1021/ja036959e
-    \endverb
-    \field{issn}{0002-7863}
-    \field{number}{3}
-    \field{pages}{698\bibrangedash 699}
-    \field{title}{Improved {{Treatment}} of the {{Protein Backbone}} in
-  {{Empirical Force Fields}}}
-    \field{volume}{126}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/ASL645Q7/MacKerell et al. - 2004 - Improved
-    \verb  Treatment of the Protein Backbone in Empi.pdf;/home/miro/Zotero/stor
-    \verb age/W24ZCXUV/ja036959e.html
-    \endverb
-    \field{journaltitle}{Journal of the American Chemical Society}
-    \field{month}{01}
-    \field{year}{2004}
-  \endentry
-
-  \entry{mackerell2004a}{article}{}
     \name{author}{3}{}{%
       {{hash=MAD}{%
          family={Mackerell},
@@ -1153,8 +1245,8 @@
     }
     \keyw{Algorithms,Computer Simulation,Dipeptides,Models; Molecular,Molecular
   Structure,Protein Conformation,Proteins,Thermodynamics}
-    \strng{namehash}{MAD+2}
-    \strng{fullhash}{MADFMBCL2}
+    \strng{namehash}{MAD+1}
+    \strng{fullhash}{MADFMBCL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
     \field{abstract}{%
@@ -1208,6 +1300,67 @@
     \field{langid}{english}
     \field{journaltitle}{Journal of Computational Chemistry}
     \field{month}{08}
+    \field{year}{2004}
+  \endentry
+
+  \entry{mackerell2004a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feig},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BCL}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={Charles\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{MAD+2}
+    \strng{fullhash}{MADFMBCL2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Empirical force field-based calculations of proteins, including
+  protein-folding studies, have improved our understanding of the relationship
+  of their structure to their biological function. However, limitations in the
+  accuracy of empirical force fields in the treatment of the peptide backbone
+  exist. Presented is a grid correction approach to improve the treatment of
+  the peptide backbone {$\varphi$}/{$\psi$} conformational energies. Inclusion
+  of this correction with the CHARMM22 all-atom protein force field is shown to
+  lead to significant improvement in the treatment of the conformational
+  energies of both the peptide model compound, the alanine dipeptide, and of
+  proteins in their crystal environment. The developed approach is suggested to
+  lead to significant improvements in the accuracy of empirical force fields to
+  treat peptides and proteins.%
+    }
+    \verb{doi}
+    \verb 10.1021/ja036959e
+    \endverb
+    \field{issn}{0002-7863}
+    \field{number}{3}
+    \field{pages}{698\bibrangedash 699}
+    \field{title}{Improved {{Treatment}} of the {{Protein Backbone}} in
+  {{Empirical Force Fields}}}
+    \field{volume}{126}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ASL645Q7/MacKerell et al. - 2004 - Improved
+    \verb  Treatment of the Protein Backbone in Empi.pdf;/home/miro/Zotero/stor
+    \verb age/W24ZCXUV/ja036959e.html
+    \endverb
+    \field{journaltitle}{Journal of the American Chemical Society}
+    \field{month}{01}
     \field{year}{2004}
   \endentry
 
@@ -1347,80 +1500,6 @@
     \field{journaltitle}{Journal of Molecular Biology}
     \field{month}{07}
     \field{year}{1963}
-  \endentry
-
-  \entry{huang2017}{article}{}
-    \name{author}{9}{}{%
-      {{hash=HJ}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Jing},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=RS}{%
-         family={Rauscher},
-         familyi={R\bibinitperiod},
-         given={Sarah},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NG}{%
-         family={Nawrocki},
-         familyi={N\bibinitperiod},
-         given={Grzegorz},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=RT}{%
-         family={Ran},
-         familyi={R\bibinitperiod},
-         given={Ting},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={Feig},
-         familyi={F\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=dBL}{%
-         family={{de Groot}},
-         familyi={d\bibinitperiod},
-         given={Bert\bibnamedelima L},
-         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=GH}{%
-         family={Grubm{\"u}ller},
-         familyi={G\bibinitperiod},
-         given={Helmut},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=MAD}{%
-         family={MacKerell},
-         familyi={M\bibinitperiod},
-         given={Alexander\bibnamedelima D},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=J}{%
-         family={{Jr.}},
-         familyi={J\bibinitperiod},
-      }}%
-    }
-    \keyw{Computational biophysics,Protein structure
-  predictions,Proteins,Software,Structure determination}
-    \strng{namehash}{HJ+1}
-    \strng{fullhash}{HJRSNGRTFMdBLGHMADJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1038/nmeth.4067
-    \endverb
-    \field{number}{1}
-    \field{pages}{71\bibrangedash 73}
-    \field{title}{{{CHARMM36m}}: {{An Improved Force Field For Folded}} and
-  {{Intrinsically Disordered Proteins}}}
-    \field{volume}{14}
-    \field{journaltitle}{Nature Methods}
-    \field{month}{01}
-    \field{year}{2017}
   \endentry
 
   \entry{yoo2018a}{article}{}
@@ -2052,12 +2131,34 @@
          giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {{National Academy of Sciences}}%
+    }
     \keyw{Computer simulations,Intrinsically disordered proteins,Protein
   dynamics}
     \strng{namehash}{RP+2}
     \strng{fullhash}{RPPSSDE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Molecular dynamics (MD) simulation is a valuable tool for characterizing
+  the structural dynamics of folded proteins and should be similarly applicable
+  to disordered proteins and proteins with both folded and disordered regions.
+  It has been unclear, however, whether any physical model (force field) used
+  in MD simulations accurately describes both folded and disordered proteins.
+  Here, we select a benchmark set of 21 systems, including folded and
+  disordered proteins, simulate these systems with six state-of-the-art force
+  fields, and compare the results to over 9,000 available experimental data
+  points. We find that none of the tested force fields simultaneously provided
+  accurate descriptions of folded proteins, of the dimensions of disordered
+  proteins, and of the secondary structure propensities of disordered proteins.
+  Guided by simulation results on a subset of our benchmark, however, we
+  modified parameters of one force field, achieving excellent agreement with
+  experiment for disordered proteins, while maintaining state-of-the-art
+  accuracy for folded proteins. The resulting force field, a99SB-disp, should
+  thus greatly expand the range of biological systems amenable to MD
+  simulation. A similar approach could be taken to improve other force fields.%
+    }
     \verb{doi}
     \verb 10.1073/pnas.1800690115
     \endverb
@@ -2072,7 +2173,8 @@
     \verb /home/miro/Zotero/storage/VZ8NUN82/Robustelli et al. - 2018 - Develop
     \verb ing a molecular dynamics force field for bo.pdf
     \endverb
-    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
     \field{month}{05}
     \field{year}{2018}
   \endentry
@@ -2280,7 +2382,7 @@
     \strng{fullhash}{PRKJTJGHKJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{edition}{2nd edition}
+    \field{edition}{Second edition, first issued in paperback}
     \field{isbn}{978-0-8153-4450-6}
     \field{title}{Physical {{Biology}} of the {{Cell}}}
     \field{langid}{english}
@@ -3414,7 +3516,7 @@
     }
     \keyw{Lennard-Jones potential,liquid theory,molecular dynamics
   method,stochastic processes,water}
-    \strng{namehash}{BG+1}
+    \strng{namehash}{BG+2}
     \strng{fullhash}{BGDDPM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -3436,7 +3538,7 @@
     \endverb
     \field{issn}{00219606}
     \field{number}{1}
-    \field{pages}{014101}
+    \field{pages}{014101\bibrangedash 014101}
     \field{title}{Canonical Sampling through Velocity Rescaling}
     \field{volume}{126}
     \verb{file}
@@ -3449,65 +3551,6 @@
     }
     \field{month}{01}
     \field{year}{2007}
-  \endentry
-
-  \entry{berendsen1984a}{article}{}
-    \name{author}{5}{}{%
-      {{hash=BHJC}{%
-         family={Berendsen},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima J.\bibnamedelima C.},
-         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
-      }}%
-      {{hash=PJPM}{%
-         family={Postma},
-         familyi={P\bibinitperiod},
-         given={J.\bibnamedelima P.\bibnamedelima M.},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-      }}%
-      {{hash=vWF}{%
-         family={{van Gunsteren}},
-         familyi={v\bibinitperiod},
-         given={W.\bibnamedelima F.},
-         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=DA}{%
-         family={DiNola},
-         familyi={D\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=HJR}{%
-         family={Haak},
-         familyi={H\bibinitperiod},
-         given={J.\bibnamedelima R.},
-         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Institute of Physics}}%
-    }
-    \strng{namehash}{BHJC+1}
-    \strng{fullhash}{BHJCPJPMvWFDAHJR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1063/1.448118
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{8}
-    \field{pages}{3684\bibrangedash 3690}
-    \field{title}{Molecular Dynamics with Coupling to an External Bath}
-    \field{volume}{81}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/PBJTBJQG/Berendsen et al. - 1984 - Molecula
-    \verb r dynamics with coupling to an external ba.pdf
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{10}
-    \field{year}{1984}
   \endentry
 
   \entry{martyna1996}{article}{}
@@ -3558,84 +3601,6 @@
     \field{journaltitle}{Molecular Physics}
     \field{month}{04}
     \field{year}{1996}
-  \endentry
-
-  \entry{abraham2015}{article}{}
-    \name{author}{7}{}{%
-      {{hash=AMJ}{%
-         family={Abraham},
-         familyi={A\bibinitperiod},
-         given={Mark\bibnamedelima James},
-         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MT}{%
-         family={Murtola},
-         familyi={M\bibinitperiod},
-         given={Teemu},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=SR}{%
-         family={Schulz},
-         familyi={S\bibinitperiod},
-         given={Roland},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=PS}{%
-         family={P{\'a}ll},
-         familyi={P\bibinitperiod},
-         given={Szil{\'a}rd},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SJC}{%
-         family={Smith},
-         familyi={S\bibinitperiod},
-         given={Jeremy\bibnamedelima C.},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=HB}{%
-         family={Hess},
-         familyi={H\bibinitperiod},
-         given={Berk},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=LE}{%
-         family={Lindah},
-         familyi={L\bibinitperiod},
-         given={Erik},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Elsevier}}%
-    }
-    \keyw{Free energy,Gpu,Molecular dynamics,Simd}
-    \strng{namehash}{AMJ+1}
-    \strng{fullhash}{AMJMTSRPSSJCHBLE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    GROMACS is one of the most widely used open-source and free software codes
-  in chemistry, used primarily for dynamical simulations of biomolecules. It
-  provides a rich set of calculation types, preparation and analysis tools.
-  Several advanced techniques for free-energy calculations are supported. In
-  version 5, it reaches new performance heights, through several new and
-  enhanced parallelization algorithms. These work on every level; SIMD
-  registers inside cores, multithreading, heterogeneous CPU-GPU acceleration,
-  state-of-the-art 3D domain decomposition, and ensemble-level parallelization
-  through built-in replica exchange and the separate Copernicus framework. The
-  latest best-in-class compressed trajectory storage format is supported.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.softx.2015.06.001
-    \endverb
-    \field{issn}{23527110}
-    \field{pages}{19\bibrangedash 25}
-    \field{title}{Gromacs: {{High}} Performance Molecular Simulations through
-  Multi-Level Parallelism from Laptops to Supercomputers}
-    \field{volume}{1--2}
-    \field{journaltitle}{SoftwareX}
-    \field{month}{09}
-    \field{year}{2015}
   \endentry
 
   \entry{karal2021}{article}{}
@@ -3849,45 +3814,6 @@
     \field{journaltitle}{Physical Review Letters}
     \field{month}{10}
     \field{year}{1980}
-  \endentry
-
-  \entry{parrinello1981a}{article}{}
-    \name{author}{2}{}{%
-      {{hash=PM}{%
-         family={Parrinello},
-         familyi={P\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=RA}{%
-         family={Rahman},
-         familyi={R\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PMRA1}
-    \strng{fullhash}{PMRA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1063/1.328693
-    \endverb
-    \field{issn}{0021-8979, 1089-7550}
-    \field{number}{12}
-    \field{pages}{7182\bibrangedash 7190}
-    \field{shorttitle}{Polymorphic Transitions in Single Crystals}
-    \field{title}{Polymorphic Transitions in Single Crystals: {{A}} New
-  Molecular Dynamics Method}
-    \field{volume}{52}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/A9HJ63HM/Parrinello and Rahman - 1981 - Pol
-    \verb ymorphic transitions in single crystals A new .pdf
-    \endverb
-    \field{journaltitle}{Journal of Applied Physics}
-    \field{month}{12}
-    \field{year}{1981}
   \endentry
 
   \entry{leach2001}{book}{}
@@ -4350,7 +4276,7 @@
   \endentry
 
   \entry{brooks1988}{book}{}
-    \name{editor}{3}{}{%
+    \name{author}{3}{}{%
       {{hash=BCL}{%
          family={Brooks},
          familyi={B\bibinitperiod},
@@ -4371,26 +4297,107 @@
       }}%
     }
     \list{publisher}{1}{%
-      {{John Wiley \& Sons, Inc.}}%
+      {{Wiley}}%
     }
     \strng{namehash}{BCL+1}
     \strng{fullhash}{BCLKMPBM1}
-    \field{labelnamesource}{editor}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1002/9780470141205
-    \endverb
-    \field{isbn}{978-0-470-14120-5 978-0-471-62801-9}
-    \field{series}{Advances in {{Chemical Physics}}}
-    \field{shorttitle}{Advances in {{Chemical Physics}}}
-    \field{title}{Advances in {{Chemical Physics}}: {{Proteins}}: {{A
-  Theoretical Perspective}} of {{Dynamics}}, {{Structure}}, and
-  {{Thermodynamics}}}
+    \field{isbn}{978-0-471-52977-4 978-0-471-62801-9}
+    \field{number}{71}
+    \field{series}{Advances in Chemical Physics}
+    \field{shorttitle}{Proteins}
+    \field{title}{Proteins: A Theoretical Perspective of Dynamics, Structure,
+  and Thermodynamics}
+    \field{langid}{english}
     \list{location}{1}{%
-      {{Hoboken, NJ, USA}}%
+      {{New York}}%
     }
-    \field{month}{01}
     \field{year}{1988}
+  \endentry
+
+  \entry{flood2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=FE}{%
+         family={Flood},
+         familyi={F\bibinitperiod},
+         given={Emelie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Boiteux},
+         familyi={B\bibinitperiod},
+         given={C{\'e}line},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Lev},
+         familyi={L\bibinitperiod},
+         given={Bogdan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vorobyov},
+         familyi={V\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{FE+1}
+    \strng{fullhash}{FEBCLBVIATW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Membrane ion channels are the fundamental electrical components in the
+  nervous system. Recent developments in X-ray crystallography and cryo-EM
+  microscopy have revealed what these proteins look like in atomic detail but
+  do not tell us how they function. Molecular dynamics simulations have
+  progressed to the point that we can now simulate realistic molecular
+  assemblies to produce quantitative calculations of the thermodynamic and
+  kinetic quantities that control function. In this review, we summarize the
+  state of atomistic simulation methods for ion channels to understand their
+  conduction, activation, and drug modulation mechanisms. We are at a
+  crossroads in atomistic simulation, where long time scale observation can
+  provide unbiased exploration of mechanisms, supplemented by biased free
+  energy methodologies. We illustrate the use of these approaches to describe
+  ion conduction and selectivity in voltage-gated sodium and acid-sensing ion
+  channels. Studies of channel gating present a significant challenge, as
+  activation occurs on longer time scales. Enhanced sampling approaches can
+  ensure convergence on minimum free energy pathways for activation, as
+  illustrated here for pentameric ligand-gated ion channels that are principal
+  to nervous system function and the actions of general anesthetics. We also
+  examine recent studies of local anesthetic and antiepileptic drug binding to
+  a sodium channel, revealing sites and pathways that may offer new targets for
+  drug development. Modern simulations thus offer a range of molecular-level
+  insights into ion channel function and modulation as a learning platform for
+  mechanistic discovery and drug development.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.chemrev.8b00630
+    \endverb
+    \field{issn}{0009-2665}
+    \field{number}{13}
+    \field{pages}{7737\bibrangedash 7832}
+    \field{title}{Atomistic {{Simulations}} of {{Membrane Ion Channel
+  Conduction}}, {{Gating}}, and {{Modulation}}}
+    \field{volume}{119}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/32GBH8TV/Flood et al. - 2019 - Atomistic Si
+    \verb mulations of Membrane Ion Channel Cond.pdf;/home/miro/Zotero/storage/
+    \verb YX5M5KUN/acs.chemrev.html
+    \endverb
+    \field{journaltitle}{Chemical Reviews}
+    \field{month}{07}
+    \field{year}{2019}
   \endentry
 
   \entry{werner2012}{article}{}
@@ -4607,55 +4614,49 @@
          giveni={G\bibinitperiod},
       }}%
     }
-    \keyw{Algorithms,Computer Simulation,Models; Biological,Models;
-  Statistical,Sodium,Sodium Channels,Thermodynamics}
     \strng{namehash}{ZFHG1}
     \strng{fullhash}{ZFHG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    The weighted histogram analysis method (WHAM) has become the standard
-  technique for the analysis of umbrella sampling simulations. In this article,
-  we address the challenges (1) of obtaining fast and accurate solutions of the
-  coupled nonlinear WHAM equations, (2) of quantifying the statistical errors
-  of the resulting free energies, (3) of diagnosing possible systematic errors,
-  and (4) of optimally allocating of the computational resources.
-  Traditionally, the WHAM equations are solved by a fixed-point direct
-  iteration method, despite poor convergence and possible numerical
-  inaccuracies in the solutions. Here, we instead solve the mathematically
-  equivalent problem of maximizing a target likelihood function, by using
-  superlinear numerical optimization algorithms with a significantly faster
-  convergence rate. To estimate the statistical errors in one-dimensional free
-  energy profiles obtained from WHAM, we note that for densely spaced umbrella
-  windows with harmonic biasing potentials, the WHAM free energy profile can be
-  approximated by a coarse-grained free energy obtained by integrating the mean
-  restraining forces. The statistical errors of the coarse-grained free
-  energies can be estimated straightforwardly and then used for the WHAM
-  results. A generalization to multidimensional WHAM is described. We also
-  propose two simple statistical criteria to test the consistency between the
-  histograms of adjacent umbrella windows, which help identify inadequate
-  sampling and hysteresis in the degrees of freedom orthogonal to the reaction
-  coordinate. Together, the estimates of the statistical errors and the
-  diagnostics of inconsistencies in the potentials of mean force provide a
-  basis for the efficient allocation of computational resources in free energy
-  simulations.%
+    GLIC is a bacterial member of the large family of pentameric ligand-gated
+  ion channels. To study ion conduction through GLIC and other membrane
+  channels, we combine the one-dimensional potential of mean force for ion
+  passage with a Smoluchowski diffusion model, making it possible to calculate
+  single-channel conductance in the regime of low ion concentrations from
+  all-atom molecular dynamics (MD) simulations. We then perform MD simulations
+  to examine sodium ion conduction through the GLIC transmembrane pore in two
+  systems with different bulk ion concentrations. The ion potentials of mean
+  force, calculated from umbrella sampling simulations with Hamiltonian replica
+  exchange, reveal a major barrier at the hydrophobic constriction of the pore.
+  The relevance of this barrier for ion transport is confirmed by a committor
+  function that rises sharply in the barrier region. From the free evolution of
+  Na(+) ions starting at the barrier top, we estimate the effective diffusion
+  coefficient in the barrier region, and subsequently calculate the conductance
+  of the pore. The resulting diffusivity compares well with the
+  position-dependent ion diffusion coefficient obtained from restrained
+  simulations. The ion conductance obtained from the diffusion model agrees
+  with the value determined via a reactive-flux rate calculation. Our results
+  show that the conformation in the GLIC crystal structure, with an estimated
+  conductance of \textasciitilde 1 picosiemens at 140 mM ion concentration, is
+  consistent with a physiologically open state of the channel.%
     }
     \verb{doi}
-    \verb 10.1002/jcc.21989
+    \verb 10.1021/ct2009279
     \endverb
-    \field{issn}{1096-987X}
-    \field{number}{4}
-    \field{pages}{453\bibrangedash 465}
-    \field{title}{Convergence and Error Estimation in Free Energy Calculations
-  Using the Weighted Histogram Analysis Method}
-    \field{volume}{33}
+    \field{issn}{1549-9626}
+    \field{number}{10}
+    \field{pages}{3759\bibrangedash 3768}
+    \field{title}{Theory and Simulation of Ion Conduction in the Pentameric
+  {{GLIC}} Channel}
+    \field{volume}{8}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/5AQKP3HN/Zhu and Hummer - 2012 - Convergenc
-    \verb e and error estimation in free energy ca.pdf
+    \verb /home/miro/Zotero/storage/YADL7M58/Zhu and Hummer - 2012 - Theory and
+    \verb  simulation of ion conduction in the pen.pdf
     \endverb
-    \field{journaltitle}{Journal of Computational Chemistry}
-    \field{month}{02}
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{10}
     \field{year}{2012}
   \endentry
 
@@ -4727,89 +4728,6 @@
     \endverb
     \field{journaltitle}{Journal of Chemical Information and Modeling}
     \field{month}{05}
-    \field{year}{2019}
-  \endentry
-
-  \entry{you2019a}{article}{}
-    \name{author}{3}{}{%
-      {{hash=YW}{%
-         family={You},
-         familyi={Y\bibinitperiod},
-         given={Wanli},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=TZ}{%
-         family={Tang},
-         familyi={T\bibinitperiod},
-         given={Zhiye},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=CCeA}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Chia-en\bibnamedelima A.},
-         giveni={C\bibinithyphendelim e\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Chemical Society}}%
-    }
-    \strng{namehash}{YW+1}
-    \strng{fullhash}{YWTZCCeA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    Changes in free energy provide valuable information for molecular
-  recognition, including both ligand\textendash receptor binding thermodynamics
-  and kinetics. Umbrella sampling (US), a widely used free energy calculation
-  method, has long been used to explore the dissociation process of
-  ligand\textendash receptor systems and compute binding free energy. In
-  existing publications, the binding free energy computed from the potential of
-  mean force (PMF) with US simulation mostly yielded ``ball park'' values with
-  experimental data. However, the computed PMF values are highly influenced by
-  factors such as initial conformations and/or trajectories provided, the
-  reaction coordinate, and sampling of conformational space in each US window.
-  These critical factors have rarely been carefully studied. Here we used US to
-  study the guest aspirin and 1-butanol dissociation processes of
-  {$\beta$}-cyclodextrin ({$\beta$}-CD) and an inhibitor SB2 dissociation from
-  a p38{$\alpha$} mitogen-activated protein kinase (MAPK) complex. For
-  {$\beta$}-CD, we used three different {$\beta$}-CD conformations to generate
-  the dissociation path with US windows. For p38{$\alpha$}, we generated the
-  dissociation pathway by using accelerated molecular dynamics followed by
-  conformational relaxing with short conventional MD, steered MD, and manual
-  pulling. We found that, even for small {$\beta$}-CD complexes, different
-  {$\beta$}-CD conformations altered the height of the PMF, but the pattern of
-  PMF was not affected if the MD sampling in each US window was well-converged.
-  Because changing the macrocyclic ring conformation needs to rotate dihedral
-  angles in the ring, a bound ligand largely restrains the motion of
-  cyclodextrin. Therefore, once a guest is in the binding site, cyclodextrin
-  cannot freely change its initial conformation, resulting in different
-  absolute heights of the PMF, which cannot be overcome by running excessively
-  long MD simulations for each US window. Moreover, if the US simulations were
-  not converged, the important barrier and minimum were missed. For
-  ligand\textendash protein systems, our studies also suggest that the
-  dissociation trajectories modeled by an enhanced sampling method must
-  maintain a natural molecular movement to avoid biased PMF plots when using US
-  simulations.%
-    }
-    \verb{doi}
-    \verb 10.1021/acs.jctc.8b01142
-    \endverb
-    \field{issn}{1549-9618}
-    \field{number}{4}
-    \field{pages}{2433\bibrangedash 2443}
-    \field{shorttitle}{Potential {{Mean Force}} from {{Umbrella Sampling
-  Simulations}}}
-    \field{title}{Potential {{Mean Force}} from {{Umbrella Sampling
-  Simulations}}: {{What Can We Learn}} and {{What Is Missed}}?}
-    \field{volume}{15}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/WPLIPNVS/You et al. - 2019 - Potential Mean
-    \verb  Force from Umbrella Sampling Simula.pdf
-    \endverb
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{04}
     \field{year}{2019}
   \endentry
 
@@ -4954,49 +4872,55 @@
          giveni={G\bibinitperiod},
       }}%
     }
+    \keyw{Algorithms,Computer Simulation,Models; Biological,Models;
+  Statistical,Sodium,Sodium Channels,Thermodynamics}
     \strng{namehash}{ZFHG1}
     \strng{fullhash}{ZFHG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    GLIC is a bacterial member of the large family of pentameric ligand-gated
-  ion channels. To study ion conduction through GLIC and other membrane
-  channels, we combine the one-dimensional potential of mean force for ion
-  passage with a Smoluchowski diffusion model, making it possible to calculate
-  single-channel conductance in the regime of low ion concentrations from
-  all-atom molecular dynamics (MD) simulations. We then perform MD simulations
-  to examine sodium ion conduction through the GLIC transmembrane pore in two
-  systems with different bulk ion concentrations. The ion potentials of mean
-  force, calculated from umbrella sampling simulations with Hamiltonian replica
-  exchange, reveal a major barrier at the hydrophobic constriction of the pore.
-  The relevance of this barrier for ion transport is confirmed by a committor
-  function that rises sharply in the barrier region. From the free evolution of
-  Na(+) ions starting at the barrier top, we estimate the effective diffusion
-  coefficient in the barrier region, and subsequently calculate the conductance
-  of the pore. The resulting diffusivity compares well with the
-  position-dependent ion diffusion coefficient obtained from restrained
-  simulations. The ion conductance obtained from the diffusion model agrees
-  with the value determined via a reactive-flux rate calculation. Our results
-  show that the conformation in the GLIC crystal structure, with an estimated
-  conductance of \textasciitilde 1 picosiemens at 140 mM ion concentration, is
-  consistent with a physiologically open state of the channel.%
+    The weighted histogram analysis method (WHAM) has become the standard
+  technique for the analysis of umbrella sampling simulations. In this article,
+  we address the challenges (1) of obtaining fast and accurate solutions of the
+  coupled nonlinear WHAM equations, (2) of quantifying the statistical errors
+  of the resulting free energies, (3) of diagnosing possible systematic errors,
+  and (4) of optimally allocating of the computational resources.
+  Traditionally, the WHAM equations are solved by a fixed-point direct
+  iteration method, despite poor convergence and possible numerical
+  inaccuracies in the solutions. Here, we instead solve the mathematically
+  equivalent problem of maximizing a target likelihood function, by using
+  superlinear numerical optimization algorithms with a significantly faster
+  convergence rate. To estimate the statistical errors in one-dimensional free
+  energy profiles obtained from WHAM, we note that for densely spaced umbrella
+  windows with harmonic biasing potentials, the WHAM free energy profile can be
+  approximated by a coarse-grained free energy obtained by integrating the mean
+  restraining forces. The statistical errors of the coarse-grained free
+  energies can be estimated straightforwardly and then used for the WHAM
+  results. A generalization to multidimensional WHAM is described. We also
+  propose two simple statistical criteria to test the consistency between the
+  histograms of adjacent umbrella windows, which help identify inadequate
+  sampling and hysteresis in the degrees of freedom orthogonal to the reaction
+  coordinate. Together, the estimates of the statistical errors and the
+  diagnostics of inconsistencies in the potentials of mean force provide a
+  basis for the efficient allocation of computational resources in free energy
+  simulations.%
     }
     \verb{doi}
-    \verb 10.1021/ct2009279
+    \verb 10.1002/jcc.21989
     \endverb
-    \field{issn}{1549-9626}
-    \field{number}{10}
-    \field{pages}{3759\bibrangedash 3768}
-    \field{title}{Theory and Simulation of Ion Conduction in the Pentameric
-  {{GLIC}} Channel}
-    \field{volume}{8}
+    \field{issn}{1096-987X}
+    \field{number}{4}
+    \field{pages}{453\bibrangedash 465}
+    \field{title}{Convergence and Error Estimation in Free Energy Calculations
+  Using the Weighted Histogram Analysis Method}
+    \field{volume}{33}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/YADL7M58/Zhu and Hummer - 2012 - Theory and
-    \verb  simulation of ion conduction in the pen.pdf
+    \verb /home/miro/Zotero/storage/5AQKP3HN/Zhu and Hummer - 2012 - Convergenc
+    \verb e and error estimation in free energy ca.pdf
     \endverb
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{10}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{02}
     \field{year}{2012}
   \endentry
 
@@ -5034,8 +4958,8 @@
       {{hash=CPC}{%
          family={Chen},
          familyi={C\bibinitperiod},
-         given={Po-Chia},
-         giveni={P\bibinithyphendelim C\bibinitperiod},
+         given={Po\bibnamedelima Chia},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=KS}{%
          family={Kuyucak},
@@ -5050,9 +4974,9 @@
     \field{labeltitlesource}{title}
     \field{abstract}{%
     Free energy calculations for protein-ligand dissociation have been tested
-  and validated for small ligands (50~atoms or less), but there has been a
+  and validated for small ligands (50 atoms or less), but there has been a
   paucity of studies for larger, peptide-size ligands due to computational
-  limitations. Previously we~have studied the energetics of dissociation in a
+  limitations. Previously we have studied the energetics of dissociation in a
   potassium channel-charybdotoxin complex by using umbrella sampling
   molecular-dynamics simulations, and established the need for carefully chosen
   coordinates and restraints to maintain the physiological ligand conformation.
@@ -5063,7 +4987,7 @@
   restraints on the ligand, which enables determination of the binding free
   energy within the chemical accuracy. We make several suggestions for optimal
   choices of harmonic potential parameters and restraints to be used in binding
-  studies of large ligands.%
+  studies of large ligands. \textcopyright{} 2011 by the Biophysical Society.%
     }
     \verb{doi}
     \verb 10.1016/j.bpj.2011.03.052
@@ -5071,9 +4995,9 @@
     \field{issn}{0006-3495}
     \field{number}{10}
     \field{pages}{2466\bibrangedash 2474}
-    \field{title}{Accurate {{Determination}} of the {{Binding Free Energy}} for
-  {{KcsA-Charybdotoxin Complex}} from the {{Potential}} of {{Mean Force
-  Calculations}} with {{Restraints}}}
+    \field{title}{Accurate Determination of the Binding Free Energy for
+  {{KcsA-charybdotoxin}} Complex from the Potential of Mean Force Calculations
+  with Restraints}
     \field{volume}{100}
     \verb{file}
     \verb /home/miro/Zotero/storage/JKTIF69N/Chen and Kuyucak - 2011 - Accurate
@@ -5122,7 +5046,7 @@
     \list{publisher}{1}{%
       {{Springer International Publishing}}%
     }
-    \strng{namehash}{BG+1}
+    \strng{namehash}{BG+2}
     \strng{fullhash}{BGLATP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
@@ -6270,101 +6194,6 @@
     \field{year}{2020}
   \endentry
 
-  \entry{shi2013a}{article}{}
-    \name{author}{7}{}{%
-      {{hash=SY}{%
-         family={Shi},
-         familyi={S\bibinitperiod},
-         given={Yue},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=XZ}{%
-         family={Xia},
-         familyi={X\bibinitperiod},
-         given={Zhen},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=ZJ}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Jiajing},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Best},
-         familyi={B\bibinitperiod},
-         given={Robert},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=WC}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Chuanjie},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=PJW}{%
-         family={Ponder},
-         familyi={P\bibinitperiod},
-         given={Jay\bibnamedelima W.},
-         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=RP}{%
-         family={Ren},
-         familyi={R\bibinitperiod},
-         given={Pengyu},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SY+2}
-    \strng{fullhash}{SYXZZJBRWCPJWRP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Development of the AMOEBA (Atomic Multipole Optimized Energetics for
-  Biomolecular Simulation) force field for proteins is presented. The current
-  version (AMOEBA-2013) utilizes permanent electrostatic multipole moments
-  through the quadrupole at each atom, and explicitly treats polarization
-  effects in various chemical and physical environments. The atomic multipole
-  electrostatic parameters for each amino acid residue type are derived from
-  high-level gas phase quantum mechanical calculations via a consistent and
-  extensible protocol. Molecular polarizability is modeled via a Thole-style
-  damped interactive induction model based upon distributed atomic
-  polarizabilities. Inter- and intramolecular polarization is treated in a
-  consistent fashion via the Thole model. The intramolecular polarization model
-  ensures transferability of electrostatic parameters among different
-  conformations, as demonstrated by the agreement between QM and AMOEBA
-  electrostatic potentials, and dipole moments of dipeptides. The backbone and
-  side chain torsional parameters were determined by comparing to gas-phase QM
-  (RI-TRIM MP2/CBS) conformational energies of dipeptides and to statistical
-  distributions from the Protein Data Bank. Molecular dynamics simulations are
-  reported for short peptides in explicit water to examine their conformational
-  properties in solution. Overall the calculated conformational free energies
-  and J-coupling constants are consistent with PDB statistics and experimental
-  NMR results, respectively. In addition, the experimental crystal structures
-  of a number of proteins are well maintained during molecular dynamics (MD)
-  simulation. While further calculations are necessary to fully validate the
-  force field, initial results suggest the AMOEBA polarizable multipole force
-  field is able to describe the structure and energetics of peptides and
-  proteins, in both gas-phase and solution environments.%
-    }
-    \verb{doi}
-    \verb 10.1021/ct4003702
-    \endverb
-    \field{issn}{1549-9626}
-    \field{number}{9}
-    \field{pages}{4046\bibrangedash 4063}
-    \field{title}{The {{Polarizable Atomic Multipole-based AMOEBA Force Field}}
-  for {{Proteins}}}
-    \field{volume}{9}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/EHDYUHV4/Shi et al. - 2013 - Polarizable At
-    \verb omic Multipole-Based AMOEBA Force Fi.pdf
-    \endverb
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{year}{2013}
-  \endentry
-
   \entry{li2017}{article}{}
     \name{author}{6}{}{%
       {{hash=LH}{%
@@ -6546,13 +6375,15 @@
     \field{issn}{1549-9618}
     \field{number}{9}
     \field{pages}{4046\bibrangedash 4063}
-    \field{title}{Polarizable {{Atomic Multipole-Based AMOEBA Force Field}} for
-  {{Proteins}}}
+    \field{title}{The {{Polarizable Atomic Multipole-based AMOEBA Force Field}}
+  for {{Proteins}}}
     \field{volume}{9}
+    \field{langid}{english}
     \verb{file}
     \verb /home/miro/Zotero/storage/42CIJ4PQ/Shi et al. - 2013 - Polarizable At
-    \verb omic Multipole-Based AMOEBA Force Fi.pdf;/home/miro/Zotero/storage/M9
-    \verb QWCFHP/ct4003702.html
+    \verb omic Multipole-Based AMOEBA Force Fi.pdf;/home/miro/Zotero/storage/EH
+    \verb DYUHV4/Shi et al. - 2013 - Polarizable Atomic Multipole-Based AMOEBA
+    \verb Force Fi.pdf;/home/miro/Zotero/storage/M9QWCFHP/ct4003702.html
     \endverb
     \field{journaltitle}{Journal of Chemical Theory and Computation}
     \field{month}{09}
@@ -6863,51 +6694,25 @@
       }}%
     }
     \list{publisher}{1}{%
-      {{Springer}}%
+      {{Springer New York}}%
     }
     \keyw{Biophysics,Molecular biology,Proteins,Structure}
     \strng{namehash}{FH+1}
     \strng{fullhash}{FHCSSCWSARH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1007/978-1-4419-1044-8
+    \endverb
     \field{isbn}{978-1-4419-1043-1 978-1-4419-1044-8}
     \field{series}{Biological and Medical Physics, Biomedical Engineering}
     \field{shorttitle}{The Physics of Proteins}
     \field{title}{The Physics of Proteins: An Introduction to Biological
   Physics and Molecular Biophysics}
     \list{location}{1}{%
-      {{New York}}%
-    }
-    \field{annotation}{%
-    OCLC: ocn646392217%
+      {{New York, NY}}%
     }
     \field{year}{2010}
-  \endentry
-
-  \entry{phillips2019}{book}{}
-    \name{editor}{1}{}{%
-      {{hash=PR}{%
-         family={Phillips},
-         familyi={P\bibinitperiod},
-         given={Rob},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{CRC Press}}%
-    }
-    \strng{namehash}{PR1}
-    \strng{fullhash}{PR1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{edition}{Second edition, first issued in paperback}
-    \field{isbn}{978-0-8153-4450-6}
-    \field{title}{Physical Biology of the Cell}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{Boca Raton London New York}}%
-    }
-    \field{year}{2019}
   \endentry
 
   \entry{van1995python}{book}{}
@@ -6934,46 +6739,6 @@
     \field{labeltitlesource}{title}
     \field{title}{Python Reference Manual}
     \field{year}{1995}
-  \endentry
-
-  \entry{humphrey1996}{article}{}
-    \name{author}{3}{}{%
-      {{hash=HW}{%
-         family={Humphrey},
-         familyi={H\bibinitperiod},
-         given={William},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=DA}{%
-         family={Dalke},
-         familyi={D\bibinitperiod},
-         given={Andrew},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SK}{%
-         family={Schulten},
-         familyi={S\bibinitperiod},
-         given={Klaus},
-         giveni={K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HW+1}
-    \strng{fullhash}{HWDASK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1016/0263-7855(96)00018-5
-    \endverb
-    \field{issn}{02637855}
-    \field{number}{1}
-    \field{pages}{33\bibrangedash 38}
-    \field{shorttitle}{{{VMD}}}
-    \field{title}{{{VMD}}: {{Visual}} Molecular Dynamics}
-    \field{volume}{14}
-    \field{langid}{english}
-    \field{journaltitle}{Journal of Molecular Graphics}
-    \field{month}{02}
-    \field{year}{1996}
   \endentry
 
   \entry{mallajosyula2015}{article}{}
@@ -7035,152 +6800,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{michaud-agrawal2011}{article}{}
-    \name{author}{4}{}{%
-      {{hash=MN}{%
-         family={{Michaud-Agrawal}},
-         familyi={M\bibinitperiod},
-         given={Naveen},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=DEJ}{%
-         family={Denning},
-         familyi={D\bibinitperiod},
-         given={Elizabeth\bibnamedelima J.},
-         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=WTB}{%
-         family={Woolf},
-         familyi={W\bibinitperiod},
-         given={Thomas\bibnamedelima B.},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=BO}{%
-         family={Beckstein},
-         familyi={B\bibinitperiod},
-         given={Oliver},
-         giveni={O\bibinitperiod},
-      }}%
-    }
-    \keyw{analysis,membrane systems,molecular dynamics
-  simulations,object-oriented design,proteins,Python programming
-  language,software}
-    \strng{namehash}{MN+1}
-    \strng{fullhash}{MNDEJWTBBO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1002/jcc.21787
-    \endverb
-    \field{issn}{01928651}
-    \field{number}{10}
-    \field{pages}{2319\bibrangedash 2327}
-    \field{shorttitle}{{{MDAnalysis}}}
-    \field{title}{{{MDAnalysis}}: {{A}} Toolkit for the Analysis of Molecular
-  Dynamics Simulations}
-    \field{volume}{32}
-    \field{langid}{english}
-    \field{journaltitle}{Journal of Computational Chemistry}
-    \field{month}{07}
-    \field{year}{2011}
-  \endentry
-
-  \entry{gowers2016}{inproceedings}{}
-    \name{author}{11}{}{%
-      {{hash=GRJ}{%
-         family={Gowers},
-         familyi={G\bibinitperiod},
-         given={Richard\bibnamedelima J.},
-         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=LM}{%
-         family={Linke},
-         familyi={L\bibinitperiod},
-         given={Max},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BJ}{%
-         family={Barnoud},
-         familyi={B\bibinitperiod},
-         given={Jonathan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=RTJE}{%
-         family={Reddy},
-         familyi={R\bibinitperiod},
-         given={Tyler J.\bibnamedelima E.},
-         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  E\bibinitperiod},
-      }}%
-      {{hash=MMN}{%
-         family={Melo},
-         familyi={M\bibinitperiod},
-         given={Manuel\bibnamedelima N.},
-         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=SSL}{%
-         family={Seyler},
-         familyi={S\bibinitperiod},
-         given={Sean\bibnamedelima L.},
-         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=DJ}{%
-         family={Doma{\'n}ski},
-         familyi={D\bibinitperiod},
-         given={Jan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=DDL}{%
-         family={Dotson},
-         familyi={D\bibinitperiod},
-         given={David\bibnamedelima L.},
-         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Buchoux},
-         familyi={B\bibinitperiod},
-         given={S{\'e}bastien},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=KIM}{%
-         family={Kenney},
-         familyi={K\bibinitperiod},
-         given={Ian\bibnamedelima M.},
-         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=BO}{%
-         family={Beckstein},
-         familyi={B\bibinitperiod},
-         given={Oliver},
-         giveni={O\bibinitperiod},
-      }}%
-    }
-    \name{editor}{2}{}{%
-      {{hash=BS}{%
-         family={Benthall},
-         familyi={B\bibinitperiod},
-         given={Sebastian},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=RS}{%
-         family={Rostrup},
-         familyi={R\bibinitperiod},
-         given={Scott},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GRJ+1}
-    \strng{fullhash}{GRJLMBJRTJEMMNSSLDJDDLBSKIMBO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{booktitle}{Proceedings of the 15th {{Python}} in {{Science
-  Conference}}}
-    \field{pages}{98\bibrangedash 105}
-    \field{title}{{{MDAnalysis}}: {{A Python Package}} for the {{Rapid
-  Analysis}} of {{Molecular Dynamics Simulations}}}
-    \field{year}{2016}
-  \endentry
-
   \entry{sali1993}{article}{}
     \name{author}{2}{}{%
       {{hash=SA}{%
@@ -7206,6 +6825,30 @@
     \strng{fullhash}{SABTL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We describe a comparative protein modelling method designed to find the
+  most probable structure for a sequence given its alignment with related
+  structures. The three-dimensional (3D) model is obtained by optimally
+  satisfying spatial restraints derived from the alignment and expressed as
+  probability density functions (pdfs) for the features restrained. For
+  example, the probabilities for main-chain conformations of a modelled residue
+  may be restrained by its residue type, main-chain conformation of an
+  equivalent residue in a related protein, and the local similarity between the
+  two sequences. Several such pdfs are obtained from the correlations between
+  structural features in 17 families of homologous proteins which have been
+  aligned on the basis of their 3D structures. The pdfs restrain
+  C{$\alpha$}-C{$\alpha$} distances, main-chain N-O distances, main-chain and
+  side-chain dihedral angles. A smoothing procedure is used in the derivation
+  of these relationships to minimize the problem of a sparse database. The 3D
+  model of a protein is obtained by optimization of the molecular pdf such that
+  the model violates the input restraints as little as possible. The molecular
+  pdf is derived as a combination of pdfs restraining individual spatial
+  features of the whole molecule. The optimization procedure is a variable
+  target function method that applies the conjugate gradients algorithm to
+  positions of all non-hydrogen atoms. The method is automated and is
+  illustrated by the modelling of trypsin from two other serine proteinases.
+  \textcopyright{} 1993 Academic Press Limited.%
+    }
     \verb{doi}
     \verb 10.1006/jmbi.1993.1626
     \endverb
@@ -7219,65 +6862,6 @@
     \field{journaltitle}{Journal of Molecular Biology}
     \field{month}{12}
     \field{year}{1993}
-  \endentry
-
-  \entry{shen2006}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SMy}{%
-         family={Shen},
-         familyi={S\bibinitperiod},
-         given={Min-yi},
-         giveni={M\bibinithyphendelim y\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Sali},
-         familyi={S\bibinitperiod},
-         given={Andrej},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{John Wiley \& Sons, Ltd}}%
-    }
-    \keyw{comparative or homology modeling,model assessment,protein structure
-  prediction,statistical potential}
-    \strng{namehash}{SMySA1}
-    \strng{fullhash}{SMySA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Protein structures in the Protein Data Bank provide a wealth of data about
-  the interactions that determine the native states of proteins. Using the
-  probability theory, we derive an atomic distance-dependent statistical
-  potential from a sample of native structures that does not depend on any
-  adjustable parameters (Discrete Optimized Protein Energy, or DOPE). DOPE is
-  based on an improved reference state that corresponds to noninteracting atoms
-  in a homogeneous sphere with the radius dependent on a sample native
-  structure; it thus accounts for the finite and spherical shape of the native
-  structures. The DOPE potential was extracted from a nonredundant set of 1472
-  crystallographic structures. We tested DOPE and five other scoring functions
-  by the detection of the native state among six multiple target decoy sets,
-  the correlation between the score and model error, and the identification of
-  the most accurate non-native structure in the decoy set. For all decoy sets,
-  DOPE is the best performing function in terms of all criteria, except for a
-  tie in one criterion for one decoy set. To facilitate its use in various
-  applications, such as model assessment, loop modeling, and fitting into
-  cryo-electron microscopy mass density maps combined with comparative protein
-  structure modeling, DOPE was incorporated into the modeling package
-  MODELLER-8.%
-    }
-    \verb{doi}
-    \verb 10.1110/ps.062416606
-    \endverb
-    \field{issn}{09618368}
-    \field{number}{11}
-    \field{pages}{2507\bibrangedash 2524}
-    \field{title}{Statistical Potential for Assessment and Prediction of
-  Protein Structures}
-    \field{volume}{15}
-    \field{journaltitle}{Protein Science}
-    \field{month}{11}
-    \field{year}{2006}
   \endentry
 
   \entry{webb2016}{article}{}
@@ -7310,287 +6894,6 @@
     \field{journaltitle}{Current Protocols in Bioinformatics}
     \field{month}{06}
     \field{year}{2016}
-  \endentry
-
-  \entry{phillips2005}{article}{}
-    \name{author}{10}{}{%
-      {{hash=PJC}{%
-         family={Phillips},
-         familyi={P\bibinitperiod},
-         given={James\bibnamedelima C.},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Braun},
-         familyi={B\bibinitperiod},
-         given={Rosemary},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=WW}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Wei},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Gumbart},
-         familyi={G\bibinitperiod},
-         given={James},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=TE}{%
-         family={Tajkhorshid},
-         familyi={T\bibinitperiod},
-         given={Emad},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=VE}{%
-         family={Villa},
-         familyi={V\bibinitperiod},
-         given={Elizabeth},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=CC}{%
-         family={Chipot},
-         familyi={C\bibinitperiod},
-         given={Christophe},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=SRD}{%
-         family={Skeel},
-         familyi={S\bibinitperiod},
-         given={Robert\bibnamedelima D.},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=KL}{%
-         family={Kal{\'e}},
-         familyi={K\bibinitperiod},
-         given={Laxmikant},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=SK}{%
-         family={Schulten},
-         familyi={S\bibinitperiod},
-         given={Klaus},
-         giveni={K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PJC+1}
-    \strng{fullhash}{PJCBRWWGJTEVECCSRDKLSK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1002/jcc.20289
-    \endverb
-    \field{issn}{0192-8651, 1096-987X}
-    \field{number}{16}
-    \field{pages}{1781\bibrangedash 1802}
-    \field{title}{Scalable Molecular Dynamics with {{NAMD}}}
-    \field{volume}{26}
-    \field{langid}{english}
-    \field{journaltitle}{Journal of Computational Chemistry}
-    \field{month}{12}
-    \field{year}{2005}
-  \endentry
-
-  \entry{eastman2017}{article}{}
-    \name{author}{13}{}{%
-      {{hash=EP}{%
-         family={Eastman},
-         familyi={E\bibinitperiod},
-         given={Peter},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=SJ}{%
-         family={Swails},
-         familyi={S\bibinitperiod},
-         given={Jason},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=CJD}{%
-         family={Chodera},
-         familyi={C\bibinitperiod},
-         given={John\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=MRT}{%
-         family={McGibbon},
-         familyi={M\bibinitperiod},
-         given={Robert\bibnamedelima T.},
-         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=ZY}{%
-         family={Zhao},
-         familyi={Z\bibinitperiod},
-         given={Yutong},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=BKA}{%
-         family={Beauchamp},
-         familyi={B\bibinitperiod},
-         given={Kyle\bibnamedelima A.},
-         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=WLP}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Lee\bibnamedelima Ping},
-         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=SAC}{%
-         family={Simmonett},
-         familyi={S\bibinitperiod},
-         given={Andrew\bibnamedelima C.},
-         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=HMP}{%
-         family={Harrigan},
-         familyi={H\bibinitperiod},
-         given={Matthew\bibnamedelima P.},
-         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=SCD}{%
-         family={Stern},
-         familyi={S\bibinitperiod},
-         given={Chaya\bibnamedelima D.},
-         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=WRP}{%
-         family={Wiewiora},
-         familyi={W\bibinitperiod},
-         given={Rafal\bibnamedelima P.},
-         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=BBR}{%
-         family={Brooks},
-         familyi={B\bibinitperiod},
-         given={Bernard\bibnamedelima R.},
-         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=PVS}{%
-         family={Pande},
-         familyi={P\bibinitperiod},
-         given={Vijay\bibnamedelima S.},
-         giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \name{editor}{1}{}{%
-      {{hash=GR}{%
-         family={Gentleman},
-         familyi={G\bibinitperiod},
-         given={Robert},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Public Library of Science}}%
-    }
-    \keyw{Algorithms,Amoebas,Biochemical simulations,Molecular dynamics,Monte
-  Carlo method,Programming languages,Simulation and modeling,Source code}
-    \strng{namehash}{EP+1}
-    \strng{fullhash}{EPSJCJDMRTZYBKAWLPSACHMPSCDWRPBBRPVS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    OpenMM is a molecular dynamics simulation toolkit with a unique focus on
-  extensibility. It allows users to easily add new features, including forces
-  with novel functional forms, new integration algorithms, and new simulation
-  protocols. Those features automatically work on all supported hardware types
-  (including both CPUs and GPUs) and perform well on all of them. In many cases
-  they require minimal coding, just a mathematical description of the desired
-  function. They also require no modification to OpenMM itself and can be
-  distributed independently of OpenMM. This makes it an ideal tool for
-  researchers developing new simulation methods, and also allows those new
-  methods to be immediately available to the larger community.%
-    }
-    \verb{doi}
-    \verb 10.1371/journal.pcbi.1005659
-    \endverb
-    \field{issn}{15537358}
-    \field{number}{7}
-    \field{pages}{e1005659}
-    \field{title}{{{OpenMM}} 7: {{Rapid}} Development of High Performance
-  Algorithms for Molecular Dynamics}
-    \field{volume}{13}
-    \field{journaltitle}{PLoS Computational Biology}
-    \field{month}{07}
-    \field{year}{2017}
-  \endentry
-
-  \entry{tribello2014}{article}{}
-    \name{author}{5}{}{%
-      {{hash=TGA}{%
-         family={Tribello},
-         familyi={T\bibinitperiod},
-         given={Gareth\bibnamedelima A.},
-         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=BM}{%
-         family={Bonomi},
-         familyi={B\bibinitperiod},
-         given={Massimiliano},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Branduardi},
-         familyi={B\bibinitperiod},
-         given={Davide},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=CC}{%
-         family={Camilloni},
-         familyi={C\bibinitperiod},
-         given={Carlo},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=BG}{%
-         family={Bussi},
-         familyi={B\bibinitperiod},
-         given={Giovanni},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{North-Holland}}%
-    }
-    \keyw{Dimensional reduction,Enhanced sampling,Free energy,Molecular
-  dynamics}
-    \strng{namehash}{TGA+1}
-    \strng{fullhash}{TGABMBDCCBG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Enhancing sampling and analyzing simulations are central issues in
-  molecular simulation. Recently, we introduced PLUMED, an open-source plug-in
-  that provides some of the most popular molecular dynamics (MD) codes with
-  implementations of a variety of different enhanced sampling algorithms and
-  collective variables (CVs). The rapid changes in this field, in particular
-  new directions in enhanced sampling and dimensionality reduction together
-  with new hardware, require a code that is more flexible and more efficient.
-  We therefore present PLUMED 2 here - a complete rewrite of the code in an
-  object-oriented programming language (C++). This new version introduces
-  greater flexibility and greater modularity, which both extends its core
-  capabilities and makes it far easier to add new methods and CVs. It also has
-  a simpler interface with the MD engines and provides a single software
-  library containing both tools and core facilities. Ultimately, the new code
-  better serves the ever-growing community of users and contributors in coping
-  with the new challenges arising in the field. \textcopyright{} 2013 Elsevier
-  B.V. All rights reserved.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.cpc.2013.09.018
-    \endverb
-    \field{issn}{00104655}
-    \field{number}{2}
-    \field{pages}{604\bibrangedash 613}
-    \field{title}{{{PLUMED}} 2: {{New}} Feathers for an Old Bird}
-    \field{volume}{185}
-    \field{journaltitle}{Computer Physics Communications}
-    \field{annotation}{%
-    \_eprint: 1310.0980%
-    }
-    \field{month}{02}
-    \field{year}{2014}
   \endentry
 
   \entry{theuniprotconsortium2021}{article}{}
@@ -9013,109 +8316,6 @@
     \field{year}{2022}
   \endentry
 
-  \entry{thelin2007}{article}{}
-    \name{author}{10}{}{%
-      {{hash=TWR}{%
-         family={Thelin},
-         familyi={T\bibinitperiod},
-         given={William\bibnamedelima R.},
-         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=CY}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Yun},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=GM}{%
-         family={Gentzsch},
-         familyi={G\bibinitperiod},
-         given={Martina},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=KSM}{%
-         family={Kreda},
-         familyi={K\bibinitperiod},
-         given={Silvia\bibnamedelima M.},
-         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=SJL}{%
-         family={Sallee},
-         familyi={S\bibinitperiod},
-         given={Jennifer\bibnamedelima L.},
-         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=SCO}{%
-         family={Scarlett},
-         familyi={S\bibinitperiod},
-         given={Cameron\bibnamedelima O.},
-         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
-      }}%
-      {{hash=BCH}{%
-         family={Borchers},
-         familyi={B\bibinitperiod},
-         given={Christoph\bibnamedelima H.},
-         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=JK}{%
-         family={Jacobson},
-         familyi={J\bibinitperiod},
-         given={Ken},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=SMJ}{%
-         family={Stutts},
-         familyi={S\bibinitperiod},
-         given={M.\bibnamedelima Jackson},
-         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MSL}{%
-         family={Milgram},
-         familyi={M\bibinitperiod},
-         given={Sharon\bibnamedelima L.},
-         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Society for Clinical Investigation}}%
-    }
-    \strng{namehash}{TWR+1}
-    \strng{fullhash}{TWRCYGMKSMSJLSCOBCHJKSMJMSL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The role of the cystic fibrosis transmembrane conductance regulator (CFTR)
-  as a cAMP-dependent chloride channel on the apical membrane of epithelia is
-  well established. However, the processes by which CFTR is regulated on the
-  cell surface are not clear. Here we report the identification of a
-  protein-protein interaction between CFTR and the cytoskeletal filamin
-  proteins. Using proteomic approaches, we identified filamins as proteins that
-  associate with the extreme CFTR N terminus. Furthermore, we identified a
-  disease-causing missense mutation in CFTR, serine 13 to phenylalanine (S13F),
-  which disrupted this interaction. In cells, filamins tethered plasma membrane
-  CFTR to the underlying actin network. This interaction stabilized CFTR at the
-  cell surface and regulated the plasma membrane dynamics and confinement of
-  the channel. In the absence of filamin binding, CFTR was internalized from
-  the cell surface, where it prematurely accumulated in lysosomes and was
-  ultimately degraded. Our data demonstrate what we believe to be a previously
-  unrecognized role for the CFTR N terminus in the regulation of the plasma
-  membrane stability and metabolic stability of CFTR. In addition, we elucidate
-  the molecular defect associated with the S13F mutation.%
-    }
-    \verb{doi}
-    \verb 10.1172/JCI30376
-    \endverb
-    \field{issn}{00219738}
-    \field{number}{2}
-    \field{pages}{364\bibrangedash 374}
-    \field{title}{Direct Interaction with Filamins Modulates the Stability and
-  Plasma Membrane Expression of {{CFTR}}}
-    \field{volume}{117}
-    \field{journaltitle}{Journal of Clinical Investigation}
-    \field{month}{02}
-    \field{year}{2007}
-  \endentry
-
   \entry{kim2019}{article}{}
     \name{author}{11}{}{%
       {{hash=KY}{%
@@ -9239,74 +8439,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{mihalyi2020}{article}{}
-    \name{author}{4}{}{%
-      {{hash=MC}{%
-         family={Mih{\'a}lyi},
-         familyi={M\bibinitperiod},
-         given={Csaba},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=II}{%
-         family={Iordanov},
-         familyi={I\bibinitperiod},
-         given={Iordan},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=TB}{%
-         family={T{\"o}r{\"o}csik},
-         familyi={T\bibinitperiod},
-         given={Be{\'a}ta},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=CL}{%
-         family={Csan{\'a}dy},
-         familyi={C\bibinitperiod},
-         given={L{\'a}szl{\'o}},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Proceedings of the National Academy of Sciences}}%
-    }
-    \strng{namehash}{MC+1}
-    \strng{fullhash}{MCIITBCL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The Cystic Fibrosis Transmembrane Conductance Regulator (CFTR) anion
-  channel is essential for epithelial salt\textendash water balance. CFTR
-  mutations cause cystic fibrosis, a lethal incurable disease. In cells CFTR is
-  activated through the cAMP signaling pathway, overstimulation of which during
-  cholera leads to CFTR-mediated intestinal salt\textendash water loss. Channel
-  activation is achieved by phosphorylation of its regulatory (R) domain by
-  cAMP-dependent protein kinase catalytic subunit (PKA). Here we show using two
-  independent approaches\textendash\textendash an ATP analog that can drive
-  CFTR channel gating but is unsuitable for phosphotransfer by PKA, and CFTR
-  mutants lacking phosphorylatable serines\textendash\textendash that PKA
-  efficiently opens CFTR channels through simple binding, under conditions that
-  preclude phosphorylation. Unlike when phosphorylation happens, CFTR
-  activation by PKA binding is completely reversible. Thus, PKA binding
-  promotes release of the unphosphorylated R domain from its inhibitory
-  position, causing full channel activation, whereas phosphorylation serves
-  only to maintain channel activity beyond termination of the PKA signal. The
-  results suggest two levels of CFTR regulation in cells: irreversible through
-  phosphorylation, and reversible through R-domain binding to
-  PKA\textendash\textendash and possibly also to other members of a large
-  network of proteins known to interact with the channel.%
-    }
-    \verb{doi}
-    \verb 10.1073/pnas.2007910117
-    \endverb
-    \field{issn}{0027-8424}
-    \field{pages}{202007910}
-    \field{title}{Simple Binding of Protein Kinase {{A}} Prior to
-  Phosphorylation Allows {{CFTR}} Anion Channels to Be Opened by Nucleotides}
-    \field{journaltitle}{Proceedings of the National Academy of Sciences}
-    \field{month}{08}
-    \field{year}{2020}
-  \endentry
-
   \entry{hegedus2022}{article}{}
     \name{author}{4}{}{%
       {{hash=HT}{%
@@ -9425,21 +8557,25 @@
       }}%
     }
     \list{publisher}{1}{%
-      {{Science}}%
+      {{American Association for the Advancement of Science}}%
     }
-    \keyw{Aminophenols / chemistry*,Aminophenols / pharmacology,Binding
-  Sites,Chloride Channel Agonists / chemistry*,Chloride Channel Agonists /
-  pharmacology,Chloride Channel Agonists / therapeutic use,Cryoelectron
-  Microscopy,Cystic Fibrosis / drug therapy,Cystic Fibrosis Transmembrane
-  Conductance Regulato,doi:10.1126/science.aaw7611,Drugs,Extramural,Fangyu
-  Liu,HEK293 Cells,Humans,Hydrogen Bonding,Investigational /
-  chemistry*,Investigational / pharmacology,Investigational / therapeutic
-  use,Jue Chen,MEDLINE,Mutagenesis,N.I.H.,National Center for Biotechnology
+    \keyw{Aminophenols,Aminophenols / chemistry*,Aminophenols /
+  pharmacology,Binding Sites,Chloride Channel Agonists,Chloride Channel
+  Agonists / chemistry*,Chloride Channel Agonists / pharmacology,Chloride
+  Channel Agonists / therapeutic use,Cryoelectron Microscopy,Cystic
+  Fibrosis,Cystic Fibrosis / drug therapy,Cystic Fibrosis Transmembrane
+  Conductance Regulato,Cystic Fibrosis Transmembrane Conductance
+  Regulator,doi:10.1126/science.aaw7611,Drugs,Drugs;
+  Investigational,Extramural,Fangyu Liu,HEK293 Cells,Humans,Hydrogen
+  Bonding,Investigational / chemistry*,Investigational /
+  pharmacology,Investigational / therapeutic use,Jue
+  Chen,MEDLINE,Mutagenesis,N.I.H.,National Center for Biotechnology
   Information,National Institutes of Health,National Library of
   Medicine,NCBI,NIH,NLM,Non-U.S. Gov't,PMC7184887,pmid:31221859,Protein
-  Domains,Protein Folding / drug effects,PubMed Abstract,Pyrans /
-  chemistry*,Pyrans / pharmacology,Pyrans / therapeutic use,Pyrazoles /
-  chemistry*,Pyrazoles / pharmacology,Pyrazoles / therapeutic use,Quinolones /
+  Domains,Protein Folding,Protein Folding / drug effects,PubMed
+  Abstract,Pyrans,Pyrans / chemistry*,Pyrans / pharmacology,Pyrans /
+  therapeutic use,Pyrazoles,Pyrazoles / chemistry*,Pyrazoles /
+  pharmacology,Pyrazoles / therapeutic use,Quinolones,Quinolones /
   chemistry*,Quinolones / pharmacology,Research Support,Zhe Zhang}
     \strng{namehash}{LF+1}
     \strng{fullhash}{LFZZLALJTKKSBKCJ1}
@@ -9450,92 +8586,33 @@
   fibrosis transmembrane conductance regulator (CFTR). Two main categories of
   drugs are being developed: correctors that improve folding of CFTR and
   potentiators that recover the function of CFTR. Here, we report two
-  cryo\textendash electron microscopy structures of human CFTR in complex with
-  potentiators: one with the U.S. Food and Drug Administration (FDA)\textendash
-  approved drug ivacaftor at 3.3-angstrom resolution and the other with an
+  cryo-electron microscopy structures of human CFTR in complex with
+  potentiators: one with the U.S. Food and Drug Administration (FDA)-approved
+  drug ivacaftor at 3.3-angstrom resolution and the other with an
   investigational drug, GLPG1837, at 3.2-angstrom resolution. These two drugs,
   although chemically dissimilar, bind to the same site within the
   transmembrane region. Mutagenesis suggests that in both cases, hydrogen bonds
-  provided by the protein are important for drug recognition.The molecular
+  provided by the protein are important for drug recognition. The molecular
   details of how ivacaftor and GLPG1837 interact with CFTR may facilitate
   structure-based optimization of therapeutic compounds.%
     }
     \verb{doi}
     \verb 10.1126/science.aaw7611
     \endverb
-    \field{issn}{10959203}
+    \field{issn}{1095-9203}
     \field{number}{6446}
     \field{pages}{1184\bibrangedash 1188}
     \field{title}{Structural Identification of a Hotspot on {{CFTR}} for
   Potentiation}
     \field{volume}{364}
-    \field{journaltitle}{Science}
-    \field{year}{2019}
-  \endentry
-
-  \entry{ivey2020}{article}{}
-    \name{author}{2}{}{%
-      {{hash=IG}{%
-         family={Ivey},
-         familyi={I\bibinitperiod},
-         given={Gabrianne},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=YRT}{%
-         family={Youker},
-         familyi={Y\bibinitperiod},
-         given={Robert\bibnamedelima T.},
-         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Public Library of Science}}%
-    }
-    \strng{namehash}{IGYRT1}
-    \strng{fullhash}{IGYRT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Cystic Fibrosis (CF) is an inherited disease caused by mutations in the
-  cystic fibrosis transmembrane conductance regulator (CFTR) ion channel.
-  Mutations in CFTR cause impaired chloride ion transport in the epithelial
-  tissues of patients leading to cardiopulmonary decline and pancreatic
-  insufficiency in the most severely affected patients. CFTR is composed of
-  twelve membrane-spanning domains, two nucleotide-binding domains (NBDs), and
-  a regulatory domain. The most common mutation in CFTR is a deletion of
-  phenylalanine at position 508 ({$\delta$}F508) in NBD1. Previous research has
-  primarily concentrated on the structure and dynamics of the NBD1 domain;
-  However numerous pathological mutations have also been found in the
-  lesser-studied NBD2 domain. We have investigated the amino acid coevolved
-  network of interactions in NBD2, and the changes that occur in that network
-  upon the introduction of CF and CF-related mutations (S1251N(T), S1235R,
-  D1270N, N1303K (T)). Extensive coupling between the {$\alpha$}- and
-  {$\beta$}-subdomains were identified with residues in, or near Walker A,
-  Walker B, H-loop and C-loop motifs. Alterations in the predicted residue
-  network varied from moderate for the S1251T perturbation to more severe for
-  N1303T. The S1235R and D1270N networks varied greatly compared to the
-  wildtype, but these CF mutations only affect ion transport preference and do
-  not severely disrupt CFTR function, suggesting dynamic flexibility in the
-  network of interactions in NBD2. Our results also suggest that inappropriate
-  interactions between the {$\beta$}-subdomain and Q-loop could be detrimental.
-  We also identified mutations predicted to stabilize the NBD2 residue network
-  upon introduction of the CF and CF-related mutations, and these predicted
-  mutations are scored as benign by the MUTPRED2 algorithm. Our results suggest
-  the level of disruption of the coevolution predictions of the amino acid
-  networks in NBD2 does not have a straightforward correlation with the
-  severity of the CF phenotypes observed.%
-    }
-    \verb{doi}
-    \verb 10.1371/journal.pone.0227668
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/48JCFMDG/Liu et al. - 2019 - Structural ide
+    \verb ntification of a hotspot on CFTR for.pdf
     \endverb
-    \field{issn}{19326203}
-    \field{number}{1}
-    \field{pages}{e0227668}
-    \field{title}{Disease-Relevant Mutations Alter Amino Acid Co-Evolution
-  Networks in the Second Nucleotide Binding Domain of {{CFTR}}}
-    \field{volume}{15}
-    \field{journaltitle}{PLoS ONE}
-    \field{year}{2020}
+    \field{journaltitle}{Science (New York, N.Y.)}
+    \field{month}{06}
+    \field{year}{2019}
   \endentry
 
   \entry{zolnerciks2014}{article}{}
@@ -10039,60 +9116,50 @@
     \field{year}{2020}
   \endentry
 
-  \entry{zhang2018}{article}{}
-    \name{author}{3}{}{%
-      {{hash=ZZ}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Zhe},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=LF}{%
-         family={Liu},
+  \entry{linsdell2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Linsdell},
          familyi={L\bibinitperiod},
-         given={Fangyu},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Jue},
-         giveni={J\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
       }}%
     }
-    \keyw{ABC transporter,anion channel,cryo-EM,human CFTR}
-    \strng{namehash}{ZZ+1}
-    \strng{fullhash}{ZZLFCJ1}
+    \list{publisher}{1}{%
+      {{Taylor and Francis Inc.}}%
+    }
+    \keyw{ABC protein,CFTR,Channel pore,Chloride channel,Cystic fibrosis,Ion
+  channel}
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    The cystic fibrosis transmembrane conductance regulator (CFTR) is an anion
-  channel important in maintaining proper functions of the lung, pancreas, and
-  intestine. The activity of CFTR is regulated by ATP and protein kinase
-  A-dependent phosphorylation. To understand the conformational changes
-  elicited by phosphorylation and ATP binding, we present here the structure of
-  phosphorylated, ATP-bound human CFTR, determined by cryoelectron microscopy
-  to 3.2-\AA{} resolution. This structure reveals the position of the R domain
-  after phosphorylation. By comparing the structures of human CFTR and
-  zebrafish CFTR determined under the same condition, we identified common
-  features essential to channel gating. The differences in their structures
-  indicate plasticity permitted in evolution to achieve the same function.
-  Finally, the structure of CFTR provides a better understanding of why the
-  G178R, R352Q, L927P, and G970R/D mutations would impede conformational
-  changes of CFTR and lead to cystic fibrosis.%
+    Cystic fibrosis is caused by mutations in the cystic fibrosis transmembrane
+  conductance regulator (CFTR). CFTR is a member of the ATP-binding cassette
+  (ABC) family of membrane transport proteins, most members of which function
+  as ATP-dependent pumps. CFTR is unique among human ABC proteins in
+  functioning not as a pump, but as an ion channel. Recent structural data has
+  indicated that CFTR shares broadly similar overall architecture and
+  ATP-dependent conformational changes as other ABC proteins. Functional
+  investigations suggest that CFTR has a unique open portal connecting the
+  cytoplasm to the transmembrane channel pore, that allows for a continuous
+  pathway for Cl- ions to cross the membrane in one conformation. This lateral
+  portal may be what allows CFTR to function as an ion channel rather than as a
+  pump, suggesting a plausible mechanism by which channel function may have
+  evolved in CFTR.%
     }
     \verb{doi}
-    \verb 10.1073/pnas.1815287115
+    \verb 10.1080/19336950.2018.1502585
     \endverb
-    \field{issn}{1091-6490}
-    \field{number}{50}
-    \field{pages}{12757\bibrangedash 12762}
-    \field{title}{Molecular Structure of the {{ATP-bound}}, Phosphorylated
-  Human {{CFTR}}.}
-    \field{volume}{115}
-    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
-  United States of America}
-    \field{month}{12}
+    \field{issn}{19336969}
+    \field{number}{1}
+    \field{pages}{284\bibrangedash 290}
+    \field{title}{Cystic Fibrosis Transmembrane Conductance Regulator
+  ({{CFTR}}): {{Making}} an Ion Channel out of an Active Transporter Structure}
+    \field{volume}{12}
+    \field{journaltitle}{Channels}
+    \field{month}{01}
     \field{year}{2018}
   \endentry
 
@@ -10110,6 +9177,9 @@
          given={Jue},
          giveni={J\bibinitperiod},
       }}%
+    }
+    \list{publisher}{1}{%
+      {{Cell Press}}%
     }
     \keyw{ABC transporter,anion channel,atomic structure,CFTR,cryo-EM}
     \strng{namehash}{ZZCJ1}
@@ -10141,6 +9211,7 @@
   Conductance Regulator}}}
     \field{volume}{167}
     \field{journaltitle}{Cell}
+    \field{month}{12}
     \field{year}{2016}
   \endentry
 
@@ -10285,89 +9356,6 @@
     \field{year}{2017}
   \endentry
 
-  \entry{Hoffmann2018}{article}{}
-    \name{author}{7}{}{%
-      {{hash=HB}{%
-         family={Hoffmann},
-         familyi={H\bibinitperiod},
-         given={Brice},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=EA}{%
-         family={Elbahnsi},
-         familyi={E\bibinitperiod},
-         given={Ahmad},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=LP}{%
-         family={Lehn},
-         familyi={L\bibinitperiod},
-         given={Pierre},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=DJL}{%
-         family={D{\'e}cout},
-         familyi={D\bibinitperiod},
-         given={Jean\bibnamedelima Luc},
-         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=PF}{%
-         family={Pietrucci},
-         familyi={P\bibinitperiod},
-         given={Fabio},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=MJP}{%
-         family={Mornon},
-         familyi={M\bibinitperiod},
-         given={Jean\bibnamedelima Paul},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=CI}{%
-         family={Callebaut},
-         familyi={C\bibinitperiod},
-         given={Isabelle},
-         giveni={I\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Birkhauser Verlag AG}}%
-    }
-    \keyw{ABC exporter,CFTR,Comparative modeling,Cryo-electron
-  microscopy,Filamin,Metadynamics}
-    \strng{namehash}{HB+2}
-    \strng{fullhash}{HBEALPDJLPFMJPCI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Cryo-electron microscopy (cryo-EM) has recently provided invaluable
-  experimental data about the full-length cystic fibrosis transmembrane
-  conductance regulator (CFTR) 3D structure. However, this experimental
-  information deals with inactive states of the channel, either in an apo,
-  quiescent conformation, in which nucleotide-binding domains (NBDs) are widely
-  separated or in an ATP-bound, yet closed conformation. Here, we show that 3D
-  structure models of the open and closed forms of the channel, now further
-  supported by metadynamics simulations and by comparison with the cryo-EM
-  data, could be used to gain some insights into critical features of the
-  conformational transition toward active CFTR forms. These critical elements
-  lie within membrane-spanning domains but also within NBD1 and the N-terminal
-  extension, in which conformational plasticity is predicted to occur to help
-  the interaction with filamin, one of the CFTR cellular partners.%
-    }
-    \verb{doi}
-    \verb 10.1007/s00018-018-2835-7
-    \endverb
-    \field{issn}{14209071}
-    \field{number}{20}
-    \field{pages}{3829\bibrangedash 3855}
-    \field{title}{Combining Theoretical and Experimental Data to Decipher
-  {{CFTR 3D}} Structures and Functions}
-    \field{volume}{75}
-    \field{journaltitle}{Cellular and Molecular Life Sciences}
-    \field{month}{10}
-    \field{year}{2018}
-  \endentry
-
   \entry{Stratford2007}{article}{}
     \name{author}{5}{}{%
       {{hash=SFL}{%
@@ -10451,6 +9439,46 @@
     \field{year}{2007}
   \endentry
 
+  \entry{yang2002}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YKL}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Kun-Lin},
+         giveni={K\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yiacoumi},
+         familyi={Y\bibinitperiod},
+         given={Sotira},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tsouris},
+         familyi={T\bibinitperiod},
+         given={Costas},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YKL+1}
+    \strng{fullhash}{YKLYSTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.1511726
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{18}
+    \field{pages}{8499\bibrangedash 8507}
+    \field{title}{Monte {{Carlo}} Simulations of Electrical Double-Layer
+  Formation in Nanopores}
+    \field{volume}{117}
+    \field{langid}{english}
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{11}
+    \field{year}{2002}
+  \endentry
+
   \entry{fiedorczuk2022}{article}{}
     \name{author}{2}{}{%
       {{hash=FK}{%
@@ -10500,114 +9528,6 @@
     \field{journaltitle}{Cell}
     \field{month}{01}
     \field{year}{2022}
-  \endentry
-
-  \entry{VanGoor2014}{article}{}
-    \name{author}{4}{}{%
-      {{hash=VGF}{%
-         family={Van\bibnamedelima Goor},
-         familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-         given={Fredrick},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=YH}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Haihui},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=BB}{%
-         family={Burton},
-         familyi={B\bibinitperiod},
-         given={Bill},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=HBJ}{%
-         family={Hoffman},
-         familyi={H\bibinitperiod},
-         given={Beth\bibnamedelima J.},
-         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Elsevier}}%
-    }
-    \keyw{CFTR,Ivacaftor,Potentiator,VX-770}
-    \strng{namehash}{VGF+1}
-    \strng{fullhash}{VGFYHBBHBJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Background: Ivacaftor (KALYDECO\texttrademark, VX-770) is a CFTR
-  potentiator that increased CFTR channel activity and improved lung function
-  in patients age 6. years and older with CF who have the G551D-CFTR gating
-  mutation. The aim of this in vitro study was to evaluate the effect of
-  ivacaftor on mutant CFTR protein forms with defects in protein processing
-  and/or channel function. Methods: The effect of ivacaftor on CFTR function
-  was tested in electrophysiological studies using a panel of Fischer rat
-  thyroid (FRT) cells expressing 54 missense CFTR mutations that cause defects
-  in the amount or function of CFTR at the cell surface. Results: Ivacaftor
-  potentiated multiple mutant CFTR protein forms that produce functional CFTR
-  at the cell surface. These included mutant CFTR forms with mild defects in
-  CFTR processing or mild defects in CFTR channel conductance. Conclusions:
-  These in vitro data indicated that ivacaftor is a broad acting CFTR
-  potentiator and could be used to help stratify patients with CF who have
-  different CFTR genotypes for studies investigating the potential clinical
-  benefit of ivacaftor. \textcopyright{} 2013 European Cystic Fibrosis
-  Society.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.jcf.2013.06.008
-    \endverb
-    \field{issn}{15691993}
-    \field{number}{1}
-    \field{pages}{29\bibrangedash 36}
-    \field{title}{Effect of Ivacaftor on {{CFTR}} Forms with Missense Mutations
-  Associated with Defects in Protein Processing or Function}
-    \field{volume}{13}
-    \field{journaltitle}{Journal of Cystic Fibrosis}
-    \field{month}{01}
-    \field{year}{2014}
-  \endentry
-
-  \entry{yang2002}{article}{}
-    \name{author}{3}{}{%
-      {{hash=YKL}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Kun-Lin},
-         giveni={K\bibinithyphendelim L\bibinitperiod},
-      }}%
-      {{hash=YS}{%
-         family={Yiacoumi},
-         familyi={Y\bibinitperiod},
-         given={Sotira},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=TC}{%
-         family={Tsouris},
-         familyi={T\bibinitperiod},
-         given={Costas},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{YKL+1}
-    \strng{fullhash}{YKLYSTC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1063/1.1511726
-    \endverb
-    \field{issn}{0021-9606, 1089-7690}
-    \field{number}{18}
-    \field{pages}{8499\bibrangedash 8507}
-    \field{title}{Monte {{Carlo}} Simulations of Electrical Double-Layer
-  Formation in Nanopores}
-    \field{volume}{117}
-    \field{langid}{english}
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{11}
-    \field{year}{2002}
   \endentry
 
   \entry{depoel2020}{article}{}
@@ -10816,6 +9736,2026 @@
     \field{year}{2013}
   \endentry
 
+  \entry{mitchison2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MTJ}{%
+         family={Mitchison},
+         familyi={M\bibinitperiod},
+         given={T.\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MHM}{%
+         family={Mitchison},
+         familyi={M\bibinitperiod},
+         given={H.\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cell biology,Cilia,Motor protein regulation,Motor protein structure}
+    \strng{namehash}{MTJMHM1}
+    \strng{fullhash}{MTJMHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Physics provides new approaches to difficult biological problems: a
+  plausible mathematical model of how cilia and flagella beat has been
+  formulated, but it needs to be subjected to rigorous experimental tests.%
+    }
+    \verb{doi}
+    \verb 10.1038/463308a
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{7279}
+    \field{pages}{308\bibrangedash 309}
+    \field{title}{How Cilia Beat}
+    \field{volume}{463}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/PS9SV8BA/Mitchison and Mitchison - 2010 - H
+    \verb ow cilia beat.pdf;/home/miro/Zotero/storage/JH7KWZY4/463308a.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{01}
+    \field{year}{2010}
+  \endentry
+
+  \entry{bustamante-marin2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BXM}{%
+         family={{Bustamante-Marin}},
+         familyi={B\bibinitperiod},
+         given={Ximena\bibnamedelima M.},
+         giveni={X\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=OLE}{%
+         family={Ostrowski},
+         familyi={O\bibinitperiod},
+         given={Lawrence\bibnamedelima E.},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BXMOLE1}
+    \strng{fullhash}{BXMOLE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Mucociliary clearance (MCC) is the primary innate defense mechanism of the
+  lung. The functional components are the protective mucous layer, the airway
+  surface liquid layer, and the cilia on the surface of ciliated cells. The
+  cilia are specialized organelles that beat in metachronal waves to propel
+  pathogens and inhaled particles trapped in the mucous layer out of the
+  airways. In health this clearance mechanism is effective, but in patients
+  with primary cilia dyskinesia (PCD) the cilia are abnormal, resulting in
+  deficient MCC and chronic lung disease. This demonstrates the critical
+  importance of the cilia for human health. In this review, we summarize the
+  current knowledge of the components of the MCC apparatus, focusing on the
+  role of cilia in MCC., Ciliated cells in the lungs play a key role in
+  mucociliary clearance, propelling inhaled particles out of the airways.
+  Chronic diseases of the airways (e.g., primary ciliary dyskinesia) have
+  offered insight into this process.%
+    }
+    \verb{doi}
+    \verb 10.1101/cshperspect.a028241
+    \endverb
+    \field{issn}{1943-0264}
+    \field{number}{4}
+    \field{pages}{a028241}
+    \field{title}{Cilia and {{Mucociliary Clearance}}}
+    \field{volume}{9}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/GXMV8734/Bustamante-Marin and Ostrowski - 2
+    \verb 017 - Cilia and Mucociliary Clearance.pdf
+    \endverb
+    \field{journaltitle}{Cold Spring Harbor Perspectives in Biology}
+    \field{month}{04}
+    \field{year}{2017}
+  \endentry
+
+  \entry{ratjen2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=RF}{%
+         family={Ratjen},
+         familyi={R\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BSC}{%
+         family={Bell},
+         familyi={B\bibinitperiod},
+         given={Scott\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RSM}{%
+         family={Rowe},
+         familyi={R\bibinitperiod},
+         given={Steven\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GCH}{%
+         family={Goss},
+         familyi={G\bibinitperiod},
+         given={Christopher\bibnamedelima H.},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=QAL}{%
+         family={Quittner},
+         familyi={Q\bibinitperiod},
+         given={Alexandra\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bush},
+         familyi={B\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RF+1}
+    \strng{fullhash}{RFBSCRSMGCHQALBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis is an autosomal recessive, monogenetic disorder caused by
+  mutations in the cystic fibrosis transmembrane conductance regulator (CFTR)
+  gene. The gene defect was first described 25 years ago and much progress has
+  been made since then in our understanding of how CFTR mutations cause disease
+  and how this can be addressed therapeutically. CFTR is a transmembrane
+  protein that transports ions across the surface of epithelial cells. CFTR
+  dysfunction affects many organs; however, lung disease is responsible for the
+  vast majority of morbidity and mortality in patients with cystic fibrosis.
+  Prenatal diagnostics, newborn screening and new treatment algorithms are
+  changing the incidence and the prevalence of the disease. Until recently, the
+  standard of care in cystic fibrosis treatment focused on preventing and
+  treating complications of the disease; now, novel treatment strategies
+  directly targeting the ion channel abnormality are becoming available and it
+  will be important to evaluate how these treatments affect disease progression
+  and the quality of life of patients. In this Primer, we summarize the current
+  knowledge, and provide an outlook on how cystic fibrosis clinical care and
+  research will be affected by new knowledge and therapeutic options in the
+  near future. For an illustrated summary of this Primer, visit:
+  http://go.nature.com/4VrefN.%
+    }
+    \verb{doi}
+    \verb 10.1038/NRDP.2015.10
+    \endverb
+    \field{issn}{2056676X}
+    \field{pages}{15010}
+    \field{title}{Cystic Fibrosis}
+    \field{volume}{1}
+    \field{journaltitle}{Nature reviews. Disease primers}
+    \field{month}{05}
+    \field{year}{2015}
+  \endentry
+
+  \entry{hwang2013a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HTC}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Tzyh\bibnamedelima Chang},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KKL}{%
+         family={Kirk},
+         familyi={K\bibinitperiod},
+         given={Kevin\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cold Spring Harbor Laboratory Press}}%
+    }
+    \strng{namehash}{HTCKKL1}
+    \strng{fullhash}{HTCKKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis transmembrane conductance regulator (CFTR) is an ATP-gated
+  anion channel with two remarkable distinctions. First, it is the only
+  ATP-binding cassette (ABC) transporter that is known to be an ion
+  channel-almost all others function as transport ATPases. Second, CFTR is the
+  only ligand-gated channel that consumes its ligand (ATP) during the gating
+  cycle-a consequence of its enzymatic activity as an ABC transporter. We
+  discuss these special properties of CFTR in the context of its evolutionary
+  history as an ABC transporter. Other topics include the mechanisms by which
+  CFTR gating is regulated by phosphorylation of its unique regulatory domain
+  and our current view of the CFTR permeation pathway (or pore). Understanding
+  these basic operating principles of the CFTR channel is central to defining
+  the mechanisms of action of prospective cystic fibrosis drugs and to the
+  development of new, rational treatment strategies. \textcopyright{} 2013 Cold
+  Spring Harbor Laboratory Press; all rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1101/cshperspect.a009498
+    \endverb
+    \field{issn}{21571422}
+    \field{number}{1}
+    \field{pages}{a009498\bibrangedash a009498}
+    \field{title}{The {{CFTR Ion}} Channel: {{Gating}}, Regulation, and Anion
+  Permeation}
+    \field{volume}{3}
+    \field{journaltitle}{Cold Spring Harbor Perspectives in Medicine}
+    \field{month}{01}
+    \field{year}{2013}
+  \endentry
+
+  \entry{gadsby1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GDC}{%
+         family={Gadsby},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NAC}{%
+         family={Nairn},
+         familyi={N\bibinitperiod},
+         given={Angus\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDCNAC1}
+    \strng{fullhash}{GDCNAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The debilitating symptoms of cystic fibrosis stem from the reduced Cl-
+  permeability of epithelial cells owing to mutations in the gene encoding the
+  cystic fibrosis transmembrane conductance regulator (CFTR) Cl- channel. In
+  cells with normal CFTR channels, receptor-mediated activation of
+  cyclic-AMP-dependent protein kinase causes phosphorylation of several serines
+  in the regulatory domain of CFTR, permitting channel opening and closing via
+  cycles involving ATP hydrolysis. Cellular phosphatases rapidly
+  dephosphorylate the channels, inactivating them. Here we discuss recent
+  advances in our understanding of this complex mechanism for regulating
+  channel gating. \textcopyright{} 1994.%
+    }
+    \verb{doi}
+    \verb 10.1016/0968-0004(94)90141-4
+    \endverb
+    \field{issn}{09680004}
+    \field{number}{11}
+    \field{pages}{513\bibrangedash 518}
+    \field{title}{Regulation of {{CFTR}} Channel Gating}
+    \field{volume}{19}
+    \field{journaltitle}{Trends in Biochemical Sciences}
+    \field{year}{1994}
+  \endentry
+
+  \entry{liu2017a}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LF}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Fangyu},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Csan{\'a}dy},
+         familyi={C\bibinitperiod},
+         given={L{\'a}szl{\'o}},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GDC}{%
+         family={Gadsby},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cell Press}}%
+    }
+    \keyw{ABC transporter,anion channel,cryo-EM,human CFTR}
+    \strng{namehash}{LF+1}
+    \strng{fullhash}{LFZZCLGDCCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR) is an
+  ATP-binding cassette (ABC) transporter that uniquely functions as an ion
+  channel. Here, we present a 3.9~\AA{} structure of dephosphorylated human
+  CFTR without nucleotides, determined by electron cryomicroscopy (cryo-EM).
+  Close resemblance of this human CFTR structure to zebrafish CFTR under
+  identical conditions reinforces its relevance for understanding CFTR
+  function. The human CFTR structure reveals a previously unresolved helix
+  belonging to the R domain docked inside the intracellular vestibule,
+  precluding channel opening. By analyzing the sigmoid time course of CFTR
+  current activation, we propose that PKA phosphorylation of the R domain is
+  enabled by its infrequent spontaneous disengagement, which also explains
+  residual ATPase and gating activity of dephosphorylated CFTR. From comparison
+  with MRP1, a feature distinguishing CFTR from all other ABC transporters is
+  the helix-loop transition in transmembrane helix 8, which likely forms the
+  structural basis for CFTR's channel function.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2017.02.024
+    \endverb
+    \field{issn}{10974172}
+    \field{number}{1}
+    \field{pages}{85\bibrangedash 95.e8}
+    \field{title}{Molecular {{Structure}} of the {{Human CFTR Ion Channel}}}
+    \field{volume}{169}
+    \field{journaltitle}{Cell}
+    \field{month}{03}
+    \field{year}{2017}
+  \endentry
+
+  \entry{zhang2018a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Fangyu},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{National Academy of Sciences}}%
+    }
+    \keyw{ABC transporter,anion channel,Anion channel,cryo-EM,Cryo-EM,human
+  CFTR,Human CFTR}
+    \strng{namehash}{ZZ+1}
+    \strng{fullhash}{ZZLFCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR) is an anion
+  channel important in maintaining proper functions of the lung, pancreas, and
+  intestine. The activity of CFTR is regulated by ATP and protein kinase
+  A-dependent phosphorylation. To understand the conformational changes
+  elicited by phosphorylation and ATP binding, we present here the structure of
+  phosphorylated, ATP-bound human CFTR, determined by cryoelectron microscopy
+  to 3.2-\AA{} resolution. This structure reveals the position of the R domain
+  after phosphorylation. By comparing the structures of human CFTR and
+  zebrafish CFTR determined under the same condition, we identified common
+  features essential to channel gating. The differences in their structures
+  indicate plasticity permitted in evolution to achieve the same function.
+  Finally, the structure of CFTR provides a better understanding of why the
+  G178R, R352Q, L927P, and G970R/D mutations would impede conformational
+  changes of CFTR and lead to cystic fibrosis.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1815287115
+    \endverb
+    \field{issn}{1091-6490}
+    \field{number}{50}
+    \field{pages}{12757\bibrangedash 12762}
+    \field{title}{Molecular Structure of the {{ATP-bound}}, Phosphorylated
+  Human {{CFTR}}.}
+    \field{volume}{115}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{month}{12}
+    \field{year}{2018}
+  \endentry
+
+  \entry{fu2001}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FJ}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JHL}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Hong\bibnamedelima Long},
+         giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=NAP}{%
+         family={Naren},
+         familyi={N\bibinitperiod},
+         given={Anjaparavanda\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=KKL}{%
+         family={Kirk},
+         familyi={K\bibinitperiod},
+         given={Kevin\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FJ+1}
+    \strng{fullhash}{FJJHLNAPKKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    1. The cystic fibrosis transmembrane conductance regulator (CFTR) chloride
+  channel is activated by protein kinase A (PKA) phosphorylation of its R
+  domain and by ATP binding at its nucleotide-binding domains (NBDs). Here we
+  investigated the functional role of a cluster of acidic residues in the amino
+  terminal tail (N-tail) that also modulate CFTR channel gating by an unknown
+  mechanism. 2. A disease-associated mutant that lacks one of these acidic
+  residues (D58N CFTR) exhibited lower macroscopic currents in Xenopus oocytes
+  and faster deactivation following washout of a cAMP -activating cocktail than
+  wild-type CFTR. 3. In excised membrane patches D58N CFTR exhibited a two-fold
+  reduction in single channel open probability due primarily to shortened open
+  channel bursts. 4. Replacing this and two nearby acidic residues with
+  alanines (D47A, E54A, D58A) also reduced channel activity, but had negligible
+  effects on bulk PKA phosphorylation or on the ATP dependence of channel
+  activation. 5. Conversely, the N-tail triple mutant exhibited a markedly
+  inhibited response to AMP-PNP, a poorly hydrolysable ATP analogue that can
+  nearly lock open the wild-type channel. The N-tail mutant had both a slower
+  response to AMP-PNP (activation half-time of 140 {$\pm$} 20 s vs. 21 {$\pm$}
+  4 s for wild type) and a lower steady-state open probability following
+  AMP-PNP addition (0.68 {$\pm$} 0.08 vs. 0.92 {$\pm$} 0.03 for wild type). 6.
+  Introducing the N-tail mutations into K1250A CFTR, an NBD2 hydrolysis mutant
+  that normally exhibits very long open channel bursts, destabilized the
+  activity of this mutant as evidenced by decreased macroscopic currents and
+  shortened open channel bursts. 7. We propose that this cluster of acidic
+  residues modulates the stability of CFTR channel openings at a step that is
+  downstream of ATP binding and upstream of ATP hydrolysis, probably at NBD2.%
+    }
+    \verb{doi}
+    \verb 10.1111/J.1469-7793.2001.0459C.XD
+    \endverb
+    \field{issn}{00223751}
+    \field{number}{2}
+    \field{pages}{459\bibrangedash 470}
+    \field{title}{A Cluster of Negative Charges at the Amino Terminal Tail of
+  {{CFTR}} Regulates {{ATP-dependent}} Channel Gating}
+    \field{volume}{536}
+    \field{journaltitle}{Journal of Physiology}
+    \field{month}{10}
+    \field{year}{2001}
+  \endentry
+
+  \entry{gene2008a}{article}{}
+    \name{author}{9}{}{%
+      {{hash=GGG}{%
+         family={Gen{\'e}},
+         familyi={G\bibinitperiod},
+         given={G.G.\bibnamedelima G.},
+         giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Llobet},
+         familyi={L\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Larriba},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=dD}{%
+         family={{de Semir}},
+         familyi={d\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Mart{\'i}nez},
+         familyi={M\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Escalada},
+         familyi={E\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Solsona},
+         familyi={S\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Casals},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AJMJ}{%
+         family={Aran},
+         familyi={A\bibinitperiod},
+         given={Josep M.\bibnamedelima J.M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{John Wiley \& Sons, Ltd}}%
+    }
+    \keyw{CF,CFTR,Channel gating,Cystic fibrosis,Maturation}
+    \strng{namehash}{GGG+1}
+    \strng{fullhash}{GGGLALSdDMIEASCCTAJMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Over 1,500 cystic fibrosis transmembrane conductance regulator (CFTR) gene
+  sequence variations have been identified in patients with cystic fibrosis
+  (CF) and related disorders involving an impaired function of the CFTR
+  chloride channel. However, detailed structure-function analyses have only
+  been established for a few of them. This study aimed evaluating the impact of
+  eight N-terminus CFTR natural missense changes on channel behavior. By
+  site-directed mutagenesis, we generated four CFTR variants in the N-terminal
+  cytoplasmic tail (p.P5L, p.S50P, p.E60K, and p.R75Q) and four in the first
+  transmembrane segment of membrane-spanning domain 1 (p.G85E/V, p.Y89C, and
+  p.E92K). Immunoblot analysis revealed that p.S50P, p.E60K, p.G85E/V, and
+  p.E92K produced only core-glycosylated proteins. Immunofluorescence and whole
+  cell patch-clamp confirmed intracellular retention, thus reflecting a defect
+  of CFTR folding and/or trafficking. In contrast, both p.R75Q and p.Y89C had a
+  glycosylation pattern and a subcellular distribution comparable to the
+  wild-type CFTR, while the percentage of mature p.P5L was considerably
+  reduced, suggesting a major biogenesis flaw on this channel. Nevertheless,
+  whole-cell chloride currents were recorded for all three variants.
+  Single-channel patch-clamp analyses revealed that the channel activity of
+  p.R75Q appeared similar to that of the wild-type CFTR, while both p.P5L and
+  p.Y89C channels displayed abnormal gating. Overall, our results predict a
+  major impact of the CFTR missense variants analyzed, except p.R75Q, on the CF
+  phenotype and highlight the importance of the CFTR N-terminus on channel
+  physiology. \textcopyright{} 2008 Wiley-Liss, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/humu.20721
+    \endverb
+    \field{issn}{10597794}
+    \field{number}{5}
+    \field{pages}{738\bibrangedash 749}
+    \field{title}{N-Terminal {{CFTR}} Missense Variants Severely Affect the
+  Behavior of the {{CFTR}} Chloride Channel}
+    \field{volume}{29}
+    \field{journaltitle}{Human Mutation}
+    \field{month}{05}
+    \field{year}{2008}
+  \endentry
+
+  \entry{jurkuvenaite2006}{article}{}
+    \name{author}{9}{}{%
+      {{hash=JA}{%
+         family={Jurkuvenaite},
+         familyi={J\bibinitperiod},
+         given={Asta},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VK}{%
+         family={Varga},
+         familyi={V\bibinitperiod},
+         given={Karoly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=NK}{%
+         family={Nowotarski},
+         familyi={N\bibinitperiod},
+         given={Krzysztof},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KKL}{%
+         family={Kirk},
+         familyi={K\bibinitperiod},
+         given={Kevin\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SEJ}{%
+         family={Sorscher},
+         familyi={S\bibinitperiod},
+         given={Eric\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CJP}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BZ}{%
+         family={Bebok},
+         familyi={B\bibinitperiod},
+         given={Zsuzsa},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CJF}{%
+         family={Collawn},
+         familyi={C\bibinitperiod},
+         given={James\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{J Biol Chem}}%
+    }
+    \keyw{Animals,Arginine / chemistry,Asta
+  Jurkuvenaite,Biological,Biotinylation,Cell Membrane / metabolism,Chlorocebus
+  aethiops,Cloning,COS Cells,Cystic Fibrosis Transmembrane Conductance
+  Regulato,doi:10.1074/jbc.M508131200,Endocytosis,Extramural,Fluorescent
+  Antibody Technique,Fluorescent Dyes /
+  pharmacology,Immunoprecipitation,Indirect,James F Collawn,Karoly
+  Varga,MEDLINE,Models,Molecular,Mutation*,N.I.H.,National Center for
+  Biotechnology Information,National Institutes of Health,National Library of
+  Medicine,NCBI,NIH,NLM,Non-U.S. Gov't,Patch-Clamp
+  Techniques,Phenotype,pmid:16339147,Polymerase Chain Reaction,Protein
+  Structure,PubMed Abstract,Quinolinium Compounds / pharmacology,Research
+  Support,Tertiary,Transfection,Tyrosine / chemistry}
+    \strng{namehash}{JA+1}
+    \strng{fullhash}{JAVKNKKKLSEJLYCJPBZCJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Efficient endocytosis of the cystic fibrosis transmembrane conductance
+  regulator (CFTR) is mediated by a tyrosine-based internalization signal in
+  the CFTR carboxyl-terminal tail 1424YDSI1427. In the present studies, two
+  naturally occurring cystic fibrosis mutations in the amino terminus of CFTR,
+  R31C, and R31L were examined. To determine the defect that these mutations
+  cause, the Arg-31 mutants were expressed in COS-7 cells and their biogenesis
+  and trafficking to the cell surface tested in metabolic pulse-chase and
+  surface biotinylation assays, respectively. The results indicated that both
+  Arg-31 mutants were processed to band C at {$\sim$}50\% the efficiency of the
+  wild-type protein. However, once processed and delivered to the cell surface,
+  their half-lives were the same as wildtype protein. Interestingly, indirect
+  immunofluorescence and cell surface biotinylation indicated that the surface
+  pool was much smaller than could be accounted for based on the biogenesis
+  defect alone. Therefore, the Arg-31 mutants were tested in internalization
+  assays and found to be internalized at 2x the rate of the wild-type protein.
+  Patch clamp and 6-methoxy-N-(3-sulfopropyl)quinolinium analysis confirmed
+  reduced amounts of functional Arg-31 channels at the cell surface. Together,
+  the results suggest that both R31C and R31L mutations compromise biogenesis
+  and enhance internalization of CFTR. These two additive effects contribute to
+  the loss of surface expression and the associated defect in chloride
+  conductance that is consistent with a disease phenotype. \textcopyright{}
+  2006 by The American Society for Biochemistry and Molecular Biology, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1074/jbc.M508131200
+    \endverb
+    \field{issn}{00219258}
+    \field{number}{6}
+    \field{pages}{3329\bibrangedash 3334}
+    \field{title}{Mutations in the Amino Terminus of the Cystic Fibrosis
+  Transmembrane Conductance Regulator Enhance Endocytosis}
+    \field{volume}{281}
+    \field{journaltitle}{Journal of Biological Chemistry}
+    \field{month}{02}
+    \field{year}{2006}
+  \endentry
+
+  \entry{sabusap2021}{article}{}
+    \name{author}{10}{}{%
+      {{hash=SCM}{%
+         family={Sabusap},
+         familyi={S\bibinitperiod},
+         given={Carleen\bibnamedelima Mae},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=JD}{%
+         family={Joshi},
+         familyi={J\bibinitperiod},
+         given={Disha},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Simhaev},
+         familyi={S\bibinitperiod},
+         given={Luba},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=OKE}{%
+         family={Oliver},
+         familyi={O\bibinitperiod},
+         given={Kathryn\bibnamedelima E.},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Senderowitz},
+         familyi={S\bibinitperiod},
+         given={Hanoch},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=vM}{%
+         family={{van Willigen}},
+         familyi={v\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Braakman},
+         familyi={B\bibinitperiod},
+         given={Ineke},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rab},
+         familyi={R\bibinitperiod},
+         given={Andras},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SEJ}{%
+         family={Sorscher},
+         familyi={S\bibinitperiod},
+         given={Eric\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HJS}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Jeong\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Society for Biochemistry and Molecular Biology Inc.}}%
+    }
+    \strng{namehash}{SCM+1}
+    \strng{fullhash}{SCMJDSLOKESHvMBIRASEJHJS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Patients with cystic fibrosis (CF) harboring the P67L variant in the cystic
+  fibrosis transmembrane conductance regulator (CFTR) often exhibit a typical
+  CF phenotype, including severe respiratory compromise. This rare mutation
+  (reported in {$<$}300 patients worldwide) responds robustly to CFTR
+  correctors, such as lumacaftor and tezacaftor, with rescue in model systems
+  that far exceed what can be achieved for the archetypical CFTR mutant
+  F508del. However, the specific molecular consequences of the P67L mutation
+  are poorly characterized. In this study, we conducted biochemical
+  measurements following low-temperature growth and/or intragenic suppression,
+  which suggest a mechanism underlying P67L that (1) shares key pathogenic
+  features with F508del, including off-pathway (nonnative) folding
+  intermediates, (2) is linked to folding stability of nucleotide-binding
+  domains 1 and 2, and (3) demonstrates pharmacologic rescue that requires
+  domains in the carboxyl half of the protein. We also investigated the
+  ``lasso'' helices 1 and 2, which occur immediately upstream of P67. Based on
+  limited proteolysis, pulse chase, and molecular dynamics analysis of
+  full-length CFTR and a series of deletion constructs, we argue that P67L and
+  other maturational processing (class 2) defects impair the integrity of the
+  lasso motif and confer misfolding of downstream domains. Thus, amino-terminal
+  missense variants elicit a conformational change throughout CFTR that
+  abrogates maturation while providing a robust substrate for pharmacologic
+  repair.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.JBC.2021.100598
+    \endverb
+    \field{issn}{1083351X}
+    \field{title}{The {{CFTR P67L}} Variant Reveals a Key Role for
+  {{N-terminal}} Lasso Helices in Channel Folding, Maturation, and
+  Pharmacologic Rescue}
+    \field{volume}{296}
+    \field{journaltitle}{Journal of Biological Chemistry}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
+
+  \entry{thelin2007a}{article}{}
+    \name{author}{10}{}{%
+      {{hash=TWR}{%
+         family={Thelin},
+         familyi={T\bibinitperiod},
+         given={William\bibnamedelima R.},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gentzsch},
+         familyi={G\bibinitperiod},
+         given={Martina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KSM}{%
+         family={Kreda},
+         familyi={K\bibinitperiod},
+         given={Silvia\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SJL}{%
+         family={Sallee},
+         familyi={S\bibinitperiod},
+         given={Jennifer\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SCO}{%
+         family={Scarlett},
+         familyi={S\bibinitperiod},
+         given={Cameron\bibnamedelima O.},
+         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=BCH}{%
+         family={Borchers},
+         familyi={B\bibinitperiod},
+         given={Christoph\bibnamedelima H.},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Jacobson},
+         familyi={J\bibinitperiod},
+         given={Ken},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SMJ}{%
+         family={Stutts},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima Jackson},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MSL}{%
+         family={Milgram},
+         familyi={M\bibinitperiod},
+         given={Sharon\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Society for Clinical Investigation}}%
+    }
+    \strng{namehash}{TWR+1}
+    \strng{fullhash}{TWRCYGMKSMSJLSCOBCHJKSMJMSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The role of the cystic fibrosis transmembrane conductance regulator (CFTR)
+  as a cAMP-dependent chloride channel on the apical membrane of epithelia is
+  well established. However, the processes by which CFTR is regulated on the
+  cell surface are not clear. Here we report the identification of a
+  protein-protein interaction between CFTR and the cytoskeletal filamin
+  proteins. Using proteomic approaches, we identified filamins as proteins that
+  associate with the extreme CFTR N terminus. Furthermore, we identified a
+  disease-causing missense mutation in CFTR, serine 13 to phenylalanine (S13F),
+  which disrupted this interaction. In cells, filamins tethered plasma membrane
+  CFTR to the underlying actin network. This interaction stabilized CFTR at the
+  cell surface and regulated the plasma membrane dynamics and confinement of
+  the channel. In the absence of filamin binding, CFTR was internalized from
+  the cell surface, where it prematurely accumulated in lysosomes and was
+  ultimately degraded. Our data demonstrate what we believe to be a previously
+  unrecognized role for the CFTR N terminus in the regulation of the plasma
+  membrane stability and metabolic stability of CFTR. In addition, we elucidate
+  the molecular defect associated with the S13F mutation.%
+    }
+    \verb{doi}
+    \verb 10.1172/JCI30376
+    \endverb
+    \field{issn}{00219738}
+    \field{number}{2}
+    \field{pages}{364\bibrangedash 374}
+    \field{title}{Direct Interaction with Filamins Modulates the Stability and
+  Plasma Membrane Expression of {{CFTR}}}
+    \field{volume}{117}
+    \field{journaltitle}{Journal of Clinical Investigation}
+    \field{month}{02}
+    \field{year}{2007}
+  \endentry
+
+  \entry{loo2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LTW}{%
+         family={Loo},
+         familyi={L\bibinitperiod},
+         given={Tip\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Bartlett},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima Claire},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CDM}{%
+         family={Clarke},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier Inc.}}%
+    }
+    \keyw{Arginine mutagenesis,CFTR,Corrector,Cystic
+  fibrosis,P-glycoprotein,Processing mutations,Transmembrane domain,VX-809}
+    \strng{namehash}{LTW+1}
+    \strng{fullhash}{LTWBMCCDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Processing mutations that inhibit folding and trafficking of CFTR are the
+  main cause of cystic fibrosis (CF). A potential CF therapy would be to repair
+  CFTR processing mutants. It has been demonstrated that processing mutants of
+  P-glycoprotein (P-gp), CFTR's sister protein, can be efficiently repaired by
+  a drug-rescue mechanism. Many arginine suppressors that mimic drug-rescue
+  have been identified in the P-gp transmembrane (TM) domains (TMDs) that
+  rescue by forming hydrogen bonds with residues in adjacent helices to promote
+  packing of the TM segments. To test if CFTR mutants could be repaired by a
+  drug-rescue mechanism, we used truncation mutants to test if corrector VX-809
+  interacted with the TMDs. VX-809 was selected for study because it is
+  specific for CFTR, it is the most effective corrector identified to date, but
+  it has limited clinical benefit. Identification of the VX-809 target domain
+  will help to develop correctors with improved clinical benefits. It was found
+  that VX-809 rescued truncation mutants lacking the NBD2 and R domains. When
+  the remaining domains (TMD1, NBD1, TMD2) were expressed as separate
+  polypeptides, VX-809 only increased the stability of TMD1. We then performed
+  arginine mutagenesis on TM6 in TMD1. Although the results showed that TM6 had
+  distinct lipid and aqueous faces, CFTR was different from P-gp as no arginine
+  promoted maturation of CFTR processing mutants. The results suggest that TMD1
+  contains a VX-809 binding site, but its mechanism differed from P-gp
+  drug-rescue. We also report that V510D acts as a universal suppressor to
+  rescue CFTR processing mutants. \textcopyright{} 2013 Elsevier Inc. All
+  rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.BCP.2013.06.028
+    \endverb
+    \field{issn}{18732968}
+    \field{number}{5}
+    \field{pages}{612\bibrangedash 619}
+    \field{title}{Corrector {{VX-809}} Stabilizes the First Transmembrane
+  Domain of {{CFTR}}}
+    \field{volume}{86}
+    \field{journaltitle}{Biochemical Pharmacology}
+    \field{year}{2013}
+  \endentry
+
+  \entry{ren2013}{article}{}
+    \name{author}{8}{}{%
+      {{hash=RHY}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Hong\bibnamedelima Yu},
+         giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=GDE}{%
+         family={Grove},
+         familyi={G\bibinitperiod},
+         given={Diane\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=DLRO}{%
+         family={De\bibnamedelima La\bibnamedelima Rosa},
+         familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+         given={Oxana},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=HSA}{%
+         family={Houck},
+         familyi={H\bibinitperiod},
+         given={Scott\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sopha},
+         familyi={S\bibinitperiod},
+         given={Pattarawut},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VGF}{%
+         family={Van\bibnamedelima Goor},
+         familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Fredrick},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HBJ}{%
+         family={Hoffman},
+         familyi={H\bibinitperiod},
+         given={Beth\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CDM}{%
+         family={Cyr},
+         familyi={C\bibinitperiod},
+         given={Douglas\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RHY+1}
+    \strng{fullhash}{RHYGDEDLROHSASPVGFHBJCDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is a fatal genetic disorder associated with defective
+  hydration of lung airways due to the loss of chloride transport through the
+  CF transmembrane conductance regulator protein (CFTR). CFTR contains two
+  membrane-spanning domains (MSDs), two nucleotide-binding domains (NBDs), and
+  a regulatory domain, and its channel assembly requires multiple interdomain
+  contacts. The most common CF-causing mutation, F508del, occurs in NBD1 and
+  results in misfolding and premature degradation of F508del-CFTR. VX-809 is an
+  investigational CFTR corrector that partially restores CFTR function in
+  people who are homozygous for F508del-CFTR. To identify the folding defect(s)
+  in F508del-CFTR that must be repaired to treat CF, we explored the mechanism
+  of VX-809 action. VX-809 stabilized an N-terminal domain in CFTR that
+  contains only MSD1 and efficaciously restored function to CFTR forms that
+  have missense mutations in MSD1. The action of VX-809 on MSD1 appears to
+  suppress folding defects in F508del-CFTR by enhancing interactions among the
+  NBD1, MSD1, and MSD2 domains. The ability of VX-809 to correct F508del-CFTR
+  is enhanced when combined with mutations that improve F508del-NBD1
+  interaction with MSD2. These data suggest that the use of VX-809 in
+  combination with an additional CFTR corrector that suppresses folding defects
+  downstream of MSD1 may further enhance CFTR function in people with
+  F508del-CFTR. \textcopyright{} 2013 Ren et al.%
+    }
+    \verb{doi}
+    \verb 10.1091/MBC.E13-05-0240
+    \endverb
+    \field{issn}{10591524}
+    \field{number}{19}
+    \field{pages}{3016\bibrangedash 3024}
+    \field{title}{{{VX-809}} Corrects Folding Defects in Cystic Fibrosis
+  Transmembrane Conductance Regulator Protein through Action on
+  Membrane-Spanning Domain 1}
+    \field{volume}{24}
+    \field{journaltitle}{Molecular Biology of the Cell}
+    \field{month}{10}
+    \field{year}{2013}
+  \endentry
+
+  \entry{loo2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LTW}{%
+         family={Loo},
+         familyi={L\bibinitperiod},
+         given={Tip\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=CDM}{%
+         family={Clarke},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier Inc.}}%
+    }
+    \keyw{Bithiazole correctors,CFTR,Cysteine cross-linking,Cystic
+  fibrosis,Cytoplasmic loop,Transmembrane- and nucleotide-binding
+  domains,VX-809 (Lumacaftor)}
+    \strng{namehash}{LTWCDM1}
+    \strng{fullhash}{LTWCDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A large number of correctors have been identified that can partially repair
+  defects in folding, stability and trafficking of CFTR processing mutants that
+  cause cystic fibrosis (CF). The best corrector, VX-809 (Lumacaftor), has
+  shown some promise when used in combination with a potentiator (Ivacaftor).
+  Understanding the mechanism of VX-809 is essential for development of better
+  correctors. Here, we tested our prediction that VX-809 repairs folding and
+  processing defects of CFTR by promoting interactions between the first
+  cytoplasmic loop (CL1) of transmembrane domain 1 (TMD1) and the first
+  nucleotide-binding domain (NBD1). To investigate whether VX-809 promoted
+  CL1/NBD1 interactions, we performed cysteine mutagenesis and disulfide
+  cross-linking analysis of Cys-less TMD1 (residues 1\textendash 436) and
+  {$\Delta$}TMD1 (residues 437\textendash 1480; NBD1-R-TMD2-NBD2) truncation
+  mutants. It was found that VX-809, but not bithiazole correctors, promoted
+  maturation (exited endoplasmic reticulum for addition of complex carbohydrate
+  in the Golgi) of the {$\Delta$}TMD1 truncation mutant only when it was
+  co-expressed in the presence of TMD1. Expression in the presence of VX-809
+  also promoted cross-linking between R170C (in CL1 of TMD1 protein) and L475C
+  (in NBD1 of the {$\Delta$}TMD1 truncation protein). Expression of the
+  {$\Delta$}TMD1 truncation mutant in the presence of TMD1 and VX-809 also
+  increased the half-life of the mature protein in cells. The results suggest
+  that the mechanism by which VX-809 promotes maturation and stability of CFTR
+  is by promoting CL1/NBD1 interactions.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.BCP.2017.03.020
+    \endverb
+    \field{issn}{18732968}
+    \field{pages}{24\bibrangedash 31}
+    \field{title}{Corrector {{VX-809}} Promotes Interactions between
+  Cytoplasmic Loop One and the First Nucleotide-Binding Domain of {{CFTR}}}
+    \field{volume}{136}
+    \field{journaltitle}{Biochemical Pharmacology}
+    \field{month}{07}
+    \field{year}{2017}
+  \endentry
+
+  \entry{hudson2017}{article}{}
+    \name{author}{8}{}{%
+      {{hash=HRP}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={Rhea\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=DJE}{%
+         family={Dawson},
+         familyi={D\bibinitperiod},
+         given={Jennifer\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CPA}{%
+         family={Chong},
+         familyi={C\bibinitperiod},
+         given={P.\bibnamedelima Andrew},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=YZ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Zhengrong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Millen},
+         familyi={M\bibinitperiod},
+         given={Linda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TPJ}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Philip\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BCG}{%
+         family={Brouillette},
+         familyi={B\bibinitperiod},
+         given={Christie\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=FJD}{%
+         family={{Forman-Kay}},
+         familyi={F\bibinitperiod},
+         given={Julie\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Society for Pharmacology and Experimental Therapy}}%
+    }
+    \strng{namehash}{HRP+1}
+    \strng{fullhash}{HRPDJECPAYZMLTPJBCGFJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Understanding the mechanism of action of modulator compounds for the cystic
+  fibrosis transmembrane conductance regulator (CFTR) is key for the
+  optimization of therapeutics as well as obtaining insights into the molecular
+  mechanisms of CFTR function. We demonstrate the direct binding of VX-809 to
+  the first nucleotide-binding domain (NBD1) of human CFTR. Disruption of the
+  interaction between C-terminal helices and the NBD1 core upon VX-809 binding
+  is observed from chemical shift changes in the NMR spectra of residues in the
+  helices and on the surface of b-strands S3, S9, and S10. Binding to VX-809
+  leads to a significant negative shift in NBD1 thermal melting temperature
+  (Tm), pointing to direct VX-809 interaction shifting the NBD1 conformational
+  equilibrium. An inter-residue correlation analysis of the chemical shift
+  changes provides evidence of allosteric coupling between the direct binding
+  site and the NBD1:CL4 interface, thus enabling effects on the interface in
+  the absence of direct binding in that location. These NMR binding data and
+  the negative Tm shifts are very similar to those previously reported by us
+  for binding of the dual corrector-potentiator CFFT-001 to NBD1 (Hudson et
+  al., 2012), suggesting that the two compounds may share some aspects of their
+  mechanisms of action. Although previous studies have shown an important role
+  for VX-809 in modulating the conformation of the first membrane spanning
+  domain (Aleksandrov et al., 2012; Ren et al., 2013), this additional mode of
+  VX-809 binding provides insight into conformational dynamics and allostery
+  within CFTR.%
+    }
+    \verb{doi}
+    \verb 10.1124/MOL.117.108373
+    \endverb
+    \field{issn}{15210111}
+    \field{number}{2}
+    \field{pages}{124\bibrangedash 135}
+    \field{title}{Direct Binding of the Corrector {{VX-809}} to Human {{CFTR
+  NBD1}}: {{Evidence}} of an Allosteric Coupling between the Binding Site and
+  the {{NBD1}}:{{CL4}} Interface s}
+    \field{volume}{92}
+    \field{journaltitle}{Molecular Pharmacology}
+    \field{month}{08}
+    \field{year}{2017}
+  \endentry
+
+  \entry{okiyoneda2013}{article}{}
+    \name{author}{13}{}{%
+      {{hash=OT}{%
+         family={Okiyoneda},
+         familyi={O\bibinitperiod},
+         given={Tsukasa},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Veit},
+         familyi={V\bibinitperiod},
+         given={Guido},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DJF}{%
+         family={Dekkers},
+         familyi={D\bibinitperiod},
+         given={Johanna\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bagdany},
+         familyi={B\bibinitperiod},
+         given={Miklos},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Soya},
+         familyi={S\bibinitperiod},
+         given={Naoto},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=XH}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Haijin},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Roldan},
+         familyi={R\bibinitperiod},
+         given={Ariel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VAS}{%
+         family={Verkman},
+         familyi={V\bibinitperiod},
+         given={Alan\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kurth},
+         familyi={K\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Simon},
+         familyi={S\bibinitperiod},
+         given={Agnes},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hegedus},
+         familyi={H\bibinitperiod},
+         given={Tamas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekman},
+         familyi={B\bibinitperiod},
+         given={Jeffrey\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LGL}{%
+         family={Lukacs},
+         familyi={L\bibinitperiod},
+         given={Gergely\bibnamedelima L.},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OT+1}
+    \strng{fullhash}{OTVGDJFBMSNXHRAVASKMSAHTBJMLGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The most common cystic fibrosis mutation, {$\Delta$}F508 in nucleotide
+  binding domain 1 (NBD1), impairs cystic fibrosis transmembrane conductance
+  regulator (CFTR)-coupled domain folding, plasma membrane expression, function
+  and stability. VX-809, a promising investigational corrector of
+  {$\Delta$}F508-CFTR misprocessing, has limited clinical benefit and an
+  incompletely understood mechanism, hampering drug development. Given the
+  effect of second-site suppressor mutations, robust {$\Delta$}F508-CFTR
+  correction most likely requires stabilization of NBD1 energetics and the
+  interface between membrane-spanning domains (MSDs) and NBD1, which are both
+  established primary conformational defects. Here we elucidate the molecular
+  targets of available correctors: class I stabilizes the NBD1-MSD1 and
+  NBD1-MSD2 interfaces, and class II targets NBD2. Only chemical chaperones,
+  surrogates of class III correctors, stabilize human {$\Delta$}F508-NBD1.
+  Although VX-809 can correct missense mutations primarily destabilizing the
+  NBD1-MSD1/2 interface, functional plasma membrane expression of
+  {$\Delta$}F508-CFTR also requires compounds that counteract the NBD1 and NBD2
+  stability defects in cystic fibrosis bronchial epithelial cells and
+  intestinal organoids. Thus, the combination of structure-guided correctors
+  represents an effective approach for cystic fibrosis therapy \textcopyright{}
+  2013 Nature America, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1038/NCHEMBIO.1253
+    \endverb
+    \field{issn}{15524450}
+    \field{number}{7}
+    \field{pages}{444\bibrangedash 454}
+    \field{title}{Mechanism-Based Corrector Combination Restores
+  {{$\Delta$F508-CFTR}} Folding and Function}
+    \field{volume}{9}
+    \field{journaltitle}{Nature Chemical Biology}
+    \field{month}{07}
+    \field{year}{2013}
+  \endentry
+
+  \entry{berkers2019}{article}{}
+    \name{author}{25}{}{%
+      {{hash=BG}{%
+         family={Berkers},
+         familyi={B\bibinitperiod},
+         given={Gitte},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=vP}{%
+         family={{van Mourik}},
+         familyi={v\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VAM}{%
+         family={Vonk},
+         familyi={V\bibinitperiod},
+         given={Annelotte\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kruisselbrink},
+         familyi={K\bibinitperiod},
+         given={Evelien},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DJF}{%
+         family={Dekkers},
+         familyi={D\bibinitperiod},
+         given={Johanna\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=dKM}{%
+         family={{de Winter-de Groot}},
+         familyi={d\bibinitperiod},
+         given={Karin\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=AHG}{%
+         family={Arets},
+         familyi={A\bibinitperiod},
+         given={Hubertus\bibnamedelima G.M.},
+         giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MRE}{%
+         family={{Marck-van der Wilt}},
+         familyi={M\bibinitperiod},
+         given={Rozemarijn\bibnamedelima E.P.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=DJS}{%
+         family={Dijkema},
+         familyi={D\bibinitperiod},
+         given={Jasper\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=VMM}{%
+         family={Vanderschuren},
+         familyi={V\bibinitperiod},
+         given={Maaike\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HRH}{%
+         family={Houwen},
+         familyi={H\bibinitperiod},
+         given={Roderick\bibnamedelima H.J.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HHG}{%
+         family={Heijerman},
+         familyi={H\bibinitperiod},
+         given={Harry\bibnamedelima G.M.},
+         giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=vEA}{%
+         family={{van de Graaf}},
+         familyi={v\bibinitperiod},
+         given={Eduard\bibnamedelima A.},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ESG}{%
+         family={Elias},
+         familyi={E\bibinitperiod},
+         given={Sjoerd\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MCJ}{%
+         family={Majoor},
+         familyi={M\bibinitperiod},
+         given={Christof\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KGH}{%
+         family={Koppelman},
+         familyi={K\bibinitperiod},
+         given={Gerard\bibnamedelima H.},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Roukema},
+         familyi={R\bibinitperiod},
+         given={Jolt},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bakker},
+         familyi={B\bibinitperiod},
+         given={Marleen},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JHM}{%
+         family={Janssens},
+         familyi={J\bibinitperiod},
+         given={Hettie\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=vR}{%
+         family={{van der Meer}},
+         familyi={v\bibinitperiod},
+         given={Renske},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VRG}{%
+         family={Vries},
+         familyi={V\bibinitperiod},
+         given={Robert\bibnamedelima G.J.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CHC}{%
+         family={Clevers},
+         familyi={C\bibinitperiod},
+         given={Hans\bibnamedelima C.},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=dHR}{%
+         family={{de Jonge}},
+         familyi={d\bibinitperiod},
+         given={Hugo\bibnamedelima R.},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekman},
+         familyi={B\bibinitperiod},
+         given={Jeffrey\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=vCK}{%
+         family={{van der Ent}},
+         familyi={v\bibinitperiod},
+         given={Cornelis\bibnamedelima K.},
+         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier B.V.}}%
+    }
+    \keyw{CFTR,cystic fibrosis,drug response,organoids,personalized
+  treatment,predicting,stem cell cultures}
+    \strng{namehash}{BG+1}
+  \strng{fullhash}{BGvPVAMKEDJFdKMAHGMREDJSVMMHRHHHGvEAESGMCJKGHRJBMJHMvRVRGCHCdHRBJMvCK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Berkers et al. demonstrate that stem cell cultures (organoids) can be a
+  tool for personalized medicine. They show a high correlation between in vitro
+  and in vivo effects of drugs and demonstrate good-to-excellent predictive
+  values of the organoid test for preclinical identification of responders to
+  CFTR modulators.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.CELREP.2019.01.068
+    \endverb
+    \field{issn}{22111247}
+    \field{number}{7}
+    \field{pages}{1701\bibrangedash 1708.e3}
+    \field{title}{Rectal Organoids Enable Personalized Treatment of Cystic
+  Fibrosis}
+    \field{volume}{26}
+    \field{journaltitle}{Cell Reports}
+    \field{month}{02}
+    \field{year}{2019}
+  \endentry
+
+  \entry{mccarthy2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MC}{%
+         family={McCarthy},
+         familyi={M\bibinitperiod},
+         given={Cormac},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BJJ}{%
+         family={Brewington},
+         familyi={B\bibinitperiod},
+         given={John\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Harkness},
+         familyi={H\bibinitperiod},
+         given={Beth},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CJP}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=TBC}{%
+         family={Trapnell},
+         familyi={T\bibinitperiod},
+         given={Bruce\bibnamedelima C.},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{European Respiratory Society}}%
+    }
+    \strng{namehash}{MC+1}
+    \strng{fullhash}{MCBJJHBCJPTBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1183/13993003.02457-2017
+    \endverb
+    \field{issn}{13993003}
+    \field{number}{6}
+    \field{title}{Personalised {{CFTR}} Pharmacotherapeutic Response Testing
+  and Therapy of Cystic Fibrosis}
+    \field{volume}{51}
+    \field{journaltitle}{European Respiratory Journal}
+    \field{month}{06}
+    \field{year}{2018}
+  \endentry
+
+  \entry{ramalho2021}{article}{}
+    \name{author}{13}{}{%
+      {{hash=RAS}{%
+         family={Ramalho},
+         familyi={R\bibinitperiod},
+         given={Anabela\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={F{\"o}rstov{\'a}},
+         familyi={F\bibinitperiod},
+         given={Eva},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VAM}{%
+         family={Vonk},
+         familyi={V\bibinitperiod},
+         given={Annelotte\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Ferrante},
+         familyi={F\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Verfailli},
+         familyi={V\bibinitperiod},
+         given={Catherine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dupont},
+         familyi={D\bibinitperiod},
+         given={Lieven},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Boon},
+         familyi={B\bibinitperiod},
+         given={Mieke},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Proesmans},
+         familyi={P\bibinitperiod},
+         given={Marijke},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekma},
+         familyi={B\bibinitperiod},
+         given={Jeffrey\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sarouk},
+         familyi={S\bibinitperiod},
+         given={Ifat},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=CCV}{%
+         family={Cordero},
+         familyi={C\bibinitperiod},
+         given={Carlos\bibnamedelima Vazquez},
+         giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vermeule},
+         familyi={V\bibinitperiod},
+         given={Francois},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DBK}{%
+         family={De\bibnamedelima Boeck},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Kris},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{European Respiratory Society}}%
+    }
+    \strng{namehash}{RAS+1}
+    \strng{fullhash}{RASFEVAMFMVCDLBMPMBJMSICCVVFDBK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Rationale: Given the vast number of cystic fibrosis transmembrane
+  conductance regulator (CFTR) mutations, biomarkers predicting benefit from
+  CFTR modulator therapies are needed for subjects with cystic fibrosis (CF).
+  Objectives: To study CFTR function in organoids of subjects with common and
+  rare CFTR mutations and evaluate correlations between CFTR function and
+  clinical data. Methods: Intestinal organoids were grown from rectal biopsies
+  in a cohort of 97 subjects with CF. Residual CFTR function was measured by
+  quantifying organoid swelling induced by forskolin and response to modulators
+  by quantifying organoid swelling induced by CFTR correctors, potentiator and
+  their combination. Organoid data were correlated with clinical data from the
+  literature. Results: Across 28 genotypes, residual CFTR function correlated
+  (r2=0.87) with sweat chloride values. When studying the same genotypes, CFTR
+  function rescue by CFTR modulators in organoids correlated tightly with mean
+  improvement in lung function (r2=0.90) and sweat chloride (r2=0.95) reported
+  in clinical trials. We identified candidate genotypes for modulator therapy,
+  such as E92K, Q237E, R334W and L159S. Based on organoid results, two subjects
+  started modulator treatment: one homozygous for complex allele Q359K-T360K,
+  and the second with mutation E60K. Both subjects had major clinical benefit.
+  Conclusions: Measurements of residual CFTR function and rescue of function by
+  CFTR modulators in intestinal organoids correlate closely with clinical data.
+  Our results for reference genotypes concur with previous results. CFTR
+  function measured in organoids can be used to guide precision medicine in
+  patients with CF, positioning organoids as a potential in vitro model to
+  bring treatment to patients carrying rare CFTR mutations.%
+    }
+    \verb{doi}
+    \verb 10.1183/13993003.02426-2019
+    \endverb
+    \field{issn}{13993003}
+    \field{number}{1}
+    \field{title}{Correction of {{CFTR}} Function in Intestinal Organoids to
+  Guide Treatment of Cystic Fibrosis}
+    \field{volume}{57}
+    \field{journaltitle}{European Respiratory Journal}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
+
+  \entry{sato2009}{article}{}
+    \name{author}{11}{}{%
+      {{hash=ST}{%
+         family={Sato},
+         familyi={S\bibinitperiod},
+         given={Toshiro},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=VRG}{%
+         family={Vries},
+         familyi={V\bibinitperiod},
+         given={Robert\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=SHJ}{%
+         family={Snippert},
+         familyi={S\bibinitperiod},
+         given={Hugo\bibnamedelima J.},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VDWM}{%
+         family={Van De\bibnamedelima Wetering},
+         familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Barker},
+         familyi={B\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SDE}{%
+         family={Stange},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=VEJH}{%
+         family={Van\bibnamedelima Es},
+         familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={Johan\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Abo},
+         familyi={A\bibinitperiod},
+         given={Arie},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kujala},
+         familyi={K\bibinitperiod},
+         given={Pekka},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PPJ}{%
+         family={Peters},
+         familyi={P\bibinitperiod},
+         given={Peter\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Clevers},
+         familyi={C\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ST+1}
+    \strng{fullhash}{STVRGSHJVDWMBNSDEVEJHAAKPPPJCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The intestinal epithelium is the most rapidly self-renewing tissue in adult
+  mammals. We have recently demonstrated the presence of about six cycling Lgr5
+  + stem cells at the bottoms of small-intestinal crypts. Here we describe the
+  establishment of long-term culture conditions under which single crypts
+  undergo multiple crypt fission events, while simultanously generating
+  villus-like epithelial domains in which all differentiated cell types are
+  present. Single sorted Lgr5 + stem cells can also initiate these crypt-villus
+  organoids. Tracing experiments indicate that the Lgr5 + stem-cell hierarchy
+  is maintained in organoids. We conclude that intestinal crypt-villus units
+  are self-organizing structures, which can be built from a single stem cell in
+  the absence of a non-epithelial cellular niche. \textcopyright{} 2009
+  Macmillan Publishers Limited. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1038/NATURE07935
+    \endverb
+    \field{issn}{00280836}
+    \field{number}{7244}
+    \field{pages}{262\bibrangedash 265}
+    \field{title}{Single {{Lgr5}} Stem Cells Build Crypt-Villus Structures in
+  Vitro without a Mesenchymal Niche}
+    \field{volume}{459}
+    \field{journaltitle}{Nature}
+    \field{month}{05}
+    \field{year}{2009}
+  \endentry
+
+  \entry{awatade2018}{article}{}
+    \name{author}{7}{}{%
+      {{hash=ANT}{%
+         family={Awatade},
+         familyi={A\bibinitperiod},
+         given={Nikhil\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=WSL}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Sharon\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HCK}{%
+         family={Hewson},
+         familyi={H\bibinitperiod},
+         given={Chris\bibnamedelima K.},
+         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=FLK}{%
+         family={Fawcett},
+         familyi={F\bibinitperiod},
+         given={Laura\bibnamedelima K.},
+         giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kicic},
+         familyi={K\bibinitperiod},
+         given={Anthony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Jaffe},
+         familyi={J\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WSA}{%
+         family={Waters},
+         familyi={W\bibinitperiod},
+         given={Shafagh\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Frontiers Media S.A.}}%
+    }
+    \keyw{CFTR,CFTR modulator,cystic fibrosis,drug
+  development,organoid,personalized medicine,sweat chloride}
+    \strng{namehash}{ANT+1}
+    \strng{fullhash}{ANTWSLHCKFLKKAJAWSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is an inherited disorder where individual disease
+  etiology and response to therapeutic intervention is impacted by CF
+  transmembrane regulator (CFTR) mutations and other genetic modifiers. CFTR
+  regulates multiple mechanisms in a diverse range of epithelial tissues. In
+  this Review, we consolidate the latest updates in the development of primary
+  epithelial cellular model systems relevant for CF. We discuss conventional
+  two-dimensional (2-D) airway epithelial cell cultures, the backbone of in
+  vitro cellular models to date, as well as improved expansion protocols to
+  overcome finite supply of the cellular source. We highlight a range of
+  strategies for establishment of three dimensional (3-D) airway and intestinal
+  organoid models and evaluate the limitations and potential improvements in
+  each system, focusing on their application in CF. The in vitro CFTR
+  functional assays in patient-derived organoids allow for preclinical
+  pharmacotherapy screening to identify responsive patients. It is likely that
+  organoids will be an invaluable preclinical tool to unravel disease
+  mechanisms, design novel treatments, and enable clinicians to provide
+  personalized management for patients with CF.%
+    }
+    \verb{doi}
+    \verb 10.3389/FPHAR.2018.01429
+    \endverb
+    \field{issn}{16639812}
+    \field{title}{Human Primary Epithelial Cell Models: {{Promising}} Tools in
+  the Era of Cystic Fibrosis Personalized Medicine}
+    \field{volume}{9}
+    \field{journaltitle}{Frontiers in Pharmacology}
+    \field{month}{12}
+    \field{year}{2018}
+  \endentry
+
+  \entry{pollard2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PBS}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={Bette\bibnamedelima S.},
+         giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PHB}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={Harvey\bibnamedelima B.},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{John Wiley and Sons Inc.}}%
+    }
+    \keyw{basal stem cell,bystander genes,ciliary cell,club cell,goblet
+  cell,lung-on-a-chip,modifier genes,neuroendocrine cell,NOTCH,type I alveolar
+  cell,type II alveolar cell}
+    \strng{namehash}{PBSPHB1}
+    \strng{fullhash}{PBSPHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Induced pluripotent stem cells (iPSCs) are a recently developed technology
+  in which fully differentiated cells such as fibroblasts from individual CF
+  patients can be repaired with [wildtype] CFTR, and reprogrammed to
+  differentiate into fully differentiated cells characteristic of the proximal
+  and distal airways. Here, we review properties of different epithelial cells
+  in the airway, and the in vitro genetic roadmap which iPSCs follow as they
+  are step-wise differentiated into either basal stem cells, for the proximal
+  airway, or into Type II Alveolar cells for the distal airways. The central
+  theme is that iPSC-derived basal stem cells, are penultimately dependent on
+  NOTCH signaling for differentiation into club cells, goblet cells, ciliated
+  cells, and neuroendocrine cells. Furthermore, given the proper matrix, these
+  cellular progenies are also able to self-assemble into a fully functional
+  pseudostratified squamous proximal airway epithelium. By contrast, club cells
+  are reserve stem cells which are able to either differentiate into goblet or
+  ciliated cells, but also to de-differentiate into basal stem cells. Variant
+  club cells, located at the transition between airway and alveoli, may also be
+  responsible for differentiation into Type II Alveolar cells, which then
+  differentiate into Type I Alveolar cells for gas exchange in the distal
+  airway. Using gene editing, the mutant CFTR gene in iPSCs from CF patients
+  can be repaired, and fully functional epithelial cells can thus be generated
+  through directed differentiation. However, there is a limitation in that the
+  lung has other CFTR-dependent cells besides epithelial cells. Another
+  limitation is that there are CFTR-dependent cells in other organs which would
+  continue to contribute to CF disease. Furthermore, there are also bystander
+  or modifier genes which affect disease outcome, not only in the lung, but
+  specifically in other CF-affected organs. Finally, we discuss future
+  personalized applications of the iPSC technology, many of which have already
+  survived the ``proof-of-principle'' test. These include (i) patient-derived
+  iPSCs used as a ``lung-on-a-chip'' tool for personalized drug discovery; (ii)
+  replacement of mutant lung cells by wildtype lung cells in the living lung;
+  and (iii) development of bio-artificial lungs. It is hoped that this review
+  will give the reader a roadmap through the most complicated of the obstacles,
+  and foster a guardedly optimistic view of how some of the remaining obstacles
+  might one day be overcome.%
+    }
+    \verb{doi}
+    \verb 10.1002/PPUL.24118
+    \endverb
+    \field{issn}{10990496}
+    \field{pages}{S12\bibrangedash S29}
+    \field{title}{Induced Pluripotent Stem Cells for Treating Cystic Fibrosis:
+  {{State}} of the Science}
+    \field{volume}{53}
+    \field{journaltitle}{Pediatric Pulmonology}
+    \field{month}{11}
+    \field{year}{2018}
+  \endentry
+
+  \entry{dey2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DI}{%
+         family={Dey},
+         familyi={D\bibinitperiod},
+         given={Isha},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={Kalpit},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BNA}{%
+         family={Bradbury},
+         familyi={B\bibinitperiod},
+         given={Neil\bibnamedelima A},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{OMICS Publishing Group}}%
+    }
+    \strng{namehash}{DI+1}
+    \strng{fullhash}{DISKBNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The recent FDA approval of two drugs to treat the basic defect in cystic
+  fibrosis has given hope to patients and their families battling this
+  devastating disease. Over many years, with heavy financial investment from
+  Vertex Pharmaceuticals and the Cystic Fibrosis Foundation, pre-clinical
+  evaluation of thousands of synthetic drugs resulted in the production of
+  Kalydeco and Orkambi. Yet, despite the success of this endeavor, many other
+  compounds have been proposed as therapeutic agents in the treatment of CF. Of
+  note, several of these compounds are naturally occurring, and are present in
+  spices from the grocery store and over the counter preparations in health
+  food stores. In this short review, we look at three such compounds,
+  genistein, curcumin, and resveratrol, and evaluate the scientific support for
+  their use as therapeutic agents in the treatment of patients with CF.%
+    }
+    \verb{doi}
+    \verb 10.4172/2157-7412.1000284
+    \endverb
+    \field{number}{01}
+    \field{title}{Natural Compounds as Therapeutic Agents in the Treatment
+  Cystic Fibrosis}
+    \field{volume}{07}
+    \field{journaltitle}{Journal of Genetic Syndromes \& Gene Therapy}
+    \field{year}{2016}
+  \endentry
+
   \entry{kogan2003}{article}{}
     \name{author}{8}{}{%
       {{hash=KI}{%
@@ -10904,71 +11844,6 @@
     \field{year}{2003}
   \endentry
 
-  \entry{corradi2018}{article}{}
-    \name{author}{4}{}{%
-      {{hash=CV}{%
-         family={Corradi},
-         familyi={C\bibinitperiod},
-         given={Valentina},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=GRX}{%
-         family={Gu},
-         familyi={G\bibinitperiod},
-         given={Ruo\bibnamedelima Xu},
-         giveni={R\bibinitperiod\bibinitdelim X\bibinitperiod},
-      }}%
-      {{hash=VP}{%
-         family={Vergani},
-         familyi={V\bibinitperiod},
-         given={Paola},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=TDP}{%
-         family={Tieleman},
-         familyi={T\bibinitperiod},
-         given={D.\bibnamedelima Peter},
-         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Cell Press}}%
-    }
-    \strng{namehash}{CV+1}
-    \strng{fullhash}{CVGRXVPTDP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The cystic fibrosis transmembrane conductance regulator (CFTR) is an ion
-  channel that regulates the flow of anions across epithelia. Mutations in CFTR
-  cause cystic fibrosis. CFTR belongs to the ATP-binding cassette transporter
-  superfamily, and gating is controlled by phosphorylation and ATP binding and
-  hydrolysis. Recently obtained ATP-free and ATP-bound structures of zebrafish
-  CFTR revealed an unwound segment of transmembrane helix (TM) 8, which appears
-  to be a unique feature of CFTR not present in other ATP-binding cassette
-  transporter structures. Here, using {$\mu$}s-long molecular dynamics
-  simulations, we investigate the interactions formed by this TM8 segment with
-  nearby helices in both ATP-free and ATP-bound states. We highlight
-  ATP-dependent interactions as well as the structural role of TM8 in
-  maintaining the functional architecture of the pore via interactions common
-  to both the ATP-bound and ATP-free state. The results of the molecular
-  dynamics simulations are discussed in the context of the gating mechanism of
-  CFTR.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.bpj.2018.03.003
-    \endverb
-    \field{issn}{15420086}
-    \field{number}{8}
-    \field{pages}{1751\bibrangedash 1754}
-    \field{title}{Structure of {{Transmembrane Helix}} 8 and {{Possible
-  Membrane Defects}} in {{CFTR}}}
-    \field{volume}{114}
-    \field{journaltitle}{Biophysical Journal}
-    \field{month}{04}
-    \field{year}{2018}
-  \endentry
-
   \entry{cftr2}{report}{}
     \name{author}{1}{}{%
       {{hash=T}{%
@@ -11032,6 +11907,9 @@
          giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {{Academic Press Inc.}}%
+    }
     \keyw{ABC protein,CFTR,Cystic fibrosis,Ion channel,Membrane protein,Protein
   thermal stability}
     \strng{namehash}{ALA+1}
@@ -11079,7 +11957,7 @@
     \verb orage/KRRVT9UY/S1046592815300681.html
     \endverb
     \field{journaltitle}{Protein Expression and Purification}
-    \field{month}{12}
+    \field{month}{08}
     \field{year}{2015}
   \endentry
 \enddatalist
