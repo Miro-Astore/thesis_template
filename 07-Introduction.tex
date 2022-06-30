@@ -13,54 +13,42 @@
 \setcounter{page}{1}
 \label{chap:intro}
 \chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes \cite{frauenfelder1994} } {}
+\vspace
 \section{Thesis and Chapter Summary}
-This thesis seeks to apply a molecular philosophy on biophysics to demonstrate its ability to elucidate pressing problems in biology and medicine. In particular, we will look at how knowledge of the molecular details in the function of a protein ion channel has for important cellular functions.
+This thesis seeks to apply a molecular philosophy on biophysics to demonstrate its ability to one day solve pressing problems in biology and medicine. In particular, we will use molecular dynamics (MD) to look at various modes of misfunction for an annion channel, the Cystic Frosis Transmaembrane conductance regulator (CFTR).  These techniques allow us to formulate a model which we hope will direct research efforts and allow more patients suffering from Cystic Fibrosis (CF) access life saving medication.
 
-In this first short chapter we will quickly build a philosophy of how to look at biology through the lens of a physicist. We will outline what the goal of a physicist is, to create abstract formalisms which can be used to model the natural world. We will then observe what makes the construction of such analogies so dififcult in biology and how a specific set of examples, namely ion channels, allow us to work upward and speculate at the function of more complex biological systems such as cells. 
+In this first short chapter we will quickly build a philosophy of how to look at biology through the lens of a physicist. We will outline what the goal of a physicist is, to create abstract formalisms which can then be used to model the natural world. We will then observe what makes the construction of such analogies so dififcult in biology and how a specific set of examples, namely ion channels, allow us to work upward and speculate at the function of more complex biological systems such as cells. 
 
-Chapter \ref{chap:methods} describes in some detail the chemical and numerical simulation techniques we used to study the CFTR protein system.  Chapters \ref{chap:i37r}, \ref{chap:r352q}, \ref{chap:s945l} and \ref{chap:opening} demonstrate how a diverse application of these techniques can be used to discover unique modes of misfunction introduced by a mutation and in combination with \textit {in vitro} cellular techniques, prove that these mutations can be rescued by existing drug regimens.  Finally, chapter \ref{chap:conclusion} argues for a physical model for the mechanism of action for cystic fibrosis drugs. This model has broad implications for the treatment of patients with rare mutations which cause cystic fibrosis.
+Chapter \ref{chap:methods} describes in some detail the chemical and numerical simulation techniques we used to study the CFTR protein system, while chapter \ref{chap:cftr} gives an overview of CFTR itself and also the \textit {in vitro} assays which compliment our computational modelling.  Chapters \ref{chap:i37r}, \ref{chap:r352q}, \ref{chap:s945l} and \ref{chap:opening} demonstrate how a diverse application of the simulation techniques in chapter \ref{chap:methods} can be used to discover the unique modes of misfunction in CFTR in combination with \textit {in vitro} cellular techniques, prove that these mutations can be rescued by existing drug regimens. Finally, chapter \ref{chap:conclusion} ties together these results to argue for a physical model which elucidates the mechanism of action for cystic fibrosis drugs. Armed with this model we work through the available literature and identify some priorities for future studies using molecular modelling for cystic fibrosis research.
 
+We hope this small example can demonstrate the utility of molecular medicine aided by physics expertise. We anticipate that such methods will only grow in power with improvements in computational and experimental techniques.
 
 \section{What is Physics?}
-Personally, I have always described physics along the lines of "the study of the movement of energy through a system" or when I was in high school "the study of how things move". Although adequate for a layman, such descriptions obscure the philosophy within physics which make it such a powerful tool. Physical theories rely on the conceptualisation of some causal unit in a system, they then use mathematics to scale up the behaviour of that unit to make predictions about measurable phenomena. This is what makes physics feel like the most "fundamental" of the sciences
+Personally, I have always described physics along the lines of "the study of the movement of energy through a system" or when I was in high school "the study of how things move". Although adequate for a layman, such descriptions obscure the philosophy of doing physics which make it such a powerful tool. To create a physical theory one must make the careful definition of a naturally motivated fundamental formalism. Then, using mathematics, the scale of this formalism is built up to make predictions about measurable phenomena. Should the predictions agree, it validates the formalism and thus the physical theory. This is what makes physics feel like the most "fundamental" of the sciences
 
-These causal units take a few forms. Examples might be.
+These formalisms take a few forms. Examples include.
 
-The gas of hard spheres, which we use to derive kinetic theory of gasses.  
+The gas of hard spheres, which we use to derive the kinetic theory of gasses.  
 
-The Electric and magnetic vector fields, which interact to produce Maxwell's laws of electromagnetism.
+The electric and magnetic vector fields which interact to produce Maxwell's laws of electromagnetism.
 
-The Reimannian manifolds along which masses travel in Einstein's theories of relativity.
+The Reimannian manifolds to define the curvature of spacetime in Einstein's theories of relativity.
 
-The probability waves described in Schr\"oedinger's wave equation, which evolve to describe quantum mechanics. 
+The complex probability waves which evolve according to Schr\"oedinger's wave equation to describe quantum mechanics. 
 
-As biophysicists we would wish to the most basic causaul units of biological phenomenon. The quest for this causal unit has an interesting origin. Erwin Schr\"oedinger wrote an essay titled "What is Life?" This remarkable work, written in  1944 before the discovery of DNA's structure or the maturation of information theory speculates from first principals in thermodynamics and quantum mechanics, the nature of life at the atomic level. The most remarkble thing about this essay is how much the author gets right. The observation that since organisms exist at temperatures in the hundreds of Kelvin the phyical encoding information in their genome must be chemical in nature, as energy barriers lower than that of chemical bonds would be oblated by at physiological temperatures. Schr\"oedinger posits the existence of what he  calls an "aperiodic crystal". He was right, this crystal just happened to be one dimensional. This allegory is an example of how physcial principals can in fact be used to make testable, far reaching predictions about fundamental biology. The details may simply be more difficult since it is harder to capture the heterogeneous details inside cells.
+As biophysicists we would wish to the most basic formalisms in biological phenomenon. The quest for such a formalism has an interesting origin. In 1944 Erwin Schr\"oedinger wrote an essay titled "What is Life?" This remarkable work was written before the discovery of DNA's structure or the maturation of information theory. Schr\"oedinger uses first principals in thermodynamics and quantum mechanics to speculate at the nature of life at the atomic level. The most remarkble thing about this essay is how much the author gets right. 
 
- Naturally, when studying the molecular basis of life we start with atoms, hence our focus on the latter concepts in chapter \ref{chap:methods}. 
+He observes that since organisms exist at temperatures on the order of $10^2 $ Kelvin the phyical encoding of genetic information in their cells must be chemical in nature, as physical arrangements of atoms would be unstable at such temperatures without chemical bonds. Schr\"oedinger posits the existence of what he calls an "aperiodic crystal". He was right, this crystal just happened to be one dimensional. This allegory is an example of how physcial principals can in fact be used to make testable, far reaching predictions about fundamental biology. The details may simply be more difficult since it is harder to capture the heterogeneous details inside cells.
 
-Biological systems exhibit such a problem for the physicist because unlike the above problems it is extremely hard to pick out a fundamental unit to even begin our upwards journey. An evolutionary biologist might say to choose the "gene" but this is actually far too high in our spatial heirarchy already. Really, a gene is only meaningful to the dance of life if it has partners to dance with. 
+Here, Schr\"oedinger has naturally chosen the formalism of interacting atoms to arrive at his model of an aperiodic crystal. As chapter \ref{chap:methods} justifies, in this thesis we will use a similar formalism to study the molecular basis for disease. However, in chapter \ref{chap:conclusions} we will have sufficiently developed our model to then use function of the CFTR gene as a formalism for the description of disease. Using the model motivated by this formalism we will show where to direct the next efforts in the study of the molecular cause and treatment of CF.
 
-A coil of DNA in water doesn't really do much in solution except decay without machinary that can preserve, read, translate and replicate it. The gene is an emergent property, we have to go deeper. 
-
-So, what are the gene's partners? 
-
-A slew of biological machinary that mostly take the form of proteins. These proetins are a special case of chemistry, with many observable functions. Their sequence is  coded by the DNA in something reminiscent of a strange loop \cite{hofstadter2007}. 
-
-This self referential loop is one of the reasons biology is so difficult. Since we know that this strange loop is kicked off by atomic interactions we will start there. As we are taking a physical, pragmatic approach here it would make sense to begin with the protein, after all, they stave off the march of entropy constantly trying to eat up all of your cells. It also just so happens that they are much easier to understand computationally since their motions are faster and more flexible. 
-
-The first level sub cellular organisation is perhaps the most intimdating first step for me personally after spending 4 years simulating a single protein. Glimpsing the complexity within a single one of these molecules has been one of the most existential experiences of my life but the knowledge that there are astronomical numbers of these things inside me all of the time terrifies me.
-
-It is hoped that illustrating the monumental task in both intellectual effort and resources of incrementally increasing the understanding of a single protein amongst the 23000 or so encoded in our genome will give the reader and understanding of how we might continue our quest to understand the molecular dance that plays within all of us.  
  
 %Somewhere on the scale between a single protein and a single cell this is what we consider "life". We have single unicellular organisms but we don't have uniproteomic organisms. So the fundamental length scale of life is somewhere between $10^{-10}m$ and $10^{-3}m$. This is the first loop in our strange loop.
 
-After this things start to run away from me with my handful of GPUs and limited patience. So in this thesis we will only discuss single proteins.
 %Biological strange loops would not seem to be as self similar as the clean nice logics in the strange loop of the Godelian knot. Why is this?
 
 \section{The Physics Inside your Cells}
-\chapquote{}{}
-
-\vskip 0.5cm
+%purpose of this section is to 
 
 Why can't I  write down an equation which will tell me how long I will live? Or how tall I will grow?
 
@@ -68,9 +56,9 @@ This might seem like an inane question but if you asked a physicist how much pow
 
 What makes the first set of questions so much more difficult to answer?
 
-Our current physical theories have sufficient accuracy at the energy and length scales of biology that we can accuarately model every phenomenon inside a living being\cite{carroll2021}. So why are living systems so hard to study for theorists?
+Our current physical theories have sufficient accuracy at the energy and length scales of biology that we can accuarately model every phenomenon inside a living being\cite{carroll2021}. So what formalisms should we use for bioligical systems to model them?
 
-The complexity of biology does not arise from complex interactions. As we will see in \ref{chap:methods} the interactions between atoms within living things is surprisngly simple. Rather, the complexity arises from the simple interactions between many diverse components. Inside cells we find proteins, lipids, solvents, salts each with their own properties. Biophysics distinguishes itself from more tradiational physics as it considers systems that are highly heterogeneous and anisotropic. For simple physical systems the physicist can draw on conceptual tools such as a mass on a spring or a gas of hard spheres which can be extremely successful in explaining many phenomena. 
+The difficulty of studying biology does not arise from complex interactions. As we will see in chapter \ref{chap:methods} the interactions between atoms within living things is surprisngly simple. Rather, the complexity arises from the sheer number of interactions we must consider. Inside cells we find proteins, lipids, solvents, salts each with their own properties. Biophysics distinguishes itself from more tradiational physics as it considers systems that are highly heterogeneous and anisotropic. This makes it difficult to scale up the formalism, no matter what we choose.
 
 For biological systems there appears to be too much complexity for such analogies to have the same level of success. 
 
@@ -80,9 +68,26 @@ Thus, in order to move towards more predictive theories of biology it is necessa
 
 One of the things we're trying to do with molecular dynamics is fill in the gap left by the sequence->function paradigm which is internalised in current understandings of molecular biology. We usually talk about how the sequence of the gene defines its function because it gives the protein its structure but really there is a considerably larger amount of regulatory pressure exerted by the environment. This is what is missing from the sequence alone paradigm.
 
+Biological systems exhibit such a problem for the physicist because unlike the above problems it is extremely hard to pick out a fundamental unit to even begin our upwards journey. An evolutionary biologist might say to choose the "gene" but this is actually far too high in our spatial heirarchy already. Really, a gene is only meaningful to the dance of life if it has partners to dance with. 
+
+A coil of DNA in water doesn't really do much in solution except decay without machinary that can preserve, read, translate and replicate it. The gene is an emergent property, we have to go deeper. 
+
+So, what are the gene's partners? 
+
+A slew of biological machinary that mostly take the form of proteins. These proteins are a special case of chemistry, with many observable functions. Their sequence is  coded by the DNA in something reminiscent of a strange loop \cite{hofstadter2007}. 
+
+
+This self referential loop is one of the reasons biology is so difficult. Since we know that this strange loop is kicked off by atomic interactions we will start there. As we are taking a physical, pragmatic approach here it would make sense to begin with the protein, after all, they stave off the march of entropy constantly trying to eat up all of your cells. It also just so happens that they are much easier to understand computationally since their motions are faster and more flexible. 
+
+The first level sub cellular organisation is perhaps the most intimdating first step for me personally after spending 4 years simulating a single protein. Glimpsing the complexity within a single one of these molecules has been one of the most existential experiences of my life but the knowledge that there are astronomical numbers of these things inside me all of the time terrifies me.
+
+It is hoped that illustrating the monumental amount of both intellectual effort and material resources of incrementally increasing the understanding of a single protein amongst the 23000 or so encoded in our genome will give the reader and understanding of how we might continue our quest to understand the molecular dance that plays within all of us.
+
+After this things start to run away from me with my handful of GPUs and limited patience. So in this thesis we will only discuss single proteins.
 
 \section{Using Ion Channels as Natural Laboratories to Learn Biophysics}
-The physiological importane of ion channels became clear after the experiments of Hodkin and Huxley. These mathematicians took nerves from giant squid and measured the current running through the nerve in response to electrical stimulation. What they found was intruiging. Current would only flow when the input signal was of a sufficient voltage. The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant electrochemical gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics. The following set coupled ordinary differential equations were discovered by testing functions which fit the measurements taken from the squid axon.   
+
+The physiological importance of ion channels became clear after the experiments of Hodkin and Huxley. These mathematicians took nerves from giant squid and measured the current running through the nerve in response to electrical stimulation. What they found was intruiging. Signals would only propagate when the input signal was of a sufficient voltage. They managed to match their experimental data with the following set of ordinary differential equations.
 
 \begin{equation}
 \begin{aligned}
@@ -93,8 +98,9 @@ The physiological importane of ion channels became clear after the experiments o
 \end{aligned}
 \end{equation}
 
-The $\alpha$ and $\beta \in [0,1]$ parameters are the proportion of the sodium and potassium channel populations which are activated, respectively.  This example shows how basic theoretical tools can be used to predict and discover physical phenomena in biological systems. The Hodgkin Huxley model proved the existence of a cell's resting potential, the possibility of voltage gated ion channels, and channels whose pores are selective for certain ions. Even today the molecular mechanisms behind some of these discoveries are debated. In this thesis we aim to do the same by building up from fundamental quantum mechanics in order to understand the motion of single proteins so we might speculate as to the function of the whole organism.
+Here, $\alpha$ and $\beta \in [0,1]$ parameters are the proportion of the sodium and potassium channel populations which are activated, respectively.  This example shows how basic theoretical tools can be used to predict and discover physical phenomena in biological systems. The Hodgkin Huxley model encodes the existence of a cell's resting potential, the possibility of voltage gated ion channels, and channels whose pores are selective for certain ions. Even today the molecular mechanisms behind some of these discoveries are debated. In this thesis we aim to do the same by building up from fundamental quantum mechanics in order to understand the motion of single proteins so we might speculate as to the function of the whole organism.
 
+The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant voltage gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics. The following set coupled ordinary differential equations were discovered by testing functions which fit the measurements taken from the squid axon.   
 
 \begin{figure}
 	\begin{center}
@@ -150,4 +156,4 @@ While previously we were limited it functional data concerning ion channels we n
 
 Alphafold is a good example. This new breakthrough builds on decades of inquiry from the structural biology community and advancements in AI to give high resolution protein structures. Now this result can be used to fill in the gaps of structural biology. Crucually, alphafold konws what it doesn't know. So we can tell where to direct the efforts of structural biology. Together these advances will fill more gaps in our knowledge of protein physics. 
 
-Armed with this philosophy we will delineate how to use the causal unit of the Schr\"oedinger wave equation to make approximations to atomic systems in order to create a biophysical model for macromolecular systmes like proteins.
+Armed with this philosophy we will delineate how to use the formal object of the Schr\"oedinger wave equation to make approximations to atomic systems in order to create a biophysical model for macromolecular systmes like proteins.
