@@ -19,14 +19,14 @@ This thesis seeks to apply a molecular philosophy on biophysics to demonstrate i
 
 In this first short chapter we will quickly build a philosophy of how to look at biology through the lens of a physicist. We will outline what the goal of a physicist is, to create abstract formalisms which can then be used to model the natural world. We will then observe what makes the construction of such analogies so dififcult in biology and how a specific set of examples, namely ion channels, allow us to work upward and speculate at the function of more complex biological systems such as cells. 
 
-Chapter \ref{chap:methods} describes the chemical and numerical simulation techniques we used to study the CFTR protein system, while chapter \ref{chap:cftr} gives an overview of CFTR itself and also the \textit {in vitro} assays which compliment our computational modelling.  Chapters \ref{chap:i37r}, \ref{chap:r352q}, \ref{chap:s945l} and \ref{chap:opening} demonstrate how a diverse application of the simulation techniques in chapter \ref{chap:methods} can be used to discover the unique modes of misfunction in CFTR in combination with \textit {in vitro} cellular techniques, prove that these mutations can be rescued by existing drug regimens. Finally, chapter \ref{chap:conclusion} ties together these results to argue for a physical model which elucidates the mechanism of action for cystic fibrosis drugs. Armed with this model we work through the available literature and identify some priorities for future studies using molecular modelling for cystic fibrosis research.
+Chapter \ref{chap:methods} describes the chemical and numerical simulation techniques we used to study the CFTR protein system, while chapter \ref{chap:cftr} gives an overview of the CFTR system itself and also the \textit {in vitro} assays which compliment our computational modelling.  Chapters \ref{chap:i37r}, \ref{chap:r352q}, \ref{chap:s945l} and \ref{chap:opening} demonstrate how a diverse application of the simulation techniques in chapter \ref{chap:methods} can be used to discover the unique modes of misfunction in CFTR in combination with \textit {in vitro} cellular techniques, prove that these mutations can be rescued by existing drug regimens. Finally, chapter \ref{chap:conclusion} ties together these results to argue for a physical model which elucidates the mechanism of action for cystic fibrosis drugs. Armed with this model we work through the available literature and identify some priorities for future studies using molecular modelling for cystic fibrosis research.
 
 We hope this small example can demonstrate the utility of molecular medicine aided by physics expertise. We anticipate that such methods will only grow in power with improvements in computational and experimental techniques.
 
 \section{What is Physics?}
-Personally, I have always described physics along the lines of "the study of the movement of energy through a system" or when I was in high school "the study of how things move". Although adequate for a layman, such descriptions obscure the philosophy of doing physics which make it such a powerful tool. To create a physical theory one must make the careful definition of a naturally motivated fundamental formalism. Then, using mathematics, the scale of this formalism is built up to make predictions about measurable phenomena. Should the predictions agree, it validates the formalism and thus the physical theory. This is what makes physics feel like the most "fundamental" of the sciences
+Personally, I have always described physics along the lines of "the study of the movement of energy through a system" or when I was in high school "the study of how things move". Although adequate for a layman, such descriptions obscure the philosophy of doing physics which make it such a powerful tool. To create a physical theory one must first carefully define a naturally motivated fundamental formalism. Then, using mathematics, the implications of this formalism are built up to make predictions about measurable phenomena. Should the predictions agree, it validates the formalism and thus the physical theory. This is what makes physics feel like the most "fundamental" of the sciences
 
-These formalisms take a few forms. Examples include.
+These formalisms can take a few forms. Examples include:
 \begin{itemize}
 \item The gas of hard spheres, which we use to derive the Boltzmann's kinetic theory of gasses.  
 \begin{equation}
@@ -43,7 +43,7 @@ These formalisms take a few forms. Examples include.
 	G_{\mu \nu} + \Lambda g_{\mu \nu} = \kappa T_{\mu \nu}
 \end{equation}
 
-\item The complex probability waves which evolve according to Schr\"oedinger's wave equation describing quantum mechanics. 
+\item The complex probability waves which evolve according to Schr\"oedinger's wave equation, describing quantum mechanics. 
 
 \begin{equation}
 	i \hbar \frac{d}{dt} | \psi (t) \rangle = \hat {H} | \psi (t) \rangle 
@@ -52,7 +52,16 @@ These formalisms take a few forms. Examples include.
 
 As biophysicists we would wish to the most basic formalisms in biological phenomenon. The quest for such a formalism has an interesting origin. In 1944 Erwin Schr\"oedinger wrote an essay titled ``What is Life?" This remarkable work was written before the discovery of DNA's structure or the maturation of information theory. Schr\"oedinger uses first principals in thermodynamics and quantum mechanics to speculate at the nature of life at the atomic level. The most remarkable thing about this essay is how much the author gets right. 
 
-He observes that since organisms exist at temperatures on the order of $10^2 $ Kelvin the phyical encoding of genetic information in their cells must be chemical in nature, as physical arrangements of atoms would be unstable at such temperatures without chemical bonds. Schr\"oedinger posits the existence of what he calls an ''aperiodic crystal". He was right, this crystal just happened to be one dimensional\cite{varn2016}. This allegory is an example of how physcial principals can in fact be used to make testable, far reaching predictions about fundamental biology. The details may simply be more difficult since it is harder to capture the heterogeneous details inside cells.
+He observes that since organisms exist at temperatures on the order of $10^2 $ Kelvin the phyical encoding of genetic information in their cells must be chemical in nature, as physical arrangements of atoms would be unstable at such temperatures without chemical bonds. Schr\"oedinger posits the existence of what he calls an ''aperiodic crystal". Although not a crystal in the rigorous sense, the double helix structure of DNA is not far off such an analogy. As figure \ref{dna_structure} shows, the DNA double helix is a combination of periodic and aperiodic elements, conceptually reminiscent of what one would expect of an aperiodic crystal \cite{varn2016}. This allegory is an example of how physcial principals can in fact be used to make testable, far reaching predictions about fundamental biology. 
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=1.0\textwidth]{figures/dna_backbone_aperiodic_crystal.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[The Structure of DNA has Periodic and Aperiodic Elements] {\textbf{The Structure of DNA has Periodic and Aperiodic Elements}}{thing}
+	\label{dna_structure}
+\end{figure}
 
 Here, Schr\"oedinger has naturally chosen the formalism of interacting atoms to arrive at his model of an aperiodic crystal. As chapter \ref{chap:methods} justifies, in this thesis we will use a similar formalism to study the molecular basis for disease. However, in chapter \ref{chap:conclusions} we will have sufficiently developed our model to then use function of the CFTR gene as a formalism for the description of disease. Using the model motivated by this formalism we will show where to direct the next efforts in the study of the molecular cause and treatment of CF.
 
