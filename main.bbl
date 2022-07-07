@@ -113,6 +113,45 @@
     \field{year}{2016}
   \endentry
 
+  \entry{watson2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WJD}{%
+         family={Watson},
+         familyi={W\bibinitperiod},
+         given={James\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Vintage Books}}%
+    }
+    \keyw{Biography \& Autobiography / Personal Memoirs,Biography \&
+  Autobiography / Science \& Technology,Science / Life Sciences / Molecular
+  Biology}
+    \strng{namehash}{WJD1}
+    \strng{fullhash}{WJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    From Nobel Prize-winning scientist James D. Watson, a living legend for his
+  work unlocking the structure of DNA, comes this candid and entertaining
+  memoir, filled with practical advice for those starting out their academic
+  careers. In Avoid Boring People, Watson lays down a life's wisdom for getting
+  ahead in a competitive world. Witty and uncompromisingly honest, he shares
+  his thoughts on how young scientists should choose the projects that will
+  shape their careers, the supreme importance of collegiality, and dealing with
+  competitors within the same institution. It's an irreverent romp through
+  Watson's colorful career and an indispensable guide to anyone interested in
+  nurturing the life of the mind.%
+    }
+    \field{isbn}{978-0-375-72714-6}
+    \field{shorttitle}{Avoid {{Boring People}}}
+    \field{title}{Avoid {{Boring People}}: {{Lessons}} from a {{Life}} in
+  {{Science}}}
+    \field{langid}{english}
+    \field{year}{2010}
+  \endentry
+
   \entry{carroll2021}{article}{}
     \name{author}{1}{}{%
       {{hash=CSM}{%
@@ -180,6 +219,57 @@
     OCLC: 1129084309%
     }
     \field{year}{2018}
+  \endentry
+
+  \entry{phillips2012}{book}{}
+    \name{author}{5}{}{%
+      {{hash=PR}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={Rob},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kondev},
+         familyi={K\bibinitperiod},
+         given={Jan{\'e}},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Theriot},
+         familyi={T\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Garcia},
+         familyi={G\bibinitperiod},
+         given={Hernan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kondev},
+         familyi={K\bibinitperiod},
+         given={Jane},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Garland Science}}%
+    }
+    \strng{namehash}{PR+1}
+    \strng{fullhash}{PRKJTJGHKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{Second edition, first issued in paperback}
+    \field{isbn}{978-0-8153-4450-6}
+    \field{title}{Physical {{Biology}} of the {{Cell}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Boca Raton London New York}}%
+    }
+    \field{month}{10}
+    \field{year}{2012}
   \endentry
 
   \entry{moy2000}{article}{}
@@ -251,44 +341,6 @@
     \field{journaltitle}{Biophysical Journal}
     \field{month}{05}
     \field{year}{2000}
-  \endentry
-
-  \entry{hofstadter2007}{book}{}
-    \name{author}{1}{}{%
-      {{hash=HDR}{%
-         family={Hofstadter},
-         familyi={H\bibinitperiod},
-         given={Douglas\bibnamedelima R.},
-         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{BasicBooks}}%
-    }
-    \strng{namehash}{HDR1}
-    \strng{fullhash}{HDR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Hofstadter's long-awaited return to the themes of G\"odel, Escher, Bach--an
-  original and controversial view of the nature of consciousness and identity.
-  What do we mean when we say "I"? Can a self, a soul, a consciousness, an "I"
-  arise out of mere matter? If it cannot, then how can you or I be here? This
-  book argues that the key to understanding selves and consciousness is a
-  special kind of abstract feedback loop inhabiting our brains. Deep down, a
-  human brain is a chaotic soup of particles, on a higher level it is a jungle
-  of neurons, and on a yet higher level it is a network of abstractions that we
-  call "symbols." The most central and complex symbol in your brain or mine is
-  the one we both call "I." But how can such a mysterious abstraction be
-  real--or is our "I" merely a convenient fiction?--From publisher description%
-    }
-    \field{isbn}{978-0-465-03079-8 978-0-465-03078-1}
-    \field{title}{I Am a Strange Loop}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{New York, NY}}%
-    }
-    \field{year}{2007}
   \endentry
 
   \entry{hodgkin1952}{article}{}
@@ -455,6 +507,92 @@
     \field{year}{1952}
   \endentry
 
+  \entry{roux1991}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Karplus},
+         familyi={K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{RBKM1}
+    \strng{fullhash}{RBKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1021/j100165a049
+    \endverb
+    \field{issn}{0022-3654}
+    \field{number}{12}
+    \field{pages}{4856\bibrangedash 4868}
+    \field{shorttitle}{Ion Transport in a Gramicidin-like Channel}
+    \field{title}{Ion Transport in a Gramicidin-like Channel: Dynamics and
+  Mobility}
+    \field{volume}{95}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/UQWZGT2J/Roux and Karplus - 1991 - Ion tran
+    \verb sport in a gramicidin-like channel dynami.pdf;/home/miro/Zotero/stora
+    \verb ge/MLT2XLYT/j100165a049.html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry}
+    \field{month}{06}
+    \field{year}{1991}
+  \endentry
+
+  \entry{allen2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=AOS}{%
+         family={Andersen},
+         familyi={A\bibinitperiod},
+         given={Olaf\bibnamedelima S.},
+         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Beno{\^i}t},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Proceedings of the National Academy of Sciences}}%
+    }
+    \strng{namehash}{ATW+1}
+    \strng{fullhash}{ATWAOSRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1073/pnas.2635314100
+    \endverb
+    \field{number}{1}
+    \field{pages}{117\bibrangedash 122}
+    \field{title}{Energetics of Ion Conduction through the Gramicidin Channel}
+    \field{volume}{101}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/WDCKZM9P/Allen et al. - 2004 - Energetics o
+    \verb f ion conduction through the gramicidi.pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{month}{01}
+    \field{year}{2004}
+  \endentry
+
   \entry{santos2017}{article}{}
     \name{author}{11}{}{%
       {{hash=SR}{%
@@ -566,6 +704,1027 @@
     \field{journaltitle}{Nature Reviews. Drug Discovery}
     \field{month}{01}
     \field{year}{2017}
+  \endentry
+
+  \entry{bizzarri2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BM}{%
+         family={Bizzarri},
+         familyi={B\bibinitperiod},
+         given={Mariano},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BDE}{%
+         family={Brash},
+         familyi={B\bibinitperiod},
+         given={Douglas\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Briscoe},
+         familyi={B\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GVA}{%
+         family={Grieneisen},
+         familyi={G\bibinitperiod},
+         given={Ver{\^o}nica\bibnamedelima A.},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SCD}{%
+         family={Stern},
+         familyi={S\bibinitperiod},
+         given={Claudio\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Biological techniques,Cell biology,Systems biology}
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMBDEBJGVASCDLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    What does it mean to say that event X caused outcome Y in biology?
+  Explaining the causal structure underlying the dynamic function of living
+  systems is a central goal of biology. Transformative advances in regenerative
+  medicine and synthetic bioengineering will require efficient strategies to
+  cause desired system-level outcomes. We present a perspective on the need to
+  move beyond the classical `necessary and sufficient' approach to biological
+  causality.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41580-019-0127-1
+    \endverb
+    \field{issn}{1471-0080}
+    \field{number}{5}
+    \field{pages}{261\bibrangedash 262}
+    \field{title}{A Call for a Better Understanding of Causation in Cell
+  Biology}
+    \field{volume}{20}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/5G9UDJWW/Bizzarri et al. - 2019 - A call fo
+    \verb r a better understanding of causation in .pdf;/home/miro/Zotero/stora
+    \verb ge/D9IRHYDU/s41580-019-0127-1.html
+    \endverb
+    \field{journaltitle}{Nature Reviews Molecular Cell Biology}
+    \field{month}{05}
+    \field{year}{2019}
+  \endentry
+
+  \entry{blackiston2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BDJ}{%
+         family={Blackiston},
+         familyi={B\bibinitperiod},
+         given={Douglas\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MKA}{%
+         family={McLaughlin},
+         familyi={M\bibinitperiod},
+         given={Kelly\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Cell Cycle,Cell Proliferation,Humans,Ion Channels,Membrane
+  Potentials,Neoplasms}
+    \strng{namehash}{BDJ+1}
+    \strng{fullhash}{BDJMKALM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    All cells possess long-term, steady-state voltage gradients across the
+  plasma membrane. These transmembrane potentials arise from the combined
+  activity of numerous ion channels, pumps and gap junction complexes.
+  Increasing data from molecular physiology now reveal that the role of changes
+  in membrane voltage controls, and is in turn controlled by, progression
+  through the cell cycle. We review recent functional data on the regulation of
+  mitosis by bioelectric signals, and the function of membrane voltage and
+  specific potassium, sodium and chloride ion channels in the proliferation of
+  embryonic, somatic and neoplastic cells. Its unique properties place this
+  powerful, well-conserved, but still poorly-understood signaling system at the
+  center of the coordinated cellular interactions required for complex pattern
+  formation. Moreover, disregulation of ion channel expression and function is
+  increasingly observed to be not only a useful marker but likely a functional
+  element in oncogenesis. New advances in genomics and the development of in
+  vivo biophysical techniques suggest exciting opportunities for molecular
+  medicine, bioengineering and regenerative approaches to human health.%
+    }
+    \verb{doi}
+    \verb 10.4161/cc.8.21.9888
+    \endverb
+    \field{issn}{1551-4005}
+    \field{number}{21}
+    \field{pages}{3527\bibrangedash 3536}
+    \field{shorttitle}{Bioelectric Controls of Cell Proliferation}
+    \field{title}{Bioelectric Controls of Cell Proliferation: Ion Channels,
+  Membrane Voltage and the Cell Cycle}
+    \field{volume}{8}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/II3JQMZB/Blackiston et al. - 2009 - Bioelec
+    \verb tric controls of cell proliferation ion ch.pdf
+    \endverb
+    \field{journaltitle}{Cell Cycle (Georgetown, Tex.)}
+    \field{month}{11}
+    \field{year}{2009}
+  \endentry
+
+  \entry{rashid2013}{article}{}
+    \name{author}{10}{}{%
+      {{hash=RMH}{%
+         family={Rashid},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima Harunur},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Heinzelmann},
+         familyi={H\bibinitperiod},
+         given={Germano},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Huq},
+         familyi={H\bibinitperiod},
+         given={Redwan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TRB}{%
+         family={Tajhya},
+         familyi={T\bibinitperiod},
+         given={Rajeev\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CSC}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Shih\bibnamedelima Chieh},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chhabra},
+         familyi={C\bibinitperiod},
+         given={Sandeep},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PMW}{%
+         family={Pennington},
+         familyi={P\bibinitperiod},
+         given={Michael\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Beeton},
+         familyi={B\bibinitperiod},
+         given={Christine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NRS}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={Raymond\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Public Library of Science}}%
+    }
+    \keyw{Amino acid analysis,Autoimmune diseases,Biochemical simulations,Free
+  energy,Lymphocytes,Potassium channels,Thermodynamics,Toxins}
+    \strng{namehash}{RMH+1}
+    \strng{fullhash}{RMHHGHRTRBCSCCSPMWBCNRSKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The voltage-gated potassium channel Kv1.3 is a well-established target for
+  treatment of autoimmune diseases. ShK peptide from a sea anemone is one of
+  the most potent blockers of Kv1.3 but its application as a therapeutic agent
+  for autoimmune diseases is limited by its lack of selectivity against other
+  Kv channels, in particular Kv1.1. Accurate models of Kv1.x-ShK complexes
+  suggest that specific charge mutations on ShK could considerably enhance its
+  specificity for Kv1.3. Here we evaluate the K18A mutation on ShK, and
+  calculate the change in binding free energy associated with this mutation
+  using the path-independent free energy perturbation and thermodynamic
+  integration methods, with a novel implementation that avoids convergence
+  problems. To check the accuracy of the results, the binding free energy
+  differences were also determined from path-dependent potential of mean force
+  calculations. The two methods yield consistent results for the K18A mutation
+  in ShK and predict a 2 kcal/mol gain in Kv1.3/Kv1.1 selectivity free energy
+  relative to wild-type peptide. Functional assays confirm the predicted
+  selectivity gain for ShK[K18A] and suggest that it will be a valuable lead in
+  the development of therapeutics for autoimmune diseases.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pone.0078712
+    \endverb
+    \field{issn}{1932-6203}
+    \field{number}{11}
+    \field{pages}{e78712}
+    \field{shorttitle}{A {{Potent}} and {{Selective Peptide Blocker}} of the
+  {{Kv1}}.3 {{Channel}}}
+    \field{title}{A {{Potent}} and {{Selective Peptide Blocker}} of the
+  {{Kv1}}.3 {{Channel}}: {{Prediction}} from {{Free-Energy Simulations}} and
+  {{Experimental Confirmation}}}
+    \field{volume}{8}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/9CVNYNP7/Rashid et al. - 2013 - A Potent an
+    \verb d Selective Peptide Blocker of the Kv1..pdf;/home/miro/Zotero/storage
+    \verb /8ECUMGP4/article.html
+    \endverb
+    \field{journaltitle}{PLOS ONE}
+    \field{month}{11}
+    \field{year}{2013}
+  \endentry
+
+  \entry{li2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Rong},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={Bharat},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Perozo},
+         familyi={P\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Beno{\^i}t},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJ+1}
+    \strng{fullhash}{LJSRRBPERB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    C-type inactivation in hERG is associated with an asymmetrical
+  constricted-like conformation of the selectivity filter. , The fast C-type
+  inactivation displayed by the voltage-activated potassium channel hERG plays
+  a critical role in the repolarization of cardiac cells, and malfunction
+  caused by nonspecific binding of drugs or naturally occurring missense
+  mutations affecting inactivation can lead to pathologies. Because of its
+  impact on human health, understanding the molecular mechanism of C-type
+  inactivation in hERG represents an advance of paramount importance. Here,
+  long\textendash time scale molecular dynamics simulations, free energy
+  landscape calculations, and electrophysiological experiments are combined to
+  address the structural and functional impacts of several disease-associated
+  mutations. Results suggest that C-type inactivation in hERG is associated
+  with an asymmetrical constricted-like conformation of the selectivity filter,
+  identifying F627 side-chain rotation and the hydrogen bond between Y616 and
+  N629 as key determinants. Comparison of hERG with other K + channels suggests
+  that C-type inactivation depends on the degree of opening of the
+  intracellular gate via the filter-gate allosteric coupling.%
+    }
+    \verb{doi}
+    \verb 10.1126/sciadv.abd6203
+    \endverb
+    \field{issn}{2375-2548}
+    \field{number}{5}
+    \field{pages}{eabd6203}
+    \field{title}{Mechanism of {{C-type}} Inactivation in the {{hERG}}
+  Potassium Channel}
+    \field{volume}{7}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/PN5G727M/Li et al. - 2021 - Mechanism of C-
+    \verb type inactivation in the hERG potas.pdf
+    \endverb
+    \field{journaltitle}{Science Advances}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
+
+  \entry{lev2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LB}{%
+         family={Lev},
+         familyi={L\bibinitperiod},
+         given={Bogdan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{John Wiley and Sons Inc.}}%
+    }
+    \keyw{free energy,ion channel gating,ligand-gated ion channel,molecular
+  dynamics,protein allostery,string method,swarms of trajectories}
+    \strng{namehash}{LBATW1}
+    \strng{fullhash}{LBATW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Atomic-level studies of protein activity represent a significant challenge
+  as a result of the complexity of conformational changes occurring on
+  wide-ranging timescales, often greatly exceeding that of even the longest
+  simulations. A prime example is the elucidation of protein allosteric
+  mechanisms, where localized perturbations transmit throughout a large
+  macromolecule to generate a response signal. For example, the conversion of
+  chemical to electrical signals during synaptic neurotransmission in the brain
+  is achieved by specialized membrane proteins called pentameric ligand-gated
+  ion channels. Here, the binding of a neurotransmitter results in a global
+  conformational change to open an ion-conducting pore across the nerve cell
+  membrane. X-ray crystallography has produced static structures of the open
+  and closed states of the proton-gated GLIC pentameric ligand-gated ion
+  channel protein, allowing for atomistic simulations that can uncover changes
+  related to activation. We discuss a range of enhanced sampling approaches
+  that could be used to explore activation mechanisms. In particular, we
+  describe recent application of an atomistic string method, based on Roux's
+  ``swarms of trajectories'' approach, to elucidate the sequence and
+  interdependence of conformational changes during activation. We illustrate
+  how this can be combined with transition analysis and Brownian dynamics to
+  extract thermodynamic and kinetic information, leading to understanding of
+  what controls ion channel function. \textcopyright{} 2019 Wiley Periodicals,
+  Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/jcc.26102
+    \endverb
+    \field{number}{5}
+    \field{pages}{387\bibrangedash 401}
+    \field{title}{Simulating Ion Channel Activation Mechanisms Using Swarms of
+  Trajectories}
+    \field{volume}{41}
+    \field{journaltitle}{Journal of Computational Chemistry}
+    \field{month}{02}
+    \field{year}{2020}
+  \endentry
+
+  \entry{chen2021}{article}{}
+    \name{author}{10}{}{%
+      {{hash=CI}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Ichia},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pant},
+         familyi={P\bibinitperiod},
+         given={Shashank},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Qianyi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=CRJ}{%
+         family={Cater},
+         familyi={C\bibinitperiod},
+         given={Rosemary\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sobti},
+         familyi={S\bibinitperiod},
+         given={Meghna},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VRJ}{%
+         family={Vandenberg},
+         familyi={V\bibinitperiod},
+         given={Robert\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SAG}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Alastair\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Tajkhorshid},
+         familyi={T\bibinitperiod},
+         given={Emad},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Font},
+         familyi={F\bibinitperiod},
+         given={Josep},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RRM}{%
+         family={Ryan},
+         familyi={R\bibinitperiod},
+         given={Renae\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cryoelectron microscopy,Molecular biophysics,Permeation and
+  transport,Transporters in the nervous system}
+    \strng{namehash}{CI+1}
+    \strng{fullhash}{CIPSWQCRJSMVRJSAGTEFJRRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Glutamate is the most abundant excitatory neurotransmitter in the central
+  nervous system, and its precise control is vital to maintain normal brain
+  function and to prevent excitotoxicity1. The removal of extracellular
+  glutamate is achieved by plasma-membrane-bound transporters, which couple
+  glutamate transport to sodium, potassium and pH gradients using an elevator
+  mechanism2\textendash 5. Glutamate transporters also conduct chloride ions by
+  means of a channel-like process that is thermodynamically uncoupled from
+  transport6\textendash 8. However, the molecular mechanisms that enable these
+  dual-function transporters to carry out two seemingly contradictory roles are
+  unknown. Here we report the cryo-electron microscopy structure of a glutamate
+  transporter homologue in an open-channel state, which reveals an aqueous
+  cavity that is formed during the glutamate transport cycle. The functional
+  properties of this cavity, combined with molecular dynamics simulations,
+  reveal it to be an aqueous-accessible chloride permeation pathway that is
+  gated by two hydrophobic regions and is conserved across mammalian and
+  archaeal glutamate transporters. Our findings provide insight into the
+  mechanism by which glutamate transporters support their dual function, and
+  add information that will assist in mapping the complete transport cycle
+  shared by the solute carrier 1A transporter family.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41586-021-03240-9
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{7849}
+    \field{pages}{327\bibrangedash 331}
+    \field{title}{Glutamate Transporters Have a Chloride Channel with Two
+  Hydrophobic Gates}
+    \field{volume}{591}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/9LWRV975/Chen et al. - 2021 - Glutamate tra
+    \verb nsporters have a chloride channel wit.pdf;/home/miro/Zotero/storage/B
+    \verb MMGECG3/s41586-021-03240-9.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{03}
+    \field{year}{2021}
+  \endentry
+
+  \entry{liou2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LJW}{%
+         family={Liou},
+         familyi={L\bibinitperiod},
+         given={Je-Wen},
+         giveni={J\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=HYJ}{%
+         family={Hung},
+         familyi={H\bibinitperiod},
+         given={Yu-Jiun},
+         giveni={Y\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=YCH}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Chin-Hao},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=CYC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yi-Cheng},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJW+1}
+    \strng{fullhash}{LJWHYJYCHCYC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Gramicidin A is an antimicrobial peptide that destroys gram-positive
+  bacteria. The bactericidal mechanism of antimicrobial peptides has been
+  linked to membrane permeation and metabolism disruption as well as
+  interruption of DNA and protein functions. However, the exact bacterial
+  killing mechanism of gramicidin A is not clearly understood. In the present
+  study, we examined the antimicrobial activity of gramicidin A on
+  Staphylococcus aureus using biochemical and biophysical methods, including
+  hydroxyl radical and NAD+/NADH cycling assays, atomic force microscopy, and
+  Fourier transform infrared spectroscopy. Gramicidin A induced membrane
+  permeabilization and changed the composition of the membrane. The morphology
+  of Staphylococcus aureus during gramicidin A destruction was divided into
+  four stages: pore formation, water permeability, bacterial flattening, and
+  lysis. Changes in membrane composition included the destruction of membrane
+  lipids, proteins, and carbohydrates. Most interestingly, we demonstrated that
+  gramicidin A not only caused membrane permeabilization but also induced the
+  formation of hydroxyl radicals, which are a possible end product of the
+  transient depletion of NADH from the tricarboxylic acid cycle. The latter may
+  be the main cause of complete Staphylococcus aureus killing. This new finding
+  may provide insight into the underlying bactericidal mechanism of gA.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pone.0117065
+    \endverb
+    \field{issn}{1932-6203}
+    \field{number}{1}
+    \field{pages}{e0117065}
+    \field{title}{The {{Antimicrobial Activity}} of {{Gramicidin A Is
+  Associated}} with {{Hydroxyl Radical Formation}}}
+    \field{volume}{10}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/AHYAWVQX/Liou et al. - 2015 - The Antimicro
+    \verb bial Activity of Gramicidin A Is Asso.pdf
+    \endverb
+    \field{journaltitle}{PLoS ONE}
+    \field{month}{01}
+    \field{year}{2015}
+  \endentry
+
+  \entry{kochanski1973}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KZ}{%
+         family={Kochanski},
+         familyi={K\bibinitperiod},
+         given={Zdzislaw},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KZ1}
+    \strng{fullhash}{KZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Some scientists believe that although evolutionary theory is explanatory,
+  it does not have, in contrast to the theories of physics, any predictive
+  power. This raises the question of its testability. The analysis given shows
+  that there are good reasons to claim the unpredictability of evolutionary
+  events; nevertheless, the evolutionary theory has potential predictive power.
+  It is argued that the difference between biology and physics lies not in the
+  predictive power of the theories involved, but in the different weight which
+  is lent to the forecasting of particular events in these sciences. A second
+  source of confusion derives from the ambiguity of the term `prediction'. In
+  order to define `prediction' for cases in which the term is used to refer to
+  a part of testing procedure, the reference to the time-point ``now'' is quite
+  irrelevant. Prediction of unknown observational data is sufficient for
+  testing a hypothesis, but such prediction may or may not be identical with
+  forecasting of future events. Different factors that may cause particular
+  difficulties met by biologists in forecasting future events are analyzed
+  subsequently in the second part of the paper. The conclusion is drawn that
+  although particular cognitive situations limiting the ability of forecasting
+  are very frequent in biological sciences, the claim about the peculiar
+  logical status of biological theories is not thereby justified.%
+    }
+    \verb{doi}
+    \verb 10.1086/288494
+    \endverb
+    \field{issn}{0031-8248, 1539-767X}
+    \field{number}{1}
+    \field{pages}{29\bibrangedash 50}
+    \field{title}{Conditions and {{Limitations}} of {{Prediction-Making}} in
+  {{Biology}}}
+    \field{volume}{40}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/DYMKJKU4/Kochanski - 1973 - Conditions and
+    \verb Limitations of Prediction-Making in.pdf
+    \endverb
+    \field{journaltitle}{Philosophy of Science}
+    \field{month}{03}
+    \field{year}{1973}
+  \endentry
+
+  \entry{liu2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LET}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Edison\bibnamedelima T.},
+         giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \strng{namehash}{LET1}
+    \strng{fullhash}{LET1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.cell.2005.04.021
+    \endverb
+    \field{issn}{0092-8674, 1097-4172}
+    \field{number}{4}
+    \field{pages}{505\bibrangedash 506}
+    \field{title}{Systems {{Biology}}, {{Integrative Biology}}, {{Predictive
+  Biology}}}
+    \field{volume}{121}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/IPHJKDFJ/Liu - 2005 - Systems Biology, Inte
+    \verb grative Biology, Predictive B.pdf
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{month}{05}
+    \field{year}{2005}
+  \endentry
+
+  \entry{mogilner2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MA}{%
+         family={Mogilner},
+         familyi={M\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Society for Cell Biology (mboc)}}%
+    }
+    \strng{namehash}{MA1}
+    \strng{fullhash}{MA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1091/mbc.E16-09-0673
+    \endverb
+    \field{issn}{1059-1524}
+    \field{number}{22}
+    \field{pages}{3377\bibrangedash 3378}
+    \field{title}{Quantitative Biology on the Rise}
+    \field{volume}{27}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/L7JSR3CI/Mogilner - 2016 - Quantitative bio
+    \verb logy on the rise.pdf
+    \endverb
+    \field{journaltitle}{Molecular Biology of the Cell}
+    \field{month}{11}
+    \field{year}{2016}
+  \endentry
+
+  \entry{covert2021}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CMW}{%
+         family={Covert},
+         familyi={C\bibinitperiod},
+         given={Markus\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=GTE}{%
+         family={Gillies},
+         familyi={G\bibinitperiod},
+         given={Taryn\bibnamedelima E.},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kudo},
+         familyi={K\bibinitperiod},
+         given={Takamasa},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Agmon},
+         familyi={A\bibinitperiod},
+         given={Eran},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{computational biology,systems biology,whole-cell modeling}
+    \strng{namehash}{CMW+1}
+    \strng{fullhash}{CMWGTEKTAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Quantitative systems biology, in which predictive mathematical models are
+  constructed to guide the design of experiments and predict experimental
+  outcomes, is at an exciting transition point, where the foundational
+  scientific principles are becoming established, but the impact is not yet
+  global. The next steps necessary for mathematical modeling to transform
+  biological research and applications, in the same way it has already
+  transformed other fields, is not completely clear. The purpose of this
+  perspective is to forecast possible answers to this question\textemdash what
+  needs to happen next\textemdash by drawing on the experience gained in
+  another field, specifically meteorology. We review here a number of lessons
+  learned in weather prediction that are directly relevant to biological
+  systems modeling, and that we believe can enable the same kinds of global
+  impact in our field as atmospheric modeling makes today.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cels.2021.05.014
+    \endverb
+    \field{issn}{2405-4712}
+    \field{number}{6}
+    \field{pages}{488\bibrangedash 496}
+    \field{shorttitle}{A Forecast for Large-Scale, Predictive Biology}
+    \field{title}{A Forecast for Large-Scale, Predictive Biology: {{Lessons}}
+  from Meteorology}
+    \field{volume}{12}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/P4ITURK5/Covert et al. - 2021 - A forecast
+    \verb for large-scale, predictive biology Le.pdf;/home/miro/Zotero/storage/
+    \verb RN8VDW5L/S2405471221002003.html
+    \endverb
+    \field{journaltitle}{Cell Systems}
+    \field{month}{06}
+    \field{year}{2021}
+  \endentry
+
+  \entry{jumper2021}{article}{}
+    \name{author}{34}{}{%
+      {{hash=JJ}{%
+         family={Jumper},
+         familyi={J\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pritzel},
+         familyi={P\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Figurnov},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Ronneberger},
+         familyi={R\bibinitperiod},
+         given={Olaf},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tunyasuvunakool},
+         familyi={T\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={Russ},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={{\v Z}{\'i}dek},
+         familyi={{\v Z}\bibinitperiod},
+         given={Augustin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Potapenko},
+         familyi={P\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bridgland},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Clemens},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KSAA}{%
+         family={Kohl},
+         familyi={K\bibinitperiod},
+         given={Simon A.\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=BAJ}{%
+         family={Ballard},
+         familyi={B\bibinitperiod},
+         given={Andrew\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cowie},
+         familyi={C\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={{Romera-Paredes}},
+         familyi={R\bibinitperiod},
+         given={Bernardino},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nikolov},
+         familyi={N\bibinitperiod},
+         given={Stanislav},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={Rishub},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Adler},
+         familyi={A\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Back},
+         familyi={B\bibinitperiod},
+         given={Trevor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Petersen},
+         familyi={P\bibinitperiod},
+         given={Stig},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Reiman},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={Ellen},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zielinski},
+         familyi={Z\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Steinegger},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pacholska},
+         familyi={P\bibinitperiod},
+         given={Michalina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Berghammer},
+         familyi={B\bibinitperiod},
+         given={Tamas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bodenstein},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=SAW}{%
+         family={Senior},
+         familyi={S\bibinitperiod},
+         given={Andrew\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kohli},
+         familyi={K\bibinitperiod},
+         given={Pushmeet},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hassabis},
+         familyi={H\bibinitperiod},
+         given={Demis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Computational biophysics,Machine learning,Protein structure
+  predictions,Structural biology}
+    \strng{namehash}{JJ+1}
+  \strng{fullhash}{JJERPAGTFMROTKBRZAPABAMCKSAABAJCARBNSJRAJBTPSRDCEZMSMPMBTBSSDVOSAWKKKPHD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Proteins are essential to life, and understanding their structure can
+  facilitate a mechanistic understanding of their function. Through an enormous
+  experimental effort1\textendash 4, the structures of around 100,000 unique
+  proteins have been determined5, but this represents a small fraction of the
+  billions of known protein sequences6,7. Structural coverage is bottlenecked
+  by the months to years of painstaking effort required to determine a single
+  protein structure. Accurate computational approaches are needed to address
+  this gap and to enable large-scale structural bioinformatics. Predicting the
+  three-dimensional structure that a protein will adopt based solely on its
+  amino acid sequence\textemdash the structure prediction component of the
+  `protein folding problem'8\textemdash has been an important open research
+  problem for more than 50~years9. Despite recent progress10\textendash 14,
+  existing methods fall far~short of atomic accuracy, especially when no
+  homologous structure is available. Here we provide the first computational
+  method that can regularly predict protein structures with atomic accuracy
+  even in cases in which no similar structure is known. We validated an
+  entirely redesigned version of our neural network-based model, AlphaFold, in
+  the challenging 14th Critical Assessment of protein Structure Prediction
+  (CASP14)15, demonstrating accuracy competitive with experimental structures
+  in a majority of cases and greatly outperforming other methods. Underpinning
+  the latest version of AlphaFold is a novel machine learning approach that
+  incorporates physical and biological knowledge about protein structure,
+  leveraging multi-sequence alignments, into the design of the deep learning
+  algorithm.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41586-021-03819-2
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{7873}
+    \field{pages}{583\bibrangedash 589}
+    \field{title}{Highly Accurate Protein Structure Prediction with
+  {{AlphaFold}}}
+    \field{volume}{596}
+    \field{langid}{english}
+    \field{journaltitle}{Nature}
+    \field{month}{08}
+    \field{year}{2021}
   \endentry
 
   \entry{braun2019}{article}{}
@@ -2159,57 +3318,6 @@
     \field{journaltitle}{Journal of Chemical Information and Modeling}
     \field{month}{10}
     \field{year}{2019}
-  \endentry
-
-  \entry{phillips2012}{book}{}
-    \name{author}{5}{}{%
-      {{hash=PR}{%
-         family={Phillips},
-         familyi={P\bibinitperiod},
-         given={Rob},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=KJ}{%
-         family={Kondev},
-         familyi={K\bibinitperiod},
-         given={Jan{\'e}},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=TJ}{%
-         family={Theriot},
-         familyi={T\bibinitperiod},
-         given={Julie},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=GH}{%
-         family={Garcia},
-         familyi={G\bibinitperiod},
-         given={Hernan},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=KJ}{%
-         family={Kondev},
-         familyi={K\bibinitperiod},
-         given={Jane},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Garland Science}}%
-    }
-    \strng{namehash}{PR+1}
-    \strng{fullhash}{PRKJTJGHKJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{edition}{Second edition, first issued in paperback}
-    \field{isbn}{978-0-8153-4450-6}
-    \field{title}{Physical {{Biology}} of the {{Cell}}}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{Boca Raton London New York}}%
-    }
-    \field{month}{10}
-    \field{year}{2012}
   \endentry
 
   \entry{ross2018}{article}{}
@@ -6176,7 +7284,7 @@
   \entry{noe2001}{misc}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{http://docs.markovmodel.org/lecture\_tica.html}
-    \field{title}{Theory}
+    \field{title}{{{TICA}} Theory}
     \verb{file}
     \verb /home/miro/Zotero/storage/Q4WP6KCT/lecture_tica.html
     \endverb
@@ -7987,264 +9095,6 @@
     \field{langid}{english}
     \field{journaltitle}{Nucleic Acids Research}
     \field{month}{01}
-    \field{year}{2021}
-  \endentry
-
-  \entry{jumper2021}{article}{}
-    \name{author}{34}{}{%
-      {{hash=JJ}{%
-         family={Jumper},
-         familyi={J\bibinitperiod},
-         given={John},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=ER}{%
-         family={Evans},
-         familyi={E\bibinitperiod},
-         given={Richard},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Pritzel},
-         familyi={P\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=GT}{%
-         family={Green},
-         familyi={G\bibinitperiod},
-         given={Tim},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={Figurnov},
-         familyi={F\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=RO}{%
-         family={Ronneberger},
-         familyi={R\bibinitperiod},
-         given={Olaf},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=TK}{%
-         family={Tunyasuvunakool},
-         familyi={T\bibinitperiod},
-         given={Kathryn},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Bates},
-         familyi={B\bibinitperiod},
-         given={Russ},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=ZA}{%
-         family={{\v Z}{\'i}dek},
-         familyi={{\v Z}\bibinitperiod},
-         given={Augustin},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Potapenko},
-         familyi={P\bibinitperiod},
-         given={Anna},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=BA}{%
-         family={Bridgland},
-         familyi={B\bibinitperiod},
-         given={Alex},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=MC}{%
-         family={Meyer},
-         familyi={M\bibinitperiod},
-         given={Clemens},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=KSAA}{%
-         family={Kohl},
-         familyi={K\bibinitperiod},
-         given={Simon A.\bibnamedelima A.},
-         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-      }}%
-      {{hash=BAJ}{%
-         family={Ballard},
-         familyi={B\bibinitperiod},
-         given={Andrew\bibnamedelima J.},
-         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=CA}{%
-         family={Cowie},
-         familyi={C\bibinitperiod},
-         given={Andrew},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=RB}{%
-         family={{Romera-Paredes}},
-         familyi={R\bibinitperiod},
-         given={Bernardino},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=NS}{%
-         family={Nikolov},
-         familyi={N\bibinitperiod},
-         given={Stanislav},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=JR}{%
-         family={Jain},
-         familyi={J\bibinitperiod},
-         given={Rishub},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=AJ}{%
-         family={Adler},
-         familyi={A\bibinitperiod},
-         given={Jonas},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=BT}{%
-         family={Back},
-         familyi={B\bibinitperiod},
-         given={Trevor},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=PS}{%
-         family={Petersen},
-         familyi={P\bibinitperiod},
-         given={Stig},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=RD}{%
-         family={Reiman},
-         familyi={R\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=CE}{%
-         family={Clancy},
-         familyi={C\bibinitperiod},
-         given={Ellen},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=ZM}{%
-         family={Zielinski},
-         familyi={Z\bibinitperiod},
-         given={Michal},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Steinegger},
-         familyi={S\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Pacholska},
-         familyi={P\bibinitperiod},
-         given={Michalina},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BT}{%
-         family={Berghammer},
-         familyi={B\bibinitperiod},
-         given={Tamas},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Bodenstein},
-         familyi={B\bibinitperiod},
-         given={Sebastian},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SD}{%
-         family={Silver},
-         familyi={S\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=VO}{%
-         family={Vinyals},
-         familyi={V\bibinitperiod},
-         given={Oriol},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=SAW}{%
-         family={Senior},
-         familyi={S\bibinitperiod},
-         given={Andrew\bibnamedelima W.},
-         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=KK}{%
-         family={Kavukcuoglu},
-         familyi={K\bibinitperiod},
-         given={Koray},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=KP}{%
-         family={Kohli},
-         familyi={K\bibinitperiod},
-         given={Pushmeet},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=HD}{%
-         family={Hassabis},
-         familyi={H\bibinitperiod},
-         given={Demis},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Nature Publishing Group}}%
-    }
-    \keyw{Computational biophysics,Machine learning,Protein structure
-  predictions,Structural biology}
-    \strng{namehash}{JJ+1}
-  \strng{fullhash}{JJERPAGTFMROTKBRZAPABAMCKSAABAJCARBNSJRAJBTPSRDCEZMSMPMBTBSSDVOSAWKKKPHD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Proteins are essential to life, and understanding their structure can
-  facilitate a mechanistic understanding of their function. Through an enormous
-  experimental effort1\textendash 4, the structures of around 100,000 unique
-  proteins have been determined5, but this represents a small fraction of the
-  billions of known protein sequences6,7. Structural coverage is bottlenecked
-  by the months to years of painstaking effort required to determine a single
-  protein structure. Accurate computational approaches are needed to address
-  this gap and to enable large-scale structural bioinformatics. Predicting the
-  three-dimensional structure that a protein will adopt based solely on its
-  amino acid sequence\textemdash the structure prediction component of the
-  `protein folding problem'8\textemdash has been an important open research
-  problem for more than 50~years9. Despite recent progress10\textendash 14,
-  existing methods fall far~short of atomic accuracy, especially when no
-  homologous structure is available. Here we provide the first computational
-  method that can regularly predict protein structures with atomic accuracy
-  even in cases in which no similar structure is known. We validated an
-  entirely redesigned version of our neural network-based model, AlphaFold, in
-  the challenging 14th Critical Assessment of protein Structure Prediction
-  (CASP14)15, demonstrating accuracy competitive with experimental structures
-  in a majority of cases and greatly outperforming other methods. Underpinning
-  the latest version of AlphaFold is a novel machine learning approach that
-  incorporates physical and biological knowledge about protein structure,
-  leveraging multi-sequence alignments, into the design of the deep learning
-  algorithm.%
-    }
-    \verb{doi}
-    \verb 10.1038/s41586-021-03819-2
-    \endverb
-    \field{issn}{1476-4687}
-    \field{number}{7873}
-    \field{pages}{583\bibrangedash 589}
-    \field{title}{Highly Accurate Protein Structure Prediction with
-  {{AlphaFold}}}
-    \field{volume}{596}
-    \field{langid}{english}
-    \field{journaltitle}{Nature}
-    \field{month}{08}
     \field{year}{2021}
   \endentry
 

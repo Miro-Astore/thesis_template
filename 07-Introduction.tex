@@ -74,7 +74,7 @@ Here, Schr\"oedinger has naturally chosen the formalism of interacting atoms, co
 \section{The Physics Inside your Cells}
 %purpose of this section is to 
 
-Why can't I  write down an equation which will tell me how long I will live? Or how tall I will grow?
+Why can't I write down an equation which will tell me how long I will live? Or how tall I will grow?
 
 These might seem like odd questions but if you asked a physicist how much power it would take to ionise a gas or how long it will take a black hole to evaporate and they will have highly accurate models at the ready to answer easily. 
 
@@ -119,17 +119,18 @@ Historically, ion channels have motivated the study of insight due to their impo
 The physiological importance of ion channels became clear after the experiments of Hodgkin and Huxley. These mathematicians took nerves from giant squid and measured the current running through the nerve in response to electrical stimulation. What they found was intriguing. Signals would only propagate when the input signal was of a sufficient voltage. They managed to match their experimental data with the following set of ordinary differential equations.
 
 \begin{equation}
+	\label{hh_equations}
 \begin{aligned}
-	I = C_m \frac{dV}{dt} &+ \bar{g}_K n^4 (V - V_K) + \bar{g}_{Na} m^3 h (V - V_{Na} ) + \bar{g}_l (V-V_l) ,  \\ \\
+	I = C_m \frac{dV}{dt} &+ \bar{g}_K n^4 (V - V_K) + \bar{g}_{Na} m^3 h (V - V_{Na} ) + \bar{g}_l (V-V_l) , \\ \\
 	\frac{dn}{dt} &= \alpha_n(V)  (1-n) - \beta_n(V)  n, \\
 	\frac{dm}{dt} &= \alpha_m(V)  (1-m) - \beta_m(V)  m, \\ 
 	\frac{dh}{dt} &= \alpha_h(V)  (1-h) - \beta_h(V)  h  
 \end{aligned}
 \end{equation}
 
-Here, $\alpha$ and $\beta \in [0,1]$ parameters are the proportion of the sodium and potassium channel populations which are activated, respectively.  This example shows how basic theoretical tools can be used to predict and discover physical phenomena in biological systems. The Hodgkin Huxley model encodes the existence of a cell's resting potential, the possibility of voltage gated ion channels, and channels whose pores are selective for certain ions. Even today the molecular mechanisms behind some of these discoveries are debated. In this thesis we aim to do the same by building up from fundamental quantum mechanics in order to understand the motion of single proteins so we might speculate as to the function of the whole organism.
+Here, $\alpha$ and $\beta \in [0,1]$ parameters are the proportion of the sodium and potassium channel populations which are activated, respectively. The Hodgkin Huxley model encodes the existence of a cell's resting potential, the possibility of voltage gated ion channels, and channels whose pores are selective for certain ions. Even today the molecular mechanisms behind some of these discoveries are debated. In this thesis we aim to do the same by building up from fundamental quantum mechanics in order to understand the motion of single proteins so we might speculate as to the function of the whole organism. This is another example of how basic theoretical tools can be used to predict and discover physical phenomena in biological systems. In this case the formalism is the set of differential equations in equation \ref{hh_equations}.
 
-The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant voltage gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics. The following set coupled ordinary differential equations were discovered by testing functions which fit the measurements taken from the squid axon.   
+%The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant voltage gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics.    
 
 \begin{figure}
 	\begin{center}
@@ -140,12 +141,13 @@ The measurements and modelling they carried out gave an exciting set of results.
 	\label{action_potential_graphic}
 \end{figure}
 
-Similar to the above story, ion channels have always motivated the early pioneers of molecular biophysics. Advances in electrophysiology have allowed molecular insight into the function of these targets. As cell biology has advanced it has become clear that the resting potential of a cell is critical to its function, regulating many chemical reactions inside it.
+Similar to the story above, ion channels drawn the attention of the early pioneers of molecular biophysics such as Martin Karplus, Benoit Roux \cite{roux1991, allen2004}. This is due to their ubiquity and importance in biological systems and the ease of measuring their activity with biochemical assays. With the advances in electrophysiology motivated by Hodgkin and Huxley's work molecular level details of the function of these systems is available. 
 
-It's quite interesting that ion channels are the targets of comprise 19\% of approved drugs \cite{santos2017}. An exciting implication of this is the finesse with which we can now manipulate these systems in order to regulate morphogenesis of cells \cite{bizzarri2019, blackiston2009}. 
+Related but secondary to this is the critical importance that ion channels play in the function of cells. As cell biology has advanced it has become clear that the charged state of a cell is critical to its function, regulating many chemical reactions inside it \cite{}. It is perhaps then not surprising but nonetheless remarkable that ion channels are the targets of 19\% of clinically approved drugs \cite{santos2017}. An exciting implication of this is the finesse with which we can now manipulate these systems is the ability to regulate cell morphogenesis, such as in the work of Mike Levine \cite{bizzarri2019, blackiston2009}. However, there is much more work to be done \cite{}.
 
-These factors have to allowed biophysicists sufficient data to build sufficiently accurate models of protein systems which generalise. Leading to a thriving field, analysing systems as diverse as protocells to gold nano particles CITATIONS NEEDED. \ref{chap:methods}
+These factors have to allowed biophysicists sufficient data to build sufficiently accurate models of protein systems which generalise. Leading to a thriving field, analysing systems as diverse as photocells to gold nano particles CITATIONS NEEDED. \ref{chap:methods}
 
+The work on gramicidin enabled careful studies of potassium channels \cite{rashid2013, li2021, flood2021}. Quite rapidly the availability of protein structures and the maturation of these computational methods has enabled diverse studies of ion channels and other protein systems \cite{lev2020, chen2021}.
 
 \begin{figure}
 	\begin{center}
