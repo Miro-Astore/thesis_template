@@ -507,6 +507,151 @@
     \field{year}{1952}
   \endentry
 
+  \entry{sansom1991}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SMS}{%
+         family={Sansom},
+         familyi={S\bibinitperiod},
+         given={Mark\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMS1}
+    \strng{fullhash}{SMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Animal venoms are a rich source of bioactive peptides that efficiently
+  modulate key receptors and ion channels involved in cellular excitability to
+  rapidly neutralize their prey or predators. As such, they have been a
+  wellspring of highly useful pharmacological tools for decades. Besides
+  targeting ion channels, some venom peptides exhibit strong cytotoxic activity
+  and preferentially affect cancer over healthy cells. This is unlikely to be
+  driven by an evolutionary impetus, and differences in tumor cells and the
+  tumor microenvironment are probably behind the serendipitous selectivity
+  shown by some venom peptides. However, strategies such as bioconjugation and
+  nanotechnologies are showing potential to improve their selectivity and
+  potency, thereby paving the way to efficiently harness new anticancer
+  mechanisms offered by venom peptides. This review aims to highlight advances
+  in nano- and chemotherapeutic tools and prospective anti-cancer drug leads
+  derived from animal venom peptides. A strategy that has been gaining
+  increased application for the study of the conformation, dynamics,
+  orientation, and physicochemical properties of peptides is labeling with the
+  paramagnetic amino acid TOAC. This approach was used to gain a deeper
+  understanding on the mechanism of action of the antimicrobial peptide
+  tritrpticin (TRP3). TRP3 was labeled with TOAC at the N-terminus (prior to
+  V1, TOAC0-TRP3) or internally (replacing P5, TOAC5-TRP3). Functional studies
+  showed that labeling led to peptides with higher activity against
+  Gram-positive bacteria and lower hemolytic activity with respect to TRP3.
+  Peptide-induced model membranes permeabilization and ion channel-like
+  activity studies corroborated the functional assays qualitatively, showing
+  higher activity of the peptides against negatively charged membranes, which
+  had the purpose of mimicking bacterial membranes. TOAC presented a greater
+  freedom of motion at the N-terminus than at the internal position, as evinced
+  by EPR spectra. EPR and fluorescence spectra reported on the peptides
+  conformational properties, showing acquisition of a more packed conformation
+  in the presence of the secondary structure-inducing solvent, TFE. CD studies
+  showed that TOAC0-TRP3 acquires a conformation similar to that of TRP3, both
+  in aqueous solution and in TFE, while TOAC5-TRP3 presents a different
+  conformation in all environments. While the mechanism of action of TRP3 was
+  impacted to some extent by TOAC labeling at the N-terminus, it did change
+  upon replacement of P5 by TOAC. The results demonstrated that TOAC-labeling
+  could be used to modulate TRP3 activity and mechanism of action and, more
+  importantly, the critical role of P5 for TRP3 pore formation. In this article
+  we review current understanding of basic principles for the folding of
+  membrane proteins, focusing on the more abundant alpha-helical class.
+  Membrane proteins, vital to many biological functions and implicated in
+  numerous diseases, fold into their active conformations in the complex
+  environment of the cell bilayer membrane. While many membrane proteins rely
+  on the translocon and chaperone proteins to fold correctly, others can
+  achieve their functional form in the absence of any translation apparatus or
+  other aides. Nevertheless, the spontaneous folding process is not well
+  understood at the molecular level. Recent findings suggest that helix fraying
+  and loop formation may be important for overall structure, dynamics and
+  regulation of function. Several types of membrane helices with ionizable
+  amino acids change their topology with pH. Additionally we note that some
+  peptides, including many that are rich in arginine, and a particular analogue
+  of gramicidin, are able passively to translocate across cell membranes. The
+  findings indicate that a final protein structure in a lipid-bilayer membrane
+  is sequence-based, with lipids contributing to stability and regulation.
+  While much progress has been made toward understanding the folding process
+  for alpha-helical membrane proteins, it remains a work in progress. This
+  article is part of a Special Issue entitled: Emergence of Complex Behavior in
+  Biomembranes edited by Marjorie Longo. The three-state kinetic model
+  developed in our previous paper (R. Guidelli and L. Becucci, 2016), which
+  explains all the main features of experimental current-voltage curves of
+  peptide ion channels at conventional bilayer lipid membranes (BLMs), is
+  extended to explain some still unsettled features of the corresponding
+  voltage-step current-time (I-t) curves. To this end, the time dependence of
+  the open probability of peptide ion channels during the first few seconds
+  from the instant of the voltage step, before the attainment of its
+  steady-state value expressed by the well-known one-sided Boltzmann equation,
+  is taken into account. This approach explains the reason for the different
+  behavior of the experimental sigmoidal I-t curves with respect to the wholly
+  concave downward ones; the frequent occurrence of concave downward I-t curves
+  characterized by a time course describable by a sum of two exponential
+  functions is also justified. On the other hand, the three-state kinetic model
+  disproves the validity of the experimental procedure aiming at estimating the
+  gating charge of peptide ion channels from the initial stage of the time
+  derivative of ON and OFF ionic currents, commonly justified by an unproved
+  analogy with gating currents of potassium ion channels. The mechanism of ion
+  channel formation in bilayer lipid membranes is discussed by comparing the
+  experimental behavior of current-time and current-voltage curves with the
+  predictions of a model accounting for the kinetics of nucleation of monomeric
+  units and growth of the resulting channel-forming aggregates. A distinction
+  is made between channel-forming peptides, whose dipoles are oriented normal
+  to the membrane plane by the electric field, and large proteins aggregating
+  into Na+, K+, and Ca2 + channels, which have a constant transmembrane
+  disposition and merely reorient each other with a parallel side-by-side
+  motion under the influence of the electric field. This difference explains
+  why the open probability, as expressed in both cases by the one-sided
+  Boltzmann equation, attains the unit value at accessible depolarizations in
+  protein ion channels, whereas it is much less than unity in peptide ion
+  channels. Biological activities of bombolitins from Bombus ardens, B.
+  consobrinus, B. terrestris and B. ussurensis (bombolitins A, C, T and U,
+  respectively) were examined using hemolytic, anti-microbial, anti-fungal and
+  anti-tumor activity assays. Among the four bombolitins tested, bombolitin T
+  showed the highest hemolytic and anti-tumor activities. All bombolitins
+  exhibited strong anti-microbial and anti-fungal activities, and bombolitin A
+  specifically possessed the highest anti-microbial activity against the
+  Gram-negative bacteria Escherichia coli. Circular dichroism spectrometry
+  analysis revealed that all four bombolitins had over 61.7\% and 45.5\% of
+  {$\alpha$}-helicity in 30 mM sodium dodecyl sulfate and 50\% trifluoroethanol
+  buffers, respectively, which form lipid-membrane-mimicking environments.
+  Bombolitin T showed the lowest IC50 values of 8.5 {$\mu$}M and 8.8 {$\mu$}M
+  against SK-OV-3 and NIH-OVCAR-3 cell lines, respectively, after 72 h of
+  treatment, but its relative hemolytic activity at a concentration of 200
+  {$\mu$}M was 2.3-fold higher than that of 0.1\% Triton X-100. To design
+  selective anti-tumor peptides with reduced hemolytic activity, bombolitin T
+  was chosen as a model to be modified by amino acid substitution. The lowest
+  hemolytic activity was observed with the addition of a hydrophobic amino acid
+  (Ile14) to the C-terminal end as well as the substitution of Ser10 and Leu12
+  with a hydrophobic amino acid (Leu) and positively charged amino acid (Lys),
+  respectively. This finding implies that the balanced substitution of
+  hydrophobic and positively charged amino acids could affect the cytotoxicity.
+  This study provides new information on the properties of anti-tumor peptides
+  in the venoms of bumblebees and the basic approaches for peptide design tools
+  for the reduction of cytotoxicity.%
+    }
+    \verb{doi}
+    \verb 10.1016/0079-6107(91)90004-C
+    \endverb
+    \field{issn}{0079-6107}
+    \field{number}{3}
+    \field{pages}{139\bibrangedash 235}
+    \field{title}{The Biophysics of Peptide Models of Ion Channels}
+    \field{volume}{55}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/P4WDJTLE/Sansom - 1991 - The biophysics of
+    \verb peptide models of ion channels.pdf;/home/miro/Zotero/storage/ZTEX4RN8
+    \verb /007961079190004C.html
+    \endverb
+    \field{journaltitle}{Progress in Biophysics and Molecular Biology}
+    \field{month}{01}
+    \field{year}{1991}
+  \endentry
+
   \entry{roux1991}{article}{}
     \name{author}{2}{}{%
       {{hash=RB}{%
@@ -540,13 +685,78 @@
   Mobility}
     \field{volume}{95}
     \verb{file}
-    \verb /home/miro/Zotero/storage/UQWZGT2J/Roux and Karplus - 1991 - Ion tran
-    \verb sport in a gramicidin-like channel dynami.pdf;/home/miro/Zotero/stora
-    \verb ge/MLT2XLYT/j100165a049.html
+    \verb /home/miro/Zotero/storage/MLT2XLYT/j100165a049.html
     \endverb
     \field{journaltitle}{The Journal of Physical Chemistry}
     \field{month}{06}
     \field{year}{1991}
+  \endentry
+
+  \entry{allen2003}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Ba{\c s}tu{\u g}},
+         familyi={B\bibinitperiod},
+         given={Turgut},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CSH}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Shin-Ho},
+         giveni={S\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ATW+1}
+    \strng{fullhash}{ATWBTKSCSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We use the well-known structural and functional properties of the
+  gramicidin A channel to test the appropriateness of force fields commonly
+  used in molecular dynamics (MD) simulations of ion channels. For this
+  purpose, the high-resolution structure of the gramicidin A dimer is embedded
+  in a dimyristoylphosphatidylcholine bilayer, and the potential of mean force
+  of a K+ ion is calculated along the channel axis using the umbrella sampling
+  method. Calculations are performed using two of the most common force fields
+  in MD simulations: CHARMM and GROMACS. Both force fields lead to large
+  central barriers for K+ ion permeation, that are substantially higher than
+  those deduced from the physiological data by inverse methods. In long MD
+  simulations lasting over 60ns, several ions are observed to enter the binding
+  site but none of them crossed the channel despite the presence of a large
+  driving field. The present results, taken together with many earlier studies,
+  highlights the shortcomings of the standard force fields used in MD
+  simulations of ion channels and calls for construction of more appropriate
+  force fields for this purpose.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0006-3495(03)75022-X
+    \endverb
+    \field{issn}{0006-3495}
+    \field{number}{4}
+    \field{pages}{2159\bibrangedash 2168}
+    \field{title}{Gramicidin {{A Channel}} as a {{Test Ground}} for {{Molecular
+  Dynamics Force Fields}}}
+    \field{volume}{84}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/B28QS4BV/S000634950375022X.html
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{month}{04}
+    \field{year}{2003}
   \endentry
 
   \entry{allen2004}{article}{}
@@ -584,13 +794,380 @@
     \field{pages}{117\bibrangedash 122}
     \field{title}{Energetics of Ion Conduction through the Gramicidin Channel}
     \field{volume}{101}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/WDCKZM9P/Allen et al. - 2004 - Energetics o
-    \verb f ion conduction through the gramicidi.pdf
-    \endverb
     \field{journaltitle}{Proceedings of the National Academy of Sciences}
     \field{month}{01}
     \field{year}{2004}
+  \endentry
+
+  \entry{chung2002}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CSH}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Shin-Ho},
+         giveni={S\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Ion channels Brownian dynamics Molecular dynamics Potassium channels}
+    \strng{namehash}{CSHKS1}
+    \strng{fullhash}{CSHKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Determination of the crystal structure of the KcsA potassium channel and
+  its subsequent refinement at 2~\AA{} resolution have stimulated much interest
+  in modelling of ion channels. Here we review the recent developments in ion
+  channels research, focusing especially on the question of structure-function
+  relationships, and discuss how permeation models based on Brownian and
+  molecular dynamics simulations can be used fruitfully in this endeavour.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00249-002-0216-4
+    \endverb
+    \field{issn}{1432-1017}
+    \field{number}{4}
+    \field{pages}{283\bibrangedash 293}
+    \field{shorttitle}{Ion Channels}
+    \field{title}{Ion Channels: Recent Progress and Prospects}
+    \field{volume}{31}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/L7DLEBZ2/Chung and Kuyucak - 2002 - Ion cha
+    \verb nnels recent progress and prospects.pdf
+    \endverb
+    \field{journaltitle}{European Biophysics Journal}
+    \field{month}{07}
+    \field{year}{2002}
+  \endentry
+
+  \entry{tieleman2001}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TDP}{%
+         family={Tieleman},
+         familyi={T\bibinitperiod},
+         given={D.\bibnamedelima Peter},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CBP}{%
+         family={C.\bibnamedelima Biggin},
+         familyi={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Phil},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RSG}{%
+         family={R.\bibnamedelima Smith},
+         familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Graham},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SPSM}{%
+         family={S.\bibnamedelima P.\bibnamedelima Sansom},
+         familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TDP+1}
+    \strng{fullhash}{TDPCBPRSGSPSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    1. Introduction 475 1.1 Ion channels 475 1.1.1 Gramicidin 476 1.1.2 Helix
+  bundle channels 477 1.1.3 K channels 480 1.1.4 Porins 483 1.1.5 Nicotinic
+  acetylcholine receptor 483 1.1.6 Physiological properties 483 1.2 Simulations
+  484 1.2.1 Atomistic versus mean-field simulations 484 2. Atomistic
+  simulations 485 2.1 Modelling of ion-interaction parameters 485 2.1.1
+  Interatomic distances and the problem of ionic radii 486 2.1.2 Solvation
+  energy 487 2.1.3 Hydration shells and coordination numbers 489 2.1.4
+  Parameters in common use and transferability 491 2.1.5 Summary 491 2.2 Water
+  in pores versus bulk 491 2.2.1 Simple pore models 494 2.2.2 gA 495 2.2.3 Alm
+  496 2.2.4 LS3 6 (and LS2 4 ) 496 2.2.5 Nicotinic receptor M2{$\delta$} 5 497
+  2.2.6 Influenza A M2 497 2.2.7 K channels 497 2.2.8 nAChR 498 2.2.9 Porins
+  498 2.2.10 Relevance 499 2.2.11 Problems with simulations 501 2.3 Dynamics of
+  ions in pores 503 2.3.1 Simple pore models 503 2.3.2 Helix bundles 504 2.3.3
+  gA and KcsA 505 2.4 Energetics of permeation and ion selectivity 509 2.4.1
+  Potential and free energy profiles 509 2.4.2 gA 510 2.4.3 {$\alpha$}-Helix
+  bundles 511 2.4.4 KcsA 512 2.4.5 Ion selectivity 514 2.4.6 Problems of
+  estimating energetic profiles 515 2.5 Conformational changes 516 2.5.1 gA 516
+  2.5.2 Alm and LS3 516 2.5.3 KcsA 517 2.6 Protonation states 523 3.
+  Coarse-grained simulations 524 3.1 Introduction 524 3.1.1 Predicting
+  conductance magnitudes 525 3.2 Electro-diffusion: the Nernst\textendash
+  Planck approach 526 3.2.1 Calculating the potential profile from Poisson and
+  PB theory 528 3.2.2 Calculating the potential profile from BD simulations 530
+  3.2.3 Combining Nernst\textendash Planck and Poisson: PNP 530 3.3 Beyond PNP
+  532 3.4 BD simulations 532 3.4.1 Basic theory in ion channels 532 3.4.2
+  Incorporating the environment 533 3.5 Applications 535 3.5.1 Model systems
+  535 3.5.1.1 Solving the Poisson and PB equation for channel-like geometries
+  535 3.5.1.2 Comparing PB, PNP and BD 536 3.5.2 Applications to known
+  structures 537 3.5.2.1 gA 537 3.5.2.2 Porin 539 3.5.2.3 LS3 540 3.5.2.4 Alm
+  542 3.5.2.5 nAChR 542 3.5.2.6 KcsA 543 3.6 p K a calculations 543 3.7
+  Selectivity 544 3.7.1 Anion/cation selectivity 545 3.7.2 Monovalent/divalent
+  ion selectivity 545 4. Problems 546 4.1 Atomistic simulations 546 4.1.1
+  Problems 546 4.1.2 Parameters 548 4.2 BD 549 4.3 Mean-field simulations 549
+  5. Conclusions 550 5.1 Progress 550 5.2 The future 550 6. Acknowledgements
+  551 7. References 551 Ion channels are proteins that form `holes' in
+  membranes through which selected ions move passively down their
+  electrochemical gradients. The ions move quickly, at (nearly) diffusion
+  limited rates ( ca . 10 7 ions s -1 per channel). Ion channels are central to
+  many properties of cell membranes. Traditionally they have been the concern
+  of neuroscientists, as they control the electrical properties of the
+  membranes of excitable cells (neurones, muscle; Hille, 1992). However, it is
+  evident that ion channels are present in many types of cell, not all of which
+  are electrically excitable, from diverse organisms, including plants,
+  bacteria and viruses (where they are involved in functions such as cell
+  homeostasis) in addition to animals. Thus ion channels are of general cell
+  biological importance. They are also of biomedical interest, as several
+  dizeases (`channelopathies') have been described which are caused by changes
+  in properties of a specific ion channel (Ashcroft, 2000). Moreover, passive
+  diffusion channels for substances other than ions are common (porins,
+  aquaporins), as are active membrane transport processes coupled to ion
+  gradients or ATP hydrolysis. An understanding of ion channels may also
+  provide a gateway to understanding these processes.%
+    }
+    \verb{doi}
+    \verb 10.1017/S0033583501003729
+    \endverb
+    \field{issn}{0033-5835, 1469-8994}
+    \field{number}{4}
+    \field{pages}{473\bibrangedash 561}
+    \field{title}{Simulation Approaches to Ion Channel Structure\textendash
+  Function Relationships}
+    \field{volume}{34}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/KFGD8CV5/Tieleman et al. - 2001 - Simulatio
+    \verb n approaches to ion channel structure–fun.pdf
+    \endverb
+    \field{journaltitle}{Quarterly Reviews of Biophysics}
+    \field{month}{11}
+    \field{year}{2001}
+  \endentry
+
+  \entry{catterall2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CWA}{%
+         family={Catterall},
+         familyi={C\bibinitperiod},
+         given={William\bibnamedelima A.},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CWA1}
+    \strng{fullhash}{CWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Voltage-gated calcium (Ca2+) channels are key transducers of membrane
+  potential changes into intracellular Ca2+ transients that initiate many
+  physiological events. There are ten members of the voltage-gated Ca2+ channel
+  family in mammals, and they serve distinct roles in cellular signal
+  transduction. The CaV1 subfamily initiates contraction, secretion, regulation
+  of gene expression, integration of synaptic input in neurons, and synaptic
+  transmission at ribbon synapses in specialized sensory cells. The CaV2
+  subfamily is primarily responsible for initiation of synaptic transmission at
+  fast synapses. The CaV3 subfamily is important for repetitive firing of
+  action potentials in rhythmically firing cells such as cardiac myocytes and
+  thalamic neurons. This article presents the molecular relationships and
+  physiological functions of these Ca2+ channel proteins and provides
+  information on their molecular, genetic, physiological, and pharmacological
+  properties., The activity of a voltage-gated calcium channel is enhanced by
+  the binding of an effector ready to respond to a calcium signal. This
+  effector checkpoint mechanism may be a unifying theme in voltage-gated
+  calcium channel regulation.%
+    }
+    \verb{doi}
+    \verb 10.1101/cshperspect.a003947
+    \endverb
+    \field{issn}{1943-0264}
+    \field{number}{8}
+    \field{pages}{a003947}
+    \field{title}{Voltage-{{Gated Calcium Channels}}}
+    \field{volume}{3}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/RRKHDMKW/Catterall - 2011 - Voltage-Gated C
+    \verb alcium Channels.pdf
+    \endverb
+    \field{journaltitle}{Cold Spring Harbor Perspectives in Biology}
+    \field{month}{08}
+    \field{year}{2011}
+  \endentry
+
+  \entry{muthuswamy2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MSK}{%
+         family={Muthuswamy},
+         familyi={M\bibinitperiod},
+         given={Senthil\bibnamedelima K},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=XB}{%
+         family={Xue},
+         familyi={X\bibinitperiod},
+         given={Bin},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MSKXB1}
+    \strng{fullhash}{MSKXB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cell polarization is an evolutionarily conserved process that facilitates
+  asymmetric distribution of organelles and proteins, is an evolutionarily
+  conserved property that is modified dynamically during physiological
+  processes such as cell division, migration, and morphogenesis. The plasticity
+  with which cells change their behavior and phenotype in response to cell
+  intrinsic and extrinsic cues is an essential feature of normal physiology. In
+  disease states such as cancer, cells lose their ability to behave normally in
+  response to physiological cues. A molecular understanding of mechanisms that
+  alter the behavior of cancer cells is limited. Cell polarity proteins are an
+  recognized class of molecules that can receive and interpret both intrinsic
+  and extrinsic signals to modulate cell behavior. In this review, we discuss
+  how cell polarity proteins regulate a diverse array of biological processes
+  and how they can contribute to alterations in the behavior of cancer cells.%
+    }
+    \verb{doi}
+    \verb 10.1146/annurev-cellbio-092910-154244
+    \endverb
+    \field{issn}{1081-0706}
+    \field{pages}{599\bibrangedash 625}
+    \field{title}{Cell {{Polarity As A Regulator}} of {{Cancer Cell Behavior
+  Plasticity}}}
+    \field{volume}{28}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/3HWB2Y2X/Muthuswamy and Xue - 2012 - Cell P
+    \verb olarity As A Regulator of Cancer Cell Behavi.pdf
+    \endverb
+    \field{journaltitle}{Annual review of cell and developmental biology}
+    \field{year}{2012}
+  \endentry
+
+  \entry{levin2014}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LM}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM1}
+    \strng{fullhash}{LM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Pattern formation, as occurs during embryogenesis or regeneration, is the
+  crucial link between genotype and the functions upon which selection
+  operates. Even cancer and aging can be seen as challenges to the continuous
+  physiological processes that orchestrate individual cell activities toward
+  the anatomical needs of an organism. Thus, the origin and maintenance of
+  complex biological shape is a fundamental question for cell, developmental,
+  and evolutionary biology, as well as for biomedicine. It has long been
+  recognized that slow bioelectrical gradients can control cell behaviors and
+  morphogenesis. Here, I review recent molecular data that implicate endogenous
+  spatio-temporal patterns of resting potentials among non-excitable cells as
+  instructive cues in embryogenesis, regeneration, and cancer. Functional data
+  have implicated gradients of resting potential in processes such as limb
+  regeneration, eye induction, craniofacial patterning, and head-tail polarity,
+  as well as in metastatic transformation and tumorigenesis. The genome is
+  tightly linked to bioelectric signaling, via ion channel proteins that shape
+  the gradients, downstream genes whose transcription is regulated by voltage,
+  and transduction machinery that converts changes in bioelectric state to
+  second-messenger cascades. However, the data clearly indicate that
+  bioelectric signaling is an autonomous layer of control not reducible to a
+  biochemical or genetic account of cell state. The real-time dynamics of
+  bioelectric communication among cells are not fully captured by
+  transcriptomic or proteomic analyses, and the necessary-and-sufficient
+  triggers for specific changes in growth and form can be physiological states,
+  while the underlying gene loci are free to diverge. The next steps in this
+  exciting new field include the development of novel conceptual tools for
+  understanding the anatomical semantics encoded in non-neural bioelectrical
+  networks, and of improved biophysical tools for reading and writing
+  electrical state information into somatic tissues. Cracking the bioelectric
+  code will have transformative implications for developmental biology,
+  regenerative medicine, and synthetic bioengineering.%
+    }
+    \verb{doi}
+    \verb 10.1113/jphysiol.2014.271940
+    \endverb
+    \field{issn}{0022-3751}
+    \field{number}{Pt 11}
+    \field{pages}{2295\bibrangedash 2305}
+    \field{title}{Endogenous Bioelectrical Networks Store Non-Genetic
+  Patterning Information during Development and Regeneration}
+    \field{volume}{592}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/WVLKWX57/Levin - 2014 - Endogenous bioelect
+    \verb rical networks store non-geneti.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Physiology}
+    \field{month}{06}
+    \field{year}{2014}
+  \endentry
+
+  \entry{levin2014a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LM}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM1}
+    \strng{fullhash}{LM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    In addition to biochemical gradients and transcriptional networks, cell
+  behavior is regulated by endogenous bioelectrical cues originating in the
+  activity of ion channels and pumps, operating in a wide variety of cell
+  types. Instructive signals mediated by changes in resting potential control
+  proliferation, differentiation, cell shape, and apoptosis of stem,
+  progenitor, and somatic cells. Of importance, however, cells are regulated
+  not only by their own Vmem but also by the Vmem of their neighbors, forming
+  networks via electrical synapses known as gap junctions. Spatiotemporal
+  changes in Vmem distribution among nonneural somatic tissues regulate pattern
+  formation and serve as signals that trigger limb regeneration, induce eye
+  formation, set polarity of whole-body anatomical axes, and orchestrate
+  craniofacial patterning. New tools for tracking and functionally altering
+  Vmem gradients in vivo have identified novel roles for bioelectrical
+  signaling and revealed the molecular pathways by which Vmem changes are
+  transduced into cascades of downstream gene expression. Because channels and
+  gap junctions are gated posttranslationally, bioelectrical networks have
+  their own characteristic dynamics that do not reduce to molecular profiling
+  of channel expression (although they couple functionally to transcriptional
+  networks). The recent data provide an exciting opportunity to crack the
+  bioelectric code, and learn to program cellular activity at the level of
+  organs, not only cell types. The understanding of how patterning information
+  is encoded in bioelectrical networks, which may require concepts from
+  computational neuroscience, will have transformative implications for
+  embryogenesis, regeneration, cancer, and synthetic bioengineering.%
+    }
+    \verb{doi}
+    \verb 10.1091/mbc.E13-12-0708
+    \endverb
+    \field{issn}{1059-1524}
+    \field{number}{24}
+    \field{pages}{3835\bibrangedash 3850}
+    \field{shorttitle}{Molecular Bioelectricity}
+    \field{title}{Molecular Bioelectricity: How Endogenous Voltage Potentials
+  Control Cell Behavior and Instruct Pattern Regulation in Vivo}
+    \field{volume}{25}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/GMT45MG8/Levin - 2014 - Molecular bioelectr
+    \verb icity how endogenous voltage p.pdf
+    \endverb
+    \field{journaltitle}{Molecular Biology of the Cell}
+    \field{month}{12}
+    \field{year}{2014}
   \endentry
 
   \entry{santos2017}{article}{}
@@ -773,9 +1350,7 @@
     \field{volume}{20}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/5G9UDJWW/Bizzarri et al. - 2019 - A call fo
-    \verb r a better understanding of causation in .pdf;/home/miro/Zotero/stora
-    \verb ge/D9IRHYDU/s41580-019-0127-1.html
+    \verb /home/miro/Zotero/storage/D9IRHYDU/s41580-019-0127-1.html
     \endverb
     \field{journaltitle}{Nature Reviews Molecular Cell Biology}
     \field{month}{05}
@@ -838,13 +1413,197 @@
   Membrane Voltage and the Cell Cycle}
     \field{volume}{8}
     \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/II3JQMZB/Blackiston et al. - 2009 - Bioelec
-    \verb tric controls of cell proliferation ion ch.pdf
-    \endverb
     \field{journaltitle}{Cell Cycle (Georgetown, Tex.)}
     \field{month}{11}
     \field{year}{2009}
+  \endentry
+
+  \entry{stansfeld2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SPJ}{%
+         family={Stansfeld},
+         familyi={S\bibinitperiod},
+         given={Phillip\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SMJ}{%
+         family={Sutcliffe},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MJS}{%
+         family={Mitcheson},
+         familyi={M\bibinitperiod},
+         given={John\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Binding Sites,Drug-Related Side Effects and Adverse
+  Reactions,ERG1 Potassium Channel,Ether-A-Go-Go Potassium Channels,Humans,Long
+  QT Syndrome,Point Mutation,Protein Transport}
+    \strng{namehash}{SPJ+1}
+    \strng{fullhash}{SPJSMJMJS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The human ether-a-go-go-related gene (hERG) encodes the pore-forming
+  alpha-subunit of a voltage-gated potassium (K(+)) channel. A variety of
+  unrelated compounds reduce K(+ )current in the heart by blocking the pore or
+  disrupting trafficking of the hERG channel to the membrane surface. This
+  induces a syndrome known as long QT, which arises from abnormalities in
+  action potential repolarisation and can degenerate into lethal cardiac
+  arrhythmias. As a result, this undesirable side effect has severely hindered
+  safe drug development. This review describes progress in understanding the
+  molecular basis for drug binding to hERG, outlines the characteristics of
+  hERG ligands and discusses experimental and in silico approaches for
+  identifying compounds with QT liabilities. Recent developments should enable
+  recognition of hERG-positive compounds at the early stages of their
+  development.%
+    }
+    \verb{doi}
+    \verb 10.1517/17425255.2.1.81
+    \endverb
+    \field{issn}{1744-7607}
+    \field{number}{1}
+    \field{pages}{81\bibrangedash 94}
+    \field{title}{Molecular Mechanisms for Drug Interactions with {{hERG}} That
+  Cause Long {{QT}} Syndrome}
+    \field{volume}{2}
+    \field{langid}{english}
+    \field{journaltitle}{Expert Opinion on Drug Metabolism \& Toxicology}
+    \field{month}{02}
+    \field{year}{2006}
+  \endentry
+
+  \entry{kaczorowski2008}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KGJ}{%
+         family={Kaczorowski},
+         familyi={K\bibinitperiod},
+         given={Gregory\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MOB}{%
+         family={McManus},
+         familyi={M\bibinitperiod},
+         given={Owen\bibnamedelima B.},
+         giveni={O\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PBT}{%
+         family={Priest},
+         familyi={P\bibinitperiod},
+         given={Birgit\bibnamedelima T.},
+         giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=GML}{%
+         family={Garcia},
+         familyi={G\bibinitperiod},
+         given={Maria\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KGJ+1}
+    \strng{fullhash}{KGJMOBPBTGML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1085/jgp.200709946
+    \endverb
+    \field{issn}{0022-1295}
+    \field{number}{5}
+    \field{pages}{399\bibrangedash 405}
+    \field{shorttitle}{Ion {{Channels}} as {{Drug Targets}}}
+    \field{title}{Ion {{Channels}} as {{Drug Targets}}: {{The Next GPCRs}}}
+    \field{volume}{131}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/TPHM643M/Kaczorowski et al. - 2008 - Ion Ch
+    \verb annels as Drug Targets The Next GPCRs.pdf
+    \endverb
+    \field{journaltitle}{The Journal of General Physiology}
+    \field{month}{05}
+    \field{year}{2008}
+  \endentry
+
+  \entry{waszkielewicz2013}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WA}{%
+         family={Waszkielewicz},
+         familyi={W\bibinitperiod},
+         given={A.M},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gunia},
+         familyi={G\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=SN}{%
+         family={Szkaradek},
+         familyi={S\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=SK}{%
+         family={S{\l}oczy{\'n}ska},
+         familyi={S\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=KS}{%
+         family={Krupi{\'n}ska},
+         familyi={K\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=MH}{%
+         family={Marona},
+         familyi={M\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+    }
+    \strng{namehash}{WA+1}
+    \strng{fullhash}{WAGASNSKKSMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Ion channel targeted drugs have always been related with either the central
+  nervous system (CNS), the peripheral nervous system, or the cardiovascular
+  system. Within the CNS, basic indications of drugs are: sleep disorders,
+  anxiety, epilepsy, pain, etc. However, traditional channel blockers have
+  multiple adverse events, mainly due to low specificity of mechanism of
+  action. Lately, novel ion channel subtypes have been discovered, which gives
+  premises to drug discovery process led towards specific channel subtypes. An
+  example is Na+ channels, whose subtypes 1.3 and 1.7-1.9 are responsible for
+  pain, and 1.1 and 1.2 \textendash{} for epilepsy. Moreover, new drug
+  candidates have been recognized. This review is focusing on ion channels
+  subtypes, which play a significant role in current drug discovery and
+  development process. The knowledge on channel subtypes has developed rapidly,
+  giving new nomenclatures of ion channels. For example, Ca2+ channels are not
+  any more divided to T, L, N, P/Q, and R, but they are described as
+  Cav1.1-Cav3.3, with even newer nomenclature {$\alpha$}1A-{$\alpha$}1I and
+  {$\alpha$}1S. Moreover, new channels such as P2X1-P2X7, as well as
+  TRPA1-TRPV1 have been discovered, giving premises for new types of analgesic
+  drugs.%
+    }
+    \verb{doi}
+    \verb 10.2174/0929867311320100005
+    \endverb
+    \field{issn}{0929-8673}
+    \field{number}{10}
+    \field{pages}{1241\bibrangedash 1285}
+    \field{title}{Ion {{Channels}} as {{Drug Targets}} in {{Central Nervous
+  System Disorders}}}
+    \field{volume}{20}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/HHQDCCIM/Waszkielewicz et al. - 2013 - Ion
+    \verb Channels as Drug Targets in Central Nervous Sy.pdf
+    \endverb
+    \field{journaltitle}{Current Medicinal Chemistry}
+    \field{month}{04}
+    \field{year}{2013}
   \endentry
 
   \entry{rashid2013}{article}{}
@@ -952,9 +1711,7 @@
     \field{volume}{8}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/9CVNYNP7/Rashid et al. - 2013 - A Potent an
-    \verb d Selective Peptide Blocker of the Kv1..pdf;/home/miro/Zotero/storage
-    \verb /8ECUMGP4/article.html
+    \verb /home/miro/Zotero/storage/8ECUMGP4/article.html
     \endverb
     \field{journaltitle}{PLOS ONE}
     \field{month}{11}
@@ -1027,10 +1784,6 @@
   Potassium Channel}
     \field{volume}{7}
     \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/PN5G727M/Li et al. - 2021 - Mechanism of C-
-    \verb type inactivation in the hERG potas.pdf
-    \endverb
     \field{journaltitle}{Science Advances}
     \field{month}{01}
     \field{year}{2021}
@@ -1201,9 +1954,7 @@
     \field{volume}{591}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/9LWRV975/Chen et al. - 2021 - Glutamate tra
-    \verb nsporters have a chloride channel wit.pdf;/home/miro/Zotero/storage/B
-    \verb MMGECG3/s41586-021-03240-9.html
+    \verb /home/miro/Zotero/storage/BMMGECG3/s41586-021-03240-9.html
     \endverb
     \field{journaltitle}{Nature}
     \field{month}{03}
@@ -1271,10 +2022,6 @@
     \field{title}{The {{Antimicrobial Activity}} of {{Gramicidin A Is
   Associated}} with {{Hydroxyl Radical Formation}}}
     \field{volume}{10}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/AHYAWVQX/Liou et al. - 2015 - The Antimicro
-    \verb bial Activity of Gramicidin A Is Asso.pdf
-    \endverb
     \field{journaltitle}{PLoS ONE}
     \field{month}{01}
     \field{year}{2015}
@@ -1324,10 +2071,6 @@
   {{Biology}}}
     \field{volume}{40}
     \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/DYMKJKU4/Kochanski - 1973 - Conditions and
-    \verb Limitations of Prediction-Making in.pdf
-    \endverb
     \field{journaltitle}{Philosophy of Science}
     \field{month}{03}
     \field{year}{1973}
@@ -1359,10 +2102,6 @@
   Biology}}}
     \field{volume}{121}
     \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/IPHJKDFJ/Liu - 2005 - Systems Biology, Inte
-    \verb grative Biology, Predictive B.pdf
-    \endverb
     \field{journaltitle}{Cell}
     \field{month}{05}
     \field{year}{2005}
@@ -1392,10 +2131,6 @@
     \field{pages}{3377\bibrangedash 3378}
     \field{title}{Quantitative Biology on the Rise}
     \field{volume}{27}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/L7JSR3CI/Mogilner - 2016 - Quantitative bio
-    \verb logy on the rise.pdf
-    \endverb
     \field{journaltitle}{Molecular Biology of the Cell}
     \field{month}{11}
     \field{year}{2016}
@@ -1460,9 +2195,7 @@
     \field{volume}{12}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/P4ITURK5/Covert et al. - 2021 - A forecast
-    \verb for large-scale, predictive biology Le.pdf;/home/miro/Zotero/storage/
-    \verb RN8VDW5L/S2405471221002003.html
+    \verb /home/miro/Zotero/storage/RN8VDW5L/S2405471221002003.html
     \endverb
     \field{journaltitle}{Cell Systems}
     \field{month}{06}
