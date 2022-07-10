@@ -6,8 +6,30 @@ ABSTRACT
 Understanding how CFTR conducts ions is critical to ongoing drug discovery efforts to treat Cystic Fibrosis. Existing structures of CFTR  raise unresolved qustions as to how CFTR conducts ions as they exhibit a constriction smaller than the ions themselves. This indicates that there must be some level of conformational change for ions to pass through this structure. Here we present innovative simulation techniques combining simple numerical techniques and new advances in free energy calculations to resolve the full conduction pathway in CFTR. We hope that the techniques and philosophy in this chapter will be refined and applied to other complex protein systems of physiological relevance. 
 \newline
 
+\section{Introduction}
+
+\section{Results}
+
+\subsection{The outer pore in the CryoEM structure of phosphorylated human CFTR is not sufficiently open to conduct anions}
+
+\subsection{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}
+
+\subsection{With Umbrella sampling we can see this conformation is sufficiently open to conduct both chloride and bicarbonate}
+
+\subsection{This open conformation appears to be stabilised by a novel salt bridge}
+
+\subsection{This open state can be used to study disease causing mutations such as R334W in the outer pore}
+
 \section{Discussion}
 
-The present study diverges in an important way from existing free energy calculations which investigate protein conformational changes in the literature. Present studies have focussed on recreating intermediate free energy landscapes between \textit{known} endpoints \cite{lev2020, bergh2021}. Such approaches are critical to the developement of molecular techniques in order to understand the energetics and kinetics of molecular machines. However, these studies are inherently limited to the availability of high quality experimental 3d structures. Protein forcefields may have their issues but they are now of sufficient quality that they can now be used, alongside considerable computer power to investigate parts of the conformational landscape which have critical functional roles but are not covered by experimental structures. This is akin to the developement of an unsupervised vs. supervised machine learning algorithms. Each approach is powerful but has its own domain of applicability and drawbacks. 
+The present study diverges in an important way from existing simulation investigations of protein conformational changes in the literature. Present studies have focussed on recreating intermediate free energy landscapes between \textit{known} endpoints \cite{lev2020, bergh2021}. Such approaches are critical to the development of molecular techniques in order to understand the energetics and kinetics of protein systems. However, these studies are inherently limited to the availability of high quality experimental 3d structures. . Protein forcefields may have their issues but they are now of sufficient quality that they can now be used, alongside considerable computer power to investigate parts of the conformational landscape which have critical functional roles but are not covered by experimental structures. This is akin to the development of an unsupervised vs. supervised machine learning algorithms. Each approach is powerful but has its own domain of applicability and drawbacks. 
 
-As shown by the results in the present study the difficulty in converging a free energy landscape with collective variables derived \textit {ab initio} from long classical MD simulations can be difficult as the CVs are very likely going to be suboptimal. Machine learning techniques, more sophisticated than the simple PCA algorithm used here would likely do a much better job of choosing quickly converging CVs. 
+I predict that as free energy calculations are increasingly used to study protein systems we will see a delineation between \textit{untargetted} and \textit{targetted} MD methods.
+
+As shown by the results in the present study, the difficulty in converging a free energy landscape with collective variables derived \textit {ab initio} from long classical MD simulations can be difficult as the CVs are very likely going to be suboptimal. Machine learning techniques, more sophisticated than the simple PCA algorithm used here would likely do a much better job of choosing quickly converging CVs. 
+
+The conformational changes investigated in this study push against the lipid bilayer. This means that the kinetics and energetics of the transitions we have discovered will be highly dependent on the composition of lipids used in the study. It is well understood that the bilayer composition plays an important role in CFTR regulation and the clinical implications of this are an active area of research \cite{cui2020, cottrill2020}. It would therefore be an interesting study to repeat similar free energy calculations with different bilayer compositions to understand how they might regulate such conformational changes.
+
+\section{Conclusion}
+
+\section{Methods Details}
