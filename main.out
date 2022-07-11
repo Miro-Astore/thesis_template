@@ -57,13 +57,22 @@
 \BOOKMARK [0][-]{chapter.5}{Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect}{}% 57
 \BOOKMARK [0][-]{chapter.6}{Unique S945L-CFTR defect Restored by CFTR Modulator Co-Therapy In Vitro Correlates with In Vivo Biomarkers Post-Therapy}{}% 58
 \BOOKMARK [0][-]{chapter.7}{Resolving a Conducting Conformation of CFTR Using Free Energy Calculations}{}% 59
-\BOOKMARK [1][-]{section.7.1}{Discussion}{chapter.7}% 60
-\BOOKMARK [0][-]{chapter.8}{Concluding Remarks: Where next for Molecular Studies of CFTR.}{}% 61
-\BOOKMARK [1][-]{section.8.1}{Addressing Controversies Surrounding the Structure of CFTR}{chapter.8}% 62
-\BOOKMARK [1][-]{section.8.2}{A Physics Motivated Model for the Molecular Modulation of Mutant CFTR }{chapter.8}% 63
-\BOOKMARK [1][-]{section.8.3}{A Physics Motivated Approach to Precision Medicine in Cystic Fibrosis}{chapter.8}% 64
-\BOOKMARK [1][-]{section.8.4}{Outstanding fundamental questions about CFTR Function}{chapter.8}% 65
-\BOOKMARK [1][-]{section.8.5}{Grouping of Theratypes}{chapter.8}% 66
-\BOOKMARK [1][-]{section.8.6}{Resolving Drug Action}{chapter.8}% 67
-\BOOKMARK [1][-]{section.8.6}{References}{chapter.8}% 68
-\BOOKMARK [0][-]{appendix*.37}{Bibliography}{}% 69
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.2}{Results}{chapter.7}% 61
+\BOOKMARK [2][-]{subsection.7.2.1}{The outer pore in the CryoEM structure of phosphorylated human CFTR is not sufficiently open to conduct anions}{section.7.2}% 62
+\BOOKMARK [2][-]{subsection.7.2.2}{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}{section.7.2}% 63
+\BOOKMARK [2][-]{subsection.7.2.3}{With Umbrella sampling we can see this conformation is sufficiently open to conduct both chloride and bicarbonate}{section.7.2}% 64
+\BOOKMARK [2][-]{subsection.7.2.4}{This open conformation appears to be stabilised by a novel salt bridge}{section.7.2}% 65
+\BOOKMARK [2][-]{subsection.7.2.5}{This open state can be used to study disease causing mutations such as R334W in the outer pore}{section.7.2}% 66
+\BOOKMARK [1][-]{section.7.3}{Discussion}{chapter.7}% 67
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 68
+\BOOKMARK [1][-]{section.7.5}{Methods Details}{chapter.7}% 69
+\BOOKMARK [0][-]{chapter.8}{Concluding Remarks: Where next for Molecular Studies of CFTR.}{}% 70
+\BOOKMARK [1][-]{section.8.1}{Addressing Controversies Surrounding the Structure of CFTR}{chapter.8}% 71
+\BOOKMARK [1][-]{section.8.2}{A Physics Motivated Model for the Molecular Modulation of Mutant CFTR }{chapter.8}% 72
+\BOOKMARK [1][-]{section.8.3}{A Physics Motivated Approach to Precision Medicine in Cystic Fibrosis}{chapter.8}% 73
+\BOOKMARK [1][-]{section.8.4}{Outstanding fundamental questions about CFTR Function}{chapter.8}% 74
+\BOOKMARK [1][-]{section.8.5}{Grouping of Theratypes}{chapter.8}% 75
+\BOOKMARK [1][-]{section.8.6}{Resolving Drug Action}{chapter.8}% 76
+\BOOKMARK [1][-]{section.8.6}{References}{chapter.8}% 77
+\BOOKMARK [0][-]{appendix*.38}{Bibliography}{}% 78
