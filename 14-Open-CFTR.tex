@@ -1,8 +1,9 @@
 %=======================================================================================%
 \chapter{Resolving a Conducting Conformation of CFTR Using Free Energy Calculations}
 \label{chap:opening}
-\chapquote{No hats for soup} {-Benjamin John Goodwin}
-ABSTRACT 
+\chapquote{You wanna fight?} {-Zachary Shadrach Cohen Picker}
+
+\section*{\centering Abstract} 
 Understanding how CFTR conducts ions is critical to ongoing drug discovery efforts to treat Cystic Fibrosis. Existing structures of CFTR  raise unresolved qustions as to how CFTR conducts ions as they exhibit a constriction smaller than the ions themselves. This indicates that there must be some level of conformational change for ions to pass through this structure. Here we present innovative simulation techniques combining simple numerical techniques and new advances in free energy calculations to resolve the full conduction pathway in CFTR. We hope that the techniques and philosophy in this chapter will be refined and applied to other complex protein systems of physiological relevance. 
 \newline
 
@@ -17,6 +18,7 @@ Understanding how CFTR conducts ions is critical to ongoing drug discovery effor
 \subsection{Proving the discovered conformation is capable of ion conduction with umbrella sampling}
 
 \subsection{This open conformation gives rise to a novel salt bridge}
+\label{salt_bridge}
 
 \subsection{This open state can be used to study disease causing mutations such as R334W in the outer pore}
 
@@ -31,6 +33,11 @@ As shown by the results in the present study, the difficulty in converging a fre
 The conformational changes investigated in this study push against the lipid bilayer. This means that the kinetics and energetics of the transitions we have discovered will be highly dependent on the composition of lipids used in the study. It is well understood that the bilayer composition plays an important role in CFTR regulation and the clinical implications of this are an active area of research \cite{cui2020, cottrill2020}. It would therefore be an interesting study to repeat similar free energy calculations with different bilayer compositions to understand how they might regulate such conformational changes.
 
 Understanding the open structure of CFTR has important implications for the drug discovery efforts to treat Cystic Fibrosis and sheds light on other important clinical questions. Specificlaly, selectivity of bicarbonate has been found to play an important role in pancreatic sufficiency of patients. The elucidation of basic CFTR function using simulations heralds an exciting new era of Cystic Fibrosis research. We are performing molecular medicing with atomic precision. 
+
+The predictions of a stable salt bridge in section \ref{salt_bridge} fill a recent gap in the literature. The elegant study on the R117H mutation from Simon and Csnady's group \cite{simon2021}  discovered that a long standing conclusion that R117 made a connection with E1126 was incorrect and in fact R117 makes a stable hydrogen bond with E1124. This study did not closely investigate the role of E1126, observing that the E1126P mutant had slower closing kinetics but was unable to definitely explain why, suggesting that ECL4 might move slower in this mutation. This leaves the partner of E1126 unknown. One study investigating the blockage of CFTR by zinc postulated at an interaction between R334 and E1126 \cite{wang2016}. Here, the researchers tested the inhibition of chloride conduction in the presence of zinc in R334C-CFTR. They found strong evidence that R334C-CFTR was blocked by Zinc ions, as no current was recorded in the presence of zinc. Because zinc has a +2 charge they suspected that a nearby negative amino acid might might play a role in binding the zinc cation. Subsequent experiments They found that the mutant R334C/E1126A-CFTR was no longer inhibited by zinc ions. This is consistent with our findings that R334 and E1126 may indeed form a salt bridge, coming closer together in the conducting conformation compared to how far they are in the cryoEM structure.  
+
+
+Previously it would have been very difficult to discover this interaction experimentally because R334 has plays such an important role in the conductance and selectivity of the channel. With the use of the atomic resolution offered by MD simulations we have been able to fill this gap in the experimental literature, demonstrating the power of \textit {in silico} methods for studying protein dynamics.
 
 \section{Conclusion}
 
