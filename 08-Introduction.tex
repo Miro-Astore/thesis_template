@@ -11,13 +11,13 @@
 \pagenumbering{arabic}
 \chapter{Introduction: Biology, The Hardest Science}
 \label{chap:intro}
-\chapquote{Whatever complexity means, most people agree that biological systems have it. -Frauenfelder and Wolynes \cite{frauenfelder1994} } {}
+\chapquote{Whatever complexity means, most people agree that biological systems have it.} {-Frauenfelder and Wolynes \cite{frauenfelder1994}}
 \vspace
 \section{Thesis and Chapter Summary}
 
 This thesis seeks to apply a philosophy of molecular biophysics to demonstrate its capability to investigate pressing problems in biology and medicine. In particular, we will use molecular dynamics (MD) to look at how a specific gene, the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR), to cause a disease (CF). These MD techniques will allow us to formulate a model of CFTR's misfunction which we hope will direct research efforts and allow more patients suffering from CF access life saving medication. 
 
-In this first short chapter we will quickly build a philosophy of how to look at biology through the lens of a physicist. We will outline what the goal of a physicist is, to create abstract formalisms which can be used to model the natural world. We will then observe what makes the construction of such formalisms so dififcult in biology. We will walk through how a specific set of systems, namely ion channels have historically allowed us to take the behaviour of ion channels and climb upward to understand more complex biological systems, such as whole cells. 
+In this first short chapter we will quickly build a philosophy of how to look at biology through the lens of a physicist. We will outline what the goal of a physicist is, to create abstract formalisms which can be used to model the natural world. We will then observe what makes the construction of such formalisms so difficult in biology. We will walk through how a specific set of systems, namely ion channels have historically served as laboratories to help understand more complex biological systems, such as whole cells or organisms. 
 
 In more detail, chapter \ref{chap:methods} will describe the chemical and numerical simulation techniques we have used to study the CFTR protein system, while chapter \ref{chap:cftr} gives an overview of the CFTR system itself, and also a set of \textit {in vitro} assays which compliment our computational modelling.  Chapters \ref{chap:i37r}, \ref{chap:r352q}, \ref{chap:s945l} and \ref{chap:opening} demonstrate the details of how a diverse application of the simulation techniques in chapter \ref{chap:methods} can be used to discover the unique modes of misfunction in CFTR. In combination with \textit {in vitro} cellular techniques, these simulation results prove that these mutations can be rescued by existing drug regimens. Finally, chapter \ref{chap:conclusion} ties together these results to argue for a physical model which elucidates the mechanism of action for cystic fibrosis drugs. Armed with this model we will work through the available literature and identify some priorities for future studies using molecular modelling for cystic fibrosis research.
 
@@ -161,7 +161,7 @@ The work on gA enabled careful studies of potassium channels \cite{rashid2013, l
 		\includegraphics[width=0.8\textwidth]{figures/ion_channel_progression.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Some ion channels] {\textbf{Some ion channels}}{Three ion channels which reflect the progress of molecular modelling. Gramicidin A has historically been used as a toy model to test different modelling techniques (PDB ID 1NT5) \cite{sham2003}. KcsA is a bacterial potassium channel which . This structure only comprises the pore domain, sometimes called the selectivity filter (PDB ID 1BL8) \cite{doyle1998}. Finally, the CFTR anion channel which this thesis is written about (PDB ID 6MSM) \cite{zhang2018a}. Interestingly, each of these structures was solved with a different structural biology method. Solid state Nuclear Magnetic Resonance imaging, X-Ray Crystallography and Cryogenic Electron Microscopy respectively.}
+	\caption[Different Ion Channels Ammenable to Molecular Simulation] {\textbf{Different Ion Channels Ammenable to Molecular Simulation}}{Gramicidin A was initially used as a toy model to test different \textit{in silico} modelling techniques (PDB ID 1NT5) \cite{sham2003}. KcsA, is a bacterial potassium channel. This structure only comprises the pore domain, sometimes called the selectivity filter (PDB ID 1BL8) \cite{doyle1998}. This structure drew interest because potassium channels are critical physiologically. Finally, the CFTR anion channel which this thesis is written about (PDB ID 6MSM) \cite{zhang2018a}. The fact that we have gone from simulating just a few nanoseconds of Gramicidin A to collecting almost half a millisecond of data in this thesis (a time span of 30 years) heralds an exciting future for computational biophysics \cite{roux1993}.}
 	\label{action_potential_graphic}
 \end{figure}
 
@@ -194,8 +194,7 @@ It just so happens that the CFTR gene exhibits an exceptionally narrow $\sigma_{
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=1.0\textwidth]{figures/fitness_landscape_fig.pdf
-		}
+		\includegraphics[width=1.0\textwidth]{figures/fitness_landscape_fig.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[A physical model for how to view protein evolution] {\textbf{A physical model for how to view protein evolution}}{The stability of a protein $\Delta G$ is related to the fitness of an organism $W$ by equation \ref{fitness_equation}. This model gives rise to a peaked distribution which helps us understand how so many mutants can give rise to cystic fibrosis. It appears as though the CFTR gene has an exceptionally narrow $\sigma_{\Delta G}$ and so small changes to the sequence of the gene have a comparatively dramatic effect on the evolutionary fitness of the organism.}
