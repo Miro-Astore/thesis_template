@@ -184,12 +184,25 @@ The sad truth of CF is that those afflicted are extremely unlucky. A single, cha
 In this way, my motivations for studying the CFTR protein aren't solely focussed on treating disease. There is a perspective on protein evolution which states that the primary sequence of a particular gene contributes to the overall fitness of an organisms by a formula \cite{depristo2005}.
 
 \begin{equation}
+	\label{fitness_equation}
 	W(\Delta G) \propto \exp\bigg(\bigg[-\frac{\Delta G - \Delta G_{opt}}{\sigma_{\Delta G}}\bigg]^4\bigg) + c
 \end{equation}
 
 Where $W$ represents the fitness of the organism, $\Delta G$ is the folding energy of the protein and $\Delta G_{opt}$ is the folding energy of the protein . Figure \ref{fitness_landscape_gene_figure} demonstrates the types of random walks of a gene through sequence space which this model predicts. 
 
 It just so happens that the CFTR gene exhibits an exceptionally narrow $\sigma_{\Delta G}$ sits at the precipice of a daunting cliff in sequence space. Where the band of stability in the modified gaussian in figure \ref{fitness_landscape_gene_figure} is extremely narrow. So by taking small steps in sequence space and plunging down this cliff we can try to understand how we might push the ball back up the cliff and retain functionality.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=1.0\textwidth]{figures/fitness_landscape_fig.pdf
+		}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[A physical model for how to view protein evolution] {\textbf{A physical model for how to view protein evolution}}{The stability of a protein $\Delta G$ is related to the fitness of an organism $W$ by equation \ref{fitness_equation}. This model gives rise to a peaked distribution which helps us understand how so many mutants can give rise to cystic fibrosis. It appears as though the CFTR gene has an exceptionally narrow $\sigma_{\Delta G}$ and so small changes to the sequence of the gene have a comparatively dramatic effect on the evolutionary fitness of the organism.}
+	\label{dna_structure}
+\end{figure}
+
+
 
 Moreover, by learning the nuts and bolts of what goes wrong with CFTR we can start to think about where some of these cliffs might be in other places in the proteome, to gain function and avoid disease and debilitation.
 

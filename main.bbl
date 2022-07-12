@@ -10571,25 +10571,6 @@
   \endentry
 
   \entry{amber22}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=D}{%
-         family={{D.A. Case, H.M. Aktulga, K. Belfon, I.Y. Ben-Shalom, J.T.
-  Berryman, S.R. Brozell, D.S. Cerutti, T.E. Cheatham, III, G.A. Cisneros,
-  V.W.D. Cruzeiro, T.A. Darden, R.E. Duke, G. Giambasu, M.K. Gilson, H. Gohlke,
-  A.W. Goetz, R. Harris, S. Izadi, S.A. Izmailov, K. Kasavajhala, M.C. Kaymak,
-  E. King, A. Kovalenko, T. Kurtzman, T.S. Lee, S. LeGrand, P. Li, C. Lin, J.
-  Liu, T. Luchko, R. Luo, M. Machado, V. Man, M. Manathunga, K.M. Merz, Y.
-  Miao, O. Mikhailovskii, G. Monard, H. Nguyen, K.A. O'Hearn, A. Onufriev, F.
-  Pan, S. Pantano, R. Qi, A. Rahnamoun, D.R. Roe, A. Roitberg, C. Sagui, S.
-  Schott-Verdugo, A. Shajan, J. Shen, C.L. Simmerling, N.R. Skrynnikov, J.
-  Smith, J. Swails, R.C. Walker, J Wang, J. Wang, H. Wei, R.M. Wolf, X. Wu, Y.
-  Xiong, Y. Xue, D.M. York, S. Zhao, {and} P.A. Kollma}},
-         familyi={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{D1}
-    \strng{fullhash}{D1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{Amber22}
     \field{year}{2022}
@@ -19202,6 +19183,52 @@
   United States of America}
     \field{month}{11}
     \field{year}{2013}
+  \endentry
+
+  \entry{nose1983}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NS}{%
+         family={Nos{\'e}},
+         familyi={N\bibinitperiod},
+         given={Shuichi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KML}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={M.\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Taylor \& Francis Group}}%
+    }
+    \strng{namehash}{NSKML1}
+    \strng{fullhash}{NSKML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Technical aspects of the constant pressure molecular dynamics (MD) method
+  proposed by Andersen and extended by Parrinello and Rahman to allow changes
+  in the shape of the MD cell are discussed. The new MD method is extended to
+  treat molecular systems and to include long range charge-charge interactions.
+  Results on the conservation laws, the frequency of oscillation of the MD
+  cell, and the equations which constrain the shape of the MD cell are also
+  given. An additional constraint is introduced to stop the superfluous MD cell
+  rotation which would otherwise complicate the analysis of crystal structures.
+  The method is illustrated by examining the behaviour of solid nitrogen at
+  high pressure. \textcopyright{} 1983 Taylor \& Francis Group, LLC.%
+    }
+    \verb{doi}
+    \verb 10.1080/00268978300102851
+    \endverb
+    \field{issn}{13623028}
+    \field{number}{5}
+    \field{pages}{1055\bibrangedash 1076}
+    \field{title}{Constant Pressure Molecular Dynamics for Molecular Systems}
+    \field{volume}{50}
+    \field{journaltitle}{Molecular Physics}
+    \field{year}{1983}
   \endentry
 
   \entry{klauda2010}{article}{}
