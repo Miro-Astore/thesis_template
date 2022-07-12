@@ -3764,6 +3764,67 @@
     \field{year}{2016}
   \endentry
 
+  \entry{yoo2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YJ}{%
+         family={Yoo},
+         familyi={Y\bibinitperiod},
+         given={Jejoong},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aksimentiev},
+         familyi={A\bibinitperiod},
+         given={Aleksei},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{The Royal Society of Chemistry}}%
+    }
+    \strng{namehash}{YJAA1}
+    \strng{fullhash}{YJAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In contrast to ordinary polymers, the vast majority of biological
+  macromolecules adopt highly ordered three-dimensional structures that define
+  their functions. The key to folding of a biopolymer into a unique 3D
+  structure or to an assembly of several biopolymers into a functional unit is
+  a delicate balance between the attractive and repulsive forces that also
+  makes such self-assembly reversible under physiological conditions. The
+  all-atom molecular dynamics (MD) method has emerged as a powerful tool for
+  studies of individual biomolecules and their functional assemblies,
+  encompassing systems of ever increasing complexity. However, advances in
+  parallel computing technology have outpaced the development of the underlying
+  theoretical models - the molecular force fields, pushing the MD method into
+  an untested territory. Recent tests of the MD method have found the most
+  commonly used molecular force fields to be out of balance, overestimating
+  attractive interactions between charged and hydrophobic groups, which can
+  promote artificial aggregation in MD simulations of multi-component protein,
+  nucleic acid, and lipid systems. One route towards improving the force fields
+  is through the NBFIX corrections method, in which the intermolecular forces
+  are calibrated against experimentally measured quantities such as osmotic
+  pressure by making atom pair-specific adjustments to the non-bonded
+  interactions. In this article, we review development of the NBFIX (Non-Bonded
+  FIX) corrections to the AMBER and CHARMM force fields and discuss their
+  implications for MD simulations of electrolyte solutions, dense DNA systems,
+  Holliday junctions, protein folding, and lipid bilayer membranes.%
+    }
+    \verb{doi}
+    \verb 10.1039/c7cp08185e
+    \endverb
+    \field{number}{13}
+    \field{pages}{8432\bibrangedash 8449}
+    \field{title}{New Tricks for Old Dogs: {{Improving}} the Accuracy of
+  Biomolecular Force Fields by Pair-Specific Corrections to Non-Bonded
+  Interactions}
+    \field{volume}{20}
+    \field{journaltitle}{Physical Chemistry Chemical Physics}
+    \field{month}{03}
+    \field{year}{2018}
+  \endentry
+
   \entry{tolmachev2020}{article}{}
     \name{author}{5}{}{%
       {{hash=TDA}{%
@@ -5629,6 +5690,74 @@
     \field{year}{2007}
   \endentry
 
+  \entry{berendsen1984}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BHJ}{%
+         family={Berendsen},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima J.C.},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PJP}{%
+         family={Postma},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima P.M.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=VGWF}{%
+         family={Van\bibnamedelima Gunsteren},
+         familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={W.\bibnamedelima F.},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dinola},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HJR}{%
+         family={Haak},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \keyw{COMPUTERIZED SIMULATION,LIQUIDS,MOLECULAR DYNAMICS
+  CALCULATION,STRUCTURE FACTORS,TRANSPORT THEORY}
+    \strng{namehash}{BHJ+1}
+    \strng{fullhash}{BHJPJPVGWFDAHJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In molecular dynamics (MD) simulations the need often arises to maintain
+  such parameters as temperature or pressure rather than energy and volume, or
+  to impose gradients for studying transport properties in nonequilibrium MD. A
+  method is described to realize coupling to an external bath with constant
+  temperature or pressure with adjustable time constants for the coupling. The
+  method is easily extendable to other variables and to gradients, and can be
+  applied also to polyatomic molecules involving internal constraints. The
+  influence of coupling time constants on dynamical variables is evaluated. A
+  leap-frog algorithm is presented for the general case involving constraints
+  with coupling to both a constant temperature and a constant pressure bath.
+  \textcopyright{} 1984 American Institute of Physics.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.448118
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{8}
+    \field{pages}{3684\bibrangedash 3690}
+    \field{title}{Molecular Dynamics with Coupling to an External Bath}
+    \field{volume}{81}
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{10}
+    \field{year}{1984}
+  \endentry
+
   \entry{martyna1996}{article}{}
     \name{author}{4}{}{%
       {{hash=MGJ}{%
@@ -5958,6 +6087,67 @@
     \field{journaltitle}{Physical Review Letters}
     \field{month}{10}
     \field{year}{1980}
+  \endentry
+
+  \entry{parrinello1981}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rahman},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \keyw{COMPARATIVE EVALUATIONS,COMPRESSION,CONFIGURATION,CUBIC
+  LATTICES,DYNAMICS,HCP LATTICES,IMPACT SHOCK,LAGRANGE
+  EQUATIONS,MONOCRYSTALS,NICKEL,PHASE
+  TRANSFORMATIONS,SIZE,STRAINS,STRESSES,STRUCTURAL MODELS,TENSILE
+  PROPERTIES,THEORETICAL DATA}
+    \strng{namehash}{PMRA1}
+    \strng{fullhash}{PMRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    A new Lagrangian formulation is introduced. It can be used to make
+  molecular dynamics (MD) calculations on systems under the most general,
+  externally applied, conditions of stress. In this formulation the MD cell
+  shape and size can change according to dynamical equations given by this
+  Lagrangian. This new MD technique is well suited to the study of structural
+  transformations in solids under external stress and at finite temperature. As
+  an example of the use of this technique we show how a single crystal of Ni
+  behaves under uniform uniaxial compressive and tensile loads. This work
+  confirms some of the results of static (i.e., zero temperature) calculations
+  reported in the literature. We also show that some results regarding the
+  stress-strain relation obtained by static calculations are invalid at finite
+  temperature. We find that, under compressive loading, our model of Ni shows a
+  bifurcation in its stress-strain relation; this bifurcation provides a link
+  in configuration space between cubic and hexagonal close packing. It is
+  suggested that such a transformation could perhaps be observed experimentally
+  under extreme conditions of shock.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.328693
+    \endverb
+    \field{issn}{0021-8979, 1089-7550}
+    \field{number}{12}
+    \field{pages}{7182\bibrangedash 7190}
+    \field{shorttitle}{Polymorphic Transitions in Single Crystals}
+    \field{title}{Polymorphic Transitions in Single Crystals: {{A}} New
+  Molecular Dynamics Method}
+    \field{volume}{52}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Applied Physics}
+    \field{month}{12}
+    \field{year}{1981}
   \endentry
 
   \entry{leach2001}{book}{}
@@ -6740,6 +6930,63 @@
     \field{year}{2017}
   \endentry
 
+  \entry{zhu2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZF}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Fangqiang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hummer},
+         familyi={H\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZFHG1}
+    \strng{fullhash}{ZFHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    GLIC is a bacterial member of the large family of pentameric ligand-gated
+  ion channels. To study ion conduction through GLIC and other membrane
+  channels, we combine the one-dimensional potential of mean force for ion
+  passage with a Smoluchowski diffusion model, making it possible to calculate
+  single-channel conductance in the regime of low ion concentrations from
+  all-atom molecular dynamics (MD) simulations. We then perform MD simulations
+  to examine sodium ion conduction through the GLIC transmembrane pore in two
+  systems with different bulk ion concentrations. The ion potentials of mean
+  force, calculated from umbrella sampling simulations with Hamiltonian replica
+  exchange, reveal a major barrier at the hydrophobic constriction of the pore.
+  The relevance of this barrier for ion transport is confirmed by a committor
+  function that rises sharply in the barrier region. From the free evolution of
+  Na(+) ions starting at the barrier top, we estimate the effective diffusion
+  coefficient in the barrier region, and subsequently calculate the conductance
+  of the pore. The resulting diffusivity compares well with the
+  position-dependent ion diffusion coefficient obtained from restrained
+  simulations. The ion conductance obtained from the diffusion model agrees
+  with the value determined via a reactive-flux rate calculation. Our results
+  show that the conformation in the GLIC crystal structure, with an estimated
+  conductance of \textasciitilde 1 picosiemens at 140 mM ion concentration, is
+  consistent with a physiologically open state of the channel.%
+    }
+    \verb{doi}
+    \verb 10.1021/ct2009279
+    \endverb
+    \field{issn}{1549-9626}
+    \field{number}{10}
+    \field{pages}{3759\bibrangedash 3768}
+    \field{title}{Theory and Simulation of Ion Conduction in the Pentameric
+  {{GLIC}} Channel}
+    \field{volume}{8}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{10}
+    \field{year}{2012}
+  \endentry
+
   \entry{subramanian2019}{article}{}
     \name{author}{4}{}{%
       {{hash=SN}{%
@@ -6806,6 +7053,85 @@
     \endverb
     \field{journaltitle}{Journal of Chemical Information and Modeling}
     \field{month}{05}
+    \field{year}{2019}
+  \endentry
+
+  \entry{you2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YW}{%
+         family={You},
+         familyi={Y\bibinitperiod},
+         given={Wanli},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=TZ}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Zhiye},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CCeA}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Chia-en\bibnamedelima A.},
+         giveni={C\bibinithyphendelim e\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{YW+1}
+    \strng{fullhash}{YWTZCCeA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Changes in free energy provide valuable information for molecular
+  recognition, including both ligand\textendash receptor binding thermodynamics
+  and kinetics. Umbrella sampling (US), a widely used free energy calculation
+  method, has long been used to explore the dissociation process of
+  ligand\textendash receptor systems and compute binding free energy. In
+  existing publications, the binding free energy computed from the potential of
+  mean force (PMF) with US simulation mostly yielded ``ball park'' values with
+  experimental data. However, the computed PMF values are highly influenced by
+  factors such as initial conformations and/or trajectories provided, the
+  reaction coordinate, and sampling of conformational space in each US window.
+  These critical factors have rarely been carefully studied. Here we used US to
+  study the guest aspirin and 1-butanol dissociation processes of
+  {$\beta$}-cyclodextrin ({$\beta$}-CD) and an inhibitor SB2 dissociation from
+  a p38{$\alpha$} mitogen-activated protein kinase (MAPK) complex. For
+  {$\beta$}-CD, we used three different {$\beta$}-CD conformations to generate
+  the dissociation path with US windows. For p38{$\alpha$}, we generated the
+  dissociation pathway by using accelerated molecular dynamics followed by
+  conformational relaxing with short conventional MD, steered MD, and manual
+  pulling. We found that, even for small {$\beta$}-CD complexes, different
+  {$\beta$}-CD conformations altered the height of the PMF, but the pattern of
+  PMF was not affected if the MD sampling in each US window was well-converged.
+  Because changing the macrocyclic ring conformation needs to rotate dihedral
+  angles in the ring, a bound ligand largely restrains the motion of
+  cyclodextrin. Therefore, once a guest is in the binding site, cyclodextrin
+  cannot freely change its initial conformation, resulting in different
+  absolute heights of the PMF, which cannot be overcome by running excessively
+  long MD simulations for each US window. Moreover, if the US simulations were
+  not converged, the important barrier and minimum were missed. For
+  ligand\textendash protein systems, our studies also suggest that the
+  dissociation trajectories modeled by an enhanced sampling method must
+  maintain a natural molecular movement to avoid biased PMF plots when using US
+  simulations.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.8b01142
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{4}
+    \field{pages}{2433\bibrangedash 2443}
+    \field{shorttitle}{Potential {{Mean Force}} from {{Umbrella Sampling
+  Simulations}}}
+    \field{title}{Potential {{Mean Force}} from {{Umbrella Sampling
+  Simulations}}: {{What Can We Learn}} and {{What Is Missed}}?}
+    \field{volume}{15}
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{04}
     \field{year}{2019}
   \endentry
 
@@ -6932,63 +7258,6 @@
     \field{langid}{english}
     \field{journaltitle}{The Journal of Chemical Physics}
     \field{month}{04}
-    \field{year}{2012}
-  \endentry
-
-  \entry{zhu2012}{article}{}
-    \name{author}{2}{}{%
-      {{hash=ZF}{%
-         family={Zhu},
-         familyi={Z\bibinitperiod},
-         given={Fangqiang},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=HG}{%
-         family={Hummer},
-         familyi={H\bibinitperiod},
-         given={Gerhard},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ZFHG1}
-    \strng{fullhash}{ZFHG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    GLIC is a bacterial member of the large family of pentameric ligand-gated
-  ion channels. To study ion conduction through GLIC and other membrane
-  channels, we combine the one-dimensional potential of mean force for ion
-  passage with a Smoluchowski diffusion model, making it possible to calculate
-  single-channel conductance in the regime of low ion concentrations from
-  all-atom molecular dynamics (MD) simulations. We then perform MD simulations
-  to examine sodium ion conduction through the GLIC transmembrane pore in two
-  systems with different bulk ion concentrations. The ion potentials of mean
-  force, calculated from umbrella sampling simulations with Hamiltonian replica
-  exchange, reveal a major barrier at the hydrophobic constriction of the pore.
-  The relevance of this barrier for ion transport is confirmed by a committor
-  function that rises sharply in the barrier region. From the free evolution of
-  Na(+) ions starting at the barrier top, we estimate the effective diffusion
-  coefficient in the barrier region, and subsequently calculate the conductance
-  of the pore. The resulting diffusivity compares well with the
-  position-dependent ion diffusion coefficient obtained from restrained
-  simulations. The ion conductance obtained from the diffusion model agrees
-  with the value determined via a reactive-flux rate calculation. Our results
-  show that the conformation in the GLIC crystal structure, with an estimated
-  conductance of \textasciitilde 1 picosiemens at 140 mM ion concentration, is
-  consistent with a physiologically open state of the channel.%
-    }
-    \verb{doi}
-    \verb 10.1021/ct2009279
-    \endverb
-    \field{issn}{1549-9626}
-    \field{number}{10}
-    \field{pages}{3759\bibrangedash 3768}
-    \field{title}{Theory and Simulation of Ion Conduction in the Pentameric
-  {{GLIC}} Channel}
-    \field{volume}{8}
-    \field{langid}{english}
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{10}
     \field{year}{2012}
   \endentry
 
@@ -8223,99 +8492,6 @@
     \field{year}{2020}
   \endentry
 
-  \entry{li2017}{article}{}
-    \name{author}{6}{}{%
-      {{hash=LH}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Hui},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Chowdhary},
-         familyi={C\bibinitperiod},
-         given={Janamejaya},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HL}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Lei},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=HX}{%
-         family={He},
-         familyi={H\bibinitperiod},
-         given={Xibing},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=MAD}{%
-         family={MacKerell},
-         familyi={M\bibinitperiod},
-         given={Alexander\bibnamedelima D.},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=RB}{%
-         family={Roux},
-         familyi={R\bibinitperiod},
-         given={Beno{\^i}t},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Chemical Society}}%
-    }
-    \strng{namehash}{LH+2}
-    \strng{fullhash}{LHCJHLHXMADRB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Additive force fields are designed to account for induced electronic
-  polarization in a mean-field average way, using effective empirical fixed
-  charges. The limitation of this approximation is cause for serious concerns,
-  particularly in the case of lipid membranes, where the molecular environment
-  undergoes dramatic variations over microscopic length scales. A polarizable
-  force field based on the classical Drude oscillator offers a practical and
-  computationally efficient framework for an improved representation of
-  electrostatic interactions in molecular simulations. Building on the
-  first-generation Drude polarizable force field for the
-  dipalmitoylphosphatidylcholine 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
-  (DPPC) molecule, the present effort was undertaken to improve this initial
-  model and expand the force field to a wider range of phospholipid molecules.
-  New lipids parametrized include dimyristoylphosphatidylcholine (DMPC),
-  dilauroylphosphatidylcholine (DLPC),
-  1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC),
-  1,2-dioleoyl-sn-glycero-3-phosphocholine (DOPC),
-  dipalmitoylphosphatidylethanolamine (DPPE),
-  1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine (POPE), and
-  1,2-dioleoyl-sn-glycero-3-phosphoethanolamine (DOPE). The iterative
-  optimization protocol employed in this effort led to lipid models that
-  achieve a good balance between reproducing quantum mechanical data on model
-  compound representative of phospholipids and reproducing a range of
-  experimental condensed phase properties of bilayers. A parametrization
-  strategy based on a restrained ensemble\textendash maximum entropy
-  methodology was used to help accurately match the experimental NMR order
-  parameters in the polar headgroup region. All the parameters were developed
-  to be compatible with the remainder of the Drude polarizable force field,
-  which includes water, ions, proteins, DNA, and selected carbohydrates.%
-    }
-    \verb{doi}
-    \verb 10.1021/acs.jctc.7b00262
-    \endverb
-    \field{issn}{1549-9618}
-    \field{number}{9}
-    \field{pages}{4535\bibrangedash 4552}
-    \field{title}{Drude {{Polarizable Force Field}} for {{Molecular Dynamics
-  Simulations}} of {{Saturated}} and {{Unsaturated Zwitterionic Lipids}}}
-    \field{volume}{13}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/W5MGT9T9/acs.jctc.html
-    \endverb
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{09}
-    \field{year}{2017}
-  \endentry
-
   \entry{shi2013}{article}{}
     \name{author}{7}{}{%
       {{hash=SY}{%
@@ -8412,6 +8588,99 @@
     \field{journaltitle}{Journal of Chemical Theory and Computation}
     \field{month}{09}
     \field{year}{2013}
+  \endentry
+
+  \entry{li2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chowdhary},
+         familyi={C\bibinitperiod},
+         given={Janamejaya},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Xibing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={MacKerell},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Beno{\^i}t},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{LH+2}
+    \strng{fullhash}{LHCJHLHXMADRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Additive force fields are designed to account for induced electronic
+  polarization in a mean-field average way, using effective empirical fixed
+  charges. The limitation of this approximation is cause for serious concerns,
+  particularly in the case of lipid membranes, where the molecular environment
+  undergoes dramatic variations over microscopic length scales. A polarizable
+  force field based on the classical Drude oscillator offers a practical and
+  computationally efficient framework for an improved representation of
+  electrostatic interactions in molecular simulations. Building on the
+  first-generation Drude polarizable force field for the
+  dipalmitoylphosphatidylcholine 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  (DPPC) molecule, the present effort was undertaken to improve this initial
+  model and expand the force field to a wider range of phospholipid molecules.
+  New lipids parametrized include dimyristoylphosphatidylcholine (DMPC),
+  dilauroylphosphatidylcholine (DLPC),
+  1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC),
+  1,2-dioleoyl-sn-glycero-3-phosphocholine (DOPC),
+  dipalmitoylphosphatidylethanolamine (DPPE),
+  1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine (POPE), and
+  1,2-dioleoyl-sn-glycero-3-phosphoethanolamine (DOPE). The iterative
+  optimization protocol employed in this effort led to lipid models that
+  achieve a good balance between reproducing quantum mechanical data on model
+  compound representative of phospholipids and reproducing a range of
+  experimental condensed phase properties of bilayers. A parametrization
+  strategy based on a restrained ensemble\textendash maximum entropy
+  methodology was used to help accurately match the experimental NMR order
+  parameters in the polar headgroup region. All the parameters were developed
+  to be compatible with the remainder of the Drude polarizable force field,
+  which includes water, ions, proteins, DNA, and selected carbohydrates.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.7b00262
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{9}
+    \field{pages}{4535\bibrangedash 4552}
+    \field{title}{Drude {{Polarizable Force Field}} for {{Molecular Dynamics
+  Simulations}} of {{Saturated}} and {{Unsaturated Zwitterionic Lipids}}}
+    \field{volume}{13}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/W5MGT9T9/acs.jctc.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{09}
+    \field{year}{2017}
   \endentry
 
   \entry{lindorff-larsen2016}{article}{}
@@ -11363,6 +11632,24 @@
     \field{year}{2022}
   \endentry
 
+  \entry{cftr2}{report}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The Hospital for Sick Children}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{Cftr2}
+    \field{title}{The {{Clinical}} and {{Functional TRanslation}} of {{CFTR}}
+  ({{CFTR2}})}
+    \field{type}{techreport}
+    \field{year}{2020}
+  \endentry
+
   \entry{mihalyi2020}{article}{}
     \name{author}{4}{}{%
       {{hash=MC}{%
@@ -13165,6 +13452,58 @@
     \field{year}{2015}
   \endentry
 
+  \entry{hwang2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HTC}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Tzyh\bibnamedelima Chang},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KKL}{%
+         family={Kirk},
+         familyi={K\bibinitperiod},
+         given={Kevin\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cold Spring Harbor Laboratory Press}}%
+    }
+    \strng{namehash}{HTCKKL1}
+    \strng{fullhash}{HTCKKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis transmembrane conductance regulator (CFTR) is an ATP-gated
+  anion channel with two remarkable distinctions. First, it is the only
+  ATP-binding cassette (ABC) transporter that is known to be an ion
+  channel-almost all others function as transport ATPases. Second, CFTR is the
+  only ligand-gated channel that consumes its ligand (ATP) during the gating
+  cycle-a consequence of its enzymatic activity as an ABC transporter. We
+  discuss these special properties of CFTR in the context of its evolutionary
+  history as an ABC transporter. Other topics include the mechanisms by which
+  CFTR gating is regulated by phosphorylation of its unique regulatory domain
+  and our current view of the CFTR permeation pathway (or pore). Understanding
+  these basic operating principles of the CFTR channel is central to defining
+  the mechanisms of action of prospective cystic fibrosis drugs and to the
+  development of new, rational treatment strategies. \textcopyright{} 2013 Cold
+  Spring Harbor Laboratory Press; all rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1101/cshperspect.a009498
+    \endverb
+    \field{issn}{21571422}
+    \field{number}{1}
+    \field{pages}{a009498\bibrangedash a009498}
+    \field{title}{The {{CFTR Ion}} Channel: {{Gating}}, Regulation, and Anion
+  Permeation}
+    \field{volume}{3}
+    \field{journaltitle}{Cold Spring Harbor Perspectives in Medicine}
+    \field{month}{01}
+    \field{year}{2013}
+  \endentry
+
   \entry{gadsby1994}{article}{}
     \name{author}{2}{}{%
       {{hash=GDC}{%
@@ -13206,6 +13545,77 @@
     \field{volume}{19}
     \field{journaltitle}{Trends in Biochemical Sciences}
     \field{year}{1994}
+  \endentry
+
+  \entry{liu2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LF}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Fangyu},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Csan{\'a}dy},
+         familyi={C\bibinitperiod},
+         given={L{\'a}szl{\'o}},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GDC}{%
+         family={Gadsby},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cell Press}}%
+    }
+    \keyw{ABC transporter,anion channel,cryo-EM,human CFTR}
+    \strng{namehash}{LF+1}
+    \strng{fullhash}{LFZZCLGDCCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR) is an
+  ATP-binding cassette (ABC) transporter that uniquely functions as an ion
+  channel. Here, we present a 3.9~\AA{} structure of dephosphorylated human
+  CFTR without nucleotides, determined by electron cryomicroscopy (cryo-EM).
+  Close resemblance of this human CFTR structure to zebrafish CFTR under
+  identical conditions reinforces its relevance for understanding CFTR
+  function. The human CFTR structure reveals a previously unresolved helix
+  belonging to the R domain docked inside the intracellular vestibule,
+  precluding channel opening. By analyzing the sigmoid time course of CFTR
+  current activation, we propose that PKA phosphorylation of the R domain is
+  enabled by its infrequent spontaneous disengagement, which also explains
+  residual ATPase and gating activity of dephosphorylated CFTR. From comparison
+  with MRP1, a feature distinguishing CFTR from all other ABC transporters is
+  the helix-loop transition in transmembrane helix 8, which likely forms the
+  structural basis for CFTR's channel function.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2017.02.024
+    \endverb
+    \field{issn}{10974172}
+    \field{number}{1}
+    \field{pages}{85\bibrangedash 95.e8}
+    \field{title}{Molecular {{Structure}} of the {{Human CFTR Ion Channel}}}
+    \field{volume}{169}
+    \field{journaltitle}{Cell}
+    \field{month}{03}
+    \field{year}{2017}
   \endentry
 
   \entry{fu2001}{article}{}
@@ -15879,6 +16289,95 @@
     \field{year}{2011}
   \endentry
 
+  \entry{yeh2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=YHI}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Han\bibnamedelima I.},
+         giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=QL}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Liming},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sohma},
+         familyi={S\bibinitperiod},
+         given={Yoshiro},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Conrath},
+         familyi={C\bibinitperiod},
+         given={Katja},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zou},
+         familyi={Z\bibinitperiod},
+         given={Xiaoqin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HTC}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Tzyh\bibnamedelima Chang},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Rockefeller University Press}}%
+    }
+    \strng{namehash}{YHI+1}
+    \strng{fullhash}{YHIQLSYCKZXHTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The past two decades have witnessed major breakthroughs in developing
+  compounds that target the chloride channel CFTR for the treatment of patients
+  with cystic fibrosis. However, further improvement in affinity and efficacy
+  for these CFTR modulators will require insights into the molecular
+  interactions between CFTR modulators and their binding targets. In this
+  study, we use in silico molecular docking to identify potential binding sites
+  for GLPG1837, a CFTR potentiator that may share a common mechanism and
+  binding site with VX-770, the FDA-approved drug for patients carrying
+  mutations with gating defects. Among the five binding sites predicted by
+  docking, the two top-scoring sites are located at the interface between
+  CFTR's two transmembrane domains: Site I consists of D924, N1138, and S1141,
+  and site IIN includes F229, F236, Y304, F312, and F931. Using mutagenesis to
+  probe the importance of these sites for GLPG187 binding, we find that
+  disruption of predicted hydrogenbonding interactions by mutation of D924
+  decreases apparent affinity, while hydrophobic amino acids substitutions at
+  N1138 and introduction of positively charged amino acids at S1141 improve the
+  apparent affinity for GLPG1837. Alanine substitutions at Y304, F312, and F931
+  (site IIN) decrease the affinity for GLPG1837, whereas alanine substitutions
+  at F229 and F236 (also site IIN), or at residues in the other three
+  lower-scoring sites, have little effect. In addition, current relaxation
+  analysis to assess the apparent dissociation rate of VX-770 yields results
+  consistent with the dose-response experiments for GLPG8137, with the
+  dissociation rate of VX-770 accelerated by D924N, F236A, Y304A, and F312A,
+  but decelerated by N1138L and S1141K mutations. Collectively, these data
+  identify two potential binding sites for GLPG1837 and VX-770 in CFTR. We
+  discuss the pros and cons of evidence for these two loci and the implications
+  for future drug design.%
+    }
+    \verb{doi}
+    \verb 10.1085/jgp.201912360
+    \endverb
+    \field{issn}{15407748}
+    \field{number}{7}
+    \field{pages}{912\bibrangedash 928}
+    \field{title}{Identifying the Molecular Target Sites for {{CFTR}}
+  Potentiators {{GLPG1837}} and {{VX-770}}}
+    \field{volume}{151}
+    \field{journaltitle}{Journal of General Physiology}
+    \field{month}{06}
+    \field{year}{2019}
+  \endentry
+
   \entry{vangoor2009}{article}{}
     \name{author}{21}{}{%
       {{hash=VGF}{%
@@ -17630,6 +18129,112 @@
     \field{year}{2018}
   \endentry
 
+  \entry{veit2020a}{article}{}
+    \name{author}{10}{}{%
+      {{hash=VG}{%
+         family={Veit},
+         familyi={V\bibinitperiod},
+         given={Guido},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Roldan},
+         familyi={R\bibinitperiod},
+         given={Ariel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HMA}{%
+         family={Hancock},
+         familyi={H\bibinitperiod},
+         given={Mark\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=dDF}{%
+         family={{da Fonte}},
+         familyi={d\bibinitperiod},
+         given={Dillon\bibnamedelima F.},
+         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=XH}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Haijin},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hussein},
+         familyi={H\bibinitperiod},
+         given={Maytham},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Frenkiel},
+         familyi={F\bibinitperiod},
+         given={Saul},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Matouk},
+         familyi={M\bibinitperiod},
+         given={Elias},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VT}{%
+         family={Velkov},
+         familyi={V\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LGL}{%
+         family={Lukacs},
+         familyi={L\bibinitperiod},
+         given={Gergely\bibnamedelima L.},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Society for Clinical Investigation}}%
+    }
+    \strng{namehash}{VG+1}
+    \strng{fullhash}{VGRAHMAdDFXHHMFSMEVTLGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Based on its clinical benefits, Trikafta - the combination of folding
+  correctors VX-661 (tezacaftor), VX-445 (elexacaftor), and the gating
+  potentiator VX-770 (ivacaftor) - was FDA approved for treatment of patients
+  with cystic fibrosis (CF) carrying deletion of phenylalanine at position 508
+  (F508del) of the CF transmembrane conductance regulator (CFTR) on at least 1
+  allele. Neither the mechanism of action of VX-445 nor the susceptibility of
+  rare CF folding mutants to Trikafta are known. Here, we show that, in human
+  bronchial epithelial cells, VX-445 synergistically restores F508del-CFTR
+  processing in combination with type I or II correctors that target the
+  nucleotide binding domain 1 (NBD1) membrane spanning domains (MSDs) interface
+  and NBD2, respectively, consistent with a type III corrector mechanism. This
+  inference was supported by the VX-445 binding to and unfolding suppression of
+  the isolated F508del-NBD1 of CFTR. The VX-661 plus VX-445 treatment restored
+  F508del-CFTR chloride channel function in the presence of VX-770 to
+  approximately 62\% of WT CFTR in homozygous nasal epithelia. Substantial
+  rescue of rare misprocessing mutations (S13F, R31C, G85E, E92K, V520F,
+  M1101K, and N1303K), confined to MSD1, MSD2, NBD1, and NBD2 of CFTR, was also
+  observed in airway epithelia, suggesting an allosteric correction mechanism
+  and the possible application of Trikafta for patients with rare misfolding
+  mutants of CFTR.%
+    }
+    \verb{doi}
+    \verb 10.1172/JCI.INSIGHT.139983
+    \endverb
+    \field{issn}{23793708}
+    \field{number}{18}
+    \field{title}{Allosteric Folding Correction of {{F508del}} and Rare
+  {{CFTR}} Mutants by Elexacaftor-Tezacaftor-Ivacaftor ({{Trikafta}})
+  Combination}
+    \field{volume}{5}
+    \field{journaltitle}{JCI Insight}
+    \field{month}{08}
+    \field{year}{2020}
+  \endentry
+
   \entry{veit2021a}{article}{}
     \name{author}{3}{}{%
       {{hash=VG}{%
@@ -17808,24 +18413,6 @@
     \field{journaltitle}{Cellular and Molecular Life Sciences}
     \field{month}{12}
     \field{year}{2021}
-  \endentry
-
-  \entry{cftr2}{report}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The Hospital for Sick Children}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{shorttitle}{Cftr2}
-    \field{title}{The {{Clinical}} and {{Functional TRanslation}} of {{CFTR}}
-  ({{CFTR2}})}
-    \field{type}{techreport}
-    \field{year}{2020}
   \endentry
 
   \entry{werlin2015}{article}{}
@@ -18461,6 +19048,57 @@
     \field{journaltitle}{Nature}
     \field{month}{12}
     \field{year}{2015}
+  \endentry
+
+  \entry{mark2001}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MP}{%
+         family={Mark},
+         familyi={M\bibinitperiod},
+         given={Pekka},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NL}{%
+         family={Nilsson},
+         familyi={N\bibinitperiod},
+         given={Lennart},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MPNL1}
+    \strng{fullhash}{MPNL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Molecular dynamics simulations of five water models, the TIP3P (original
+  and modified), SPC (original and refined), and SPC/E (original), were
+  performed using the CHARMM molecular mechanics program. All simulations were
+  carried out in the microcanonical NVE ensemble, using 901 water molecules in
+  a cubic simulation cell furnished with periodic boundary conditions at 298 K.
+  The SHAKE algorithm was used to keep water molecules rigid. Nanosecond
+  trajectories were calculated with all water models for high statistical
+  accuracy. The characteristic self-diffusion coefficients D and radial
+  distribution functions, gOO, gOH, and gHH for all five water models were
+  determined and compared to experimental data. The effects of velocity
+  rescaling on the self-diffusion coefficient D were examined. All these
+  empirical water models used in this study are similar by having three
+  interaction sites, but the small differences in their pair potentials
+  composed of Lennard-Jones (LJ) and Coulombic terms give significant
+  differences in the calculated self-diffusion coefficients, and in the height
+  of the second peak of the radial distribution function gOO.%
+    }
+    \verb{doi}
+    \verb 10.1021/jp003020w
+    \endverb
+    \field{issn}{10895639}
+    \field{number}{43}
+    \field{pages}{9954\bibrangedash 9960}
+    \field{title}{Structure and Dynamics of the {{TIP3P}}, {{SPC}}, and
+  {{SPC}}/{{E}} Water Models at 298 {{K}}}
+    \field{volume}{105}
+    \field{journaltitle}{Journal of Physical Chemistry A}
+    \field{month}{11}
+    \field{year}{2001}
   \endentry
 
   \entry{bozoky2013}{article}{}
@@ -19582,6 +20220,101 @@
     \field{journaltitle}{Nature}
     \field{month}{02}
     \field{year}{2005}
+  \endentry
+
+  \entry{yeh2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=YHI}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Han-I},
+         giveni={H\bibinithyphendelim I\bibinitperiod},
+      }}%
+      {{hash=YYC}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Ying-Chun},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=KPL}{%
+         family={Kuo},
+         familyi={K\bibinitperiod},
+         given={Pei-Lun},
+         giveni={P\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=TCK}{%
+         family={Tsai},
+         familyi={T\bibinitperiod},
+         given={Chun-Kuang},
+         giveni={C\bibinithyphendelim K\bibinitperiod},
+      }}%
+      {{hash=HHT}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Hsin-Tuan},
+         giveni={H\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=HTC}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Tzyh-Chang},
+         giveni={T\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{ABC transporter,anion channel,ATP hydrolysis,cystic fibrosis,gating}
+    \strng{namehash}{YHI+2}
+    \strng{fullhash}{YHIYYCKPLTCKHHTHTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Opening of the cystic fibrosis transmembrane conductance regulator (CFTR)
+  channel is coupled to the motion of its two nucleotide-binding domains: they
+  form a heterodimer sandwiching two functionally distinct ATP-binding sites
+  (sites 1 and 2). While active ATP hydrolysis in site 2 triggers rapid channel
+  closure, the functional role of stable ATP binding in the
+  catalysis-incompetent (or degenerate) site 1, a feature conserved in many
+  other ATP-binding cassette (ABC) transporter proteins, remains elusive. Here,
+  we found that CFTR loses its prompt responsiveness to ATP after the channel
+  is devoid of ATP for tens to hundreds of seconds. Mutants with weakened ATP
+  binding in site 1 and the most prevalent disease-causing mutation, F508del,
+  are more vulnerable to ATP depletion. In contrast, strengthening ligand
+  binding in site 1 with N6-(2-phenylethyl)-ATP, a high-affinity ATP analogue,
+  or abolishing ATP hydrolysis in site 2 by the mutation D1370N, helps sustain
+  a durable function of the otherwise unstable mutant channels. Thus, tight
+  binding of ATP in the degenerate ATP-binding site is crucial to the
+  functional stability of CFTR. Small molecules targeting site 1 may bear
+  therapeutic potential to overcome the membrane instability of F508del-CFTR.
+  Key points During evolution, many ATP-binding cassette transporters
+  \textendash{} including the cystic fibrosis transmembrane conductance
+  regulator (CFTR) chloride channel, whose dysfunction causes cystic fibrosis
+  (CF) \textendash{} lose the ability to hydrolyse ATP in one of the two
+  ATP-binding sites. Here we show that tight ATP binding at this degenerate
+  site in CFTR is central for maintaining the stable, robust function of normal
+  CFTR. We also demonstrate that membrane instability of the most common
+  CF-causing mutant, F508del-CFTR, can be rescued by strengthening ATP binding
+  at CFTR's degenerate site. Our data thus explain an evolutionary puzzle and
+  offer a potential therapeutic strategy for CF.%
+    }
+    \verb{doi}
+    \verb 10.1113/JP281933
+    \endverb
+    \field{issn}{1469-7793}
+    \field{number}{20}
+    \field{pages}{4625\bibrangedash 4642}
+    \field{title}{Functional Stability of {{CFTR}} Depends on Tight Binding of
+  {{ATP}} at Its Degenerate {{ATP-binding}} Site}
+    \field{volume}{599}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/BS72CDUM/Yeh et al. - 2021 - Functional sta
+    \verb bility of CFTR depends on tight bind.pdf;/home/miro/Zotero/storage/U8
+    \verb KRBYLF/JP281933.html
+    \endverb
+    \field{journaltitle}{The Journal of Physiology}
+    \field{annotation}{%
+    \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1113/JP281933%
+    }
+    \field{year}{2021}
   \endentry
 
   \entry{aleksandrov2015}{article}{}
