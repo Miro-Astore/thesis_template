@@ -381,6 +381,66 @@
     \field{year}{2000}
   \endentry
 
+  \entry{corry2000}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CB}{%
+         family={Corry},
+         familyi={C\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CSH}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Shin\bibnamedelima Ho},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cell Press}}%
+    }
+    \strng{namehash}{CB+1}
+    \strng{fullhash}{CBKSCSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We test the validity of the mean-field approximation in Poisson-Nernst-
+  Planck theory by contrasting its predictions with those of Brownian dynamics
+  simulations in schematic cylindrical channels and in a realistic potassium
+  channel. Equivalence of the two theories in bulk situations is demonstrated
+  in a control study. In simple cylindrical channels, considerable differences
+  are found between the two theories with regard to the concentration profiles
+  in the channel and its conductance properties. These differences are at a
+  maximum in narrow channels with a radius smaller than the Debye length and
+  diminish with increasing radius. Convergence occurs when the channel radius
+  is over 2 Debye lengths. These tests unequivocally demonstrate that the mean-
+  field approximation in the Poisson-Nernst-Planck theory breaks down in narrow
+  ion channels that have radii smaller than the Debye length.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0006-3495(00)76781-6
+    \endverb
+    \field{issn}{0006-3495}
+    \field{number}{5}
+    \field{pages}{2364\bibrangedash 2381}
+    \field{title}{Tests of Continuum Theories as Models of Ion Channels.
+  {{II}}. {{Poisson- Nernst-Planck}} Theory versus Brownian Dynamics}
+    \field{volume}{78}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/XNS6XNQX/S0006349500767816.html
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{month}{05}
+    \field{year}{2000}
+  \endentry
+
   \entry{catterall2011}{article}{}
     \name{author}{1}{}{%
       {{hash=CWA}{%
@@ -1692,6 +1752,105 @@
     \field{year}{2021}
   \endentry
 
+  \entry{vandenberg2021}{report}{}
+    \name{author}{9}{}{%
+      {{hash=VJ}{%
+         family={Vandenberg},
+         familyi={V\bibinitperiod},
+         given={Jamie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lau},
+         familyi={L\bibinitperiod},
+         given={Carus},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Flood},
+         familyi={F\bibinitperiod},
+         given={Emelie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hunter},
+         familyi={H\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NCA}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Chai-Ann},
+         giveni={C\bibinithyphendelim A\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bouwer},
+         familyi={B\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Alastair},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Perozo},
+         familyi={P\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VJ+1}
+    \strng{fullhash}{VJLCFEHMNCABJSAPEAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Abstract The exquisite fine tuning of biological electrical signalling is
+  mediated by variations in the rates of opening and closing of different ion
+  channels(1). In addition to open and closed conformations, ion channels can
+  exist in an inactivated state, which prevents conduction in the presence of a
+  prolonged activating stimulus(2). Human ether-a-go-go related gene (HERG) K+
+  channels undergo uniquely rapid and voltage dependent inactivation(3-5),
+  which confers upon them a critical role in protecting against cardiac
+  arrhythmias and sudden death(6). Previous structural studies have captured
+  only the open state of the HERG channel(7,8). Here, we have exploited the K+
+  sensitivity of HERG inactivation to determine structures of both the
+  conductive state and the elusive inactivated state of HERG. We show that hERG
+  inactivation is facilitated by two competing networks of hydrogen bonds
+  behind the selectivity filter that enable rapid and voltage dependent
+  flipping of the valine carbonyls in the centre of the selectivity filter. Our
+  data also explains how changes in extracellular K+ affects the distribution
+  between conductive and inactivated states(9,10) and thereby explains why
+  hypokalaemia reduces HERG channel activity thereby increasing the risk of
+  cardiac arrhythmias(11).%
+    }
+    \verb{doi}
+    \verb 10.21203/rs.3.rs-1105661/v1
+    \endverb
+    \field{title}{Structural {{Basis}} for {{Rapid Voltage Dependent
+  Inactivation}} of {{HERG Potassium Channels}}}
+    \field{langid}{english}
+    \list{institution}{1}{%
+      {{In Review}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/HS598CS5/Vandenberg et al. - 2021 - Structu
+    \verb ral Basis for Rapid Voltage Dependent Inact.pdf
+    \endverb
+    \field{type}{Preprint}
+    \field{month}{12}
+    \field{year}{2021}
+  \endentry
+
   \entry{lev2020}{article}{}
     \name{author}{2}{}{%
       {{hash=LB}{%
@@ -2174,6 +2333,60 @@
     \field{journaltitle}{PLoS ONE}
     \field{month}{01}
     \field{year}{2015}
+  \endentry
+
+  \entry{depristo2005}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DMA}{%
+         family={DePristo},
+         familyi={D\bibinitperiod},
+         given={Mark\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WDM}{%
+         family={Weinreich},
+         familyi={W\bibinitperiod},
+         given={Daniel\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HDL}{%
+         family={Hartl},
+         familyi={H\bibinitperiod},
+         given={Daniel\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Agriculture,Animal Genetics and Genomics,Biomedicine,Cancer
+  Research,Gene Function,general,Human Genetics}
+    \strng{namehash}{DMA+1}
+    \strng{fullhash}{DMAWDMHDL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Proteins are finicky molecules; they are barely stable and are prone to
+  aggregate, but they must function in a crowded environment that is full of
+  degradative enzymes bent on their destruction. It is no surprise that many
+  common diseases are due to missense mutations that affect protein stability
+  and aggregation. Here we review the literature on biophysics as it relates to
+  molecular evolution, focusing on how protein stability and aggregation affect
+  organismal fitness. We then advance a biophysical model of protein evolution
+  that helps us to understand phenomena that range from the dynamics of
+  molecular adaptation to the clock-like rate of protein evolution.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrg1672
+    \endverb
+    \field{number}{9}
+    \field{pages}{678\bibrangedash 687}
+    \field{title}{Missense Meanderings in Sequence Space: {{A}} Biophysical
+  View of Protein Evolution}
+    \field{volume}{6}
+    \field{journaltitle}{Nature Reviews Genetics}
+    \field{month}{09}
+    \field{year}{2005}
   \endentry
 
   \entry{kochanski1973}{article}{}
@@ -3468,6 +3681,87 @@
     \field{journaltitle}{Journal of Molecular Biology}
     \field{month}{07}
     \field{year}{1963}
+  \endentry
+
+  \entry{huang2016}{article}{}
+    \name{author}{8}{}{%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rauscher},
+         familyi={R\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nawrocki},
+         familyi={N\bibinitperiod},
+         given={Grzegorz},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Ran},
+         familyi={R\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feig},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dBL}{%
+         family={{de Groot}},
+         familyi={d\bibinitperiod},
+         given={Bert\bibnamedelima L},
+         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Grubm{\"u}ller},
+         familyi={G\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MJAD}{%
+         family={MacKerell\bibnamedelima Jr},
+         familyi={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Alexander\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Computational biophysics,Protein structure
+  predictions,Proteins,Software,Structure determination}
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJRSNGRTFMdBLGHMJAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The all-atom additive CHARMM36 protein force field is widely used in
+  molecular modeling and simulations. We present its refinement, CHARMM36m
+  (http://mackerell.umaryland.edu/charmm-ff.shtml), with improved accuracy in
+  generating polypeptide backbone conformational ensembles for intrinsically
+  disordered peptides and proteins.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.4067
+    \endverb
+    \field{issn}{15487105}
+    \field{number}{1}
+    \field{pages}{71\bibrangedash 73}
+    \field{title}{{{CHARMM36m}}: An Improved Force Field for Folded and
+  Intrinsically Disordered Proteins}
+    \field{volume}{14}
+    \field{journaltitle}{Nature Methods}
+    \field{month}{11}
+    \field{year}{2016}
   \endentry
 
   \entry{tolmachev2020}{article}{}
@@ -10007,6 +10301,89 @@
     \field{year}{2021}
   \endentry
 
+  \entry{amber22}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{D.A. Case, H.M. Aktulga, K. Belfon, I.Y. Ben-Shalom, J.T.
+  Berryman, S.R. Brozell, D.S. Cerutti, T.E. Cheatham, III, G.A. Cisneros,
+  V.W.D. Cruzeiro, T.A. Darden, R.E. Duke, G. Giambasu, M.K. Gilson, H. Gohlke,
+  A.W. Goetz, R. Harris, S. Izadi, S.A. Izmailov, K. Kasavajhala, M.C. Kaymak,
+  E. King, A. Kovalenko, T. Kurtzman, T.S. Lee, S. LeGrand, P. Li, C. Lin, J.
+  Liu, T. Luchko, R. Luo, M. Machado, V. Man, M. Manathunga, K.M. Merz, Y.
+  Miao, O. Mikhailovskii, G. Monard, H. Nguyen, K.A. O'Hearn, A. Onufriev, F.
+  Pan, S. Pantano, R. Qi, A. Rahnamoun, D.R. Roe, A. Roitberg, C. Sagui, S.
+  Schott-Verdugo, A. Shajan, J. Shen, C.L. Simmerling, N.R. Skrynnikov, J.
+  Smith, J. Swails, R.C. Walker, J Wang, J. Wang, H. Wei, R.M. Wolf, X. Wu, Y.
+  Xiong, Y. Xue, D.M. York, S. Zhao, {and} P.A. Kollma}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Amber22}
+    \field{year}{2022}
+  \endentry
+
+  \entry{ponder2003}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=PJW}{%
+         family={Ponder},
+         familyi={P\bibinitperiod},
+         given={Jay\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=CDA}{%
+         family={Case},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Academic Press}}%
+    }
+    \strng{namehash}{PJWCDA1}
+    \strng{fullhash}{PJWCDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The chapter focuses on a general description of the force fields that are
+  most commonly used at present, and it gives an indication of the directions
+  of current research that may yield better functions in the near future. After
+  a brief survey of current models, mostly generated during the 1990s, the
+  focus of the chapter is on the general directions the field is taking in
+  developing new models. The most commonly used protein force fields
+  incorporate a relatively simple potential energy function: The emphasis is on
+  the use of continuum methods to model the electrostatic effects of hydration
+  and the introduction of polarizability to model the electronic response to
+  changes in the environment. Some of the history and performance of widely
+  used protein force fields based on an equation on simplest potential energy
+  function or closely related equations are reviewed. The chapter outlines some
+  promising developments that go beyond this, primarily by altering the way
+  electrostatic interactions are treated. The use of atomic multipoles and
+  off-center charge distributions, as well as attempts to incorporate
+  electronic polarizability, are also discussed in the chapter.%
+    }
+    \field{booktitle}{Advances in {{Protein Chemistry}}}
+    \verb{doi}
+    \verb 10.1016/S0065-3233(03)66002-X
+    \endverb
+    \field{pages}{27\bibrangedash 85}
+    \field{series}{Protein {{Simulations}}}
+    \field{title}{Force {{Fields}} for {{Protein Simulations}}}
+    \field{volume}{66}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/SZCTGTTN/Ponder and Case - 2003 - Force Fie
+    \verb lds for Protein Simulations.pdf;/home/miro/Zotero/storage/WAQ8W6VW/S0
+    \verb 06532330366002X.html
+    \endverb
+    \field{month}{01}
+    \field{year}{2003}
+  \endentry
+
   \entry{shirts2017}{article}{}
     \name{author}{8}{}{%
       {{hash=SMR}{%
@@ -10130,6 +10507,98 @@
     }
     \field{month}{11}
     \field{year}{1997}
+  \endentry
+
+  \entry{guo2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GJ}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Garratt},
+         familyi={G\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hill},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \keyw{CFTR modulator,Cystic fibrosis,Cystic fibrosis transmembrane
+  conductance regulator,Epidemiology,Ivacaftor/tezacaftor/elexacaftor,Treatment
+  cascade,Trikafta}
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJGAHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.jcf.2022.01.009
+    \endverb
+    \field{issn}{1569-1993, 1873-5010}
+    \field{number}{3}
+    \field{pages}{456\bibrangedash 462}
+    \field{title}{Worldwide Rates of Diagnosis and Effective Treatment for
+  Cystic Fibrosis}
+    \field{volume}{21}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/7CMFM5WS/Guo et al. - 2022 - Worldwide rate
+    \verb s of diagnosis and effective treatme.pdf;/home/miro/Zotero/storage/5K
+    \verb RX4FGD/fulltext.html;/home/miro/Zotero/storage/T8YGDKJA/S156919932200
+    \verb 0315.html
+    \endverb
+    \field{journaltitle}{Journal of Cystic Fibrosis}
+    \field{month}{05}
+    \field{year}{2022}
+  \endentry
+
+  \entry{mcbennett2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MKA}{%
+         family={McBennett},
+         familyi={M\bibinitperiod},
+         given={Kimberly\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DPB}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Pamela\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KMW}{%
+         family={Konstan},
+         familyi={K\bibinitperiod},
+         given={Michael\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MKA+1}
+    \strng{fullhash}{MKADPBKMW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1002/ppul.25733
+    \endverb
+    \field{issn}{8755-6863}
+    \field{number}{Suppl 1}
+    \field{pages}{S5\bibrangedash S12}
+    \field{shorttitle}{Increasing Life Expectancy in Cystic Fibrosis}
+    \field{title}{Increasing Life Expectancy in Cystic Fibrosis: {{Advances}}
+  and Challenges}
+    \field{volume}{57}
+    \field{journaltitle}{Pediatric pulmonology}
+    \field{month}{02}
+    \field{year}{2022}
   \endentry
 
   \entry{boucher2007}{misc}{}
@@ -10754,6 +11223,144 @@
   Hepatology}
     \field{month}{09}
     \field{year}{2019}
+  \endentry
+
+  \entry{linsdell2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR) functions as
+  a Cl- channel important in transepithelial salt and water transport. While
+  there is a paucity of direct structural information on CFTR, much has been
+  learned about the molecular determinants of the CFTR Cl- channel pore region
+  and the mechanism of Cl- permeation through the pore from indirect
+  structure\textendash function studies. The first and sixth transmembrane
+  regions of the CFTR protein play major roles in forming the channel pore and
+  determining its functional properties by interacting with permeating Cl-
+  ions. Positively charged amino acid side-chains are involved in attracting
+  negatively charged Cl- ions into the pore region, where they interact briefly
+  with a number of discrete sites on the pore walls. The pore appears able to
+  accommodate more than one Cl- ion at a time, and Cl- ions bound inside the
+  pore are probably sensitive to one another's presence. Repulsive interactions
+  between Cl- ions bound concurrently within the pore may be important in
+  ensuring rapid movement of Cl- ions through the pore. Chloride ion binding
+  sites also interact with larger anions that can occlude the pore and block
+  Cl- permeation, thus inhibiting CFTR function. Other ions besides Cl- are
+  capable of passing through the pore, and specific amino acid residues that
+  may be important in allowing the channel to discriminate between different
+  anions have been identified. This brief review summarizes these mechanistic
+  insights and tries to incorporate them into a simple cartoon model depicting
+  the interactions between the channel and Cl- ions that are important for ion
+  translocation.%
+    }
+    \verb{doi}
+    \verb 10.1113/expphysiol.2005.031757
+    \endverb
+    \field{issn}{1469-445X}
+    \field{number}{1}
+    \field{pages}{123\bibrangedash 129}
+    \field{title}{Mechanism of Chloride Permeation in the Cystic Fibrosis
+  Transmembrane Conductance Regulator Chloride Channel}
+    \field{volume}{91}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/2LFWAKT4/Linsdell - 2006 - Mechanism of chl
+    \verb oride permeation in the cystic fib.pdf;/home/miro/Zotero/storage/AQCL
+    \verb GIC7/expphysiol.2005.html
+    \endverb
+    \field{journaltitle}{Experimental Physiology}
+    \field{annotation}{%
+    \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1113/expphysiol.2005.031757%
+    }
+    \field{year}{2006}
+  \endentry
+
+  \entry{linsdell2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ICL}{%
+         family={Irving},
+         familyi={I\bibinitperiod},
+         given={Christina\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CEA}{%
+         family={Cowley},
+         familyi={C\bibinitperiod},
+         given={Elizabeth\bibnamedelima A.},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \strng{namehash}{LP+1}
+    \strng{fullhash}{LPICLCEA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    {$<$}p{$>$}Ion channels use charged amino-acid residues to attract
+  oppositely charged permeant ions into the channel pore. In the cystic
+  fibrosis transmembrane conductance regulator (CFTR) Cl\textsuperscript{-}
+  channel, a number of arginine and lysine residues have been shown to be
+  important for Cl\textsuperscript{-} permeation. Among these, two in close
+  proximity in the pore\textemdash Lys\textsuperscript{95} and
+  Arg\textsuperscript{134}\textemdash are indispensable for anion binding and
+  high Cl\textsuperscript{-} conductance, suggesting that high positive charge
+  density is required for pore function. Here we used mutagenesis and
+  functional characterization to show that a nearby pore-lining negatively
+  charged residue (Glu\textsuperscript{92}) plays a functionally additive role
+  with these two positive charges. While neutralization of this negative charge
+  had little effect on anion binding or Cl\textsuperscript{-} conductance, such
+  neutralization was able to reverse the detrimental effects of removing the
+  positive charge at either Lys\textsuperscript{95} or
+  Arg\textsuperscript{134}, as well as the similar effects of introducing a
+  negative charge at a neighboring residue (Ser\textsuperscript{1141}).
+  Furthermore, neutralization of Glu\textsuperscript{92} greatly increased the
+  susceptibility of the channel to blockage by divalent
+  S\textsubscript{2}O\textsubscript{3}\textsuperscript{2-} anions, mimicking
+  the effect of introducing additional positive charge in this region; this
+  effect was reversed by concurrent neutralization of either
+  Lys\textsuperscript{95} or Arg\textsuperscript{134}. Across a panel of mutant
+  channels that introduced or removed fixed charges at these four positions, we
+  found that many pore properties are dependent on the overall charge or charge
+  density. We propose that the CFTR pore uses a combination of positively and
+  negatively charged residues to optimize the anion binding and
+  Cl\textsuperscript{-} conductance properties of the channel.{$<$}/p{$>$}%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jbc.2022.101659
+    \endverb
+    \field{issn}{0021-9258, 1083-351X}
+    \field{number}{3}
+    \field{title}{Functionally Additive Fixed Positive and Negative Charges in
+  the {{CFTR}} Channel Pore Control Anion Binding and Conductance}
+    \field{volume}{298}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/Q68CEACB/Linsdell et al. - 2022 - Functiona
+    \verb lly additive fixed positive and negative .pdf;/home/miro/Zotero/stora
+    \verb ge/5Y3837H4/fulltext.html
+    \endverb
+    \field{journaltitle}{Journal of Biological Chemistry}
+    \field{month}{03}
+    \field{year}{2022}
   \endentry
 
   \entry{mihalyi2020}{article}{}
@@ -17959,87 +18566,6 @@
     \field{year}{2013}
   \endentry
 
-  \entry{huang2016}{article}{}
-    \name{author}{8}{}{%
-      {{hash=HJ}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Jing},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=RS}{%
-         family={Rauscher},
-         familyi={R\bibinitperiod},
-         given={Sarah},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NG}{%
-         family={Nawrocki},
-         familyi={N\bibinitperiod},
-         given={Grzegorz},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=RT}{%
-         family={Ran},
-         familyi={R\bibinitperiod},
-         given={Ting},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={Feig},
-         familyi={F\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=dBL}{%
-         family={{de Groot}},
-         familyi={d\bibinitperiod},
-         given={Bert\bibnamedelima L},
-         giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=GH}{%
-         family={Grubm{\"u}ller},
-         familyi={G\bibinitperiod},
-         given={Helmut},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=MJAD}{%
-         family={MacKerell\bibnamedelima Jr},
-         familyi={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-         given={Alexander\bibnamedelima D},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Nature Publishing Group}}%
-    }
-    \keyw{Computational biophysics,Protein structure
-  predictions,Proteins,Software,Structure determination}
-    \strng{namehash}{HJ+1}
-    \strng{fullhash}{HJRSNGRTFMdBLGHMJAD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The all-atom additive CHARMM36 protein force field is widely used in
-  molecular modeling and simulations. We present its refinement, CHARMM36m
-  (http://mackerell.umaryland.edu/charmm-ff.shtml), with improved accuracy in
-  generating polypeptide backbone conformational ensembles for intrinsically
-  disordered peptides and proteins.%
-    }
-    \verb{doi}
-    \verb 10.1038/nmeth.4067
-    \endverb
-    \field{issn}{15487105}
-    \field{number}{1}
-    \field{pages}{71\bibrangedash 73}
-    \field{title}{{{CHARMM36m}}: An Improved Force Field for Folded and
-  Intrinsically Disordered Proteins}
-    \field{volume}{14}
-    \field{journaltitle}{Nature Methods}
-    \field{month}{11}
-    \field{year}{2016}
-  \endentry
-
   \entry{klauda2010}{article}{}
     \name{author}{9}{}{%
       {{hash=KJB}{%
@@ -18250,6 +18776,154 @@
     \field{journaltitle}{Bioinformatics (Oxford, England)}
     \field{month}{01}
     \field{year}{2017}
+  \endentry
+
+  \entry{ge2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GN}{%
+         family={Ge},
+         familyi={G\bibinitperiod},
+         given={Ning},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MCN}{%
+         family={Muise},
+         familyi={M\bibinitperiod},
+         given={Chantal\bibnamedelima N.},
+         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Gong},
+         familyi={G\bibinitperiod},
+         given={Xiandi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GN+1}
+    \strng{fullhash}{GNMCNGXLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR)
+  Cl\textendash{} channel contains 12 transmembrane (TM) regions that are
+  presumed to form the channel pore. However, little is known about the
+  relative functional contribution of different TM regions to the pore. We have
+  used patch clamp recording to investigate the functional consequences of
+  point mutations throughout the six transmembrane regions in the N-terminal
+  part of the CFTR protein (TM1-TM6). A range of specific functional assays
+  compared the single channel conductance, anion binding, and anion selectivity
+  properties of different channel variants. Overall, our results suggest that
+  TM1 and -6 play dominant roles in forming the channel pore and determining
+  its functional properties, with TM5 perhaps playing a lesser role. In
+  contrast, TM2, -3, and -4 appear to play only minor supporting roles. These
+  results define transmembrane regions 1 and 6 as major contributors to the
+  CFTR channel pore and have strong implications for emerging structural models
+  of CFTR and related ATP-binding cassette proteins.%
+    }
+    \verb{doi}
+    \verb 10.1074/jbc.M411935200
+    \endverb
+    \field{issn}{0021-9258}
+    \field{number}{53}
+    \field{pages}{55283\bibrangedash 55289}
+    \field{title}{Direct {{Comparison}} of the {{Functional Roles Played}} by
+  {{Different Transmembrane Regions}} in the {{Cystic Fibrosis Transmembrane
+  Conductance Regulator Chloride Channel Pore}}*}
+    \field{volume}{279}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/FCSU7DDA/Ge et al. - 2004 - Direct Comparis
+    \verb on of the Functional Roles Played b.pdf;/home/miro/Zotero/storage/39L
+    \verb KVKCP/S0021925818662878.html
+    \endverb
+    \field{journaltitle}{Journal of Biological Chemistry}
+    \field{month}{12}
+    \field{year}{2004}
+  \endentry
+
+  \entry{gong2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GX}{%
+         family={Gong},
+         familyi={G\bibinitperiod},
+         given={Xiandi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Chloride channel,Cystic fibrosis,Multi-ion
+  pore,Permeation,Selectivity filter,Single channel conductance}
+    \strng{namehash}{GXLP1}
+    \strng{fullhash}{GXLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Multi-ion pore behaviour has been identified in many Cl- channel types but
+  its biophysical significance is uncertain. Here, we show that mutations in
+  the cystic fibrosis transmembrane conductance regulator (CFTR) Cl- channel
+  that disrupt anion\textendash anion interactions within the pore are
+  associated with drastically reduced single channel conductance. These results
+  are consistent with models suggesting that rapid Cl- permeation in CFTR
+  results from repulsive ion\textendash ion interactions between Cl- ions bound
+  concurrently inside the pore. Naturally occurring mutations that disrupt
+  these interactions can result in cystic fibrosis.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.abb.2004.03.033
+    \endverb
+    \field{issn}{0003-9861}
+    \field{number}{1}
+    \field{pages}{78\bibrangedash 82}
+    \field{title}{Maximization of the Rate of Chloride Conduction in the
+  {{CFTR}} Channel Pore by Ion\textendash Ion Interactions}
+    \field{volume}{426}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/PU4RA2GD/Gong and Linsdell - 2004 - Maximiz
+    \verb ation of the rate of chloride conduction in.pdf;/home/miro/Zotero/sto
+    \verb rage/C47B6SE9/S000398610400181X.html
+    \endverb
+    \field{journaltitle}{Archives of Biochemistry and Biophysics}
+    \field{month}{06}
+    \field{year}{2004}
+  \endentry
+
+  \entry{linsdell2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.bbamem.2021.183558
+    \endverb
+    \field{issn}{00052736}
+    \field{number}{4}
+    \field{pages}{183558}
+    \field{title}{On the Relationship between Anion Binding and Chloride
+  Conductance in the {{CFTR}} Anion Channel}
+    \field{volume}{1863}
+    \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
+    \field{month}{04}
+    \field{year}{2021}
   \endentry
 
   \entry{bergh2021}{article}{}
@@ -18831,6 +19505,83 @@
   United States of America}
     \field{month}{03}
     \field{year}{2015}
+  \endentry
+
+  \entry{vergani2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=VP}{%
+         family={Vergani},
+         familyi={V\bibinitperiod},
+         given={Paola},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LSW}{%
+         family={Lockless},
+         familyi={L\bibinitperiod},
+         given={Steve\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=NAC}{%
+         family={Nairn},
+         familyi={N\bibinitperiod},
+         given={Angus\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=GDC}{%
+         family={Gadsby},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Humanities and Social Sciences,multidisciplinary,Science}
+    \strng{namehash}{VP+1}
+    \strng{fullhash}{VPLSWNACGDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    ABC (ATP-binding cassette) proteins constitute a large family of membrane
+  proteins that actively transport a broad range of substrates. Cystic fibrosis
+  transmembrane conductance regulator (CFTR), the protein dysfunctional in
+  cystic fibrosis, is unique among ABC proteins in that its transmembrane
+  domains comprise an ion channel. Opening and closing of the pore have been
+  linked to ATP binding and hydrolysis at CFTR's two nucleotide-binding
+  domains, NBD1 and NBD2 (see, for example, refs 1, 2). Isolated NBDs of
+  prokaryotic ABC proteins dimerize upon binding ATP, and hydrolysis of the ATP
+  causes dimer dissociation3,4,5. Here, using single-channel recording methods
+  on intact CFTR molecules, we directly follow opening and closing of the
+  channel gates, and relate these occurrences to ATP-mediated events in the
+  NBDs. We find that energetic coupling6 between two CFTR residues, expected to
+  lie on opposite sides of its predicted NBD1\textendash NBD2 dimer interface,
+  changes in concert with channel gating status. The two monitored side chains
+  are independent of each other in closed channels but become coupled as the
+  channels open. The results directly link ATP-driven tight dimerization of
+  CFTR's cytoplasmic nucleotide-binding domains to opening of the ion channel
+  in the transmembrane domains. This establishes a molecular mechanism,
+  involving dynamic restructuring of the NBD dimer interface, that is probably
+  common to all members of the ABC protein superfamily.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature03313
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{7028}
+    \field{pages}{876\bibrangedash 880}
+    \field{title}{{{CFTR}} Channel Opening by {{ATP-driven}} Tight Dimerization
+  of Its Nucleotide-Binding Domains}
+    \field{volume}{433}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/KBB4AYHV/Vergani et al. - 2005 - CFTR chann
+    \verb el opening by ATP-driven tight dimerizat.pdf;/home/miro/Zotero/storag
+    \verb e/DR5YV7FJ/nature03313.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{02}
+    \field{year}{2005}
   \endentry
 
   \entry{aleksandrov2015}{article}{}
