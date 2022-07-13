@@ -134,6 +134,60 @@
     \field{year}{2012}
   \endentry
 
+  \entry{dawkins1989}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DR}{%
+         family={Dawkins},
+         familyi={D\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Oxford University Press}}%
+    }
+    \keyw{Evolution (Biology),Genetics,Sociobiology}
+    \strng{namehash}{DR1}
+    \strng{fullhash}{DR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{New ed}
+    \field{isbn}{978-0-19-217773-5 978-0-19-286092-7}
+    \field{title}{The Selfish Gene}
+    \list{location}{1}{%
+      {{Oxford ; New York}}%
+    }
+    \field{year}{1989}
+  \endentry
+
+  \entry{hofstadter1999}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HD}{%
+         family={Hofstadter},
+         familyi={H\bibinitperiod},
+         given={Douglas},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Basic Books}}%
+    }
+    \strng{namehash}{HD1}
+    \strng{fullhash}{HD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{1st edition}
+    \field{isbn}{978-0-465-02656-2}
+    \field{shorttitle}{Godel, {{Escher}}, {{Bach}}}
+    \field{title}{Godel, {{Escher}}, {{Bach}}: {{An Eternal Golden Braid}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York}}%
+    }
+    \field{month}{02}
+    \field{year}{1999}
+  \endentry
+
   \entry{goodsell2009}{book}{}
     \name{author}{1}{}{%
       {{hash=GDS}{%
@@ -287,6 +341,110 @@
     OCLC: 1129084309%
     }
     \field{year}{2018}
+  \endentry
+
+  \entry{griffiths2017}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GDJ}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cambridge University Press}}%
+    }
+    \strng{namehash}{GDJ1}
+    \strng{fullhash}{GDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{4th edition}
+    \field{isbn}{978-1-108-42041-9}
+    \field{title}{Introduction to {{Electrodynamics}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Cambridge}}%
+    }
+    \field{month}{06}
+    \field{year}{2017}
+  \endentry
+
+  \entry{reif2009}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RF}{%
+         family={Reif},
+         familyi={R\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Waveland Press, Inc.}}%
+    }
+    \strng{namehash}{RF1}
+    \strng{fullhash}{RF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{1st edition}
+    \field{title}{Fundamentals of {{Statistical}} and {{Thermal Physics}}}
+    \field{langid}{english}
+    \field{month}{01}
+    \field{year}{2009}
+  \endentry
+
+  \entry{zuckerman2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ZDM}{%
+         family={Zuckerman},
+         familyi={Z\bibinitperiod},
+         given={Daniel\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{CRC Press}}%
+    }
+    \strng{namehash}{ZDM1}
+    \strng{fullhash}{ZDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{1st edition}
+    \field{isbn}{978-1-4200-7378-2}
+    \field{shorttitle}{Statistical {{Physics}} of {{Biomolecules}}}
+    \field{title}{Statistical {{Physics}} of {{Biomolecules}}: {{An
+  Introduction}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Boca Raton}}%
+    }
+    \field{month}{06}
+    \field{year}{2010}
+  \endentry
+
+  \entry{reuters2022}{article}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Reuters}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    British Prime Minister Boris Johnson said he was sad to be leaving the best
+  job in the world in a resignation statement on Thursday, and added: "Them's
+  the breaks."%
+    }
+    \field{chapter}{United Kingdom}
+    \field{title}{'{{Them}}'s the Breaks', {{UK}}'s {{Johnson}} Says as He Sets
+  out Exit}
+    \field{langid}{english}
+    \field{journaltitle}{Reuters}
+    \field{month}{07}
+    \field{year}{2022}
   \endentry
 
   \entry{adams1979}{book}{}
@@ -448,6 +606,33 @@
   {{Science}}}
     \field{langid}{english}
     \field{year}{2010}
+  \endentry
+
+  \entry{picker2022}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=PZ}{%
+         family={Picker},
+         familyi={P\bibinitperiod},
+         given={Zachary},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \keyw{axion; coupling,background,binary; formation,black hole,dark
+  matter,gravitation,metric; Schwarzschild,model; axion,strong interaction;
+  CP,tension}
+    \strng{namehash}{PZ1}
+    \strng{fullhash}{PZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{The Gravity of Particle Physics}
+    \field{title}{The Gravity of Particle Physics: Dark Matter, Black Holes,
+  and Axions}
+    \list{institution}{1}{%
+      {U. Sydney (main)}%
+    }
+    \field{type}{phdthesis}
+    \field{month}{04}
+    \field{year}{2022}
   \endentry
 
   \entry{carroll2021}{article}{}
@@ -2615,6 +2800,66 @@
     \field{year}{2005}
   \endentry
 
+  \entry{csanady2019a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CL}{%
+         family={Csan{\'a}dy},
+         familyi={C\bibinitperiod},
+         given={L{\'a}szl{\'o}},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Vergani},
+         familyi={V\bibinitperiod},
+         given={Paola},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GDC}{%
+         family={Gadsby},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Physiological Society}}%
+    }
+    \strng{namehash}{CL+1}
+    \strng{fullhash}{CLVPGDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR) belongs to
+  the ATP binding cassette (ABC) transporter superfamily but functions as an
+  anion channel crucial for salt and water transport across epithelial cells.
+  CFTR dysfunction, because of mutations, causes cystic fibrosis (CF). The
+  anionselective pore of the CFTR protein is formed by its two transmembrane
+  domains (TMDs) and regulated by its cytosolic domains: two nucleotide binding
+  domains (NBDs) and a regulatory (R) domain. Channel activation requires
+  phosphorylation of the R domain by cAMP-dependent protein kinase (PKA), and
+  pore opening and closing (gating) of phosphorylated channels is driven by ATP
+  binding and hydrolysis at the NBDs. This review summarizes available
+  information on structure and mechanism of the CFTR protein, with a particular
+  focus on atomic-level insight gained from recent cryo-electron microscopic
+  structures and on the molecular mechanisms of channel gating and its
+  regulation. The pharmacological mechanisms of small molecules targeting
+  CFTR's ion channel function, aimed at treating patients suffering from CF and
+  other diseases, are briefly discussed.%
+    }
+    \verb{doi}
+    \verb 10.1152/physrev.00007.2018
+    \endverb
+    \field{issn}{15221210}
+    \field{number}{1}
+    \field{pages}{707\bibrangedash 738}
+    \field{title}{Structure, Gating, and Regulation of the {{CFTR}} Anion
+  Channel}
+    \field{volume}{99}
+    \field{journaltitle}{Physiological Reviews}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
+
   \entry{kochanski1973}{article}{}
     \name{author}{1}{}{%
       {{hash=KZ}{%
@@ -3073,6 +3318,481 @@
       {{New York, NY}}%
     }
     \field{year}{2009}
+  \endentry
+
+  \entry{anonymous2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Anonymous},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{The Economist Intelligence Unit N.A., Incorporated}}%
+    }
+    \keyw{Business And Economics--Economic Situation And Conditions,Business
+  And Economics--Economic Systems And Theories,Domestication,Economic
+  History,Ecosystem biology,Genes,Genetic engineering,Pathogens,Synthetic
+  biology}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Genes can now be written from scratch and edited repeatedly, like text in a
+  word processor. The ability to engineer living things which this provides
+  represents a fundamental change in the way humans interact with the planet's
+  life. It permits the manufacture of all manner of things which used to be
+  hard, even impossible, to make: pharmaceuticals, fuels, fabrics, foods and
+  fragrances can all be built molecule by molecule. What cells do and what they
+  can become is engineerable, too. Immune cells can be told to follow doctors'
+  orders; stem cells better coaxed to turn into new tissues; fertilized eggs
+  programmed to grow into creatures quite unlike their parents. The earliest
+  stages of such "synthetic biology" are already changing many industrial
+  processes, transforming medicine and beginning to reach into the consumer
+  world. Here, the promise and perils of synthetic biology are examined.%
+    }
+    \field{issn}{00130613}
+    \field{number}{9137}
+    \field{pages}{11}
+    \field{title}{Redesigning Life}
+    \field{volume}{431}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{London, United Kingdom}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/48KCW8EU/Anonymous - 2019 - Redesigning lif
+    \verb e.pdf
+    \endverb
+    \field{journaltitle}{The Economist}
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
+
+  \entry{scown2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SCD}{%
+         family={Scown},
+         familyi={S\bibinitperiod},
+         given={Corinne\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=KJD}{%
+         family={Keasling},
+         familyi={K\bibinitperiod},
+         given={Jay\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Industrial microbiology,Metabolic engineering}
+    \strng{namehash}{SCDKJD1}
+    \strng{fullhash}{SCDKJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Producing commodity chemicals in bacteria that live on industrial air
+  pollution captures more greenhouse gases than it emits.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41587-022-01248-8
+    \endverb
+    \field{issn}{1546-1696}
+    \field{number}{3}
+    \field{pages}{304\bibrangedash 307}
+    \field{title}{Sustainable Manufacturing with Synthetic Biology}
+    \field{volume}{40}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/V4YPIWZT/Scown and Keasling - 2022 - Sustai
+    \verb nable manufacturing with synthetic biology.pdf;/home/miro/Zotero/stor
+    \verb age/WIGE7SNT/s41587-022-01248-8.html
+    \endverb
+    \field{journaltitle}{Nature Biotechnology}
+    \field{month}{03}
+    \field{year}{2022}
+  \endentry
+
+  \entry{cheng2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CY}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Yifan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Grigorieff},
+         familyi={G\bibinitperiod},
+         given={Nikolaus},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PPA}{%
+         family={Penczek},
+         familyi={P\bibinitperiod},
+         given={Pawel\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Walz},
+         familyi={W\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CY+1}
+    \strng{fullhash}{CYGNPPAWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cryo-electron microscopy (cryo-EM) of single-particle specimens is used to
+  determine the structure of proteins and macromolecular complexes without the
+  need for crystals. Recent advances in detector technology and software
+  algorithms now allow images of unprecedented quality to be recorded and
+  structures to be determined at near-atomic resolution. However, compared with
+  X-ray crystallography, cryo-EM is a young technique with distinct challenges.
+  This primer explains the different steps and considerations involved in
+  structure determination by single-particle cryo-EM to provide an overview for
+  scientists wishing to understand more about this technique and the
+  interpretation of data obtained with it, as well as a starting guide for new
+  practitioners.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2015.03.050
+    \endverb
+    \field{issn}{0092-8674}
+    \field{number}{3}
+    \field{pages}{438\bibrangedash 449}
+    \field{title}{A {{Primer}} to {{Single-Particle Cryo-Electron Microscopy}}}
+    \field{volume}{161}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/B38KZU2P/S0092867415003700.html
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{month}{04}
+    \field{year}{2015}
+  \endentry
+
+  \entry{aidley1996}{book}{}
+    \name{author}{2}{}{%
+      {{hash=ADJ}{%
+         family={Aidley},
+         familyi={A\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SPR}{%
+         family={Stanfield},
+         familyi={S\bibinitperiod},
+         given={Peter\bibnamedelima R.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cambridge University Press}}%
+    }
+    \keyw{Science / Chemistry / General,Science / Life Sciences /
+  Biochemistry,Science / Life Sciences / Biophysics,Science / Life Sciences /
+  Molecular Biology,Science / Life Sciences / Neuroscience,Science / Life
+  Sciences / Zoology / General}
+    \strng{namehash}{ADJSPR1}
+    \strng{fullhash}{ADJSPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Ion channels are crucial components of living cells. They are situated in
+  the membranes of the cell and allow particular ions to pass from one side of
+  the membrane to the other. In recent years the patch clamp technique has
+  allowed the activity of individual channels to be measured, and recombinant
+  DNA technology has revealed fascinating detail on channel structure.
+  Together, these technical advances have produced a great flowering of
+  knowledge and understanding about the subject, itself leading to further
+  breakthroughs in science and medicine. Ion Channels provides an introduction
+  to this scientific endeavour. It emphasizes the molecular structure of
+  channels as determined by gene cloning technology. This molecular approach
+  illuminates discussions of the permeability and selectivity of channels,
+  their gating and modulation, their responses to drugs and toxins and the
+  human diseases caused when they do not function properly.%
+    }
+    \field{isbn}{978-0-521-49882-1}
+    \field{shorttitle}{Ion {{Channels}}}
+    \field{title}{Ion {{Channels}}: {{Molecules}} in {{Action}}}
+    \field{langid}{english}
+    \field{month}{08}
+    \field{year}{1996}
+  \endentry
+
+  \entry{marion2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MD}{%
+         family={Marion},
+         familyi={M\bibinitperiod},
+         given={Dominique},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier}}%
+    }
+    \strng{namehash}{MD1}
+    \strng{fullhash}{MD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    {$<$}p{$>$}NMR spectroscopy is a powerful tool for biologists interested in
+  the structure, dynamics, and interactions of biological macromolecules. This
+  review aims at presenting in an accessible manner the requirements and
+  limitations of this technique. As an introduction, the history of NMR will
+  highlight how the method evolved from physics to chemistry and finally to
+  biology over several decades. We then introduce the NMR spectral parameters
+  used in structural biology, namely the chemical shift, the J-coupling,
+  nuclear Overhauser effects, and residual dipolar couplings. Resonance
+  assignment, the required step for any further NMR study, bears a resemblance
+  to jigsaw puzzle strategy. The NMR spectral parameters are then converted
+  into angle and distances and used as input using restrained molecular
+  dynamics to compute a bundle of structures. When interpreting a NMR-derived
+  structure, the biologist has to judge its quality on the basis of the
+  statistics provided. When the 3D structure is a priori known by other means,
+  the molecular interaction with a partner can be mapped by NMR: information on
+  the binding interface as well as on kinetic and thermodynamic constants can
+  be gathered. NMR is suitable to monitor, over a wide range of frequencies,
+  protein fluctuations that play a crucial role in their biological function.
+  In the last section of this review, intrinsically disordered proteins, which
+  have escaped the attention of classical structural biology, are discussed in
+  the perspective of NMR, one of the rare available techniques able to describe
+  structural ensembles. This Tutorial is part of the International Proteomics
+  Tutorial Programme (IPTP 16 MCP).{$<$}/p{$>$}%
+    }
+    \verb{doi}
+    \verb 10.1074/mcp.O113.030239
+    \endverb
+    \field{issn}{1535-9476, 1535-9484}
+    \field{number}{11}
+    \field{pages}{3006\bibrangedash 3025}
+    \field{title}{An {{Introduction}} to {{Biological NMR Spectroscopy}} *}
+    \field{volume}{12}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/TBSFWQLX/Marion - 2013 - An Introduction to
+    \verb  Biological NMR Spectroscopy .pdf;/home/miro/Zotero/storage/HZC9VZLQ/
+    \verb fulltext.html
+    \endverb
+    \field{journaltitle}{Molecular \& Cellular Proteomics}
+    \field{month}{11}
+    \field{year}{2013}
+  \endentry
+
+  \entry{sanderson2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SMJ}{%
+         family={Sanderson},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Parker},
+         familyi={P\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BMD}{%
+         family={Bootman},
+         familyi={B\bibinitperiod},
+         given={Martin\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMJ+1}
+    \strng{fullhash}{SMJSIPIBMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Fluorescence microscopy is a major tool with which to monitor cell
+  physiology. Although the concepts of fluorescence and its optical separation
+  using filters remain similar, microscope design varies with the aim of
+  increasing image contrast and spatial resolution. The basics of wide-field
+  microscopy are outlined to emphasize the selection, advantages, and correct
+  use of laser scanning confocal microscopy, two-photon microscopy, scanning
+  disk confocal microscopy, total internal reflection, and super-resolution
+  microscopy. In addition, the principles of how these microscopes form images
+  are reviewed to appreciate their capabilities, limitations, and constraints
+  for operation.%
+    }
+    \verb{doi}
+    \verb 10.1101/pdb.top071795
+    \endverb
+    \field{issn}{1940-3402}
+    \field{number}{10}
+    \field{pages}{pdb.top071795}
+    \field{title}{Fluorescence {{Microscopy}}}
+    \field{volume}{2014}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/78XM2JHA/Sanderson et al. - 2014 - Fluoresc
+    \verb ence Microscopy.pdf
+    \endverb
+    \field{journaltitle}{Cold Spring Harbor protocols}
+    \field{month}{10}
+    \field{year}{2014}
+  \endentry
+
+  \entry{frauenfelder2010}{book}{}
+    \name{author}{4}{}{%
+      {{hash=FH}{%
+         family={Frauenfelder},
+         familyi={F\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CSS}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Shirley\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CWS}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Winnie\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=ARH}{%
+         family={Austin},
+         familyi={A\bibinitperiod},
+         given={Robert\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer New York}}%
+    }
+    \keyw{Biophysics,Molecular biology,Proteins,Structure}
+    \strng{namehash}{FH+1}
+    \strng{fullhash}{FHCSSCWSARH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1007/978-1-4419-1044-8
+    \endverb
+    \field{isbn}{978-1-4419-1043-1 978-1-4419-1044-8}
+    \field{series}{Biological and Medical Physics, Biomedical Engineering}
+    \field{shorttitle}{The Physics of Proteins}
+    \field{title}{The Physics of Proteins: An Introduction to Biological
+  Physics and Molecular Biophysics}
+    \list{location}{1}{%
+      {{New York, NY}}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{silva2017}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SD}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Diogo},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Santos},
+         familyi={S\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Barroca},
+         familyi={B\bibinitperiod},
+         given={M{\'a}rio},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{DNA,DNA Primers,Inverse PCR,Mutagenesis; Site-Directed,Nonoverlapping
+  primers,Point Mutation,Polymerase Chain Reaction,Protein
+  engineering,Site-directed mutagenesis}
+    \strng{namehash}{SD+1}
+    \strng{fullhash}{SDSGBMCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Inverse PCR is a powerful tool for the rapid introduction of desired
+  mutations at desired positions in a circular double-stranded DNA sequence.
+  Here, custom-designed mutant primers oriented in the inverse direction are
+  used to amplify the entire circular template with incorporation of the
+  required mutation(s). By careful primer design it can be used to perform such
+  diverse modifications as the introduction of point mutations and multiple
+  mutations, the insertion of new sequences, and even sequence deletions. Three
+  primer formats are commonly used; nonoverlapping, partially overlapping and
+  fully overlapping primers, and here we describe the use of nonoverlapping
+  primers for introduction of a point mutation. Use of such a primer setup in
+  the PCR reaction, with one of the primers containing the desired mismatch
+  mutation, results in the amplification of a linear, double-stranded, mutated
+  product. Methylated template DNA is removed from the nonmethylated PCR
+  product by DpnI digestion and the PCR product is then phosphorylated by
+  polynucleotide kinase treatment before being recircularized by ligation, and
+  transformed to E. coli. This relatively simple site-directed mutagenesis
+  procedure is of major importance in biology and biotechnology today where it
+  is commonly employed for the study and engineering of DNA, RNA, and
+  proteins.%
+    }
+    \verb{doi}
+    \verb 10.1007/978-1-4939-7060-5_5
+    \endverb
+    \field{issn}{1940-6029}
+    \field{pages}{87\bibrangedash 100}
+    \field{title}{Inverse {{PCR}} for {{Point Mutation Introduction}}}
+    \field{volume}{1620}
+    \field{langid}{english}
+    \field{journaltitle}{Methods in Molecular Biology (Clifton, N.J.)}
+    \field{year}{2017}
+  \endentry
+
+  \entry{crispr2019}{article}{}
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cancer Research,Cell Biology,Developmental Biology,general,Life
+  Sciences,Stem Cells}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Advances in CRISPR-based systems have greatly expanded the molecular
+  toolbox for biologists. In this issue, we present the first of a Series of
+  commissioned Review articles that highlight the progress made using
+  CRISPR\textendash Cas9 technology and its relevance for cell biological
+  research.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41556-019-0434-y
+    \endverb
+    \field{issn}{1476-4679}
+    \field{number}{12}
+    \field{pages}{1463\bibrangedash 1463}
+    \field{title}{{{CRISPR-based}} Technologies for Cell Biology}
+    \field{volume}{21}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/TYAMY7KI/2019 - CRISPR-based technologies f
+    \verb or cell biology.pdf;/home/miro/Zotero/storage/HI3YE9RQ/s41556-019-043
+    \verb 4-y.html
+    \endverb
+    \field{journaltitle}{Nature Cell Biology}
+    \field{month}{12}
+    \field{year}{2019}
   \endentry
 
   \entry{feynman1982}{article}{}
@@ -9278,55 +9998,6 @@
     \field{journaltitle}{The Journal of Chemical Physics}
     \field{month}{08}
     \field{year}{2018}
-  \endentry
-
-  \entry{frauenfelder2010}{book}{}
-    \name{author}{4}{}{%
-      {{hash=FH}{%
-         family={Frauenfelder},
-         familyi={F\bibinitperiod},
-         given={Hans},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=CSS}{%
-         family={Chan},
-         familyi={C\bibinitperiod},
-         given={Shirley\bibnamedelima S.},
-         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=CWS}{%
-         family={Chan},
-         familyi={C\bibinitperiod},
-         given={Winnie\bibnamedelima S.},
-         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=ARH}{%
-         family={Austin},
-         familyi={A\bibinitperiod},
-         given={Robert\bibnamedelima H.},
-         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Springer New York}}%
-    }
-    \keyw{Biophysics,Molecular biology,Proteins,Structure}
-    \strng{namehash}{FH+1}
-    \strng{fullhash}{FHCSSCWSARH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1007/978-1-4419-1044-8
-    \endverb
-    \field{isbn}{978-1-4419-1043-1 978-1-4419-1044-8}
-    \field{series}{Biological and Medical Physics, Biomedical Engineering}
-    \field{shorttitle}{The Physics of Proteins}
-    \field{title}{The Physics of Proteins: An Introduction to Biological
-  Physics and Molecular Biophysics}
-    \list{location}{1}{%
-      {{New York, NY}}%
-    }
-    \field{year}{2010}
   \endentry
 
   \entry{van1995python}{book}{}
