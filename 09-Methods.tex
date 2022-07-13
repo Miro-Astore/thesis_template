@@ -481,7 +481,7 @@ The above work sets out how to perform what is known as unbiased MD simulations.
 
 where $P^u(\bold{x}_0)$ represents the probability of obtaining state $\bold{x}_0$, estimated from an unbiased simulation. From here on, a subscript of $u$ indicates a quantity obtained from an unbiased simulation and a subscript $b$ represents a quantity from a biased simulation. 
 
-Equation \ref{unbiased_estimate} shows how there is exponentially poor sampling in regions with high $U_{CHARMM}$. So it is clear that we will not collect sufficient statistics for a good estimate with available computer power. Therefore, we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically, but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{CHARMM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest
+Equation \ref{unbiased_estimate} shows how there is exponentially poor sampling in regions with high $U_{CHARMM}$. So it is clear that we will not collect sufficient statistics for a good estimate with a reasonable amount of computer power. Therefore, we must be clever in how we direct our available resources. This means intelligently sampling sections of the molecular phase space which are of interest to us physically, but are not reached in our unbiased simulations. A technique that is used extensively throughout this thesis is the addition of a biased potential to the molecular potential $U_{CHARMM}$ calculated for the purposes of unbiased simulations. This will drive the simulation to regions of interest
 
 \begin{equation}
 \begin{aligned}
@@ -491,7 +491,7 @@ U_{CHARMM}'  = U_{CHARMM} + U_{bias} (\xi).
 
 Note how the $U_{biased}$ term is explicitly dependent on a parameter $\xi$. This parameter is known by many names, an order parameter, a collective variable (CV) or a reaction coordinate (RC). Each of these names has its origin in a different subfield but they all refer to the progress toward a target state. This could be a phase transition from a liquid to a gas, the progress of a chemical reaction or more likely in our case, the distance toward a target molecular configuration. 
 
-The functional form of $U_{bias}$ depends on the Free energy technique being employed. There are two varieties of techniques, equilibrium and non-equilibrium methods. We will focus on the equilibrium methods in this work. We note that there is another set of methods called alchemical methods which modify the chemical composition of the system which we will not cover.
+The functional form of $U_{bias}$ depends on the free energy calculation being employed. There are two varieties of techniques, equilibrium and non-equilibrium methods. We will focus on the equilibrium methods in this work. We note that there is another set of methods called alchemical methods which modify the chemical composition of the system which we will not cover. An extensive, frequently updated overview of modern free energy methods can be found in \cite{henin2022}.
 
 \subsection{Umbrella Sampling}
 \begin{figure}
@@ -573,7 +573,7 @@ Formally, convergence is reached when the observed probability density is unifor
 
 where $V_\xi$ is the volume of the phase space spanned by $\xi$. However, in practice the function $U_{bias}(\xi)$ is simply inspected at intervals for fluctuations about an average function \cite{sun2016}. 
 
-There are many flavours of metadynamics. The most popular is well-tempered metadynamics which gradually reduces the Gaussian height $B$ as the simulation progresses\cite{barducci2008}. In theory, this guarantees convergence with vanishingly small error. However, this method requires an estimate of how long the simulation will take to converge. There is also infrequent metadynamics which can be used to estimate the diffusion profile along $\xi$ \cite{tiwary2013, tiwary2016, salvalaglio2014}.  
+There are many flavours of metadynamics. The most popular is well-tempered metadynamics which gradually reduces the Gaussian height $B$ as the simulation progresses\cite{barducci2008}. In theory, this guarantees convergence with vanishingly small error. However, this method requires an estimate of how long the simulation will take to converge. There is also infrequent metadynamics which can be used to estimate the diffusion profile along $\xi$ \cite{tiwary2013, tiwary2016, salvalaglio2014, henin2022}.  
 
 A useful feature of the Metadynamics method is that it can be linearly sped up with the number of parallel simulations. This is known as multiple walker metadynamics \cite{raiteri2006}. Since we are simply attempting to sample from the same potential $U_{CHARMM}$ up to a desired time, until the criterion in equation \ref{convergence_criterion_metad} is met, we can speed this process up by running simulations in parallel and adding Gaussian to the same $U_{bias}$ function.
 

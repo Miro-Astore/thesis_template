@@ -106,6 +106,116 @@
     \field{year}{2012}
   \endentry
 
+  \entry{goodsell2009}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GDS}{%
+         family={Goodsell},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Copernicus}}%
+    }
+    \strng{namehash}{GDS1}
+    \strng{fullhash}{GDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{2nd ed. 2009 edition}
+    \field{isbn}{978-0-387-84924-9}
+    \field{title}{The {{Machinery}} of {{Life}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York}}%
+    }
+    \field{month}{04}
+    \field{year}{2009}
+  \endentry
+
+  \entry{goodsell2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GDS}{%
+         family={Goodsell},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Copernicus}}%
+    }
+    \strng{namehash}{GDS1}
+    \strng{fullhash}{GDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{Softcover reprint of the original 1st ed. 2016 edition}
+    \field{isbn}{978-3-319-81303-5}
+    \field{shorttitle}{Atomic {{Evidence}}}
+    \field{title}{Atomic {{Evidence}}: {{Seeing}} the {{Molecular Basis}} of
+  {{Life}}}
+    \field{langid}{english}
+    \field{month}{04}
+    \field{year}{2018}
+  \endentry
+
+  \entry{goodsell2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GDS}{%
+         family={Goodsell},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OAJ}{%
+         family={Olson},
+         familyi={O\bibinitperiod},
+         given={Arthur\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Forli},
+         familyi={F\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{cell function,cell structure,drug design,drug discovery,integrative
+  structural biology,mesoscale modeling,molecular function,molecular structure}
+    \strng{namehash}{GDS+1}
+    \strng{fullhash}{GDSOAJFS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Experimental information from microscopy, structural biology, and
+  bioinformatics may be integrated to build structural models of entire cells
+  with molecular detail. This integrative modeling is challenging in several
+  ways: the intrinsic complexity of biology results in models with many closely
+  packed and heterogeneous components; the wealth of available experimental
+  data is scattered among multiple resources and must be gathered, reconciled,
+  and curated; and computational infrastructure is only now gaining the
+  capability of modeling and visualizing systems of this complexity. We present
+  recent efforts to address these challenges, both with artistic approaches to
+  depicting the cellular mesoscale, and development and application of methods
+  to build quantitative models.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.tibs.2020.02.010
+    \endverb
+    \field{issn}{0968-0004}
+    \field{number}{6}
+    \field{pages}{472\bibrangedash 483}
+    \field{title}{Art and {{Science}} of the {{Cellular Mesoscale}}}
+    \field{volume}{45}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/V4QFJ8T7/S0968000420300566.html
+    \endverb
+    \field{journaltitle}{Trends in Biochemical Sciences}
+    \field{month}{06}
+    \field{year}{2020}
+  \endentry
+
   \entry{chen2018}{book}{}
     \name{author}{1}{}{%
       {{hash=CF}{%
@@ -149,6 +259,32 @@
     OCLC: 1129084309%
     }
     \field{year}{2018}
+  \endentry
+
+  \entry{adams1979}{book}{}
+    \name{author}{1}{}{%
+      {{hash=AD}{%
+         family={Adams},
+         familyi={A\bibinitperiod},
+         given={Douglas},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Pan Books}}%
+    }
+    \strng{namehash}{AD1}
+    \strng{fullhash}{AD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-0-330-25864-7}
+    \field{series}{Pan Original}
+    \field{title}{The {{Hitch Hiker}}'s Guide to the {{Galaxy}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{London}}%
+    }
+    \field{year}{1979}
   \endentry
 
   \entry{frauenfelder1994}{article}{}
@@ -439,6 +575,26 @@
     \field{journaltitle}{Biophysical Journal}
     \field{month}{05}
     \field{year}{2000}
+  \endentry
+
+  \entry{hille2001}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HB}{%
+         family={Hille},
+         familyi={H\bibinitperiod},
+         given={Bertil},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Sinauer Associates}}%
+    }
+    \strng{namehash}{HB1}
+    \strng{fullhash}{HB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Ion {{Channels}} of {{Excitable Membranes}}}
+    \field{year}{2001}
   \endentry
 
   \entry{catterall2011}{article}{}
@@ -2225,6 +2381,67 @@
     \field{year}{2018}
   \endentry
 
+  \entry{roux1993}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Karplus},
+         familyi={K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RBKM1}
+    \strng{fullhash}{RBKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The free energy profile of a Na+ ion along the axis of the gramicidin A
+  dimer channel is calculated by molecular dynamics simulations. A cylindrical
+  system is used that is based on a detailed atomic model of the gramicidin
+  dimer, which is solvated at both ends of the channel and surrounded by a
+  simplified model membrane. The entire system consists of 967 atoms and is
+  treated with cylindrical periodic boundary conditions. The gramicidin channel
+  was modeled from the right-handed head-to-head 0-helix dimer determined
+  experimentally by two-dimensional NMR. Simulations were made to estimate the
+  free energy profile in three regions: the transition from bulk-like solvation
+  to single file, the single-file region at the entrance of the channel, and
+  the intermonomer junction of the dimer channel. In each region, approximate
+  corrections are introduced to account for hysteresis effects in the
+  simulations. Binding sites are found at the extremities of the channel in
+  agreement with experiment. The principal energy barrier is at the entrance of
+  the channel in the single-file region. No large activation energy barrier is
+  introduced by the dehydration process, because the transformation from bulk
+  to single-file solvation is progressive and takes place over a distance of
+  5-6 A. The free energy simulation results obtained in this paper are joined
+  with those calculated from a periodic model of the interior of the pore to
+  construct an approximate free energy profile of the entire channel system.%
+    }
+    \verb{doi}
+    \verb 10.1021/ja00061a025
+    \endverb
+    \field{issn}{0002-7863, 1520-5126}
+    \field{number}{8}
+    \field{pages}{3250\bibrangedash 3262}
+    \field{shorttitle}{Ion Transport in the Gramicidin Channel}
+    \field{title}{Ion Transport in the Gramicidin Channel: Free Energy of the
+  Solvated Right-Handed Dimer in a Model Membrane}
+    \field{volume}{115}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ZRENFVHD/Roux and Karplus - 1993 - Ion tran
+    \verb sport in the gramicidin channel free ener.pdf
+    \endverb
+    \field{journaltitle}{Journal of the American Chemical Society}
+    \field{month}{04}
+    \field{year}{1993}
+  \endentry
+
   \entry{liou2015}{article}{}
     \name{author}{4}{}{%
       {{hash=LJW}{%
@@ -2289,6 +2506,35 @@
     \field{journaltitle}{PLoS ONE}
     \field{month}{01}
     \field{year}{2015}
+  \endentry
+
+  \entry{foucault1994}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Foucault},
+         familyi={F\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Vintage}}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{Reprint edition}
+    \field{isbn}{978-0-679-75334-6}
+    \field{shorttitle}{The {{Birth}} of the {{Clinic}}}
+    \field{title}{The {{Birth}} of the {{Clinic}}: {{An Archaeology}} of
+  {{Medical Perception}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York}}%
+    }
+    \field{month}{03}
+    \field{year}{1994}
   \endentry
 
   \entry{depristo2005}{article}{}
@@ -3695,7 +3941,7 @@
     }
     \keyw{Computational biophysics,Protein structure
   predictions,Proteins,Software,Structure determination}
-    \strng{namehash}{HJ+1}
+    \strng{namehash}{HJ+2}
     \strng{fullhash}{HJRSNGRTFMdBLGHMJAD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -6735,6 +6981,84 @@
     \field{journaltitle}{Advanced Drug Delivery Reviews}
     \field{month}{03}
     \field{year}{2012}
+  \endentry
+
+  \entry{henin2022}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=HJ}{%
+         family={H{\'e}nin},
+         familyi={H\bibinitperiod},
+         given={J{\'e}r{\^o}me},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Leli{\`e}vre},
+         familyi={L\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SMR}{%
+         family={Shirts},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Valsson},
+         familyi={V\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Delemotte},
+         familyi={D\bibinitperiod},
+         given={Lucie},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{arXiv}}%
+    }
+    \keyw{Condensed Matter - Statistical Mechanics,Physics - Chemical Physics}
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJLTSMRVODL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Enhanced sampling algorithms have emerged as powerful methods to extend the
+  potential of molecular dynamics simulations and allow the sampling of larger
+  portions of the configuration space of complex systems. This review aims to
+  present the unifying principles and differences of several computational
+  methods for enhanced sampling in molecular simulations of biomolecules, soft
+  matter and molecular crystals. Indeed, despite the apparent abundance and
+  divergence of such methods, the principles at their core can be boiled down
+  to a few statistical and physical principles. To enable comparisons, the
+  various methods are introduced using the same terminology and notation. We
+  then illustrate in which ways many different methods combine principles from
+  a smaller class of enhanced sampling concepts. This review is intended for
+  scientists with an understanding of the basics of molecular dynamics
+  simulations and statistical physics who want a deeper understanding of the
+  ideas that underlie various enhanced sampling methods and the relationships
+  between them. We expect this to help scientists make informed decisions about
+  which method to use. This ``living'' review is intended to be updated to
+  continue to reflect the wealth of sampling methods as they emerge in the
+  literature.%
+    }
+    \verb{eprint}
+    \verb 2202.04164
+    \endverb
+    \field{number}{arXiv:2202.04164}
+    \field{title}{Enhanced Sampling Methods for Molecular Dynamics Simulations}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/8J9URK7Q/Hénin et al. - 2022 - Enhanced sa
+    \verb mpling methods for molecular dynamics s.pdf
+    \endverb
+    \field{eprinttype}{arxiv}
+    \field{eprintclass}{cond-mat, physics:physics}
+    \field{month}{02}
+    \field{year}{2022}
+    \warn{\item Can't use 'eprinttype' + 'archiveprefix'}
   \endentry
 
   \entry{meshkin2017}{article}{}
@@ -12978,7 +13302,7 @@
     }
     \keyw{ABC exporter,CFTR,Comparative modeling,Cryo-electron
   microscopy,Filamin,Metadynamics}
-    \strng{namehash}{HB+2}
+    \strng{namehash}{HB+1}
     \strng{fullhash}{HBEALPDJLPFMJPCI1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -13314,6 +13638,619 @@
   European Cystic Fibrosis Society}
     \field{month}{03}
     \field{year}{2020}
+  \endentry
+
+  \entry{clancy2019}{article}{}
+    \name{author}{28}{}{%
+      {{hash=CJP}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima Paul},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CCU}{%
+         family={Cotton},
+         familyi={C\bibinitperiod},
+         given={Calvin\bibnamedelima U.},
+         giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=DSH}{%
+         family={Donaldson},
+         familyi={D\bibinitperiod},
+         given={Scott\bibnamedelima H.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SGM}{%
+         family={Solomon},
+         familyi={S\bibinitperiod},
+         given={George\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VDR}{%
+         family={VanDevanter},
+         familyi={V\bibinitperiod},
+         given={Donald\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BMP}{%
+         family={Boyle},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gentzsch},
+         familyi={G\bibinitperiod},
+         given={Martina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NJA}{%
+         family={Nick},
+         familyi={N\bibinitperiod},
+         given={Jerry\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=IB}{%
+         family={Illek},
+         familyi={I\bibinitperiod},
+         given={Beate},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WJC}{%
+         family={Wallenburg},
+         familyi={W\bibinitperiod},
+         given={John\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SEJ}{%
+         family={Sorscher},
+         familyi={S\bibinitperiod},
+         given={Eric\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AMD}{%
+         family={Amaral},
+         familyi={A\bibinitperiod},
+         given={Margarida\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Beekman},
+         familyi={B\bibinitperiod},
+         given={Jeffrey\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=NAP}{%
+         family={Naren},
+         familyi={N\bibinitperiod},
+         given={Anjaparavanda\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BRJ}{%
+         family={Bridges},
+         familyi={B\bibinitperiod},
+         given={Robert\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=TPJ}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Philip\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Cutting},
+         familyi={C\bibinitperiod},
+         given={Garry},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rowe},
+         familyi={R\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DAG}{%
+         family={Durmowicz},
+         familyi={D\bibinitperiod},
+         given={Anthony\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mense},
+         familyi={M\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BKD}{%
+         family={Boeck},
+         familyi={B\bibinitperiod},
+         given={Kris\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Skach},
+         familyi={S\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Penland},
+         familyi={P\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JE}{%
+         family={Joseloff},
+         familyi={J\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bihler},
+         familyi={B\bibinitperiod},
+         given={Hermann},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mahoney},
+         familyi={M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Borowitz},
+         familyi={B\bibinitperiod},
+         given={Drucy},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TKL}{%
+         family={Tuggle},
+         familyi={T\bibinitperiod},
+         given={Katherine\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{Cystic Fibrosis,Cystic Fibrosis Transmembrane Conductance
+  Regulator,DNA,DNA Mutational Analysis,Genetic Therapy,Humans,Mutation}
+    \strng{namehash}{CJP+2}
+  \strng{fullhash}{CJPCCUDSHSGMVDRBMPGMNJAIBWJCSEJAMDBJMNAPBRJTPJCGRSDAGMMBKDSWPCJEBHMJBDTKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    BACKGROUND: New drugs that improve the function of the cystic fibrosis
+  transmembrane conductance regulator (CFTR) protein with discreet
+  disease-causing variants have been successfully developed for cystic fibrosis
+  (CF) patients. Preclinical model systems have played a critical role in this
+  process, and have the potential to inform researchers and CF healthcare
+  providers regarding the nature of defects in rare CFTR variants, and to
+  potentially support use of modulator therapies in new populations. METHODS:
+  The Cystic Fibrosis Foundation (CFF) assembled a workshop of international
+  experts to discuss the use of preclinical model systems to examine the nature
+  of CF-causing variants in CFTR and the role of in vitro CFTR modulator
+  testing to inform in vivo modulator use. The theme of the workshop was
+  centered on CFTR theratyping, a term that encompasses the use of CFTR
+  modulators to define defects in CFTR in vitro, with application to both
+  common and rare CFTR variants. RESULTS: Several preclinical model systems
+  were identified in various stages of maturity, ranging from the expression of
+  CFTR variant cDNA in stable cell lines to examination of cells derived from
+  CF patients, including the gastrointestinal tract, the respiratory tree, and
+  the blood. Common themes included the ongoing need for standardization,
+  validation, and defining the predictive capacity of data derived from model
+  systems to estimate clinical outcomes from modulator-treated CF patients.
+  CONCLUSIONS: CFTR modulator theratyping is a novel and rapidly evolving field
+  that has the potential to identify rare CFTR variants that are responsive to
+  approved drugs or drugs in development.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jcf.2018.05.004
+    \endverb
+    \field{issn}{1873-5010}
+    \field{number}{1}
+    \field{pages}{22\bibrangedash 34}
+    \field{shorttitle}{{{CFTR}} Modulator Theratyping}
+    \field{title}{{{CFTR}} Modulator Theratyping: {{Current}} Status, Gaps and
+  Future Directions}
+    \field{volume}{18}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Cystic Fibrosis: Official Journal of the
+  European Cystic Fibrosis Society}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
+
+  \entry{wong2022}{article}{}
+    \name{author}{15}{}{%
+      {{hash=WSL}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Sharon\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ANT}{%
+         family={Awatade},
+         familyi={A\bibinitperiod},
+         given={Nikhil\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=AMA}{%
+         family={Astore},
+         familyi={A\bibinitperiod},
+         given={Miro\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AKM}{%
+         family={Allan},
+         familyi={A\bibinitperiod},
+         given={Katelin\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CMJ}{%
+         family={Carnell},
+         familyi={C\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Slapetova},
+         familyi={S\bibinitperiod},
+         given={Iveta},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=CPc}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Po-chia},
+         giveni={P\bibinithyphendelim c\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Capraro},
+         familyi={C\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FLK}{%
+         family={Fawcett},
+         familyi={F\bibinitperiod},
+         given={Laura\bibnamedelima K.},
+         giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=WRM}{%
+         family={Whan},
+         familyi={W\bibinitperiod},
+         given={Renee\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Griffith},
+         familyi={G\bibinitperiod},
+         given={Renate},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OCY}{%
+         family={Ooi},
+         familyi={O\bibinitperiod},
+         given={Chee\bibnamedelima Y.},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Jaffe},
+         familyi={J\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WSA}{%
+         family={Waters},
+         familyi={W\bibinitperiod},
+         given={Shafagh\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Biochemistry,Pharmacology,Structural biology}
+    \strng{namehash}{WSL+1}
+    \strng{fullhash}{WSLANTAMAAKMCMJSICPcCAFLKWRMGROCYKSJAWSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Characterization of I37R, a mutation located in the lasso motif of the CFTR
+  chloride channel, was conducted by theratyping several CFTR modulators from
+  both potentiator and corrector classes. Intestinal current measurements in
+  rectal biopsies, forskolin-induced swelling (FIS) in intestinal organoids,
+  and short circuit current measurements in organoid-derived monolayers from an
+  individual with I37R/F508del CFTR genotype demonstrated that the I37R-CFTR
+  results in a residual function defect amenable to treatment with potentiators
+  and type III, but not type I, correctors. Molecular dynamics of I37R using an
+  extended model of the phosphorylated, ATP-bound human CFTR identified an
+  altered lasso motif conformation which results in an unfavorable
+  strengthening of the interactions between the lasso motif, the regulatory (R)
+  domain, and the transmembrane domain 2 (TMD2). Structural and functional
+  characterization of the I37R-CFTR mutation increases understanding of CFTR
+  channel regulation and provides a potential pathway to expand drug access to
+  CF patients with ultra-rare genotypes.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.isci.2021.103710
+    \endverb
+    \field{issn}{2589-0042}
+    \field{number}{1}
+    \field{pages}{103710}
+    \field{title}{Molecular Dynamics and Functional Characterization of
+  {{I37R-CFTR}} Lasso Mutation Provide Insights into Channel Gating Activity}
+    \field{volume}{25}
+    \field{langid}{english}
+    \field{journaltitle}{iScience}
+    \field{month}{01}
+    \field{year}{2022}
+  \endentry
+
+  \entry{wong2022a}{article}{}
+    \name{author}{17}{}{%
+      {{hash=WSL}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Sharon\bibnamedelima L},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ANT}{%
+         family={Awatade},
+         familyi={A\bibinitperiod},
+         given={Nikhil\bibnamedelima T},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=AMA}{%
+         family={Astore},
+         familyi={A\bibinitperiod},
+         given={Miro\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AKM}{%
+         family={Allan},
+         familyi={A\bibinitperiod},
+         given={Katelin\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CMJ}{%
+         family={Carnell},
+         familyi={C\bibinitperiod},
+         given={Michael\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Slapetova},
+         familyi={S\bibinitperiod},
+         given={Iveta},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=CPC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Po-Chia},
+         giveni={P\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Setiadi},
+         familyi={S\bibinitperiod},
+         given={Jeffry},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Pandzic},
+         familyi={P\bibinitperiod},
+         given={Elvis},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FLK}{%
+         family={Fawcett},
+         familyi={F\bibinitperiod},
+         given={Laura\bibnamedelima K},
+         giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=WJR}{%
+         family={Widger},
+         familyi={W\bibinitperiod},
+         given={John\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WRM}{%
+         family={Whan},
+         familyi={W\bibinitperiod},
+         given={Renee\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Griffith},
+         familyi={G\bibinitperiod},
+         given={Renate},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OCY}{%
+         family={Ooi},
+         familyi={O\bibinitperiod},
+         given={Chee\bibnamedelima Y},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kuyucak},
+         familyi={K\bibinitperiod},
+         given={Serdar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Jaffe},
+         familyi={J\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WSA}{%
+         family={Waters},
+         familyi={W\bibinitperiod},
+         given={Shafagh\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Thoracic Society}}%
+    }
+    \keyw{intestinal organoid,molecular dynamics simulations,nasal epithelial
+  cells,personalized medicine,R352Q,Rare cystic fibrosis}
+    \strng{namehash}{WSL+2}
+    \strng{fullhash}{WSLANTAMAAKMCMJSICPCSJPEFLKWJRWRMGROCYKSJAWSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A significant challenge to making targeted CFTR modulator therapies
+  accessible to all individuals with cystic fibrosis (CF) are many mutations in
+  the CFTR gene that can cause CF, most of which remain uncharacterized. Here,
+  we characterized the structural and functional defects of the rare CFTR
+  mutation R352Q - with potential role contributing to intrapore chloride ion
+  permeation - in patient-derived cell models of the airway and gut. CFTR
+  function in differentiated nasal epithelial cultures and matched intestinal
+  organoids was assessed using ion transport assay and forskolin-induced
+  swelling (FIS) assay respectively. CFTR potentiators (VX-770, GLPG1837 and
+  VX-445) and correctors (VX-809, VX-445 +/- VX-661) were tested. Data from
+  R352Q-CFTR were compared to that of twenty participants with mutations with
+  known impact on CFTR function. R352Q-CFTR has residual CFTR function which
+  was restored to functional CFTR activity by CFTR potentiators but not the
+  corrector. Molecular dynamics (MD) simulations of R352Q-CFTR were carried out
+  which indicated the presence of a chloride conductance defect, with little
+  evidence supporting a gating defect. The combination approach of in vitro
+  patient-derived cell models and in silico MD simulations to characterize rare
+  CFTR mutations can improve the specificity and sensitivity of modulator
+  response predictions and aid in their translational use for CF precision
+  medicine. This article is open access and distributed under the terms of the
+  Creative Commons Attribution Non-Commercial No Derivatives License 4.0
+  (http://creativecommons.org/licenses/by-nc-nd/4.0/).%
+    }
+    \verb{doi}
+    \verb 10.1165/rcmb.2021-0337OC
+    \endverb
+    \field{issn}{1535-4989}
+    \field{title}{Molecular Dynamics and Theratyping in Airway and Gut
+  Organoids Reveal {{R352Q-CFTR}} Conductance Defect.}
+    \field{journaltitle}{American journal of respiratory cell and molecular
+  biology}
+    \field{month}{04}
+    \field{year}{2022}
+  \endentry
+
+  \entry{ciciriello2022}{article}{}
+    \name{author}{10}{}{%
+      {{hash=CF}{%
+         family={Ciciriello},
+         familyi={C\bibinitperiod},
+         given={Fabiana},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BMJC}{%
+         family={Bijvelds},
+         familyi={B\bibinitperiod},
+         given={Marcel J\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Alghisi},
+         familyi={A\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MKF}{%
+         family={Meijsen},
+         familyi={M\bibinitperiod},
+         given={Kelly\bibnamedelima F},
+         giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Cristiani},
+         familyi={C\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sorio},
+         familyi={S\bibinitperiod},
+         given={Claudio},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Melotti},
+         familyi={M\bibinitperiod},
+         given={Paola},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FAG}{%
+         family={Fiocchi},
+         familyi={F\bibinitperiod},
+         given={Alessandro\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=LV}{%
+         family={Lucidi},
+         familyi={L\bibinitperiod},
+         given={Vincenzina},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DJHR}{%
+         family={De\bibnamedelima Jonge},
+         familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Hugo\bibnamedelima R},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{MDPI}}%
+    }
+    \keyw{bicarbonate,CFTR,chloride,ELX/TEZ/IVA,human intestinal organoid
+  monolayers,rare mutations,theratyping}
+    \strng{namehash}{CF+1}
+    \strng{fullhash}{CFBMJCAFMKFCLSCMPFAGLVDJHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND The effect of presently available CFTR modulator combinations,
+  such as elexacaftor (ELX), tezacaftor (TEZ), and ivacaftor (IVA), on rare
+  CFTR alleles is often unknown. Several assays have been developed, such as
+  forskolin-induced swelling (FIS), to evaluate the rescue of such uncommon
+  CFTR alleles both by established and novel modulators in patient-derived
+  primary cell cultures (organoids). Presently, we assessed the CFTR-mediated
+  electrical current across rectal organoid-derived epithelial monolayers. This
+  technique, which allows separate measurement of CFTR-dependent chloride or
+  bicarbonate transport, was used to assess the effect of ELX/TEZ/IVA on two
+  rare CFTR variants. METHODS Intestinal organoid cultures were established
+  from rectal biopsies of CF patients carrying the rare missense mutations
+  E193K or R334W paired with F508del. The effect of the CFTR modulator
+  combination ELX/TEZ/IVA on CFTR-mediated Cl- and HCO3- secretion was assessed
+  in organoid-derived intestinal epithelial monolayers. Non-CF organoids were
+  used for comparison. Clinical biomarkers (sweat chloride, FEV1) were
+  monitored in patients receiving modulator therapy. RESULTS ELX/TEZ/IVA
+  markedly enhanced CFTR-mediated bicarbonate and chloride transport across
+  intestinal epithelium of both patients. Consistent with the rescue of CFTR
+  function in cultured intestinal cells, ELX/TEZ/IVA therapy improved
+  biomarkers of CFTR function in the R334W/F508del patient. CONCLUSIONS Current
+  measurements in organoid-derived intestinal monolayers can readily be used to
+  monitor CFTR-dependent epithelial Cl- and HCO3- transport. This technique can
+  be explored to assess the functional consequences of rare CFTR mutations and
+  the efficacy of CFTR modulators. We propose that this functional CFTR assay
+  may guide personalized medicine in patients with CF-like clinical
+  manifestations as well as in those carrying rare CFTR mutations.%
+    }
+    \verb{doi}
+    \verb 10.3390/jpm12040632
+    \endverb
+    \field{issn}{2075-4426}
+    \field{number}{4}
+    \field{title}{Theratyping of the Rare {{CFTR}} Variants {{E193K}} and
+  {{R334W}} in Rectal Organoid-Derived Epithelial Monolayers.}
+    \field{volume}{12}
+    \field{journaltitle}{Journal of personalized medicine}
+    \field{month}{04}
+    \field{year}{2022}
   \endentry
 
   \entry{dekkers2013}{article}{}
