@@ -17,6 +17,34 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{martin1997}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MGRR}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={George R.\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Voyager GB}}%
+    }
+    \strng{namehash}{MGRR1}
+    \strng{fullhash}{MGRR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{isbn}{978-0-00-647988-8}
+    \field{shorttitle}{A {{Game}} of {{Thrones}}}
+    \field{title}{A {{Game}} of {{Thrones}}: {{Book}} 1}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{London}}%
+    }
+    \field{month}{10}
+    \field{year}{1997}
+  \endentry
+
   \entry{hofstadter2007}{book}{}
     \name{author}{1}{}{%
       {{hash=HDR}{%
@@ -2433,10 +2461,6 @@
   Solvated Right-Handed Dimer in a Model Membrane}
     \field{volume}{115}
     \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/ZRENFVHD/Roux and Karplus - 1993 - Ion tran
-    \verb sport in the gramicidin channel free ener.pdf
-    \endverb
     \field{journaltitle}{Journal of the American Chemical Society}
     \field{month}{04}
     \field{year}{1993}
@@ -3049,6 +3073,39 @@
       {{New York, NY}}%
     }
     \field{year}{2009}
+  \endentry
+
+  \entry{feynman1982}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FRP}{%
+         family={Feynman},
+         familyi={F\bibinitperiod},
+         given={Richard\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{Calcite,Cellular Automaton,Quantum Mechanic,Quantum System,Wigner
+  Function}
+    \strng{namehash}{FRP1}
+    \strng{fullhash}{FRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/BF02650179
+    \endverb
+    \field{issn}{1572-9575}
+    \field{number}{6}
+    \field{pages}{467\bibrangedash 488}
+    \field{title}{Simulating Physics with Computers}
+    \field{volume}{21}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/TVF9UT7M/Feynman - 1982 - Simulating physic
+    \verb s with computers.pdf
+    \endverb
+    \field{journaltitle}{International Journal of Theoretical Physics}
+    \field{month}{06}
+    \field{year}{1982}
   \endentry
 
   \entry{braun2019}{article}{}
@@ -7050,10 +7107,6 @@
     \field{number}{arXiv:2202.04164}
     \field{title}{Enhanced Sampling Methods for Molecular Dynamics Simulations}
     \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/8J9URK7Q/Hénin et al. - 2022 - Enhanced sa
-    \verb mpling methods for molecular dynamics s.pdf
-    \endverb
     \field{eprinttype}{arxiv}
     \field{eprintclass}{cond-mat, physics:physics}
     \field{month}{02}
@@ -19195,7 +19248,7 @@
     \list{publisher}{1}{%
       {{New England Journal of Medicine (NEJM/MMS)}}%
     }
-    \strng{namehash}{KD+1}
+    \strng{namehash}{KD+2}
     \strng{fullhash}{KDMGBLDCMMAMEFRBWRSMSLATEMCMMSMRSSJSCVGFWDXFYTTJL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -21459,6 +21512,123 @@
     \field{annotation}{%
     \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1113/JP281933%
     }
+    \field{year}{2021}
+  \endentry
+
+  \entry{gao2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GY}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Erhu},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=JD}{%
+         family={Julius},
+         familyi={J\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Yifan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GY+1}
+    \strng{fullhash}{GYCEJDCY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    When integral membrane proteins are visualized in detergents or other
+  artificial systems, an important layer of information is lost regarding lipid
+  interactions and their effects on protein structure. This is especially
+  relevant to proteins for which lipids play both structural and regulatory
+  roles. Here, we demonstrate the power of combining electron cryo-microscopy
+  with lipid nanodisc technology to ascertain the structure of the TRPV1 ion
+  channel in a native bilayer environment. Using this approach, we determined
+  the locations of annular and regulatory lipids and showed that specific
+  phospholipid interactions enhance binding of a spider toxin to TRPV1 through
+  formation of a tripartite complex. Furthermore, phosphatidylinositol lipids
+  occupy the binding site for capsaicin and other vanilloid ligands, suggesting
+  a mechanism whereby chemical or thermal stimuli elicit channel activation by
+  promoting release of bioactive lipids from a critical allosteric regulatory
+  site.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature17964
+    \endverb
+    \field{issn}{0028-0836}
+    \field{number}{7607}
+    \field{pages}{347\bibrangedash 351}
+    \field{title}{{{TRPV1}} Structures in Nanodiscs Reveal Mechanisms of Ligand
+  and Lipid Action}
+    \field{volume}{534}
+    \field{journaltitle}{Nature}
+    \field{month}{05}
+    \field{year}{2016}
+  \endentry
+
+  \entry{kampjut2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KD}{%
+         family={Kampjut},
+         familyi={K\bibinitperiod},
+         given={Domen},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Steiner},
+         familyi={S\bibinitperiod},
+         given={Julia},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SLA}{%
+         family={Sazanov},
+         familyi={S\bibinitperiod},
+         given={Leonid\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD+1}
+    \strng{fullhash}{KDSJSLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cryo-EM grid preparation is an important bottleneck in protein structure
+  determination, especially for membrane proteins, typically requiring
+  screening of a large number of conditions. We systematically investigated the
+  effects of buffer components, blotting conditions and grid types on the
+  outcome of grid preparation of five different membrane protein samples.
+  Aggregation was the most common type of problem which was addressed by
+  changing detergents, salt concentration or reconstitution of proteins into
+  nanodiscs or amphipols. We show that the optimal concentration of detergent
+  is between 0.05 and 0.4\% and that the presence of a low concentration of
+  detergent with a high critical micellar concentration protects the proteins
+  from denaturation at the air-water interface. Furthermore, we discuss the
+  strategies for achieving an adequate ice thickness, particle coverage and
+  orientation distribution on free ice and on support films. Our findings
+  provide a clear roadmap for comprehensive screening of conditions for cryo-EM
+  grid preparation of membrane proteins.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.isci.2021.102139
+    \endverb
+    \field{issn}{25890042}
+    \field{number}{3}
+    \field{pages}{102139}
+    \field{title}{Cryo-{{EM}} Grid Optimization for Membrane Proteins}
+    \field{volume}{24}
+    \field{langid}{english}
+    \field{journaltitle}{iScience}
+    \field{month}{03}
     \field{year}{2021}
   \endentry
 
