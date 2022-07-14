@@ -343,6 +343,35 @@
     \field{year}{2018}
   \endentry
 
+  \entry{dawkins2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DR}{%
+         family={Dawkins},
+         familyi={D\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Oxford University Press, USA}}%
+    }
+    \strng{namehash}{DR1}
+    \strng{fullhash}{DR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{Reprint edition}
+    \field{isbn}{978-0-19-878891-1}
+    \field{shorttitle}{The {{Extended Phenotype}}}
+    \field{title}{The {{Extended Phenotype}}: {{The Long Reach}} of the
+  {{Gene}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Place of publication not identified}}%
+    }
+    \field{month}{11}
+    \field{year}{2016}
+  \endentry
+
   \entry{griffiths2017}{book}{}
     \name{author}{1}{}{%
       {{hash=GDJ}{%
@@ -422,29 +451,39 @@
     \field{year}{2010}
   \endentry
 
-  \entry{reuters2022}{article}{}
+  \entry{salzberg2018}{article}{}
     \name{author}{1}{}{%
-      {{hash=R}{%
-         family={{Reuters}},
-         familyi={R\bibinitperiod},
+      {{hash=SSL}{%
+         family={Salzberg},
+         familyi={S\bibinitperiod},
+         given={Steven\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
+    \strng{namehash}{SSL1}
+    \strng{fullhash}{SSL1}
     \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
+    \field{labeltitlesource}{shorttitle}
     \field{abstract}{%
-    British Prime Minister Boris Johnson said he was sad to be leaving the best
-  job in the world in a resignation statement on Thursday, and added: "Them's
-  the breaks."%
+    Seventeen years after the initial publicationx of the human genome, we
+  still haven't found all of our genes. The answer turns out to be more complex
+  than anyone had imagined when the Human Genome Project began.%
     }
-    \field{chapter}{United Kingdom}
-    \field{title}{'{{Them}}'s the Breaks', {{UK}}'s {{Johnson}} Says as He Sets
-  out Exit}
-    \field{langid}{english}
-    \field{journaltitle}{Reuters}
-    \field{month}{07}
-    \field{year}{2022}
+    \verb{doi}
+    \verb 10.1186/s12915-018-0564-x
+    \endverb
+    \field{issn}{1741-7007}
+    \field{pages}{94}
+    \field{shorttitle}{Open Questions}
+    \field{title}{Open Questions: {{How}} Many Genes Do We Have?}
+    \field{volume}{16}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/DWHIHPGV/Salzberg - 2018 - Open questions H
+    \verb ow many genes do we have.pdf
+    \endverb
+    \field{journaltitle}{BMC Biology}
+    \field{month}{08}
+    \field{year}{2018}
   \endentry
 
   \entry{adams1979}{book}{}
@@ -2651,6 +2690,38 @@
     \field{year}{1993}
   \endentry
 
+  \entry{russell2021}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RJ}{%
+         family={Russell},
+         familyi={R\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJ1}
+    \strng{fullhash}{RJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Life sciences computational research has long been dominated by statistics
+  and parallel processing more than traditional HPC. Think gene sequencing and
+  variant calling. Mechanistic simulation and modeling has played a much
+  smaller role though that's changing. An exception is the Anton line of...%
+    }
+  \field{howpublished}{https://www.hpcwire.com/2021/09/01/anton-3-is-a-fire-breathing-molecular-simulation-beast/}
+    \field{title}{Anton 3 {{Is}} a '{{Fire-Breathing}}' {{Molecular Simulation
+  Beast}}}
+    \field{langid}{american}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/VLAYFN9X/anton-3-is-a-fire-breathing-molecu
+    \verb lar-simulation-beast.html
+    \endverb
+    \field{journaltitle}{HPCwire}
+    \field{month}{09}
+    \field{year}{2021}
+  \endentry
+
   \entry{liou2015}{article}{}
     \name{author}{4}{}{%
       {{hash=LJW}{%
@@ -3477,6 +3548,91 @@
     \field{year}{2015}
   \endentry
 
+  \entry{callaway2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CE}{%
+         family={Callaway},
+         familyi={C\bibinitperiod},
+         given={Ewen},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Biochemistry,Biological techniques,Biophysics,Structural biology}
+    \strng{namehash}{CE1}
+    \strng{fullhash}{CE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Move over X-ray crystallography. Cryo-electron microscopy is kicking up a
+  storm by revealing the hidden machinery of the cell.%
+    }
+    \verb{doi}
+    \verb 10.1038/525172a
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{7568}
+    \field{pages}{172\bibrangedash 174}
+    \field{shorttitle}{The Revolution Will Not Be Crystallized}
+    \field{title}{The Revolution Will Not Be Crystallized: A New Method Sweeps
+  through Structural Biology}
+    \field{volume}{525}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/N68NG75B/Callaway - 2015 - The revolution w
+    \verb ill not be crystallized a new met.pdf;/home/miro/Zotero/storage/J8J57
+    \verb V2I/525172a.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{09}
+    \field{year}{2015}
+  \endentry
+
+  \entry{callaway2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CE}{%
+         family={Callaway},
+         familyi={C\bibinitperiod},
+         given={Ewen},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Microscopy,Structural biology}
+    \strng{namehash}{CE1}
+    \strng{fullhash}{CE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The number of protein structures being determined by cryo-electron
+  microscopy is growing at an explosive rate.%
+    }
+    \verb{doi}
+    \verb 10.1038/d41586-020-00341-9
+    \endverb
+    \field{number}{7794}
+    \field{pages}{201\bibrangedash 201}
+    \field{title}{Revolutionary Cryo-{{EM}} Is Taking over Structural Biology}
+    \field{volume}{578}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/GT5WA2LJ/Callaway - 2020 - Revolutionary cr
+    \verb yo-EM is taking over structural bi.pdf;/home/miro/Zotero/storage/CE9L
+    \verb IWTM/d41586-020-00341-9.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{annotation}{%
+    Bandiera\_abtest: a Cg\_type: News Subject\_term: Microscopy, Structural
+  biology%
+    }
+    \field{month}{02}
+    \field{year}{2020}
+  \endentry
+
   \entry{aidley1996}{book}{}
     \name{author}{2}{}{%
       {{hash=ADJ}{%
@@ -3693,6 +3849,33 @@
       {{New York, NY}}%
     }
     \field{year}{2010}
+  \endentry
+
+  \entry{drenth2006}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DJ}{%
+         family={Drenth},
+         familyi={D\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer}}%
+    }
+    \strng{namehash}{DJ1}
+    \strng{fullhash}{DJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{3rd edition}
+    \field{isbn}{978-0-387-33334-2}
+    \field{title}{Principles of {{Protein X-Ray Crystallography}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York Heidelberg}}%
+    }
+    \field{month}{11}
+    \field{year}{2006}
   \endentry
 
   \entry{silva2017}{article}{}
@@ -8450,6 +8633,57 @@
       {{Cham}}%
     }
     \field{year}{2020}
+  \endentry
+
+  \entry{laio2002}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LA}{%
+         family={Laio},
+         familyi={L\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parrinello},
+         familyi={P\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{National Academy of Sciences}}%
+    }
+    \strng{namehash}{LAPM1}
+    \strng{fullhash}{LAPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We introduce a powerful method for exploring the properties of the
+  multidimensional free energy surfaces (FESs) of complex many-body systems by
+  means of coarse-grained non-Markovian dynamics in the space defined by a few
+  collective coordinates. A characteristic feature of these dynamics is the
+  presence of a history-dependent potential term that, in time, fills the
+  minima in the FES, allowing the efficient exploration and accurate
+  determination of the FES as a function of the collective coordinates. We
+  demonstrate the usefulness of this approach in the case of the dissociation
+  of a NaCl molecule in water and in the study of the conformational changes of
+  a dialanine in solution.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.202427399
+    \endverb
+    \field{issn}{00278424}
+    \field{number}{20}
+    \field{pages}{12562\bibrangedash 12566}
+    \field{title}{Escaping Free-Energy Minima}
+    \field{volume}{99}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{annotation}{%
+    \_eprint: 0208352%
+    }
+    \field{month}{10}
+    \field{year}{2002}
   \endentry
 
   \entry{cheng2017}{article}{}
