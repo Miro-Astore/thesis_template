@@ -9677,6 +9677,100 @@
     \field{year}{2018}
   \endentry
 
+  \entry{unke2021}{article}{}
+    \name{author}{8}{}{%
+      {{hash=UOT}{%
+         family={Unke},
+         familyi={U\bibinitperiod},
+         given={Oliver\bibnamedelima T.},
+         giveni={O\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chmiela},
+         familyi={C\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SHE}{%
+         family={Sauceda},
+         familyi={S\bibinitperiod},
+         given={Huziel\bibnamedelima E.},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gastegger},
+         familyi={G\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Poltavsky},
+         familyi={P\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SKT}{%
+         family={Sch{\"u}tt},
+         familyi={S\bibinitperiod},
+         given={Kristof\bibnamedelima T.},
+         giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tkatchenko},
+         familyi={T\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MKR}{%
+         family={M{\"u}ller},
+         familyi={M\bibinitperiod},
+         given={Klaus-Robert},
+         giveni={K\bibinithyphendelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{UOT+1}
+    \strng{fullhash}{UOTCSSHEGMPISKTTAMKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In recent years, the use of machine learning (ML) in computational
+  chemistry has enabled numerous advances previously out of reach due to the
+  computational complexity of traditional electronic-structure methods. One of
+  the most promising applications is the construction of ML-based force fields
+  (FFs), with the aim to narrow the gap between the accuracy of ab initio
+  methods and the efficiency of classical FFs. The key idea is to learn the
+  statistical relation between chemical structure and potential energy without
+  relying on a preconceived notion of fixed chemical bonds or knowledge about
+  the relevant interactions. Such universal ML approximations are in principle
+  only limited by the quality and quantity of the reference data used to train
+  them. This review gives an overview of applications of ML-FFs and the
+  chemical insights that can be obtained from them. The core concepts
+  underlying ML-FFs are described in detail, and a step-by-step guide for
+  constructing and testing them from scratch is given. The text concludes with
+  a discussion of the challenges that remain to be overcome by the next
+  generation of ML-FFs.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.chemrev.0c01111
+    \endverb
+    \field{issn}{0009-2665}
+    \field{number}{16}
+    \field{pages}{10142\bibrangedash 10186}
+    \field{title}{Machine {{Learning Force Fields}}}
+    \field{volume}{121}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/JYPUKBX8/Unke et al. - 2021 - Machine Learn
+    \verb ing Force Fields.pdf;/home/miro/Zotero/storage/LSMECRDQ/acs.chemrev.h
+    \verb tml
+    \endverb
+    \field{journaltitle}{Chemical Reviews}
+    \field{month}{08}
+    \field{year}{2021}
+  \endentry
+
   \entry{lin2020}{article}{}
     \name{author}{7}{}{%
       {{hash=LFY}{%
