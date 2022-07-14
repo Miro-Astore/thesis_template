@@ -8,17 +8,17 @@ Case mismatch error between cite keys baker2007 and Baker2007
  :                    }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys vangoor2014 and VanGoor2014
----line 1290 of file main.aux
+---line 1289 of file main.aux
  : \citation{vangoor2014
  :                      }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Zhang2018 and zhang2018
----line 1407 of file main.aux
+---line 1406 of file main.aux
  : \citation{Zhang2018
  :                    }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Zhang2018 and zhang2018
----line 1435 of file main.aux
+---line 1434 of file main.aux
  : \citation{Zhang2018
  :                    }
 I'm skipping whatever remains of this command

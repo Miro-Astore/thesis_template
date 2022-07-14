@@ -137,10 +137,11 @@
 \phantomsection
 
 \addcontentsline{toc}{chapter}{List of Abbreviations}
-\input{06-Abbreviations}
+{
+\hypersetup{linkcolor=black}
+\input{06-Abbreviations.tex}
+}
 
-\newpage
-\phantomsection
 \addcontentsline{toc}{chapter}{List of Figures}
 {
 \hypersetup{linkcolor=black}
@@ -155,18 +156,19 @@
 \color{black}
 \listoftables
 }
-\clearpage
 
-\clearpage
 \thispagestyle{empty}
 \vspace*{2.0in}
-%\chapquote{``Research is what I'm doing when I don't know what I'm doing."}{Wernher von Braun}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %% MAIN TEXT         %%
 %%%%%%%%%%%%%%%%%%%%%%%
-\addcontentsline{toc}{chapter}{\nameref{chap:foreword}}
+%\addcontentsline{toc}{chapter}{Foreword}
+%{
+%\hypersetup{linkcolor=black}
+%\color{black}
+%\input{./07-Foreword}
+%}
 \input{./07-Foreword}
 \input{./08-Introduction}
 \input{./09-Methods}
@@ -184,7 +186,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%
 \medskip
 %\bibliographystyle{IEEEtran}
-\addcontentsline{toc}{section}{References}
 \printbibliography[heading=bibintoc]
 
 %%%%%%%%%%%%%%%%%%%%%%%
