@@ -1346,6 +1346,66 @@
     \field{year}{2013}
   \endentry
 
+  \entry{aidley1996}{book}{}
+    \name{author}{2}{}{%
+      {{hash=ADJ}{%
+         family={Aidley},
+         familyi={A\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SPR}{%
+         family={Stanfield},
+         familyi={S\bibinitperiod},
+         given={Peter\bibnamedelima R.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cambridge University Press}}%
+    }
+    \keyw{Science / Chemistry / General,Science / Life Sciences /
+  Biochemistry,Science / Life Sciences / Biophysics,Science / Life Sciences /
+  Molecular Biology,Science / Life Sciences / Neuroscience,Science / Life
+  Sciences / Zoology / General}
+    \strng{namehash}{ADJSPR1}
+    \strng{fullhash}{ADJSPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Ion channels are crucial components of living cells. They are situated in
+  the membranes of the cell and allow particular ions to pass from one side of
+  the membrane to the other. In recent years the patch clamp technique has
+  allowed the activity of individual channels to be measured, and recombinant
+  DNA technology has revealed fascinating detail on channel structure.
+  Together, these technical advances have produced a great flowering of
+  knowledge and understanding about the subject, itself leading to further
+  breakthroughs in science and medicine. Ion Channels provides an introduction
+  to this scientific endeavour. It emphasizes the molecular structure of
+  channels as determined by gene cloning technology. This molecular approach
+  illuminates discussions of the permeability and selectivity of channels,
+  their gating and modulation, their responses to drugs and toxins and the
+  human diseases caused when they do not function properly.%
+    }
+    \field{isbn}{978-0-521-49882-1}
+    \field{shorttitle}{Ion {{Channels}}}
+    \field{title}{Ion {{Channels}}: {{Molecules}} in {{Action}}}
+    \field{langid}{english}
+    \field{month}{08}
+    \field{year}{1996}
+  \endentry
+
+  \entry{zotero-3607}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Hodgkin\textendash Huxley Model, Voltage Clamp Technique and Basic
+  Results - Neuromuscular Fundamentals: How Our Musculature is Controlled%
+    }
+  \field{howpublished}{https://ebrary.net/196552/health/hodgkin\_huxley\_model}
+    \field{title}{The {{Hodgkin}}\textendash{{Huxley Model}}}
+    \field{journaltitle}{Ebrary}
+  \endentry
+
   \entry{hodgkin1952}{article}{}
     \name{author}{2}{}{%
       {{hash=HAL}{%
@@ -1693,6 +1753,63 @@
     \field{year}{1991}
   \endentry
 
+  \entry{roux1993}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Karplus},
+         familyi={K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RBKM1}
+    \strng{fullhash}{RBKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The free energy profile of a Na+ ion along the axis of the gramicidin A
+  dimer channel is calculated by molecular dynamics simulations. A cylindrical
+  system is used that is based on a detailed atomic model of the gramicidin
+  dimer, which is solvated at both ends of the channel and surrounded by a
+  simplified model membrane. The entire system consists of 967 atoms and is
+  treated with cylindrical periodic boundary conditions. The gramicidin channel
+  was modeled from the right-handed head-to-head 0-helix dimer determined
+  experimentally by two-dimensional NMR. Simulations were made to estimate the
+  free energy profile in three regions: the transition from bulk-like solvation
+  to single file, the single-file region at the entrance of the channel, and
+  the intermonomer junction of the dimer channel. In each region, approximate
+  corrections are introduced to account for hysteresis effects in the
+  simulations. Binding sites are found at the extremities of the channel in
+  agreement with experiment. The principal energy barrier is at the entrance of
+  the channel in the single-file region. No large activation energy barrier is
+  introduced by the dehydration process, because the transformation from bulk
+  to single-file solvation is progressive and takes place over a distance of
+  5-6 A. The free energy simulation results obtained in this paper are joined
+  with those calculated from a periodic model of the interior of the pore to
+  construct an approximate free energy profile of the entire channel system.%
+    }
+    \verb{doi}
+    \verb 10.1021/ja00061a025
+    \endverb
+    \field{issn}{0002-7863, 1520-5126}
+    \field{number}{8}
+    \field{pages}{3250\bibrangedash 3262}
+    \field{shorttitle}{Ion Transport in the Gramicidin Channel}
+    \field{title}{Ion Transport in the Gramicidin Channel: Free Energy of the
+  Solvated Right-Handed Dimer in a Model Membrane}
+    \field{volume}{115}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of the American Chemical Society}
+    \field{month}{04}
+    \field{year}{1993}
+  \endentry
+
   \entry{allen2003}{article}{}
     \name{author}{4}{}{%
       {{hash=ATW}{%
@@ -1941,6 +2058,93 @@
     \field{journaltitle}{Quarterly Reviews of Biophysics}
     \field{month}{11}
     \field{year}{2001}
+  \endentry
+
+  \entry{flood2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=FE}{%
+         family={Flood},
+         familyi={F\bibinitperiod},
+         given={Emelie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Boiteux},
+         familyi={B\bibinitperiod},
+         given={C{\'e}line},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Lev},
+         familyi={L\bibinitperiod},
+         given={Bogdan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vorobyov},
+         familyi={V\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ATW}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Toby\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \keyw{Cell Membrane,Humans,Hydrophobic and Hydrophilic Interactions,Ion
+  Channel Gating,Ion Channels,Models; Chemical,Models; Molecular,Molecular
+  Dynamics Simulation,Pharmaceutical Preparations,Protein
+  Conformation,Thermodynamics}
+    \strng{namehash}{FE+1}
+    \strng{fullhash}{FEBCLBVIATW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Membrane ion channels are the fundamental electrical components in the
+  nervous system. Recent developments in X-ray crystallography and cryo-EM
+  microscopy have revealed what these proteins look like in atomic detail but
+  do not tell us how they function. Molecular dynamics simulations have
+  progressed to the point that we can now simulate realistic molecular
+  assemblies to produce quantitative calculations of the thermodynamic and
+  kinetic quantities that control function. In this review, we summarize the
+  state of atomistic simulation methods for ion channels to understand their
+  conduction, activation, and drug modulation mechanisms. We are at a
+  crossroads in atomistic simulation, where long time scale observation can
+  provide unbiased exploration of mechanisms, supplemented by biased free
+  energy methodologies. We illustrate the use of these approaches to describe
+  ion conduction and selectivity in voltage-gated sodium and acid-sensing ion
+  channels. Studies of channel gating present a significant challenge, as
+  activation occurs on longer time scales. Enhanced sampling approaches can
+  ensure convergence on minimum free energy pathways for activation, as
+  illustrated here for pentameric ligand-gated ion channels that are principal
+  to nervous system function and the actions of general anesthetics. We also
+  examine recent studies of local anesthetic and antiepileptic drug binding to
+  a sodium channel, revealing sites and pathways that may offer new targets for
+  drug development. Modern simulations thus offer a range of molecular-level
+  insights into ion channel function and modulation as a learning platform for
+  mechanistic discovery and drug development.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.chemrev.8b00630
+    \endverb
+    \field{issn}{0009-2665}
+    \field{number}{13}
+    \field{pages}{7737\bibrangedash 7832}
+    \field{title}{Atomistic {{Simulations}} of {{Membrane Ion Channel
+  Conduction}}, {{Gating}}, and {{Modulation}}}
+    \field{volume}{119}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/YX5M5KUN/acs.chemrev.html
+    \endverb
+    \field{journaltitle}{Chemical Reviews}
+    \field{month}{07}
+    \field{year}{2019}
   \endentry
 
   \entry{rashid2013}{article}{}
@@ -2633,63 +2837,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{roux1993}{article}{}
-    \name{author}{2}{}{%
-      {{hash=RB}{%
-         family={Roux},
-         familyi={R\bibinitperiod},
-         given={Benoit},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={Karplus},
-         familyi={K\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RBKM1}
-    \strng{fullhash}{RBKM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    The free energy profile of a Na+ ion along the axis of the gramicidin A
-  dimer channel is calculated by molecular dynamics simulations. A cylindrical
-  system is used that is based on a detailed atomic model of the gramicidin
-  dimer, which is solvated at both ends of the channel and surrounded by a
-  simplified model membrane. The entire system consists of 967 atoms and is
-  treated with cylindrical periodic boundary conditions. The gramicidin channel
-  was modeled from the right-handed head-to-head 0-helix dimer determined
-  experimentally by two-dimensional NMR. Simulations were made to estimate the
-  free energy profile in three regions: the transition from bulk-like solvation
-  to single file, the single-file region at the entrance of the channel, and
-  the intermonomer junction of the dimer channel. In each region, approximate
-  corrections are introduced to account for hysteresis effects in the
-  simulations. Binding sites are found at the extremities of the channel in
-  agreement with experiment. The principal energy barrier is at the entrance of
-  the channel in the single-file region. No large activation energy barrier is
-  introduced by the dehydration process, because the transformation from bulk
-  to single-file solvation is progressive and takes place over a distance of
-  5-6 A. The free energy simulation results obtained in this paper are joined
-  with those calculated from a periodic model of the interior of the pore to
-  construct an approximate free energy profile of the entire channel system.%
-    }
-    \verb{doi}
-    \verb 10.1021/ja00061a025
-    \endverb
-    \field{issn}{0002-7863, 1520-5126}
-    \field{number}{8}
-    \field{pages}{3250\bibrangedash 3262}
-    \field{shorttitle}{Ion Transport in the Gramicidin Channel}
-    \field{title}{Ion Transport in the Gramicidin Channel: Free Energy of the
-  Solvated Right-Handed Dimer in a Model Membrane}
-    \field{volume}{115}
-    \field{langid}{english}
-    \field{journaltitle}{Journal of the American Chemical Society}
-    \field{month}{04}
-    \field{year}{1993}
-  \endentry
-
   \entry{russell2021}{misc}{}
     \name{author}{1}{}{%
       {{hash=RJ}{%
@@ -2817,6 +2964,328 @@
     \field{year}{1994}
   \endentry
 
+  \entry{dubois2016}{article}{}
+    \name{author}{36}{}{%
+      {{hash=DB}{%
+         family={Dubois},
+         familyi={D\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Hampel},
+         familyi={H\bibinitperiod},
+         given={Harald},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FHH}{%
+         family={Feldman},
+         familyi={F\bibinitperiod},
+         given={Howard\bibnamedelima H.},
+         giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Scheltens},
+         familyi={S\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Aisen},
+         familyi={A\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Andrieu},
+         familyi={A\bibinitperiod},
+         given={Sandrine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bakardjian},
+         familyi={B\bibinitperiod},
+         given={Hovagim},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Benali},
+         familyi={B\bibinitperiod},
+         given={Habib},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bertram},
+         familyi={B\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Blennow},
+         familyi={B\bibinitperiod},
+         given={Kaj},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Broich},
+         familyi={B\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cavedo},
+         familyi={C\bibinitperiod},
+         given={Enrica},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Crutch},
+         familyi={C\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DJF}{%
+         family={Dartigues},
+         familyi={D\bibinitperiod},
+         given={Jean-Fran{\c c}ois},
+         giveni={J\bibinithyphendelim F\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Duyckaerts},
+         familyi={D\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Epelbaum},
+         familyi={E\bibinitperiod},
+         given={St{\'e}phane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FGB}{%
+         family={Frisoni},
+         familyi={F\bibinitperiod},
+         given={Giovanni\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gauthier},
+         familyi={G\bibinitperiod},
+         given={Serge},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Genthon},
+         familyi={G\bibinitperiod},
+         given={Remy},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GAA}{%
+         family={Gouw},
+         familyi={G\bibinitperiod},
+         given={Alida\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HMO}{%
+         family={Habert},
+         familyi={H\bibinitperiod},
+         given={Marie-Odile},
+         giveni={M\bibinithyphendelim O\bibinitperiod},
+      }}%
+      {{hash=HDM}{%
+         family={Holtzman},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kivipelto},
+         familyi={K\bibinitperiod},
+         given={Miia},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lista},
+         familyi={L\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MJL}{%
+         family={Molinuevo},
+         familyi={M\bibinitperiod},
+         given={Jos{\'e}-Luis},
+         giveni={J\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=OSE}{%
+         family={O'Bryant},
+         familyi={O\bibinitperiod},
+         given={Sid\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=RGD}{%
+         family={Rabinovici},
+         familyi={R\bibinitperiod},
+         given={Gil\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rowe},
+         familyi={R\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Salloway},
+         familyi={S\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SLS}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Lon\bibnamedelima S.},
+         giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sperling},
+         familyi={S\bibinitperiod},
+         given={Reisa},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Teichmann},
+         familyi={T\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CMC}{%
+         family={Carrillo},
+         familyi={C\bibinitperiod},
+         given={Maria\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cummings},
+         familyi={C\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JCR}{%
+         family={Jack},
+         familyi={J\bibinitperiod},
+         given={Cliff\bibnamedelima R.},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=P}{%
+         family={{Proceedings of the Meeting of the International Working Group
+  (IWG) and the American Alzheimer's Association on ``The Preclinical State of
+  AD''; July 23, 2015; Washington DC, USA}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Alzheimer Disease,Alzheimer's disease,Amyloid
+  PET,Animals,Asymptomatic,Biomarkers,Blood biomarkers,Brain,CSF
+  biomarkers,Diagnostic criteria,Disease
+  Progression,Genetics,Humans,MRI,Pathophysiology,Preclinical,Tau PET}
+    \strng{namehash}{DB+1}
+  \strng{fullhash}{DBHHFHHSPAPASBHBHBLBKBKCECSDJFDCESFGBGSGRGAAHMOHDMKMLSMJLOSERGDRCSSSLSSRTMCMCCJJCRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    During the past decade, a conceptual shift occurred in the field of
+  Alzheimer's disease (AD) considering the disease as a continuum. Thanks to
+  evolving biomarker research and substantial discoveries, it is now possible
+  to identify the disease even at the preclinical stage before the occurrence
+  of the first clinical symptoms. This preclinical stage of AD has become a
+  major research focus as the field postulates that early intervention may
+  offer the best chance of therapeutic success. To date, very little evidence
+  is established on this "silent" stage of the disease. A clarification is
+  needed about the definitions and lexicon, the limits, the natural history,
+  the markers of progression, and the ethical consequence of detecting the
+  disease at this asymptomatic stage. This article is aimed at addressing all
+  the different issues by providing for each of them an updated review of the
+  literature and evidence, with practical recommendations.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jalz.2016.02.002
+    \endverb
+    \field{issn}{1552-5279}
+    \field{number}{3}
+    \field{pages}{292\bibrangedash 323}
+    \field{shorttitle}{Preclinical {{Alzheimer}}'s Disease}
+    \field{title}{Preclinical {{Alzheimer}}'s Disease: {{Definition}}, Natural
+  History, and Diagnostic Criteria}
+    \field{volume}{12}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/HSUDDTR8/Dubois et al. - 2016 - Preclinical
+    \verb  Alzheimer's disease Definition, natur.pdf
+    \endverb
+    \field{journaltitle}{Alzheimer's \& Dementia: The Journal of the
+  Alzheimer's Association}
+    \field{month}{03}
+    \field{year}{2016}
+  \endentry
+
+  \entry{tsui2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TLC}{%
+         family={Tsui},
+         familyi={T\bibinitperiod},
+         given={Lap-Chee},
+         giveni={L\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dorfman},
+         familyi={D\bibinitperiod},
+         given={Ruslan},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Alternative Splicing,Animals,Cloning; Molecular,Cystic
+  Fibrosis,Cystic Fibrosis Transmembrane Conductance Regulator,Databases;
+  Genetic,Disease Models; Animal,Exons,Humans,Mice,Mutation,Promoter Regions;
+  Genetic,Terminology as Topic,Trans-Splicing,Transcription; Genetic}
+    \strng{namehash}{TLCDR1}
+    \strng{fullhash}{TLCDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The positional cloning of the gene responsible for cystic fibrosis (CF) was
+  the important first step in understanding the basic defect and
+  pathophysiology of the disease. This study aims to provide a historical
+  account of key developments as well as factors that contributed to the cystic
+  fibrosis transmembrane conductance regulator (CFTR) gene identification work.
+  A redefined gene structure based on the full sequence of the gene derived
+  from the Human Genome Project is presented, along with brief reviews of the
+  transcription regulatory sequences for the CFTR gene, the role of mRNA
+  splicing in gene regulation and CF disease, and, various related sequences in
+  the human genome and other species. Because CF mutations and
+  genotype-phenotype correlations are covered by our colleagues (Ferec C,
+  Cutting GR. 2012. Assessing the disease-liability of mutations in CFTR. Cold
+  Spring Harb Perspect Med doi: 10.1101/cshperspect.a009480), we only attempt
+  to provide an introduction of the CF mutation database here for reference
+  purposes.%
+    }
+    \verb{doi}
+    \verb 10.1101/cshperspect.a009472
+    \endverb
+    \field{issn}{2157-1422}
+    \field{number}{2}
+    \field{pages}{a009472}
+    \field{shorttitle}{The Cystic Fibrosis Gene}
+    \field{title}{The Cystic Fibrosis Gene: A Molecular Genetic Perspective}
+    \field{volume}{3}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/PUZ5R4DM/Tsui and Dorfman - 2013 - The cyst
+    \verb ic fibrosis gene a molecular genetic pers.pdf
+    \endverb
+    \field{journaltitle}{Cold Spring Harbor Perspectives in Medicine}
+    \field{month}{02}
+    \field{year}{2013}
+  \endentry
+
   \entry{depristo2005}{article}{}
     \name{author}{3}{}{%
       {{hash=DMA}{%
@@ -2869,6 +3338,24 @@
     \field{journaltitle}{Nature Reviews Genetics}
     \field{month}{09}
     \field{year}{2005}
+  \endentry
+
+  \entry{cftr2}{report}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The Hospital for Sick Children}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{Cftr2}
+    \field{title}{The {{Clinical}} and {{Functional TRanslation}} of {{CFTR}}
+  ({{CFTR2}})}
+    \field{type}{techreport}
+    \field{year}{2020}
   \endentry
 
   \entry{csanady2019a}{article}{}
@@ -3631,55 +4118,6 @@
     }
     \field{month}{02}
     \field{year}{2020}
-  \endentry
-
-  \entry{aidley1996}{book}{}
-    \name{author}{2}{}{%
-      {{hash=ADJ}{%
-         family={Aidley},
-         familyi={A\bibinitperiod},
-         given={David\bibnamedelima J.},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=SPR}{%
-         family={Stanfield},
-         familyi={S\bibinitperiod},
-         given={Peter\bibnamedelima R.},
-         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Cambridge University Press}}%
-    }
-    \keyw{Science / Chemistry / General,Science / Life Sciences /
-  Biochemistry,Science / Life Sciences / Biophysics,Science / Life Sciences /
-  Molecular Biology,Science / Life Sciences / Neuroscience,Science / Life
-  Sciences / Zoology / General}
-    \strng{namehash}{ADJSPR1}
-    \strng{fullhash}{ADJSPR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    Ion channels are crucial components of living cells. They are situated in
-  the membranes of the cell and allow particular ions to pass from one side of
-  the membrane to the other. In recent years the patch clamp technique has
-  allowed the activity of individual channels to be measured, and recombinant
-  DNA technology has revealed fascinating detail on channel structure.
-  Together, these technical advances have produced a great flowering of
-  knowledge and understanding about the subject, itself leading to further
-  breakthroughs in science and medicine. Ion Channels provides an introduction
-  to this scientific endeavour. It emphasizes the molecular structure of
-  channels as determined by gene cloning technology. This molecular approach
-  illuminates discussions of the permeability and selectivity of channels,
-  their gating and modulation, their responses to drugs and toxins and the
-  human diseases caused when they do not function properly.%
-    }
-    \field{isbn}{978-0-521-49882-1}
-    \field{shorttitle}{Ion {{Channels}}}
-    \field{title}{Ion {{Channels}}: {{Molecules}} in {{Action}}}
-    \field{langid}{english}
-    \field{month}{08}
-    \field{year}{1996}
   \endentry
 
   \entry{marion2013}{article}{}
@@ -7808,93 +8246,6 @@
     }
     \field{month}{01}
     \field{year}{1988}
-  \endentry
-
-  \entry{flood2019}{article}{}
-    \name{author}{5}{}{%
-      {{hash=FE}{%
-         family={Flood},
-         familyi={F\bibinitperiod},
-         given={Emelie},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=BC}{%
-         family={Boiteux},
-         familyi={B\bibinitperiod},
-         given={C{\'e}line},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=LB}{%
-         family={Lev},
-         familyi={L\bibinitperiod},
-         given={Bogdan},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=VI}{%
-         family={Vorobyov},
-         familyi={V\bibinitperiod},
-         given={Igor},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=ATW}{%
-         family={Allen},
-         familyi={A\bibinitperiod},
-         given={Toby\bibnamedelima W.},
-         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Chemical Society}}%
-    }
-    \keyw{Cell Membrane,Humans,Hydrophobic and Hydrophilic Interactions,Ion
-  Channel Gating,Ion Channels,Models; Chemical,Models; Molecular,Molecular
-  Dynamics Simulation,Pharmaceutical Preparations,Protein
-  Conformation,Thermodynamics}
-    \strng{namehash}{FE+1}
-    \strng{fullhash}{FEBCLBVIATW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Membrane ion channels are the fundamental electrical components in the
-  nervous system. Recent developments in X-ray crystallography and cryo-EM
-  microscopy have revealed what these proteins look like in atomic detail but
-  do not tell us how they function. Molecular dynamics simulations have
-  progressed to the point that we can now simulate realistic molecular
-  assemblies to produce quantitative calculations of the thermodynamic and
-  kinetic quantities that control function. In this review, we summarize the
-  state of atomistic simulation methods for ion channels to understand their
-  conduction, activation, and drug modulation mechanisms. We are at a
-  crossroads in atomistic simulation, where long time scale observation can
-  provide unbiased exploration of mechanisms, supplemented by biased free
-  energy methodologies. We illustrate the use of these approaches to describe
-  ion conduction and selectivity in voltage-gated sodium and acid-sensing ion
-  channels. Studies of channel gating present a significant challenge, as
-  activation occurs on longer time scales. Enhanced sampling approaches can
-  ensure convergence on minimum free energy pathways for activation, as
-  illustrated here for pentameric ligand-gated ion channels that are principal
-  to nervous system function and the actions of general anesthetics. We also
-  examine recent studies of local anesthetic and antiepileptic drug binding to
-  a sodium channel, revealing sites and pathways that may offer new targets for
-  drug development. Modern simulations thus offer a range of molecular-level
-  insights into ion channel function and modulation as a learning platform for
-  mechanistic discovery and drug development.%
-    }
-    \verb{doi}
-    \verb 10.1021/acs.chemrev.8b00630
-    \endverb
-    \field{issn}{0009-2665}
-    \field{number}{13}
-    \field{pages}{7737\bibrangedash 7832}
-    \field{title}{Atomistic {{Simulations}} of {{Membrane Ion Channel
-  Conduction}}, {{Gating}}, and {{Modulation}}}
-    \field{volume}{119}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/YX5M5KUN/acs.chemrev.html
-    \endverb
-    \field{journaltitle}{Chemical Reviews}
-    \field{month}{07}
-    \field{year}{2019}
   \endentry
 
   \entry{werner2012}{article}{}
@@ -12938,24 +13289,6 @@
     \field{journaltitle}{Journal of Biological Chemistry}
     \field{month}{03}
     \field{year}{2022}
-  \endentry
-
-  \entry{cftr2}{report}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The Hospital for Sick Children}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{shorttitle}{Cftr2}
-    \field{title}{The {{Clinical}} and {{Functional TRanslation}} of {{CFTR}}
-  ({{CFTR2}})}
-    \field{type}{techreport}
-    \field{year}{2020}
   \endentry
 
   \entry{mihalyi2020}{article}{}
@@ -22129,6 +22462,152 @@
     \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/febs.13752%
     }
     \field{year}{2016}
+  \endentry
+
+  \entry{negoda2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NA}{%
+         family={Negoda},
+         familyi={N\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CEA}{%
+         family={Cowley},
+         familyi={C\bibinitperiod},
+         given={Elizabeth\bibnamedelima A.},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EHY}{%
+         family={El\bibnamedelima Hiani},
+         familyi={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Yassine},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Birkhauser Verlag AG}}%
+    }
+    \keyw{Channel structure,Chloride channel,Conformational change,Cysteine
+  cross-linking,Cystic fibrosis transmembrane conductance regulato,Potentiator}
+    \strng{namehash}{NA+1}
+    \strng{fullhash}{NACEAEHYLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis can be treated by potentiators, drugs that interact
+  directly with the cystic fibrosis transmembrane conductance regulator (CFTR)
+  Cl- channel to increase its open probability. These substances likely target
+  key conformational changes occurring during channel opening and closing,
+  however, the molecular bases of these conformational changes, and their
+  susceptibility to manipulation are poorly understood. We have used patch
+  clamp recording to identify changes in the three-dimensional organization of
+  the extracellularly accessible parts of the CFTR protein during channel
+  opening and closing. State-dependent formation of both disulfide bonds and
+  Cd2+ bridges occurred for pairs of cysteine side-chains introduced into the
+  extreme extracellular ends of transmembrane helices (TMs) 1, 6, and 12.
+  Between each of these three TMs, we found that both disulfide bonds and metal
+  bridges formed preferentially or exclusively in the closed state and that
+  these inter-TM cross-links stabilized the closed state. These results
+  indicate that the extracellular ends of these TMs are close together when the
+  channel is closed and that they separate from each other when the channel
+  opens. These findings identify for the first time key conformational changes
+  in the extracellular parts of the CFTR protein that can potentially be
+  manipulated to control channel activity.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00018-018-2777-0
+    \endverb
+    \field{issn}{14209071}
+    \field{number}{16}
+    \field{pages}{3027\bibrangedash 3038}
+    \field{title}{Conformational Change of the Extracellular Parts of the
+  {{CFTR}} Protein during Channel Gating}
+    \field{volume}{75}
+    \field{journaltitle}{Cellular and Molecular Life Sciences}
+    \field{month}{08}
+    \field{year}{2018}
+  \endentry
+
+  \entry{negoda2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NA}{%
+         family={Negoda},
+         familyi={N\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HMS}{%
+         family={Hogan},
+         familyi={H\bibinitperiod},
+         given={Mairin\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CEA}{%
+         family={Cowley},
+         familyi={C\bibinitperiod},
+         given={Elizabeth\bibnamedelima A.},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Birkhauser Verlag AG}}%
+    }
+    \keyw{Channel gating,Channel structure,Chloride channel,Cystic fibrosis
+  transmembrane conductance regulato,Selectivity filter,Substituted cysteine
+  accessibility mutagenesis}
+    \strng{namehash}{NA+1}
+    \strng{fullhash}{NAHMSCEALP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Our molecular understanding of the cystic fibrosis transmembrane
+  conductance regulator (CFTR)\textemdash the chloride channel that is mutated
+  in cystic fibrosis\textemdash has been greatly enhanced by a number of recent
+  atomic-level structures of the protein in different conformations. One
+  surprising aspect of these structures was the finding that the eighth of
+  CFTR's 12 membrane-spanning segments (TM8) appeared close to the channel
+  pore. Although functional evidence supports a role for other TMs in forming
+  the pore, such a role for TM8 has not previously been reported. Here, we use
+  patch-clamp recording to investigate the functional role of TM8. Using
+  substituted cysteine accessibility mutagenesis, we find that three amino acid
+  side-chains in TM8 (Y913, Y914, and Y917) are exposed to the extracellular,
+  but not the intracellular, solution. Cysteine cross-linking experiments
+  suggest that Y914 and Y917 are in close proximity to L102 (TM1) and F337
+  (TM6), respectively, suggesting that TM8 contributes to the narrow
+  selectivity filter region of the pore. Different amino acid substitutions
+  suggest that Y914, and to a lesser extent Y917, play important roles in
+  controlling anion flux through the open channel. Furthermore, substitutions
+  that reduce side-chain volume at Y917 severely affect channel gating,
+  resulting in a channel with an extremely unstable open state. Our results
+  suggest that pore-lining TM8 is among the most important TMs controlling the
+  permeation phenotype of the CFTR channel, and also that movement of TM8 may
+  be critically involved in channel gating.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00018-019-03043-2
+    \endverb
+    \field{issn}{14209071}
+    \field{number}{12}
+    \field{pages}{2411\bibrangedash 2423}
+    \field{title}{Contribution of the Eighth Transmembrane Segment to the
+  Function of the {{CFTR}} Chloride Channel Pore}
+    \field{volume}{76}
+    \field{journaltitle}{Cellular and Molecular Life Sciences}
+    \field{month}{06}
+    \field{year}{2019}
   \endentry
 
   \entry{kogan2003}{article}{}
