@@ -102,7 +102,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-130.57438"
+     inkscape:cx="862.28276"
      inkscape:cy="556.0246"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -279,5 +279,68 @@
          y="59.967403"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan2157">Membrane</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.29966545px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33249164"
+       x="104.78085"
+       y="121.6818"
+       id="text1363-3"><tspan
+         sodipodi:role="line"
+         x="106.89464"
+         y="121.6818"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan1365-6">32 Amino </tspan><tspan
+         sodipodi:role="line"
+         x="104.78085"
+         y="138.30638"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan890">Acids</tspan><tspan
+         sodipodi:role="line"
+         x="104.78085"
+         y="154.93097"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan892">~500 atoms</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.29966545px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33249164"
+       x="215.67918"
+       y="121.6818"
+       id="text1363-3-7"><tspan
+         sodipodi:role="line"
+         x="217.79297"
+         y="121.6818"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan1365-6-5">388 Amino </tspan><tspan
+         sodipodi:role="line"
+         x="215.67918"
+         y="138.3064"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan890-3">Acids</tspan><tspan
+         sodipodi:role="line"
+         x="215.67918"
+         y="154.93097"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan892-5">~6000 atoms</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.29966545px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33249164"
+       x="256.13409"
+       y="210.1163"
+       id="text1363-3-7-6"><tspan
+         sodipodi:role="line"
+         x="258.24786"
+         y="210.1163"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan1365-6-5-2">1480 Amino </tspan><tspan
+         sodipodi:role="line"
+         x="256.13409"
+         y="226.74089"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan890-3-9">Acids</tspan><tspan
+         sodipodi:role="line"
+         x="256.13409"
+         y="243.36546"
+         style="text-align:center;text-anchor:middle;stroke-width:0.33249164"
+         id="tspan892-5-1">~24000 atoms</tspan></text>
   </g>
 </svg>
