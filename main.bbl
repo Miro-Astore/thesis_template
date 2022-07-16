@@ -134,6 +134,74 @@
     \field{year}{2012}
   \endentry
 
+  \entry{pollard2016}{book}{}
+    \name{author}{4}{}{%
+      {{hash=PTD}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={Thomas\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=EWC}{%
+         family={Earnshaw},
+         familyi={E\bibinitperiod},
+         given={William\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={{Lippincott-Schwartz}},
+         familyi={L\bibinitperiod},
+         given={Jennifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JG}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Graham},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Elsevier Health Sciences}}%
+    }
+    \keyw{Medical / Education \& Training,Medical / General}
+    \strng{namehash}{PTD+1}
+    \strng{fullhash}{PTDEWCLJJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The much-anticipated 3rd edition of Cell Biology delivers comprehensive,
+  clearly written, and richly illustrated content to today's students, all in a
+  user-friendly format. Relevant to both research and clinical practice, this
+  rich resource covers key principles of cellular function and uses them to
+  explain how molecular defects lead to cellular dysfunction and cause human
+  disease. Concise text and visually amazing graphics simplify complex
+  information and help readers make the most of their study time. Clearly
+  written format incorporates rich illustrations, diagrams, and charts. Uses
+  real examples to illustrate key cell biology concepts. Includes beneficial
+  cell physiology coverage. Clinically oriented text relates cell biology to
+  pathophysiology and medicine. Takes a mechanistic approach to molecular
+  processes. Major new didactic chapter flow leads with the latest on genome
+  organization, gene expression and RNA processing. Boasts exciting new content
+  including the evolutionary origin of eukaryotes, super resolution
+  fluorescence microscopy, cryo-electron microscopy, gene editing by
+  CRISPR/Cas9, contributions of high throughput DNA sequencing to understand
+  genome organization and gene expression, microRNAs, IncRNAs, membrane-shaping
+  proteins, organelle-organelle contact sites, microbiota, autophagy, ERAD,
+  motor protein mechanisms, stem cells, and cell cycle regulation. Features
+  specially expanded coverage of genome sequencing and regulation, endocytosis,
+  cancer genomics, the cytoskeleton, DNA damage response, necroptosis, and RNA
+  processing. Includes hundreds of new and updated diagrams and micrographs,
+  plus fifty new protein and RNA structures to explain molecular mechanisms in
+  unprecedented detail.%
+    }
+    \field{isbn}{978-0-323-40002-2}
+    \field{title}{Cell {{Biology E-Book}}}
+    \field{langid}{english}
+    \field{month}{11}
+    \field{year}{2016}
+  \endentry
+
   \entry{dawkins1989}{book}{}
     \name{author}{1}{}{%
       {{hash=DR}{%
@@ -296,6 +364,31 @@
     \field{journaltitle}{Trends in Biochemical Sciences}
     \field{month}{06}
     \field{year}{2020}
+  \endentry
+
+  \entry{goodsell_nerve}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GDS}{%
+         family={Goodsell},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDS1}
+    \strng{fullhash}{GDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Myelin forms an insulating sheath around nerve axons%
+    }
+  \field{howpublished}{https://pdb101.rcsb.org/sci-art/goodsell-gallery/myelin}
+    \field{shorttitle}{{{PDB101}}}
+    \field{title}{{{PDB101}}: {{Goodsell Gallery}}: {{Myelin}}}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/6R3D96HD/myelin.html
+    \endverb
+    \field{journaltitle}{RCSB: PDB-101}
   \endentry
 
   \entry{chen2018}{book}{}
@@ -606,45 +699,6 @@
   Mathematical, Physical and Engineering Sciences}
     \field{month}{03}
     \field{year}{2016}
-  \endentry
-
-  \entry{watson2010}{book}{}
-    \name{author}{1}{}{%
-      {{hash=WJD}{%
-         family={Watson},
-         familyi={W\bibinitperiod},
-         given={James\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Vintage Books}}%
-    }
-    \keyw{Biography \& Autobiography / Personal Memoirs,Biography \&
-  Autobiography / Science \& Technology,Science / Life Sciences / Molecular
-  Biology}
-    \strng{namehash}{WJD1}
-    \strng{fullhash}{WJD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    From Nobel Prize-winning scientist James D. Watson, a living legend for his
-  work unlocking the structure of DNA, comes this candid and entertaining
-  memoir, filled with practical advice for those starting out their academic
-  careers. In Avoid Boring People, Watson lays down a life's wisdom for getting
-  ahead in a competitive world. Witty and uncompromisingly honest, he shares
-  his thoughts on how young scientists should choose the projects that will
-  shape their careers, the supreme importance of collegiality, and dealing with
-  competitors within the same institution. It's an irreverent romp through
-  Watson's colorful career and an indispensable guide to anyone interested in
-  nurturing the life of the mind.%
-    }
-    \field{isbn}{978-0-375-72714-6}
-    \field{shorttitle}{Avoid {{Boring People}}}
-    \field{title}{Avoid {{Boring People}}: {{Lessons}} from a {{Life}} in
-  {{Science}}}
-    \field{langid}{english}
-    \field{year}{2010}
   \endentry
 
   \entry{picker2022}{thesis}{}
@@ -1403,6 +1457,9 @@
     }
   \field{howpublished}{https://ebrary.net/196552/health/hodgkin\_huxley\_model}
     \field{title}{The {{Hodgkin}}\textendash{{Huxley Model}}}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/9BL4G5PT/hodgkin_huxley_model.html
+    \endverb
     \field{journaltitle}{Ebrary}
   \endentry
 
@@ -1568,6 +1625,335 @@
     \field{journaltitle}{The Journal of Physiology}
     \field{month}{04}
     \field{year}{1952}
+  \endentry
+
+  \entry{sham2003}{article}{}
+    \name{author}{8}{}{%
+      {{hash=SSS}{%
+         family={Sham},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Shobana},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TLE}{%
+         family={Townsley},
+         familyi={T\bibinitperiod},
+         given={L.\bibnamedelima E.},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=JJB}{%
+         family={Jordan},
+         familyi={J\bibinitperiod},
+         given={J.\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=FJQ}{%
+         family={Fernandez},
+         familyi={F\bibinitperiod},
+         given={J.\bibnamedelima Q.},
+         giveni={J\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=AOS}{%
+         family={Andersen},
+         familyi={A\bibinitperiod},
+         given={O.\bibnamedelima S.},
+         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GDV}{%
+         family={Greathouse},
+         familyi={G\bibinitperiod},
+         given={D.\bibnamedelima V.},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=HJF}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Chemical Society}}%
+    }
+    \strng{namehash}{SSS+1}
+    \strng{fullhash}{SSSSSTLEJJBFJQAOSGDVHJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    To further investigate the effect of single amino acid substitution on the
+  structure and function of the gramicidin channel, an analogue of gramicidin A
+  (GA) has been synthesized in which Trp15 is replaced by Gly in the critical
+  aqueous interface and cation binding region. The structure of Gly15-GA
+  incorporated into SDS micelles has been determined using a combination of
+  2D-NMR spectroscopy and molecular modeling. Like the parent GA, Gly15-GA
+  forms a dimeric channel composed of two single-stranded, right-handed
+  {$\beta$}6.3-helices joined by hydrogen bonds between their N-termini. The
+  replacement of Trp15 by Gly does not have a significant effect on backbone
+  structure or side chain conformations with the exception of Trp11 in which
+  the indole ring is rotated away from the channel axis. Measurement of the
+  equilibrium binding constants and {$\Delta$}G for the binding of monovalent
+  cations to GA and Gly15-GA channels incorporated into PC vesicles using 205Tl
+  NMR spectroscopy shows that monovalent cations bind much more weakly to the
+  Gly15-GA channel entrance than to GA channels. Utilizing the magnetization
+  inversion transfer NMR technique, the transport of Na+ ions through GA and
+  Gly15-GA channels incorporated into PC/PG vesicles has been investigated. The
+  Gly15 substitution produces an increase in the activation enthalpy of
+  transport and thus a significant decrease in the transport rate of the Na+
+  ion is observed. The single-channel appearances show that the conducting
+  channels have a single, well-defined structure. Consistent with the NMR
+  results, the single-channel conductances are reduced by 30\% and the
+  lifetimes by 70\%. It is concluded that the decrease in cation binding,
+  transport, and conductance in Gly15-GA results from the removal of the Trp15
+  dipole and, to a lesser extent, the change in orientation of Trp11.%
+    }
+    \verb{doi}
+    \verb 10.1021/bi0204286
+    \endverb
+    \field{issn}{0006-2960}
+    \field{number}{6}
+    \field{pages}{1401\bibrangedash 1409}
+    \field{title}{The {{Structure}}, {{Cation Binding}}, {{Transport}}, and
+  {{Conductance}} of {{Gly15-Gramicidin A Incorporated}} into {{SDS Micelles}}
+  and {{PC}}/{{PG Vesicles}},}
+    \field{volume}{42}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/GYYUNRRN/bi0204286.html
+    \endverb
+    \field{journaltitle}{Biochemistry}
+    \field{month}{02}
+    \field{year}{2003}
+  \endentry
+
+  \entry{doyle1998}{article}{}
+    \name{author}{8}{}{%
+      {{hash=DDA}{%
+         family={Doyle},
+         familyi={D\bibinitperiod},
+         given={Declan\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CJM}{%
+         family={Cabral},
+         familyi={C\bibinitperiod},
+         given={Jo{\~a}o\bibnamedelima Morais},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PRA}{%
+         family={Pfuetzner},
+         familyi={P\bibinitperiod},
+         given={Richard\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kuo},
+         familyi={K\bibinitperiod},
+         given={Anling},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GJM}{%
+         family={Gulbis},
+         familyi={G\bibinitperiod},
+         given={Jacqueline\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CSL}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Steven\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CBT}{%
+         family={Chait},
+         familyi={C\bibinitperiod},
+         given={Brian\bibnamedelima T.},
+         giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={MacKinnon},
+         familyi={M\bibinitperiod},
+         given={Roderick},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Association for the Advancement of Science}}%
+    }
+    \strng{namehash}{DDA+1}
+    \strng{fullhash}{DDACJMPRAKAGJMCSLCBTMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1126/science.280.5360.69
+    \endverb
+    \field{number}{5360}
+    \field{pages}{69\bibrangedash 77}
+    \field{shorttitle}{The {{Structure}} of the {{Potassium Channel}}}
+    \field{title}{The {{Structure}} of the {{Potassium Channel}}: {{Molecular
+  Basis}} of {{K}}+ {{Conduction}} and {{Selectivity}}}
+    \field{volume}{280}
+    \field{journaltitle}{Science}
+    \field{month}{04}
+    \field{year}{1998}
+  \endentry
+
+  \entry{zhang2018a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Fangyu},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{National Academy of Sciences}}%
+    }
+    \keyw{ABC transporter,Adenosine Triphosphate,Animals,anion channel,Anion
+  channel,Cell Line,cryo-EM,Cryo-EM,Cryoelectron Microscopy,Cyclic
+  AMP-Dependent Protein Kinases,Cystic Fibrosis,Cystic Fibrosis Transmembrane
+  Conductance Regulator,HEK293 Cells,human CFTR,Human CFTR,Humans,Ion Channel
+  Gating,Ion Transport,Molecular Structure,Mutation,Phosphorylation,Zebrafish}
+    \strng{namehash}{ZZ+1}
+    \strng{fullhash}{ZZLFCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR) is an anion
+  channel important in maintaining proper functions of the lung, pancreas, and
+  intestine. The activity of CFTR is regulated by ATP and protein kinase
+  A-dependent phosphorylation. To understand the conformational changes
+  elicited by phosphorylation and ATP binding, we present here the structure of
+  phosphorylated, ATP-bound human CFTR, determined by cryoelectron microscopy
+  to 3.2-\AA{} resolution. This structure reveals the position of the R domain
+  after phosphorylation. By comparing the structures of human CFTR and
+  zebrafish CFTR determined under the same condition, we identified common
+  features essential to channel gating. The differences in their structures
+  indicate plasticity permitted in evolution to achieve the same function.
+  Finally, the structure of CFTR provides a better understanding of why the
+  G178R, R352Q, L927P, and G970R/D mutations would impede conformational
+  changes of CFTR and lead to cystic fibrosis.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1815287115
+    \endverb
+    \field{issn}{1091-6490}
+    \field{number}{50}
+    \field{pages}{12757\bibrangedash 12762}
+    \field{title}{Molecular Structure of the {{ATP-bound}}, Phosphorylated
+  Human {{CFTR}}.}
+    \field{volume}{115}
+    \field{langid}{english}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{month}{12}
+    \field{year}{2018}
+  \endentry
+
+  \entry{roux1993}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RB}{%
+         family={Roux},
+         familyi={R\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Karplus},
+         familyi={K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RBKM1}
+    \strng{fullhash}{RBKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The free energy profile of a Na+ ion along the axis of the gramicidin A
+  dimer channel is calculated by molecular dynamics simulations. A cylindrical
+  system is used that is based on a detailed atomic model of the gramicidin
+  dimer, which is solvated at both ends of the channel and surrounded by a
+  simplified model membrane. The entire system consists of 967 atoms and is
+  treated with cylindrical periodic boundary conditions. The gramicidin channel
+  was modeled from the right-handed head-to-head 0-helix dimer determined
+  experimentally by two-dimensional NMR. Simulations were made to estimate the
+  free energy profile in three regions: the transition from bulk-like solvation
+  to single file, the single-file region at the entrance of the channel, and
+  the intermonomer junction of the dimer channel. In each region, approximate
+  corrections are introduced to account for hysteresis effects in the
+  simulations. Binding sites are found at the extremities of the channel in
+  agreement with experiment. The principal energy barrier is at the entrance of
+  the channel in the single-file region. No large activation energy barrier is
+  introduced by the dehydration process, because the transformation from bulk
+  to single-file solvation is progressive and takes place over a distance of
+  5-6 A. The free energy simulation results obtained in this paper are joined
+  with those calculated from a periodic model of the interior of the pore to
+  construct an approximate free energy profile of the entire channel system.%
+    }
+    \verb{doi}
+    \verb 10.1021/ja00061a025
+    \endverb
+    \field{issn}{0002-7863, 1520-5126}
+    \field{number}{8}
+    \field{pages}{3250\bibrangedash 3262}
+    \field{shorttitle}{Ion Transport in the Gramicidin Channel}
+    \field{title}{Ion Transport in the Gramicidin Channel: Free Energy of the
+  Solvated Right-Handed Dimer in a Model Membrane}
+    \field{volume}{115}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of the American Chemical Society}
+    \field{month}{04}
+    \field{year}{1993}
+  \endentry
+
+  \entry{russell2021}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RJ}{%
+         family={Russell},
+         familyi={R\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJ1}
+    \strng{fullhash}{RJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Life sciences computational research has long been dominated by statistics
+  and parallel processing more than traditional HPC. Think gene sequencing and
+  variant calling. Mechanistic simulation and modeling has played a much
+  smaller role though that's changing. An exception is the Anton line of...%
+    }
+  \field{howpublished}{https://www.hpcwire.com/2021/09/01/anton-3-is-a-fire-breathing-molecular-simulation-beast/}
+    \field{title}{Anton 3 {{Is}} a '{{Fire-Breathing}}' {{Molecular Simulation
+  Beast}}}
+    \field{langid}{american}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/VLAYFN9X/anton-3-is-a-fire-breathing-molecu
+    \verb lar-simulation-beast.html
+    \endverb
+    \field{journaltitle}{HPCwire}
+    \field{month}{09}
+    \field{year}{2021}
   \endentry
 
   \entry{sansom1991}{article}{}
@@ -1751,63 +2137,6 @@
     \field{journaltitle}{The Journal of Physical Chemistry}
     \field{month}{06}
     \field{year}{1991}
-  \endentry
-
-  \entry{roux1993}{article}{}
-    \name{author}{2}{}{%
-      {{hash=RB}{%
-         family={Roux},
-         familyi={R\bibinitperiod},
-         given={Benoit},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={Karplus},
-         familyi={K\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RBKM1}
-    \strng{fullhash}{RBKM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    The free energy profile of a Na+ ion along the axis of the gramicidin A
-  dimer channel is calculated by molecular dynamics simulations. A cylindrical
-  system is used that is based on a detailed atomic model of the gramicidin
-  dimer, which is solvated at both ends of the channel and surrounded by a
-  simplified model membrane. The entire system consists of 967 atoms and is
-  treated with cylindrical periodic boundary conditions. The gramicidin channel
-  was modeled from the right-handed head-to-head 0-helix dimer determined
-  experimentally by two-dimensional NMR. Simulations were made to estimate the
-  free energy profile in three regions: the transition from bulk-like solvation
-  to single file, the single-file region at the entrance of the channel, and
-  the intermonomer junction of the dimer channel. In each region, approximate
-  corrections are introduced to account for hysteresis effects in the
-  simulations. Binding sites are found at the extremities of the channel in
-  agreement with experiment. The principal energy barrier is at the entrance of
-  the channel in the single-file region. No large activation energy barrier is
-  introduced by the dehydration process, because the transformation from bulk
-  to single-file solvation is progressive and takes place over a distance of
-  5-6 A. The free energy simulation results obtained in this paper are joined
-  with those calculated from a periodic model of the interior of the pore to
-  construct an approximate free energy profile of the entire channel system.%
-    }
-    \verb{doi}
-    \verb 10.1021/ja00061a025
-    \endverb
-    \field{issn}{0002-7863, 1520-5126}
-    \field{number}{8}
-    \field{pages}{3250\bibrangedash 3262}
-    \field{shorttitle}{Ion Transport in the Gramicidin Channel}
-    \field{title}{Ion Transport in the Gramicidin Channel: Free Energy of the
-  Solvated Right-Handed Dimer in a Model Membrane}
-    \field{volume}{115}
-    \field{langid}{english}
-    \field{journaltitle}{Journal of the American Chemical Society}
-    \field{month}{04}
-    \field{year}{1993}
   \endentry
 
   \entry{allen2003}{article}{}
@@ -2058,6 +2387,72 @@
     \field{journaltitle}{Quarterly Reviews of Biophysics}
     \field{month}{11}
     \field{year}{2001}
+  \endentry
+
+  \entry{liou2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LJW}{%
+         family={Liou},
+         familyi={L\bibinitperiod},
+         given={Je-Wen},
+         giveni={J\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=HYJ}{%
+         family={Hung},
+         familyi={H\bibinitperiod},
+         given={Yu-Jiun},
+         giveni={Y\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=YCH}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Chin-Hao},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=CYC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yi-Cheng},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJW+1}
+    \strng{fullhash}{LJWHYJYCHCYC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Gramicidin A is an antimicrobial peptide that destroys gram-positive
+  bacteria. The bactericidal mechanism of antimicrobial peptides has been
+  linked to membrane permeation and metabolism disruption as well as
+  interruption of DNA and protein functions. However, the exact bacterial
+  killing mechanism of gramicidin A is not clearly understood. In the present
+  study, we examined the antimicrobial activity of gramicidin A on
+  Staphylococcus aureus using biochemical and biophysical methods, including
+  hydroxyl radical and NAD+/NADH cycling assays, atomic force microscopy, and
+  Fourier transform infrared spectroscopy. Gramicidin A induced membrane
+  permeabilization and changed the composition of the membrane. The morphology
+  of Staphylococcus aureus during gramicidin A destruction was divided into
+  four stages: pore formation, water permeability, bacterial flattening, and
+  lysis. Changes in membrane composition included the destruction of membrane
+  lipids, proteins, and carbohydrates. Most interestingly, we demonstrated that
+  gramicidin A not only caused membrane permeabilization but also induced the
+  formation of hydroxyl radicals, which are a possible end product of the
+  transient depletion of NADH from the tricarboxylic acid cycle. The latter may
+  be the main cause of complete Staphylococcus aureus killing. This new finding
+  may provide insight into the underlying bactericidal mechanism of gA.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pone.0117065
+    \endverb
+    \field{issn}{1932-6203}
+    \field{number}{1}
+    \field{pages}{e0117065}
+    \field{title}{The {{Antimicrobial Activity}} of {{Gramicidin A Is
+  Associated}} with {{Hydroxyl Radical Formation}}}
+    \field{volume}{10}
+    \field{journaltitle}{PLoS ONE}
+    \field{month}{01}
+    \field{year}{2015}
   \endentry
 
   \entry{flood2019}{article}{}
@@ -2425,6 +2820,366 @@
     \field{year}{2021}
   \endentry
 
+  \entry{chesler2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CAT}{%
+         family={Chesler},
+         familyi={C\bibinitperiod},
+         given={Alexander\bibnamedelima T},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Szczot},
+         familyi={S\bibinitperiod},
+         given={Marcin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{eLife Sciences Publications, Ltd}}%
+    }
+    \keyw{cryoEM,mechanosensitivity,piezo ion channels,somatosensation,vascular
+  system}
+    \strng{namehash}{CATSM1}
+    \strng{fullhash}{CATSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Near atomic-resolution structures have provided insights into the
+  mechanisms by which the Piezo1 ion channel senses and responds to mechanical
+  stimuli.%
+    }
+    \verb{doi}
+    \verb 10.7554/eLife.34396
+    \endverb
+    \field{issn}{2050-084X}
+    \field{pages}{e34396}
+    \field{title}{Portraits of a Pressure Sensor}
+    \field{volume}{7}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/2STARXQW/Chesler and Szczot - 2018 - Portra
+    \verb its of a pressure sensor.pdf
+    \endverb
+    \field{journaltitle}{eLife}
+    \field{month}{01}
+    \field{year}{2018}
+  \endentry
+
+  \entry{castillo2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CK}{%
+         family={Castillo},
+         familyi={C\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={{Diaz-Franulic}},
+         familyi={D\bibinitperiod},
+         given={Ignacio},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Canan},
+         familyi={C\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={{Gonzalez-Nilo}},
+         familyi={G\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Latorre},
+         familyi={L\bibinitperiod},
+         given={Ramon},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CK+1}
+    \strng{fullhash}{CKDICJGFLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1478-3975/aa9a6f
+    \endverb
+    \field{issn}{1478-3975}
+    \field{number}{2}
+    \field{pages}{021001}
+    \field{title}{Thermally Activated {{TRP}} Channels: Molecular Sensors for
+  Temperature Detection}
+    \field{volume}{15}
+    \field{journaltitle}{Physical Biology}
+    \field{month}{01}
+    \field{year}{2018}
+  \endentry
+
+  \entry{kingwell2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KK}{%
+         family={Kingwell},
+         familyi={K\bibinitperiod},
+         given={Katie},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Drug discovery}
+    \strng{namehash}{KK1}
+    \strng{fullhash}{KK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Despite compelling genetic validation, drug developers are struggling to
+  unlock the therapeutic promise of the Nav1.7 sodium channel as a pain
+  target.%
+    }
+    \verb{doi}
+    \verb 10.1038/d41573-019-00065-0
+    \endverb
+    \field{number}{5}
+    \field{pages}{321\bibrangedash 323}
+    \field{title}{Nav1.7 Withholds Its Pain Potential}
+    \field{volume}{18}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/BWCFCM2I/Kingwell - 2019 - Nav1.7 withholds
+    \verb  its pain potential.pdf;/home/miro/Zotero/storage/NSC8CC68/d41573-019
+    \verb -00065-0.html
+    \endverb
+    \field{journaltitle}{Nature Reviews Drug Discovery}
+    \field{annotation}{%
+    Bandiera\_abtest: a Cg\_type: News Subject\_term: Drug discovery%
+    }
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
+
+  \entry{kweon2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KHJ}{%
+         family={Kweon},
+         familyi={K\bibinitperiod},
+         given={Hae-Jin},
+         giveni={H\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=SBC}{%
+         family={Suh},
+         familyi={S\bibinitperiod},
+         given={Byung-Chang},
+         giveni={B\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KHJSBC1}
+    \strng{fullhash}{KHJSBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.5483/BMBRep.2013.46.6.121
+    \endverb
+    \field{issn}{1976-6696}
+    \field{number}{6}
+    \field{pages}{295\bibrangedash 304}
+    \field{shorttitle}{Acid-Sensing Ion Channels ({{ASICs}})}
+    \field{title}{Acid-Sensing Ion Channels ({{ASICs}}): Therapeutic Targets
+  for Neurological Diseases and Their Regulation}
+    \field{volume}{46}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/P9Z77HWB/Kweon and Suh - 2013 - Acid-sensin
+    \verb g ion channels (ASICs) therapeutic tar.pdf
+    \endverb
+    \field{journaltitle}{BMB Reports}
+    \field{month}{06}
+    \field{year}{2013}
+  \endentry
+
+  \entry{sato2008}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SK}{%
+         family={Sato},
+         familyi={S\bibinitperiod},
+         given={Koji},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pellegrino},
+         familyi={P\bibinitperiod},
+         given={Maurizio},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nakagawa},
+         familyi={N\bibinitperiod},
+         given={Takao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nakagawa},
+         familyi={N\bibinitperiod},
+         given={Tatsuro},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=VLB}{%
+         family={Vosshall},
+         familyi={V\bibinitperiod},
+         given={Leslie\bibnamedelima B.},
+         giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Touhara},
+         familyi={T\bibinitperiod},
+         given={Kazushige},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Bombyx,Calcium,Cell Line,Culicidae,Drosophila
+  melanogaster,Electric Conductivity,HeLa Cells,Heterotrimeric GTP-Binding
+  Proteins,Humans,Insecta,Ion Channel
+  Gating,Kinetics,Ligands,Odorants,Oocytes,Patch-Clamp Techniques,Protein
+  Subunits,Receptors; Odorant,Smell,Xenopus laevis}
+    \strng{namehash}{SK+1}
+    \strng{fullhash}{SKPMNTNTVLBTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In insects, each olfactory sensory neuron expresses between one and three
+  ligand-binding members of the olfactory receptor (OR) gene family, along with
+  the highly conserved and broadly expressed Or83b co-receptor. The functional
+  insect OR consists of a heteromeric complex of unknown stoichiometry but
+  comprising at least one variable odorant-binding subunit and one constant
+  Or83b family subunit. Insect ORs lack homology to G-protein-coupled
+  chemosensory receptors in vertebrates and possess a distinct
+  seven-transmembrane topology with the amino terminus located intracellularly.
+  Here we provide evidence that heteromeric insect ORs comprise a new class of
+  ligand-activated non-selective cation channels. Heterologous cells expressing
+  silkmoth, fruitfly or mosquito heteromeric OR complexes showed extracellular
+  Ca2+ influx and cation-non-selective ion conductance on stimulation with
+  odorant. Odour-evoked OR currents are independent of known G-protein-coupled
+  second messenger pathways. The fast response kinetics and
+  OR-subunit-dependent K+ ion selectivity of the insect OR complex support the
+  hypothesis that the complex between OR and Or83b itself confers channel
+  activity. Direct evidence for odorant-gated channels was obtained by
+  outside-out patch-clamp recording of Xenopus oocyte and HEK293T cell
+  membranes expressing insect OR complexes. The ligand-gated ion channel formed
+  by an insect OR complex seems to be the basis for a unique strategy that
+  insects have acquired to respond to the olfactory environment.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature06850
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{7190}
+    \field{pages}{1002\bibrangedash 1006}
+    \field{title}{Insect Olfactory Receptors Are Heteromeric Ligand-Gated Ion
+  Channels}
+    \field{volume}{452}
+    \field{langid}{english}
+    \field{journaltitle}{Nature}
+    \field{month}{04}
+    \field{year}{2008}
+  \endentry
+
+  \entry{lang2005}{article}{}
+    \name{author}{8}{}{%
+      {{hash=LF}{%
+         family={Lang},
+         familyi={L\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={F{\"o}ller},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LKS}{%
+         family={Lang},
+         familyi={L\bibinitperiod},
+         given={K.\bibnamedelima S.},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LPA}{%
+         family={Lang},
+         familyi={L\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Ritter},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gulbins},
+         familyi={G\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Vereninov},
+         familyi={V\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HSM}{%
+         family={Huber},
+         familyi={H\bibinitperiod},
+         given={S.\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Animals,Apoptosis,Calcium Channels,Cell Proliferation,Cell Size,fas
+  Receptor,Genes; ras,Humans,Hydrogen-Ion Concentration,Ion Channels,Potassium
+  Channels,Voltage-Dependent Anion Channels}
+    \strng{namehash}{LF+1}
+    \strng{fullhash}{LFFMLKSLPARMGEVAHSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cell proliferation and apoptosis are paralleled by altered regulation of
+  ion channels that play an active part in the signaling of those fundamental
+  cellular mechanisms. Cell proliferation must--at some time point--increase
+  cell volume and apoptosis is typically paralleled by cell shrinkage. Cell
+  volume changes require the participation of ion transport across the cell
+  membrane, including appropriate activity of Cl- and K+ channels. Besides
+  regulating cytosolic Cl- activity, osmolyte flux and, thus, cell volume, most
+  Cl- channels allow HCO3- exit and cytosolic acidification, which inhibits
+  cell proliferation and favors apoptosis. K+ exit through K+ channels may
+  decrease intracellular K+ concentration, which in turn favors apoptotic cell
+  death. K+ channel activity further maintains the cell membrane potential, a
+  critical determinant of Ca2+ entry through Ca2+ channels. Cytosolic Ca2+ may
+  trigger mechanisms required for cell proliferation and stimulate enzymes
+  executing apoptosis. The switch between cell proliferation and apoptosis
+  apparently depends on the magnitude and temporal organization of Ca2+ entry
+  and on the functional state of the cell. Due to complex interaction with
+  other signaling pathways, a given ion channel may play a dual role in both
+  cell proliferation and apoptosis. Thus, specific ion channel blockers may
+  abrogate both fundamental cellular mechanisms, depending on cell type,
+  regulatory environment and condition of the cell. Clearly, considerable
+  further experimental effort is required to fully understand the complex
+  interplay between ion channels, cell proliferation and apoptosis.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00232-005-0780-5
+    \endverb
+    \field{issn}{0022-2631}
+    \field{number}{3}
+    \field{pages}{147\bibrangedash 157}
+    \field{title}{Ion Channels in Cell Proliferation and Apoptotic Cell Death}
+    \field{volume}{205}
+    \field{langid}{english}
+    \field{journaltitle}{The Journal of Membrane Biology}
+    \field{month}{06}
+    \field{year}{2005}
+  \endentry
+
   \entry{lev2020}{article}{}
     \name{author}{2}{}{%
       {{hash=LB}{%
@@ -2597,342 +3352,27 @@
     \field{year}{2021}
   \endentry
 
-  \entry{sham2003}{article}{}
-    \name{author}{8}{}{%
-      {{hash=SSS}{%
-         family={Sham},
-         familyi={S\bibinitperiod},
-         given={S.\bibnamedelima S.},
-         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Shobana},
-         familyi={S\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=TLE}{%
-         family={Townsley},
-         familyi={T\bibinitperiod},
-         given={L.\bibnamedelima E.},
-         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=JJB}{%
-         family={Jordan},
-         familyi={J\bibinitperiod},
-         given={J.\bibnamedelima B.},
-         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=FJQ}{%
-         family={Fernandez},
-         familyi={F\bibinitperiod},
-         given={J.\bibnamedelima Q.},
-         giveni={J\bibinitperiod\bibinitdelim Q\bibinitperiod},
-      }}%
-      {{hash=AOS}{%
-         family={Andersen},
-         familyi={A\bibinitperiod},
-         given={O.\bibnamedelima S.},
-         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=GDV}{%
-         family={Greathouse},
-         familyi={G\bibinitperiod},
-         given={D.\bibnamedelima V.},
-         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-      {{hash=HJF}{%
-         family={Hinton},
-         familyi={H\bibinitperiod},
-         given={J.\bibnamedelima F.},
-         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Chemical Society}}%
-    }
-    \strng{namehash}{SSS+1}
-    \strng{fullhash}{SSSSSTLEJJBFJQAOSGDVHJF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    To further investigate the effect of single amino acid substitution on the
-  structure and function of the gramicidin channel, an analogue of gramicidin A
-  (GA) has been synthesized in which Trp15 is replaced by Gly in the critical
-  aqueous interface and cation binding region. The structure of Gly15-GA
-  incorporated into SDS micelles has been determined using a combination of
-  2D-NMR spectroscopy and molecular modeling. Like the parent GA, Gly15-GA
-  forms a dimeric channel composed of two single-stranded, right-handed
-  {$\beta$}6.3-helices joined by hydrogen bonds between their N-termini. The
-  replacement of Trp15 by Gly does not have a significant effect on backbone
-  structure or side chain conformations with the exception of Trp11 in which
-  the indole ring is rotated away from the channel axis. Measurement of the
-  equilibrium binding constants and {$\Delta$}G for the binding of monovalent
-  cations to GA and Gly15-GA channels incorporated into PC vesicles using 205Tl
-  NMR spectroscopy shows that monovalent cations bind much more weakly to the
-  Gly15-GA channel entrance than to GA channels. Utilizing the magnetization
-  inversion transfer NMR technique, the transport of Na+ ions through GA and
-  Gly15-GA channels incorporated into PC/PG vesicles has been investigated. The
-  Gly15 substitution produces an increase in the activation enthalpy of
-  transport and thus a significant decrease in the transport rate of the Na+
-  ion is observed. The single-channel appearances show that the conducting
-  channels have a single, well-defined structure. Consistent with the NMR
-  results, the single-channel conductances are reduced by 30\% and the
-  lifetimes by 70\%. It is concluded that the decrease in cation binding,
-  transport, and conductance in Gly15-GA results from the removal of the Trp15
-  dipole and, to a lesser extent, the change in orientation of Trp11.%
-    }
-    \verb{doi}
-    \verb 10.1021/bi0204286
-    \endverb
-    \field{issn}{0006-2960}
-    \field{number}{6}
-    \field{pages}{1401\bibrangedash 1409}
-    \field{title}{The {{Structure}}, {{Cation Binding}}, {{Transport}}, and
-  {{Conductance}} of {{Gly15-Gramicidin A Incorporated}} into {{SDS Micelles}}
-  and {{PC}}/{{PG Vesicles}},}
-    \field{volume}{42}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/GYYUNRRN/bi0204286.html
-    \endverb
-    \field{journaltitle}{Biochemistry}
-    \field{month}{02}
-    \field{year}{2003}
-  \endentry
-
-  \entry{doyle1998}{article}{}
-    \name{author}{8}{}{%
-      {{hash=DDA}{%
-         family={Doyle},
-         familyi={D\bibinitperiod},
-         given={Declan\bibnamedelima A.},
-         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=CJM}{%
-         family={Cabral},
-         familyi={C\bibinitperiod},
-         given={Jo{\~a}o\bibnamedelima Morais},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=PRA}{%
-         family={Pfuetzner},
-         familyi={P\bibinitperiod},
-         given={Richard\bibnamedelima A.},
-         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=KA}{%
-         family={Kuo},
-         familyi={K\bibinitperiod},
-         given={Anling},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=GJM}{%
-         family={Gulbis},
-         familyi={G\bibinitperiod},
-         given={Jacqueline\bibnamedelima M.},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=CSL}{%
-         family={Cohen},
-         familyi={C\bibinitperiod},
-         given={Steven\bibnamedelima L.},
-         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=CBT}{%
-         family={Chait},
-         familyi={C\bibinitperiod},
-         given={Brian\bibnamedelima T.},
-         giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=MR}{%
-         family={MacKinnon},
-         familyi={M\bibinitperiod},
-         given={Roderick},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{American Association for the Advancement of Science}}%
-    }
-    \strng{namehash}{DDA+1}
-    \strng{fullhash}{DDACJMPRAKAGJMCSLCBTMR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \verb{doi}
-    \verb 10.1126/science.280.5360.69
-    \endverb
-    \field{number}{5360}
-    \field{pages}{69\bibrangedash 77}
-    \field{shorttitle}{The {{Structure}} of the {{Potassium Channel}}}
-    \field{title}{The {{Structure}} of the {{Potassium Channel}}: {{Molecular
-  Basis}} of {{K}}+ {{Conduction}} and {{Selectivity}}}
-    \field{volume}{280}
-    \field{journaltitle}{Science}
-    \field{month}{04}
-    \field{year}{1998}
-  \endentry
-
-  \entry{zhang2018a}{article}{}
-    \name{author}{3}{}{%
-      {{hash=ZZ}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Zhe},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=LF}{%
-         family={Liu},
-         familyi={L\bibinitperiod},
-         given={Fangyu},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Jue},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{National Academy of Sciences}}%
-    }
-    \keyw{ABC transporter,Adenosine Triphosphate,Animals,anion channel,Anion
-  channel,Cell Line,cryo-EM,Cryo-EM,Cryoelectron Microscopy,Cyclic
-  AMP-Dependent Protein Kinases,Cystic Fibrosis,Cystic Fibrosis Transmembrane
-  Conductance Regulator,HEK293 Cells,human CFTR,Human CFTR,Humans,Ion Channel
-  Gating,Ion Transport,Molecular Structure,Mutation,Phosphorylation,Zebrafish}
-    \strng{namehash}{ZZ+1}
-    \strng{fullhash}{ZZLFCJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The cystic fibrosis transmembrane conductance regulator (CFTR) is an anion
-  channel important in maintaining proper functions of the lung, pancreas, and
-  intestine. The activity of CFTR is regulated by ATP and protein kinase
-  A-dependent phosphorylation. To understand the conformational changes
-  elicited by phosphorylation and ATP binding, we present here the structure of
-  phosphorylated, ATP-bound human CFTR, determined by cryoelectron microscopy
-  to 3.2-\AA{} resolution. This structure reveals the position of the R domain
-  after phosphorylation. By comparing the structures of human CFTR and
-  zebrafish CFTR determined under the same condition, we identified common
-  features essential to channel gating. The differences in their structures
-  indicate plasticity permitted in evolution to achieve the same function.
-  Finally, the structure of CFTR provides a better understanding of why the
-  G178R, R352Q, L927P, and G970R/D mutations would impede conformational
-  changes of CFTR and lead to cystic fibrosis.%
-    }
-    \verb{doi}
-    \verb 10.1073/pnas.1815287115
-    \endverb
-    \field{issn}{1091-6490}
-    \field{number}{50}
-    \field{pages}{12757\bibrangedash 12762}
-    \field{title}{Molecular Structure of the {{ATP-bound}}, Phosphorylated
-  Human {{CFTR}}.}
-    \field{volume}{115}
-    \field{langid}{english}
-    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
-  United States of America}
-    \field{month}{12}
-    \field{year}{2018}
-  \endentry
-
-  \entry{russell2021}{misc}{}
+  \entry{katkin2022}{misc}{}
     \name{author}{1}{}{%
-      {{hash=RJ}{%
-         family={Russell},
-         familyi={R\bibinitperiod},
-         given={John},
-         giveni={J\bibinitperiod},
+      {{hash=KJP}{%
+         family={Katkin},
+         familyi={K\bibinitperiod},
+         given={Julie\bibnamedelima P},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{RJ1}
-    \strng{fullhash}{RJ1}
+    \strng{namehash}{KJP1}
+    \strng{fullhash}{KJP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Life sciences computational research has long been dominated by statistics
-  and parallel processing more than traditional HPC. Think gene sequencing and
-  variant calling. Mechanistic simulation and modeling has played a much
-  smaller role though that's changing. An exception is the Anton line of...%
-    }
-  \field{howpublished}{https://www.hpcwire.com/2021/09/01/anton-3-is-a-fire-breathing-molecular-simulation-beast/}
-    \field{title}{Anton 3 {{Is}} a '{{Fire-Breathing}}' {{Molecular Simulation
-  Beast}}}
-    \field{langid}{american}
+  \field{howpublished}{https://www-uptodate-com.ezproxy-so.library.sydney.edu.au/contents/cystic-fibrosis-clinical-manifestations-and-diagnosis?search=Cystic\%20fibrosis:\%20Clinical\%20manifestations\%20and\%20diagnosis\&source=search\_result\&selectedTitle=1\textasciitilde
+  150\&usage\_type=default\&display\_rank=1}
+    \field{title}{Cystic Fibrosis: {{Clinical}} Manifestations and Diagnosis -
+  {{UpToDate}}}
     \verb{file}
-    \verb /home/miro/Zotero/storage/VLAYFN9X/anton-3-is-a-fire-breathing-molecu
-    \verb lar-simulation-beast.html
+    \verb /home/miro/Zotero/storage/MVX2EFGQ/cystic-fibrosis-clinical-manifesta
+    \verb tions-and-diagnosis.html
     \endverb
-    \field{journaltitle}{HPCwire}
-    \field{month}{09}
-    \field{year}{2021}
-  \endentry
-
-  \entry{liou2015}{article}{}
-    \name{author}{4}{}{%
-      {{hash=LJW}{%
-         family={Liou},
-         familyi={L\bibinitperiod},
-         given={Je-Wen},
-         giveni={J\bibinithyphendelim W\bibinitperiod},
-      }}%
-      {{hash=HYJ}{%
-         family={Hung},
-         familyi={H\bibinitperiod},
-         given={Yu-Jiun},
-         giveni={Y\bibinithyphendelim J\bibinitperiod},
-      }}%
-      {{hash=YCH}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Chin-Hao},
-         giveni={C\bibinithyphendelim H\bibinitperiod},
-      }}%
-      {{hash=CYC}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Yi-Cheng},
-         giveni={Y\bibinithyphendelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LJW+1}
-    \strng{fullhash}{LJWHYJYCHCYC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Gramicidin A is an antimicrobial peptide that destroys gram-positive
-  bacteria. The bactericidal mechanism of antimicrobial peptides has been
-  linked to membrane permeation and metabolism disruption as well as
-  interruption of DNA and protein functions. However, the exact bacterial
-  killing mechanism of gramicidin A is not clearly understood. In the present
-  study, we examined the antimicrobial activity of gramicidin A on
-  Staphylococcus aureus using biochemical and biophysical methods, including
-  hydroxyl radical and NAD+/NADH cycling assays, atomic force microscopy, and
-  Fourier transform infrared spectroscopy. Gramicidin A induced membrane
-  permeabilization and changed the composition of the membrane. The morphology
-  of Staphylococcus aureus during gramicidin A destruction was divided into
-  four stages: pore formation, water permeability, bacterial flattening, and
-  lysis. Changes in membrane composition included the destruction of membrane
-  lipids, proteins, and carbohydrates. Most interestingly, we demonstrated that
-  gramicidin A not only caused membrane permeabilization but also induced the
-  formation of hydroxyl radicals, which are a possible end product of the
-  transient depletion of NADH from the tricarboxylic acid cycle. The latter may
-  be the main cause of complete Staphylococcus aureus killing. This new finding
-  may provide insight into the underlying bactericidal mechanism of gA.%
-    }
-    \verb{doi}
-    \verb 10.1371/journal.pone.0117065
-    \endverb
-    \field{issn}{1932-6203}
-    \field{number}{1}
-    \field{pages}{e0117065}
-    \field{title}{The {{Antimicrobial Activity}} of {{Gramicidin A Is
-  Associated}} with {{Hydroxyl Radical Formation}}}
-    \field{volume}{10}
-    \field{journaltitle}{PLoS ONE}
-    \field{month}{01}
-    \field{year}{2015}
   \endentry
 
   \entry{foucault1994}{book}{}
@@ -3418,6 +3858,102 @@
     \field{year}{2019}
   \endentry
 
+  \entry{anonymous2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Anonymous},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{The Economist Intelligence Unit N.A., Incorporated}}%
+    }
+    \keyw{Business And Economics--Economic Situation And Conditions,Business
+  And Economics--Economic Systems And Theories,Domestication,Economic
+  History,Ecosystem biology,Genes,Genetic engineering,Pathogens,Synthetic
+  biology}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Genes can now be written from scratch and edited repeatedly, like text in a
+  word processor. The ability to engineer living things which this provides
+  represents a fundamental change in the way humans interact with the planet's
+  life. It permits the manufacture of all manner of things which used to be
+  hard, even impossible, to make: pharmaceuticals, fuels, fabrics, foods and
+  fragrances can all be built molecule by molecule. What cells do and what they
+  can become is engineerable, too. Immune cells can be told to follow doctors'
+  orders; stem cells better coaxed to turn into new tissues; fertilized eggs
+  programmed to grow into creatures quite unlike their parents. The earliest
+  stages of such "synthetic biology" are already changing many industrial
+  processes, transforming medicine and beginning to reach into the consumer
+  world. Here, the promise and perils of synthetic biology are examined.%
+    }
+    \field{issn}{00130613}
+    \field{number}{9137}
+    \field{pages}{11}
+    \field{title}{Redesigning Life}
+    \field{volume}{431}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{London, United Kingdom}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/48KCW8EU/Anonymous - 2019 - Redesigning lif
+    \verb e.pdf
+    \endverb
+    \field{journaltitle}{The Economist}
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
+
+  \entry{scown2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SCD}{%
+         family={Scown},
+         familyi={S\bibinitperiod},
+         given={Corinne\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=KJD}{%
+         family={Keasling},
+         familyi={K\bibinitperiod},
+         given={Jay\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Industrial microbiology,Metabolic engineering}
+    \strng{namehash}{SCDKJD1}
+    \strng{fullhash}{SCDKJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Producing commodity chemicals in bacteria that live on industrial air
+  pollution captures more greenhouse gases than it emits.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41587-022-01248-8
+    \endverb
+    \field{issn}{1546-1696}
+    \field{number}{3}
+    \field{pages}{304\bibrangedash 307}
+    \field{title}{Sustainable Manufacturing with Synthetic Biology}
+    \field{volume}{40}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/V4YPIWZT/Scown and Keasling - 2022 - Sustai
+    \verb nable manufacturing with synthetic biology.pdf;/home/miro/Zotero/stor
+    \verb age/WIGE7SNT/s41587-022-01248-8.html
+    \endverb
+    \field{journaltitle}{Nature Biotechnology}
+    \field{month}{03}
+    \field{year}{2022}
+  \endentry
+
   \entry{kochanski1973}{article}{}
     \name{author}{1}{}{%
       {{hash=KZ}{%
@@ -3876,102 +4412,6 @@
       {{New York, NY}}%
     }
     \field{year}{2009}
-  \endentry
-
-  \entry{anonymous2019}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={Anonymous},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{The Economist Intelligence Unit N.A., Incorporated}}%
-    }
-    \keyw{Business And Economics--Economic Situation And Conditions,Business
-  And Economics--Economic Systems And Theories,Domestication,Economic
-  History,Ecosystem biology,Genes,Genetic engineering,Pathogens,Synthetic
-  biology}
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Genes can now be written from scratch and edited repeatedly, like text in a
-  word processor. The ability to engineer living things which this provides
-  represents a fundamental change in the way humans interact with the planet's
-  life. It permits the manufacture of all manner of things which used to be
-  hard, even impossible, to make: pharmaceuticals, fuels, fabrics, foods and
-  fragrances can all be built molecule by molecule. What cells do and what they
-  can become is engineerable, too. Immune cells can be told to follow doctors'
-  orders; stem cells better coaxed to turn into new tissues; fertilized eggs
-  programmed to grow into creatures quite unlike their parents. The earliest
-  stages of such "synthetic biology" are already changing many industrial
-  processes, transforming medicine and beginning to reach into the consumer
-  world. Here, the promise and perils of synthetic biology are examined.%
-    }
-    \field{issn}{00130613}
-    \field{number}{9137}
-    \field{pages}{11}
-    \field{title}{Redesigning Life}
-    \field{volume}{431}
-    \field{langid}{english}
-    \list{location}{1}{%
-      {{London, United Kingdom}}%
-    }
-    \verb{file}
-    \verb /home/miro/Zotero/storage/48KCW8EU/Anonymous - 2019 - Redesigning lif
-    \verb e.pdf
-    \endverb
-    \field{journaltitle}{The Economist}
-    \field{month}{04}
-    \field{year}{2019}
-  \endentry
-
-  \entry{scown2022}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SCD}{%
-         family={Scown},
-         familyi={S\bibinitperiod},
-         given={Corinne\bibnamedelima D.},
-         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=KJD}{%
-         family={Keasling},
-         familyi={K\bibinitperiod},
-         given={Jay\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Nature Publishing Group}}%
-    }
-    \keyw{Industrial microbiology,Metabolic engineering}
-    \strng{namehash}{SCDKJD1}
-    \strng{fullhash}{SCDKJD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Producing commodity chemicals in bacteria that live on industrial air
-  pollution captures more greenhouse gases than it emits.%
-    }
-    \verb{doi}
-    \verb 10.1038/s41587-022-01248-8
-    \endverb
-    \field{issn}{1546-1696}
-    \field{number}{3}
-    \field{pages}{304\bibrangedash 307}
-    \field{title}{Sustainable Manufacturing with Synthetic Biology}
-    \field{volume}{40}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/miro/Zotero/storage/V4YPIWZT/Scown and Keasling - 2022 - Sustai
-    \verb nable manufacturing with synthetic biology.pdf;/home/miro/Zotero/stor
-    \verb age/WIGE7SNT/s41587-022-01248-8.html
-    \endverb
-    \field{journaltitle}{Nature Biotechnology}
-    \field{month}{03}
-    \field{year}{2022}
   \endentry
 
   \entry{cheng2015}{article}{}
@@ -13546,7 +13986,7 @@
   therapeutic use,Pyrazoles,Pyrazoles / chemistry*,Pyrazoles /
   pharmacology,Pyrazoles / therapeutic use,Quinolones,Quinolones /
   chemistry*,Quinolones / pharmacology,Research Support,Zhe Zhang}
-    \strng{namehash}{LF+1}
+    \strng{namehash}{LF+2}
     \strng{fullhash}{LFZZLALJTKKSBKCJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -16086,7 +16526,7 @@
       {{Cell Press}}%
     }
     \keyw{ABC transporter,anion channel,cryo-EM,human CFTR}
-    \strng{namehash}{LF+1}
+    \strng{namehash}{LF+2}
     \strng{fullhash}{LFZZCLGDCCJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
