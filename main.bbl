@@ -13030,6 +13030,532 @@
     \field{year}{1997}
   \endentry
 
+  \entry{frank1993}{book}{}
+    \name{author}{2}{}{%
+      {{hash=FC}{%
+         family={Frank},
+         familyi={F\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FCFO}{%
+         family={FRE},
+         familyi={F\bibinitperiod},
+         given={Charles Frank\bibnamedelima OBE},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{University of California Press}}%
+    }
+    \strng{namehash}{FCFCFO1}
+    \strng{fullhash}{FCFCFO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{isbn}{978-0-520-08499-5}
+    \field{shorttitle}{Operation {{Epsilon}}}
+    \field{title}{Operation {{Epsilon}}: {{The Farm Hall Transcripts}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{Berkeley}}%
+    }
+    \field{month}{10}
+    \field{year}{1993}
+  \endentry
+
+  \entry{gottfried1999}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GK}{%
+         family={Gottfried},
+         familyi={G\bibinitperiod},
+         given={Kurt},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{American Institute of Physics}}%
+    }
+    \strng{namehash}{GK1}
+    \strng{fullhash}{GK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.882612
+    \endverb
+    \field{issn}{0031-9228}
+    \field{number}{3}
+    \field{pages}{42\bibrangedash 48}
+    \field{title}{Physicists in {{Politics}}}
+    \field{volume}{52}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/N3IHFHK8/Gottfried - 1999 - Physicists in P
+    \verb olitics.pdf
+    \endverb
+    \field{journaltitle}{Physics Today}
+    \field{month}{03}
+    \field{year}{1999}
+  \endentry
+
+  \entry{global2009}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GAEMSP}{%
+         family={Global},
+         familyi={G\bibinitperiod},
+         given={Albert EinsteinTopics: Marxism Socialism\bibnamedelima
+  Places:},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAEMSP1}
+    \strng{fullhash}{GAEMSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Is it advisable for one who is not an expert on economic and social issues
+  to express views on the subject of socialism? I believe for a number of
+  reasons that it is.\ldots{} Clarity about the aims and\ldots%
+    }
+    \field{title}{Monthly {{Review}} | {{Why Socialism}}?}
+    \field{langid}{american}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/5PFJI7FD/why-socialism.html
+    \endverb
+    \field{journaltitle}{Monthly Review}
+    \field{month}{05}
+    \field{year}{2009}
+  \endentry
+
+  \entry{rhodes1986}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RR}{%
+         family={Rhodes},
+         familyi={R\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Simon \& Schuster}}%
+    }
+    \strng{namehash}{RR1}
+    \strng{fullhash}{RR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{25th Anniversary ed. edition}
+    \field{isbn}{978-0-671-65719-2}
+    \field{title}{The {{Making}} of the {{Atomic Bomb}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {{New York, NY}}%
+    }
+    \field{month}{01}
+    \field{year}{1986}
+  \endentry
+
+  \entry{aaronson2008}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Aaronson},
+         familyi={A\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS1}
+    \strng{fullhash}{AS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Until today, I have failed to uphold one of the most sacred
+  responsibilities of the guild of bloggers: that of weighing in on the
+  Democratic primary. This is not because of any desire to keep polit\ldots%
+    }
+    \field{title}{Long-Dreaded Politics Post}
+    \field{langid}{american}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/6BF37LYD/scottaaronson.blog.html
+    \endverb
+    \field{journaltitle}{Shtetl-Optimized}
+    \field{month}{03}
+    \field{year}{2008}
+  \endentry
+
+  \entry{berger2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Berger},
+         familyi={B\bibinitperiod},
+         given={J.M.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.19165/2016.1.11
+    \endverb
+    \field{issn}{24680656}
+    \field{shorttitle}{The {{Turner Legacy}}}
+    \field{title}{The {{Turner Legacy}}: {{The Storied Origins}} and {{Enduring
+  Impact}} of {{White Nationalism}}'s {{Deadly Bible}}}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/CD4RDNN2/Berger - 2016 - The Turner Legacy
+    \verb The Storied Origins and Endurin.pdf
+    \endverb
+    \field{journaltitle}{Terrorism and Counter-Terrorism Studies}
+    \field{year}{2016}
+  \endentry
+
+  \entry{vonneumann_britanica}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In late 1943 von Neumann began work on the Manhattan Project at the
+  invitation of J. Robert Oppenheimer. Von Neumann was an expert in the
+  nonlinear physics of hydrodynamics and shock waves, an expertise that he had
+  already applied to chemical explosives in the British war effort. At Los
+  Alamos, New Mexico, von Neumann worked on Seth Neddermeyer's implosion design
+  for an atomic bomb. This called for a hollow sphere containing fissionable
+  plutonium to be symmetrically imploded in order to drive the plutonium into a
+  critical mass at the centre. The implosion had to be so symmetrical that it
+  was%
+    }
+  \field{howpublished}{https://www.britannica.com/biography/John-von-Neumann/World-War-II}
+    \field{title}{John von {{Neumann}} - {{World War II}} | {{Britannica}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/3NFJRTXV/World-War-II.html
+    \endverb
+  \endentry
+
+  \entry{buchanan2000}{book}{}
+    \name{author}{4}{}{%
+      {{hash=BA}{%
+         family={Buchanan},
+         familyi={B\bibinitperiod},
+         given={Allen},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BDW}{%
+         family={Brock},
+         familyi={B\bibinitperiod},
+         given={Dan\bibnamedelima W.},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Daniels},
+         familyi={D\bibinitperiod},
+         given={Norman},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wikler},
+         familyi={W\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cambridge University Press}}%
+    }
+    \strng{namehash}{BA+2}
+    \strng{fullhash}{BABDWDNWD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    This book, written by four internationally renowned bioethicists and first
+  published in 2000, was the first systematic treatment of the fundamental
+  ethical issues underlying the application of genetic technologies to human
+  beings. Probing the implications of the remarkable advances in genetics, the
+  authors ask how should these affect our understanding of distributive
+  justice, equality of opportunity, the rights and obligations as parents, the
+  meaning of disability, and the role of the concept of human nature in ethical
+  theory and practice. The book offers a historical context to contemporary
+  debate over the use of these technologies by examining the eugenics movement
+  of the late nineteenth and early twentieth centuries. The questions raised in
+  this book will be of interest to any reflective reader concerned about
+  science and society and the rapid development of biotechnology, as well as to
+  professionals in such areas as philosophy, bioethics, medical ethics, health
+  management, law, and political science.%
+    }
+    \verb{doi}
+    \verb 10.1017/CBO9780511806940
+    \endverb
+    \field{isbn}{978-0-521-66977-1}
+    \field{shorttitle}{From {{Chance}} to {{Choice}}}
+    \field{title}{From {{Chance}} to {{Choice}}: {{Genetics}} and {{Justice}}}
+    \list{location}{1}{%
+      {{Cambridge}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/NAWLDQIC/B639409DFA6A336D107409A8FB2CD773.h
+    \verb tml
+    \endverb
+    \field{year}{2000}
+  \endentry
+
+  \entry{medicine2017}{book}{}
+    \name{author}{4}{}{%
+      {{hash=MaNAoSE}{%
+         family={Medicine},
+         familyi={M\bibinitperiod},
+         suffix={Engineering},
+         suffixi={E\bibinitperiod},
+         given={and National Academies of\bibnamedelima Sciences},
+         giveni={a\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
+  A\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=oMNA}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={Medicine},
+         familyi={M\bibinitperiod},
+         given={National\bibnamedelima Academy},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=oSNA}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={Sciences},
+         familyi={S\bibinitperiod},
+         given={National\bibnamedelima Academy},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CaECoHGESM}{%
+         family={Considerations},
+         familyi={C\bibinitperiod},
+         suffix={Medical},
+         suffixi={M\bibinitperiod},
+         given={{and} Ethical Committee on Human Gene Editing:\bibnamedelima
+  Scientific},
+         giveni={a\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  C\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim
+  H\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{National Academies Press}}%
+    }
+    \keyw{Medical / Allied Health Services / Medical Technology,Medical /
+  General,Medical / Genetics}
+    \strng{namehash}{MEaNAoS+1}
+    \strng{fullhash}{MEaNAoSoMNAoSNACMaECoHGES1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Genome editing is a powerful new tool for making precise alterations to an
+  organism's genetic material. Recent scientific advances have made genome
+  editing more efficient, precise, and flexible than ever before. These
+  advances have spurred an explosion of interest from around the globe in the
+  possible ways in which genome editing can improve human health. The speed at
+  which these technologies are being developed and applied has led many
+  policymakers and stakeholders to express concern about whether appropriate
+  systems are in place to govern these technologies and how and when the public
+  should be engaged in these decisions. Human Genome Editing considers
+  important questions about the human application of genome editing including:
+  balancing potential benefits with unintended risks, governing the use of
+  genome editing, incorporating societal values into clinical applications and
+  policy decisions, and respecting the inevitable differences across nations
+  and cultures that will shape how and whether to use these new technologies.
+  This report proposes criteria for heritable germline editing, provides
+  conclusions on the crucial need for public education and engagement, and
+  presents 7 general principles for the governance of human genome editing.%
+    }
+    \field{isbn}{978-0-309-45291-5}
+    \field{shorttitle}{Human {{Genome Editing}}}
+    \field{title}{Human {{Genome Editing}}: {{Science}}, {{Ethics}} and
+  {{Governance}}}
+    \field{langid}{english}
+    \field{month}{07}
+    \field{year}{2017}
+  \endentry
+
+  \entry{muller2021}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=MVC}{%
+         family={M{\"u}ller},
+         familyi={M\bibinitperiod},
+         given={Vincent\bibnamedelima C.},
+         giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=ZEN}{%
+         family={Zalta},
+         familyi={Z\bibinitperiod},
+         given={Edward\bibnamedelima N.},
+         giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Metaphysics Research Lab, Stanford University}}%
+    }
+    \strng{namehash}{MVC1}
+    \strng{fullhash}{MVC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Artificial intelligence (AI) and robotics are digital technologiesthat will
+  have significant impact on the development of humanity in the nearfuture.
+  They have raised fundamental questions about what we should dowith these
+  systems, what the systems themselves should do, what risksthey involve, and
+  how we can control these., After the Introduction to the field (\textsection
+  1), the main themes (\textsection 2) of thisarticle are: Ethical issues that
+  arise with AI systems asobjects, i.e., tools made and used by humans. This
+  includesissues of privacy (\textsection 2.1) and manipulation (\textsection
+  2.2), opacity (\textsection 2.3) and bias (\textsection 2.4),
+  human-robotinteraction (\textsection 2.5), employment (\textsection 2.6), and
+  the effects of autonomy (\textsection 2.7). Then AI systemsas subjects, i.e.,
+  ethics for the AI systems themselves inmachine ethics (\textsection 2.8) and
+  artificial moral agency (\textsection 2.9). Finally, the problem of apossible
+  future AI superintelligence leading to a``singularity'' (\textsection 2.10).
+  We close with a remark on the vision of AI (\textsection 3)., For each
+  section within these themes, we provide a general explanationof the ethical
+  issues, outline existing positionsand arguments, then analyse how these play
+  out with currenttechnologies and finally, what policy consequencesmay be
+  drawn.%
+    }
+    \field{booktitle}{The {{Stanford Encyclopedia}} of {{Philosophy}}}
+    \field{edition}{Summer 2021}
+    \field{title}{Ethics of {{Artificial Intelligence}} and {{Robotics}}}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/UZ9FAVEI/ethics-ai.html
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{bostrom2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BN}{%
+         family={Bostrom},
+         familyi={B\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{OUP Oxford}}%
+    }
+    \strng{namehash}{BN1}
+    \strng{fullhash}{BN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{Reprint edition}
+    \field{shorttitle}{Superintelligence}
+    \field{title}{Superintelligence: {{Paths}}, {{Dangers}}, {{Strategies}}}
+    \field{langid}{english}
+    \field{month}{07}
+    \field{year}{2014}
+  \endentry
+
+  \entry{mallapaty2022}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={Mallapaty},
+         familyi={M\bibinitperiod},
+         given={Smriti},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{CRISPR-Cas9 genome editing,Ethics,Genomics}
+    \strng{namehash}{MS1}
+    \strng{fullhash}{MS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Fears of excessive interference cloud proposal for protecting children
+  whose genomes were edited, as He Jiankui's release from jail looks imminent.%
+    }
+    \verb{doi}
+    \verb 10.1038/d41586-022-00512-w
+    \endverb
+    \field{number}{7900}
+    \field{pages}{213\bibrangedash 214}
+    \field{title}{How to Protect the First `{{CRISPR}} Babies' Prompts Ethical
+  Debate}
+    \field{volume}{603}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/6XS3DSXY/Mallapaty - 2022 - How to protect
+    \verb the first ‘CRISPR babies’ prompts e.pdf;/home/miro/Zotero/storage
+    \verb /GIPVEGRR/d41586-022-00512-w.html
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{annotation}{%
+    Bandiera\_abtest: a Cg\_type: News Subject\_term: Ethics, Genomics,
+  CRISPR-Cas9 genome editing%
+    }
+    \field{month}{02}
+    \field{year}{2022}
+  \endentry
+
+  \entry{urbina2022}{article}{}
+    \name{author}{4}{}{%
+      {{hash=UF}{%
+         family={Urbina},
+         familyi={U\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Lentzos},
+         familyi={L\bibinitperiod},
+         given={Filippa},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Invernizzi},
+         familyi={I\bibinitperiod},
+         given={C{\'e}dric},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Ekins},
+         familyi={E\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Cheminformatics,Drug safety,Ethics,Software,Toxicology}
+    \strng{namehash}{UF+1}
+    \strng{fullhash}{UFLFICES1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    An international security conference explored how artificial intelligence
+  (AI) technologies for drug discovery could be misused for de novo design of
+  biochemical weapons. A thought experiment evolved into a computational
+  proof.%
+    }
+    \verb{doi}
+    \verb 10.1038/s42256-022-00465-9
+    \endverb
+    \field{issn}{2522-5839}
+    \field{number}{3}
+    \field{pages}{189\bibrangedash 191}
+    \field{title}{Dual Use of Artificial-Intelligence-Powered Drug Discovery}
+    \field{volume}{4}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/HS47Q56C/Urbina et al. - 2022 - Dual use of
+    \verb  artificial-intelligence-powered drug d.pdf;/home/miro/Zotero/storage
+    \verb /IX6WEIXY/s42256-022-00465-9.html
+    \endverb
+    \field{journaltitle}{Nature Machine Intelligence}
+    \field{month}{03}
+    \field{year}{2022}
+  \endentry
+
   \entry{guo2022}{article}{}
     \name{author}{3}{}{%
       {{hash=GJ}{%
@@ -13330,6 +13856,65 @@
     \field{journaltitle}{Frontiers in Pediatrics}
     \field{month}{05}
     \field{year}{2022}
+  \endentry
+
+  \entry{lopes-pacheco2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LM}{%
+         family={{Lopes-Pacheco}},
+         familyi={L\bibinitperiod},
+         given={Miqu{\'e}ias},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM2}
+    \strng{fullhash}{LM2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is a lethal inherited disease caused by mutations in
+  the CF transmembrane conductance regulator (CFTR) gene, which result in
+  impairment of CFTR mRNA and protein expression, function, stability or a
+  combination of these. Although CF leads to multifaceted clinical
+  manifestations, the respiratory disorder represents the major cause of
+  morbidity and mortality of these patients. The life expectancy of CF patients
+  has substantially lengthened due to early diagnosis and improvements in
+  symptomatic therapeutic regimens. Quality of life remains nevertheless
+  limited, as these individuals are subjected to considerable clinical,
+  psychosocial and economic burdens. Since the discovery of the CFTR gene in
+  1989, tremendous efforts have been made to develop therapies acting more
+  upstream on the pathogenesis cascade, thereby overcoming the underlying
+  dysfunctions caused by CFTR mutations. In this line, the advances in
+  cell-based high-throughput screenings have been facilitating the
+  fast-tracking of CFTR modulators. These modulator drugs have the ability to
+  enhance or even restore the functional expression of specific CF-causing
+  mutations, and they have been classified into five main groups depending on
+  their effects on CFTR mutations: potentiators, correctors, stabilizers,
+  read-through agents, and amplifiers. To date, four CFTR modulators have
+  reached the market, and these pharmaceutical therapies are transforming
+  patients' lives with short- and long-term improvements in clinical outcomes.
+  Such breakthroughs have paved the way for the development of novel CFTR
+  modulators, which are currently under experimental and clinical
+  investigations. Furthermore, recent insights into the CFTR structure will be
+  useful for the rational design of next-generation modulator drugs. This
+  review aims to provide a summary of recent developments in CFTR-directed
+  therapeutics. Barriers and future directions are also discussed in order to
+  optimize treatment adherence, identify feasible and sustainable solutions for
+  equitable access to these therapies, and continue to expand the pipeline of
+  novel modulators that may result in effective precision medicine for all
+  individuals with CF.%
+    }
+    \field{issn}{1663-9812}
+    \field{shorttitle}{{{CFTR Modulators}}}
+    \field{title}{{{CFTR Modulators}}: {{The Changing Face}} of {{Cystic
+  Fibrosis}} in the {{Era}} of {{Precision Medicine}}}
+    \field{volume}{10}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/FRZTTRG2/Lopes-Pacheco - 2020 - CFTR Modula
+    \verb tors The Changing Face of Cystic Fibro.pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Pharmacology}
+    \field{year}{2020}
   \endentry
 
   \entry{cormet-boyaka2002}{article}{}
