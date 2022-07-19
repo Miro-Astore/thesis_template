@@ -13829,6 +13829,21 @@
     \field{year}{2007}
   \endentry
 
+  \entry{zotero-3683}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Chest physical therapy (CPT or Chest PT) is an airway clearance technique
+  (ACT) to drain the lungs, and may include percussion (clapping), vibration,
+  deep breathing, and huffing or coughing.%
+    }
+  \field{howpublished}{https://www.cff.org/managing-cf/chest-physical-therapy}
+    \field{title}{Chest {{Physical Therapy}} | {{Cystic Fibrosis Foundation}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/QK2Q6WML/chest-physical-therapy.html
+    \endverb
+  \endentry
+
   \entry{Kayani2018}{misc}{}
     \name{author}{3}{}{%
       {{hash=KK}{%
@@ -16153,6 +16168,145 @@
     \field{year}{2008}
   \endentry
 
+  \entry{fiedorczuk2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FK}{%
+         family={Fiedorczuk},
+         familyi={F\bibinitperiod},
+         given={Karol},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FKCJ1}
+    \strng{fullhash}{FKCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Small molecule chaperones have been exploited as therapeutics for the
+  hundreds of diseases caused by protein misfolding. The most successful
+  examples are the CFTR correctors, which transformed cystic fibrosis therapy.
+  These molecules revert folding defects of the DF508 mutant and are widely
+  used to treat patients. To investigate the molecular mechanism of their
+  action, we determined cryo-electron microscopy structures of CFTR in complex
+  with the FDA-approved correctors lumacaftor or tezacaftor. Both drugs insert
+  into a hydrophobic pocket in the first transmembrane domain (TMD1), linking
+  together four helices that are thermodynamically unstable. Mutating residues
+  at the binding site rendered DF508-CFTR insensitive to lumacaftor and
+  tezacaftor, underscoring the functional significance of the structural
+  discovery. These results support a mechanism in which the correctors
+  stabilize TMD1 at an early stage of biogenesis, prevent its premature
+  degradation, and thereby allosterically rescuing many disease-causing
+  mutations.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2021.12.009
+    \endverb
+    \field{issn}{00928674}
+    \field{number}{1}
+    \field{pages}{158\bibrangedash 168.e11}
+    \field{title}{Mechanism of {{CFTR}} Correction by Type {{I}} Folding
+  Correctors}
+    \field{volume}{185}
+    \field{langid}{english}
+    \field{journaltitle}{Cell}
+    \field{month}{01}
+    \field{year}{2022}
+  \endentry
+
+  \entry{gaines2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GH}{%
+         family={Gaines},
+         familyi={G\bibinitperiod},
+         given={Holly},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=JKR}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Kellie\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Jonea},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MNF}{%
+         family={Medhi},
+         familyi={M\bibinitperiod},
+         given={Nighat\bibnamedelima F.},
+         giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Sixia},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SRH}{%
+         family={Scofield},
+         familyi={S\bibinitperiod},
+         given={R.\bibnamedelima Hal},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Adult,Aminophenols,Blood Glucose,Blood Glucose
+  Self-Monitoring,Chloride Channel Agonists,Cystic Fibrosis,Cystic fibrosis
+  (CF),Cystic Fibrosis Transmembrane Conductance Regulator,Cystic
+  fibrosis-related diabetes (CFRD),Diabetes
+  Mellitus,Humans,Insulin,Ivacaftor,Quinolones}
+    \strng{namehash}{GH+1}
+    \strng{fullhash}{GHJKRLJMNFCSSRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND: Half of adults with cystic fibrosis (CF) develop CF-related
+  diabetes (CFRD). CFRD contributes to worsened pulmonary function and
+  malnutrition. We undertook this study to determine the effect of cystic
+  fibrosis transmembrane regulator (CFTR) modulators on CRFD. METHODS: We
+  reviewed the medical records of adults with CF who followed in the CF clinic
+  at Oklahoma University Medical Center. We collected data for age at diagnosis
+  of CF and CFRD, CF mutations present, first date of ivacaftor therapy either
+  alone or in combination, insulin use, pulmonary function, body mass index
+  data, and home glucose monitoring results. Clinical resolution of CFRD was
+  taken as discontinuation of routine insulin and resolution of high
+  interstitial home glucose values. RESULTS: We identified 69 adult CF
+  patients, of whom 31 had CFRD. Among these 14 CFRD patients taking ivacaftor
+  alone or in combination, four patients completely stopped using insulin.
+  Another patient went from three times a day pre-prandial insulin to using
+  insulin once a week. Home blood glucose and hemoglobin A1c values supported
+  resolution of CFRD. Three patients continued to have hypoglycemia despite
+  stopping insulin. No CFRD patient not taking CFTR modulators markedly changed
+  the insulin regimen. Pulmonary function was preserved in those patients with
+  resolved CFRD (FEV1 +6.75\% {$\pm$}7.6), whereas it worsened in CFRD patients
+  who either were not taking CFTR modulators (FEV1 -2.09\% {$\pm$}3.9) or who
+  had no response of CFRD status (FEV1 -4.9\% {$\pm$}7.6). CONCLUSIONS: About
+  one-third of patients on CFTR modulator therapy had resolution or near
+  resolution of CFRD.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jdiacomp.2020.107845
+    \endverb
+    \field{issn}{1873-460X}
+    \field{number}{6}
+    \field{pages}{107845}
+    \field{title}{Effect of {{CFTR}} Modulator Therapy on Cystic
+  Fibrosis-Related Diabetes}
+    \field{volume}{35}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Diabetes and Its Complications}
+    \field{month}{06}
+    \field{year}{2021}
+  \endentry
+
   \entry{lopes-pacheco2020}{article}{}
     \name{author}{1}{}{%
       {{hash=LM}{%
@@ -16212,55 +16366,57 @@
     \field{year}{2020}
   \endentry
 
-  \entry{fiedorczuk2022}{article}{}
-    \name{author}{2}{}{%
-      {{hash=FK}{%
-         family={Fiedorczuk},
-         familyi={F\bibinitperiod},
-         given={Karol},
-         giveni={K\bibinitperiod},
+  \entry{yi2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YB}{%
+         family={Yi},
+         familyi={Y\bibinitperiod},
+         given={Buqing},
+         giveni={B\bibinitperiod},
       }}%
-      {{hash=CJ}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Jue},
-         giveni={J\bibinitperiod},
+      {{hash=DAH}{%
+         family={Dalpke},
+         familyi={D\bibinitperiod},
+         given={Alexander\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Boutin},
+         familyi={B\bibinitperiod},
+         given={S{\'e}bastien},
+         giveni={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{FKCJ1}
-    \strng{fullhash}{FKCJ1}
+    \strng{namehash}{YB+1}
+    \strng{fullhash}{YBDAHBS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Small molecule chaperones have been exploited as therapeutics for the
-  hundreds of diseases caused by protein misfolding. The most successful
-  examples are the CFTR correctors, which transformed cystic fibrosis therapy.
-  These molecules revert folding defects of the DF508 mutant and are widely
-  used to treat patients. To investigate the molecular mechanism of their
-  action, we determined cryo-electron microscopy structures of CFTR in complex
-  with the FDA-approved correctors lumacaftor or tezacaftor. Both drugs insert
-  into a hydrophobic pocket in the first transmembrane domain (TMD1), linking
-  together four helices that are thermodynamically unstable. Mutating residues
-  at the binding site rendered DF508-CFTR insensitive to lumacaftor and
-  tezacaftor, underscoring the functional significance of the structural
-  discovery. These results support a mechanism in which the correctors
-  stabilize TMD1 at an early stage of biogenesis, prevent its premature
-  degradation, and thereby allosterically rescuing many disease-causing
-  mutations.%
+    The development of CFTR modulator therapies significantly changed the
+  treatment scheme of people with cystic fibrosis. However, CFTR modulator
+  therapy is still a life-long treatment, which is not able to correct the
+  genetic defect and cure the disease. Therefore, it becomes crucial to
+  understand the effects of such modulation of CFTR function on the airway
+  physiology, especially on airway infections and inflammation that are
+  currently the major life-limiting factors in people with cystic fibrosis. In
+  this context, understanding the dynamics of airway microbiome changes in
+  response to modulator therapy plays an essential role in developing
+  strategies for managing airway infections. Whether and how the newly
+  available therapies affect the airway microbiome is still at the beginning of
+  being deciphered. We present here a brief review summarizing the latest
+  information about microbiome alterations in light of modern cystic fibrosis
+  modulator therapy.%
     }
-    \verb{doi}
-    \verb 10.1016/j.cell.2021.12.009
+    \field{issn}{2235-2988}
+    \field{title}{Changes in the {{Cystic Fibrosis Airway Microbiome}} in
+  {{Response}} to {{CFTR Modulator Therapy}}}
+    \field{volume}{11}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/KGE366H9/Yi et al. - 2021 - Changes in the
+    \verb Cystic Fibrosis Airway Microbiome i.pdf
     \endverb
-    \field{issn}{00928674}
-    \field{number}{1}
-    \field{pages}{158\bibrangedash 168.e11}
-    \field{title}{Mechanism of {{CFTR}} Correction by Type {{I}} Folding
-  Correctors}
-    \field{volume}{185}
-    \field{langid}{english}
-    \field{journaltitle}{Cell}
-    \field{month}{01}
-    \field{year}{2022}
+    \field{journaltitle}{Frontiers in Cellular and Infection Microbiology}
+    \field{year}{2021}
   \endentry
 
   \entry{csanady2019}{article}{}
@@ -24118,6 +24274,164 @@
     \field{journaltitle}{The EMBO Journal}
     \field{month}{05}
     \field{year}{2003}
+  \endentry
+
+  \entry{farkas2020}{article}{}
+    \name{author}{7}{}{%
+      {{hash=FB}{%
+         family={Farkas},
+         familyi={F\bibinitperiod},
+         given={Bianka},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=TH}{%
+         family={Tordai},
+         familyi={T\bibinitperiod},
+         given={Hedvig},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pad{\'a}nyi},
+         familyi={P\bibinitperiod},
+         given={Rita},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tordai},
+         familyi={T\bibinitperiod},
+         given={Attila},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gera},
+         familyi={G\bibinitperiod},
+         given={J{\'a}nos},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Paragi},
+         familyi={P\bibinitperiod},
+         given={G{\'a}bor},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Heged{\H u}s},
+         familyi={H\bibinitperiod},
+         given={Tam{\'a}s},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer}}%
+    }
+    \keyw{ABCC7,Chloride channel,Cystic fibrosis,Molecular dynamics,Structure}
+    \strng{namehash}{FB+1}
+    \strng{fullhash}{FBTHPRTAGJPGHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF), a lethal monogenic disease, is caused by pathogenic
+  variants of the CFTR chloride channel. The majority of CF mutations affect
+  protein folding and stability leading overall to diminished apical anion
+  conductance of epithelial cells. The recently published cryo-EM structures of
+  full-length human and zebrafish CFTR provide a good model to gain insight
+  into structure\textendash function relationships of CFTR variants. Although,
+  some of the structures were determined in the phosphorylated and ATP-bound
+  active state, none of the static structures showed an open pathway for
+  chloride permeation. Therefore, we performed molecular dynamics simulations
+  to generate a conformational ensemble of the protein and used channel
+  detecting algorithms to identify conformations with an opened channel. Our
+  simulations indicate a main intracellular entry at TM4/6, a secondary pore at
+  TM10/12, and a bottleneck region involving numerous amino acids from TM1,
+  TM6, and TM12 in accordance with experiments. Since chloride ions entered the
+  pathway in our equilibrium simulations, but did not traverse the bottleneck
+  region, we performed metadynamics simulations, which revealed two possible
+  exits. One of the chloride ions exits includes hydrophobic lipid tails that
+  may explain the lipid-dependency of CFTR function. In summary, our in silico
+  study provides a detailed description of a potential chloride channel pathway
+  based on a recent cryo-EM structure and may help to understand the gating of
+  the CFTR chloride channel, thus contributing to novel strategies to rescue
+  dysfunctional mutants.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00018-019-03211-4
+    \endverb
+    \field{issn}{14209071}
+    \field{number}{4}
+    \field{pages}{765\bibrangedash 778}
+    \field{title}{Discovering the Chloride Pathway in the {{CFTR}} Channel}
+    \field{volume}{77}
+    \field{journaltitle}{Cellular and Molecular Life Sciences}
+    \field{month}{02}
+    \field{year}{2020}
+  \endentry
+
+  \entry{zeng2021}{report}{}
+    \name{author}{3}{}{%
+      {{hash=ZZW}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={Zhi\bibnamedelima Wei},
+         giveni={Z\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Linsdell},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pom{\`e}s},
+         familyi={P\bibinitperiod},
+         given={R{\'e}gis},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZZW+1}
+    \strng{fullhash}{ZZWLPPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Abstract The recent elucidation of atomistic structures of Cl - channel
+  CFTR provides opportunities for understanding the molecular basis of cystic
+  fibrosis. Despite having been activated through phosphorylation and provided
+  with ATP ligands, several near-atomistic cryo-EM structures of CFTR are in a
+  closed state, as inferred from the lack of a continuous passage through a
+  hydrophobic bottleneck region located in the extracellular portion of the
+  pore. Here, we present repeated, microsecond-long molecular dynamics
+  simulations of human CFTR solvated in a lipid bilayer and aqueous NaCl. At
+  equilibrium, Cl - ions enter the channel through a lateral intracellular
+  portal and bind to two distinct cationic sites inside the channel pore but do
+  not traverse the narrow, de-wetted bottleneck. Simulations conducted in the
+  presence of a strong hyperpolarizing electric field led to spontaneous
+  chloride translocation events through the bottleneck region of the channel,
+  suggesting that the protein relaxed to a functionally open state.
+  Conformational changes of small magnitude involving transmembrane helices 1
+  and 6 preceded ion permeation through diverging exit routes at the
+  extracellular end of the pore. Although permeating Cl - ions remain mostly
+  hydrated, partial dehydration occurs at the binding sites and in the
+  bottleneck. This portion of the pore undergoes wetting prior to Cl -
+  translocation, suggesting that it acts as a hydrophobic gate. The observed Cl
+  - pathway is largely consistent with the loci of mutations that alter channel
+  conductance, anion binding, and ion selectivity, supporting the model of the
+  open state of CFTR obtained in the present study.%
+    }
+    \verb{doi}
+    \verb 10.21203/rs.3.rs-771352/v1
+    \endverb
+    \field{title}{Molecular {{Dynamics Study}} of {{Cl- Permeation}} through
+  {{Cystic Fibrosis Transmembrane Conductance Regulator}} ({{CFTR}})}
+    \field{langid}{english}
+    \list{institution}{1}{%
+      {{In Review}}%
+    }
+    \verb{file}
+    \verb /home/miro/Zotero/storage/562FDK6L/Zeng et al. - 2021 - Molecular Dyn
+    \verb amics Study of Cl- Permeation through.pdf
+    \endverb
+    \field{type}{Preprint}
+    \field{month}{08}
+    \field{year}{2021}
   \endentry
 
   \entry{corradi2018}{article}{}
