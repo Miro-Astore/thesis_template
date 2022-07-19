@@ -37,7 +37,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 54067 items from 5000.
+Reallocated field_info (elt_size=4) to 53928 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: ./library.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -1448,14 +1448,13 @@ Repeated entry---line 19623 of file library.bib
  : @book{zuckerman2010
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "depristo2005a"
 Warning--I didn't find a database entry for "negoda2108"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 351 entries,
             6365 wiz_defined-function locations,
-            4129 strings with 474947 characters,
+            4128 strings with 474934 characters,
 and the built_in function-call counts, 3961188 in all, are:
 = -- 326182
 > -- 55006
