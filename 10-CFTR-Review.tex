@@ -4,29 +4,33 @@
 \chapquote{Because of what's inside me; Because of my genes.-Bob Flanagan \cite{dick1997}.}{}
 \newpage
 %Authors note:
-% We begin with a breif overview of the disease Cystic Fibrosis as it is the main motiation for this project. A horrendous disease for which we will soon find a cure.
+% We begin with a breif overview of the disease Cystic Fibrosis as it is the main motiation for this project. A horrendous disease for which we will hopefully soon find a cure.
 
 % The purpose of this chapter is to present an overview of CFTR's structure and mechanism of action as discovered by a combination of structural and physiological studies. In addition to the actions of CFTR modulators.
 
-This thesis primarily focusses on the molecular causes of Cystic Fibrosis. In subsequent proceeding chapters we will use Molecular Dynamics (MD) to determine what kind of defect rare mutations cause, with the goal of understanding what kind of treatments they might respond to. Given the imoprtance of the CFTR protein system to the goal of this work we will look at its structure and dynamics in detail in this chapter. However, to understand the motivation for these studies, we will first review some of the medical literature surrounding the disease itself. 
+% The purpose of this chapter is to present an overview of CFTR's structure and mechanism of action as discovered by a combination of structural and physiological studies. In addition to the actions of CFTR modulators.
 
-In previous chapters we always worked upward. In chapter \ref{chap:methods} I showed how we can begin from Schr\"oedinger's wave equation to understand biomolecular systems. This was to give an example of the philosophy I outlined in chapter \ref{chap:introduction}, taking abstract formalisms and working upward to model macroscopic biophysical phenomenon. By contrast, I have taken particular care to begin this chapter with a pragmatic discussion of this awful disease. When one trains to practice medicine they are taught a rigorous code of conduct and ethics. I had no such training and I knew I was missing something by studying this disease so impersonally \cite{foucault1994}. I think it's important to note that physicists have had a long history of political and moral philosophy, not always for the better \cite{frank1993, gottfried1999, global2009, rhodes1986, aaronson2008, berger2016, vonneumann_britanica}. Should we wish to embark on the enterprise of studying biophysics we have a responsibility to also study how to do it ethically. These questions have thankfully been studied for some time by philosophers and the reader is referred to texts on bioethics and ethics in artificial intelligence \cite{buchanan2000, genome_editting_guildelines_2017, muller2021, bostrom2014}. As biophysical techniques increase capability, so does their capability for misuse \cite{mallapaty2022, urbina2022}. 
+This thesis primarily focusses on the molecular causes of Cystic Fibrosis. In subsequent chapters we will use Molecular Dynamics (MD) to determine what kind of defect rare mutations cause, with the goal of understanding what kind of treatments they might respond to. Given the importance of the CFTR protein system to the goal of this work we will look at its structure and dynamics in detail in this chapter. However, to understand the motivation for these studies, we will first review some of the medical literature surrounding the disease itself. 
+
+In previous chapters we always worked upward. In chapter \ref{chap:methods} I showed how we can begin from Schr\"oedinger's wave equation to understand biomolecular systems. This was to give an example of the philosophy I outlined in chapter \ref{chap:introduction}, taking abstract formalisms and integrating them to model macroscopic biophysical phenomenon. By contrast, in this chapter we will work downward. I have taken particular care to begin this chapter with a discussion of the clinical outcomes of the disease we are studying, so we do not lose sight of our goals in studying biophysics. 
+
+When one trains to practice medicine they are taught how to conduct themselves ethically, with their patients best interests at heart \cite{hajar2017}. I have had no such training and I knew I was missing something by studying this disease so impersonally \cite{foucault1994}. I think it's important to note that physicists have often participated in political and moral discourse in the last century, and not always for the better \cite{frank1993, gottfried1999, global2009, rhodes1986, aaronson2008, berger2016, vonneumann_britanica}. Should we wish to embark on the enterprise of studying biophysics we have a responsibility to also study how to do it ethically. Thankfully, many important questions have been pondered for some time by philosophers and the reader is encouraged to seek texts on bioethics and ethics in the use of artificial intelligence \cite{buchanan2000, taneri2011, genome_editting_guildelines_2017, muller2021, bostrom2014}. These considerations will become increasinly important as biophysics advances. As biophysical techniques increase in capacity, so too does their capability for misuse \cite{mallapaty2022, urbina2022}. 
 
 %On this somewhat somber note, we will now take a brief look at what it is like to live with Cystic Fibrosis.
 
 %We will then analyse the root cause, mutations to the Cystic Fibrosis transmembrane Conductance Regulator (CFTR). In chapter \ref{chap:conclusion} we will use much of the knowledge gained in this chapter to think about where we can direct future studies to help treat the root cause of Cystic Fibrosis. 
 
 
-\section{Clinical outcomes of Cystic Fibrosis}
-Cystic Fibrosis (CF) is the most common fatal genetic condition in Caucasian populations. 165 000 people are estimated to be afflicted globally \cite{guo2022}. Even with decades of research there is no known cure for CF. With the average life expectancy of patients falling below 50 even in countries with developed health care systems such as the USA and Australia\cite{mcbennett2022}. The symptoms of the disease are due to the inability of cells to regulate their salt content. 
+\section{Clinical Realities of Cystic Fibrosis}
+Cystic Fibrosis (CF) is the most common fatal genetic condition in Caucasian populations. 165 000 people are estimated to be afflicted globally \cite{guo2022}. Even with decades of research there is no known cure for CF. With the average life expectancy of patients falling below 50 even in countries with developed health care systems such as the USA and Australia \cite{mcbennett2022}. Management of disease symptoms also has significant financial and emotional costs to patients' families \cite{vangool2013}. The symptoms of the disease are due to the inability of cells to regulate their salt content. 
 
-The most acute symptoms are due to the dehydration of epithelial membranes. When dehydrated the cilia on the epithelium collapse leaving them unable to clear the mucus that naturally lines the airway\cite{boucher2007}. The dehydration mentioned earlier causes the mucus to thicken. This buildup has two pathogenic functions. Firstly it inhibits the normal function of the organ, since mucus fills ducts that would normally pass nutrients in the pancreas or absorb gasses in the lungs. Secondly, the stationary mucus allows bacterial infection, this can further degrade lung function and remains one of the most troublesome chronic complications in CF patients. 
+The most acute symptoms are due to the dehydration of epithelial membranes. When dehydrated, the cilia on the epithelium collapse leaving them unable to clear the mucus \cite{boucher2007}. This means patients must undergo hours of physical therapy each day in order to . Simultaneously, this dehydration causes the mucus to thicken as moisture is leached from it. This thick mucus has two pathogenic functions. Firstly, the stationary mucus allows bacterial infection, this can further degrade lung function and remains one of the most troublesome chronic complications in CF patients. Secondly,  and more acutely, this thick mucus inhibits the normal function of several organ systems. Since mucus fills ducts that would normally pass nutrients in the pancreas or absorb gasses in the lungs. 
 
-Much of the clinical progress into CF has been managing the movement of this mucus and the populations of bacterium in it. Patients require hours of physical therapy each day to help clear this mucus since their lungs are unable to. They must also inhale saline solutions in order to counteract the osmotic pressure in their epithelium. This helps draw more moisture out of the epithelial cells to allow the cilia to move. 
+Much of the clinical progress into CF has been managing the movement of this mucus and the populations of bacterium in it. Patients require hours of physical therapy each day to help clear this mucus since their lungs are unable to naturally. They must also inhale saline solutions in order to counteract the osmotic pressure in their epithelium. This helps draw more moisture out of the epithelial cells to allow the cilia to move. 
 
 CF patients struggle to intake nutrients due to the build up of mucus in the ducts of their pancreas and large intestines. This leads to CF related diabetes which afflicts roughly half of adults with CF \cite{Kayani2018}. Patients with CF related diabetes are often administered enzymes and must adhere to a specific diet. 
 
-Interestingly, as patients are living longer, we are discovering more disease complications, meaning there is much clinical work to be done as managing CF becomes a life-long condition. 
+Interestingly, as patients are living longer, we are discovering more disease complications, meaning there is much clinical work to be done as managing CF becomes a life-long condition \cite{stalvey2013}. 
 
 \begin{figure}
 	\label{CF_life_expectancy}
@@ -37,37 +41,18 @@ Interestingly, as patients are living longer, we are discovering more disease co
 	\caption[CF Clinical Progress] {\textbf{CF Clinical Progress}}{Life expectancy of CF patients correlates highly with translational research. Source \cite{garcia2022}} 
 \end{figure}
 
-These complicated clinical factors have lead to an array of treatments to manage the disease. Patients must undergo hours of physical therapy each day in order to aid in the clearance of mucus from their lungs, they must adhedre to a specific diet . 
+These complicated clinical factors have lead to an array of treatments to manage the disease. Patients must undergo hours of physical therapy each day in order to aid in the clearance of mucus from their lungs, they must adhere to a specific diet . 
 
-\subsection{Patients with rare mutations struggle to gain access to modulator therapy}
-We will explore the mechanism behind CFTR modulators shortly. However, first we should outline the specific, pragmatic motivations for the molecular modelling carried out in this thesis. Roughly 50\% cases of Cystic Fibrosis are caused by a homozygous mutation, $\Delta$F508, and 90\% of patients carry at least one copy of this mutation. At the time of writing, many jurisdictions such as Australia, the USA and the EU have approved a triple therapy known as Trikafta which can improve the outcomes for patients with one copy of $\Delta$F508. . However, this leaves a significant part of the CF afflicted population without access to this life saving medication. The work in this thesis demonstrates that a larger section of the CF population is likely to respond to modulators.
+\subsection{Prognosis}
+Patients with CF struggle to lead a normal life. 
+The gradually degrading lung function is nearly universally the cause of death in patients with cystic fibrosis. .
 
-The treatment of rare mutations has particular importance in CF, not only will patients be left behind, but in fact by studying rare mutations outcomes can be improved for all CF sufferers. Potentiator class drugs were discovered by the study of a rare mutation G551D, through high throughput sequencing. By studying rare mutations we can gain a more complete picture of the disease and so improve therapies for everybody. THis is particularly important as CF is uncovered in ergions where it is genetically rarer and so patients in these regions are more likely to have rare, poorly studied genotypes. Many of these regions have poor health infrastructure as well.
+Although beginning this chapter with a discussion of clinical might seem out of place it is important to remember why we are doing this difficult work. It is important, and physicists have a unique perspective, a capacity to do good which has historically been missing from the study of living systems and it is only recently that we are able to participate in such discussions. .
 
-\begin{figure}
-	\begin{center}
-	\includegraphics[width=\textwidth]{figures/CFTR_structure.pdf}
-	\end{center}
-	\label{CFTR_structure_domains}
-	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[CFTR Structure] {\textbf{CFTR Structure}}{There are currently two resolved human structures. The inactivated state is neither phosphorylated nor bound to ATP. Observe how the NBDs are far apart and the TMDs are not parallel, forcing a constriction which does not allow the passage of ions. By contrast, the activated structure is abound to ATP at both sites, bringing the TMDs into a parallel configuration where they form a pore. There are unresolved questions as to whether CFTR may conduct chloride in this conformation which we will analyse in chapter \ref{chap:opening}.} 
+\section{The Molecular Cause of Cystic Fibrosis is Genetic Mutation}
+CF is inhereted through mendelean genetics. Two defective copies of the CFTR gene. 
 
-\end{figure}
-CFTR is composed of one chain with pseudo-symmetric structure, the protein is well organised into 7 domains \ref{CFTR_structure_domains}. In the order of their primary structure they are: 
-\begin{enumerate}
-	\item The Lasso motif (AA 1-68). Anchors into the membrane and serves as an interaction hub with protein partners such as syntaxin and filamin which are important in cellular trafficking \cite{cormet-boyaka2002, naren1998, thelin2007} as well as WNK1 which plays a role in bicarbonate selectivity \cite{kim2019}.
-	\item Transmembrane Domain 1 (TMD1 AA 69-376). This domain forms half of the chloride conducting pore and importantly, TM1 and TM6 in this domain form the extracellular end of the pore for anion permeation \cite{linsdell2006, linsdell2022}.
-	\item Nucleotide Binding Domain 1 (NBD1 AA 377-629). One of the ATP binding sites, this domain has a dense concentration of disease causing mutations, including the most common mutation $\Delta F508$ \cite{cftr2}.
-	\item Regulatory Domain (R-domain AA 630-855). A disordered domain containing up to 11 phosphorylation sites\cite{mihalyi2020}. In the inactivated conformation a helical segment of this domain wedges between the TMDs. Upon binding of PKA and phosphorylation the wedge relocates to a location just below the R-domain. The identity of a fragment of the R-domain is analysed in detail in chapter \ref{chap:I37R}. The kinetics of this domain is important to the overall function of CFTR \cite{ostedgaard2000, mihalyi2020}. 
-	\item Transmembrane Domain 2 (TMD2 AA 856-1168). This domain forms the other half of the chloride conducting pore. There is ongoing controversy over the structure and function of TM8 the function of CFTR \cite{hegedus2022, liu2019}.
-	\item Nucleotide Binding Domain 2 (NBD2 AA 1169 - 1450). Home to the conserved Q-loop, which plays an important role in the binding of ATP in ABC transporters \cite{ivey2020, zolnerciks2014, dong2015}.
-	\item C-terminus (NBD2 AA 1451 - 1480). This structure is natively disordered but it serves as an interaction hub in WT-CFTR, anchoring CFTR to other proteins through its PDZ binding domain \cite{moyer1999, cushing2008}. 
-
-\end{enumerate}
-
-CFTR belongs to a super family of proteins known as ATP Binding Cassette Transporters,  many of these proteins perform active transport across cell membranes. The substrates they transport can vary, including lipids and drug molecules. Proteins in this family share a common motif known as Nucleotide Binding Domains (NBDs). These domains act as ATPases, accelerating the hydrolysis of ATP. The energy from hydrolysis is then transferred into the protein in order for it to pump its substrate against a concentration gradient. 
-
-\section{CFTR is a Unique ABC Transporter}
+\subsection{CFTR is a Unique ABC Transporter}
 
 \begin{figure}
 	\label{ABC_diversity}
@@ -79,7 +64,7 @@ CFTR belongs to a super family of proteins known as ATP Binding Cassette Transpo
 \end{figure}
 ATP-Binding Cassette (ABC) transporters are an intriguing super family of proteins. On the whole, they transport substrates by using a combination of phosphorylation energy from ATP hydrolysis. These can be diverse substrates such as lipids or small molecules. Their structural diversity can be seen in figure \ref{ABC_diversity} reflecting their array of functions. 
 
-CFTR is unique, as it is not a transporter, but rather an anion \textit{channel}. The kinetic energy of the ATP is not used to translocate substrate across the membrane but rather simply used in the regulation of the gating cycle. There is ongoing debate about how closely hydrolysis is coupled to the diffusion of ions \cite{}. Chloride, bicarbonate and other anions are able to passively diffuse through the channel. This evolutionary misappropriation of a transporter to a "leaky channel" is perhaps the reason so many mutations can create a non-functional protein \cite{ddepristo2005a,linsdell2018}.
+CFTR is unique, as it is not a transporter, but rather an anion \textit{channel}. The kinetic energy of the ATP is not used to translocate substrate across the membrane but rather simply used in the regulation of the gating cycle. There is ongoing debate about how closely hydrolysis is coupled to the diffusion of ions \cite{}. Chloride, bicarbonate and other anions are able to passively diffuse through the channel. This evolutionary misappropriation of a transporter to a "leaky channel" is perhaps the reason so many mutations can create a non-functional protein \cite{depristo2005,linsdell2018}.
 
 \section{The Misfunction of CFTR causes CF}
 
@@ -118,6 +103,35 @@ Although useful, in reality this paradigm struggles to reflect the fact that a m
 
 %FIGURE demonstrates how each of the canonical classes at the molecular level is broken down into many sub classes and a mutation might belong to one of many of these subclasses. Structural biology paradigms and \textit{in silico} modelling can help classify mutations into these different classes. In combination with wet lab assays we can understand which classes of these molecular defects are most effectively treated with specific drug regimens. Our computational microscope is helping choose treatments for patients at the atomic level. 
 
+\section{Patients with rare mutations struggle to gain access to modulator therapy}
+We will explore the mechanism behind CFTR modulators shortly. However, first we should outline the specific, pragmatic motivations for the molecular modelling carried out in this thesis. Roughly 50\% cases of Cystic Fibrosis are caused by a homozygous mutation, $\Delta$F508, and 90\% of patients carry at least one copy of this mutation. At the time of writing, many jurisdictions such as Australia, the USA and the EU have approved a triple therapy known as Trikafta which can improve the outcomes for patients with one copy of $\Delta$F508. . However, this leaves a significant part of the CF afflicted population without access to this life saving medication. The work in this thesis demonstrates that a larger section of the CF population is likely to respond to modulators.
+
+The treatment of rare mutations has particular importance in CF, not only will patients be left behind, but in fact by studying rare mutations outcomes can be improved for all CF sufferers. Potentiator class drugs were discovered by the study of a rare mutation G551D, through high throughput sequencing. By studying rare mutations we can gain a more complete picture of the disease and so improve therapies for everybody. THis is particularly important as CF is uncovered in ergions where it is genetically rarer and so patients in these regions are more likely to have rare, poorly studied genotypes. Many of these regions have poor health infrastructure as well. The more modulators are available the cheaper individual drug costs will become as it breaks the monopoly that individual drug companies hold on specific drugs as well.
+
+\begin{figure}
+	\begin{center}
+	\includegraphics[width=\textwidth]{figures/CFTR_structure.pdf}
+	\end{center}
+	\label{CFTR_structure_domains}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[CFTR Structure] {\textbf{CFTR Structure}}{There are currently two resolved human structures. The inactivated state is neither phosphorylated nor bound to ATP. Observe how the NBDs are far apart and the TMDs are not parallel, forcing a constriction which does not allow the passage of ions. By contrast, the activated structure is abound to ATP at both sites, bringing the TMDs into a parallel configuration where they form a pore. There are unresolved questions as to whether CFTR may conduct chloride in this conformation which we will analyse in chapter \ref{chap:opening}.} 
+
+\end{figure}
+CFTR is composed of one chain with pseudo-symmetric structure, the protein is well organised into 7 domains \ref{CFTR_structure_domains}. In the order of their primary structure they are: 
+\begin{enumerate}
+	\item The Lasso motif (AA 1-68). Anchors into the membrane and serves as an interaction hub with protein partners such as syntaxin and filamin which are important in cellular trafficking \cite{cormet-boyaka2002, naren1998, thelin2007} as well as WNK1 which plays a role in bicarbonate selectivity \cite{kim2019}.
+	\item Transmembrane Domain 1 (TMD1 AA 69-376). This domain forms half of the chloride conducting pore and importantly, TM1 and TM6 in this domain form the extracellular end of the pore for anion permeation \cite{linsdell2006, linsdell2022}.
+	\item Nucleotide Binding Domain 1 (NBD1 AA 377-629). One of the ATP binding sites, this domain has a dense concentration of disease causing mutations, including the most common mutation $\Delta F508$ \cite{cftr2}.
+	\item Regulatory Domain (R-domain AA 630-855). A disordered domain containing up to 11 phosphorylation sites\cite{mihalyi2020}. In the inactivated conformation a helical segment of this domain wedges between the TMDs. Upon binding of PKA and phosphorylation the wedge relocates to a location just below the R-domain. The identity of a fragment of the R-domain is analysed in detail in chapter \ref{chap:I37R}. The kinetics of this domain is important to the overall function of CFTR \cite{ostedgaard2000, mihalyi2020}. 
+	\item Transmembrane Domain 2 (TMD2 AA 856-1168). This domain forms the other half of the chloride conducting pore. There is ongoing controversy over the structure and function of TM8 the function of CFTR \cite{hegedus2022, liu2019}.
+	\item Nucleotide Binding Domain 2 (NBD2 AA 1169 - 1450). Home to the conserved Q-loop, which plays an important role in the binding of ATP in ABC transporters \cite{ivey2020, zolnerciks2014, dong2015}.
+	\item C-terminus (NBD2 AA 1451 - 1480). This structure is natively disordered but it serves as an interaction hub in WT-CFTR, anchoring CFTR to other proteins through its PDZ binding domain \cite{moyer1999, cushing2008}. 
+
+\end{enumerate}
+
+CFTR belongs to a super family of proteins known as ATP Binding Cassette Transporters,  many of these proteins perform active transport across cell membranes. The substrates they transport can vary, including lipids and drug molecules. Proteins in this family share a common motif known as Nucleotide Binding Domains (NBDs). These domains act as ATPases, accelerating the hydrolysis of ATP. The energy from hydrolysis is then transferred into the protein in order for it to pump its substrate against a concentration gradient. 
+
+
 \section{CFTR Modulators}
 Since CF is caused by malfunctions of the channel it makes sense to pursue CFTR as a drug target. Through high throughput \textit{in vitro} screening several (GET NUMBER) compounds have been developed that aim to rescue the function of CFTR. These fall into two classes. Correctors, which aid CFTR to fold into the correct state and potentiators which help the channel reach the fully open state once it has folded correctly and integrated into the membrane. Emerging evidence suggests that specific genetic defects may be optimally rescued by specific combinations and doses of both correctors and potentiators compounds \cite{}. Recently, cryo-EM structures of these compounds in their bound state have been released. In addition to several \textit {in vitro} biophysical experiments to determine the precise mechanism of action and binding site of these compounds.
 
@@ -137,7 +151,8 @@ These drugs are clinically efficacious \cite{VanGoor2014} on several mutants wit
 
 This provides a rationale for why it appears possible for diverse range of molecular defects to be treatable by these small molecules. In our work we've found that the atomic nature of the defects introduced by each mutation varies widely, what is interesting is that experiments in \textit{ex vivo} models have shown that these drugs treat a variety of different defects. The classification of classes of defect is outdated, really there are as many classes as there are mutations.
 
-
+\subsection{Read Through Compounds}
+Roughly 10\% of mutations result in a premature stop codon in the .
 
 \section{Patient Derived Organoids as a Pre Clinical Model}
 The basic unit of living things are cells. In the medical field there is growing capability to discern the functioning of an individual patient's cells. These can be used as models for testing what might produce the best clinical outcomes for the patient. For the case of Cystic Fibrosis researchers have begun to take samples of epithelial stem cells of patients with the disease and grow those samples into tissues which mimic the function of the entire organ\cite{depoel2020}. This is possible in the epithelium due to a population of adult stem cells which maintain the ability to differentiate into a variety of cell types (a property known as pluripotency). 
