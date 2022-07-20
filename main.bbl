@@ -5156,7 +5156,7 @@
     \list{publisher}{1}{%
       {{American Chemical Society}}%
     }
-    \strng{namehash}{PA+1}
+    \strng{namehash}{PA+2}
     \strng{fullhash}{PAJCCC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -13784,6 +13784,178 @@
     \field{year}{2013}
   \endentry
 
+  \entry{page2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PA}{%
+         family={Page},
+         familyi={P\bibinitperiod},
+         given={Annelise},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Goldenberg},
+         familyi={G\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MAL}{%
+         family={Matthews},
+         familyi={M\bibinitperiod},
+         given={Anne\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PAGAMAL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Abstract Background CFTR-modulators are a category of drugs that facilitate
+  trafficking and opening of the abnormal CFTR protein in individuals with
+  cystic fibrosis (CF) who have certain genetic mutations. Clinical trial data
+  show that individuals taking CFTR-modulators have increased or stable lung
+  function (FEV 1 ) as well as reduced frequency of pulmonary exacerbations.
+  There are no data on whether CFTR-modulators influence psychosocial aspects
+  of the lives of individuals with CF. The purpose of this qualitative study
+  was to explore how the introduction of CFTR-modulators has affected
+  individuals' lived experiences outside of clinical health variables; that is,
+  to explore whether there is a relationship between using CFTR-modulator drugs
+  and the psychological and social aspects of the lives of individuals with CF,
+  including: career, relationships, family planning and psychological
+  functioning. Methods Eight men and women with CF ages 24\textendash 32, with
+  a history of taking any approved CFTR-modulator for at least six months, were
+  recruited from an adult CF center. A semi-structured interview guide was used
+  to interview the participants. The data were coded using a grounded theory
+  approach with an iterative methodology. Results Four themes emerged from the
+  data: stability, identity, potentiality, and hope. Conclusions Although these
+  themes cannot be generalized to all individuals with CF, this study provides
+  preliminary data for how CFTR-modulators may influence an individual with
+  CF's outlook on life and that these individuals are feeling hopeful about the
+  future.%
+    }
+    \verb{doi}
+    \verb 10.1186/s12890-022-01825-2
+    \endverb
+    \field{issn}{1471-2466}
+    \field{number}{1}
+    \field{pages}{42}
+    \field{title}{Lived Experiences of Individuals with Cystic Fibrosis on
+  {{CFTR-modulators}}}
+    \field{volume}{22}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/L66I6EQT/Page et al. - 2022 - Lived experie
+    \verb nces of individuals with cystic fibro.pdf
+    \endverb
+    \field{journaltitle}{BMC Pulmonary Medicine}
+    \field{month}{12}
+    \field{year}{2022}
+  \endentry
+
+  \entry{hammoudeh2021}{article}{}
+    \name{author}{9}{}{%
+      {{hash=HS}{%
+         family={Hammoudeh},
+         familyi={H\bibinitperiod},
+         given={Samer},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gadelhaq},
+         familyi={G\bibinitperiod},
+         given={Wessam},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hani},
+         familyi={H\bibinitperiod},
+         given={Yahya},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ON}{%
+         family={Omar},
+         familyi={O\bibinitperiod},
+         given={Nadia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=EDD}{%
+         family={El\bibnamedelima Dimassi},
+         familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={Darine},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EC}{%
+         family={Elizabeth},
+         familyi={E\bibinitperiod},
+         given={Cynthia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PAK}{%
+         family={Pullattayil},
+         familyi={P\bibinitperiod},
+         given={Abdul\bibnamedelima Kareem},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chandra},
+         familyi={C\bibinitperiod},
+         given={Prem},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JIA}{%
+         family={Janahi},
+         familyi={J\bibinitperiod},
+         given={Ibrahim\bibnamedelima A.},
+         giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Arab,Cystic fibrosis,Middle East,Qatar,Systematic review}
+    \strng{namehash}{HS+1}
+    \strng{fullhash}{HSGWHYONEDDECPAKCPJIA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is a genetic autosomal recessive disease that involves
+  multiple systems. Both life quality and expectation are affected by the
+  debilitating multi-system involvement of the disease which includes
+  pulmonary, gastrointestinal, reproductive, and endocrine symptoms. Very few
+  studies have covered the epidemiological aspects of the disease among Arab
+  countries. To systematically review the available epidemiological literature
+  on cystic fibrosis in order to describe the epidemiological state of this
+  disease in the Arab world, this review used PubMed to search for relevant
+  articles related to patients with cystic fibrosis, with no restriction on
+  gender or age. Google scholar and the snowballing technique were used to
+  locate further articles. A total of 17 articles met the inclusion criteria
+  for this review. These articles were from Bahrain, Egypt, Jordan, Kuwait,
+  Morocco, Oman, Saudi Arabia, Tunisia, and the United Arab Emirates. The
+  articles scored 1.5\textendash 6.5 out of 8 on the quality assessment. The
+  epidemiological data reported varied based on country and type of study. The
+  establishment of CF registries is definitely a priority in the region, as
+  well as the need for more research involving CF patients particularly those
+  involving the epidemiological and clinical characteristics of these
+  patients.%
+    }
+    \verb{doi}
+    \verb 10.1007/s42399-021-00756-z
+    \endverb
+    \field{issn}{2523-8973}
+    \field{number}{2}
+    \field{pages}{490\bibrangedash 498}
+    \field{shorttitle}{The {{Epidemiology}} of {{Cystic Fibrosis}} in {{Arab
+  Countries}}}
+    \field{title}{The {{Epidemiology}} of {{Cystic Fibrosis}} in {{Arab
+  Countries}}: {{A Systematic Review}}}
+    \field{volume}{3}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/P77UM43B/Hammoudeh et al. - 2021 - The Epid
+    \verb emiology of Cystic Fibrosis in Arab Countr.pdf
+    \endverb
+    \field{journaltitle}{SN Comprehensive Clinical Medicine}
+    \field{month}{02}
+    \field{year}{2021}
+  \endentry
+
   \entry{boucher2007}{misc}{}
     \name{author}{1}{}{%
       {{hash=BRC}{%
@@ -13842,6 +14014,131 @@
     \verb{file}
     \verb /home/miro/Zotero/storage/QK2Q6WML/chest-physical-therapy.html
     \endverb
+  \endentry
+
+  \entry{wark2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WP}{%
+         family={Wark},
+         familyi={W\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MVM}{%
+         family={McDonald},
+         familyi={M\bibinitperiod},
+         given={Vanessa\bibnamedelima M.},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Administration; Inhalation,Controlled Clinical Trials as Topic,Cystic
+  Fibrosis,Forced Expiratory Volume,Humans,Mucociliary Clearance,Nebulizers and
+  Vaporizers,Randomized Controlled Trials as Topic,Saline Solution; Hypertonic}
+    \strng{namehash}{WPMVM1}
+    \strng{fullhash}{WPMVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND: Impaired mucociliary clearance characterises lung disease in
+  cystic fibrosis (CF). Hypertonic saline enhances mucociliary clearance and
+  may lessen the destructive inflammatory process in the airways. This is an
+  update of a previously published review. OBJECTIVES: To investigate efficacy
+  and tolerability of treatment with nebulised hypertonic saline on people with
+  CF compared to placebo and or other treatments that enhance mucociliary
+  clearance. SEARCH METHODS: We searched the Cochrane Cystic Fibrosis and
+  Genetic Disorders Group's Cystic Fibrosis Trials Register, comprising
+  references identified from comprehensive electronic database searches,
+  handsearches of relevant journals and abstract books of conference
+  proceedings. We also searched ongoing trials databases.Date of most recent
+  searches: 08 August 2018. SELECTION CRITERIA: Randomised and quasi-randomised
+  controlled trials assessing hypertonic saline compared to placebo or other
+  mucolytic therapy, for any duration or dose regimen in people with CF (any
+  age or disease severity). DATA COLLECTION AND ANALYSIS: Two authors
+  independently reviewed all identified trials and data, and assessed trial
+  quality. The quality of the evidence was assessed using GRADE. MAIN RESULTS:
+  A total of 17 trials (966 participants, aged 4 months to 63 years) were
+  included; 19 trials were excluded, three trials are ongoing and 16 are
+  awaiting classification. We judged 14 of the 17 included trials to have a
+  high risk of bias due to participants ability to discern the taste of the
+  solutions.Hypertonic saline 3\% to 7\% versus placeboAt four weeks, we found
+  very low-quality evidence from three placebo-controlled trials (n = 225) that
+  hypertonic saline (3\% to 7\%, 10 mL twice-daily) increased the mean change
+  from baseline of the forced expiratory volume at one second (FEV1) (\%
+  predicted) by 3.44\% (95\% confidence interval (CI) 0.67 to 6.21), but there
+  was no difference between groups in lung clearance index in one small trial
+  (n = 10). By 48 weeks the effect was slightly smaller in one trial (n = 134),
+  2.31\% (95\% CI -2.72 to 7.34) (low-quality evidence). No deaths occurred in
+  the trials. Two trials reporting data on exacerbations were not combined as
+  the age difference between the participants in the trials was too great. One
+  trial (162 adults) found 0.5 fewer exacerbations requiring antibiotics per
+  person in the hypertonic saline group; the second trial (243 children,
+  average age of two years) found no difference between groups (low-quality
+  evidence). There was insufficient evidence reported across the trials to
+  determine the rate of different adverse events such as cough, chest
+  tightness, tonsillitis and vomiting (very low-quality evidence). Four trials
+  (n = 80) found very low-quality evidence that sputum clearance was better
+  with hypertonic saline.A further trial was performed in adults with an acute
+  exacerbation of lung disease (n = 132). The effects of hypertonic saline on
+  short-term lung function, 5.10\% higher (14.67\% lower to 24.87\% higher) and
+  the time to the subsequent exacerbation post-discharge, hazard ratio 0.86
+  (95\% CI 0.57 to 1.30) are uncertain (low-quality evidence). No deaths were
+  reported. Cough and wheeze were reported but no serious adverse events (very
+  low-quality evidence).Hypertonic saline versus mucus mobilising treatments
+  Three trials compared a similar dose of hypertonic saline to recombinant
+  deoxyribonuclease (rhDNase); two (61 participants) provided data for
+  inclusion in the review. There was insufficient evidence from one three-week
+  trial (14 participants) to determine the effects of hypertonic saline on FEV1
+  \% predicted, mean difference (MD) 1.60\% (95\% CI -7.96 to 11.16) (very
+  low-quality evidence). In the second trial, rhDNase led to a greater increase
+  in FEV1 \% predicted than hypertonic saline (5 mL twice daily) at 12 weeks in
+  participants with moderate to severe lung disease, MD 8.00\% (95\% CI 2.00 to
+  14.00) (low-quality evidence). One cross-over trial (47 participants)
+  reported 15 exacerbations during treatment with hypertonic saline and 18
+  exacerbations in the rhDNase group (low-quality evidence). Increased cough
+  was reported in 13 participants using hypertonic saline and 17 on daily
+  rhDNase in one cross-over trial of 47 people (low-quality evidence). There
+  was insufficient evidence to assess rates of other adverse events reported.
+  No deaths were reported.One trial (12 participants) compared hypertonic
+  saline to amiloride and one (29 participants) to sodium-2-mercaptoethane
+  sulphonate. Neither trial found a difference between treatments in any
+  measures of sputum clearance; additionally the comparison of hypertonic
+  saline and sodium-2-mercaptoethane sulphonate reported no differences in
+  courses of antibiotics or adverse events (very low-quality evidence).One
+  trial (12 participants) compared hypertonic saline to mannitol but did not
+  report lung function at relevant time points for this review; there were no
+  differences in sputum clearance, but mannitol was reported to be more
+  'irritating' (very low-quality evidence). AUTHORS' CONCLUSIONS: Regular use
+  of nebulised hypertonic saline by adults and children over the age of 12
+  years with CF results in an improvement in lung function after four weeks
+  (very low-quality evidence from three trials), but this was not sustained at
+  48 weeks (low-quality evidence from one trial). The review did show that
+  nebulised hypertonic saline reduced the frequency of pulmonary exacerbations
+  (although we found insufficient evidence for this outcome in children under
+  six years of age) and may have a small effect on improvement in quality of
+  life in adults.Evidence from one small cross-over trial in children indicates
+  that rhDNase may lead to better lung function at three months; qualifying
+  this we highlight that while the study did demonstrate that the improvement
+  in FEV1 was greater with daily rHDNase, there were no differences seen in any
+  of the secondary outcomes.Hypertonic saline does appear to be an effective
+  adjunct to physiotherapy during acute exacerbations of lung disease in
+  adults. However, for the outcomes assessed, the quality of the evidence
+  ranged from very low to at best moderate, according to the GRADE criteria.%
+    }
+    \verb{doi}
+    \verb 10.1002/14651858.CD001506.pub4
+    \endverb
+    \field{issn}{1469-493X}
+    \field{pages}{CD001506}
+    \field{title}{Nebulised Hypertonic Saline for Cystic Fibrosis}
+    \field{volume}{9}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/LLTQYGFE/Wark and McDonald - 2018 - Nebulis
+    \verb ed hypertonic saline for cystic fibrosis.pdf
+    \endverb
+    \field{journaltitle}{The Cochrane Database of Systematic Reviews}
+    \field{month}{09}
+    \field{year}{2018}
   \endentry
 
   \entry{Kayani2018}{misc}{}
@@ -14070,305 +14367,153 @@
     \field{year}{2022}
   \endentry
 
-  \entry{thomas2020}{article}{}
-    \name{author}{43}{}{%
-      {{hash=TC}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={Christoph},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=ASG}{%
-         family={Aller},
-         familyi={A\bibinitperiod},
-         given={Stephen\bibnamedelima G.},
-         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=BK}{%
-         family={Beis},
-         familyi={B\bibinitperiod},
-         given={Konstantinos},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=CEP}{%
-         family={Carpenter},
-         familyi={C\bibinitperiod},
-         given={Elisabeth\bibnamedelima P.},
-         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=CG}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Geoffrey},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=CL}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Lei},
+  \entry{ioannou2014}{article}{}
+    \name{author}{7}{}{%
+      {{hash=IL}{%
+         family={Ioannou},
+         familyi={I\bibinitperiod},
+         given={Liane},
          giveni={L\bibinitperiod},
       }}%
-      {{hash=DE}{%
-         family={Dassa},
-         familyi={D\bibinitperiod},
-         given={Elie},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={Dean},
-         familyi={D\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=DVHF}{%
-         family={Duong Van\bibnamedelima Hoa},
-         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-         given={Franck},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=ED}{%
-         family={Ekiert},
-         familyi={E\bibinitperiod},
-         given={Damian},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=FR}{%
-         family={Ford},
-         familyi={F\bibinitperiod},
-         given={Robert},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=GR}{%
-         family={Gaudet},
-         familyi={G\bibinitperiod},
-         given={Rachelle},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=GX}{%
-         family={Gong},
-         familyi={G\bibinitperiod},
-         given={Xin},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=HIB}{%
-         family={Holland},
-         familyi={H\bibinitperiod},
-         given={I.\bibnamedelima Barry},
-         giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=HY}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Yihua},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=KDK}{%
-         family={Kahne},
-         familyi={K\bibinitperiod},
-         given={Daniel\bibnamedelima K.},
-         giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=KH}{%
-         family={Kato},
-         familyi={K\bibinitperiod},
-         given={Hiroaki},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=KV}{%
-         family={Koronakis},
-         familyi={K\bibinitperiod},
-         given={Vassilis},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=KCM}{%
-         family={Koth},
-         familyi={K\bibinitperiod},
-         given={Christopher\bibnamedelima M.},
-         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=LY}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Youngsook},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=LO}{%
-         family={Lewinson},
-         familyi={L\bibinitperiod},
-         given={Oded},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=LR}{%
-         family={Lill},
-         familyi={L\bibinitperiod},
-         given={Roland},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=ME}{%
-         family={Martinoia},
+      {{hash=MBJ}{%
+         family={McClaren},
          familyi={M\bibinitperiod},
-         given={Enrico},
-         giveni={E\bibinitperiod},
+         given={Belinda\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
-      {{hash=MS}{%
-         family={Murakami},
+      {{hash=MJ}{%
+         family={Massie},
          familyi={M\bibinitperiod},
-         given={Satoshi},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=PHW}{%
-         family={Pinkett},
-         familyi={P\bibinitperiod},
-         given={Heather\bibnamedelima W.},
-         giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=PB}{%
-         family={Poolman},
-         familyi={P\bibinitperiod},
-         given={Bert},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=RD}{%
-         family={Rosenbaum},
-         familyi={R\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=SB}{%
-         family={Sarkadi},
-         familyi={S\bibinitperiod},
-         given={Balazs},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=SL}{%
-         family={Schmitt},
-         familyi={S\bibinitperiod},
-         given={Lutz},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=SE}{%
-         family={Schneider},
-         familyi={S\bibinitperiod},
-         given={Erwin},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=SY}{%
-         family={Shi},
-         familyi={S\bibinitperiod},
-         given={Yigong},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=SSL}{%
-         family={Shyng},
-         familyi={S\bibinitperiod},
-         given={Show-Ling},
-         giveni={S\bibinithyphendelim L\bibinitperiod},
-      }}%
-      {{hash=SDJ}{%
-         family={Slotboom},
-         familyi={S\bibinitperiod},
-         given={Dirk\bibnamedelima J.},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=TE}{%
-         family={Tajkhorshid},
-         familyi={T\bibinitperiod},
-         given={Emad},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=TDP}{%
-         family={Tieleman},
-         familyi={T\bibinitperiod},
-         given={D.\bibnamedelima Peter},
-         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=UK}{%
-         family={Ueda},
-         familyi={U\bibinitperiod},
-         given={Kazumitsu},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=VA}{%
-         family={V{\'a}radi},
-         familyi={V\bibinitperiod},
-         given={Andr{\'a}s},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=WPC}{%
-         family={Wen},
-         familyi={W\bibinitperiod},
-         given={Po-Chao},
-         giveni={P\bibinithyphendelim C\bibinitperiod},
-      }}%
-      {{hash=YN}{%
-         family={Yan},
-         familyi={Y\bibinitperiod},
-         given={Nieng},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=ZP}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Peng},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=ZH}{%
-         family={Zheng},
-         familyi={Z\bibinitperiod},
-         given={Hongjin},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=ZJ}{%
-         family={Zimmer},
-         familyi={Z\bibinitperiod},
-         given={Jochen},
+         given={John},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=TR}{%
-         family={Tamp{\'e}},
-         familyi={T\bibinitperiod},
-         given={Robert},
-         giveni={R\bibinitperiod},
+      {{hash=LS}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Sharon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MSA}{%
+         family={Metcalfe},
+         familyi={M\bibinitperiod},
+         given={Sylvia\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Forrest},
+         familyi={F\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DMB}{%
+         family={Delatycki},
+         familyi={D\bibinitperiod},
+         given={Martin\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
     }
-    \keyw{ABC transporters,ATPases,cryo-EM,membrane proteins,molecular
-  machines,phylogeny,primary active transporters,sequence alignment,structural
-  biology,X-ray crystallography}
-    \strng{namehash}{TC+1}
-  \strng{fullhash}{TCASGBKCEPCGCLDEDMDVHFEDFRGRGXHIBHYKDKKHKVKCMLYLOLRMEMSPHWPBRDSBSLSESYSSLSDJTETDPUKVAWPCYNZPZHZJTR1}
+    \strng{namehash}{IL+1}
+    \strng{fullhash}{ILMBJMJLSMSAFLDMB1}
     \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Members of the ATP-binding cassette (ABC) transporter superfamily
-  translocate a broad spectrum of chemically diverse substrates. While their
-  eponymous ATP-binding cassette in the nucleotide-binding domains (NBDs) is
-  highly conserved, their transmembrane domains (TMDs) forming the
-  translocation pathway exhibit distinct folds and topologies, suggesting that
-  during evolution the ancient motor domains were combined with different
-  transmembrane mechanical systems to orchestrate a variety of cellular
-  processes. In recent years, it has become increasingly evident that the
-  distinct TMD folds are best suited to categorize the multitude of ABC
-  transporters. We therefore propose a new ABC transporter classification that
-  is based on structural homology in the TMDs.%
-    }
+    \field{labeltitlesource}{shorttitle}
     \verb{doi}
-    \verb 10.1002/1873-3468.13935
+    \verb 10.1038/gim.2013.125
     \endverb
-    \field{issn}{1873-3468}
-    \field{number}{23}
-    \field{pages}{3767\bibrangedash 3775}
-    \field{title}{Structural and Functional Diversity Calls for a New
-  Classification of {{ABC}} Transporters}
-    \field{volume}{594}
+    \field{issn}{10983600}
+    \field{number}{3}
+    \field{pages}{207\bibrangedash 216}
+    \field{shorttitle}{Population-Based Carrier Screening for Cystic Fibrosis}
+    \field{title}{Population-Based Carrier Screening for Cystic Fibrosis: A
+  Systematic Review of 23 Years of Research}
+    \field{volume}{16}
     \field{langid}{english}
     \verb{file}
-    \verb /home/miro/Zotero/storage/CEKMEQUI/1873-3468.html
+    \verb /home/miro/Zotero/storage/68NWRH5L/Ioannou et al. - 2014 - Population
+    \verb -based carrier screening for cystic fibr.pdf
     \endverb
-    \field{journaltitle}{FEBS Letters}
-    \field{annotation}{%
-    \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/1873-3468.13935%
+    \field{journaltitle}{Genetics in Medicine}
+    \field{month}{03}
+    \field{year}{2014}
+  \endentry
+
+  \entry{miller2020}{article}{}
+    \name{author}{9}{}{%
+      {{hash=MAC}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Aaron\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CAP}{%
+         family={Comellas},
+         familyi={C\bibinitperiod},
+         given={Alejandro\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HDB}{%
+         family={Hornick},
+         familyi={H\bibinitperiod},
+         given={Douglas\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=SDA}{%
+         family={Stoltz},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CJE}{%
+         family={Cavanaugh},
+         familyi={C\bibinitperiod},
+         given={Joseph\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GAK}{%
+         family={Gerke},
+         familyi={G\bibinitperiod},
+         given={Alicia\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=WMJ}{%
+         family={Welsh},
+         familyi={W\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zabner},
+         familyi={Z\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PPM}{%
+         family={Polgreen},
+         familyi={P\bibinitperiod},
+         given={Philip\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
     }
+    \list{publisher}{1}{%
+      {{Proceedings of the National Academy of Sciences}}%
+    }
+    \strng{namehash}{MAC+1}
+    \strng{fullhash}{MACCAPHDBSDACJEGAKWMJZJPPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1073/pnas.1914912117
+    \endverb
+    \field{number}{3}
+    \field{pages}{1621\bibrangedash 1627}
+    \field{title}{Cystic Fibrosis Carriers Are at Increased Risk for a Wide
+  Range of Cystic Fibrosis-Related Conditions}
+    \field{volume}{117}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/92HX62NS/Miller et al. - 2020 - Cystic fibr
+    \verb osis carriers are at increased risk for.pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{month}{01}
     \field{year}{2020}
   \endentry
 
@@ -14422,266 +14567,6 @@
     \field{journaltitle}{Channels (Austin, Tex.)}
     \field{month}{01}
     \field{year}{2018}
-  \endentry
-
-  \entry{mihalyi2020}{article}{}
-    \name{author}{4}{}{%
-      {{hash=MC}{%
-         family={Mih{\'a}lyi},
-         familyi={M\bibinitperiod},
-         given={Csaba},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=II}{%
-         family={Iordanov},
-         familyi={I\bibinitperiod},
-         given={Iordan},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=TB}{%
-         family={T{\"o}r{\"o}csik},
-         familyi={T\bibinitperiod},
-         given={Be{\'a}ta},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=CL}{%
-         family={Csan{\'a}dy},
-         familyi={C\bibinitperiod},
-         given={L{\'a}szl{\'o}},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Proceedings of the National Academy of Sciences}}%
-    }
-    \strng{namehash}{MC+2}
-    \strng{fullhash}{MCIITBCL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The Cystic Fibrosis Transmembrane Conductance Regulator (CFTR) anion
-  channel is essential for epithelial salt\textendash water balance. CFTR
-  mutations cause cystic fibrosis, a lethal incurable disease. In cells CFTR is
-  activated through the cAMP signaling pathway, overstimulation of which during
-  cholera leads to CFTR-mediated intestinal salt\textendash water loss. Channel
-  activation is achieved by phosphorylation of its regulatory (R) domain by
-  cAMP-dependent protein kinase catalytic subunit (PKA). Here we show using two
-  independent approaches\textendash\textendash an ATP analog that can drive
-  CFTR channel gating but is unsuitable for phosphotransfer by PKA, and CFTR
-  mutants lacking phosphorylatable serines\textendash\textendash that PKA
-  efficiently opens CFTR channels through simple binding, under conditions that
-  preclude phosphorylation. Unlike when phosphorylation happens, CFTR
-  activation by PKA binding is completely reversible. Thus, PKA binding
-  promotes release of the unphosphorylated R domain from its inhibitory
-  position, causing full channel activation, whereas phosphorylation serves
-  only to maintain channel activity beyond termination of the PKA signal. The
-  results suggest two levels of CFTR regulation in cells: irreversible through
-  phosphorylation, and reversible through R-domain binding to
-  PKA\textendash\textendash and possibly also to other members of a large
-  network of proteins known to interact with the channel.%
-    }
-    \verb{doi}
-    \verb 10.1073/pnas.2007910117
-    \endverb
-    \field{issn}{0027-8424}
-    \field{pages}{202007910\bibrangedash 202007910}
-    \field{title}{Simple Binding of Protein Kinase {{A}} Prior to
-  Phosphorylation Allows {{CFTR}} Anion Channels to Be Opened by Nucleotides}
-    \field{journaltitle}{Proceedings of the National Academy of Sciences}
-    \field{month}{08}
-    \field{year}{2020}
-  \endentry
-
-  \entry{zhang2018}{article}{}
-    \name{author}{4}{}{%
-      {{hash=ZXC}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Xuejun\bibnamedelima C.},
-         giveni={X\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=YH}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Hanting},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=LZ}{%
-         family={Liu},
-         familyi={L\bibinitperiod},
-         given={Zhenfeng},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=SF}{%
-         family={Sun},
-         familyi={S\bibinitperiod},
-         given={Fei},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Springer}}%
-    }
-    \keyw{Gating mechanism,Inactivation,Ion channel,Membrane
-  potential,Sliding-rocking model,Voltage sensor}
-    \strng{namehash}{ZXC+1}
-    \strng{fullhash}{ZXCYHLZSF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Ion channels are essential for cellular signaling. Voltage-gated ion
-  channels (VGICs) are the largest and most extensively studied superfamily of
-  ion channels. They possess modular structural features such as
-  voltage-sensing domains that encircle and form mechanical connections with
-  the pore-forming domains. Such features are intimately related to their
-  function in sensing and responding to changes in the membrane potential. In
-  the present work, we discuss the thermodynamic mechanisms of the VGIC
-  superfamily, including the two-state gating mechanism, sliding-rocking
-  mechanism of the voltage sensor, subunit cooperation, lipid-infiltration
-  mechanism of inactivation, and the relationship with their structural
-  features.%
-    }
-    \verb{doi}
-    \verb 10.1007/s41048-018-0074-y
-    \endverb
-    \field{number}{6}
-    \field{pages}{300\bibrangedash 319}
-    \field{title}{Thermodynamics of Voltage-Gated Ion Channels}
-    \field{volume}{4}
-    \field{journaltitle}{Biophysics Reports}
-    \field{month}{12}
-    \field{year}{2018}
-  \endentry
-
-  \entry{zhang2016}{article}{}
-    \name{author}{2}{}{%
-      {{hash=ZZ}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Zhe},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Jue},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Cell Press}}%
-    }
-    \keyw{ABC transporter,anion channel,atomic structure,CFTR,cryo-EM}
-    \strng{namehash}{ZZCJ1}
-    \strng{fullhash}{ZZCJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The cystic fibrosis transmembrane conductance regulator (CFTR) is an anion
-  channel evolved from the ATP-binding cassette (ABC) transporter family. In
-  this study, we determined the structure of zebrafish CFTR in the absence of
-  ATP by electron cryo-microscopy to 3.7 \AA{} resolution. Human and zebrafish
-  CFTR share 55\% sequence identity, and 42 of the 46 cystic-fibrosis-causing
-  missense mutational sites are identical. In CFTR, we observe a large anion
-  conduction pathway lined by numerous positively charged residues. A single
-  gate near the extracellular surface closes the channel. The regulatory
-  domain, dephosphorylated, is located in the intracellular opening between the
-  two nucleotide-binding domains (NBDs), preventing NBD dimerization and
-  channel opening. The structure also reveals why many cystic-fibrosis-causing
-  mutations would lead to defects either in folding, ion conduction, or gating
-  and suggests new avenues for therapeutic intervention.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.cell.2016.11.014
-    \endverb
-    \field{issn}{10974172}
-    \field{number}{6}
-    \field{pages}{1586\bibrangedash 1597.e9}
-    \field{title}{Atomic {{Structure}} of the {{Cystic Fibrosis Transmembrane
-  Conductance Regulator}}}
-    \field{volume}{167}
-    \field{journaltitle}{Cell}
-    \field{month}{12}
-    \field{year}{2016}
-  \endentry
-
-  \entry{Baker2007}{article}{}
-    \name{author}{7}{}{%
-      {{hash=BJM}{%
-         family={Baker},
-         familyi={B\bibinitperiod},
-         given={Jennifer\bibnamedelima M.R.},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=HRP}{%
-         family={Hudson},
-         familyi={H\bibinitperiod},
-         given={Rhea\bibnamedelima P.},
-         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=KV}{%
-         family={Kanelis},
-         familyi={K\bibinitperiod},
-         given={Voula},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=CWY}{%
-         family={Choy},
-         familyi={C\bibinitperiod},
-         given={Wing\bibnamedelima Yiu},
-         giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=TPH}{%
-         family={Thibodeau},
-         familyi={T\bibinitperiod},
-         given={Patrick\bibnamedelima H.},
-         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=TPJ}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={Philip\bibnamedelima J.},
-         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=FJD}{%
-         family={{Forman-Kay}},
-         familyi={F\bibinitperiod},
-         given={Julie\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BJM+1}
-    \strng{fullhash}{BJMHRPKVCWYTPHTPJFJD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The regulatory (R) region of the cystic fibrosis transmembrane conductance
-  regulator (CFTR) is intrinsically disordered and must be phosphorylated at
-  multiple sites for full CFTR channel activity, with no one specific
-  phosphorylation site required. In addition, nucleotide binding and hydrolysis
-  at the nucleotide-binding domains (NBDs) of CFTR are required for channel
-  gating. We report NMR studies in the absence and presence of NBD1 that
-  provide structural details for the isolated R region and its interaction with
-  NBD1 at residue-level resolution. Several sites in the R region with measured
-  fractional helical propensity mediate interactions with NBD1. Phosphorylation
-  reduces the helicity of many R-region sites and reduces their NBD1
-  interactions. This evidence for a dynamic complex with NBD1 that transiently
-  engages different sites of the R region suggests a structural explanation for
-  the dependence of CFTR activity on multiple PKA phosphorylation sites.
-  \textcopyright{} 2007 Nature Publishing Group.%
-    }
-    \verb{doi}
-    \verb 10.1038/nsmb1278
-    \endverb
-    \field{issn}{15459993}
-    \field{number}{8}
-    \field{pages}{738\bibrangedash 745}
-    \field{title}{{{CFTR}} Regulatory Region Interacts with {{NBD1}}
-  Predominantly via Multiple Transient Helices}
-    \field{volume}{14}
-    \field{journaltitle}{Nature Structural and Molecular Biology}
-    \field{month}{08}
-    \field{year}{2007}
   \endentry
 
   \entry{zhang2017a}{article}{}
@@ -14744,6 +14629,85 @@
     \field{journaltitle}{Cell}
     \field{month}{07}
     \field{year}{2017}
+  \endentry
+
+  \entry{laselva2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LO}{%
+         family={Laselva},
+         familyi={L\bibinitperiod},
+         given={Onofrio},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Erwood},
+         familyi={E\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=IZ}{%
+         family={Ivakine},
+         familyi={I\bibinitperiod},
+         given={Zhenya},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=BCE}{%
+         family={Bear},
+         familyi={B\bibinitperiod},
+         given={Christine\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LO+1}
+    \strng{fullhash}{LOESDKIZBCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    F508del-cystic fibrosis transmembrane conductance regulator (CFTR) is the
+  major mutant responsible for cystic fibrosis (CF). ORKAMBI\textregistered,
+  approved for patients bearing this mutant, contains lumacaftor (VX-809) that
+  partially corrects F508del-CFTR's processing defect and ivacaftor (VX-770)
+  that potentiates its defective channel activity. Unfortunately, the clinical
+  efficacy of ORKAMBI\textregistered{} is modest, highlighting the need to
+  understand how the small molecules work so that superior compounds can be
+  developed. Because, human CFTR (hCFTR) and zebrafish Cftr (zCftr) are
+  structurally conserved as determined in recent cryo-EM structural models, we
+  hypothesized that the consequences of the major mutation and small molecule
+  modulators would be similar for the two species of protein. As expected, like
+  the F508del mutation in hCFTR, the homologous mutation in zCftr (F507del) is
+  misprocessed, yet not as severely as the human mutant and this defect was
+  restored by low-temperature (27\textdegree C) culture conditions. After
+  rescue to the cell surface, F507del-zCftr exhibited regulated channel
+  activity that was potentiated by ivacaftor. Surprisingly, lumacaftor failed
+  to rescue misprocessing of the F507del-zCftr at either 37 or 27\textdegree C
+  suggesting that future comparative studies with F508del-hCFTR would provide
+  insight into its structure: function relationships. Interestingly, the robust
+  rescue of F508del-zCftr at 27\textdegree C and availability of methods for in
+  vivo screening in zebrafish present the opportunity to define the cellular
+  pathways underlying rescue.%
+    }
+    \verb{doi}
+    \verb 10.1096/fba.2019-00039
+    \endverb
+    \field{issn}{2573-9832}
+    \field{number}{10}
+    \field{pages}{661\bibrangedash 670}
+    \field{title}{Activity of Lumacaftor Is Not Conserved in Zebrafish {{Cftr}}
+  Bearing the Major Cystic Fibrosis-causing Mutation}
+    \field{volume}{1}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/MN4KX4RW/Laselva et al. - 2019 - Activity o
+    \verb f lumacaftor is not conserved in zebrafi.pdf
+    \endverb
+    \field{journaltitle}{FASEB bioAdvances}
+    \field{month}{09}
+    \field{year}{2019}
   \endentry
 
   \entry{Hoffmann2018}{article}{}
@@ -14826,6 +14790,67 @@
     \field{volume}{75}
     \field{journaltitle}{Cellular and Molecular Life Sciences}
     \field{month}{10}
+    \field{year}{2018}
+  \endentry
+
+  \entry{zhang2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZXC}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xuejun\bibnamedelima C.},
+         giveni={X\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Hanting},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhenfeng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer}}%
+    }
+    \keyw{Gating mechanism,Inactivation,Ion channel,Membrane
+  potential,Sliding-rocking model,Voltage sensor}
+    \strng{namehash}{ZXC+1}
+    \strng{fullhash}{ZXCYHLZSF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Ion channels are essential for cellular signaling. Voltage-gated ion
+  channels (VGICs) are the largest and most extensively studied superfamily of
+  ion channels. They possess modular structural features such as
+  voltage-sensing domains that encircle and form mechanical connections with
+  the pore-forming domains. Such features are intimately related to their
+  function in sensing and responding to changes in the membrane potential. In
+  the present work, we discuss the thermodynamic mechanisms of the VGIC
+  superfamily, including the two-state gating mechanism, sliding-rocking
+  mechanism of the voltage sensor, subunit cooperation, lipid-infiltration
+  mechanism of inactivation, and the relationship with their structural
+  features.%
+    }
+    \verb{doi}
+    \verb 10.1007/s41048-018-0074-y
+    \endverb
+    \field{number}{6}
+    \field{pages}{300\bibrangedash 319}
+    \field{title}{Thermodynamics of Voltage-Gated Ion Channels}
+    \field{volume}{4}
+    \field{journaltitle}{Biophysics Reports}
+    \field{month}{12}
     \field{year}{2018}
   \endentry
 
@@ -14912,6 +14937,105 @@
     \field{year}{2007}
   \endentry
 
+  \entry{wei2016}{article}{}
+    \name{author}{7}{}{%
+      {{hash=WS}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Shipeng},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RBC}{%
+         family={Roessler},
+         familyi={R\bibinitperiod},
+         given={Bryan\bibnamedelima C.},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Icyuz},
+         familyi={I\bibinitperiod},
+         given={Mert},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chauvet},
+         familyi={C\bibinitperiod},
+         given={Sylvain},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Tao},
+         familyi={T\bibinitperiod},
+         given={Binli},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=IJLH}{%
+         family={Iv},
+         familyi={I\bibinitperiod},
+         given={John L.\bibnamedelima Hartman},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+      {{hash=KKL}{%
+         family={Kirk},
+         familyi={K\bibinitperiod},
+         given={Kevin\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{ABC transporter,allostery,ion channel,phosphorylation}
+    \strng{namehash}{WS+1}
+    \strng{fullhash}{WSRBCIMCSTBIJLHKKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The ABCC transporter subfamily includes pumps, the long and short multidrug
+  resistance proteins (MRPs), and an ATP-gated anion channel, the cystic
+  fibrosis transmembrane conductance regulator (CFTR). We show that despite
+  their thermodynamic differences, these ABCC transporter subtypes use broadly
+  similar mechanisms to couple their extracellular gates to the ATP occupancies
+  of their cytosolic nucleotide binding domains. A conserved extracellular
+  phenylalanine at this gate was a prime location for producing gain of
+  function (GOF) mutants of a long MRP in yeast (Ycf1p cadmium transporter), a
+  short yeast MRP (Yor1p oligomycin exporter), and human CFTR channels.
+  Extracellular gate mutations rescued ATP binding mutants of the yeast MRPs
+  and CFTR by increasing ATP sensitivity. Control ATPase-defective MRP mutants
+  could not be rescued by this mechanism. A CFTR double mutant with an
+  extracellular gate mutation plus a cytosolic GOF mutation was highly active
+  (single-channel open probability {$>$}0.3) in the absence of ATP and protein
+  kinase A, each normally required for CFTR activity. We conclude that all 3
+  ABCC transporter subtypes use similar mechanisms to couple their
+  extracellular gates to ATP occupancy, and highly active CFTR channels that
+  bypass defects in ATP binding or phosphorylation can be produced.\textemdash
+  Wei, S., Roessler, B. C., Icyuz, M., Chauvet, S., Tao, B., Hartman IV, J. L.,
+  Kirk, K. L., Long-range coupling between the extracellular gates and the
+  intracellular ATP binding domains of multidrug resistance protein pumps and
+  cystic fibrosis transmembrane conductance regulator channels. FASEB J. 30,
+  1247\textendash 1262 (2016). www.fasebj.org%
+    }
+    \verb{doi}
+    \verb 10.1096/fj.15-278382
+    \endverb
+    \field{issn}{1530-6860}
+    \field{number}{3}
+    \field{pages}{1247\bibrangedash 1262}
+    \field{title}{Long-Range Coupling between the Extracellular Gates and the
+  Intracellular {{ATP}} Binding Domains of Multidrug Resistance Protein Pumps
+  and Cystic Fibrosis Transmembrane Conductance Regulator Channels}
+    \field{volume}{30}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/YC4QCUVP/Wei et al. - 2016 - Long-range cou
+    \verb pling between the extracellular gate.pdf;/home/miro/Zotero/storage/YJ
+    \verb 7KHBEA/fj.html
+    \endverb
+    \field{journaltitle}{The FASEB Journal}
+    \field{annotation}{%
+    \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1096/fj.15-278382%
+    }
+    \field{year}{2016}
+  \endentry
+
   \entry{yang2002}{article}{}
     \name{author}{3}{}{%
       {{hash=YKL}{%
@@ -14950,6 +15074,394 @@
     \field{journaltitle}{The Journal of Chemical Physics}
     \field{month}{11}
     \field{year}{2002}
+  \endentry
+
+  \entry{vangoor2009}{article}{}
+    \name{author}{21}{}{%
+      {{hash=VGF}{%
+         family={Van\bibnamedelima Goor},
+         familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Fredrick},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hadida},
+         familyi={H\bibinitperiod},
+         given={Sabine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GPD}{%
+         family={Grootenhuis},
+         familyi={G\bibinitperiod},
+         given={Peter\bibnamedelima D.J.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Burton},
+         familyi={B\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Dong},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Neuberger},
+         familyi={N\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Turnbull},
+         familyi={T\bibinitperiod},
+         given={Amanda},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Ashvani},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Joubran},
+         familyi={J\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hazlewood},
+         familyi={H\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Jinglan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McCartney},
+         familyi={M\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AV}{%
+         family={Arumugam},
+         familyi={A\bibinitperiod},
+         given={Vijayalaksmi},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Decker},
+         familyi={D\bibinitperiod},
+         given={Caroline},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Jennifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=OER}{%
+         family={Olson},
+         familyi={O\bibinitperiod},
+         given={Eric\bibnamedelima R.},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WJJ}{%
+         family={Wine},
+         familyi={W\bibinitperiod},
+         given={Jeffery\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FRA}{%
+         family={Frizzell},
+         familyi={F\bibinitperiod},
+         given={Raymond\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Ashlock},
+         familyi={A\bibinitperiod},
+         given={Melissa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Negulescu},
+         familyi={N\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Cystic fibrosis transmembrane conductance regulator (CFTR),Epithelial
+  ion transport,Epithelial sodium channel (ENaC),Human bronchial epithelium
+  (HBE) culture}
+    \strng{namehash}{VGF+1}
+    \strng{fullhash}{VGFHSGPDBBCDNTTASAJJHAZJMJAVDCYJYCOERWJJFRAAMNP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is a fatal genetic disease caused by mutations in the
+  gene encoding the CF transmembrane conductance regulator (CFTR), a protein
+  kinase A (PKA)-activated epithelial anion channel involved in salt and fluid
+  transport in multiple organs, including the lung. Most CF mutations either
+  reduce the number of CFTR channels at the cell surface (e.g., synthesis or
+  processing mutations) or impair channel function (e.g., gating or conductance
+  mutations) or both. There are currently no approved therapies that target
+  CFTR. Here we describe the in vitro pharmacology of VX-770, an orally
+  bioavailable CFTR potentiator in clinical development for the treatment of
+  CF. In recombinant cells VX-770 increased CFTR channel open probability (Po)
+  in both the F508del processing mutation and the G551D gating mutation. VX-770
+  also increased Cl - secretion in cultured human CF bronchial epithelia (HBE)
+  carrying the G551D gating mutation on one allele and the F508del processing
+  mutation on the other allele by {$\approx$}10-fold, to {$\approx$}50\% of
+  that observed in HBE isolated from individuals without CF. Furthermore,
+  VX-770 reduced excessive Na+ and fluid absorption to prevent dehydration of
+  the apical surface and increased cilia beating in these epithelial cultures.
+  These results support the hypothesis that pharmacological agents that restore
+  or increase CFTR function can rescue epithelial cell function in human CF
+  airway.%
+    }
+    \verb{doi}
+    \verb 10.1073/PNAS.0904709106
+    \endverb
+    \field{issn}{00278424}
+    \field{number}{44}
+    \field{pages}{18825\bibrangedash 18830}
+    \field{title}{Rescue of {{CF}} Airway Epithelial Cell Function in Vitro by
+  a {{CFTR}} Potentiator, {{VX-770}}}
+    \field{volume}{106}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{month}{11}
+    \field{year}{2009}
+  \endentry
+
+  \entry{singh2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Meenu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rebordosa},
+         familyi={R\bibinitperiod},
+         given={Cristina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bernholz},
+         familyi={B\bibinitperiod},
+         given={Juliane},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Neeraj},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{CFTR,cystic fibrosis,epidemiology,genetics,potentiator}
+    \strng{namehash}{SM+2}
+    \strng{fullhash}{SMRCBJSN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Cystic fibrosis (CF) in the Asian population is less frequently reported
+  due to under-diagnosis and lack of centralized CF patient registries.
+  Clinical studies on CF cases from Asia have documented a severe course of the
+  disease. The spectrum of the cystic fibrosis transmembrane conductance
+  regulator (CFTR) variants in this population is quite heterogeneous. In
+  total, 166 variants have been reported on approximately 3700 Asian CF
+  chromosomes. The frequency of F508del among Asians is low compared with
+  Caucasians. Recent in vitro studies have shown promise of small molecule
+  correction and potentiation of 45 different CFTR variants. Of these variants,
+  16 (including G551D and F508del) have also been observed among Asian CF
+  individuals. We suggest undertaking molecular studies extensively to annotate
+  CFTR variants that will help Asian CF individuals to benefit from the
+  precision medicine gaining momentum in the Western countries.%
+    }
+    \verb{doi}
+    \verb 10.1111/resp.12656
+    \endverb
+    \field{issn}{1440-1843}
+    \field{number}{8}
+    \field{pages}{1172\bibrangedash 1181}
+    \field{shorttitle}{Epidemiology and Genetics of Cystic Fibrosis in
+  {{Asia}}}
+    \field{title}{Epidemiology and Genetics of Cystic Fibrosis in {{Asia}}:
+  {{In}} Preparation for the next-Generation Treatments}
+    \field{volume}{20}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/ULIIA627/Singh et al. - 2015 - Epidemiology
+    \verb  and genetics of cystic fibrosis in As.pdf;/home/miro/Zotero/storage/
+    \verb MS28CZFC/resp.html
+    \endverb
+    \field{journaltitle}{Respirology}
+    \field{annotation}{%
+    \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/resp.12656%
+    }
+    \field{year}{2015}
+  \endentry
+
+  \entry{zheng2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZB}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Baoying},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Ling},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZBCL1}
+    \strng{fullhash}{ZBCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is rarely seen in Asian populations. We diagnosed two
+  CF cases. One of them had a novel mutation c.870-1G{$>$}C in the cystic
+  fibrosis transmembrane conductance regulator (CFTR) gene. There have been 38
+  Chinese CF patients reported in literature from 1974 until the present
+  (2016), 25 different mutations were identified. Only one of these mutations
+  (R553X) is in the Caucasian CF screening panel. The mutations identified in
+  Chinese CF patients are very different from the common Caucasian gene
+  mutations. The CFTR gene mutation spectrum for the Chinese population
+  requires further investigation. Pediatr Pulmonol. 2017;52:E11\textendash E14.
+  \textcopyright{} 2016 The Authors. Pediatric Pulmonology Published by Wiley
+  Periodicals, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/ppul.23539
+    \endverb
+    \field{issn}{8755-6863}
+    \field{number}{3}
+    \field{pages}{E11\bibrangedash E14}
+    \field{title}{Differences in Gene Mutations between {{Chinese}} and
+  {{Caucasian}} Cystic Fibrosis Patients}
+    \field{volume}{52}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/UEU2A4U3/Zheng and Cao - 2017 - Differences
+    \verb  in gene mutations between Chinese and .pdf
+    \endverb
+    \field{journaltitle}{Pediatric Pulmonology}
+    \field{month}{03}
+    \field{year}{2017}
+  \endentry
+
+  \entry{ni2022}{article}{}
+    \name{author}{10}{}{%
+      {{hash=NQ}{%
+         family={Ni},
+         familyi={N\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Xiang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Ping},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=YL}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Yulan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XF}{%
+         family={Xiao},
+         familyi={X\bibinitperiod},
+         given={Feifan},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Bingbing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Huijun},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Wenhao},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DX}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Xinran},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \keyw{Allele frequency comparison,Cystic fibrosis,Haplotype construction
+  and comparison,Prevalence estimation,Screening panel}
+    \strng{namehash}{NQ+1}
+    \strng{fullhash}{NQCXZPYLLYXFWBWHZWDX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is a common, life-threatening genetic disease in
+  Caucasians but rarely reported in Chinese population. The prevalence and
+  population-specific genetic spectrum of CF in China needs to be
+  systematically estimated and compared with Caucasians.%
+    }
+    \verb{doi}
+    \verb 10.1186/s13023-022-02279-9
+    \endverb
+    \field{issn}{1750-1172}
+    \field{number}{1}
+    \field{pages}{129}
+    \field{title}{Systematic Estimation of Cystic Fibrosis Prevalence in
+  {{Chinese}} and Genetic Spectrum Comparison to {{Caucasians}}}
+    \field{volume}{17}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/BBANV2WM/Ni et al. - 2022 - Systematic esti
+    \verb mation of cystic fibrosis prevalenc.pdf;/home/miro/Zotero/storage/B37
+    \verb FYK65/s13023-022-02279-9.html
+    \endverb
+    \field{journaltitle}{Orphanet Journal of Rare Diseases}
+    \field{month}{03}
+    \field{year}{2022}
   \endentry
 
   \entry{cormet-boyaka2002}{article}{}
@@ -15496,6 +16008,74 @@
     \field{journaltitle}{Journal of Biological Chemistry}
     \field{month}{03}
     \field{year}{2022}
+  \endentry
+
+  \entry{mihalyi2020}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MC}{%
+         family={Mih{\'a}lyi},
+         familyi={M\bibinitperiod},
+         given={Csaba},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=II}{%
+         family={Iordanov},
+         familyi={I\bibinitperiod},
+         given={Iordan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={T{\"o}r{\"o}csik},
+         familyi={T\bibinitperiod},
+         given={Be{\'a}ta},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Csan{\'a}dy},
+         familyi={C\bibinitperiod},
+         given={L{\'a}szl{\'o}},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Proceedings of the National Academy of Sciences}}%
+    }
+    \strng{namehash}{MC+2}
+    \strng{fullhash}{MCIITBCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Cystic Fibrosis Transmembrane Conductance Regulator (CFTR) anion
+  channel is essential for epithelial salt\textendash water balance. CFTR
+  mutations cause cystic fibrosis, a lethal incurable disease. In cells CFTR is
+  activated through the cAMP signaling pathway, overstimulation of which during
+  cholera leads to CFTR-mediated intestinal salt\textendash water loss. Channel
+  activation is achieved by phosphorylation of its regulatory (R) domain by
+  cAMP-dependent protein kinase catalytic subunit (PKA). Here we show using two
+  independent approaches\textendash\textendash an ATP analog that can drive
+  CFTR channel gating but is unsuitable for phosphotransfer by PKA, and CFTR
+  mutants lacking phosphorylatable serines\textendash\textendash that PKA
+  efficiently opens CFTR channels through simple binding, under conditions that
+  preclude phosphorylation. Unlike when phosphorylation happens, CFTR
+  activation by PKA binding is completely reversible. Thus, PKA binding
+  promotes release of the unphosphorylated R domain from its inhibitory
+  position, causing full channel activation, whereas phosphorylation serves
+  only to maintain channel activity beyond termination of the PKA signal. The
+  results suggest two levels of CFTR regulation in cells: irreversible through
+  phosphorylation, and reversible through R-domain binding to
+  PKA\textendash\textendash and possibly also to other members of a large
+  network of proteins known to interact with the channel.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.2007910117
+    \endverb
+    \field{issn}{0027-8424}
+    \field{pages}{202007910\bibrangedash 202007910}
+    \field{title}{Simple Binding of Protein Kinase {{A}} Prior to
+  Phosphorylation Allows {{CFTR}} Anion Channels to Be Opened by Nucleotides}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{month}{08}
+    \field{year}{2020}
   \endentry
 
   \entry{ostedgaard2000}{article}{}
@@ -16168,6 +16748,308 @@
     \field{year}{2008}
   \endentry
 
+  \entry{thomas2020}{article}{}
+    \name{author}{43}{}{%
+      {{hash=TC}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ASG}{%
+         family={Aller},
+         familyi={A\bibinitperiod},
+         given={Stephen\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Beis},
+         familyi={B\bibinitperiod},
+         given={Konstantinos},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CEP}{%
+         family={Carpenter},
+         familyi={C\bibinitperiod},
+         given={Elisabeth\bibnamedelima P.},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Dassa},
+         familyi={D\bibinitperiod},
+         given={Elie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DVHF}{%
+         family={Duong Van\bibnamedelima Hoa},
+         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+         given={Franck},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Ekiert},
+         familyi={E\bibinitperiod},
+         given={Damian},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Ford},
+         familyi={F\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gaudet},
+         familyi={G\bibinitperiod},
+         given={Rachelle},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Gong},
+         familyi={G\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HIB}{%
+         family={Holland},
+         familyi={H\bibinitperiod},
+         given={I.\bibnamedelima Barry},
+         giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Yihua},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KDK}{%
+         family={Kahne},
+         familyi={K\bibinitperiod},
+         given={Daniel\bibnamedelima K.},
+         giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kato},
+         familyi={K\bibinitperiod},
+         given={Hiroaki},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Koronakis},
+         familyi={K\bibinitperiod},
+         given={Vassilis},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KCM}{%
+         family={Koth},
+         familyi={K\bibinitperiod},
+         given={Christopher\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Youngsook},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LO}{%
+         family={Lewinson},
+         familyi={L\bibinitperiod},
+         given={Oded},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lill},
+         familyi={L\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Martinoia},
+         familyi={M\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Murakami},
+         familyi={M\bibinitperiod},
+         given={Satoshi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PHW}{%
+         family={Pinkett},
+         familyi={P\bibinitperiod},
+         given={Heather\bibnamedelima W.},
+         giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Poolman},
+         familyi={P\bibinitperiod},
+         given={Bert},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rosenbaum},
+         familyi={R\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Sarkadi},
+         familyi={S\bibinitperiod},
+         given={Balazs},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Schmitt},
+         familyi={S\bibinitperiod},
+         given={Lutz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Erwin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Yigong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SSL}{%
+         family={Shyng},
+         familyi={S\bibinitperiod},
+         given={Show-Ling},
+         giveni={S\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=SDJ}{%
+         family={Slotboom},
+         familyi={S\bibinitperiod},
+         given={Dirk\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Tajkhorshid},
+         familyi={T\bibinitperiod},
+         given={Emad},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TDP}{%
+         family={Tieleman},
+         familyi={T\bibinitperiod},
+         given={D.\bibnamedelima Peter},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=UK}{%
+         family={Ueda},
+         familyi={U\bibinitperiod},
+         given={Kazumitsu},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={V{\'a}radi},
+         familyi={V\bibinitperiod},
+         given={Andr{\'a}s},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WPC}{%
+         family={Wen},
+         familyi={W\bibinitperiod},
+         given={Po-Chao},
+         giveni={P\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=YN}{%
+         family={Yan},
+         familyi={Y\bibinitperiod},
+         given={Nieng},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Hongjin},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zimmer},
+         familyi={Z\bibinitperiod},
+         given={Jochen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Tamp{\'e}},
+         familyi={T\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{ABC transporters,ATPases,cryo-EM,membrane proteins,molecular
+  machines,phylogeny,primary active transporters,sequence alignment,structural
+  biology,X-ray crystallography}
+    \strng{namehash}{TC+1}
+  \strng{fullhash}{TCASGBKCEPCGCLDEDMDVHFEDFRGRGXHIBHYKDKKHKVKCMLYLOLRMEMSPHWPBRDSBSLSESYSSLSDJTETDPUKVAWPCYNZPZHZJTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Members of the ATP-binding cassette (ABC) transporter superfamily
+  translocate a broad spectrum of chemically diverse substrates. While their
+  eponymous ATP-binding cassette in the nucleotide-binding domains (NBDs) is
+  highly conserved, their transmembrane domains (TMDs) forming the
+  translocation pathway exhibit distinct folds and topologies, suggesting that
+  during evolution the ancient motor domains were combined with different
+  transmembrane mechanical systems to orchestrate a variety of cellular
+  processes. In recent years, it has become increasingly evident that the
+  distinct TMD folds are best suited to categorize the multitude of ABC
+  transporters. We therefore propose a new ABC transporter classification that
+  is based on structural homology in the TMDs.%
+    }
+    \verb{doi}
+    \verb 10.1002/1873-3468.13935
+    \endverb
+    \field{issn}{1873-3468}
+    \field{number}{23}
+    \field{pages}{3767\bibrangedash 3775}
+    \field{title}{Structural and Functional Diversity Calls for a New
+  Classification of {{ABC}} Transporters}
+    \field{volume}{594}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/CEKMEQUI/1873-3468.html
+    \endverb
+    \field{journaltitle}{FEBS Letters}
+    \field{annotation}{%
+    \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/1873-3468.13935%
+    }
+    \field{year}{2020}
+  \endentry
+
   \entry{fiedorczuk2022}{article}{}
     \name{author}{2}{}{%
       {{hash=FK}{%
@@ -16416,6 +17298,327 @@
     \verb Cystic Fibrosis Airway Microbiome i.pdf
     \endverb
     \field{journaltitle}{Frontiers in Cellular and Infection Microbiology}
+    \field{year}{2021}
+  \endentry
+
+  \entry{greenfield2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GNJ}{%
+         family={Greenfield},
+         familyi={G\bibinitperiod},
+         given={Norma\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Nature Publishing Group}}%
+    }
+    \keyw{Analytical Chemistry,Biological Techniques,Computational
+  Biology/Bioinformatics,general,Life Sciences,Microarrays,Organic Chemistry}
+    \strng{namehash}{GNJ1}
+    \strng{fullhash}{GNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Circular dichroism (CD) is an excellent tool for rapid determination of the
+  secondary structure and folding properties of proteins that have been
+  obtained using recombinant techniques or purified from tissues. The most
+  widely used applications of protein CD are to determine whether an expressed,
+  purified protein is folded, or if a mutation affects its conformation or
+  stability. In addition, it can be used to study protein interactions. This
+  protocol details the basic steps of obtaining and interpreting CD data, and
+  methods for analyzing spectra to estimate the secondary structural
+  composition of proteins. CD has the advantage that measurements may be made
+  on multiple samples containing {$\leq$}20 {$\mu$}g of proteins in
+  physiological buffers in a few hours. However, it does not give the
+  residue-specific information that can be obtained by x-ray crystallography or
+  NMR.%
+    }
+    \verb{doi}
+    \verb 10.1038/nprot.2006.202
+    \endverb
+    \field{issn}{1750-2799}
+    \field{number}{6}
+    \field{pages}{2876\bibrangedash 2890}
+    \field{title}{Using Circular Dichroism Spectra to Estimate Protein
+  Secondary Structure}
+    \field{volume}{1}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/miro/Zotero/storage/VBR635CY/Greenfield - 2006 - Using circular
+    \verb  dichroism spectra to estimate prote.pdf;/home/miro/Zotero/storage/5R
+    \verb AELI9N/nprot.2006.html
+    \endverb
+    \field{journaltitle}{Nature Protocols}
+    \field{month}{12}
+    \field{year}{2006}
+  \endentry
+
+  \entry{yeh2017}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YHI}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Han\bibnamedelima I.},
+         giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sohma},
+         familyi={S\bibinitperiod},
+         given={Yoshiro},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Conrath},
+         familyi={C\bibinitperiod},
+         given={Katja},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HTC}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Tzyh\bibnamedelima Chang},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Rockefeller University Press}}%
+    }
+    \strng{namehash}{YHI+1}
+    \strng{fullhash}{YHISYCKHTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cystic fibrosis (CF) is a channelopathy caused by loss-of-function
+  mutations of the cystic fibrosis transmembrane conductance regulator (CFTR)
+  gene, which encodes a phosphorylation-activated and adenosine triphosphate
+  (ATP)-gated chloride channel. In the past few years, high-throughput drug
+  screening has successfully realized the first US Food and Drug
+  Administration-approved therapy for CF, called ivacaftor (or VX-770). A more
+  recent CFTR potentiator, GLPG1837
+  (N-(3-carbamoyl-5,5,7,7-tetramethyl-4,7-dihydro-5H-thieno[2,3-c]
+  pyran-2-yl)-1H-pyrazole-3-carboxamide), has been shown to exhibit a higher
+  efficacy than ivacaftor for the G551D mutation, yet the underlying mechanism
+  of GLPG1837 remains unclear. Here we find that despite their differences in
+  potency and efficacy, GLPG1837 and VX-770 potentiate CFTR gating in a
+  remarkably similar manner. Specifically, they share similar effects on
+  single-channel kinetics of wild-type CFTR. Their actions are independent of
+  nucleotide-binding domain (NBD) dimerization and ATP hydrolysis, critical
+  steps controlling CFTR's gate opening and closing, respectively. By applying
+  the two reagents together, we provide evidence that GLPG1837 and VX-770
+  likely compete for the same site, whereas GLPG1837 and the high-affinity ATP
+  analogue 2'-deoxy-N6-(2-phenylethyl)-adenosine-5'-O-triphosphate (dPATP) work
+  synergistically through two different sites. We also find that the apparent
+  affinity for GLPG1837 is dependent on the open probability of the channel,
+  suggesting a state-dependent binding of the drug to CFTR (higher binding
+  affinity for the open state than the closed state), which is consistent with
+  the classic mechanism for allosteric modulation. We propose a simple
+  four-state kinetic model featuring an energetic coupling between CFTR gating
+  and potentiator binding to explain our experimental results.%
+    }
+    \verb{doi}
+    \verb 10.1085/JGP.201711886
+    \endverb
+    \field{issn}{15407748}
+    \field{number}{12}
+    \field{pages}{1105\bibrangedash 1118}
+    \field{title}{A Common Mechanism for {{CFTR}} Potentiators}
+    \field{volume}{149}
+    \field{journaltitle}{Journal of General Physiology}
+    \field{month}{12}
+    \field{year}{2017}
+  \endentry
+
+  \entry{yeh2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=YHI}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Han\bibnamedelima I.},
+         giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=QL}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Liming},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sohma},
+         familyi={S\bibinitperiod},
+         given={Yoshiro},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Conrath},
+         familyi={C\bibinitperiod},
+         given={Katja},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zou},
+         familyi={Z\bibinitperiod},
+         given={Xiaoqin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HTC}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Tzyh\bibnamedelima Chang},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Rockefeller University Press}}%
+    }
+    \strng{namehash}{YHI+1}
+    \strng{fullhash}{YHIQLSYCKZXHTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The past two decades have witnessed major breakthroughs in developing
+  compounds that target the chloride channel CFTR for the treatment of patients
+  with cystic fibrosis. However, further improvement in affinity and efficacy
+  for these CFTR modulators will require insights into the molecular
+  interactions between CFTR modulators and their binding targets. In this
+  study, we use in silico molecular docking to identify potential binding sites
+  for GLPG1837, a CFTR potentiator that may share a common mechanism and
+  binding site with VX-770, the FDA-approved drug for patients carrying
+  mutations with gating defects. Among the five binding sites predicted by
+  docking, the two top-scoring sites are located at the interface between
+  CFTR's two transmembrane domains: Site I consists of D924, N1138, and S1141,
+  and site IIN includes F229, F236, Y304, F312, and F931. Using mutagenesis to
+  probe the importance of these sites for GLPG187 binding, we find that
+  disruption of predicted hydrogenbonding interactions by mutation of D924
+  decreases apparent affinity, while hydrophobic amino acids substitutions at
+  N1138 and introduction of positively charged amino acids at S1141 improve the
+  apparent affinity for GLPG1837. Alanine substitutions at Y304, F312, and F931
+  (site IIN) decrease the affinity for GLPG1837, whereas alanine substitutions
+  at F229 and F236 (also site IIN), or at residues in the other three
+  lower-scoring sites, have little effect. In addition, current relaxation
+  analysis to assess the apparent dissociation rate of VX-770 yields results
+  consistent with the dose-response experiments for GLPG8137, with the
+  dissociation rate of VX-770 accelerated by D924N, F236A, Y304A, and F312A,
+  but decelerated by N1138L and S1141K mutations. Collectively, these data
+  identify two potential binding sites for GLPG1837 and VX-770 in CFTR. We
+  discuss the pros and cons of evidence for these two loci and the implications
+  for future drug design.%
+    }
+    \verb{doi}
+    \verb 10.1085/jgp.201912360
+    \endverb
+    \field{issn}{15407748}
+    \field{number}{7}
+    \field{pages}{912\bibrangedash 928}
+    \field{title}{Identifying the Molecular Target Sites for {{CFTR}}
+  Potentiators {{GLPG1837}} and {{VX-770}}}
+    \field{volume}{151}
+    \field{journaltitle}{Journal of General Physiology}
+    \field{month}{06}
+    \field{year}{2019}
+  \endentry
+
+  \entry{laselva2021}{article}{}
+    \name{author}{8}{}{%
+      {{hash=LO}{%
+         family={Laselva},
+         familyi={L\bibinitperiod},
+         given={Onofrio},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bartlett},
+         familyi={B\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GTNA}{%
+         family={Gunawardena},
+         familyi={G\bibinitperiod},
+         given={Tarini N.\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=OH}{%
+         family={Ouyang},
+         familyi={O\bibinitperiod},
+         given={Hong},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=EPDW}{%
+         family={Eckford},
+         familyi={E\bibinitperiod},
+         given={Paul D.\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+      {{hash=MTJ}{%
+         family={Moraes},
+         familyi={M\bibinitperiod},
+         given={Theo\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BCE}{%
+         family={Bear},
+         familyi={B\bibinitperiod},
+         given={Christine\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Gonska},
+         familyi={G\bibinitperiod},
+         given={Tanja},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{European Respiratory Society}}%
+    }
+    \keyw{Aminophenols,Benzodioxoles,Cystic Fibrosis,Cystic Fibrosis
+  Transmembrane Conductance Regulator,Drug Combinations,HEK293
+  Cells,Humans,Indoles,Mutation,Pyrazoles,Pyridines,Pyrrolidines,Quinolines,Quinolones}
+    \strng{namehash}{LO+1}
+    \strng{fullhash}{LOBCGTNAOHEPDWMTJBCEGT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Positive results in pre-clinical studies of the triple combination of
+  elexacaftor, tezacaftor and ivacaftor, performed in airway epithelial cell
+  cultures obtained from patients harbouring the class II cystic fibrosis
+  transmembrane conductance regulator (CFTR) mutation F508del-CFTR, translated
+  to impressive clinical outcomes for subjects carrying this mutation in
+  clinical trials and approval of Trikafta. Encouraged by this correlation, we
+  were prompted to evaluate the effect of the elexacaftor, tezacaftor and
+  ivacaftor triple combination on primary nasal epithelial cultures obtained
+  from individuals with rare class II CF-causing mutations (G85E, M1101K and
+  N1303K) for which Trikafta is not approved. Cultures from individuals
+  homozygous for M1101K responded better than cultures harbouring G85E and
+  N1303K after treatment with the triple combination with respect to
+  improvement in regulated channel function and protein processing. A similar
+  genotype-specific effect of the triple combination was observed when the
+  different mutations were expressed in HEK293 cells, supporting the hypothesis
+  that these modulators may act directly on the mutant proteins. Detailed
+  studies in nasal cultures and HEK293 cells showed that the corrector,
+  elexacaftor, exhibited dual activity as both corrector and potentiator, and
+  suggested that the potentiator activity contributes to its pharmacological
+  activity. These pre-clinical studies using nasal epithelial cultures
+  identified mutation genotypes for which elexacaftor, tezacaftor and ivacaftor
+  may produce clinical responses that are comparable to, or inferior to, those
+  observed for F508del-CFTR.%
+    }
+    \verb{doi}
+    \verb 10.1183/13993003.02774-2020
+    \endverb
+    \field{issn}{1399-3003}
+    \field{number}{6}
+    \field{pages}{2002774}
+    \field{title}{Rescue of Multiple Class {{II CFTR}} Mutations by
+  Elexacaftor+tezacaftor+ Ivacaftor Mediated in Part by the Dual Activities of
+  Elexacaftor as Both Corrector and Potentiator}
+    \field{volume}{57}
+    \field{langid}{english}
+    \field{journaltitle}{The European Respiratory Journal}
+    \field{month}{06}
     \field{year}{2021}
   \endentry
 
@@ -17582,6 +18785,58 @@
     \field{journaltitle}{Cold Spring Harbor Perspectives in Medicine}
     \field{month}{01}
     \field{year}{2013}
+  \endentry
+
+  \entry{zhang2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jue},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Cell Press}}%
+    }
+    \keyw{ABC transporter,anion channel,atomic structure,CFTR,cryo-EM}
+    \strng{namehash}{ZZCJ1}
+    \strng{fullhash}{ZZCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The cystic fibrosis transmembrane conductance regulator (CFTR) is an anion
+  channel evolved from the ATP-binding cassette (ABC) transporter family. In
+  this study, we determined the structure of zebrafish CFTR in the absence of
+  ATP by electron cryo-microscopy to 3.7 \AA{} resolution. Human and zebrafish
+  CFTR share 55\% sequence identity, and 42 of the 46 cystic-fibrosis-causing
+  missense mutational sites are identical. In CFTR, we observe a large anion
+  conduction pathway lined by numerous positively charged residues. A single
+  gate near the extracellular surface closes the channel. The regulatory
+  domain, dephosphorylated, is located in the intracellular opening between the
+  two nucleotide-binding domains (NBDs), preventing NBD dimerization and
+  channel opening. The structure also reveals why many cystic-fibrosis-causing
+  mutations would lead to defects either in folding, ion conduction, or gating
+  and suggests new avenues for therapeutic intervention.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2016.11.014
+    \endverb
+    \field{issn}{10974172}
+    \field{number}{6}
+    \field{pages}{1586\bibrangedash 1597.e9}
+    \field{title}{Atomic {{Structure}} of the {{Cystic Fibrosis Transmembrane
+  Conductance Regulator}}}
+    \field{volume}{167}
+    \field{journaltitle}{Cell}
+    \field{month}{12}
+    \field{year}{2016}
   \endentry
 
   \entry{gadsby1994}{article}{}
@@ -19956,110 +21211,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{laselva2021}{article}{}
-    \name{author}{8}{}{%
-      {{hash=LO}{%
-         family={Laselva},
-         familyi={L\bibinitperiod},
-         given={Onofrio},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=BC}{%
-         family={Bartlett},
-         familyi={B\bibinitperiod},
-         given={Claire},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=GTNA}{%
-         family={Gunawardena},
-         familyi={G\bibinitperiod},
-         given={Tarini N.\bibnamedelima A.},
-         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-      }}%
-      {{hash=OH}{%
-         family={Ouyang},
-         familyi={O\bibinitperiod},
-         given={Hong},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=EPDW}{%
-         family={Eckford},
-         familyi={E\bibinitperiod},
-         given={Paul D.\bibnamedelima W.},
-         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  W\bibinitperiod},
-      }}%
-      {{hash=MTJ}{%
-         family={Moraes},
-         familyi={M\bibinitperiod},
-         given={Theo\bibnamedelima J.},
-         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=BCE}{%
-         family={Bear},
-         familyi={B\bibinitperiod},
-         given={Christine\bibnamedelima E.},
-         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=GT}{%
-         family={Gonska},
-         familyi={G\bibinitperiod},
-         given={Tanja},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{European Respiratory Society}}%
-    }
-    \keyw{Aminophenols,Benzodioxoles,Cystic Fibrosis,Cystic Fibrosis
-  Transmembrane Conductance Regulator,Drug Combinations,HEK293
-  Cells,Humans,Indoles,Mutation,Pyrazoles,Pyridines,Pyrrolidines,Quinolines,Quinolones}
-    \strng{namehash}{LO+1}
-    \strng{fullhash}{LOBCGTNAOHEPDWMTJBCEGT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Positive results in pre-clinical studies of the triple combination of
-  elexacaftor, tezacaftor and ivacaftor, performed in airway epithelial cell
-  cultures obtained from patients harbouring the class II cystic fibrosis
-  transmembrane conductance regulator (CFTR) mutation F508del-CFTR, translated
-  to impressive clinical outcomes for subjects carrying this mutation in
-  clinical trials and approval of Trikafta. Encouraged by this correlation, we
-  were prompted to evaluate the effect of the elexacaftor, tezacaftor and
-  ivacaftor triple combination on primary nasal epithelial cultures obtained
-  from individuals with rare class II CF-causing mutations (G85E, M1101K and
-  N1303K) for which Trikafta is not approved. Cultures from individuals
-  homozygous for M1101K responded better than cultures harbouring G85E and
-  N1303K after treatment with the triple combination with respect to
-  improvement in regulated channel function and protein processing. A similar
-  genotype-specific effect of the triple combination was observed when the
-  different mutations were expressed in HEK293 cells, supporting the hypothesis
-  that these modulators may act directly on the mutant proteins. Detailed
-  studies in nasal cultures and HEK293 cells showed that the corrector,
-  elexacaftor, exhibited dual activity as both corrector and potentiator, and
-  suggested that the potentiator activity contributes to its pharmacological
-  activity. These pre-clinical studies using nasal epithelial cultures
-  identified mutation genotypes for which elexacaftor, tezacaftor and ivacaftor
-  may produce clinical responses that are comparable to, or inferior to, those
-  observed for F508del-CFTR.%
-    }
-    \verb{doi}
-    \verb 10.1183/13993003.02774-2020
-    \endverb
-    \field{issn}{1399-3003}
-    \field{number}{6}
-    \field{pages}{2002774}
-    \field{title}{Rescue of Multiple Class {{II CFTR}} Mutations by
-  Elexacaftor+tezacaftor+ Ivacaftor Mediated in Part by the Dual Activities of
-  Elexacaftor as Both Corrector and Potentiator}
-    \field{volume}{57}
-    \field{langid}{english}
-    \field{journaltitle}{The European Respiratory Journal}
-    \field{month}{06}
-    \field{year}{2021}
-  \endentry
-
   \entry{shaughnessy2021}{article}{}
     \name{author}{3}{}{%
       {{hash=SCA}{%
@@ -20233,6 +21384,85 @@
     \field{year}{2015}
   \endentry
 
+  \entry{baker2007}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BJM}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Jennifer\bibnamedelima M.R.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HRP}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={Rhea\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kanelis},
+         familyi={K\bibinitperiod},
+         given={Voula},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CWY}{%
+         family={Choy},
+         familyi={C\bibinitperiod},
+         given={Wing\bibnamedelima Yiu},
+         giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=TPH}{%
+         family={Thibodeau},
+         familyi={T\bibinitperiod},
+         given={Patrick\bibnamedelima H.},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=TPJ}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Philip\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FJD}{%
+         family={{Forman-Kay}},
+         familyi={F\bibinitperiod},
+         given={Julie\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJM+1}
+    \strng{fullhash}{BJMHRPKVCWYTPHTPJFJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The regulatory (R) region of the cystic fibrosis transmembrane conductance
+  regulator (CFTR) is intrinsically disordered and must be phosphorylated at
+  multiple sites for full CFTR channel activity, with no one specific
+  phosphorylation site required. In addition, nucleotide binding and hydrolysis
+  at the nucleotide-binding domains (NBDs) of CFTR are required for channel
+  gating. We report NMR studies in the absence and presence of NBD1 that
+  provide structural details for the isolated R region and its interaction with
+  NBD1 at residue-level resolution. Several sites in the R region with measured
+  fractional helical propensity mediate interactions with NBD1. Phosphorylation
+  reduces the helicity of many R-region sites and reduces their NBD1
+  interactions. This evidence for a dynamic complex with NBD1 that transiently
+  engages different sites of the R region suggests a structural explanation for
+  the dependence of CFTR activity on multiple PKA phosphorylation sites.
+  \textcopyright{} 2007 Nature Publishing Group.%
+    }
+    \verb{doi}
+    \verb 10.1038/nsmb1278
+    \endverb
+    \field{issn}{15459993}
+    \field{number}{8}
+    \field{pages}{738\bibrangedash 745}
+    \field{title}{{{CFTR}} Regulatory Region Interacts with {{NBD1}}
+  Predominantly via Multiple Transient Helices}
+    \field{volume}{14}
+    \field{journaltitle}{Nature Structural and Molecular Biology}
+    \field{month}{08}
+    \field{year}{2007}
+  \endentry
+
   \entry{vangoor2011}{article}{}
     \name{author}{14}{}{%
       {{hash=VGF}{%
@@ -20367,343 +21597,6 @@
   United States of America}
     \field{month}{11}
     \field{year}{2011}
-  \endentry
-
-  \entry{yeh2019}{article}{}
-    \name{author}{6}{}{%
-      {{hash=YHI}{%
-         family={Yeh},
-         familyi={Y\bibinitperiod},
-         given={Han\bibnamedelima I.},
-         giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=QL}{%
-         family={Qiu},
-         familyi={Q\bibinitperiod},
-         given={Liming},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=SY}{%
-         family={Sohma},
-         familyi={S\bibinitperiod},
-         given={Yoshiro},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=CK}{%
-         family={Conrath},
-         familyi={C\bibinitperiod},
-         given={Katja},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=ZX}{%
-         family={Zou},
-         familyi={Z\bibinitperiod},
-         given={Xiaoqin},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=HTC}{%
-         family={Hwang},
-         familyi={H\bibinitperiod},
-         given={Tzyh\bibnamedelima Chang},
-         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Rockefeller University Press}}%
-    }
-    \strng{namehash}{YHI+1}
-    \strng{fullhash}{YHIQLSYCKZXHTC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The past two decades have witnessed major breakthroughs in developing
-  compounds that target the chloride channel CFTR for the treatment of patients
-  with cystic fibrosis. However, further improvement in affinity and efficacy
-  for these CFTR modulators will require insights into the molecular
-  interactions between CFTR modulators and their binding targets. In this
-  study, we use in silico molecular docking to identify potential binding sites
-  for GLPG1837, a CFTR potentiator that may share a common mechanism and
-  binding site with VX-770, the FDA-approved drug for patients carrying
-  mutations with gating defects. Among the five binding sites predicted by
-  docking, the two top-scoring sites are located at the interface between
-  CFTR's two transmembrane domains: Site I consists of D924, N1138, and S1141,
-  and site IIN includes F229, F236, Y304, F312, and F931. Using mutagenesis to
-  probe the importance of these sites for GLPG187 binding, we find that
-  disruption of predicted hydrogenbonding interactions by mutation of D924
-  decreases apparent affinity, while hydrophobic amino acids substitutions at
-  N1138 and introduction of positively charged amino acids at S1141 improve the
-  apparent affinity for GLPG1837. Alanine substitutions at Y304, F312, and F931
-  (site IIN) decrease the affinity for GLPG1837, whereas alanine substitutions
-  at F229 and F236 (also site IIN), or at residues in the other three
-  lower-scoring sites, have little effect. In addition, current relaxation
-  analysis to assess the apparent dissociation rate of VX-770 yields results
-  consistent with the dose-response experiments for GLPG8137, with the
-  dissociation rate of VX-770 accelerated by D924N, F236A, Y304A, and F312A,
-  but decelerated by N1138L and S1141K mutations. Collectively, these data
-  identify two potential binding sites for GLPG1837 and VX-770 in CFTR. We
-  discuss the pros and cons of evidence for these two loci and the implications
-  for future drug design.%
-    }
-    \verb{doi}
-    \verb 10.1085/jgp.201912360
-    \endverb
-    \field{issn}{15407748}
-    \field{number}{7}
-    \field{pages}{912\bibrangedash 928}
-    \field{title}{Identifying the Molecular Target Sites for {{CFTR}}
-  Potentiators {{GLPG1837}} and {{VX-770}}}
-    \field{volume}{151}
-    \field{journaltitle}{Journal of General Physiology}
-    \field{month}{06}
-    \field{year}{2019}
-  \endentry
-
-  \entry{vangoor2009}{article}{}
-    \name{author}{21}{}{%
-      {{hash=VGF}{%
-         family={Van\bibnamedelima Goor},
-         familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-         given={Fredrick},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=HS}{%
-         family={Hadida},
-         familyi={H\bibinitperiod},
-         given={Sabine},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=GPD}{%
-         family={Grootenhuis},
-         familyi={G\bibinitperiod},
-         given={Peter\bibnamedelima D.J.},
-         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=BB}{%
-         family={Burton},
-         familyi={B\bibinitperiod},
-         given={Bill},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=CD}{%
-         family={Cao},
-         familyi={C\bibinitperiod},
-         given={Dong},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=NT}{%
-         family={Neuberger},
-         familyi={N\bibinitperiod},
-         given={Tim},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=TA}{%
-         family={Turnbull},
-         familyi={T\bibinitperiod},
-         given={Amanda},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Singh},
-         familyi={S\bibinitperiod},
-         given={Ashvani},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=JJ}{%
-         family={Joubran},
-         familyi={J\bibinitperiod},
-         given={John},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HA}{%
-         family={Hazlewood},
-         familyi={H\bibinitperiod},
-         given={Anna},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=ZJ}{%
-         family={Zhou},
-         familyi={Z\bibinitperiod},
-         given={Jinglan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MJ}{%
-         family={McCartney},
-         familyi={M\bibinitperiod},
-         given={Jason},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=AV}{%
-         family={Arumugam},
-         familyi={A\bibinitperiod},
-         given={Vijayalaksmi},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=DC}{%
-         family={Decker},
-         familyi={D\bibinitperiod},
-         given={Caroline},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=YJ}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Jennifer},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=YC}{%
-         family={Young},
-         familyi={Y\bibinitperiod},
-         given={Chris},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=OER}{%
-         family={Olson},
-         familyi={O\bibinitperiod},
-         given={Eric\bibnamedelima R.},
-         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=WJJ}{%
-         family={Wine},
-         familyi={W\bibinitperiod},
-         given={Jeffery\bibnamedelima J.},
-         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=FRA}{%
-         family={Frizzell},
-         familyi={F\bibinitperiod},
-         given={Raymond\bibnamedelima A.},
-         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Ashlock},
-         familyi={A\bibinitperiod},
-         given={Melissa},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=NP}{%
-         family={Negulescu},
-         familyi={N\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \keyw{Cystic fibrosis transmembrane conductance regulator (CFTR),Epithelial
-  ion transport,Epithelial sodium channel (ENaC),Human bronchial epithelium
-  (HBE) culture}
-    \strng{namehash}{VGF+1}
-    \strng{fullhash}{VGFHSGPDBBCDNTTASAJJHAZJMJAVDCYJYCOERWJJFRAAMNP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Cystic fibrosis (CF) is a fatal genetic disease caused by mutations in the
-  gene encoding the CF transmembrane conductance regulator (CFTR), a protein
-  kinase A (PKA)-activated epithelial anion channel involved in salt and fluid
-  transport in multiple organs, including the lung. Most CF mutations either
-  reduce the number of CFTR channels at the cell surface (e.g., synthesis or
-  processing mutations) or impair channel function (e.g., gating or conductance
-  mutations) or both. There are currently no approved therapies that target
-  CFTR. Here we describe the in vitro pharmacology of VX-770, an orally
-  bioavailable CFTR potentiator in clinical development for the treatment of
-  CF. In recombinant cells VX-770 increased CFTR channel open probability (Po)
-  in both the F508del processing mutation and the G551D gating mutation. VX-770
-  also increased Cl - secretion in cultured human CF bronchial epithelia (HBE)
-  carrying the G551D gating mutation on one allele and the F508del processing
-  mutation on the other allele by {$\approx$}10-fold, to {$\approx$}50\% of
-  that observed in HBE isolated from individuals without CF. Furthermore,
-  VX-770 reduced excessive Na+ and fluid absorption to prevent dehydration of
-  the apical surface and increased cilia beating in these epithelial cultures.
-  These results support the hypothesis that pharmacological agents that restore
-  or increase CFTR function can rescue epithelial cell function in human CF
-  airway.%
-    }
-    \verb{doi}
-    \verb 10.1073/PNAS.0904709106
-    \endverb
-    \field{issn}{00278424}
-    \field{number}{44}
-    \field{pages}{18825\bibrangedash 18830}
-    \field{title}{Rescue of {{CF}} Airway Epithelial Cell Function in Vitro by
-  a {{CFTR}} Potentiator, {{VX-770}}}
-    \field{volume}{106}
-    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
-  United States of America}
-    \field{month}{11}
-    \field{year}{2009}
-  \endentry
-
-  \entry{yeh2017}{article}{}
-    \name{author}{4}{}{%
-      {{hash=YHI}{%
-         family={Yeh},
-         familyi={Y\bibinitperiod},
-         given={Han\bibnamedelima I.},
-         giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=SY}{%
-         family={Sohma},
-         familyi={S\bibinitperiod},
-         given={Yoshiro},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=CK}{%
-         family={Conrath},
-         familyi={C\bibinitperiod},
-         given={Katja},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=HTC}{%
-         family={Hwang},
-         familyi={H\bibinitperiod},
-         given={Tzyh\bibnamedelima Chang},
-         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Rockefeller University Press}}%
-    }
-    \strng{namehash}{YHI+1}
-    \strng{fullhash}{YHISYCKHTC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Cystic fibrosis (CF) is a channelopathy caused by loss-of-function
-  mutations of the cystic fibrosis transmembrane conductance regulator (CFTR)
-  gene, which encodes a phosphorylation-activated and adenosine triphosphate
-  (ATP)-gated chloride channel. In the past few years, high-throughput drug
-  screening has successfully realized the first US Food and Drug
-  Administration-approved therapy for CF, called ivacaftor (or VX-770). A more
-  recent CFTR potentiator, GLPG1837
-  (N-(3-carbamoyl-5,5,7,7-tetramethyl-4,7-dihydro-5H-thieno[2,3-c]
-  pyran-2-yl)-1H-pyrazole-3-carboxamide), has been shown to exhibit a higher
-  efficacy than ivacaftor for the G551D mutation, yet the underlying mechanism
-  of GLPG1837 remains unclear. Here we find that despite their differences in
-  potency and efficacy, GLPG1837 and VX-770 potentiate CFTR gating in a
-  remarkably similar manner. Specifically, they share similar effects on
-  single-channel kinetics of wild-type CFTR. Their actions are independent of
-  nucleotide-binding domain (NBD) dimerization and ATP hydrolysis, critical
-  steps controlling CFTR's gate opening and closing, respectively. By applying
-  the two reagents together, we provide evidence that GLPG1837 and VX-770
-  likely compete for the same site, whereas GLPG1837 and the high-affinity ATP
-  analogue 2'-deoxy-N6-(2-phenylethyl)-adenosine-5'-O-triphosphate (dPATP) work
-  synergistically through two different sites. We also find that the apparent
-  affinity for GLPG1837 is dependent on the open probability of the channel,
-  suggesting a state-dependent binding of the drug to CFTR (higher binding
-  affinity for the open state than the closed state), which is consistent with
-  the classic mechanism for allosteric modulation. We propose a simple
-  four-state kinetic model featuring an energetic coupling between CFTR gating
-  and potentiator binding to explain our experimental results.%
-    }
-    \verb{doi}
-    \verb 10.1085/JGP.201711886
-    \endverb
-    \field{issn}{15407748}
-    \field{number}{12}
-    \field{pages}{1105\bibrangedash 1118}
-    \field{title}{A Common Mechanism for {{CFTR}} Potentiators}
-    \field{volume}{149}
-    \field{journaltitle}{Journal of General Physiology}
-    \field{month}{12}
-    \field{year}{2017}
   \endentry
 
   \entry{gees2018}{article}{}
@@ -22600,7 +23493,7 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{WS+1}
+    \strng{namehash}{WS+2}
     \strng{fullhash}{WSKFMHZBOYBBESESRSRSEYYCMKERPMEFCWM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
