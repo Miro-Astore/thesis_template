@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748738"
-     inkscape:cx="2005.0058"
-     inkscape:cy="1067.5307"
+     inkscape:zoom="0.49497476"
+     inkscape:cx="3654.7806"
+     inkscape:cy="902.89759"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -911,14 +911,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1159.2502"
+       x="1132.2623"
        y="153.06378"
        id="text819-6-3-7-6-2-4-3-5-5-7-5"><tspan
          sodipodi:role="line"
          id="tspan817-7-5-0-2-0-7-67-3-6-0-3"
-         x="1159.2502"
+         x="1132.2623"
          y="153.06378"
-         style="stroke-width:0.26458332">?</tspan></text>
+         style="stroke-width:0.26458332">Q1411X</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 702.08951,301.41833 h 14.05854"

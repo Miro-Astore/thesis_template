@@ -28,16 +28,16 @@
 \BOOKMARK [2][-]{subsection.2.8.1}{The Problem with Forcefields}{section.2.8}% 28
 \BOOKMARK [2][-]{subsection.2.8.2}{The Problem with Sampling}{section.2.8}% 29
 \BOOKMARK [1][-]{section.2.9}{Conclusion}{chapter.2}% 30
-\BOOKMARK [0][-]{chapter.3}{Review of Cystic Fibrosis and The Molecular Basis behind its Treatment}{}% 31
+\BOOKMARK [0][-]{chapter.3}{Review of Cystic Fibrosis and The Molecular Basis of its Treatment}{}% 31
 \BOOKMARK [1][-]{section.3.1}{Clinical Realities of Living with Cystic Fibrosis}{chapter.3}% 32
 \BOOKMARK [1][-]{section.3.2}{The Molecular Cause of Cystic Fibrosis is Genetic Mutation}{chapter.3}% 33
 \BOOKMARK [1][-]{section.3.3}{The Misfunction of CFTR causes CF}{chapter.3}% 34
 \BOOKMARK [2][-]{subsection.3.3.1}{The Gating Cycle}{section.3.3}% 35
 \BOOKMARK [2][-]{subsection.3.3.2}{Anion Selectivity}{section.3.3}% 36
 \BOOKMARK [1][-]{section.3.4}{Classes of Mutation Which Cause Cystic Fibrosis}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.5}{Patients with rare mutations struggle to gain access to modulator therapy}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.5}{Patients with Rare Rutations Struggle to Access Modulator Therapy}{chapter.3}% 38
 \BOOKMARK [1][-]{section.3.6}{CFTR is a Unique ABC Transporter}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.7}{CFTR Modulators}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.7}{Modulators Act on CFTR to Restore its Function}{chapter.3}% 40
 \BOOKMARK [2][-]{subsection.3.7.1}{Correctors}{section.3.7}% 41
 \BOOKMARK [2][-]{subsection.3.7.2}{Potentiators}{section.3.7}% 42
 \BOOKMARK [2][-]{subsection.3.7.3}{Read Through Compounds}{section.3.7}% 43
@@ -68,7 +68,7 @@
 \BOOKMARK [2][-]{subsection.7.2.2}{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}{section.7.2}% 68
 \BOOKMARK [2][-]{subsection.7.2.3}{Proving the discovered conformation is capable of ion conduction with umbrella sampling}{section.7.2}% 69
 \BOOKMARK [2][-]{subsection.7.2.4}{This open conformation gives rise to a novel salt bridge}{section.7.2}% 70
-\BOOKMARK [2][-]{subsection.7.2.5}{This open state can be used to study disease causing mutations such as R334W in the outer pore}{section.7.2}% 71
+\BOOKMARK [2][-]{subsection.7.2.5}{This open state can be used to study disease causing mutations in the outer pore such as R334W}{section.7.2}% 71
 \BOOKMARK [1][-]{section.7.3}{Discussion}{chapter.7}% 72
 \BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 73
 \BOOKMARK [1][-]{section.7.5}{Methods Details}{chapter.7}% 74
