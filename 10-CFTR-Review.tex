@@ -1,7 +1,7 @@
 %=======================================================================================%
 \chapter{Review of Cystic Fibrosis and The Molecular Basis of its Treatment}
 \label{chap:cftr}
-\chapquote{Because of what's inside me; Because of my genes.-Bob Flanagan \cite{dick1997}.}{}
+\chapquote{Because of what's inside me; Because of my genes.}{-Bob Flanagan \cite{dick1997}.}
 \newpage
 %Authors note:
 % We begin with a breif overview of the disease Cystic Fibrosis as it is the main motiation for this project. A horrendous disease for which we will hopefully soon find a cure.
@@ -16,11 +16,11 @@
 % CFTR modulators act to restore its function. 
 	% patients with rare genotypes cant access modulators.
 
-This thesis primarily focusses on the molecular causes of Cystic Fibrosis. In subsequent chapters we will use Molecular Dynamics (MD) to determine what kind of defect rare mutations cause to CFTR, the gene whose mutation causes CF. We do this with the goal of understanding what kind of treatments they might respond to. Given the importance of the CFTR protein system to this work we will look at its structure and dynamics in detail in this chapter. However, to understand the motivation for these studies, we will first review some of the medical literature surrounding the disease itself. 
+This thesis primarily focusses on the molecular causes of Cystic Fibrosis. In subsequent chapters we will use Molecular Dynamics (MD) to determine what kind of defect rare mutations cause to CFTR, the gene whose mutation causes CF. We do this with the goal of understanding what kind of treatments they might respond to. Given the importance of the CFTR protein system to this work, we will look at its structure and dynamics in detail in this chapter. However, to understand the motivation for these studies, we will first review some of the medical literature surrounding the disease itself. 
 
-In previous chapters we always worked upward. In chapter \ref{chap:methods} I showed how we can begin from Schr\"odinger's wave equation to understand biomolecular systems. This was to give an example of the philosophy I outlined in chapter \ref{chap:introduction}, taking abstract formalisms and integrating them to model macroscopic biophysical phenomenon. By contrast, in this chapter we will work downward, beginning with the human reality of living with this disease before we look at its molecular cause and its treatment. I have taken particular care to begin this chapter with a discussion of the clinical outcomes of the disease we are studying, so we do not lose sight of our goals in studying biophysics. 
+In previous chapters we always worked upward. In chapter \ref{chap:methods} I showed how we can begin from Schr\"odinger's wave equation to understand biomolecular systems. This was to give an example of the philosophy I outlined in chapter \ref{chap:introduction}, taking abstract formalisms and integrating them to model macroscopic biophysical phenomenon. By contrast, in this chapter we will work downward, beginning with the reality of living with this disease before we look at its molecular cause and its treatment. I have taken particular care to begin this chapter with a discussion of the clinical outcomes of the disease we are studying, so we do not lose sight of our goals in studying biophysics. 
 
-When one trains to practice medicine they are taught how to conduct themselves ethically, with their patients best interests at heart \cite{hajar2017}. I have had no such training and I knew I was missing something by studying this disease so impersonally \cite{foucault1994}. In the 20th century, physicists often participated in political and moral discourse, not always for the better \cite{frank1993, gottfried1999, global2009, rhodes1986, aaronson2008, berger2016, vonneumann_britanica}. Should we wish to embark on the enterprise of studying biophysics we have a responsibility to also study how to do it ethically. Thankfully, many important questions have been pondered for some time by philosophers and the reader is encouraged to seek texts on bioethics and ethics in the use of artificial intelligence \cite{buchanan2000, taneri2011, genome_editting_guildelines_2017, muller2021, bostrom2014}. These considerations will become increasingly important as biophysics advances. As biophysical techniques increase in capacity, so too does their capability for misuse \cite{mallapaty2022, urbina2022}. 
+When one trains to practice medicine they are taught how to conduct themselves ethically, with their patients best interests at heart \cite{hajar2017}. I have had no such training and I knew I was missing something by studying this disease so impersonally \cite{foucault1994}. In the 20th century, physicists often participated in political and moral discourse, not always for the better \cite{frank1993, gottfried1999, global2009, rhodes1986, aaronson2008, berger2016, vonneumann_britanica}. Should we wish to embark on the enterprise of studying biophysics we have a responsibility to also study how to do it ethically. Thankfully, many of these important questions have been pondered for some time by philosophers and the reader is encouraged to seek texts on bioethics and also ethics in the use of artificial intelligence \cite{buchanan2000, taneri2011, genome_editting_guildelines_2017, muller2021, bostrom2014}. These considerations will become increasingly important as biophysics advances. As biophysical techniques increase in capacity, so too does their capability for misuse \cite{mallapaty2022, urbina2022}. 
 
 %On this somewhat somber note, we will now take a brief look at what it is like to live with Cystic Fibrosis.
 
@@ -63,64 +63,9 @@ Patients with CF struggle to lead a normal life. The gradually degrading lung fu
 
 Although beginning this chapter with a discussion of clinical might seem out of place compared to the rest of previous chapters it is important to remember why we are doing the difficult work of biophysics. It is important, and physicists have a unique perspective, a capacity to do good which has historically been missing from the study of medicine. 
 
-\section{The Molecular Cause of Cystic Fibrosis is Genetic Mutation}
-The reason epithelial cells cannot .
-
-
-
 \section{The Misfunction of CFTR causes CF}
 
 The primary cause of the disease Cystic Fibrosis (CF) is the malfunction of a chloride channel, the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR). This ion channel is a member of the ABCC subfamily of ABC transporters, designated ABCC7. This channel is unique amongst this family because it is not generally considered an active transporter but something of a low conductivity channel or a "weak pump" \cite{linsdell2018}.
-
-%CFTR is distinguished by a regulatory region known as the R-domain (residues 645-845) which links NBD1 to TMD2. This region acts to lock the channel in the closed state by wedging itself between the TMDs and dislodging when any one of 3 sites are phosphorylated \cite{mihalyi2020}. In experimentally determined structures of human CFTR the secondary structure of a section of the R-domain but not at high enough resolution to determine the identity of individual side chains \cite{zhang2018, zhang2016}. Further secondary structure information can be found through experiments with NMR \cite{Baker2007}.
-
-Previous computational studies of CFTR have been used homology models based on the phosphorylated zebra fish protein PDBID:5W81 \cite{zhang2017a}. These have yielded interesting results but the sequence similarity between human and zebra fish CFTR is only 55\% \cite{}. For a protein structure where a single amino acid mutation leads to malfunction, more precision can only help. Additionally, the activity of CFTR correctors is not conserved in mutant zCFTR \cite{laselva2019}. In order to do precision medicine we need precision structures. 
-
-An open state of the channel has been proposed by combining both the zebra fish homology model and the fully outward facing conformer of a bacterial ABC transporter Sav1866 \cite{Hoffmann2018}. Although this model has several characteristics expected of the open channel, such as the critical R352-D993 salt bridge, it lacks a salt bridge between R104-E116. In experiments, these residues could be replaced by cysteines and the channel would still function. However, when reducing agents were added to the system the channel lost its ability to open fully. This indicates that in the oxidised environment the C104-C116 cysteines formed a disulfide bridge but its breaking upon exposure to reducing agents caused a loss of function in the channel. This indicates that in the WT channel R104-E116 form a stable salt bridge. 
-
-This salt bridge is clearly visible in the recent cryo-EM structure of ATP-bound human CFTR \cite{zhang2018}.
-
-\subsection{The Gating Cycle}
-The conformational transition from inactive to active differs significantly in CFTR compared to other ABC transporters. The NBDs are largely similar to other to those found in other ABC transporters, they dimerise in what is termed a head to tail configuration so both subunits contact both bound ATP molecules \cite{} See FIGURE. Residue E1371 allows nucleophilic attack by surrounding water on the $\gamma$ phosphate  of the ATP bound to Walker B \cite{Stratford2007}. The hydrolysis of ATP is the event which causes the channel to gate back to the closed conformation \cite{}. 
-
-\subsection {Anion Selectivity}
-CFTR is weakly selective for specific anions. F337 is the most important amino acid for selectivity, with the F337A mutation leading to a gain of function and a loss in selectivity \cite{wei2016}. Bicarbonate (HCO$_3^-$ is known to have roughly 26\% the permeability of chloride through the channel. Note that Fluoride has even higher conductance through CFTR, likely due to its small size and high solvation energy (does this indicate hydrated conductance?). WNK1 is known to influence the selectivity of the channel https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6889609/. The permeation of bicarbonate is very important physiologically because if a mutation permeates bicarbonate it means there is a high likelihood the patient will be pancreatic sufficient. 
-
-Compared to cation channels like Gramicidin and KcsA, CFTR is only weakly selective, permeating a large set of anions with varying radii and geometries \cite{}. Supposedly it is more permeant to lyotropic (low solvation energy anions) rather than cosmotropic anions (high solvation energy anions) indicating that dehydration of the anion is likely during conductance (CITATION NEEDED). The radius of hydrated chloride ions is 1.7A \cite{yang2002} so even with this larger pore partial dehydration must take place. 
-
-
-\section{Classes of Mutation Which Cause Cystic Fibrosis}
-The more than 400 disease causing mutations to CFTR have been classified into 6 common classes based on the nature of the CF they cause, their reaction to CFTR modulators, and results \textit{in vitro} assays. Ultimately I aim to show that at the atomic level there is much more nuance to these and as patient specific theratyping evolves, these classes will become less relevant, serving as illustrative tools only to communicate at a higher level what is going wrong with the CFTR protein. The canonical classification is as follows:
-
-\begin{itemize}
-	\item \textbf{Class I} No functional protein. Under these mutations no protein is transcribed due to either problems with the transcription of mRNA or a premature stop codon truncating protein synthesis early, meaning the resulting peptide is missing key domains. 
-	\item \textbf{Class II} Folding defect. These mutations cause the translated peptide to misfold into the incorrect tertiary structure. This can inhibit the protein's journey as it is trafficked to the cell membrane, its function while once it is there or its functional life time at the surface. 
-	\item \textbf{Class III} Impaired Gating. Here the mutation inhibits the ability of the protein to transition from the closed to the open state. 
-	\item \textbf{Class IV} Decreased Conductance. These mutations cause a barrier in the energy landscape of the CFTR chloride conductance pathway.
-	\item \textbf{Class V} Less Protein Expressed.  
-	\item \textbf{Class VI} Decreased Lifetime
-
-\end{itemize}
-
-Although useful, in reality this paradigm struggles to reflect the fact that a mutation can belong to multiple categories to different levels due to different modes of pathogenesis. Through our molecular simulations we can see that in reality CFTR modulators are capable of treating several different mutations with very different molecular fingerprints. We will break down this paradigm into more molecular detail in chapter \ref{chap:conclusions}
-
-%FIGURE demonstrates how each of the canonical classes at the molecular level is broken down into many sub classes and a mutation might belong to one of many of these subclasses. Structural biology paradigms and \textit{in silico} modelling can help classify mutations into these different classes. In combination with wet lab assays we can understand which classes of these molecular defects are most effectively treated with specific drug regimens. Our computational microscope is helping choose treatments for patients at the atomic level. 
-
-\section{Patients with Rare Rutations Struggle to Access Modulator Therapy}
-We will explore the mechanism behind CFTR modulators shortly. However, first we should outline the specific, pragmatic motivations for the molecular modelling carried out in this thesis. Roughly 50\% cases of Cystic Fibrosis are caused by a homozygous mutation, $\Delta$F508, and 90\% of patients carry at least one copy of this mutation. At the time of writing, many jurisdictions such as Australia, the USA and the EU have approved a triple therapy known as Trikafta which can improve the outcomes for patients with one copy of $\Delta$F508. . However, this leaves a significant part of the CF afflicted population without access to this life saving medication \cite{}. The work in this thesis demonstrates that a larger section of the CF population is likely to respond to modulators, particularly those carrying missense mutations.
-
-The treatment of rare mutations has particular importance in CF, not only will patients be left behind, but in fact by studying rare mutations outcomes can be improved for all CF sufferers. Potentiator class drugs were discovered by the study of a rare mutation G551D, through high throughput screening \cite{vangoor2009}. By studying rare mutations we can gain a more complete picture of the disease and so improve therapies for everybody. This is particularly important as CF is uncovered in regions where it is genetically rarer and so patients in these regions are more likely to have rare, due to the spectrum of CFTR genotypes \cite{singh2015,zheng2017,ni2022}. As patient registries are set up in these populations, more rare forms of CF are likely to be discovered. Many of these regions do not train physicians in the treatment of CF because of the disease's relative rarity, leading to poor patient outcomes \cite{}. The more modulators are available the cheaper individual drug costs will become and the more options patients will have to personalise their treatment.
-
-\begin{figure}
-	\begin{center}
-	\includegraphics[width=\textwidth]{figures/alleles_pie_chart.pdf}
-	\end{center}
-	\label{CFTR_structure_domains}
-	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Rare Mutations Occur in All parts of the CFTR Protein] {\textbf{Rare Mutations Occur in All parts of the CFTR Protein}}{A) The reported frequency of individual disease causing alleles in the CFTR2 database. At the time of writing there are 401 recorded disease causing alleles. A patient with CF will carry two of these mutations. The numbers here include all kinds of mutations, not just missense mutations. CF is a recessive gene so a patient patient will have defective copies of the CFTR gene in their genome. 1 in 25 people of Northern European descent are a carrier for CF and are themselves at increased risk for many health problems \cite{ioannou2014, miller2020}. B) The location of all 111 known disease causing missense on the CFTR protein itself. In addition to those visualised here there are many of variants of unknown significance (VUS). C) The number of CF causing missense mutations in the different domains of the CFTR protein. TMD1 and NBD1 have the highest concentration of disease causing mutations. Likely due to the former's role in ion permeation and the latter's role in gating \cite{cftr2}}. There are no CF causing missense mutations in the C-terminus or the R-domain. As more patient registries are updated across the world it is likely that more CF causing mutations will be discovered in the future.  
-\end{figure}
-
-Patients with rare forms of CF are more likely to be in countries where CF is already quite rare \cite{zheng2017}. Patients on modulators have significantly different clinical outcomes even between those with the same genotype. Determining the reason for this would open the door to the development of complimentary therapeutics. 
 
 \begin{figure}
 	\begin{center}
@@ -142,6 +87,58 @@ CFTR is composed of one chain with pseudo-symmetric structure, the protein is we
 	\item C-terminus (NBD2 AA 1451 - 1480). This structure is natively disordered but it serves as an interaction hub in WT-CFTR, anchoring CFTR to other proteins through its PDZ binding domain \cite{moyer1999, cushing2008}. 
 
 \end{enumerate}
+
+
+%CFTR is distinguished by a regulatory region known as the R-domain (residues 645-845) which links NBD1 to TMD2. This region acts to lock the channel in the closed state by wedging itself between the TMDs and dislodging when any one of 3 sites are phosphorylated \cite{mihalyi2020}. In experimentally determined structures of human CFTR the secondary structure of a section of the R-domain but not at high enough resolution to determine the identity of individual side chains \cite{zhang2018, zhang2016}. Further secondary structure information can be found through experiments with NMR \cite{Baker2007}.
+
+Previous computational studies of CFTR have been used homology models based on the phosphorylated zebra fish protein PDBID:5W81 \cite{zhang2017a}. These have yielded interesting results but the sequence similarity between human and zebra fish CFTR is only 55\% \cite{}. For a protein structure where a single amino acid mutation leads to malfunction, more precision can only help. Additionally, the activity of CFTR correctors is not conserved in mutant zCFTR \cite{laselva2019}. In order to do precision medicine we need precision structures. 
+
+An open state of the channel has been proposed by combining both the zebra fish homology model and the fully outward facing conformer of a bacterial ABC transporter Sav1866 \cite{Hoffmann2018}. Although this model has several characteristics expected of the open channel, such as the critical R352-D993 salt bridge, it lacks a salt bridge between R104-E116. In experiments, these residues could be replaced by cysteines and the channel would still function. However, when reducing agents were added to the system the channel lost its ability to open fully. This indicates that in the oxidised environment the C104-C116 cysteines formed a disulfide bridge but its breaking upon exposure to reducing agents caused a loss of function in the channel. This indicates that in the WT channel R104-E116 form a stable salt bridge. 
+
+This salt bridge is clearly visible in the recent cryo-EM structure of ATP-bound human CFTR \cite{zhang2018}.
+
+\subsection{The Gating Cycle}
+The conformational transition from inactive to active differs significantly in CFTR compared to other ABC transporters. The NBDs are largely similar to other to those found in other ABC transporters, they dimerise in what is termed a head to tail configuration so both subunits contact both bound ATP molecules \cite{} See FIGURE. Residue E1371 allows nucleophilic attack by surrounding water on the $\gamma$ phosphate  of the ATP bound to Walker B \cite{Stratford2007}. The hydrolysis of ATP is the event which causes the channel to gate back to the closed conformation \cite{}. 
+
+\subsection {Anion Selectivity}
+CFTR is weakly selective for specific anions. F337 is the most important amino acid for selectivity, with the F337A mutation leading to a gain of function and a loss in selectivity \cite{wei2016}. Bicarbonate (HCO$_3^-$ is known to have roughly 26\% the permeability of chloride through the channel. Note that Fluoride has even higher conductance through CFTR, likely due to its small size and high solvation energy (does this indicate hydrated conductance?). WNK1 is known to influence the selectivity of the channel https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6889609/. The permeation of bicarbonate is very important physiologically because if a mutation permeates bicarbonate it means there is a high likelihood the patient will be pancreatic sufficient. 
+
+Compared to cation channels like Gramicidin and KcsA, CFTR is only weakly selective, permeating a large set of anions with varying radii and geometries \cite{}. Supposedly it is more permeant to lyotropic (low solvation energy anions) rather than cosmotropic anions (high solvation energy anions) indicating that dehydration of the anion is likely during conductance (CITATION NEEDED). The radius of hydrated chloride ions is 1.7A \cite{yang2002} so even with this larger pore partial dehydration must take place. 
+
+
+\section{Classes of Mutation Which Cause Cystic Fibrosis}
+The more than 400 disease causing mutations to CFTR have been classified into 6 common classes based on the nature of the CF they cause, their reaction to CFTR modulators, and results \textit{in vitro} assays. Ultimately I aim to show that at the atomic level there is much more nuance to these and as patient specific theratyping evolves, these classes will become less relevant, serving as illustrative tools only to communicate at a higher level what is going wrong with the CFTR protein. The canonical classification is as follows:
+
+\begin{figure}
+	\begin{center}
+	\includegraphics[width=\textwidth]{figures/alleles_pie_chart.pdf}
+	\end{center}
+	\label{CFTR_structure_domains}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Rare Mutations Occur in All parts of the CFTR Protein] {\textbf{Rare Mutations Occur in All parts of the CFTR Protein}}{A) The reported frequency of individual disease causing alleles in the CFTR2 database. At the time of writing there are 401 recorded disease causing alleles. A patient with CF will carry two of these mutations. The numbers here include all kinds of mutations, not just missense mutations. CF is a recessive gene so a patient patient will have defective copies of the CFTR gene in their genome. 1 in 25 people of Northern European descent are a carrier for CF and are themselves at increased risk for many health problems \cite{ioannou2014, miller2020}. B) The location of all 111 known disease causing missense on the CFTR protein itself. In addition to those visualised here there are many of variants of unknown significance (VUS). C) The number of CF causing missense mutations in the different domains of the CFTR protein. TMD1 and NBD1 have the highest concentration of disease causing mutations. Likely due to the former's role in ion permeation and the latter's role in gating \cite{cftr2}}. There are no CF causing missense mutations in the C-terminus or the R-domain. As more patient registries are updated across the world it is likely that more CF causing mutations will be discovered in the future.  
+\end{figure}
+
+
+\begin{itemize}
+	\item \textbf{Class I} No functional protein. Under these mutations no protein is transcribed due to either problems with the transcription of mRNA or a premature stop codon truncating protein synthesis early, meaning the resulting peptide is missing key domains. 
+	\item \textbf{Class II} Folding defect. These mutations cause the translated peptide to misfold into the incorrect tertiary structure. This can inhibit the protein's journey as it is trafficked to the cell membrane, its function while once it is there or its functional life time at the surface. 
+	\item \textbf{Class III} Impaired Gating. Here the mutation inhibits the ability of the protein to transition from the closed to the open state. 
+	\item \textbf{Class IV} Decreased Conductance. These mutations cause a barrier in the energy landscape of the CFTR chloride conductance pathway.
+	\item \textbf{Class V} Less Protein Expressed.  
+	\item \textbf{Class VI} Decreased Lifetime
+
+\end{itemize}
+
+Although useful, in reality this paradigm struggles to reflect the fact that a mutation can belong to multiple categories to different levels due to different modes of pathogenesis. Through our molecular simulations we can see that in reality CFTR modulators are capable of treating several different mutations with very different molecular fingerprints. We will break down this paradigm into more molecular detail in chapter \ref{chap:conclusions}
+
+%FIGURE demonstrates how each of the canonical classes at the molecular level is broken down into many sub classes and a mutation might belong to one of many of these subclasses. Structural biology paradigms and \textit{in silico} modelling can help classify mutations into these different classes. In combination with wet lab assays we can understand which classes of these molecular defects are most effectively treated with specific drug regimens. Our computational microscope is helping choose treatments for patients at the atomic level. 
+
+\section{Patients with Rare Rutations Struggle to Access Modulator Therapy}
+We will explore the mechanism behind CFTR modulators shortly. However, first we should outline the specific, pragmatic motivations for the molecular modelling carried out in this thesis. Roughly 50\% cases of Cystic Fibrosis are caused by a homozygous mutation, $\Delta$F508, and 90\% of patients carry at least one copy of this mutation. At the time of writing, many jurisdictions such as Australia, the USA and the EU have approved a triple therapy known as Trikafta which can improve the outcomes for patients with one copy of $\Delta$F508. . However, this leaves a significant part of the CF afflicted population without access to this life saving medication \cite{}. The work in this thesis demonstrates that a larger section of the CF population is likely to respond to modulators, particularly those carrying missense mutations.
+
+The treatment of rare mutations has particular importance in CF, not only will patients be left behind, but in fact by studying rare mutations outcomes can be improved for all CF sufferers. Potentiator class drugs were discovered by the study of a rare mutation G551D, through high throughput screening \cite{vangoor2009}. By studying rare mutations we can gain a more complete picture of the disease and so improve therapies for everybody. This is particularly important as CF is uncovered in regions where it is genetically rarer and so patients in these regions are more likely to have rare, due to the spectrum of CFTR genotypes \cite{singh2015,zheng2017,ni2022}. As patient registries are set up in these populations, more rare forms of CF are likely to be discovered. Many of these regions do not train physicians in the treatment of CF because of the disease's relative rarity, leading to poor patient outcomes \cite{}. The more modulators are available the cheaper individual drug costs will become and the more options patients will have to personalise their treatment.
+
+Patients with rare forms of CF are more likely to be in countries where CF is already quite rare \cite{zheng2017}. Patients on modulators have significantly different clinical outcomes even between those with the same genotype. Determining the reason for this would open the door to the development of complimentary therapeutics. 
 
 \section{CFTR is a Unique ABC Transporter}
 

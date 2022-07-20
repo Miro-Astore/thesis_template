@@ -30,53 +30,52 @@
 \BOOKMARK [1][-]{section.2.9}{Conclusion}{chapter.2}% 30
 \BOOKMARK [0][-]{chapter.3}{Review of Cystic Fibrosis and The Molecular Basis of its Treatment}{}% 31
 \BOOKMARK [1][-]{section.3.1}{Clinical Realities of Living with Cystic Fibrosis}{chapter.3}% 32
-\BOOKMARK [1][-]{section.3.2}{The Molecular Cause of Cystic Fibrosis is Genetic Mutation}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.3}{The Misfunction of CFTR causes CF}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.1}{The Gating Cycle}{section.3.3}% 35
-\BOOKMARK [2][-]{subsection.3.3.2}{Anion Selectivity}{section.3.3}% 36
-\BOOKMARK [1][-]{section.3.4}{Classes of Mutation Which Cause Cystic Fibrosis}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.5}{Patients with Rare Rutations Struggle to Access Modulator Therapy}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.6}{CFTR is a Unique ABC Transporter}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.7}{Modulators Act on CFTR to Restore its Function}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.7.1}{Correctors}{section.3.7}% 41
-\BOOKMARK [2][-]{subsection.3.7.2}{Potentiators}{section.3.7}% 42
-\BOOKMARK [2][-]{subsection.3.7.3}{Read Through Compounds}{section.3.7}% 43
-\BOOKMARK [1][-]{section.3.8}{Patient Derived Organoids as a Pre Clinical Model for Assessing Modulator Efficacy}{chapter.3}% 44
-\BOOKMARK [2][-]{subsection.3.8.1}{Forskolin Induced Swelling to Assess CFTR Function}{section.3.8}% 45
-\BOOKMARK [2][-]{subsection.3.8.2}{Measuring Cilia Beating Frequency Allows Personalisation of Treatment}{section.3.8}% 46
-\BOOKMARK [2][-]{subsection.3.8.3}{Electrophysiology}{section.3.8}% 47
-\BOOKMARK [2][-]{subsection.3.8.4}{Western Blotting to Assess CFTR Trafficking}{section.3.8}% 48
-\BOOKMARK [0][-]{chapter.4}{Molecular Dynamics and Functional Characterization of I37R-CFTR Lasso Mutation Provide Insights into Channel Gating Activity}{}% 49
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.2}{Results}{chapter.4}% 51
-\BOOKMARK [2][-]{subsection.4.2.1}{I37R-CFTR Baseline Activity in Patient-Derived Rectal Biopsies and Intestinal Organoids}{section.4.2}% 52
-\BOOKMARK [2][-]{subsection.4.2.2}{I37R-CFTR Functional Response to CFTR Modulator Monotherapy in Intestinal Organoids}{section.4.2}% 53
-\BOOKMARK [2][-]{subsection.4.2.3}{I37R-CFTR Perturbs the Noose Structure of the Lasso Motif}{section.4.2}% 54
-\BOOKMARK [2][-]{subsection.4.2.4}{I37R Mutation Strengthens Lasso Motif Interaction with the R-domain}{section.4.2}% 55
-\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 56
-\BOOKMARK [1][-]{section.4.4}{Method Details}{chapter.4}% 57
-\BOOKMARK [1][-]{section.4.5}{Acknowledgements}{chapter.4}% 58
-\BOOKMARK [1][-]{section.4.6}{Author Contributions}{chapter.4}% 59
-\BOOKMARK [1][-]{section.4.7}{Delcaration of Interests}{chapter.4}% 60
-\BOOKMARK [0][-]{chapter.5}{Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect}{}% 61
-\BOOKMARK [0][-]{chapter.6}{Unique S945L-CFTR defect Restored by CFTR Modulator Co-Therapy In Vitro Correlates with In Vivo Biomarkers Post-Therapy}{}% 62
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 63
-\BOOKMARK [0][-]{chapter.7}{Resolving a Conducting Conformation of CFTR Using Free Energy Calculations}{}% 64
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 65
-\BOOKMARK [1][-]{section.7.2}{Results}{chapter.7}% 66
-\BOOKMARK [2][-]{subsection.7.2.1}{The outer pore in the CryoEM structure of phosphorylated human CFTR is not sufficiently open to conduct anions}{section.7.2}% 67
-\BOOKMARK [2][-]{subsection.7.2.2}{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}{section.7.2}% 68
-\BOOKMARK [2][-]{subsection.7.2.3}{Proving the discovered conformation is capable of ion conduction with umbrella sampling}{section.7.2}% 69
-\BOOKMARK [2][-]{subsection.7.2.4}{This open conformation gives rise to a novel salt bridge}{section.7.2}% 70
-\BOOKMARK [2][-]{subsection.7.2.5}{This open state can be used to study disease causing mutations in the outer pore such as R334W}{section.7.2}% 71
-\BOOKMARK [1][-]{section.7.3}{Discussion}{chapter.7}% 72
-\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 73
-\BOOKMARK [1][-]{section.7.5}{Methods Details}{chapter.7}% 74
-\BOOKMARK [0][-]{chapter.8}{Concluding Remarks: Where next for Molecular Studies of CFTR.}{}% 75
-\BOOKMARK [1][-]{section.8.1}{Addressing Controversies Surrounding the Structure of CFTR}{chapter.8}% 76
-\BOOKMARK [1][-]{section.8.2}{A Physics Motivated Model for the Molecular Modulation of Mutant CFTR }{chapter.8}% 77
-\BOOKMARK [1][-]{section.8.3}{A Physics Motivated Approach to Precision Medicine in Cystic Fibrosis}{chapter.8}% 78
-\BOOKMARK [1][-]{section.8.4}{Outstanding fundamental questions about CFTR Function}{chapter.8}% 79
-\BOOKMARK [1][-]{section.8.5}{Grouping of Theratypes}{chapter.8}% 80
-\BOOKMARK [1][-]{section.8.6}{Resolving Drug Action}{chapter.8}% 81
-\BOOKMARK [0][-]{appendix*.45}{Bibliography}{}% 82
+\BOOKMARK [1][-]{section.3.2}{The Misfunction of CFTR causes CF}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.2.1}{The Gating Cycle}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.2}{Anion Selectivity}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{Classes of Mutation Which Cause Cystic Fibrosis}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.4}{Patients with Rare Rutations Struggle to Access Modulator Therapy}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.5}{CFTR is a Unique ABC Transporter}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.6}{Modulators Act on CFTR to Restore its Function}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.6.1}{Correctors}{section.3.6}% 40
+\BOOKMARK [2][-]{subsection.3.6.2}{Potentiators}{section.3.6}% 41
+\BOOKMARK [2][-]{subsection.3.6.3}{Read Through Compounds}{section.3.6}% 42
+\BOOKMARK [1][-]{section.3.7}{Patient Derived Organoids as a Pre Clinical Model for Assessing Modulator Efficacy}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.7.1}{Forskolin Induced Swelling to Assess CFTR Function}{section.3.7}% 44
+\BOOKMARK [2][-]{subsection.3.7.2}{Measuring Cilia Beating Frequency Allows Personalisation of Treatment}{section.3.7}% 45
+\BOOKMARK [2][-]{subsection.3.7.3}{Electrophysiology}{section.3.7}% 46
+\BOOKMARK [2][-]{subsection.3.7.4}{Western Blotting to Assess CFTR Trafficking}{section.3.7}% 47
+\BOOKMARK [0][-]{chapter.4}{Molecular Dynamics and Functional Characterization of I37R-CFTR Lasso Mutation Provide Insights into Channel Gating Activity}{}% 48
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.2}{Results}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.2.1}{I37R-CFTR Baseline Activity in Patient-Derived Rectal Biopsies and Intestinal Organoids}{section.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.2.2}{I37R-CFTR Functional Response to CFTR Modulator Monotherapy in Intestinal Organoids}{section.4.2}% 52
+\BOOKMARK [2][-]{subsection.4.2.3}{I37R-CFTR Perturbs the Noose Structure of the Lasso Motif}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.4}{I37R Mutation Strengthens Lasso Motif Interaction with the R-domain}{section.4.2}% 54
+\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.4}{Method Details}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.5}{Acknowledgements}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.6}{Author Contributions}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.7}{Delcaration of Interests}{chapter.4}% 59
+\BOOKMARK [0][-]{chapter.5}{Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect}{}% 60
+\BOOKMARK [0][-]{chapter.6}{Unique S945L-CFTR defect Restored by CFTR Modulator Co-Therapy In Vitro Correlates with In Vivo Biomarkers Post-Therapy}{}% 61
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 62
+\BOOKMARK [0][-]{chapter.7}{Resolving a Conducting Conformation of CFTR Using Free Energy Calculations}{}% 63
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 64
+\BOOKMARK [1][-]{section.7.2}{Results}{chapter.7}% 65
+\BOOKMARK [2][-]{subsection.7.2.1}{The outer pore in the CryoEM structure of phosphorylated human CFTR is not sufficiently open to conduct anions}{section.7.2}% 66
+\BOOKMARK [2][-]{subsection.7.2.2}{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}{section.7.2}% 67
+\BOOKMARK [2][-]{subsection.7.2.3}{Proving the discovered conformation is capable of ion conduction with umbrella sampling}{section.7.2}% 68
+\BOOKMARK [2][-]{subsection.7.2.4}{This open conformation gives rise to a novel salt bridge}{section.7.2}% 69
+\BOOKMARK [2][-]{subsection.7.2.5}{This open state can be used to study disease causing mutations in the outer pore such as R334W}{section.7.2}% 70
+\BOOKMARK [1][-]{section.7.3}{Discussion}{chapter.7}% 71
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 72
+\BOOKMARK [1][-]{section.7.5}{Methods Details}{chapter.7}% 73
+\BOOKMARK [0][-]{chapter.8}{Concluding Remarks: Where next for Molecular Studies of CFTR.}{}% 74
+\BOOKMARK [1][-]{section.8.1}{Addressing Controversies Surrounding the Structure of CFTR}{chapter.8}% 75
+\BOOKMARK [1][-]{section.8.2}{A Physics Motivated Model for the Molecular Modulation of Mutant CFTR }{chapter.8}% 76
+\BOOKMARK [1][-]{section.8.3}{A Physics Motivated Approach to Precision Medicine in Cystic Fibrosis}{chapter.8}% 77
+\BOOKMARK [1][-]{section.8.4}{Outstanding fundamental questions about CFTR Function}{chapter.8}% 78
+\BOOKMARK [1][-]{section.8.5}{Grouping of Theratypes}{chapter.8}% 79
+\BOOKMARK [1][-]{section.8.6}{Resolving Drug Action}{chapter.8}% 80
+\BOOKMARK [0][-]{appendix*.45}{Bibliography}{}% 81
