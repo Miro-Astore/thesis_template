@@ -19,6 +19,21 @@
   <defs
      id="defs2">
     <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1117"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1115"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
        refY="0"
@@ -250,7 +265,8 @@
        refX="0"
        id="Arrow1Mend-7-5-5-27"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          id="path907-5-6-9-0"
@@ -296,9 +312,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="669.2747"
-     inkscape:cy="527.43804"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="935.07609"
+     inkscape:cy="248.54727"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -393,18 +409,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="126.68565"
+       x="119.80647"
        y="133.9305"
        id="text2646-1-9"><tspan
          sodipodi:role="line"
-         x="126.68565"
+         x="119.80647"
          y="133.9305"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.67181778px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan3269-6">ATP</tspan><tspan
          sodipodi:role="line"
-         x="126.68565"
+         x="119.80647"
          y="147.15967"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.67181778px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan1858">Binding</tspan></text>
     <text
        xml:space="preserve"
@@ -454,17 +470,17 @@
          sodipodi:role="line"
          x="196.92336"
          y="22.551598"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:8.67181806px"
          id="tspan3294-4">Barrier due</tspan><tspan
          sodipodi:role="line"
          x="198.60542"
          y="35.780766"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:8.67181806px"
          id="tspan8646">to G551D </tspan><tspan
          sodipodi:role="line"
          x="196.92336"
          y="49.00993"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:8.67181806px"
          id="tspan1071">Mutation</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-5-5-29)"
@@ -480,19 +496,19 @@
        sodipodi:nodetypes="cssc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-weight:normal;font-size:8.67181806px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
        x="234.62489"
        y="75.762352"
        id="text2646-1-9-5"><tspan
          sodipodi:role="line"
          x="234.62489"
          y="75.762352"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:8.67181806px;"
          id="tspan3294-3">Potentiator</tspan><tspan
          sodipodi:role="line"
          x="234.62489"
          y="88.991516"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332;font-size:8.67181806px;"
          id="tspan11109">Binding</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-5-5-8)"
@@ -510,33 +526,6 @@
        style="fill:none;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-5-5-6)"
        d="M 108.86068,41.735033 101.80241,62.65118"
        id="path896-3-2-2-91"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="71.41703"
-       y="132.50832"
-       id="text2646-1-9-9"><tspan
-         sodipodi:role="line"
-         x="71.41703"
-         y="132.50832"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan3294-6">R-</tspan><tspan
-         sodipodi:role="line"
-         x="71.41703"
-         y="145.73749"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan2419">Domain</tspan><tspan
-         sodipodi:role="line"
-         x="71.41703"
-         y="158.96664"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan1858-0">Transition</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-5-5-27)"
-       d="m 67.805793,120.69113 11.09005,-14.58478"
-       id="path896-3-2-2-62"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
