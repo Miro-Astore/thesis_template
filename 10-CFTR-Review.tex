@@ -49,7 +49,7 @@ Secondly, and more acutely, this thick mucus inhibits the normal function of sev
 
 Much of the increased life expectancy of CF patients has been due to the improved management of this mucus and the populations of bacterium infecting it \cite{mcbennett2022}. Patients often undergo hours of physical therapy each day to help them clear this mucus from their lungs \cite{zotero-3007}. Inhalation of a saline solutions may also help relieve symptoms, as this draws moisture out of the epithelial cells by counteracting the pathogenic osmotic pressure gradient \cite{wark2018}. 
 
-In CF care, lung function maintaining lung function remains the primary concern as the organ gradually degrades over the course of the patients life. Respiratory failure is usually the cause of death in patients with cystic fibrosis \cite{kumar2018}. The advent of double lung transplants has lead to a significant increase to the life expectancy of CF patients. However, double lung transplants remain the only option for CF patients as the CF afflicted lung left in their body would infect the donor lung with bacteria \cite{mcbennett2022}. The most common biomarker for tracking disease progress is known as FEV1\%, which stands for Forced Expiratory Volume in 1 second. It is a measure of the volume of air a patient is able to expel in one second, compared to their total lung capacity \cite{}. 
+In CF care, maintaining lung function remains the primary concern as the organ gradually degrades over the course of the patients life. Respiratory failure is usually the cause of death \cite{kumar2018}. The advent of double lung transplants has lead to a significant increase to the life expectancy of CF patients. However, double lung transplants remain the only option for CF patients as the CF afflicted lung left in their body would infect the donor lung with bacteria \cite{mcbennett2022}. The most common biomarker for tracking disease progress is known as FEV1\%, which stands for Forced Expiratory Volume in 1 second. It is a measure of the volume of air a patient is able to expel in one second, compared to their total lung capacity \cite{}. 
 
 CF patients struggle to intake nutrients due to the build up of mucus in the ducts of their pancreas and large intestines. The difficulties associated with nutrition absorb ion leads to CF related diabetes which afflicts roughly half of adults with CF \cite{Kayani2018}. To manage this complication, patients are often administered digestive enzymes and must adhere to a strict diet \cite{sullivan2017}. 
 
@@ -67,10 +67,13 @@ Interestingly, as patients are living longer, we are discovering more disease co
 
 \section{The Misfunction of the CFTR Protein Causes Cystic Fibrosis}
 
-The primary cause of the disease Cystic Fibrosis (CF) is the malfunction of a chloride channel, the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR). This ion channel is a member of the ABCC subfamily of ABC transporters, designated ABCC7. This channel is unique amongst this family because it is not considered an active transporter but something of a low conductivity channel or a "" \cite{linsdell2018}.
+From the perspective of a biophysicist, the cause of the disease is quite simple. The imballance of salts and water accross the epithelium is due to the misfunction of a single gene: An anion channel known as CFTR.
+
+This ion channel is unique. It is a type of protein known as an ABC transpoter, designated ABCC7. These proteins bind ATP and use the energy from these molecules to pump molecles across the cell membrane. But CFTR is incapable of acting as a transporter. It can be thought of as a "leaky pump" since it still goes through a gating cycle but is incapable of pumping substrate\cite{linsdell2018}. The evolutionary misapropriation of this protein from a transporter into a chanel is possibly why there are so many mutations which cause it to misfunction. 
+
+When there is not a sufficient number of functioning channels at the cell membrane, anions cannot pass out of the cell. This causes water to leach through other ion chanels in order to balance this the buildup of osmotic pressure inside the cell \cite{verkman2003}.
 
 \subsection{CFTR structure and function}
-
 
 \begin{figure}
 	\begin{center}
@@ -81,6 +84,8 @@ The primary cause of the disease Cystic Fibrosis (CF) is the malfunction of a ch
 	\caption[CFTR Structure] {\textbf{CFTR Structure}}{There are currently two resolved human CFTR structures. The inactivated state is neither phosphorylated nor bound to ATP. Observe how the NBDs are far apart and the TMDs are not parallel, forcing a constriction near the top of the protein which does not allow the passage of ions. By contrast, the activated structure is abound to ATP at both sites, bringing the TMDs into a parallel configuration where they are able to form a pore. There are unresolved questions as to whether CFTR may conduct chloride in this conformation which we will analyse in chapter \ref{chap:opening}. All simulations presented in this work were based on the ATP-bound phosphorylated human CFTR structure. PDB ID: 6MSM \cite{zhang2018}.} 
 
 \end{figure}
+CFTR is a a single chain of 1480 amino acids. The 4 main functional domains have a structure reminiscent of other ABC transporters. There  contains 
+
 CFTR is composed of one chain with pseudo-symmetric structure, the protein is well organised into 7 domains \ref{CFTR_structure_domains}. In the order of their primary structure they are: 
 \begin{enumerate}
 	\item The Lasso motif (AA 1-68). Anchors into the membrane and serves as an interaction hub with protein partners such as syntaxin and filamin which are important in cellular trafficking \cite{cormet-boyaka2002, naren1998, thelin2007} as well as WNK1 which plays a role in bicarbonate selectivity \cite{kim2019}.
@@ -134,7 +139,7 @@ The more than 400 disease causing mutations to CFTR have been classified into 6 
 
 \end{itemize}
 
-Although useful, in reality this paradigm struggles to reflect the fact that a mutation can belong to multiple categories to different levels due to different modes of pathogenesis. Through our molecular simulations we can see that in reality CFTR modulators are capable of treating several different mutations with very different molecular fingerprints. We will break down this paradigm into more molecular detail in chapter \ref{chap:conclusions}
+Although useful, in reality this paradigm struggles to reflect the fact that a mutation can belong to multiple categories to differing degrees, due to different modes of pathogenesis. Further, in our molecular simulations we will see that in CFTR modulators are capable of many different mutations with unique modes of pathogenesis. We will break down this paradigm into more molecular detail in chapter \ref{chap:conclusions}
 
 %FIGURE demonstrates how each of the canonical classes at the molecular level is broken down into many sub classes and a mutation might belong to one of many of these subclasses. Structural biology paradigms and \textit{in silico} modelling can help classify mutations into these different classes. In combination with wet lab assays we can understand which classes of these molecular defects are most effectively treated with specific drug regimens. Our computational microscope is helping choose treatments for patients at the atomic level. 
 
