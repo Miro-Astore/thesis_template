@@ -296,9 +296,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="886.22969"
-     inkscape:cy="415.38844"
+     inkscape:zoom="1.979899"
+     inkscape:cx="669.2747"
+     inkscape:cy="527.43804"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -306,10 +306,10 @@
      fit-margin-left="3.7"
      fit-margin-right="2.6"
      fit-margin-bottom="3.7"
-     inkscape:window-width="2560"
-     inkscape:window-height="1376"
-     inkscape:window-x="1920"
-     inkscape:window-y="27"
+     inkscape:window-width="1920"
+     inkscape:window-height="1039"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -319,7 +319,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -506,27 +506,6 @@
        id="path815-6-5-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="czc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="112.01884"
-       y="11.445865"
-       id="text2646-1-9-1-7"><tspan
-         sodipodi:role="line"
-         x="112.01884"
-         y="11.445865"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan3294-4-5">Barrier due</tspan><tspan
-         sodipodi:role="line"
-         x="113.7009"
-         y="24.675032"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan8646-3">to I37R </tspan><tspan
-         sodipodi:role="line"
-         x="112.01884"
-         y="37.904198"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan1071-5">Mutation</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-5-5-6)"
        d="M 108.86068,41.735033 101.80241,62.65118"
@@ -563,7 +542,7 @@
     <path
        style="fill:none;stroke:#ffa500;stroke-width:1.66499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 68.715389,78.841363 c 12.00683,1.298642 7.855493,-14.442904 22.853269,-15.256215 14.997772,-0.813311 1.876301,28.86329 28.271982,26.254836"
-       id="path815-6-5-6"
+       id="path83"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="czc" />
     <text
@@ -571,26 +550,26 @@
        style="font-style:normal;font-weight:normal;font-size:8.67181778px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="112.01884"
        y="11.445865"
-       id="text2646-1-9-1-7"><tspan
+       id="text91"><tspan
          sodipodi:role="line"
          x="112.01884"
          y="11.445865"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan3294-4-5">Barrier due</tspan><tspan
+         id="tspan85">Barrier due</tspan><tspan
          sodipodi:role="line"
          x="113.39709"
          y="22.285637"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan8646-3">to I37R </tspan><tspan
+         id="tspan87">to I37R </tspan><tspan
          sodipodi:role="line"
          x="112.01884"
          y="33.125408"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan1071-5">Mutation</tspan></text>
+         id="tspan89">Mutation</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-5-5-6)"
        d="M 108.86068,41.735033 101.80241,62.65118"
-       id="path896-3-2-2-91"
+       id="path93"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
@@ -598,26 +577,26 @@
        style="font-style:normal;font-weight:normal;font-size:8.67181778px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21679544"
        x="70.263947"
        y="134.90875"
-       id="text2646-1-9-9"><tspan
+       id="text101"><tspan
          sodipodi:role="line"
          x="70.263947"
          y="134.90875"
          style="text-align:center;text-anchor:middle;stroke-width:0.21679544"
-         id="tspan3294-6">R-</tspan><tspan
+         id="tspan95">R-</tspan><tspan
          sodipodi:role="line"
          x="70.263947"
          y="145.74852"
          style="text-align:center;text-anchor:middle;stroke-width:0.21679544"
-         id="tspan2419">Domain</tspan><tspan
+         id="tspan97">Domain</tspan><tspan
          sodipodi:role="line"
          x="70.263947"
          y="156.5883"
          style="text-align:center;text-anchor:middle;stroke-width:0.21679544"
-         id="tspan1858-0">Transition</tspan></text>
+         id="tspan99">Transition</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-5-5-27)"
        d="m 69.275775,126.30379 7.615547,-22.20196"
-       id="path896-3-2-2-62"
+       id="path103"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
