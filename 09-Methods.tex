@@ -534,12 +534,12 @@ where the $P(\xi)$  functions represent the probability density function calcula
 where the weights, $\sum_{i=0}^N p_j = 1$ are chosen such that the statistical error is minimised accross the domain of $\xi$ \cite{chen2011}. This means we solve an optimisation problem for the variance of the unbiased estimates
 
 \begin{equation}
-	\frac{\partial\text{Var} (P_u)}{\partial p_i}
+	\frac{\partial\text{Var} (P_u)}{\partial p_i} = 0
 \end{equation}
 
-to give the best estimate of the PMF given the samples in each $P_b^i(\xi)$. 
+to give the best estimate of the PMF given the samples in each $P_b^i(\xi)$. Essentially we are vertically shifting the estimates obtained in each of the histograms in order to minimise the error across the PMF. 
 
-Essentially we are vertically shifting the estimates obtained in each of the histograms in order to minimise the error across the PMF. By convention, we can estimate the error in the PMF by splitting up the statistics collected for the distributions of $P^b_i (\xi)$ and constructing PMFs from these independent samples. For example, we might have collected 100 ns of data in each window, but we could construct 5 independent estimates for the PMF using 20 ns blocks of trajectories. The Standard Error of the Mean (SEM) can then be used to estimate the error across the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM from these independent samples has fallen below 1 kcal/mol across the PMF. Note that there may be sources of systematic error not captured by this criterion. 
+By convention, we estimate the error in the PMF by splitting up the statistics collected for the distributions of $P^b_i (\xi)$ and constructing PMFs from these independent samples. For example, we might have collected 100 ns of data in each window, but we could construct 5 independent estimates for the PMF using 20 ns blocks of trajectories. The Standard Error of the Mean (SEM) can then be used to estimate the error across the surface \cite{gapsys2020}. By convention, an umbrella sampling calculation is said to have converged when the SEM from these independent samples has fallen below 1 kcal/mol across the PMF. Note that there may be sources of systematic error not captured by this criterion. 
 
 \subsection{Metadynamics}
 
@@ -552,7 +552,7 @@ Essentially we are vertically shifting the estimates obtained in each of the his
 	\label{METAD_demonstration}
 \end{figure}
 
-Developed in the lab of Michele Parrinello \cite{laio2002}, metadynamics has proven to be a popular method in many applications of computational science, not just in molecular dynamics simulations of biomolecular systems \cite{cheng2017, giberti2015, bussi2020a}. A pedagogical review of the method and its variants written by Pratyush Tiwary can be found in \cite{bussi2020}. The method relies on a time dependent form of $U_{bias}$ given by 
+Developed in the lab of Michele Parrinello \cite{laio2002}, metadynamics has proven to be a popular method in many applications of computational science, not just in molecular dynamics simulations of biomolecular systems \cite{cheng2017, giberti2015, bussi2020a}. A pedagogical review of the method and its variants written by Pratyush Tiwary can be found in \cite{bussi2020} or by Bussi in \cite{bussi2015}. The method relies on a time dependent form of $U_{bias}$ given by 
 
 \begin{equation}
 	U_{bias} (\xi,t) = \sum\limits_{\substack{t' = \tau_D, 2 \tau_D,... \\ t' < t}}  B \ \exp\bigg( - \frac{(\xi(t) - \xi(t') )^2}{2\sigma^2 }\bigg)
