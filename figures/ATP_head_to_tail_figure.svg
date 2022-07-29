@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="344.62943mm"
+   width="335.97491mm"
    height="425.88196mm"
-   viewBox="0 0 344.62943 425.88196"
+   viewBox="0 0 335.97492 425.88196"
    version="1.1"
    id="svg8"
    sodipodi:docname="ATP_head_to_tail_figure.svg"
@@ -197,7 +197,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="387.7908"
+     inkscape:cx="257.86914"
      inkscape:cy="731.78765"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -219,7 +219,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -227,7 +227,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(359.90748,262.18625)">
+     transform="translate(349.8539,262.18625)">
     <image
        y="-47.630455"
        x="-531.42102"
