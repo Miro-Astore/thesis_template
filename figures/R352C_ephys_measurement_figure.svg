@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="190.07126mm"
+   width="190.59396mm"
    height="169.54314mm"
-   viewBox="0 0 190.07126 169.54314"
+   viewBox="0 0 190.59397 169.54314"
    version="1.1"
    id="svg1976"
    sodipodi:docname="R352C_ephys_measurement_figure.svg"
@@ -179,9 +179,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="57.708016"
-     inkscape:cy="86.397374"
+     inkscape:zoom="1.4"
+     inkscape:cx="247.76027"
+     inkscape:cy="380.99746"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -212,7 +212,8 @@
      id="layer1"
      transform="translate(-270.14346,-199.31368)">
     <g
-       id="g4973">
+       id="g4973"
+       transform="translate(3.8754081)">
       <g
          id="g24-3"
          transform="matrix(0.19711917,0,0,0.19711917,363.25216,263.32903)">
@@ -2266,14 +2267,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.02896404px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0757241"
-       x="273.59399"
-       y="341.9614"
+       x="415.85315"
+       y="337.01691"
        id="text4208-3-2"><tspan
          sodipodi:role="line"
          id="tspan4206-6-8"
-         x="273.59399"
-         y="341.9614"
-         style="stroke-width:0.0757241">R352C-CFTR Patch Clamp Measurement</tspan></text>
+         x="415.85315"
+         y="337.01691"
+         style="stroke-width:0.0757241">Conductance Event Incidence</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.02896404px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0757241"
@@ -2333,13 +2334,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.84851313px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17121282"
-       x="270.08997"
-       y="232.58621"
+       x="269.78732"
+       y="204.51025"
        id="text4208-3-1"><tspan
          sodipodi:role="line"
          id="tspan4206-6-9"
-         x="270.08997"
-         y="232.58621"
+         x="269.78732"
+         y="204.51025"
          style="stroke-width:0.17121282">A)</tspan></text>
     <text
        xml:space="preserve"
@@ -2363,5 +2364,16 @@
          x="281.21213"
          y="346.84018"
          style="stroke-width:0.05844111">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.02896404px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0757241"
+       x="281.72195"
+       y="341.36188"
+       id="text4208-3-2-3"><tspan
+         sodipodi:role="line"
+         id="tspan4206-6-8-6"
+         x="281.72195"
+         y="341.36188"
+         style="stroke-width:0.0757241">R352C-CFTR Patch Clamp Measurement</tspan></text>
   </g>
 </svg>
