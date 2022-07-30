@@ -191,7 +191,7 @@ Corrector class modulators are able to treat Class II folding defects. They appe
 In combination this is strong evidence for the precise mechanism of action for corrector compounds. Further work will aid in the creation of new compounds to refine our exploitation of this mechanism.
 
 \subsection{Potentiators}
-Potentiator class drugs bind to CFTR in order to smooth the transition to the fully open, conducting conformation \cite{yeh2017}. This increases the total number of open CFTR ion channels at any one time and helps to balance osmotic pressure over the epithelium.
+Potentiator class drugs bind to CFTR in order to smooth the transition to the fully open, conducting conformation \cite{jih2013,yeh2017}. This increases the total number of open CFTR ion channels at any one time and helps to balance osmotic pressure over the epithelium.
 
 There is some uncertainty surrounding the precise mechanism of potentiators drugs, with different studies discovering different binding sites via mutagenesis and other methods \cite{yeh2019, liu2019, laselva2021}. Evidence strongly supports their findings that potentiators bind directly directly to CFTR in order to increase the likelihood that it occupies a conducting state, with some potentiators rescuing CFTR with picomolar affinity \cite{csanady2019}. Controversy arises surrounding \textit{where} these drugs are acting to rescue CFTR. There are are cryo-EM structures which show the drugs bound to the TM8 hinge region \cite{liu2019}. However, there are some controversies surrounding the structure in which the drugs are bound in this study which we will discuss in \ref{chap:conclusions}. \textit {In vitro} experiments studying drug binding kinetics suggest at least two membrane facing binding pockets \cite{csanady2019}. 
 
@@ -236,12 +236,23 @@ Subsequent chapters will make use of these organoids by testing them with a set 
 Forskolin Induced Swelling (FIS) assays have been used to characterise the patient specific response of a patient's organoids to a drug regimen \cite{dekkers2013}. When epithelial cells are exposed to a chemical known as Forskolin they begin to rapidly produce cyclic AMP (cAMP, a precursor to ATP in a cell) \cite{bonora2012}. The presence of ATP activates the CFTR ion channels, causing the organoids themselves to swell. This swelling allows cell biologists to easily quantify the activity of CFTR within a cell, in a variety of conditions such as the presence of drugs.
 
 \subsection{Electrophysiology Directly Measures CFTR Gating and Conduction}
-Since CFTR is an ion channel, measuring its electrical activity is a direct way to assess its function and dynamics. For single channel studies this is done with a patch clamp. However, this does not give an assessment of the whole epithelium. Often the whole organoid is used as a patch and put in an Ussing chamber. By blocking other ion channels such as ENaC during measurements, \footnote{ENaC inhibitors are also being explored as a complimentary therapy to CF modulators\cite{mall2020}.} a clear picture of CFTR function can be measured in order to create a pre-clinical model for a specific patient.
+Since CFTR is an ion channel, measuring its electrical activity is a direct way to assess its function and dynamics. For single channel studies this is done with a patch clamp. However, this does not give an assessment of the whole epithelium. Often the whole organoid is used as a patch and put in an Ussing chamber. By blocking other ion channels such as ENaC during measurements, \footnote{ENaC inhibitors are also being explored as a complimentary therapy to CF modulators\cite{mall2020}.} a clear picture of CFTR function can be measured in order to create a pre-clinical model for a specific patient. Really, electrophysiology is just like using an oscilloscope on gooey bits. It's cool that we can use physics to do this. 
 
 \subsubsection{Ussing Chambers}
-An Ussing chambers is a versatile apartaus which allows the measurement of current accross an epithelial membrane. These can be used 
+An Ussing chambers is a versatile apartaus which allows the measurement of current accross an epithelial membrane. In the studies presented in this work, they are used to characterise epithelial matrices grown from patient derived organoids. .
 
 \subsubsection{Patch Clamp Electrophysiology}
+\begin{figure}
+	\label{patch_clamp}
+	\begin{center}
+	\includegraphics[width=1\textwidth]{figures/R352C_ephys_measurement_figure.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Patch Clamp Apparatus] {\textbf{Patch Clamp Apparatus}}{A) In patch clamp electrophysiology, a micropipette is placed against the membrane to create a tight seal \cite{patch_clamp_recording_principal_figure}. B) The current trace from the measurement of a mutant CFTR channel. The R352C mutant was chosen for visualisation as it shows a clear transient state with lower conductance \cite{jih2012}. The accidental discovery of this mutant has been used extensively in studying the gating cycle of CFTR, giving an interesting example an example of how useful electrophysiology can be for molecular biophysics. Source data from \cite{jih2012}. Note that this mutant has roughly half the conductance of WT-CFTR.} 
+\end{figure}
+Patch Clamp Electrophysiology is a game changer for the molecular biophysics of ion channels. Through the use of a micropipette filled with electrolyte solution, we can measure the activity of a single ion channel. As shown in figure \ref{patch_clamp}, the pipette tip is placed directly on a cell membrane in order to measure the current flowing through a single ion channel. A single ion channel exhibits a current on the order of 1 picoAmp (for reference, CFTR exhibits 0.7pA at a bias voltage of 100 mV), so the formation of a tight seal with the membrane is critical to filter out noise. To tighten this seal, a small amount of suction is usually applied to the membrane.
+
+In the inside-out variant of this technique, a piece of the membrane with the ion channel in it is excised, exposing the patch to the surrounding bath. This means that the response of the ion channel to different cellular conditions can be tested by changing the composition of the bath. 
 
 \subsection{Western Blotting Assesses CFTR Trafficking}
 \begin{figure}
