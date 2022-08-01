@@ -20,20 +20,24 @@
 \usepackage{rotating}
 \usepackage{enumerate}
 \usepackage{epigraph}
-\usepackage[backref=pages,backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,url=true,arxiv=false]{biblatex}
-
-\renewcommand*{\backref}[1]{}
-
-	\renewcommand*{\backrefalt}[4]{%
-	\ifcase #1%
-	\or [Page~#2]%
-	\else [Pages~#2]%
-	\fi%
-}
+\usepackage[backref=true,backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,url=true,arxiv=false]{biblatex}
+\DefineBibliographyStrings{english}{%
+	  backrefpage = {page},% originally "cited on page"
+	    backrefpages = {pages},% originally "cited on pages"
+	}
+%\renewcommand*{\backref}[1]{}
+%
+%	\renewcommand*{\backrefalt}[4]{%
+%	\ifcase #1%
+%	\or [Page~#2]%
+%	\else [Pages~#2]%
+%	\fi%
+%}
 \addbibresource{./library}
 
 
-\usepackage[colorlinks=true,pdfstartview=FitV,breaklinks=true]{hyperref}
+\usepackage[backref=pages,colorlinks=true,pdfstartview=FitV,breaklinks=true]{hyperref}
+
 
 
 
