@@ -202,10 +202,33 @@ Organoids often lack specialized cell types and fail to recapitulate the complex
 \end{center}
 \begingroup
 \captionof{figure}[Results from All Tested R-domain Models]{\textbf{Results from All Tested R-domain Models}}{
-Root-mean-square deviation (RMSD) after molecular dynamics simulations of 24 models for the 17 unresolved residues of the R domain after the whole system was aligned to the transmembrane domains (TMDs) of the 6MSM structure, related to Fig 5B.
+Root-mean-square deviation (RMSD) after molecular dynamics simulations of 24 models for the 17 unresolved residues of the R domain after the whole system was aligned to the transmembrane domains (TMDs) of the 6MSM structure.
 }
 \endgroup
 
+\begin{center}
+	\includegraphics[width=\textwidth]{figures/I37R/S7.png}
+\label{I37R_S7}
+\end{center}
+\begingroup
+\captionof{figure}[A comparison between the prediction of the structure of human CFTR by
+Alphafold2 and the modelled segment of the R domain]{\textbf{A comparison between the prediction of the structure of human CFTR by Alphafold2 and the modelled segment of the R domain}}{
+	Panels with red border indicate the background model in that panel is the Alphafold2 prediction, while the panel with blue border indicates the background model is that of 6MSM, the experimentally derived cryo-EM structure of human CFTR. The MD derived model of the R domain is coloured yellow while the Alphafold2 derived R domain is coloured red. (A) A closeup visualisation of the alignment between the Alphafold2 predicted R domain and the MD based prediction. This figure showed the agreement between the prediction of Alphafold2 and the MD model. The mouse, rat, human and zebrafish CFTR structures in the Alphafold2 database display the same tertiary structure, linking the helical R domain segment closest to the lasso motif, to the beginning of TMD2. This is consistent with the assignment of L818-F834 to the unknown segment of the 6MSM model using MD. (B) The placement of important charged sidechains in the structure predicted by Alphafold2. (hCFTR Alphafold2 model: https://alphafold.ebi.ac.uk/entry/P13569) (C) The placement of important charged sidechains in the 6MSM model, including the modelled helix.
+}
+\endgroup
+
+
+\begin{center}
+	\includegraphics[width=\textwidth]{figures/I37R/Figure_S6.pdf}
+\label{I37R_S6}
+\end{center}
+\begingroup
+\captionof{figure}[Comparison between the stability of the transmembrane domains in I37R-
+CFTR and WT-CFTR at 310K. ]{\textbf{Comparison between the stability of the transmembrane domains in I37R-
+	CFTR and WT-CFTR at 310K. }}{
+	 Throughout the microsecond simulations, the transmembrane domain of I37R-CFTR did not deviate significantly from the WT-CFTR indicating no allostery in the transmembrane domains of the I37R mutation. The data coloured orange denotes the simulation described in detail in the results section.
+ }
+\endgroup
 
 \section{Method Details}
 \paragraph{Intestinal Current Measurement} Superficial rectal mucosa samples (2 – 4 per donor) were freshly obtained using biopsy forceps (CK Surgitech NBF53-11023230) and placed in cold RPMI1640 media (Sigma R5886) with 5\% FBS. Intestinal current measurements were performed under voltage-clamp conditions using VCC MC8 Ussing chambers (Physiologic Instruments, San Diego, CA) \cite{dejonge2004, derichs2010, li2004}. Biopsy tissues were bathed in Ringer solution containing (mM)\: 145 NaCl, 3.3 K$_2$HPO$_4$, 0.4 K$_2$HPO$_4$, 10 D-Glucose, 10 NaHCO$_3$, 1.2 MgCl$_2$ and 1.2 CaCl$_2$. Ringer solutions were continuously gassed with 95\% O2-5\% CO2 and maintained at 37$^\circ$C. 10 $\mu$M indomethacin was added to both apical and basal chambers, and tissues were stabilised for 40 min. Tissues were then treated with pharmacological compounds (in order): 100 $\mu$M amiloride (apical) to inhibit epithelial sodium channel (ENaC)-mediated Na+ flux, 10 $\mu$M forskolin + 100 $\mu$M IBMX cocktail (apical and basal) to induce cAMP activation of CFTR, 100 $\mu$M carbachol (basal) to increase intracellular Ca2+ levels and activate basolateral Ca2+-dependent K+ channels and 100 $\mu$M bumetanide (basal) to inhibit basolateral Na+/K+/2Cl- (NKCC) co-transporter.
