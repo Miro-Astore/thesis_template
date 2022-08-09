@@ -491,16 +491,24 @@ U_{CHARMM}'  = U_{CHARMM} + U_{bias} (\xi).
 
 Note how the $U_{biased}$ term is explicitly dependent on a parameter $\xi$. This parameter is known by many names, an order parameter, a collective variable (CV) or a reaction coordinate (RC). Each of these names has its origin in a different subfield but they all refer to an abstract coordinate which we use to drive the simulation to a given state. This could be a phase transition from a liquid to a gas, the progress of a chemical reaction or more likely in our case, a characterisation of a particular molecular configuration. 
 
+\begin{table}
 \begin{center}
-	\begin{tabular} {| m{4cm} | m {6cm} | m{4cm} | }
+	\begin{tabular} {| m {3cm} | m {7cm} | m {5cm} | }
 	\hline
-	  & Equilibrium & Non-Equilibrium \\ \hline
-		Non-Alchemical & Umbrella Sampling, Replica Exchange MD, Metadynamics, String Method with Swarms of Trajectories (SMwST) & Steered MD (SMD) \\ \hline
-	Alchemical & Free Energy Perturbation (FEP), Thermodynamic Integration (TI) &  Non-eq FEP \\ \hline
+	\center 
+	  & \begin{itemize} \item[] \item[] Equilibrium \end{itemize} &\begin{itemize} \item[] \item[]  Non-Equilibrium \end{itemize}\\ \hline
+	\raggedright
+	Non-Alchemical & \begin{itemize} \item[] \item Umbrella Sampling\cite{}  \item Replica Exchange MD \item Metadynamics\cite{laio2002} \item String Method with Swarms of Trajectories (SMwST) \end{itemize} & \begin{itemize} \item Steered MD (SMD)\cite{} \end{itemize} \\ \hline
+	\raggedright
+	Alchemical & \begin{itemize} \item[] \item Free Energy Perturbation (FEP)\cite{} \item Thermodynamic Integration (TI)\cite{} \end{itemize} &  \begin{itemize}\item Non-equilibrium FEP\cite{} \end{itemize}\\ \hline
 \end{tabular}
 \end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Classifciation of Common Free Energy Techniques]{\textbf{Classifciation of Common Free Energy Techniques}} {Various free energy techniques have been developed over the years. Due to their accuracy and statistical simplicity, the most numerous and most popular methods fall into the category of equilibrium methods. Both equilibrium and non-equilibrium alchemical methods are used in drug discovery to screen novel compounds for affinity to a given target. They may also be used to test the energetics of small changes to a molecular structure such as that from a mutation. Meanwhile, we will focus on non-alchemical methods as they are most useful for the study of the conformational changes of proteins. They are generally cheaper than alchemical methods and since we can assume that molecular structures remain constant through a simulation, these methods themselves well to this application.}
+	\label{timescales}
+\end{table}
 
-The functional form of $U_{bias}$ depends on the free energy calculation being employed. Broadly, there are two sets of mutually exclusive categories of free energy methods. The first two categories are equilibrum and non-equlibrium techniques. Equilibrium techniques perturb the molecular systme slow enough to always remain close to thermal equilibrium, conversly non-equliibrium techniques seek to account for the thermal energy imparted onto the system during the addition of the $U_{bias}(\xi)$ function \cite{jarzynski1997a,jarzynski1997,crooks1999}. Meanwhile, alchemical techniques may be used to change the chemical composition of the system as it is simulated, while in non-alchemical methods the chemical system remains constant as in unbiased MD. A list of some of these techniques can be found in table \ref{free_energy_techniques_table}. A deep theoretical exploration of many of these techniques may be found in \ref{chipot2007} and a frequently updated overview of modern free energy methods can be found in \cite{henin2022}. In the next two sections we will focus on the two most common equilibrium non-alchemical free energy techniques, umbrella sampling and metadynamics. 
+The functional form of $U_{bias}$ depends on the free energy calculation being employed. Broadly, there are two sets of mutually exclusive categories of free energy methods. The first two categories are equilibrum and non-equlibrium techniques. Equilibrium techniques perturb the molecular systme slow enough to always remain close to thermal equilibrium, conversly non-equliibrium techniques seek to account for the thermal energy imparted onto the system during the addition of the $U_{bias}(\xi)$ function \cite{jarzynski1997a,jarzynski1997,crooks1999}. Meanwhile, alchemical techniques may be used to study the change in free energy when the chemical composition of the system is changed, while in non-alchemical methods the chemical system remains constant as in unbiased MD. A list of some of these techniques can be found in table \ref{free_energy_techniques_table}. A deep theoretical exploration of many of these techniques may be found in \ref{chipot2007} and a frequently updated overview of modern free energy methods can be found in \cite{henin2022}. In the next two sections we will focus on the two most common equilibrium non-alchemical free energy techniques, umbrella sampling and metadynamics. 
 
 
 %When a free energy technique is developed it is usually tested on well characterised systems. Non-
