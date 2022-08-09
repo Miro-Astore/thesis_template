@@ -7,8 +7,13 @@
 \usepackage{csquotes}
 \usepackage{pdfcolmk}
 \usepackage{graphicx}
+\usepackage[hyphens]{url}
+\def\UrlBreaks{\do\/\do-}
+\usepackage{breakurl}
+%\usepackage[breaklinks]{hyperref}
 \usepackage{epstopdf}
 \usepackage{adjustbox}
+\usepackage{pdflscape}
 \usepackage{amsmath,amssymb}
 \usepackage{bm}
 \usepackage{amstext}
@@ -16,9 +21,27 @@
 \usepackage{rotating}
 \usepackage{enumerate}
 \usepackage{epigraph}
-\usepackage[backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,url=true,arxiv=true]{biblatex}
-\addbibresource{library.bib}
-\usepackage[breaklinks]{hyperref}
+\usepackage[backref=true,backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,url=true,arxiv=false]{biblatex}
+\DefineBibliographyStrings{english}{%
+	  backrefpage = {page},% originally "cited on page"
+	    backrefpages = {pages},% originally "cited on pages"
+	}
+%\renewcommand*{\backref}[1]{}
+%
+%	\renewcommand*{\backrefalt}[4]{%
+%	\ifcase #1%
+%	\or [Page~#2]%
+%	\else [Pages~#2]%
+%	\fi%
+%}
+\addbibresource{./library}
+
+
+\usepackage[backref=pages,colorlinks=true,pdfstartview=FitV,breaklinks=true]{hyperref}
+
+
+
+
 \hypersetup{
     colorlinks=true,
     citecolor=red,
@@ -30,8 +53,6 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{float}
-\usepackage{url}
-\usepackage{lscape}
 \usepackage{afterpage}
 \usepackage{longtable}
 \usepackage[font=small,labelfont=bf]{caption}
