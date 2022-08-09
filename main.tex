@@ -4,6 +4,7 @@
 \usepackage{kantlipsum}
 \usepackage{capt-of}
 \usepackage[english]{babel}
+\usepackage{csquotes}
 \usepackage{pdfcolmk}
 \usepackage{graphicx}
 \usepackage{epstopdf}
@@ -15,8 +16,8 @@
 \usepackage{rotating}
 \usepackage{enumerate}
 \usepackage{epigraph}
-\usepackage[backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,url=true,arxiv=false]{biblatex}
-\addbibresource{./library}
+\usepackage[backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,url=true,arxiv=true]{biblatex}
+\addbibresource{library.bib}
 \usepackage[breaklinks]{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -60,7 +61,7 @@
             bottom=3cm,
  }
 \setlength{\headheight}{27.2pt}
-\bibliography{library}
+\bibliography{library.bib}
 
 \usepackage{fancyhdr}
 \fancyhead{}
