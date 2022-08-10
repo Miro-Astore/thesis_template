@@ -4,6 +4,8 @@ main.out
 main.pdf
 main.log
 main.lof
+main.lot
+main.run.xml
 main.blg
 output.pdf
 main.bbl
@@ -14,4 +16,6 @@ library.bib
 *aux 
 0*.pdf 
 *.toc
-
+Acknowledgement_form.pdf
+ETF_transfer.pdf
+figures/R352Q/Flood.pdf
