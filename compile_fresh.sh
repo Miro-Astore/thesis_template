@@ -12,5 +12,6 @@ rm main.toc
 rm *log
 
 pdflatex main.tex 
-bibtex main 
-pdflatex main 
+bibtex main
+pdflatex main.tex
+pdflatex main.tex
