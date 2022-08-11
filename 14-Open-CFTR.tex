@@ -23,15 +23,19 @@ The cahnnel exhibits a slectivity filter which must be both narrow enough to par
 \section{Results}
 
 
-\subsection{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}
+\subsection{Using metadynamics and long simulations we can dilate the pore to discover an open conformation of CFTR}
+Using 8 microseonds of simulation data, we 
 
 \subsection{Proving the discovered conformation is capable of ion conduction with umbrella sampling}
+
 
 \subsection{This open conformation gives rise to a novel salt bridge}
 \label{salt_bridge}
 
 \subsection{This open state can be used to study disease causing mutations in the outer pore such as R334W}
 Mutagenesis studies of the R334 amino acid noticed that many different mutations appear to result in ephys readings which would indicate a loss of function, including mutation to lysine (K) which seems surprising \cite{ge2004, gong2004, linsdell2021}. One of the more common disease causing missense mutations is R334W. This motivated the use of umbrella sampling to test the energy landscape of the chloride permeation pathway in the presence of this mutation. 
+
+The energy landscape shows a clear barrier to chloride conductnace, even in the open structure, .
 
 \section{Discussion}
 
@@ -63,4 +67,28 @@ Mutations at R334 also exhibit a gating defect, with infrequent transitions to t
 With innovative application of free energy techniques we have been able to study an open, conducting conformation of CFTR. The conducting state of the channel has critical importance to drug discovery efforts for potentiators. If a small molecule drug could be developed to favor this state it would be a highly effective drug, as potentiators have demonstrated life changing clinical efficacy.
 
 \section{Methods Details}
-The methodology used in this chapter is largely consistent with the other studies in this thesis with some key differnces. The system was also constructed by embedding the extended CFTR model into a POPC membrane and then the whole these biomolecules were immersed in a neutralising 0.15mol/L KCl solution. For all calculations in this chapter the C-terminus was trunkaed at amino acid 1450 in order to make the simluation box smaller and save computer time.
+\subsection{System Composition}
+At a basic level, methodology used in this chapter is largely consistent with the other studies in this thesis with some key differnces. The system was also constructed by embedding the extended CFTR model into a POPC membrane and then the whole these biomolecules were immersed in a neutralising 0.15mol/L KCl solution. For all calculations in this chapter the C-terminus was trunkaed at amino acid 1450 in order to make the simluation box smaller and save computer time.
+
+\subsection{Unbiased MD and discovery of PCA motions.}
+
+In order to exclude large, fast motions like those from disordered loops, we limited our analysis to the following amino acids.
+
+\begin{table}
+	\begin{tabular} {| c | c | c | c | c | c | c | c | c | c | c | c | } 
+		\hline
+		TM1 & TM2 & TM3 & TM4 & TM5 & TM6 & TM7 & TM8 & TM9 & TM10 & TM11 & TM12 \\
+		\hline
+		 & TM2 & TM3 & TM4 & TM5 & TM6 & TM7 & TM8 & TM9 & TM10 & TM11 & TM12 \\
+
+
+
+\end{tabluar}
+\end{table}
+By selecting this subset, we applied  Principal Component Analysis to the combined, aligned timeseries data from the alpha carbons of the amino acids in table \ref{pca_aas}. This allowed our analysis to focus on the slow, large motions which would most likely dilate the channel. The first 9 Principal Components were inspected visually. By the 4th vector, the motions were comparatively small and hence our analysis focussed on the first two motions. Motions 1 and 2 produced large movments in TM1 and TM6 which was where we expected the extracellular mouth to dilate. Hence, we chose to accelerate these first two motions.
+
+\subsection{OPES-MetaD}
+We employed 8 parralel walkers in order to properly explore and converge the free energy landscape along the two PCA motions studied in this chapter. On the Fly Probability Enhanced Sampling was used to converge this difficult free energy landscape.  
+
+\subsection{Umbrella Sampling}
+All Umbrella sampling studies were carried out with the same methodology. In the unbiased equilibration steps of a CFTR simulation, an anion occupies the inner vestibule. In order to calculate the PMF through the cahnnel, we steered this annion to the middle of the channel .
