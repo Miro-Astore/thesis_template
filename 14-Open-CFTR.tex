@@ -7,7 +7,8 @@ The misfunction of the CFTR gene causes Cystic Fibrosis. This protein conducts b
 
 The presented study differs in an important way from existing studies which explore protein conformational landscape. Existing studies have previously investigated the conformational space \textit{between} solved protein conformations. The presented study demonstrates that with careful application of modelling it  is now possible to go \textit{beyond} the conformational neighbourhood of existing protein structures.
 
-The findings of this study demonstrate that computational power and protein forcefields are now sufficiently developed to take the advances of the cryo-EM ``resolution revolution" and elucidate even more of the protein conformational landscape. This heralds a new era of computational structural biology and biophysics.
+The findings of this study demonstrate that computational power and protein forcefields are now sufficiently developed to take the advances of the cryo-EM ``resolution revolution" and elucidate even more of the protein conformational landscape. This heralds a new era of computational structural biolgoy and biophysics.
+
 
 \section{Introduction}
 
@@ -22,25 +23,21 @@ The cahnnel exhibits a slectivity filter which must be both narrow enough to par
 \section{Results}
 
 
-\section{Introduction}
+\subsection{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}
 
-Ion channels are critical clinical targets. Their regulation of cellular membrane potential makes them attractive targets for many lcinical therapies. The mechanism and conditions under which they open and close is a closely studied topic due to the ability of small molecule drugs to regulate this transition and the pathology that a misfuncitonal channel can cause, either from mutation or environmental changes. Perhaps the most well-known channelopathie is the misfunction of the anion channel, the Cystic Fibrosis Transmembrane conudtance Regulator (CFTR) which causes Cystic Fibrosis (CF) \cite{riordan1989,gadsby2006}. 
+\subsection{Proving the discovered conformation is capable of ion conduction with umbrella sampling}
 
-<<<<<<< HEAD
-\subsection{This open conformation appears to be stabilised by a salt bridge not present in the cryo-EM structure.}
-
+\subsection{This open conformation gives rise to a novel salt bridge}
 \label{salt_bridge}
-It appears as though the the proposed open structure of CFTR is stabilised by a salt bridge that only forms in the dilated conformation. This presents an opportunity to test the predictions of these simulations using electrophysiology. 
 
-The propsed conformation is also largeyl consistent withi TM8 demonstrate that Y914 and Y917 are solvent exposed, pore lining helices, position 914 linked to position 102 and 334 when they were each replaced by cysteines. Interestingly, the distance in our proposed open structure is similar to that found in 6MSM, consistent with these experiments \cite{negoda2019}. 
-=======
-Various mutations may cause this ion channel to misfunction but the advent of new modulators heralds a new era in the treatment of this life-limiting disease. Due to the importance of the conductance of this channel in disease pathology, a molecular understanding behind the basis of its conductivity will inform the rational design of novel therapeutics to better patient outcomes. Unfortunately, current protein structures of this protein are insufficiently dilated in order to conducta nions, leaving unresolved questions behind the basis fo its conductivity. 
+\subsection{This open state can be used to study disease causing mutations in the outer pore such as R334W}
+Mutagenesis studies of the R334 amino acid noticed that many different mutations appear to result in ephys readings which would indicate a loss of function, including mutation to lysine (K) which seems surprising \cite{ge2004, gong2004, linsdell2021}. One of the more common disease causing missense mutations is R334W. This motivated the use of umbrella sampling to test the energy landscape of the chloride permeation pathway in the presence of this mutation. 
 
-The cahnnel exhibits a slectivity filter which must be both narrow enough to partially dehydrate chloride and also large enough to allow the passage of large anions such as bicarbonate and glutathione \cite{}. 
+\section{Discussion}
 
-\subsection{The outer pore in the Cryo-EM structure of phosphorylated human CFTR is not sufficiently open to conduct anions}
+The present study diverges in an important way from existing \textit{in silico} investigations of protein conformational changes. Past studies have focussed on recreating intermediate free energy landscapes between \textit{known} endpoints \cite{lev2020, bergh2021}. Such approaches are critical to the development of molecular techniques in order to understand the energetics and kinetics of protein systems. However, these studies are inherently limited to the availability of high quality experimental 3d structures. By using structures as a starting point we can explore the conformational space around a region to understand more about a protein system. This has been made possible by increasing the increasing accuracy of potein forcefields to reproduce structural ensembles \cite{huang2016} and considerable increases to computer power. The present study is akin to the development of an unsupervised vs. supervised machine learning algorithms. Each approach is powerful but has its own domain of applicability and drawbacks. 
 
-\section{Results}
+I predict that as free energy calculations are increasingly used to study protein systems we will see a delineation between \textit{untargetted} and \textit{targetted} MD methods, similar to how we see a delineation between supervised and unsupervised machine learning techniques.
 
 What is perhaps remarkable about this study is just how well the results correspond with \textit{in vitro} biophysical experiments. The movements in TM1 and TM6 which dominate the PCA motions we accelerated are the kind of dilation we expected from biophysical experiments \cite{linsdell2016}. The distances from Y914 to L102 and . Additionally, the similar conductance profiles are the kind we expect from a weakly selective anion channel like CFTR. 
 
@@ -48,21 +45,17 @@ What is perhaps most conerning about this structyure is the failiure to preserve
 
 As shown by the results in the present study, the difficulty in converging a free energy landscape with collective variables derived \textit {ab initio} from long classical MD simulations can be difficult as the CVs are very likely going to be suboptimal. Machine learning techniques, more sophisticated than the simple PCA algorithm used here would likely do a much better job of choosing quickly converging CVs \cite{}. 
 
-\subsection{Using metadynamics and long simulations we can dilate the pore to discover a conducting conformation}
+The conformational changes investigated in this study occur within the lipid bilayer. This means that the kinetics and energetics of the transitions we have discovered will be highly dependent on the composition of lipids of the epithelium. It is well understood that the bilayer composition plays an important role in CFTR regulation and the clinical implications of this are an active area of research \cite{cui2020, cottrill2020}. It would therefore be an interesting study to repeat similar free energy calculations with different bilayer compositions to understand how they might regulate such conformational changes.
 
-\subsection{Proving the discovered conformation is capable of ion conduction with umbrella sampling}
+Understanding the open structure of CFTR has important implications for the drug discovery efforts to treat Cystic Fibrosis and sheds light on other important clinical questions. Specificlaly, selectivity of bicarbonate has been found to play an important role in pancreatic sufficiency of patients. The elucidation of basic CFTR function using simulations heralds an exciting new era of Cystic Fibrosis research. We are performing molecular medicine with atomic precision. 
 
-\subsection{This open conformation appears to be stabilised by a salt bridge not present in the cryo-EM structure.}
+The predictions of a stable salt bridge in section \ref{salt_bridge} fill a recent gap in the literature. The elegant study on the R117H mutation from Simon and Csnady's group \cite{simon2021}  discovered that a long standing conclusion that R117 made a connection with E1126 was incorrect and in fact R117 makes a stable hydrogen bond with E1124. This study did not closely investigate the role of E1126, observing that the E1126P mutant had slower closing kinetics but was unable to definitely explain why, suggesting that ECL4 might move slower in this mutation. This leaves the partner of E1126 unknown. One study investigating the blockage of CFTR by zinc postulated at an interaction between R334 and E1126 \cite{wang2016}. Here, the researchers tested the inhibition of chloride conduction in the presence of zinc in R334C-CFTR. They found strong evidence that R334C-CFTR was blocked by Zinc ions, as no current was recorded in the presence of zinc. Because zinc has a +2 charge they suspected that a nearby negative amino acid might might play a role in binding the zinc cation. Subsequent experiments They found that the mutant R334C/E1126A-CFTR was no longer inhibited by zinc ions. This is consistent with our findings that R334 and E1126 may indeed form a salt bridge, coming closer together in the conducting conformation compared to how far they are in the cryoEM structure.  
 
 Previously it would have been very difficult to discover this interaction experimentally because R334 has plays such an important role in the conductance and selectivity of the channel. With the use of the atomic resolution offered by MD simulations we have been able to fill this gap in the experimental literature, demonstrating the power of \textit {in silico} methods for studying protein dynamics. We propose that single ion channel patch clamp experiments could demonstrate teh importance of teh E1126-R334 salt bridge to the open state of the channel. 
 
-\label{salt_bridge}
-It appears as though our the proposed open structure of CFTR is stabilised by a salt bridge that only forms in the dilated conformation. This presents an opportunity to test the predictions of these simulations using electrophysiology. 
-
-The proposed conformation is also largely consistent with TM8 demonstrate that Y914 and Y917 are solvent exposed, pore lining helices, position 914 linked to position 102 and 334 when they were each replaced by cysteines. Interestingly, the distance in our proposed open structure is similar to that found in 6MSM, consistent with these experiments \cite{negoda2019}. 
+Similar to how this study was motivated by the lack of a structural picture of CFTR's conducting state, there are many other places in the proteome which would likely be amenable to a similar mode of investigation. For example, the important ABC transporter P-glycoprotein has been resolved in an outward facing occluded state, but the important outward facing conformation remains unimaged \cite{}. A similar technique to the one used here could likely resolve such a conformation \cite{kim2018a}.
 
 \textit {in vitro} studies of the state dependent formation of the extracellular helices of the distances between  TM1, TM6, and TM12 indicated that in the closed state these helices are tightly bound together (as can be seen in the 6MSM structure) and in the open state they move apart \cite{negoda2018}. Additionally, similar studies of TM8 demonstrate that Y914 and Y917 are solvent exposed, pore lining helices, position 914 linked to position 102 and 334 when they were each replaced by cysteines. Interestingly, the distance in our proposed open structure is similar to that found in 6MSM, consistent with these experiments \cite{negoda2019}. 
->>>>>>> 2aaf1155dc5a6d445cb0552e6f7a5701c60f4eda
 
 Mutations at R334 also exhibit a gating defect, with infrequent transitions to the fully open state \cite{fuller2005, cui2013a}.
 
@@ -70,6 +63,4 @@ Mutations at R334 also exhibit a gating defect, with infrequent transitions to t
 With innovative application of free energy techniques we have been able to study an open, conducting conformation of CFTR. The conducting state of the channel has critical importance to drug discovery efforts for potentiators. If a small molecule drug could be developed to favor this state it would be a highly effective drug, as potentiators have demonstrated life changing clinical efficacy.
 
 \section{Methods Details}
-
 The methodology used in this chapter is largely consistent with the other studies in this thesis with some key differnces. The system was also constructed by embedding the extended CFTR model into a POPC membrane and then the whole these biomolecules were immersed in a neutralising 0.15mol/L KCl solution. For all calculations in this chapter the C-terminus was trunkaed at amino acid 1450 in order to make the simluation box smaller and save computer time.
-
