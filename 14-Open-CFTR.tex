@@ -68,22 +68,94 @@ With innovative application of free energy techniques we have been able to study
 
 \section{Methods Details}
 \subsection{System Composition}
-At a basic level, methodology used in this chapter is largely consistent with the other studies in this thesis with some key differnces. The system was also constructed by embedding the extended CFTR model into a POPC membrane and then the whole these biomolecules were immersed in a neutralising 0.15mol/L KCl solution. For all calculations in this chapter the C-terminus was trunkaed at amino acid 1450 in order to make the simluation box smaller and save computer time.
+At a basic level, methodology used in this chapter is largely consistent with the other studies in this thesis with some key differnces. The system was also constructed by embedding the extended CFTR model into a POPC membrane and then the whole these biomolecules were immersed in a neutralising 0.15 mol/L KCl solution. For all calculations in this chapter the C-terminus was trunkaed at amino acid 1450 in order to make the simluation box smaller and save computer time.
 
 \subsection{Unbiased MD and discovery of PCA motions.}
 
 In order to exclude large, fast motions like those from disordered loops, we limited our analysis to the following amino acids.
 
 \begin{table}
-	\begin{tabular} {| c | c | c | c | c | c | c | c | c | c | c | c | } 
+	\begin{center}
+	%\begin{tabular} {| c | c | c | c | c | c | c | c | c | c | c | c | }  
+	\resizebox{0.85\textwidth}{!}{%
+	\begin{tabular} {| c | c | c | c | c | c | c | c | c | c | c | c | }  
 		\hline
-		TM1 & TM2 & TM3 & TM4 & TM5 & TM6 & TM7 & TM8 & TM9 & TM10 & TM11 & TM12 \\
-		\hline
-		 & TM2 & TM3 & TM4 & TM5 & TM6 & TM7 & TM8 & TM9 & TM10 & TM11 & TM12 \\
+		\textbf{TM1}  $\uparrow$ & \textbf{TM2}  $\downarrow$ & \textbf{TM3}  $\uparrow$ & \textbf{TM4}   $\downarrow$& \textbf{TM5}  $\uparrow$ & \textbf{TM6}   $\downarrow$& \textbf{TM7}  $\uparrow$ & \textbf{TM8}   $\downarrow$& \textbf{TM9}   $\uparrow$& \textbf{TM10} $\downarrow$ & \textbf{TM11}  $\uparrow$ & \textbf{TM12}   $\downarrow$\\ \hline
+
+                         & 113                      &  218 & 219 &                          &                          & 885 &                          &                           & 1013 &                            &                           \\ \hline
+                         & 114                      &  217 & 220 &                          &                          & 884 &                          &                           & 1014 &                            &                           \\ \hline
+                         & 115                      &  216 & 221 &                          &                          & 883 &                          &                           & 1015 &                            &                           \\ \hline
+                         & 116                      &  215 & 222 &                          &                          & 882 &                          &                           & 1016 &                            &                           \\ \hline
+                         & 117                      &  214 & 223 &                          &                          & 881 &                          &                           & 1017 &                            &                           \\ \hline
+112                      & 118                      &  213 & 224 & 330                      &                          & 880 &                          &                           & 1018 &                            & 1124                      \\ \hline
+111                      & 119                      &  212 & 225 & 329                      & 331                      & 879 & 911                      &                           & 1019 &                            & 1125                      \\ \hline
+110                      & 120                      &  211 & 226 & 328                      & 332                      & 878 & 912                      & 1012                      & 1020 & 1123                       & 1126                      \\ \hline
+109                      & 121                      &  210 & 227 & 327                      & 333                      & 877 & 913                      & 1011                      & 1021 & 1122                       & 1127                      \\ \hline
+\cellcolor{yellow!25}108 & \cellcolor{yellow!25}122 &  209 & 228 & \cellcolor{yellow!25}326 & \cellcolor{yellow!25}334 & 876 & \cellcolor{yellow!25}914 & \cellcolor{yellow!25}1010 & 1022 & \cellcolor{yellow!25}1121  & \cellcolor{yellow!25}1128 \\ \hline
+\cellcolor{yellow!25}107 & \cellcolor{yellow!25}123 &  208 & 229 & \cellcolor{yellow!25}325 & \cellcolor{yellow!25}335 & 875 & \cellcolor{yellow!25}915 & \cellcolor{yellow!25}1009 & 1023 & \cellcolor{yellow!25}1120  & \cellcolor{yellow!25}1129 \\ \hline
+\cellcolor{yellow!25}106 & \cellcolor{yellow!25}124 &  207 & 230 & \cellcolor{yellow!25}324 & \cellcolor{yellow!25}336 & 874 & \cellcolor{yellow!25}916 & \cellcolor{yellow!25}1008 & 1024 & \cellcolor{yellow!25}1119  & \cellcolor{yellow!25}1130 \\ \hline
+\cellcolor{yellow!25}105 & \cellcolor{yellow!25}125 &  206 & 231 & \cellcolor{yellow!25}323 & \cellcolor{yellow!25}337 & 873 & \cellcolor{yellow!25}917 & \cellcolor{yellow!25}1007 & 1025 & \cellcolor{yellow!25}1118  & \cellcolor{yellow!25}1131 \\ \hline
+\cellcolor{yellow!25}104 & \cellcolor{yellow!25}126 &  205 & 232 & \cellcolor{yellow!25}322 & \cellcolor{yellow!25}338 & 872 & \cellcolor{yellow!25}918 & \cellcolor{yellow!25}1006 & 1026 & \cellcolor{yellow!25}1117  & \cellcolor{yellow!25}1132 \\ \hline
+\cellcolor{yellow!25}103 & \cellcolor{yellow!25}127 &  204 & 233 & \cellcolor{yellow!25}321 & \cellcolor{yellow!25}339 & 871 & \cellcolor{yellow!25}919 & \cellcolor{yellow!25}1005 & 1027 & \cellcolor{yellow!25}1116  & \cellcolor{yellow!25}1133 \\ \hline
+\cellcolor{yellow!25}102 & \cellcolor{yellow!25}128 &  203 & 234 & \cellcolor{yellow!25}320 & \cellcolor{yellow!25}340 & 870 & \cellcolor{yellow!25}920 & \cellcolor{yellow!25}1004 & 1028 & \cellcolor{yellow!25}1115  & \cellcolor{yellow!25}1134 \\ \hline
+\cellcolor{yellow!25}101 & \cellcolor{yellow!25}129 &  202 & 235 & \cellcolor{yellow!25}319 & \cellcolor{yellow!25}341 & 869 & \cellcolor{yellow!25}921 & \cellcolor{yellow!25}1003 & 1029 & \cellcolor{yellow!25}1114  & \cellcolor{yellow!25}1135 \\ \hline
+\cellcolor{yellow!25}100 & 130                      &  201 & 236 & \cellcolor{yellow!25}318 & \cellcolor{yellow!25}342 & 868 & \cellcolor{yellow!25}922 & 1002                      & 1030 & 1113                       & \cellcolor{yellow!25}1136 \\ \hline
+\cellcolor{yellow!25} 99 & 131                      &  200 & 237 & 317                      & 343                      & 867 & 923                      & 1001                      & 1031 & 1112                       & \cellcolor{yellow!25}1137 \\ \hline
+ 98                      & 132                      &  199 & 238 & 316                      & 344                      & 866 & 924                      & 1000                      & 1032 & 1111                       & \cellcolor{yellow!25}1138 \\ \hline
+ 97                      & 133                      &  198 & 239 & 315                      & 345                      & 865 & 925                      &  999                      & 1033 & 1110                       & 1139                      \\ \hline
+ 96                      & 134                      &  197 & 240 & 314                      & 346                      & 864 & 926                      &  998                      & 1034 & 1109                       & 1140                      \\ \hline
+ 95                      & 135                      &  196 & 241 & 313                      & 347                      & 863 & 927                      &  997                      & 1035 & 1108                       & 1141                      \\ \hline
+ 94                      & 136                      &  195 & 242 & 312                      & 348                      & 862 & 928                      &  996                      & 1036 & 1107                       & 1142                      \\ \hline
+ 93                      & 137                      &  194 & 243 & 311                      & 349                      & 861 & 929                      &  995                      & 1037 & 1106                       & 1143                      \\ \hline
+ 92                      & 138                      &  193 & 244 & 310                      & 350                      & 860 & 930                      &  994                      & 1038 & 1105                       & 1144                      \\ \hline
+ 91                      & 139                      &  192 & 245 & 309                      & 351                      & 859 & 931                      &  993                      & 1039 & 1104                       & 1145                      \\ \hline
+ 90                      & 140                      &  191 & 246 & 308                      & 352                      & 858 & 932                      &  992                      & 1040 & 1103                       & 1146                      \\ \hline
+ 89                      & 141                      &  190 & 247 & 307                      & 353                      & 857 & 933                      &  991                      & 1041 & 1102                       & 1147                      \\ \hline
+ 88                      & 142                      &  189 & 248 & 306                      & 354                      & 856 & 934                      &  990                      & 1042 & 1101                       & 1148                      \\ \hline
+ 87                      & 143                      &  188 & 249 & 305                      & 355                      & 855 & 935                      &  989                      & 1043 & 1100                       & 1149                      \\ \hline
+ 86                      & 144                      &  187 & 250 & 304                      & 356                      & 854 & 936                      &  988                      & 1044 & 1099                       & 1150                      \\ \hline
+ 85                      & 145                      &  186 & 251 & 303                      & 357                      & 853 & 937                      &  987                      & 1045 & 1098                       & 1151                      \\ \hline
+ 84                      & 146                      &  185 & 252 & 302                      & 358                      & 852 & 938                      &  986                      & 1046 & 1097                       & 1152                      \\ \hline
+ 83                      & 147                      &  184 & 253 & 301                      & 359                      & 851 & 939                      &  985                      & 1047 & 1096                       & 1153                      \\ \hline
+ 82                      & 148                      &  183 & 254 & 300                      & 360                      & 850 & 940                      &  984                      & 1048 & 1095                       & 1154                      \\ \hline
+ 81                      & 149                      &  182 & 255 & 299                      & 361                      & 849 & 941                      &  983                      & 1049 & 1094                       & 1155                      \\ \hline
+ 80                      & 150                      &  181 & 256 & 298                      & 362                      & 848 & 942                      &  982                      & 1050 & 1093                       & 1156                      \\ \hline
+ 79                      & 151                      &  180 & 257 & 297                      & 363                      & 847 & 943                      &  981                      & 1051 & 1092                       & 1157                      \\ \hline
+ 78                      & 152                      &  179 & 258 & 296                      & 364                      & 846 & 944                      &  980                      & 1052 & 1091                       & 1158                      \\ \hline
+ 77                      & 153                      &  178 & 259 & 295                      & 365                      & 845 & 945                      &  979                      & 1053 & 1090                       & 1159                      \\ \hline
+ 76                      & 154                      &  177 & 260 & 294                      & 366                      & 844 & 946                      &  978                      & 1054 & 1089                       & 1160                      \\ \hline
+ 75                      & 155                      &  176 & 261 & 293                      & 367                      &     & 947                      &  977                      & 1055 & 1088                       & 1161                      \\ \hline
+ 74                      & 156                      &  175 & 262 & 292                      & 368                      &     & 948                      &  976                      & 1056 & 1087                       & 1162                      \\ \hline
+ 73                      & 157                      &  174 & 263 & 291                      & 369                      &     & 949                      &  975                      & 1057 & 1086                       & 1163                      \\ \hline
+ 72                      & 158                      &  173 & 264 & 290                      & 370                      &     & 950                      &  974                      & 1058 & 1085                       & 1164                      \\ \hline
+                         & 159                      &  172 & 265 & 289                      & 371                      &     & 951                      &  973                      & 1059 & 1084                       & 1165                      \\ \hline
+                         & 160                      &      & 266 & 288                      & 372                      &     & 952                      &  972                      & 1060 & 1083                       & 1166                      \\ \hline
+                         & 161                      &      & 267 & 287                      & 373                      &     & 953                      &  971                      & 1061 & 1082                       & 1167                      \\ \hline
+                         & 162                      &      & 268 & 286                      & 374                      &     & 954                      &  970                      & 1062 & 1081                       & 1168                      \\ \hline
+                         & 163                      &      & 269 & 285                      & 375                      &     & 955                      &  969                      & 1063 & 1080                       & 1169                      \\ \hline
+                         & 164                      &      & 270 & 284                      & 376                      &     & 956                      &  968                      & 1064 & 1079                       &                           \\ \hline
+                         & 165                      &      & 271 & 283                      & 377                      &     & 957                      &  967                      & 1065 & 1078                       &                           \\ \hline
+                         & 166                      &      & 272 & 282                      &                          &     & 958                      &  966                      & 1066 & 1077                       &                           \\ \hline
+                         & 167                      &      & 273 & 281                      &                          &     & 959                      &  965                      & 1067 & 1076                       &                           \\ \hline
+                         & 168                      &      &     & 280                      &                          &     & 960                      &                           &      & 1075                       &                           \\ \hline
+                         & 169                      &      &     & 279                      &                          &     & 961                      &                           &      & 1074                       &                           \\ \hline
+                         & 170                      &      &     & 278                      &                          &     & 962                      &                           &      & 1073                       &                           \\ \hline
+                         & 171                      &      &     & 277                      &                          &     & 963                      &                           &      & 1072                       &                           \\ \hline
+						 &                          &      &     & 276                      &                          &     & 964                      &                           &      & 1071                       &                           \\ \hline
+						 &                          &      &     & 275                      &                          &     &                          &                           &      & 1070                       &                           \\ \hline
+            			 &                          &      &     & 274                      &                          &     &                          &                           &      & 1069                       &                           \\ \hline
+						 &                          &      &     &                          &                          &     &                          &                           &      & 1068                       &                           \\ \hline
+ 
+            
 
 
 
-\end{tabluar}
+\end{tabular}%
+}
+\end{center}
+\captionsetup{singlelinecheck = false, justification=raggedright}                           
+\caption[Amino acids used to analyse and manipulate the outer pore of CFTR] {\textbf{Amino acids used to analyse and manipulate the outer pore of CFTR}}{All listed amino acids were included in the unbiased extraction of PCA components. The cells highlighted in yellow denote the amino acids which were used as collective variables to study the free energy landscape of PCA motions 1 and 2}
+
 \end{table}
 By selecting this subset, we applied  Principal Component Analysis to the combined, aligned timeseries data from the alpha carbons of the amino acids in table \ref{pca_aas}. This allowed our analysis to focus on the slow, large motions which would most likely dilate the channel. The first 9 Principal Components were inspected visually. By the 4th vector, the motions were comparatively small and hence our analysis focussed on the first two motions. Motions 1 and 2 produced large movments in TM1 and TM6 which was where we expected the extracellular mouth to dilate. Hence, we chose to accelerate these first two motions.
 
