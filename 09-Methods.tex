@@ -571,7 +571,7 @@ By convention, we estimate the error in the PMF by splitting up the statistics c
 	\label{METAD_demonstration}
 \end{figure}
 
-Developed in the lab of Michele Parrinello \cite{laio2002}, metadynamics has proven to be a popular method in many applications of computational science, not just in molecular dynamics simulations of biomolecular systems \cite{cheng2017, giberti2015, bussi2020a}. A pedagogical review of the method and its variants written by Pratyush Tiwary can be found in \cite{bussi2020} or by Bussi in \cite{bussi2015}. The method relies on a time dependent form of $U_{bias}$ given by 
+Developed in the lab of Michele Parrinello \cite{laio2002}, metadynamics has proven to be a popular method in many applications of computational science, not just in molecular dynamics simulations of biomolecular systems \cite{cheng2017, giberti2015, bussi2020a}. A pedagogical review of the method and its variants written by Pratyush Tiwary can be found in \cite{bussi2020} or by Giovanni Bussi in \cite{bussi2015}. The method relies on a time dependent form of $U_{bias}$ given by 
 
 \begin{equation}
 	U_{bias} (\xi,t) = \sum\limits_{\substack{t' = \tau_D, 2 \tau_D,... \\ t' < t}}  B \ \exp\bigg( - \frac{(\xi(t) - \xi(t') )^2}{2\sigma^2 }\bigg)
