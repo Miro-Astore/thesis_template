@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="331.93231mm"
-   height="536.38531mm"
-   viewBox="0 0 331.93231 536.38531"
+   width="331.93228mm"
+   height="534.65802mm"
+   viewBox="0 0 331.93228 534.65802"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -522,13 +522,13 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="719.2906"
-     inkscape:cy="654.42044"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="882.76864"
+     inkscape:cy="1357.0482"
      inkscape:document-units="mm"
-     inkscape:current-layer="g3886-1-7"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1376"
@@ -555,7 +555,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-183.05948,70.442146)">
+     transform="translate(-183.05948,72.948229)">
     <image
        y="-97.388062"
        x="195.60344"
@@ -567,7 +567,7 @@
        clip-path="url(#clipPath12907)" />
     <g
        id="g4236"
-       transform="translate(302.70947)">
+       transform="translate(302.70947,-4.2333335)">
       <path
          inkscape:connector-curvature="0"
          id="path895"
@@ -954,7 +954,7 @@
        id="path3661"
        inkscape:connector-curvature="0" />
     <g
-       transform="matrix(0.3531412,0,0,-0.3531412,293.0403,465.07961)"
+       transform="matrix(0.3531412,0,0,-0.3531412,293.0403,460.84625)"
        id="g3886-1-7">
       <text
          id="text3890-7-7"
@@ -971,11 +971,11 @@
        inkscape:connector-curvature="0"
        id="path4014-2"
        style="fill:#ffffff;fill-opacity:0.8;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.46512315;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.8"
-       d="M 356.86479,304.8265 H 477.2609 c 0.99225,0 1.48838,-0.49613 1.48838,-1.48838 v -25.59958 c 0,-0.99226 -0.49613,-1.48839 -1.48838,-1.48839 H 356.86479 c -0.99229,0 -1.48842,0.49613 -1.48842,1.48839 v 25.59958 c 0,0.99225 0.49613,1.48838 1.48842,1.48838 z"
+       d="M 356.86479,300.59314 H 477.2609 c 0.99225,0 1.48838,-0.49613 1.48838,-1.48838 v -25.59958 c 0,-0.99226 -0.49613,-1.48839 -1.48838,-1.48839 H 356.86479 c -0.99229,0 -1.48842,0.49613 -1.48842,1.48839 v 25.59958 c 0,0.99225 0.49613,1.48838 1.48842,1.48838 z"
        sodipodi:nodetypes="sssssssss" />
     <g
        id="g4642"
-       transform="matrix(0.3531412,0,0,-0.3531412,34.870605,411.79133)">
+       transform="matrix(0.3531412,0,0,-0.3531412,34.870605,407.55797)">
       <text
          transform="scale(1,-1)"
          y="-351.88226"
@@ -1225,13 +1225,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="220.87399"
-       y="139.54967"
+       x="202.88257"
+       y="143.78294"
        id="text13894-1"><tspan
          sodipodi:role="line"
          id="tspan13892-5"
-         x="220.87399"
-         y="139.54967"
+         x="202.88257"
+         y="143.78294"
          style="stroke-width:0.26458332">Cl<tspan
    style="font-size:6.87916613px;baseline-shift:super;stroke-width:0.26458332"
    id="tspan13896-9">-</tspan></tspan></text>
@@ -1252,23 +1252,46 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.151618px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30379045"
        x="184.24765"
-       y="253.05261"
+       y="248.81934"
        id="text21143-4"><tspan
          sodipodi:role="line"
          id="tspan21141-6"
          x="184.24765"
-         y="253.05261"
+         y="248.81934"
          style="stroke-width:0.30379045">B)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.151618px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30379045"
        x="185.34534"
-       y="-52.03788"
+       y="-63.727715"
        id="text21143-4-8"><tspan
          sodipodi:role="line"
          id="tspan21141-6-6"
          x="185.34534"
-         y="-52.03788"
+         y="-63.727715"
          style="stroke-width:0.30379045">A)</tspan></text>
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000005;stroke-width:1.48944759;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:2.97889505, 2.97889505;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1411"
+       cx="484.25162"
+       cy="80.612946"
+       r="9.7931204" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000005;stroke-width:1.48944759;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:2.97889505, 2.97889505;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1411-3"
+       cx="227.57562"
+       cy="134.86801"
+       r="9.7931204" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="300.04257"
+       y="-63.591465"
+       id="text21379"><tspan
+         sodipodi:role="line"
+         id="tspan21377"
+         x="300.04257"
+         y="-63.591465"
+         style="stroke-width:0.26458332">Dilated R334W-CFTR</tspan></text>
   </g>
 </svg>

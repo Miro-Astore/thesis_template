@@ -494,9 +494,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="415.76263"
-     inkscape:cy="1700.1312"
+     inkscape:zoom="2.8"
+     inkscape:cx="710.99076"
+     inkscape:cy="1258.2363"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -517,7 +517,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1017,7 +1017,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path1207-7-8-7"
-       d="M 23.164398,352.10888 -7.3677121,328.12305"
+       d="M 22.786422,368.36186 -7.7456883,344.37603"
        style="fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-3-6-3)"
        sodipodi:nodetypes="cc" />
     <path
@@ -1067,18 +1067,18 @@
        id="rect8654-7-3-8"
        width="28.131872"
        height="11.528275"
-       x="11.125618"
-       y="346.18927" />
+       x="10.747642"
+       y="362.44226" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="11.192421"
-       y="355.80588"
+       x="10.814445"
+       y="372.05887"
        id="text8634-8-6-8"><tspan
          sodipodi:role="line"
          id="tspan8632-9-1-4"
-         x="11.192421"
-         y="355.80588"
+         x="10.814445"
+         y="372.05887"
          style="stroke-width:0.26458332">R117</tspan></text>
     <rect
        style="opacity:1;fill:#bef1ca;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.16500001;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1630,39 +1630,39 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="67.507721"
-       y="-98.476746"
+       x="68.466911"
+       y="-98.871483"
        id="text13894-2"><tspan
          sodipodi:role="line"
          id="tspan13892-1"
-         x="67.507721"
-         y="-98.476746"
+         x="68.466911"
+         y="-98.871483"
          style="stroke-width:0.26458332">Cl<tspan
    style="font-size:6.87916613px;baseline-shift:super;stroke-width:0.26458332"
    id="tspan13896-0">-</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-190.64388"
-       y="-48.359829"
+       x="-207.72838"
+       y="-46.469948"
        id="text13894-5-5"><tspan
          sodipodi:role="line"
          id="tspan13892-6-1"
-         x="-190.64388"
-         y="-48.359829"
+         x="-207.72838"
+         y="-46.469948"
          style="stroke-width:0.26458332">Cl<tspan
    style="font-size:6.87916613px;baseline-shift:super;stroke-width:0.26458332"
    id="tspan13896-1-1">-</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-225.45837"
-       y="278.9245"
+       x="-236.47293"
+       y="263.61185"
        id="text13894-0"><tspan
          sodipodi:role="line"
          id="tspan13892-8"
-         x="-225.45837"
-         y="278.9245"
+         x="-236.47293"
+         y="263.61185"
          style="stroke-width:0.26458332">HCO<tspan
    style="font-size:6.87916613px;baseline-shift:sub;stroke-width:0.26458332"
    id="tspan19111-5">3</tspan><tspan
@@ -1711,7 +1711,7 @@
          id="tspan21377"
          x="-161.5528"
          y="-266.45804"
-         style="stroke-width:0.26458332">Cryo-EM Collapsed Structure (6MSM)</tspan></text>
+         style="stroke-width:0.26458332">Cryo-EM-Collapsed Structure (6MSM)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1723,5 +1723,39 @@
          x="-125.35862"
          y="55.635201"
          style="stroke-width:0.26458332">Dilated Open Structure</tspan></text>
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000005;stroke-width:1.48944759;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:2.97889502, 2.97889502;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1411"
+       cx="-182.50487"
+       cy="-52.507652"
+       r="9.7931194" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000005;stroke-width:1.48944759;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:2.97889505, 2.97889505;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1411-3"
+       cx="75.002296"
+       cy="-102.83224"
+       r="9.7931204" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.48899996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.978, 1.489;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 40.464712,217.28161 c -2.321124,-1.47737 -12.066897,-2.14562 -12.496826,7.1343 -0.390589,8.43077 9.118679,8.40997 9.118679,8.40997 0,0 -2.732546,5.27242 -1.535536,7.27604 1.107699,1.85413 2.281333,3.14142 4.134115,3.66165 1.852782,0.52023 3.720289,-1.05626 5.929497,-1.06307 1.401204,-0.004 4.872391,-0.1325 6.756332,-1.84264 1.883941,-1.71014 3.044738,-5.46497 3.023806,-7.53589 -0.02093,-2.07092 -1.545363,-3.14593 -1.606391,-4.08686 -0.06103,-0.94093 -0.273091,-0.14907 0.307102,-1.22843 0.580193,-1.07936 3.359358,-2.4838 4.110487,-4.48847 0.751129,-2.00467 0.913227,-4.62131 -0.165365,-6.75632 -1.078592,-2.13501 -3.64906,-4.09463 -6.000379,-4.65384 -2.351319,-0.55921 -5.261155,0.37723 -6.779948,1.32292 -1.518793,0.94569 -1.440528,2.42684 -2.315104,3.04744 -0.874576,0.6206 -1.955048,1.13763 -2.480469,0.8032 z"
+       id="path1428"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sscsssssssssssss" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.48899996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.97800003, 1.48900002;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -189.76661,251.71023 c -2.32112,-1.47737 -12.0669,-2.14562 -12.49683,7.1343 -0.39058,8.43077 8.48391,9.44564 8.48391,9.44564 0,0 3.78216,0.9627 4.97917,2.96632 0.47355,2.9504 9.49772,3.73405 14.01913,0.0572 2.99238,-2.43342 0.29243,-8.18218 0.63246,-9.04118 1.13758,-2.87388 1.35426,-2.4672 1.02036,-4.77307 -0.42914,-2.96357 -3.30725,-2.86008 -3.84398,-4.10055 -1.7334,-4.00617 -5.65702,-7.90882 -12.79422,-1.68868 z"
+       id="path1428-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccssssc" />
+    <path
+       style="fill:none;stroke:#ff00ff;stroke-width:1.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2.53, 1.26499999999999990;stroke-dashoffset:0"
+       d="m -43.965712,263.67817 1.889881,-9.59114"
+       id="path2375"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff00ff;stroke-width:1.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2.53, 1.26499999999999990;stroke-dashoffset:0"
+       d="m -31.445251,260.93786 1.559153,-6.5201"
+       id="path2377"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
