@@ -35,7 +35,7 @@ The cahnnel exhibits a slectivity filter which must be both narrow enough to par
 	\caption[Principal Component Analysis Unbiased MD Simulations Reveals Large Motions in CFTR Transmembrane Helices] {\textbf{Principal Component Analysis Unbiased MD Simulations Reveals Large Motions in CFTR Transmembrane Helices}}{A) Visualisation of the results of principal component analysis of 4 independent simulations comprising 8.2 $\mu s$ of sampling from unbiased molecular dynamics simulations. Motions along the first two principal component vectors were found to capture 38\% of the variation in the simulation and were used in further analysis. B) Visualisation of the first principal component vector. Note the motion in TM1, 6 and 8 C) Visualisation of the second principal component vector. Note the motion in TM1 and 6 but in different directions to PC1. D) Visualiastion of the Dilated Open state which we will analyse in detail in subsequent sections. This was obtained by the linear combination of PC 1 and 2.} 
 \end{figure}
 
-The first two principal components were chosen for further analysis as these two together represented 38\% of the kinetic variance in the data.
+The first two principal components were chosen for further analysis as these two together represented 38\% of the kinetic variance in the unbiased data.
 
 \subsection{Using OPES-Metadynamics we can find a stable configuration With an Open Pore}
 We used the principal components discussed in the previous section were used as collective variables to study the motion of the transmembrane helices. By employing multiple walker OPES metadynamics we constructed the free energy surface in figure \ref{summary_FES}.
@@ -49,14 +49,50 @@ We used the principal components discussed in the previous section were used as 
 	\caption[Free Energy Calculations Discover a Dilated, Conformation of CFTR.] {\textbf{Free Energy Calculations Discover a Dilated, Conformation of CFTR.}}{A) B) C) D)}
 \end{figure}
 
-\subsection{Proving the discovered conformation is capable of ion conduction with umbrella sampling}
-
-
 \subsection{This open conformation gives rise to a novel salt bridge}
+In order to look for molecular interactions which might stabilise this open conformation, we inspected the interactions between pairs of positive and negative amino acids. It was found that a link between R334 and  E1126 could form in this new open state but not in the cryo-EM structure (Figure \ref{salt_bridge_fig}). This was possible due to the motions of TM6 and TM1, allowing E1126 on ECL5 to come closer to TM6. We expect this new salt bridge to be an important determining factor in stabilising the conducting conformation of CFTR.  
+
 \label{salt_bridge}
+
+\begin{figure}
+	\label{salt_bridge_fig}
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/opening/salt_bridge_E1126_R334_figure.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[The Dilated Conformation of CFTR Gives Rise to the R334-E1126 Salt Bridge] {\textbf{The Dilated Conformation of CFTR Gives Rise to the R334-E1126 Salt Bridge}}{A) B) }
+\end{figure}
+
+\subsection{Proving the discovered conformation is capable of ion conduction with umbrella sampling}
+In order to test the motion of the dilated structure to the passage of anions we employed umbrella sampling. After steering the channel into the opene state and then allowing it to equilibrate in that state for 80ns it was simulated for up to 500ns. This allowed us to test .
+
+The free energy landscape of ions through the selectivity filter in the cryo-EM structure is not amenable to the movement of ions. We obtained a sizeable barrier of 9.7kcal/mol to the passage of ions, demonstrating that without dilation this structure will not allow ions to pass. By contrast, the dilated conformation which we discovered through metadynamics shows only a small free energy barrier of only 2.5 kcal/mol for both chloride and the larger bicarbonate. 
+
+This small barrier roughly corresponds to what we would expect to be overcome by the natural 100mV polarisation of epithelial cells. Furhtermore, the remarkably similar profiles for both bicarbonate and chloride are in agreement with the energy landscape we would expect from a weakly selective channel like CFTR.
+
+\begin{figure}
+	\label{US_anions}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{figures/opening/pmf_fig_1_combined.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[The Dilated Conformation of CFTR is Capable of Conducting Anions] {\textbf{The Dilated Conformation of CFTR is Capable of Conducting Anions}}{A) B) C) D)}
+\end{figure}
+
+
 
 \subsection{This open state can be used to study disease causing mutations in the outer pore such as R334W}
 Mutagenesis studies of the R334 amino acid noticed that many different mutations appear to result in ephys readings which would indicate a loss of function, including mutation to lysine (K) which seems surprising \cite{ge2004, gong2004, linsdell2021}. One of the more common disease causing missense mutations is R334W. This motivated the use of umbrella sampling to test the energy landscape of the chloride permeation pathway in the presence of this mutation. 
+
+
+\begin{figure}
+	\label{R334_pmf}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{figures/opening/R334W_pmf_combined.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[R334W Inhibits the Conduction of Anions] {\textbf{R334W inhibits the Conduction of Anions}}{A) B) C) D)}
+\end{figure}
 
 The energy landscape shows a clear barrier to chloride conductnace, even in the open structure, .
 
@@ -76,7 +112,7 @@ The conformational changes investigated in this study occur within the lipid bil
 
 Understanding the open structure of CFTR has important implications for the drug discovery efforts to treat Cystic Fibrosis and sheds light on other important clinical questions. Specificlaly, selectivity of bicarbonate has been found to play an important role in pancreatic sufficiency of patients. The elucidation of basic CFTR function using simulations heralds an exciting new era of Cystic Fibrosis research. We are performing molecular medicine with atomic precision. 
 
-The predictions of a stable salt bridge in section \ref{salt_bridge} fill a recent gap in the literature. The elegant study on the R117H mutation from Simon and Csnady's group \cite{simon2021}  discovered that a long standing conclusion that R117 made a connection with E1126 was incorrect and in fact R117 makes a stable hydrogen bond with E1124. This study did not closely investigate the role of E1126, observing that the E1126P mutant had slower closing kinetics but was unable to definitely explain why, suggesting that ECL4 might move slower in this mutation. This leaves the partner of E1126 unknown. One study investigating the blockage of CFTR by zinc postulated at an interaction between R334 and E1126 \cite{wang2016}. Here, the researchers tested the inhibition of chloride conduction in the presence of zinc in R334C-CFTR. They found strong evidence that R334C-CFTR was blocked by Zinc ions, as no current was recorded in the presence of zinc. Because zinc has a +2 charge they suspected that a nearby negative amino acid might might play a role in binding the zinc cation. Subsequent experiments They found that the mutant R334C/E1126A-CFTR was no longer inhibited by zinc ions. This is consistent with our findings that R334 and E1126 may indeed form a salt bridge, coming closer together in the conducting conformation compared to how far they are in the cryoEM structure.  
+The predictions of a stable salt bridge in section \ref{salt_bridge} fill a recent gap in the literature. The elegant study on the R117H mutation from Simon and Csnady's group \cite{simon2021}  discovered that a long standing conclusion that R117 made a connection with E1126 was incorrect and in fact R117 makes a stable hydrogen bond with E1124. This study did not closely investigate the role of E1126, observing that the E1126P mutant had slower closing kinetics but was unable to definitely explain why, suggesting that ECL6 might move slower in this mutation. This leaves the partner of E1126 unknown. One study investigating the blockage of CFTR by zinc postulated at an interaction between R334 and E1126 \cite{wang2016}. Here, the researchers tested the inhibition of chloride conduction in the presence of zinc in R334C-CFTR. They found strong evidence that R334C-CFTR was blocked by Zinc ions, as no current was recorded in the presence of zinc. Because zinc has a +2 charge they suspected that a nearby negative amino acid might might play a role in binding the zinc cation. Subsequent experiments They found that the mutant R334C/E1126A-CFTR was no longer inhibited by zinc ions. This is consistent with our findings that R334 and E1126 may indeed form a salt bridge, coming closer together in the conducting conformation compared to how far they are in the cryoEM structure.  
 
 Previously it would have been very difficult to discover this interaction experimentally because R334 has plays such an important role in the conductance and selectivity of the channel. With the use of the atomic resolution offered by MD simulations we have been able to fill this gap in the experimental literature, demonstrating the power of \textit {in silico} methods for studying protein dynamics. We propose that single ion channel patch clamp experiments could demonstrate teh importance of teh E1126-R334 salt bridge to the open state of the channel. 
 
@@ -84,7 +120,9 @@ Similar to how this study was motivated by the lack of a structural picture of C
 
 \textit {in vitro} studies of the state dependent formation of the extracellular helices of the distances between  TM1, TM6, and TM12 indicated that in the closed state these helices are tightly bound together (as can be seen in the 6MSM structure) and in the open state they move apart \cite{negoda2018}. Additionally, similar studies of TM8 demonstrate that Y914 and Y917 are solvent exposed, pore lining helices, position 914 linked to position 102 and 334 when they were each replaced by cysteines. Interestingly, the distance in our proposed open structure is similar to that found in 6MSM, consistent with these experiments \cite{negoda2019}. 
 
-Mutations at R334 also exhibit a gating defect, with infrequent transitions to the fully open state \cite{fuller2005, cui2013a}. It is likely that an invovled path Metadynamics or string method with swarms of trajectories approach might reveal the pathogenic gating defect present in this mutation. Construction of such a protocol could be used to investigate outher outer viestibutle gating class defects such as R117.
+Mutations at R334 also exhibit a gating defect, with infrequent transitions to the fully open state \cite{zhang2005a ,cui2013a, sheppard1993}. However, the specifics of the burst kinetics of this mutation are understudied, likely because of the low counductiviyt of the R334W-CFTR channel which makes electrophysiology experiments difficult. This reveals the niche for simuations, since we have atomic resolution into the dynamics of this channel, we can study the interacitons in the mutant where it might be hard to do experimentally. It is likely that an involved path Metadynamics or string method with swarms of trajectories approach might reveal the pathogenic gating defect present in this mutation. Construction of such a protocol could be used to investigate outher outer viestibutle gating class defects such as R117.
+
+The simulations results we have found here would make us strongly expect a gating phenotype for an E1126 mutant to look like the R334C measuremnts found in \ref{zhang2005a}. This single ion channel study found infrequent transitions to the fully open state with frequent transitions to the transiently open state. This is consistent with the model we have proposed from our study here.
 
 The work in this chapter suggests that computaitonal methods are now sufficiently developed such that creative application of MD simluations and free energy techniques can sehd light on the molecular mechanism of proteins. A limited but powerful example of this would be to further refine the methods applied in this chapter and then apply them to the partially collapsed structure of P-glycoprotein and dilate it in order to resolve the fully outward facing configuration.
 
