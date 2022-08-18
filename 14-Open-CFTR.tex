@@ -105,6 +105,17 @@ The present study diverges in an important way from existing \textit{in silico} 
 
 I predict that as free energy calculations are increasingly used to study protein systems we will see a delineation between \textit{untargetted} and \textit{targetted} MD methods, similar to how we see a delineation between supervised and unsupervised machine learning techniques.
 
+We can regard cryo-EM structures as points in the braoder free energy landscape of protein conformations. What we seek to do is build on these structural snapshots using simulations. Using unbiased MD we can explore a small slice of the local neighbourhood surrounding an experimentally determined atomic structure. Further, with the advent of free eneryg calculations to accelerate the slower degrees of freedom we can explore an even larger neighbourhood, giving a more complete picture of the molecular biophysics. 
+
+\begin{figure}
+	\label{Enhanced_sampling_framework}
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/opening/MD_accessibility.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Enhanced Sampling Allows Access to More Protein States] {\textbf{Enhanced Sampling Allows Access to More Protein States}}{The ``Resolution Revolution" in structural biolgy, fuelled by cryo-EM has lead to an era of strcutural abundance \cite{}. This means we have many structural snapshots of proteins with which to begin our study of their physical mechanisms. With Unbiased MD simulations we can explore a small local neighbourhood surrounding these snapshots, shedding limited light on adjacent physilogically relevant funcational states. With Enhanced Sampling Techniques and Free energy calcuations we can access and study many more functional states. The more advanced these statistical techniques become the more functional states we will be able to access. These states might reveal drug binding pockets or the underlying mechanism behind the protein's function \cite{}.  . }
+\end{figure}
+
 What is perhaps remarkable about this study is just how well the results correspond with \textit{in vitro} biophysical experiments. The movements in TM1 and TM6 which dominate the PCA motions we accelerated are the kind of dilation we expected from biophysical experiments \cite{linsdell2016}. The distances from Y914 to L102 and . Additionally, the similar conductance profiles are the kind we expect from a weakly selective anion channel like CFTR. 
 
 Surprisingly, the R334W mutation was determined not to alter the selectivity of CFTR \cite{sheppard1993}. This is an argument for a wider open pore at the R334 position, consistent with the findings of this study.
