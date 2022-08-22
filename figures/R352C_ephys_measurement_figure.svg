@@ -179,11 +179,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="247.76027"
-     inkscape:cy="380.99746"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="158.61594"
+     inkscape:cy="410.997"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g46"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1376"
@@ -202,7 +202,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -713,7 +713,8 @@
             </g>
           </g>
           <g
-             id="g336">
+             id="g336"
+             transform="matrix(1.2870169,0,0,1.2870169,103.31958,-43.508443)">
             <g
                transform="translate(-343.71412,145.04279)"
                id="g338">
@@ -766,7 +767,7 @@
           <g
              id="g360">
             <g
-               transform="translate(-100.50183,98.142774)"
+               transform="matrix(1.2209226,0,0,1.2209226,-92.907046,98.263292)"
                id="g362">
               <g
                  transform="translate(0.5,0.5)"
@@ -1113,11 +1114,12 @@
                   <text
                      id="text522"
                      style="font-variant:normal;font-weight:normal;font-size:18.66666603px;font-family:Roboto;-inkscape-font-specification:Roboto-Regular;writing-mode:lr-tb;fill:#171717;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                     transform="translate(56.382812,37.5)">
+                     x="56.596798"
+                     y="37.317707">
                     <tspan
                        id="tspan520"
-                       y="0"
-                       x="0">e</tspan>
+                       y="37.317707"
+                       x="56.596798">e</tspan>
                   </text>
                   <text
                      id="text526"
@@ -1128,6 +1130,17 @@
                        y="0"
                        x="0">r</tspan>
                   </text>
+                  <text
+                     y="37.5"
+                     x="52.873138"
+                     id="text514-3"
+                     style="font-variant:normal;font-weight:normal;font-size:18.66666603px;font-family:Roboto;-inkscape-font-specification:Roboto-Regular;writing-mode:lr-tb;fill:#171717;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1">
+                    <tspan
+                       style="stroke-width:1"
+                       id="tspan512-6"
+                       y="37.5"
+                       x="52.873138">i</tspan>
+                  </text>
                 </g>
               </g>
             </g>
@@ -1135,7 +1148,7 @@
           <g
              id="g528">
             <g
-               transform="translate(343.56659,-141.5701)"
+               transform="matrix(1.6559969,0,0,1.6559969,365.74151,-142.42899)"
                id="g530">
               <g
                  transform="translate(0.5,0.5)"
