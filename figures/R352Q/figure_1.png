@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+
+
+
+
+<html lang="en" >
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile properties -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/pmc/static/CACHE/css/output.fd58ea5df9e9.css" type="text/css">
+  
+  <link rel="stylesheet" href="/pmc/static/CACHE/css/output.5d5264180f2d.css" type="text/css"><link rel="stylesheet" href="/pmc/static/CACHE/css/output.0d368674b6c6.css" type="text/css"><link rel="stylesheet" href="/pmc/static/CACHE/css/output.3766d7ad0d2d.css" type="text/css"><link rel="stylesheet" href="/pmc/static/CACHE/css/output.e3c3c2c84eb3.css" type="text/css">
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  
+<link type="text/css" href="/pmc/static/bundles/base/base.6539a0a78536cfdc1fa6.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="/corehtml/pmc/css/fonts/stix/stixfonts.css" type="text/css" /><link rel="stylesheet" href="/corehtml/pmc/css/3.18/pmcrefs1.min.css" type="text/css" /><link rel="stylesheet" href="/corehtml/pmc/css/pmc2020_1.1/ncbi_web.min.css?_=a" type="text/css" /><style type="text/css">.pmc-wm {background:transparent repeat-y top left;background-image:url(/corehtml/pmc/pmcgifs/wm-ajrcmb.gif);background-size: auto, contain}</style><style type="text/css">.print-view{display:block}</style>
+    <link type="text/css" href="/pmc/static/bundles/journals/journals.29db164c8a3db629e130.css" rel="stylesheet" />
+
+
+    <title>Figure - PMC</title>
+
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" type="image/ico" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.png" />
+
+  <!-- 192x192, as recommended for Android
+  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+  -->
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-192.png" />
+
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-144.png">
+
+
+
+    
+        <!-- Logging params: Pinger defaults -->
+
+<meta name="ncbi_app" content="pmc-frontend" />
+
+<meta name="ncbi_db" content="pmc" />
+
+<meta name="ncbi_phid" content="322C44621D9F09B500005C9C008DAF8D.1.m_2" />
+
+
+        <!-- Logging params: Pinger custom -->
+
+<meta name="ncbi_pdid" content="art-figures" />
+
+<meta name="ncbi_op" content="retrieved" />
+
+<meta name="ncbi_app_version" content="1.0.0.post1+5886d65" />
+
+<meta name="ncbi_domain" content="ajrcmb" />
+
+<meta name="ncbi_type" content="figure" />
+
+<meta name="ncbi_pcid" content="/articles/PMC9273222/figure/fig1/" />
+
+
+    
+
+    
+
+    <meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE" /><link rel="canonical" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9273222/" /><link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" /><meta name="citation_journal_title" content="American Journal of Respiratory Cell and Molecular Biology" /><meta name="citation_title" content="Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect" /><meta name="citation_author" content="Sharon L. Wong" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author" content="Nikhil T. Awatade" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author" content="Miro A. Astore" /><meta name="citation_author_institution" content="School of Physics, University of Sydney, Sydney, Australia; and" /><meta name="citation_author" content="Katelin M. Allan" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author" content="Michael J. Carnell" /><meta name="citation_author_institution" content="Katharina Gaus Light Microscopy Facility, Mark Wainwright Analytical Centre," /><meta name="citation_author" content="Iveta Slapetova" /><meta name="citation_author_institution" content="Katharina Gaus Light Microscopy Facility, Mark Wainwright Analytical Centre," /><meta name="citation_author" content="Po-chia Chen" /><meta name="citation_author_institution" content="School of Physics, University of Sydney, Sydney, Australia; and" /><meta name="citation_author" content="Jeffry Setiadi" /><meta name="citation_author_institution" content="School of Physics, University of Sydney, Sydney, Australia; and" /><meta name="citation_author" content="Elvis Pandzic" /><meta name="citation_author_institution" content="Katharina Gaus Light Microscopy Facility, Mark Wainwright Analytical Centre," /><meta name="citation_author" content="Laura K. Fawcett" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author_institution" content="Department of Respiratory Medicine and" /><meta name="citation_author" content="John R. Widger" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author_institution" content="Department of Respiratory Medicine and" /><meta name="citation_author" content="Renee M. Whan" /><meta name="citation_author_institution" content="Katharina Gaus Light Microscopy Facility, Mark Wainwright Analytical Centre," /><meta name="citation_author" content="Renate Griffith" /><meta name="citation_author_institution" content="School of Chemistry, and" /><meta name="citation_author" content="Chee Y. Ooi" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author_institution" content="Department of Gastroenterology, Sydney Children&#x02019;s Hospital, Randwick, Australia" /><meta name="citation_author" content="Serdar Kuyucak" /><meta name="citation_author_institution" content="School of Physics, University of Sydney, Sydney, Australia; and" /><meta name="citation_author" content="Adam Jaffe" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author_institution" content="Department of Respiratory Medicine and" /><meta name="citation_author" content="Shafagh A. Waters" /><meta name="citation_author_institution" content="School of Women&#x02019;s and Children&#x02019;s Health, Faculty of Medicine and Health," /><meta name="citation_author_institution" content="Molecular and Integrative Cystic Fibrosis Research Centre," /><meta name="citation_author_institution" content="School of Medical Sciences, Faculty of Medicine and Health, University of New South Wales Sydney, Sydney, Australia;" /><meta name="citation_author_institution" content="Department of Respiratory Medicine and" /><meta name="citation_publication_date" content="2022/06" /><meta name="citation_issue" content="1" /><meta name="citation_volume" content="67" /><meta name="citation_firstpage" content="99" /><meta name="citation_doi" content="10.1165/rcmb.2021-0337OC" /><meta name="citation_abstract_html_url" content="/pmc/articles/PMC9273222/?report=abstract" /><meta name="citation_fulltext_html_url" content="/pmc/articles/PMC9273222/" /><meta name="citation_pmid" content="35471184" /><meta name="DC.Title" content="Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect" /><meta name="DC.Type" content="Text" /><meta name="DC.Publisher" content="American Thoracic Society" /><meta name="DC.Contributor" content="Sharon L. Wong" /><meta name="DC.Contributor" content="Nikhil T. Awatade" /><meta name="DC.Contributor" content="Miro A. Astore" /><meta name="DC.Contributor" content="Katelin M. Allan" /><meta name="DC.Contributor" content="Michael J. Carnell" /><meta name="DC.Contributor" content="Iveta Slapetova" /><meta name="DC.Contributor" content="Po-chia Chen" /><meta name="DC.Contributor" content="Jeffry Setiadi" /><meta name="DC.Contributor" content="Elvis Pandzic" /><meta name="DC.Contributor" content="Laura K. Fawcett" /><meta name="DC.Contributor" content="John R. Widger" /><meta name="DC.Contributor" content="Renee M. Whan" /><meta name="DC.Contributor" content="Renate Griffith" /><meta name="DC.Contributor" content="Chee Y. Ooi" /><meta name="DC.Contributor" content="Serdar Kuyucak" /><meta name="DC.Contributor" content="Adam Jaffe" /><meta name="DC.Contributor" content="Shafagh A. Waters" /><meta name="DC.Date" content="2022 Jun" /><meta name="DC.Identifier" content="10.1165/rcmb.2021-0337OC" /><meta name="DC.Language" content="en" /><meta property="og:title" content="Molecular Dynamics and Theratyping in Airway and Gut Organoids Reveal R352Q-CFTR Conductance Defect" /><meta property="og:type" content="article" /><meta property="og:description" content="A significant challenge to making targeted cystic fibrosis transmembrane conductance regulator (CFTR) modulator therapies accessible to all individuals with cystic fibrosis (CF) are many mutations in the CFTR gene that can cause CF, most of which remain ..." /><meta property="og:url" content="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9273222/" /><meta property="og:site_name" content="PubMed Central (PMC)" /><meta property="og:image" content="https://www.ncbi.nlm.nih.gov/corehtml/pmc/pmcgifs/pmc-logo-share.png?_=0" /><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@ncbi" />
+
+
+</head>
+<body >
+
+  
+    
+     
+        
+        <section class="pmc-alerts">
+    
+    
+</section>
+    
+     
+
+    
+    
+        
+        <button
+          class="back-to-top back-to-top--base"
+          data-ga-category="pagination"
+          data-ga-action="back_to_top">
+          Back to Top
+        </button>
+    
+    
+
+
+   <main id="main-content" class="usa-grid-full pmc-full">
+        <div class="usa-width-one-whole pmc-page-banner">
+            
+ 
+    
+                
+                    <div><img src="/corehtml/pmc/pmcgifs/logo-ajrcmb.gif" alt="Logo of ajrcmb" usemap="#logo-imagemap" /><map id="logo-imagemap" name="logo-imagemap"><area target="pmc_ext" rel="noopener noreferrer" shape="rect" coords="339,21,465,35" alt="Issue Featuring Article" title="Issue Featuring Article" href="https://www.atsjournals.org/toc/ajrcmb67/1" ref="reftype=publisher&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CBanner&amp;TO=Publisher%7COther%7CN/A" /><area target="pmc_ext" rel="noopener noreferrer" shape="rect" coords="339,4,493,18" alt="Publisher's Version of Article" title="Publisher's Version of Article" href="//doi.org/10.1165/rcmb.2021-0337OC" ref="reftype=publisher&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CBanner&amp;TO=Content%20Provider%7CArticle%7CFullText" /><area target="pmc_ext" rel="noopener noreferrer" shape="rect" coords="339,37,410,51" alt="Submissions" title="Submissions" href="http://mc.manuscriptcentral.com/atsjournals" ref="reftype=publisher&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CBanner&amp;TO=Publisher%7COther%7CN/A" /><area target="pmc_ext" rel="noopener noreferrer" shape="rect" coords="53,3,314,29" alt="American Thoracic Society" title="American Thoracic Society" href="http://www.thoracic.org/" ref="reftype=publisher&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CBanner&amp;TO=Publisher%7COther%7CN/A" /><area target="pmc_ext" rel="noopener noreferrer" shape="rect" coords="0,0,52,56" alt="American Thoracic Society" title="American Thoracic Society" href="http://www.thoracic.org/" ref="reftype=publisher&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CBanner&amp;TO=Publisher%7COther%7CN/A" /><area target="pmc_ext" rel="noopener noreferrer" shape="rect" coords="0,56,500,75" alt="American Journal of Respiratory Cell and Molecular Biology" title="American Journal of Respiratory Cell and Molecular Biology" href="https://www.atsjournals.org/journal/ajrcmb" ref="reftype=publisher&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CBanner&amp;TO=Publisher%7COther%7CN/A" /></map></div> 
+                
+            
+ 
+
+        </div>
+        <div class="usa-width-one-whole">
+            
+                <div id="mc" class=" article lit-style content pmc-wm slang-all page-box"><!--pre-content--><!--main-content--><div class="fm-sec half_rhythm no_top_margin"><div class="article-citation"><strong>PMC full text:</strong><div class="fm-flexbox"><div class="fm-citation"><div><a class="int-reflink" href="/pmc/articles/PMC9273222/" target="_blank">Am J Respir Cell Mol Biol. 2022 Jun; 67(1): 99–111. </a></div><div><span class="fm-vol-iss-date">Published online 2022 Apr 26. </span>  <span class="doi"><span>doi: </span><a href="//doi.org/10.1165%2Frcmb.2021-0337OC" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CFront%20Matter&amp;TO=Content%20Provider%7CCrosslink%7CDOI">10.1165/rcmb.2021-0337OC</a></span></div></div></div><div class="half_rhythm permissions"><div class="togglers fm-copyright-license"><a href="#" class="pmctoggle" rid="idm140423399108832_cl">Copyright/License</a><span class="fm-reuse"><a href="/pmc/about/copyright/" target="_blank" rel="noopener noreferrer">Request permission to reuse</a></span><div class="hide" id="idm140423399108832_cl" style="display:none"><div class="fm-copyright half_rhythm"><a href="/pmc/about/copyright/">Copyright</a>  &#x000a9; 2022 by the American Thoracic Society</div><div class="license half_rhythm">This article is open access and distributed under the terms of the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=9273222&amp;issue-id=412223&amp;journal-id=466&amp;FROM=Article%7CFront%20Matter&amp;TO=External%7CLink%7CURI" target="_blank">Creative Commons Attribution Non-Commercial No Derivatives License 4.0</a>. For commercial usage and reprints, please e-mail <a href="mailto:dev@null" data-email="nreG enaiD" class="oemail">nreG enaiD</a>.</div></div></div></div></div></div><div class="fig-pager pagination"><span class="inactive page_link prev">&lt;&lt; Prev</span><span>
+Figure 1.
+</span><a class="active page_link next" href="/pmc/articles/PMC9273222/figure/fig2/">Next &gt;&gt;</a></div><!--fig mode="figure" f7--><div class="whole_rhythm" id="fig1"><h1 class="content-title">
+Figure 1.
+</h1><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div class="figure" data-largeobj="" data-largeobj-link-rid="largeobj_idm140423413180976"><img loading="lazy" class="fig-image" alt="An external file that holds a picture, illustration, etc.&#10;Object name is rcmb.2021-0337OCf1.jpg" title="An external file that holds a picture, illustration, etc.&#10;Object name is rcmb.2021-0337OCf1.jpg" src="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf1.jpg" /></div><div class="largeobj-link align_right" id="largeobj_idm140423413180976"><a target="object" rel="noopener" href="/pmc/articles/PMC9273222/figure/fig1/?report=objectonly">Open in a separate window</a></div><!--caption a7--><div class="caption"><p id="__p10">Functional response of R352Q-CFTR to cystic fibrosis transmembrane conductance regulator (CFTR) modulators in differentiated human nasal epithelial cells (hNECs). (<em>A</em>) Immunofluorescence staining of acetylated tubulin (ciliated cells), MUC5AC (goblet cells), and p63 (basal progenitor cells) in hNECs derived from a R352Q/F508del participant (CF1). E-cadherin (adherens junction) and ZO-1 (tight junction) are localized to the intercellular junctions of epithelial cells. The top panels are top views and the bottom panels are side views showing the pseudostratified epithelium. A 63&#x000d7;/1.4 numerical aperture oil immersion objective was used. Scale bars, 10 &#x003bc;m. (<em>B</em>) Dot plots of mean ciliary beat frequency (CBF) measurements (Hz) of the fully differentiated mature hNECs from participants with cystic fibrosis (CF) and without CF (wild type [WT]). Each participant is coded with a different color. Each dot represents a single field of view of CBF measurement. (<em>C</em>) Representative Ussing chamber recordings of short circuit current (<em>I</em><sub>sc</sub>) in hNECs from participants with CF and WT-CFTR control participants. The protocol used to measure functional CFTR expression in hNECs in 0.01% DMSO vehicle (untreated; top) or pretreated with corrector (3 &#x003bc;M VX-809 for 48 h; bottom) followed by sequential addition of 100 &#x003bc;M apical amiloride (1. Amil), apical addition of either vehicle control 0.01% DMSO (black) or 10 &#x003bc;M VX-770 (red) or 10 &#x003bc;M G1837 (blue) (2. DMSO, VX-770, G1837), 10 &#x003bc;M basal forskolin (3. Fsk), 30 &#x003bc;M apical CFTR inhibitor (4. CFTRinh-172), and 100 &#x003bc;M apical ATP (5. ATP). A basolateral-to-apical chloride gradient was used. (<em>D</em>) Violin plots of total currents stimulated by DMSO or VX-770 or G1837 plus Fsk in hNECs untreated or pretreated with VX-809. Data are from 1 R352Q/F508del participant, 5 F508del/F508del participants, 3 G542X/F508del participants, and 1 G551D/F508del participant with CF and 11 WT-CFTR control participants. n, number of participants. Data are represented as violin plots to show the distribution of data. One-way ANOVA was used to determine statistically significant differences. *<em>P</em>&#x02009;&#x0003c;&#x02009;0.05, **<em>P</em>&#x02009;&#x0003c;&#x02009;0.01, ***<em>P</em>&#x02009;&#x0003c;&#x02009;0.001, and ****<em>P</em>&#x02009;&#x0003c;&#x02009;0.0001. <sup>a</sup><em>P</em> for G1837 only. ^<em>P</em> for G1837 vs VX-770. Where VX-770 and G1837 (overlapping violin plots) both achieved statistical significance, the least significant <em>P</em> value is shown.</p></div></div><!--post-content--><h2 class="head section-title">Images in this article</h2><div class="box"><ul><li class="inline_block ft-thumb-box ft-thumb-current"><a href="/pmc/articles/PMC9273222/figure/fig1/" id="fig1" class="qt_rhythm figpopup"><img loading="lazy" src="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf1.gif" class="small-thumb" alt="&#10;Figure 1.&#10;" title="&#10;Figure 1.&#10;" src-large="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf1.jpg" /></a></li><li class="inline_block ft-thumb-box"><a href="/pmc/articles/PMC9273222/figure/fig2/" id="fig2" class="qt_rhythm figpopup"><img loading="lazy" src="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf2.gif" class="small-thumb" alt="&#10;Figure 2.&#10;" title="&#10;Figure 2.&#10;" src-large="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf2.jpg" /></a></li><li class="inline_block ft-thumb-box"><a href="/pmc/articles/PMC9273222/figure/fig3/" id="fig3" class="qt_rhythm figpopup"><img loading="lazy" src="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf3.gif" class="small-thumb" alt="&#10;Figure 3.&#10;" title="&#10;Figure 3.&#10;" src-large="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf3.jpg" /></a></li><li class="inline_block ft-thumb-box"><a href="/pmc/articles/PMC9273222/figure/fig4/" id="fig4" class="qt_rhythm figpopup"><img loading="lazy" src="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf4.gif" class="small-thumb" alt="&#10;Figure 4.&#10;" title="&#10;Figure 4.&#10;" src-large="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf4.jpg" /></a></li><li class="inline_block ft-thumb-box"><a href="/pmc/articles/PMC9273222/figure/fig5/" id="fig5" class="qt_rhythm figpopup"><img loading="lazy" src="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf5.gif" class="small-thumb" alt="&#10;Figure 5.&#10;" title="&#10;Figure 5.&#10;" src-large="/pmc/articles/PMC9273222/bin/rcmb.2021-0337OCf5.jpg" /></a></li></ul><p class="half_rhythm clearfix">Click on the image to see a larger version.</p></div><div id="body-link-poppers"><span></span></div></div>
+            
+        </div>
+   </main>
+
+
+  
+    <!-- JavaScript -->
+    <script src="/pmc/static/CACHE/js/output.0f72d6a64937.js"></script>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+          integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+          crossorigin="anonymous">
+    </script>
+    <script>
+        var fallbackJquery = "/pmc/static/base/js/jquery-3.5.0.min.js";
+        window.jQuery || document.write("<script src=" + fallbackJquery + ">\x3C/script>")
+    </script>
+  
+
+  <script src="/pmc/static/CACHE/js/output.a212a9fcf845.js"></script>
+<script src="/pmc/static/CACHE/js/output.7999321d1aac.js"></script>
+<script src="/pmc/static/CACHE/js/output.7ca436b2ea51.js"></script>
+<script src="/pmc/static/CACHE/js/output.f8422046fbe0.js"></script>
+<script src="/pmc/static/CACHE/js/output.ff40c7d85ff8.js"></script>
+<script src="/pmc/static/CACHE/js/output.a6a84a0ad361.js"></script>
+
+<script type="text/javascript" src="/pmc/static/bundles/base/base.54110350c77632754ed7.js" ></script>
+
+    <script type="text/javascript">
+        if(typeof jQuery !=='undefined') {
+            jQuery.migrateMute = true;
+        }
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.js"></script>
+    <script type="text/javascript" src="/core/jig/1.15.2/js/jig.nojquery.min.js">//</script><script type="text/javascript" src="/corehtml/pmc/js/common.min.js?_=3.18">//</script><script type="text/javascript" src="/corehtml/pmc/js/NcbiTagServer.min.js?_=3.18">//</script><script type="text/javascript" src="/corehtml/pmc/js/crb.min.js?_=3.18">//</script><script type="text/javascript" src="/corehtml/pmc/js/jactions.min.js?_=3.18">//</script><meta name="citationexporter" content="backend:'https://api.ncbi.nlm.nih.gov/lit/ctxp/v1/pmc/'" /><script type="text/javascript" src="https://www.ncbi.nlm.nih.gov/corehtml/pmc/ctxp/jquery.citationexporter.min.js">//</script><link rel="stylesheet" href="https://www.ncbi.nlm.nih.gov/corehtml/pmc/ctxp/citationexporter.css" type="text/css" />
+
+
+  
+  
+  <script  type="text/javascript" src="https://www.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+  
+ 
+    
+        
+      
+            <a class="custom-feedback-button custom-feedback-button--base"  href="https://support.nlm.nih.gov/support/create-case/?from=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC9273222%2Ffigure%2Ffig1%2F"
+         ref="linksrc=feedback_btn" rel="noopener noreferrer nofollow" target="_blank">Feedback</a>
+      
+  
+ 
+
+
+</body>
+</html>
