@@ -6,7 +6,9 @@
 
 
 \section*{\centering Abstract} 
-The misfunction of the CFTR gene causes Cystic Fibrosis. This protein conducts both chloride and bicarbonate. Understanding how CFTR conducts ions is critical to ongoing drug discovery efforts to treat Cystic Fibrosis. Existing structures of CFTR raise unresolved qustions as to how CFTR conducts ions as they exhibit a constriction smaller than the ions themselves. This indicates that there must be some level of conformational change for ions to pass through this structure. Here we present innovative simulation techniques combining principal component analysis of 8 microseconds of protein simulations and new advances in free energy calculations to resolve the full conduction pathway in human CFTR. We also propose experimental single ion channel electrophysiology techniques to experimetnally test whether this conformation is physiologically important.  
+The misfunction of the CFTR gene causes Cystic Fibrosis. This protein conducts both chloride and bicarbonate. Recent advances have demonstrated the power in potentioating the conductnance of CFTR to releive disaese symptoms. Hence, determining the precise mecahnism behind ion conduction has important implications for ongoing drug discovery efforts. 
+
+Existing atomic structures of CFTR raise unresolved qustions as to how CFTR conducts ions as they exhibit a constriction smaller than the ions themselves. This indicates that there must be some level of conformational change for ions to pass through this structure. Here we present innovative simulation techniques combining principal component analysis of 8 microseconds of unbiased MD simulations and new advances in free energy calculations to resolve the full conduction pathway in human CFTR. We also propose experimental single ion channel electrophysiology techniques to experimetnally test whether this conformation is physiologically important.  
 
 The presented study differs in an important way from existing studies which explore protein conformational landscape. Existing studies have previously investigated the conformational space \textit{between} solved protein conformations. The presented study demonstrates that with careful application of modelling it  is now possible to go \textit{beyond} the conformational neighbourhood of existing protein structures.
 
@@ -15,9 +17,11 @@ The findings of this study demonstrate that computational power and protein forc
 
 \section{Introduction}
 
-Ion channels are critical clinical targets. Their regulation of cellular membrane potential makes them attractive targets for many lcinical therapies. The mechanism and conditions under which they open and close is a closely studied topic due to the ability of small molecule drugs to regulate this transition and the pathology that a misfuncitonal channel can cause, either from mutation or environmental changes. Perhaps the most well-known channelopathie is the misfunction of the anion channel, the Cystic Fibrosis Transmembrane conudtance Regulator (CFTR) which causes Cystic Fibrosis (CF) \cite{riordan1989,gadsby2006}. 
+Ion channels are crucial clinical targets. They are pursued as targets in all sorts of maladies, from pain to cancer \cite{}. The mechanism and conditions under which they open and close is a closely studied topic due to the ability of small molecule drugs to regulate this transition and the pathology that a misfuncitonal channel can cause, either from mutation or environmental changes. One of the most well-known channelopathie is the misfunction of the anion channel, the Cystic Fibrosis Transmembrane conudtance Regulator (CFTR) which causes Cystic Fibrosis (CF) \cite{riordan1989,gadsby2006}. 
 
-Various mutations may cause this ion channel to misfunction but the advent of new modulators heralds a new era in the treatment of this life-limiting disease. Due to the importance of the conductance of this channel in disease pathology, a molecular understanding behind the basis of its conductivity will inform the rational design of novel therapeutics to better patient outcomes. Unfortunately, current protein structures of this protein are insufficiently dilated in order to conducta nions, leaving unresolved questions behind the basis fo its conductivity. 
+Various mutations may cause this ion channel to misfunction but the discovery of new small molecules known as modulators heralds a new era in the treatment of this life-limiting disease. There are two classes of these modulators, correctors which assist the protein to fold into the riht shape, and potentiators which facilitate the proteins transition from the closed to the open, conducting state. 
+
+Due to the importance of the conductance of this channel in disease pathology, a molecular understanding behind the basis of its conductivity will inform the rational design of novel therapeutics to better patient outcomes. Unfortunately, current protein structures of this protein are insufficiently dilated in order to conduct anions. This raises unresolved questions behind the basis for the conduction of anions. 
 
 The cahnnel exhibits a slectivity filter which must be both narrow enough to partially dehydrate chloride and also large enough to allow the passage of large anions such as bicarbonate and glutathione \cite{}. 
 
@@ -27,21 +31,23 @@ The cahnnel exhibits a slectivity filter which must be both narrow enough to par
 
 
 \subsection{Long Simulations Reveal Motions which Dilate the Pore}
-4 simulations were run of WT-CFTR of at least 2 microseconds each, for a total of 8.2 $\mu s$ of sampling. In post processing, the motions of the transmembrane helices were analysed using Principal Component Anlaysis which revelaed large motions in TM1 and TM6 which appeared as though they dilated the pore. 
+4 simulations were run of WT-CFTR of at least 2 microseconds each, for a total of 8.2 $\mu s$ of unbiased MD sampling. In post processing, the motions of the transmembrane helices were analysed using Principal Component Anlaysis. This revelaed large motions in TM1 and TM6 which appeared as though they dilated the pore (Figure \ref{PCA_motions}). 
 
 \begin{figure}
-	\label{PCA_motions}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{figures/opening/pca_motions.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Principal Component Analysis Reveals Large Motions in CFTR Transmembrane Helices] {\textbf{Principal Component Analysis Reveals Large Motions in CFTR Transmembrane Helices}}{A) Visualisation of the results of principal component analysis from 4 independent simulations, comprising 8.2 $\mu s$ of unbiased MD sampling. Motions along the first two principal component vectors were found to capture 38\% of the variation in the simulation and were used in further analysis. B) Visualisation of the first principal component vector (PC1). Note the motion in TMs 1, 6 and 8 C) Visualisation of the second principal component vector (PC2). Note the motions in TMs 1 and 6 but in directions orthogonal to PC1. D) Visualiastion of the Dilated Open state which we will analyse in detail in subsequent sections. This was obtained by the linear combination of PC 1 and 2. } 
+	\label{PCA_motions}
 \end{figure}
 
-The first two principal components were chosen for further analysis as these two together represented 38\% of the kinetic variance in the unbiased data.
+The first two principal components were chosen for further analysis as these two together represented 38\% of the kinetic variance in the unbiased data. Additionally, they produced motions in TM1 and TM6 which is where we expected motions to occur due to the placement of the experimentally determined selectivity filter \cite{linsdell2018}. 
 
 \subsection{Using OPES-Metadynamics we can find a stable configuration With an Open Pore}
-We used the principal components discussed in the previous section were used as collective variables to study the motion of the transmembrane helices. By employing multiple walker OPES metadynamics we constructed the free energy surface in figure \ref{summary_FES}.
+The principal components derived in the previous section were used as collective variables to study the motion of the pore lining transmembrane helices. By employing multiple walker OPES metadynamics we constructed the free energy surface in figure \ref{summary_FES}.
+
+This lead to the discovery of the free energy well at roughly (0.1, 0.23). When this well was investigated by unbiased MD, it was found that the protein remained in an a conformation which dilated the pore to almost 3 $\AA$. This larger opening was in the right place between TM1 and TM6 and of a size which we would expect for anions known to pass through CFTR. 
 
 \begin{figure}
 	\label{summary_FES}
@@ -51,6 +57,7 @@ We used the principal components discussed in the previous section were used as 
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Free Energy Calculations Discover a Dilated, Conformation of CFTR.] {\textbf{Free Energy Calculations Discover a Dilated, Conformation of CFTR.}}{A) B) C) D)}
 \end{figure}
+
 
 \subsection{This open conformation gives rise to a novel salt bridge}
 In order to look for molecular interactions which might stabilise this open conformation, we inspected the interactions between pairs of positive and negative amino acids. It was found that a link between R334 and  E1126 could form in this new open state but not in the cryo-EM structure (Figure \ref{salt_bridge_fig}). This was possible due to the motions of TM6 and TM1, allowing E1126 on ECL5 to come closer to TM6. We expect this new salt bridge to be an important determining factor in stabilising the conducting conformation of CFTR.  
