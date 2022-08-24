@@ -1,3 +1,4 @@
+rm *aux
 rm main.aux
 rm main.bbl
 rm main.blg

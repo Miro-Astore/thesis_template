@@ -1,25 +1,29 @@
-May-Methods Chapter, Submit Submit S945L paper to journal.
+Intro: Edit
+Methods: edit
+	QM-edits
+	OPES-Metad subsection
+CFTR:
+Edit, change TM8 discussion, add https://www.mdpi.com/1422-0067/23/16/9248
+I37R: scroll
+R352Q: Add figs, change refs
+S945L: Get advanced copy. Add text, add figs, change refs
+Opening:
+	Abstract/Intro: 24/08/2022
+	Add figs: 24/08/2022
+		Convergence
+		Red dots for pca analysis
+	Write Fig captions: 25/08/2022
+	Results: 25/08/2022
+	Discussion: 26/08/2022
+	Conclusion: 26/08/2022
+	Method Details: 28/08/2022
+	Editting/submission: 29/08/2022
+    
+Conclusion: Writing, making figs.
+		G551D data.	
+	Submission: 02/09/2022
+Afterword
 
-June-Submit Literature review to Serdar. Submit Introduction to Serdar
-
-June-Format I37R, R352Q and S945L papers for thesis.
-
-July-Write opening study paper, Conclusions.
-
-August-submit thesis for examination.
+Final submission 09/09/2022
 
 
-July 8th- submit introduction to serdar.
-July 15th- submit CFTR literature review to serdar.
-July 22th- submit conclusions to serdar
-
-August, write opening study paper.
-
-September 2nd- submit thesis for examination.
-
-July 15 submit introduction to serdar.
-July 22 Submit literature review to serdar
-July 29 submit S945L chapter to serdar
-August 05 submit conclusion to serdar
-Write opening chapter.
-September 2nd- submit thesis for examination.
