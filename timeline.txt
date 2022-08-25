@@ -8,12 +8,14 @@ I37R: scroll
 R352Q: Add figs, change refs
 S945L: Get advanced copy. Add text, add figs, change refs
 Opening:
-	Abstract/Intro: 24/08/2022
+	Abstract/Intro: 24/08/2022 *
 	Add figs: 24/08/2022
 		Convergence
 		Red dots for pca analysis
+
 	Write Fig captions: 25/08/2022
 	Results: 25/08/2022
+
 	Discussion: 26/08/2022
 	Conclusion: 26/08/2022
 	Method Details: 28/08/2022
