@@ -44,7 +44,7 @@ The work presented in this chapter differs in an important way from existing com
 \subsection{Long Simulations Reveal Motions which Dilate the Pore of CFTR}
 Four independent replicates unbiased MD were run for the WT-CFTR system. These were run for at least 2 microseconds each, for a combined total of 8.2 $\mu$s of simulation time. 
 
-In post processing, the motions of the transmembrane helices were analysed using Principal Component Analysis. This revealed large motions in TMs1 and 6 in directions which dilated the extracellular pore (Figure \ref{PCA_motions}).  
+In post processing, the motions of the transmembrane helices were analysed using Principal Component Analysis \cite{pearson1901, hotelling1936}. This revealed large motions in TMs1 and 6 in directions which dilated the extracellular pore (Figure \ref{PCA_motions}).  
 
 \begin{figure}
 	\begin{center}
@@ -198,10 +198,13 @@ At a basic level, methodology used in this chapter is largely consistent with th
 The minimisation and equilibration steps for these simulations were largely carried out in the same way as for previous chapters. Our protein model was the extended CFTR model based on the 6MSM structure \cite{zhang2018} which we constructed in chapter \ref{chap:I37R}. The MD system was subjected to minimisation by steepest descent followed by restrained relaxation. This involved 10 kcal/mol $\AA^2$ harmonic restraints on all heavy protein atoms with restraints halved every 400 picoseconds. This relaxation was followed by up to 2.2 $\mu$s of unbiased molecular dynamics sampling.
 
 \subsection {Principal Component and Choice of Collective Variable for OPES-Metadynamics}
-In order to exclude large, fast motions like those from disordered loops, we limited our analysis to the following amino acids.
+Using principal component analysis on proteins can be difficult. PCA specialises in choosing the vectors which capture the \textit{largest} variation in a dataset. By contrast, when we are performing free nergy calculations we would wish to capture the \textit{slowest} motions to accelerate. This is so we can quickly converge the free energy surface along our collective variables, by choosing the slowest degrees of freedom, faster, orthogonal degrees of freedom can average out. 
+
+So, when performing PCA on proteins, without excluding them, the motion of large, disordered loops would dominate the analysis. Hence, we limited our analysis to the amino acids in the transmembrane helices in Table \ref{red_alpha_carbons_table}. 
+
+For the sake of performance, a smaller subset of amino acids were then chosen to actually manipulate the proe of CFTR in the OPES-Metadynamics simulations. These calculations were expensive and the more atoms included in our CVs the slower the calculations were run, so the amino acids highlighted in red in Table \ref{red_alpha_carbons_table} were chosen for furhter analysis. These were the pore lining amino acids and our choses closely reflect those of previous studies (Figure \ref{pore_lining_PCA}) \cite{hoffman2018}. 
 
 \begin{table}
-	\label{red_alpha_carbons}
 	\begin{center}
 	%\begin{tabular} {| c | c | c | c | c | c | c | c | c | c | c | c | }  
 	\resizebox{0.85\textwidth}{!}{%
@@ -281,13 +284,24 @@ In order to exclude large, fast motions like those from disordered loops, we lim
 }
 \end{center}
 \captionsetup{singlelinecheck = false, justification=raggedright}                           
-\caption[Amino acids used to analyse and manipulate the outer pore of CFTR] {\textbf{Amino acids used to analyse and manipulate the outer pore of CFTR}}{All listed amino acids were included in the unbiased extraction of PCA components. The cells highlighted in red denote the amino acids which were used as collective variables to study the free energy landscape of PCA motions 1 and 2}
+\caption[Amino acids used to analyse and manipulate the outer pore of CFTR] {\textbf{Amino acids used to analyse and manipulate the outer pore of CFTR}}{All listed amino acids were included in the unbiased extraction of PCA components. The cells highlighted in red denote the amino acids which were used as collective variables to study the free energy landscape of PCA motions 1 and 2. These are visualised in Figure \ref{steer_cas_fig}. }
 
+\label{red_alpha_carbons_table}
 \end{table}
-By selecting this subset, we applied Principal Component Analysis to the combined, aligned timeseries data from the alpha carbons of the amino acids in table \ref{pca_aas}. This allowed our analysis to focus on the slow, large motions which would most likely dilate the channel. The first 9 Principal Components were inspected visually. By the 4th vector, the motions were comparatively small and hence our analysis focussed on the first two motions. Motions 1 and 2 produced large movments in TM1 and TM6 which was where we expected the extracellular mouth to dilate. Hence, we chose to accelerate these first two motions.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=1\textwidth]{figures/opening/steer_cas.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[The Alpha Carbon Atoms Manipulated to Dilate CFTR] {\textbf{The Alpha Carbons Manipulated to Dilate CFTR}}{the Alpha Carbon Atoms used to manipulate the pore of CFTR. The motion of the alpha carbon atoms, represented as red spheres, which were pushed along PC1 and 2 during OPES-MetaD calculations to study the dilation of the CFTR pore. A) A top down view, note how pore lining helices have been selected for manipulation. B) A side-on view. Note how the upper section of the selectivity filter has been selected for manipulation. These choices of amino acids were made to proritise the dilation of the extracellular mouth of the channel, which closely reflects the philosophy of previous studies \cite{hoffman2018}. } 
+	\label{steer_cas_fig}
+\end{figure}
+
+%By selecting this subset, we applied Principal Component Analysis to the combined, aligned timeseries data from the alpha carbons of the amino acids in table \ref{pca_aas}. This allowed our analysis to focus on the slow, large motions which would most likely dilate the channel. The first 9 Principal Components were inspected visually. By the 4th vector, the motions were comparatively small and hence our analysis focussed on the first two motions. Motions 1 and 2 produced large movments in TM1 and TM6 which was where we expected the extracellular mouth to dilate. Hence, we chose to accelerate these first two motions.
 
 \subsection{OPES-MetaD}
-We employed 8 parralel walkers in order to properly explore and converge the free energy landscape along the two PCA motions studied in this chapter. On the Fly Probability Enhanced Sampling was used to converge this difficult free energy landscape. Since we did not know exactly what kind of conformational change to expect and we had no \textit {ab initio} method to assess the quality of our CVs, a large barrier height of 38.2 kcal/mol was chosen for the OPES-MetaD protocol. In order to decrease computational expense, masses were redistributed throughout the system using the conventional approach to Hydrogen Mass Repartitioning. This allowed us to increase the simluation timestep to 4 femtsoconed. Gaussians were deposited every 500 simulation time steps.
+We employed 8 parralel walkers in order to properly explore and converge the free energy landscape along the two PCA motions studied in this chapter. On the Fly Probability Enhanced Sampling was used to converge this difficult free energy landscape \cite{}. Since we did not know exactly what kind of conformational change to expect and we had no \textit {ab initio} method to assess the quality of our CVs, a large barrier height of 38.2 kcal/mol was chosen for the OPES-MetaD protocol. In order to decrease computational expense, masses were redistributed throughout the system using the conventional approach to Hydrogen Mass Repartitioning. This allowed us to increase the simluation timestep to 4 femtsoconed. Gaussians were deposited every 500 simulation time steps.
 
 Convergence was acheived after  Figure \ref{convervengfece_fig} revleas how inspection of the constructed free energy surface at 100ns time intervals demonstrates a converged free energy surface. Convergence was achieved after  was 1.5 $\mu$s of sampling for each walker, for a total of 12 microseconds of sampling.
 
