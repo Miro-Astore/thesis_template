@@ -41,14 +41,6 @@
 
 
 
-
-\hypersetup{
-    colorlinks=true,
-    citecolor=red,
-    filecolor=black,
-    linkcolor=cyan,
-    urlcolor=blue
-}
 \usepackage{multirow}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
@@ -56,7 +48,16 @@
 \usepackage{afterpage}
 \usepackage{longtable}
 \usepackage{tabularx}
-\usepackage[table] {xcolor}
+%\usepackage[table] {xcolor}
+\usepackage[table,svgnames] {xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    citecolor=red,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue
+}
 \usepackage[font=small,labelfont=bf]{caption}
 \DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
 %\captionsetup{justification=raggedright,singlelinecheck=false,format=hang}
