@@ -27,11 +27,10 @@ We note also, that previous MD studies have focussed on the conduction of chlori
 
 The conduction pathway of CFTR can be split into two sections. The inner vestibule and the selectivity filter. We have previously studied conduction through the inner vestibule in chapter \ref{chap:R352Q} \cite{wong2022a}, and in this chapter we will study the conduction through the selectivity filter. 
 
-In CFTR, the selectivity filter is thought to be narrow, as mutations which reduce the volume of pore lining amino acids lead to a loss of selectivity, for example F337A and to a lesser extent L102A \cite{}. However, the pore is likely not as narrow as those found in potassium channels, as CFTR is only weakly selective \cite{}. 
+In CFTR, the selectivity filter can also be divided into two parts. A lower, ``conductivity selectivity filter" and a higher ``permeability filter". These characterisations of the different sections in the selectivity filter were constructed by characterisating the permeation profiles of different annions under different mutations \cite{linsdell2016}. The lower ``conductivity selectivity filter" appears to bind anions as they move through the channel while the ``permeability selectivity filter" is narrow and hydrophobic, so anions do not bind strongly in this region. This is thought to be the orogin of hte lyotropic sequence of annion permeability as F337A and L102A abolish some level of anion selectivity (Figure \ref{annion_pore}) \cite{}. 
 
-Additionally, the sequence of permeatbility of annions is correlated by their lyotropic, indicating that partial dehydration of the annions is likely during their passage through the selectivity filter. Despite these characteristics, CFTR is only weakly selective, permeating a large set of annions such as chloride, bicarbonate and glutathione \cite{}. We will investigate the permeation of the former two in this chapter. 
 
-Resolving the conduction mechanism of ion channels has bene of keen interests to the computational biophysics community for some time, as this mechanism is responsible for regulating many cellular processes \cite{black2020}. To my knowledge, this one of the first studies which has been able to take a non-conducting conformation of an ion channel and then dilate it in order to understand the full conduction pathway. 
+Resolving the conduction mechanism of ion channels has bene of keen interests to the computational biophysics community for some time, as this mechanism is responsible for regulating many cellular processes \cite{black2020, }. To my knowledge, this one of the first studies which has been able to take a non-conducting conformation of an ion channel and then dilate it in order to understand the full conduction pathway. 
 
 A similar technique could be used in many ion channels which have been imaged very close to their active conformation but during the imaging process they change conformation slightly. Hence, the techniques employed in this chapter could be applied to other important protein systems such as P-glycoprotein \cite{}.  %make sure you cite more things.
 
@@ -116,7 +115,7 @@ This small barrier roughly corresponds to what we would expect to be overcome by
 
 
 
-\subsection{This open state can be used to study disease causing mutations in the outer pore such as R334W}
+\subsection{The Open State Can be Used to Study Disease Causing Mutations in the Outer Wore, such as R334W}
 
 
 \begin{figure}
@@ -128,7 +127,7 @@ This small barrier roughly corresponds to what we would expect to be overcome by
 	\caption[R334W Inhibits the Conduction of Anions] {\textbf{R334W inhibits the Conduction of Anions}}{A) A visualiation of R334W-CFTR in the dialted  conformation. Note how W334 is placed in the outer part of the pore. B) A PMF derived from Umbrella sampling to compare the energetics of the conductance of chloride through R334W-CFTR to WT-CFTR in the dilated conformation. The WT-CFTR curve has been reproduced from the same data in Figure \ref{US_anions}. The R334W-CFTR PMF exhibits a larger barrier compared to WT-CFTR indicating that the conduction of chloride will be inhibited in this mutation. It is likely that this 2.5 kcal/mol additional energy barrier has a paritucllarly deleterious effect on the conduction of the channel because it occurs at the narrowest part of the pore. There are no alternate pathways which might help compensate for the mutation, as was the case in R352Q in chapter \ref{chap:R352Q} \cite{wong2022a}.  }
 \end{figure}
 
-There are several disease causing CFTR mutations which occur at the extracellular mouth of the protein (E116K, R334[WQL],R117[HCP], I336K, S341P)\cite{cftr2}. Note how these are all clustered around TM1 and TM6. This is good evidence to suggest that this is the permeation pathway for chloride in hCFTR, as was found in zCFTR \cite{farkas2020}. A molecular understanding of these mutations can aid in the design of new therapeutics and so we used our dilated structure to study one of the most common mutations at the extra cellular mouth, R334W. 
+There are several disease causing CFTR mutations which occur at the extracellular mouth of the protein (E116K, R334[WQL],R117[HCP], I336K, S341P)\cite{cftr2}. Note how these are all clustered around TM1 and TM6. This is good evidence to suggest that this is the permeation pathway for chloride in hCFTR, as was found in zCFTR \cite{farkas2020}. A molecular understanding of these mutations can aid in the design of new therapeutics and so we used our dilated structure to study one of the most severe mutations at the extracellular mouth, R334W. Whole cell measuremnts have revealed that this mutation exhibits 1.3\% of the current levels of WT-CFTR \cite{}. This corresponds well to the deleterious barrier height we discovered in our 2.5 kcal/mol we discovered in our R334W-CFTR umbrella sampling calculations. This extra barrier height corresponds to 4$k_BT$ in natural units, representing an $e^4=54$ suppression of current in the mutant, according Einstein-Nernst relation \cite{}.
 
 \section{Discussion}
 
@@ -303,9 +302,39 @@ For the sake of performance, a smaller subset of amino acids were then chosen to
 \subsection{OPES-MetaD}
 We employed 8 parralel walkers in order to properly explore and converge the free energy landscape along the two PCA motions studied in this chapter. On the Fly Probability Enhanced Sampling was used to converge this difficult free energy landscape \cite{}. Since we did not know exactly what kind of conformational change to expect and we had no \textit {ab initio} method to assess the quality of our CVs, a large barrier height of 38.2 kcal/mol was chosen for the OPES-MetaD protocol. In order to decrease computational expense, masses were redistributed throughout the system using the conventional approach to Hydrogen Mass Repartitioning. This allowed us to increase the simluation timestep to 4 femtsoconed. Gaussians were deposited every 500 simulation time steps.
 
-Convergence was acheived after  Figure \ref{convervengfece_fig} revleas how inspection of the constructed free energy surface at 100ns time intervals demonstrates a converged free energy surface. Convergence was achieved after  was 1.5 $\mu$s of sampling for each walker, for a total of 12 microseconds of sampling.
+Convergence was acheived after each walker had run for 1500ns, as demonstrated in Figure \ref{convervengfece_fig}. 
 
-This is confirmed by further inspection of OPES-MetaD vairables in figure \ref{Z_sigma_fig}. The $Z$ parameter from OPES-MetaD which measures the amount of new CV space explored by the simulation. Convergence implies that hte whole accessible volume at a given barrier parmater has been sampled. Similarly, convergence of the $c(t) = \frac{1}{\beta} \log \langle e^{\beta V} \rangle$ parameter in figure \ref{Z_sigma_fig}B indicates the free energy surface has stopped evolving. 
+One of the advantages of OPES-MetaD is that it provides simple variables which can b used to check the status of the simulation. When the parameter 
+
+\begin{equation}
+	c(t) = \frac{1}{\beta} \log \langle e^{\beta V(t,\xi)} \rangle_\xi
+\end{equation} 
+
+converges, it is an indication that the FES has stopped evolving and convergence has been acheived \cite{invernizzi2020, tiwary2015}. Here, $\beta=1/k_BT$ and $V(t,\xi)$ is the free energy estimate at time $t$. Similarly, we can check the volume explored CV space with  
+
+\begin{equation}
+Z(t) = \frac{1}{| \Omega(t)|}  \tilde{P}(t, \mathbf{\xi}) d\mathbf{\xi}.
+\end{equation} 
+
+Here, $\Omega_n$ represents the volume of CV space explored which we use to normalise the probability estimate at time $t$ for a specific point in CV space $\tilde{P}(t, \mathbf{\xi})$. The convergence of $c(t)$ and $Z(t)$ in our free energy calcuations calculations is demonstrated in (Figure \ref{Z_sigma_fig}). Convergence implies that hte whole accessible CV volume at a given barrier parameter has been sampled and that the relative energetics of all coordinates in this volume have been accurately estimated. Similarly, convergence of the $c(t) = \frac{1}{\beta} \log \langle e^{\beta V} \rangle$ parameter in figure \ref{Z_c_fig}B indicates the free energy surface has stopped evolving. 
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{figures/opening/convergence_1.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[OPES MetaD Free Energy Surfaces 400ns-900ns] {\textbf{OPES MetaD Free Energy Surfaces 400ns-900ns}}{The surface nearest to the cryo-EM starting point converges first.} 
+	\label{convergence_opes_1}
+\end{figure}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{figures/opening/convergence_2.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[OPES MetaD Free Energy Surfaces 1000ns-1500ns] {\textbf{OPES MetaD Free Energy Surfaces 1000ns-1500ns}}{Observe how by the last two surfaces are nearly identical. } 
+	\label{convergence_opes_2}
+\end{figure}
 
 \subsection{Umbrella Sampling}
 All Umbrella sampling studies were carried out with the same methodology. In the unbiased equilibration steps of a CFTR simulation, an anion was found to occupy the inner vestibule. 
@@ -314,4 +343,4 @@ The collective variable in each simulation was constructed by calculating the z 
 
 In order to calculate the PMF through the channel, we steered this annion to the middle of the channel over the course of 10ns and allowed it to equilibrate there for 20 ns. The annion was then steered to its target location over the course of 10ns depending on which window that particular simulation belonged to. It was then restrained at this location for the 50ns production run.
 
-To calculation the PMF along of the anion through the selectivity filter we collected the distance Z every picoseconds for 50ns. This data was then binned into 5 independent blocks of 10 nanoseconds and an individual PMF was constructed suing hte Weighted Histrograms Analysis Method (WHAM). The independent PMF profiles were then aligned at their extreme end (42-48 $\AA$) which correspondents to the flat energy surface  obtained from pulling pulling a chloride ion through bulk solvent. The Uncertainties were then caluclated by claculating the Standard Error of the Mean between tehse 5 independent samples with this alignment technique. Similarly, comparisons between the PMFS from different CFTR systems were also constructed by using the region of the PMF which corresponds to  bulk solvent (42-48 $\AA$) as an aboslute reference point.
+To calculation the PMF along of the anion through the selectivity filter we collected the distance Z every picoseconds for 50ns. This data was then binned into 5 independent blocks of 10 nanoseconds and an individual PMF was constructed suing the Weighted Histograms Analysis Method (WHAM) \cite{grossfield2012}. The independent PMF profiles were then aligned at their extreme end (42-48 $\AA$) which correspondents to the flat energy surface  obtained from pulling pulling a chloride ion through bulk solvent. The Uncertainties were then calculated by calculating the Standard Error of the Mean between tehse 5 independent samples with this alignment technique. Similarly, comparisons between the PMFS from different CFTR systems were also constructed by using the region of the PMF which corresponds to  bulk solvent (42-48 $\AA$) as an aboslute reference point.
