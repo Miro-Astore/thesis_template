@@ -217,7 +217,7 @@ So, when performing PCA on proteins, without excluding them, the motion of large
 
 For the sake of performance, a smaller subset of amino acids were then chosen to actually manipulate the proe of CFTR in the OPES-Metadynamics simulations. These calculations were expensive and the more atoms included in our CVs the slower the calculations were run, so the amino acids highlighted in red in Table \ref{red_alpha_carbons_table} were chosen for furhter analysis. These were the pore lining amino acids and our choses closely reflect those of previous studies (Figure \ref{pore_lining_PCA}) \cite{hoffman2018}. 
 
-There are two main disadvantages when using PC's as CVs. Firstly, as discussed, they correspond to the largest motion in a systme, not the slowest. This means that they are very likely to be suboptimal CVs in a molecular system. Secondly, they are \texit{linear}. And so a linear combination of many PCs  may be needed to find the minimum free energy pathway \cite{}. The more CVs we have to consider during the free energy calculation, the longer it will take to converge a reliable FES.
+There are two main disadvantages when using PC's as CVs. Firstly, as discussed, they correspond to the largest motion in a systme, not the slowest. This means that they are very likely to be suboptimal CVs in a molecular system. Secondly, they are \textit{linear}. And so a linear combination of many PCs  may be needed to find the minimum free energy pathway \cite{}. The more CVs we have to consider during the free energy calculation, the longer it will take to converge a reliable FES.
 
 \begin{table}
 	\begin{center}
@@ -362,7 +362,7 @@ Here, $\Omega_n$ represents the volume of CV space explored which we use to norm
 \end{figure}
 
 \subsection{Umbrella Sampling}
-All Umbrella sampling studies were carried out with the same methodology. In the unbiased equilibration steps of a CFTR simulation, an anion was found to occupy the inner vestibule. 
+All Umbrella sampling studies were carried out with the same methodology. In the unbiased equilibration steps of a CFTR simulation, an anion was found to occupy the inner vestibule. This was then selected as the ion to steer through the channel in umbrella sampling
 
 The collective variable in each simulation was constructed by calculating the z coordinate of the center of mass of the alpha carbon atoms of all the amino acids in Table \ref{red_alpha_carbons} and then subtracting the z position of the steered anion. The radial position of the ion was restrained a half potential well, when the ion strayed more than 4.8 $\AA$ from the center axis of the CFTR channel it would encounter a repulsive 10kcal/mol $\AA^2$ harmonic potential. This meant the ion could not stray too far from the center axis of the channel in bulk solvent but while it was inside the channel it could adequately sample the interior of the selectivity filter.
 
