@@ -179,11 +179,13 @@ When the R-domain is phosphorylated it no longer rests between the TMDs. Rather,
 
 \end{figure}
 
-CFTR will permeate cations but there are a set of anions which it will conduct. The conduction pathway of the channel can be split into two regions. The inner vestibule which is wide and covered with basic, positively charged amino acids and the selectivity filter which is formed by the narrowing of the protein in the upper part of the channel. These regions are hotspots for disease causing  mutations, with most mutations occurring on TM6 in TMD1 (Figures \ref{CFTR_mutations_pie_chart} and \ref{chloride_passage}) \cite{cftr2}.
+CFTR will not permeate cations but there are a set of anions which it will conduct. The conduction pathway of the channel can be split into two regions. The inner vestibule which is wide and covered with basic, positively charged amino acids and the selectivity filter which is formed by the narrowing of the protein in the upper part of the channel. These regions are hotspots for disease causing  mutations, with most mutations occurring on TM6 in TMD1 (Figures \ref{CFTR_mutations_pie_chart} and \ref{chloride_passage}) \cite{cftr2}. 
 
 F337 is the most important amino acid for selectivity, with the F337A mutation leading to an increase in conductivity and a loss in selectivity \cite{wei2016}. Bicarbonate (HCO$_3^-$ is known to have roughly 25\% the permeability of chloride through the channel\cite{tang2009}. Some interaction partners such as WNK1 have been shown to influence the selectivity of the channel \cite{kim2019, garnett2011, kim2019a}. The permeation of bicarbonate is very important physiologically. If a CF-causing mutation permeates bicarbonate, there is a high likelihood the patient will be pancreatic sufficient. Increasing bicarbonate secretion is being explored as a possible therapeutic strategy \cite{ferrera2021}. 
 
 Compared to cation channels like Gramicidin and KcsA, CFTR is only weakly selective---permeating a large set of anions with varying radii and geometries (Figure \ref{chloride_passage}) \cite{linsdell1998, tabcharani1997, poulsen1994}. CFTR appears to act like other anion channels where lyotropic (low solvation energy) anions pass more easily than kosmotropic anions (high solvation energy). This would suggest that partial dehydration of the anions is likely during conductance \cite{linsdell2000}. The radius of a dehydrated chloride ion is 1.7$\AA$ while a hydrated chloride ion has a radius of 3.2$\AA$ \cite{yang2002}. As noted in its source publication, the 6MSM structure which we have studied has a constriction of 1.2$\AA$ at its narrowest point. Hence, even if chloride were to be fully dehydrated during conduction, there would have to be some level of conformational change in the protein. This was the motivation for the extensive free energy calculations undertaken in chapter \ref{chap:opening}.
+
+There have also been demonstrations that partially synthesised halves of the CFTR channel can dimerise to form chloride partially functional \cite{yue2000, ramjeesingh2003, cui2008, abbott2007}. The functional or therapeutic role this could play has not been explored.
 
 \subsection{Different classes of Cystic Fibrosis Phenotype}
 As the above shows, CFTR is a complex protein which can misfunction in a number of ways. Based on the way the mutation presents in \textit{in vitro} assays, disease causing mutations are classified into 6 common classes. Ultimately, the aim of this thesis is to demonstrate that that at the atomic level, there is much more nuance to these classes, and a mutation can have features of multiple classes at the same time.
@@ -339,9 +341,9 @@ Forskolin Induced Swelling (FIS) assays can be used used to easily characterise 
 Hence, by comparing the amount of swelling swelling of organoids in the presence or absence of modulators, we can quantitatively assess the response of a patient's cells to modulator therapy (Figure \ref{FIS_figure}). 
 
 \subsection{Electrophysiology Directly Measures CFTR Gating and Conduction}
-The measurement of electrical activity in biological systems is known as electrophysiology. This field has been an important way for us to develop models for the activity of ion channels and the cells which host them \cite{aidley1996}. Since CFTR is an ion channel, measuring its electrical activity is a direct way to assess its function and dynamics, leading to a molecular understanding of the nature of disease. 
+The measurement of electrical activity in biological systems is known as electrophysiology. This field has been an important way for us to develop models for the activity of ion channels and the cells which host them \cite{aidley1996}. Since CFTR is an ion channel, measuring its electrical activity is a direct way to assess its function and dynamics, leading to a molecular understanding of the nature of disease. A comprehensive review of techniques, specifically developed to investigate CFTR can be found in \cite{cui2021}.
 
-In order to study the action of a single ion channel one needs to employ an experimental technique known as patch clamp electrophysiology \cite{hille2001}. Studies using this technique were vital for the conclusions of chapters \ref{chap:R352Q} and \ref{chap:opening}. On the other hand, to assess the competency of a whole membrane or tissue, one instead uses what is known as an Ussing chamber. 
+In order to study the action of a single ion channel one needs to employ an experimental technique known as patch clamp electrophysiology \cite{hille2001}. Studies using this technique were vital for the conclusions of chapters \ref{chap:R352Q} and \ref{chap:opening}. For a comprehensive view of modelling from patch clamp derived data see \cite{cai2011}. On the other hand, to assess the competency of a whole membrane or tissue, to understand the effect of a CFTR on a whole organ, one instead uses what is known as an Ussing chamber \cite{hoenig2014}. This was a technique used extensively by collaborators of our MD modelling, where epithelia grown from a patient's own cells were placed in an Ussing chamber so their competency to diffuse chloride could be measured.
 
 \subsubsection{Patch Clamp Electrophysiology}
 \begin{figure}
@@ -375,12 +377,12 @@ In Ussing chamber measurements, current is usually expressed as amps per unit ar
 
 \subsection{Western Blotting Assesses CFTR Trafficking}
 \begin{figure}
-	\label{western_blot}
 	\begin{center}
 	\includegraphics[width=1\textwidth]{figures/western_blot_explanation.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Western Blot Explanation] {\textbf{Western Blot Explanation}}{A) Output of a western blot experiment. WT-CFTR has much more abundant protein than $\Delta$F508 \cite{chang2008}. B) The cell biology behind why the $\Delta$F508 mutation is pathogenic. When WT-CFTR folds correctly in the Endoplasmic reticulum it is trafficked into the Golgi where it is glycosylated, before it is then implanted into the cell membrane. In the case of $\Delta$F508, the protein misfolds as it is synthesised, so instead of being trafficked as normal it is prematurely degraded by the proteosome \cite{lopes-pacheco2016a, lewis2005}.} 
+	\caption[Western Blot Explanation] {\textbf{Western Blot Explanation}}{A) Output of a western blot experiment. WT-CFTR has much more abundant protein than $\Delta$F508 \cite{chang2008}. B) The cell biology behind why the $\Delta$F508 mutation is pathogenic. When WT-CFTR folds correctly in the Endoplasmic reticulum it is trafficked into the Golgi where it is glycosylated, before it is then implanted into the cell membrane. In the case of $\Delta$F508, the protein misfolds as it is synthesised, so instead of being trafficked as normally it is prematurely degraded by the proteosome \cite{lopes-pacheco2016a, lewis2005}.} 
+	\label{western_blot}
 \end{figure}
 The above methods focus on measuring the electrical activity of the ion channels once they are at the cell membrane, they will only detect functional channels. In order to test the presence of ion channels within the epithelium, functional or otherwise, a technique called western blotting is employed (Figure \ref{western_blot}).
 
