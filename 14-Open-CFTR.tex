@@ -232,7 +232,7 @@ At a basic level, methodology used in this chapter is largely consistent with th
 \subsection{Unbiased MD }
 The minimisation and equilibration steps for these simulations were largely carried out in the same way as for previous chapters. Our protein model was the extended CFTR model based on the 6MSM structure \cite{zhang2018} which we constructed in chapter \ref{chap:I37R}. The MD system was subjected to minimisation by steepest descent followed by restrained relaxation. This involved 10 kcal/mol $\AA^2$ harmonic restraints on all heavy protein atoms with restraints halved every 400 picoseconds. This relaxation was followed by up to 2.2 $\mu$s of unbiased molecular dynamics sampling.
 
-\subsection {Principal Component Analysis and Choice of Collective Variable}
+\subsection {Principal Component Analysis and Choice of Collective Variables}
 Using principal component analysis on proteins can be difficult. PCA specialises in choosing the vectors which capture the \textit{largest} variation in a dataset. By contrast, when we are performing free energy calculations, where we would wish to capture the \textit{slowest} motions to accelerate \cite{noe2001}. 
 
 So, when performing PCA on proteins, without excluding them, the motion of large, disordered loops would dominate the analysis. Hence, we limited our analysis to the amino acids in the transmembrane helices in Table \ref{red_alpha_carbons_table}. 
