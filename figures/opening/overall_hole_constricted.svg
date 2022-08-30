@@ -442,9 +442,9 @@
      inkscape:window-height="1376"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.87407407"
-     inkscape:cx="2160.7021"
-     inkscape:cy="1141.1944"
+     inkscape:zoom="1.7481481"
+     inkscape:cx="1222.7188"
+     inkscape:cy="613.4907"
      inkscape:window-x="1920"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -943,18 +943,12 @@
        x="1423.4155"
        y="1330.2799"
        style="stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round">F337</tspan></text>
-  <path
-     inkscape:connector-curvature="0"
-     id="path1207-7-8-7-9-9-9"
-     d="m 1478.6875,1427.4353 124.2852,-31.1636"
-     style="fill:none;stroke:#000000;stroke-width:4.02519703;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-3-6-3-7-1-2)"
-     sodipodi:nodetypes="cc" />
   <rect
      style="opacity:1;fill:#bef1ca;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.62362206;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect8654-7-3-8-2-3-7"
      width="106.32519"
      height="43.57143"
-     x="1430.2079"
+     x="1421.1552"
      y="1405.062" />
   <text
      xml:space="preserve"
@@ -966,7 +960,7 @@
        id="tspan8632-9-1-4-8-9-6"
        x="1433.4388"
        y="1441.4082"
-       style="stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round">S341</tspan></text>
+       style="stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round">TM6</tspan></text>
   <path
      inkscape:connector-curvature="0"
      id="path1207-7-8-7-3-5-8"
@@ -1108,4 +1102,76 @@
      cx="259.13138"
      cy="996.94122"
      r="10.921205" />
+  <rect
+     style="opacity:1;fill:#bef1ca;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.62362206;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect8654-7-3-8-2-3-7-3"
+     width="106.32519"
+     height="43.57143"
+     x="1656.2081"
+     y="1621.1292" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round"
+     x="1668.4918"
+     y="1657.4753"
+     id="text8634-8-6-8-2-1-7-6"><tspan
+       sodipodi:role="line"
+       id="tspan8632-9-1-4-8-9-6-7"
+       x="1668.4918"
+       y="1657.4753"
+       style="stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round">TM1</tspan></text>
+  <rect
+     style="opacity:1;fill:#bef1ca;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.62362206;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect8654-7-3-8-2-3-7-5"
+     width="106.32519"
+     height="43.57143"
+     x="1435.1324"
+     y="761.55499" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round"
+     x="1447.4161"
+     y="797.90118"
+     id="text8634-8-6-8-2-1-7-3"><tspan
+       sodipodi:role="line"
+       id="tspan8632-9-1-4-8-9-6-5"
+       x="1447.4161"
+       y="797.90118"
+       style="stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round">TM6</tspan></text>
+  <rect
+     style="opacity:1;fill:#bef1ca;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.62362206;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect8654-7-3-8-2-3-7-3-6"
+     width="106.32519"
+     height="43.57143"
+     x="1715.4882"
+     y="776.99554" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round"
+     x="1727.7719"
+     y="813.34174"
+     id="text8634-8-6-8-2-1-7-6-2"><tspan
+       sodipodi:role="line"
+       id="tspan8632-9-1-4-8-9-6-7-9"
+       x="1727.7719"
+       y="813.34174"
+       style="stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round">TM1</tspan></text>
+  <rect
+     style="opacity:1;fill:#dce2fa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.62362206;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect8654-7-3-8-5-1-1"
+     width="106.32519"
+     height="43.57143"
+     x="1295.4417"
+     y="1025.2909" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round"
+     x="1307.8328"
+     y="1061.6372"
+     id="text8634-8-6-8-6-2-2"><tspan
+       sodipodi:role="line"
+       id="tspan8632-9-1-4-9-9-7"
+       x="1307.8328"
+       y="1061.6372"
+       style="stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round">TM8</tspan></text>
 </svg>
