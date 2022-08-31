@@ -43,12 +43,12 @@ In subsequent chapters we will work with the theoretical and impersonal tools of
 Cystic Fibrosis (CF) is the most common fatal genetic condition in Caucasian populations. Over 162 000 people are estimated to be afflicted globally, with a significant proportion living undiagnosed \cite{hammoudeh2021,guo2022}. Even with decades of research there is no known cure for CF and patients currently have a life expectancy below 50 \cite{mcbennett2022}. Management of disease symptoms also bears significant financial and emotional costs to patients and their families \cite{vangool2013, page2022}. From a cellular perspective, the symptoms of the disease are due to the inability of certain cells to regulate their salt content, causing an osmotic imbalance (Figure \ref{CF_summary}) \cite{reddy2013}. 
 
 \begin{figure}
-	\label{CF_summary}
 	\begin{center}
 	\includegraphics[width=1\textwidth]{figures/cf_summary_fig.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Cystic Fibrosis is a Debilitating Disease Whose Cause is Genetic] {\textbf{Cystic Fibrosis is a Debilitating Disease Whose Cause is Genetic}}{Cystic Fibrosis causes misfunction in several major organ systems, affecting all aspects of a patients' life and health. The cause of the disease is genetic, when two defective copies of an anion channel gene, CFTR, are inherited from each parent, epithelial cells cannot pass chloride or bicarbonate ions, leading to a pathogenic buildup of salts inside epithelial cells. In recent decades, small molecule drugs have been discovered which act directly on CFTR to restore its function. This thesis seeks to understand what kind of defects these drugs are capable of rescuing. We find that they are likely to rescue a wide range of defects.} 
+	\label{CF_summary}
 \end{figure}
 
 All organs of the body are lined by cells called epithelia. They protect organs from trauma and infection. The most acute symptoms of CF are due to the dehydration of this lining. When dehydrated, fine, motile structures on the epithelium called cilia collapse, rendering them unable to ``beat" in order to clear mucus and pathogens \cite{boucher2007, szczesniak2017}. Simultaneously, this mucus which naturally lines the epithelium, thickens as moisture is leached away from it by osmotic pressure.
@@ -89,10 +89,9 @@ CFTR is unique. It is a type of protein known as an ABC transporter, designated 
 	\begin{center}
 	\includegraphics[width=\textwidth]{figures/CFTR_structure.pdf}
 	\end{center}
-	\label{CFTR_structure_domains}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[CFTR Structure] {\textbf{CFTR Structure}}{There are currently two conformations of the human CFTR protein which have been imaged at atomic resolution. These cryo-EM structures have captured hCFTR in an inactivated and an activated conformation. The inactivated state (PDB ID: 5UAK) is neither phosphorylated nor bound to ATP. Observe how the NBDs are far apart and the TMDs are not parallel, forcing a constriction near the top of the protein which does not allow the passage of ions. By contrast, the activated structure is bound to two ATP molecules (PDB ID:6MSM), dimerizing the NBDs and bringing the TMDs into a parallel configuration where they are able to form a pore. Despite having the biochemical characteristics which we would expect from the conducting conformation of this ion channel, the available structure of the activated hCFTR protein exhibits a constriction at the extracellular end of the channel which does not allow chloride ions to pass through. In chapter \ref{chap:opening} we will demonstrate enhanced sampling techniques to study a fully conducting CFTR conformation, based on this activated structural snapshot. All simulations presented in this work were based on the ATP-bound phosphorylated human CFTR structure (PDB ID: 6MSM) \cite{zhang2018}.} 
-
+	\label{CFTR_structure_domains}
 \end{figure}
 
 As an ATP stimulated ion channel, CFTR sits in an inverted ``V" configuration in the cell membrane until it is activated by chemical messengers like ATP and PKA \cite{zhang2018, gadsby2006, mihalyi2020}. When it is phosphorylated, the protein transitions to form a continuous pore. This is the conformational change visualised in Figure \ref{CFTR_structure_domains}.
@@ -122,7 +121,7 @@ Perhaps the most interesting molecular study from this era used path-CV metadyna
 
 A more recent study again employed metadynamics with the zebrafish structure, to study the permeation of chloride through the two extracellular portals in zCFTR \cite{farkas2020}. Unfortunately, this confirmed a difference between the zebrafish and the human structures. Experimental studies indicate that only one extracellular portal is present in the human structure \cite{linsdell2018}. 
 
-Another study, still under review at the time of writing, attempted to resolve the chloride permeation pathway in the same human, phosphorylated CFTR structure which we have investigated in this thesis \cite{zeng2021}. Here, Zhi Zheng, working under Reggis Pomm\'es used unbiased MD coupled with an induced 500mV membrane potential. This strong electric field was used to encourage chloride ions to move through the channel. This study was successful in observing 17 conduction events in 10$\mu$s of unbiased sampling. Although excellent progress, this is an order of magnitude below the number of conduction events we would expect from this level of sampling--given that the conductivity of the open conformation in WT-CFTR is 0.7pS \cite{kogan2003,linsdell1998}. These implications will be discussed in chapter \ref{chap:opening}.
+Another study, still under review at the time of writing, attempted to resolve the chloride permeation pathway in the same human, phosphorylated CFTR structure which we have investigated in this thesis \cite{zeng2021}. Here, Zhi Zheng, working under Reggis Pomm\'es used unbiased MD coupled with an induced 500mV membrane potential. This strong electric field was used to encourage chloride ions to move through the channel. This study was successful in observing 17 conduction events in 10$\mu$s of unbiased sampling. Although excellent progress, this is an order of magnitude below the number of conduction events we would expect from this level of sampling--given that the conductivity of the open conformation in WT-CFTR is 6-10 pS \cite{gong2004, lee2007, linsdell2001, sheppard1999,kogan2003,linsdell1998}. These implications will be discussed in chapter \ref{chap:opening}.
 
 There are some additional MD and docking studies which have either dealt with the effects of mutations or the action of CFTR modulators and they will be discussed in the relevant sections of this chapter (section \ref{} \ref{} respectively )\cite{billet2020, sabusap2021}.
 
@@ -184,7 +183,7 @@ CFTR will not permeate cations but there are a set of anions which it will condu
 F337 is the most important amino acid for selectivity, with the F337A mutation leading to a near complete loss in selectivity \cite{wei2016}. Similarly, L102A and T338A mutations lead to a loss in selectivity but interestingly an increase in conductivity, likely reflecting their occupation of a narrow section of the pore \cite{linsdell2001,ge2004}. 
 
 
-Compared to cation channels like Gramicidin and KcsA, CFTR is only weakly selective---permeating a large set of anions with varying radii and geometries (Figure \ref{chloride_passage}) \cite{linsdell1998, tabcharani1997, poulsen1994}. CFTR appears to act like other anion channels where lyotropic (low solvation energy) anions pass more easily than kosmotropic anions (high solvation energy). This would suggest that partial dehydration of the anions is likely during conductance \cite{linsdell2000}. The radius of a dehydrated chloride ion is 1.7$\AA$ while a hydrated chloride ion has a radius of 3.2$\AA$ \cite{yang2002}. As noted in its source publication, the 6MSM structure which we have studied has a constriction of 1.2$\AA$ at its narrowest point. Hence, even if chloride were to be fully dehydrated during conduction, there would have to be some level of conformational change in the protein. This was the motivation for the extensive free energy calculations undertaken in chapter \ref{chap:opening}.
+Compared to cation channels like Gramicidin and KcsA, CFTR is only weakly selective---permeating a large set of anions with varying radii and geometries (Figure \ref{chloride_passage}) \cite{linsdell1998, tabcharani1997, poulsen1994}. CFTR appears to act like other anion channels where lyotropic (low solvation energy) anions pass more easily than kosmotropic anions (high solvation energy). This would suggest that partial dehydration of the anions is likely during conductance \cite{linsdell2000}. The radius of a dehydrated chloride ion is 1.7$\angs$ while a hydrated chloride ion has a radius of 3.2$\angs$ \cite{yang2002}. As noted in its source publication, the 6MSM structure which we have studied has a constriction of 1.2$\angs$ at its narrowest point. Hence, even if chloride were to be fully dehydrated during conduction, there would have to be some level of conformational change in the protein. This was the motivation for the extensive free energy calculations undertaken in chapter \ref{chap:opening}.
 
 Bicarbonate (HCO$_3^-$ is known to have roughly 25\% the permeability of chloride through the channel\cite{tang2009}. Some interaction partners such as WNK1 have been shown to influence the selectivity of the channel \cite{kim2019, garnett2011, kim2019a}. The permeation of bicarbonate is very important physiologically. If a CF-causing mutation permeates bicarbonate, there is a high likelihood the patient will be pancreatic sufficient. Increasing bicarbonate secretion is being explored as a possible therapeutic strategy \cite{ferrera2021}. 
 
@@ -220,7 +219,7 @@ Although useful from a clinical and experimental standpoint, in reality, these c
 
 A molecular understanding has previously been outlined for certain mutations, though rarely with the advantage of the full hCFTR structure or extensive statistical sampling. For example, \cite{belmonte2015} based their modelling on SAV1866 and used short unbiased simulations as well as simple free energy estimates in order to demonstrate the deleterious nature of the G551D and $\Delta$F508 mutations. This is remarkably consistent with the findings of more recent studies which have the benefit of more structural information about the protein \cite{bahia2021}. This latter study used isolated structures of NBD1 and 2 (PDB IDs: 2PZE \cite{atwell2010} and 6UK1 \cite {wang_2020_nbd2_CFTR_isoalted_pdb_alone} respectively) in order to predict the $\Delta\Delta G$ change to the folding energy of CFTR from disease causing mutations. The authors correlated their results with \textit{in silico} prediction functions from Rosetta and find remarkable agreement. Although this study does not shed light on molecular details of misfunction, it will likely be a critical resource for the grouping of theratype. 
 
-To date, there are two studies which have used a similar approach to us to study mutations. They also attempted to understand the molecular defects of rare mutations \textit{in silico} and then combining these findings with patient specific platforms to demonstrate their rescue by CFTR modulators. The first of these studies used the zCFTR structure, in order to study the ultra-rare W361R mutation \cite{billet2020}. Here, the authors found that a lipid tail binds into a hydrophobic pocket formed by the W361 amino acid. This lead to the expectation that the W361R mutation would cause a class II folding defect. Unfortunately, the authors did not explicitly simulate the effects of the W361R mutation, though the nature of the folding defect they would expect to see is likely not accessible on simulation time scales.
+To date, there are two studies which have used a similar approach to us to study mutations. They also attempted to understand the molecular defects of rare mutations \textit{in silico} and then combining these findings with patient specific platforms to demonstrate their rescue by CFTR modulators. The first of these studies used the zCFTR structure, in order to study the ultra-rare W361R mutation \cite{billet2020}. Here, the authors found that a lipid tail binds into a hydrophobic pocket formed by the W361 amino acid. This lead to the expectation that the W361R mutation would cause a class II folding defect. Unfortunately, the authors did not explicitly simulate the effects of the W361R mutation, though the nature of the folding defect they would expect to see is likely not accessible on simulation time scales. It is intriguing that this mutation responds to corrector compounds as the W361R mutation destroys an amino acid that would appear critical to the binding of the corrector compounds \cite{fiedorczuk2022}. Hence, this publication indicates that, like potentiators there is likely more than 1 site on CFTR which is responsible for the mechanism of action of these drugs.
 
 A second study addressed the intriguing mutation P67L on the lasso motif \cite{sabusap2021}. This mutation occurs in a hotspot of CF-causing mutations and also in the vicinity of corrector type drugs \cite{gene2008, fiedorczuk2022}. Here, the authors were able to rely on the structure of activated hCFTR to  a change in NBD2. However, the simulation methodology in this paper is questionable. The authors simulated hCFTR for less than 200ns and claim to have discovered allostery between the lasso motif and NBD2. Such an effect would likely take orders of magnitude more simulation time to observe because of the distance between these domains in the simulated structure. The simple statistical test employed by this paper in Figure 7, on a single simulation replicate, is also not fit for purpose \cite{knapp2018}. However, the pharmacological and biochemical results from this publication are certainly extremely successful in shedding light on the molecular nature of this mutation.
 
@@ -246,12 +245,12 @@ Through our MD simulations, we found that each of these rare mutations has a uni
 
 \section{Modulators Act Directly on CFTR to Restore its Function}
 \begin{figure}
-	\label{drugs_bound}
 	\begin{center}
 		\includegraphics[width=1\textwidth]{figures/drugs_bound_overall.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Modulators Bound to CFTR] {\textbf{Modulators Bound to CFTR}}{The structurally imaged binding sites of potentiators and type I correctors \cite{liu2019, fiedorczuk2022}. Potentiators in particular are proposed to bind to other sites as well \cite{yeh2019, liu2019}. Hydrogen bonds are labelled with purple dotted lines. Note how both visualised binding sites require substantial contributions from the surrounding lipid bilayer. The presence of these lipids will play an important role in the binding kinetics and energetics of these drugs \cite{csanady2019}. Future molecular studies should account for these nuances.} 
+	\label{drugs_bound}
 \end{figure}
 
 Since CFTR is at the heart of CF pathogenesis, it has been pursued for decades as target for therapeutics. Through high throughput \textit{in vitro} screening, four compounds which act directly on CFTR have been clinically approved for the treatment of CF. These drugs are known as CFTR modulators. They fall into two categories. Correctors, which aid CFTR to fold into the correct state and potentiators which help the channel reach the fully open state once it has folded correctly and integrated into the membrane. Since their discovery, several \textit {in vitro} biophysical experiments have investigated the mechanism of action and binding site of these compounds \cite{csanady2019,  laselva2022, yeh2017, yeh2019, fiedorczuk2022, krainer2018}. 
@@ -332,12 +331,12 @@ Subsequent chapters will make use of these organoids by testing them with a set 
 \subsection{Forskolin Induced Swelling to Assess CFTR Function}
 
 \begin{figure}
-	\label{FIS_figure}
 	\begin{center}
 	\includegraphics[width=1\textwidth]{figures/FIS_demo.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Forskolin Induced Swelling] {\textbf{Forskolin Induced Swelling}}{Upon exposure to Forskolin, epithelial cells begin to produce cAMP. This causes an increase in intracellular ATP which will open CFTR channels. The influx of water into the cell causes them to swell. The amount of swelling can be used to quantify the amount of properly functioning CFTR in the cell.} 
+	\label{FIS_figure}
 \end{figure}
 Forskolin Induced Swelling (FIS) assays can be used used to easily characterise the amount of functioning CFTR in a patients cells \cite{dekkers2013}. When epithelial cells are exposed to a chemical known as forskolin they begin to rapidly produce cyclic AMP (cAMP, a precursor to ATP in a cell) \cite{bonora2012}. The presence of ATP activates the CFTR ion channels, causing the cells themselves to swell due to the intake of moisture. When performed under a micropsope with patient derived orgnaoids, this swelling allows cell biologists to easily quantify the activity of CFTR within a cell in a variety of conditions, such as the presence of drugs.
 
@@ -369,12 +368,12 @@ In Ussing chamber measurements, current is usually expressed as amps per unit ar
 
 
 \begin{figure}
-	\label{ussing_chamber}
 	\begin{center}
 	\includegraphics[width=0.4\textwidth]{figures/ussing_chamber.jpg}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[Ussing Chamber Setup] {\textbf{Ussing Chamber Setup}}{Ussing chambers can be used to characterise the function of an epithelial monolayer. The membrane can be exposed to different cellular conditions and its conductance can be measured under these conditions to test different drugs. For our purposes, an Ussing chamber may be used to measure the ion transport of an epithelium grown from a patient derived organoid. Source \cite{hoenig2014}} 
+	\label{ussing_chamber}
 \end{figure}
 
 
