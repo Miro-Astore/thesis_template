@@ -1,5 +1,5 @@
 \chapter{A Physical Perspective on The Rescue of Mutant CFTR}
-\label{chap:conclusion}
+\label{chap:perspective}
 \chapquote {We have more problems than hands. }{- Eduardo Perozo (personal communication)}
 
 \section{Introduction}
@@ -8,7 +8,7 @@ The preceding chapters have fit into some broad themes. Chapters \ref{chap:intro
 
 We hope that this model will help inform our current understanding of the action of CFTR modulators and also direct future efforts in understanding the root cause of CF, and the development of therapeutics.
 
-Wee will begin with a brief overview of our results so far, analysing 4 rare CF-causing mutations which appear to respond to CFTR modulators even though they each have a unique molecular defect. We will then look at the molecular details of one of the best studied and most common disease causing Mutations G551D. 
+We will begin with a brief overview of our results so far, analysing 4 rare CF-causing mutations which appear to respond to CFTR modulators even though they each have a unique molecular defect. We will then look at the molecular details of one of the best studied and most common disease causing Mutations G551D. 
 
 We will show through simple unbiased MD that this mutation causes a disruption to the binding of ATP, resulting in a gating defect. As with previous chapters, this gating defect appears unique, sharing little in common with other defects we have analysed. This array of different disease phenotypes leads us to propose a model based on the gating energy landscape, which accounts for the rescue of unique phenotypes by a class of drugs all acting with the same mechanism of action. It is expected that this model can be used to build a granular understanding of different CF mutations and further, to .
 
@@ -24,7 +24,18 @@ We will end this chapter by giving some directions and studies for the necessary
 
 \section{Summary Of Rare Mutations studied so Far}
 
-Through our modelling we noticed another defect Q1291H appears to produce a similar molecular defect to G551D even though it affects a different domain of CFTR. G551D is much more common than Q1291H and so patients carrying the former may access potentiators. However, Q1291H is extremely rare, so rare in fact it has not been well characterised clinically \cite{}. We give these final results as a way forward for the theratyping of CFTR. It is unlikely that the course classification of 6 classes conventionally used to understand CFTR mutants can be used to theratype patients, a granular, molecular understanding will be needed to choose which mutations can be rescued by modulators, and we outline some computational studies which might be performed to help understand how this would work.
+	\begin{center}
+		\includegraphics[width=\textwidth]{figures/perspective/summary.pdf}
+	\end{center}
+\begingroup
+\captionsetup{singlelinecheck = false, justification=raggedright}
+\captionof {figure}[Summary of our Rare Mutation Studies] {\textbf{Summary of our Rare Mutation Studies}}{All of the mutations anlayised in this sthesis so far have been largely unique. They occur on different parts of the protein and cause misfunction through unique set of pathogenic interactions. Nonetheless, all of these mutations respond to potentiator class modulators. This situation demands that we tie together these reultes to explain how different pathogenicity can be treated by the same mecahnism of action.} 
+\endgroup
+
+
+Through our modelling we noticed another defect Q1291H appears to produce a similar molecular defect to G551D even though it affects a different domain of CFTR. G551D is much more common than Q1291H and so patients carrying the former may access potentiators. However, Q1291H is extremely rare, so rare in fact it has not been well characterised clinically \cite{cftr2}. A patient with this mutation presented to the sydney children's hospital and is currently unable to access modulator therapy. This situation is not uncommon and will likely to continue to become more common as rare forms of CF are discovered around the world.
+
+We give these final results as a way forward for the theratyping of CFTR. It is unlikely that the course classification of 6 classes conventionally used to understand CFTR mutants can be used to theratype patients, a granular, molecular understanding will be needed to choose which mutations can be rescued by modulators, and we outline some computational studies which might be performed to help understand how this would work.
 o
 
 As figure \ref{CF_life_expectancy} demonstrates, basic science discoveries concerning CF have had a direct effect on the life expectancy of patients. The work in this thesis is a small example of how abstract physical models, such as those outlined in \ref{chap:methods}, can be applied to help real patients in a community such as allowing patients in Sydney Children's hospital to access medications which could add decades to their life span. We are entering an exciting era of biophysical research where advances in theoretical methods, computing power and experimental techniques are beginning to drive advances in each other at a frenetic pace. An example can be seen in the development of Alphafold2. The maturation of cryoEM allowed the discovery of new protein folds which Alphafold2's machine learning algorithms could then learn from. Now that the algorithm had these folds in hand it could predict entire proteomes. This now means that structural biologists can use the predictions of alphafold to solve even more structures more quickly. Eventually, more and more of the experimental work currently involved in biology will move onto the silicon chip, while experimental techniques will advance in other areas. Similarly, the theoretical model argued for in this thesis will eventually allow for patient assessments to be made \textit{in silico}
@@ -60,14 +71,13 @@ The second and harder to resolve controversy concern the role of TM8. This trans
 
 The arguments for the bend in the helix appear to be unphysical. In cryoEM structures, we can observe that the bent conformation is stabilised by salt bridges R347-D924 and E873-R933. The former bond has been well studied experimentally and was expected in the 3d structure. Additionally, all hydrogen bonds along the in the bent helix are . Been observed to be stable in MD \cite{corradi2018} .  is energetically stable.
 
-Finally, simulations of both human and zebra fish structures were used to study the stability of TM8 \cite{corradi2018}. As we will discuss in detail in chapter \ref{chap:conclusion} all CFTR structures solved by the Chen lab exhibit an unusual fold in TM8 \cite{fiedorczuk2021, liu2017, liu2019, zhang2016, zhang2018a, zhang2017a}. The helix unwinds in the middle of the membrane, a configuration that was initially thought to be energetically unfavourable but more recent studies have supported this conclusion. This prompted some questions surrounding the protocols used to purify and image the protein. Hence, simulations were employed in order to test whether this kinked configuration would be stable in a lipid bilayer surrounded by a solvent. It was found that the kinked configuration of TM8 was indeed stable on microsecond timescales, with some interesting deformations introduced to the surrounding membrane \cite{corradi2018}. The simulations of hCFTR in this thesis have also been consistent with these findings. These results indicate that this unusual conformation of TM8 is likely correct. Additionally, \textit{in vitro} findings would also appear consistent with this conformation of TM8 \cite{infield2021}. In particular, it was demonstrated that disulfide bridges could be  spontaneously formed when cysteines were substituted in place of Y914 on TM8 and L102 on TM1, as well as other pairs of amino acids on both TM8 and TM6 \cite{negoda2019}. This stood as strong evidence that TM8 is a pore lining helix, consistent with the kinked conformation observed in cryo-EM studies.
+Finally, simulations of both human and zebra fish structures were used to study the stability of TM8 \cite{corradi2018}. As we will discuss in detail in chapter \ref{chap:perspective} all CFTR structures solved by the Chen lab exhibit an unusual fold in TM8 \cite{fiedorczuk2021, liu2017, liu2019, zhang2016, zhang2018a, zhang2017a}. The helix unwinds in the middle of the membrane, a configuration that was initially thought to be energetically unfavourable but more recent studies have supported this conclusion. This prompted some questions surrounding the protocols used to purify and image the protein. Hence, simulations were employed in order to test whether this kinked configuration would be stable in a lipid bilayer surrounded by a solvent. It was found that the kinked configuration of TM8 was indeed stable on microsecond timescales, with some interesting deformations introduced to the surrounding membrane \cite{corradi2018}. The simulations of hCFTR in this thesis have also been consistent with these findings. These results indicate that this unusual conformation of TM8 is likely correct. Additionally, \textit{in vitro} findings would also appear consistent with this conformation of TM8 \cite{infield2021}. In particular, it was demonstrated that disulfide bridges could be  spontaneously formed when cysteines were substituted in place of Y914 on TM8 and L102 on TM1, as well as other pairs of amino acids on both TM8 and TM6 \cite{negoda2019}. This stood as strong evidence that TM8 is a pore lining helix, consistent with the kinked conformation observed in cryo-EM studies.
 
 However, there are still some unanswered questions for the discrepancy between the solved human and solved chicken structures. Certain salt bridges are not present in the latter structure and so single channel electrophysiology experiments may be able to resolve these issues. For example, in 6MSM, the human structure of CFTR there is a salt bridge between amino acids 933 and D873 which is not present in the chCFTR structures. This bond is also present in the zCFTR structure 5W81. If a charge swapped mutant such as R933E/E873R restores WT-like gating behaviour to the channel it would be  strong evidence for the unwound conformation of TM8. 
 
 The two proposed conformations also have vastly different ion permeation pathways, and so blockers engineered to target one conformatoin over the other would also go a long way to answering these questions. The available evidence strongly favors the R334 pathway between TM1 and TM6. Such as experiments to  demonstrate the blockage of current with zinc have shown that mutations to R334 strongly suggest that chloride permeates along this route. Additionally, trhere are several disease causing mutations in the region surrounding R334, such as R334W, R117H, E116K, D110H, I336K\cite{cftr2}. This permeation route also explains the rationale behind the gain of function mutation F337A \cite{}. Determining which model is correct has wide implications for creating the next generation of mutation targeted potentiator class drugs.
 
-\cite{gao2015} also concluded that the chloride opening lined TM6. The findings that TM1 and TM6 move apart form eachother in \cite{negoda2018} also support this conclusion (this is consistent with our open model). Which is more consistent with the 6MSM model than the chicken structure.
-
+\cite{gao2015} also concluded that the chloride opening lined TM6. The findings that TM1 and TM6 move apart form eachother in \cite{negoda2018} also support this conclusion (this is also more consistent with our open model in chapter \ref{chap:opening}). Which is more consistent with the 6MSM model than the chicken structure.
 The chicken structure has undermised NBDs, this is inconsistent with biochemical assays that dimerisation is tightly coupled to the dimerisation of NBDs\cite{vergani2005, yeh2021}.
 
 Mutagenesis studies of the outer pore would strongly support the Chen structure over the chicken streucture. In particular, Paul Linsdell performed very careful experiments to measure blockage chloride blockage and found that several residues play an important role in the permeation of chloride in the outer pore. In the chicken structure these residues are occluded and far from the chloride permeation pathway. However, in the Chen structure they appear to play an important role in the permeation of chloride. This will be discussed in detail in \ref{chap:opening}.
@@ -88,6 +98,15 @@ In chapter \ref{chap:I37R}, \ref{chap:R352Q}, \ref{chap:S945L} and \ref{chap:ope
 
 
 The above model in figure \ref{drug_action_model} gives a rational, physical basis for the wide range of molecular phenotypes that CFTR modulators appear capable of treating. This same model would appear to argue that for most missense mutations we would expect them to respond to some sort of CFTR modulator. In short, the preceding chapters have shown that CFTR may misfunction by a wide range of defects. 
+
+	\begin{center}
+		\includegraphics[width=\textwidth]{figures/perspective/G551D.pdf}
+	\end{center}
+\begingroup
+\captionsetup{singlelinecheck = false, justification=raggedright}
+\captionof {figure}[Summary of our Rare Mutation Studies] {\textbf{Summary of our Rare Mutation Studies}}{All of the mutations anlayised in this sthesis so far have been largely unique. They occur on different parts of the protein and cause misfunction through unique set of pathogenic interactions. Nonetheless, all of these mutations respond to potentiator class modulators. This situation demands that we tie together these reultes to explain how different pathogenicity can be treated by the same mecahnism of action.} 
+\endgroup
+
 
 This model has important implications. We should be giving more patients modulators. Missense mutations likely represent a small perturbation to the folding and gating landscape of the WT channel and such . I assert that any heterogeneous response to modulators is not in fact to do with the mutation or the modulators them selves but likely involves other protein systems. Some of the uncertainty can be alleviated by the use of pre-clinical models which should be able to clear . Currently a range of missense mutations are recomended for treatment by trikafta but . Their current exclusion from accessing these therapies is errant. The above model suggests that when a patient carrying such a rare mutation does not respond to modulator therapy, it is unlikely that the lack of aresponse is due to the inability of these modulators to rescue the function of CFTR. From the perspective of protein physics, $\Delta$F508 is likely to perturb the protein much more than any missense mutation \cite{}. Rather, it is more likely that if a patient does not respond to modulators it is due to the broader heterogeneous response to modulators found in all patients. 
 \begin{itemize}
@@ -120,6 +139,15 @@ In recent years there have been a slew of rare CF-causing genotypes discovered i
 \end{figure}
 
 The ongoing discovery of rare mutations highlights the importance of this personalised approach to the treatment of CF. The process for developing potentiator class drugs was by studying the G551D mutation. Drugs that were found to restore function for this rare mutation are now widely used by sufferers of cystic fibrosis \cite{}. The study of rare mutations N1303K which currently do not respond to certain modulators may lead to the discovery of more effective compounds to treat cystic fibrosis such as. Thus, the approach to the treatment of Cystic Fibrosis is intersectional, as more rare mutations are discovered and treated the better the outcomes for all patients with Cystic Fibrosis will be. Each rare mutation sheds light on the function of CFTR and lets us understand and treat the root cause of the disease better.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=\textwidth]{figures/perspective/Q1291.pdf}
+	\end{center}
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption[Molecular Basis of Q1291F-CFTR Pathogenesis]{\textbf{Molecular Basis of Q1291F-CFTR Pathogenesis.}{This mutation occurs on NBD2, in the vicinity of site 1, the catalytic ATP binding site. It appears as though this mutation also causes disruption to the binding of this ATP molecule, much like G551D. Q1291F is also included as it more reliably produces the molecular perturbation which we expect is characteristic of the Q1291H mutation. }}
+
+\end{figure}
 
 
 
