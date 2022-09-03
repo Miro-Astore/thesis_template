@@ -96,13 +96,13 @@ We observed that the dilated structure was stable on this time-scale and produce
 	\endgroup
 
 
-\subsection{This open conformation gives rise to a novel salt bridge}
+\subsection{The Open Conformation is Stabilised by the R334-E1126 Salt Bridge}
 \label{salt_bridge}
 The Free energy surface in figure \ref{summary_FES}A demonstrates molecular contributions which might stabilise this open configuration. It was possible that the dilatied structure was stabilised by simple hydrophylic interactions, as previous work has shown that the pore can wet and de-wet \cite{}, but we were curious if there were some novel protien-protein interactions which might be contributing to the discovered stable strcuture. 
 
 In order to look for molecular interactions which might stabilise this open conformation, we inspected the interactions between pairs of positive and negative amino acids. It was found that a link between R334 and  E1126 could form in this new open state but not in the cryo-EM structure (Figure \ref{salt_bridge_fig}). This was possible due to the motions of TM6 and TM1, allowing E1126 on ECL5 to come closer to TM6. We expect this new salt bridge to be an important determining factor in stabilising the conducting conformation of CFTR.  
 
-This is a novel interaction, where traces casn be found in the literature but not defninitilvey so given the important role of R334 in ion conductivity and gating. The implications of this will be outlined in the Discussion.
+This is a novel interaction we have discoverd through the use of simulations.  Suggestions that this salt bridge exists can be found in the literature, but it has not been described in detail because of the the important role of R334 in ion conductivity and gating \cite{}. The implications and means of testing this will be outlined in the Discussion.
 
 \begin{figure}
 	\label{salt_bridge_fig}
@@ -113,7 +113,7 @@ This is a novel interaction, where traces casn be found in the literature but no
 	\caption[The Dilated Conformation of CFTR Gives Rise to the R334-E1126 Salt Bridge] {\textbf{The Dilated Conformation of CFTR Gives Rise to the R334-E1126 Salt Bridge}}{A) A comparison between cryo-EM and dilated CFTR structures. In the cryo-EM structure, R334 and E1126 are far apart and do not make contact. In the dilated structure, the transmembrane helices rearrange such that R334 and E1126 make contact. B) In simulations of the cryo-EM structure, the salt bridge is never formed. However, in the dilated structure R334 and E1126 come close together and form a stable salt bridge. We believe that this salt bridge gives a significant energy contribution to the stability of the open channel. }
 \end{figure}
 
-\subsection{Proving the Open Conformation is capable of ion conduction with Umbrella Sampling}
+\subsection{Proving the Open Conformation is Capable of Ion Conduction with Umbrella Sampling}
 
 In order to test the ability of the dilated structure to the conduct anions, we employed umbrella sampling. No restraints were placed on the configuration of the transmembrane helices during these free energy calculations. We constructed 4 PMFs this way, studying the conduction of chloride ions in the collapsed Cryo-EM structure, the dilated structure, and the dilated structure of R334W-CFTR. The latter 
 
@@ -238,7 +238,7 @@ The minimisation and equilibration steps for these simulations were largely carr
 \label {supp_cv_choice}
 Using principal component analysis on proteins can be difficult. PCA specialises in choosing the vectors which capture the \textit{largest} variation in a dataset. By contrast, when we are performing free energy calculations, where we would wish to capture the \textit{slowest} motions to accelerate \cite{noe2001}. 
 
-So, when performing PCA on proteins, without excluding them, the motion of large, disordered loops would dominate the analysis. Hence, we limited our analysis to the amino acids in the transmembrane helices in Table \ref{red_alpha_carbons_table}. 
+So, when performing PCA on proteins, without excluding them, the motion of large, disordered loops would dominate the analysis. Hence, we limited our analysis to the amino acids in the transmembrane helices in Table \ref{red_alpha_carbons_table}. The four unbiased trajectories were combined using \verbatim{gmx trjcat}, PCA was perormed using using \verbatim {gmx covar} and finally the vectors were analysed and visualised using \verbatim {gmx anaeig}. The concatenation of the unbiased trajectories in this way is mathematically valid as when PCA is performed in this way on a set 3d coordinates it is agnostic to the temporal aspect of the data fed into the algorithm \cite{}.
 
 For the sake of performance, a smaller subset of amino acids were then chosen to actually manipulate the pore of CFTR in the OPES-Metadynamics simulations. These calculations were expensive and the more atoms included in our CVs the slower the calculations were run, so the amino acids highlighted in red in Table \ref{red_alpha_carbons_table} were chosen for furhter analysis. These were the pore lining amino acids and our choses closely reflect those of previous studies (Figure \ref{pore_lining_PCA}) \cite{hoffmann2018}. 
 
