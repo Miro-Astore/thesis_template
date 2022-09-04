@@ -6,13 +6,15 @@
 
 The preceding chapters have fit into some broad themes. Chapters \ref{chap:introduction} and \ref{chap:methods} outlined a philosophy of biological physics which we seek to use to understand Cystic Fibrosis. Meanwhile chapters \ref{chap:I37R}-\ref{chap:opening} built up a molecular understanding of the root cause of Cystic Fibrosis and what a new class of drugs are doing to treat it. In this chapter we will tie these results together. We will build a physical perspective on the rescue of mutant CFTR by potentiator drugs. A similar model could be built for corrector drugs, or even used to think about the modulation of protein by a small molecule.
 
-We hope that this model will help inform our current understanding of the action of CFTR modulators and also direct future efforts in understanding the root cause of CF, and the development of therapeutics.
+We hope that this model will inform our current understanding of the action of CFTR modulators and also direct future efforts in treating the root cause of Cystic Fibrosis.
 
 We will begin with a brief overview of our results so far, analysing 4 rare CF-causing mutations which appear to respond to CFTR modulators even though they each have a unique molecular defect. We will then look at the molecular details of one of the best studied and most common disease causing Mutations G551D. 
 
-We will show through simple unbiased MD that this mutation causes a disruption to the binding of ATP, resulting in a gating defect. As with previous chapters, this gating defect appears unique, sharing little in common with other defects we have analysed. This array of different disease phenotypes leads us to propose a model based on the gating energy landscape, which accounts for the rescue of unique phenotypes by a class of drugs all acting with the same mechanism of action. It is expected that this model can be used to build a granular understanding of different CF mutations and further, to .
+We will show through simple unbiased MD that this mutation causes a disruption to the binding of ATP, resulting in a gating defect. As with previous chapters, this gating defect appears unique, sharing little in common with the other gating defects we analysed previously. This array of different disease phenotypes leads us to propose a model based on the gating energy landscape, which accounts for the rescue of unique phenotypes by a class of drugs all acting with the same mechanism of action. 
 
-In this chapter we will give a small example of this paradigm. Our simulations of G551D and Q1291H appear to show a similar molecular phenotyope, even though they occur on different parts of the protein. Q1291H is an extremely rare mutation, it has not been clinicarlly characteriesd and is not approved for treatment with modulators. So, by studying a common mutation, G551D and comparing it to Q1291H we give an example of theratyping of CF mutations from the molecular level.
+We will then use this model to demonstrate how to theratype rare mutations at the molecular level. We will show how a poorly studied mutation, Q1291H appears to exhibit a similar molecular phenotype to G551D, leading us to expect that it will be amenable to potentiation by CFTR modulators, even though patients carrying this mutation are currently excluded from receiving treatment via modulators. 
+
+%Our simulations of G551D and Q1291H appear to show a similar molecular phenotyope, even though they occur on different parts of the protein. Q1291H is an extremely rare mutation, it has not been clinicarlly characteriesd and is not approved for treatment with modulators. So, by studying a common mutation, G551D and comparing it to Q1291H we give an example of theratyping of CF mutations from the molecular level.
 
 We will end this chapter by giving some directions and studies for the necessary work to complete this model. This research falls into 3 categories
 
@@ -22,7 +24,9 @@ We will end this chapter by giving some directions and studies for the necessary
 	\item Elucidating the molecular mechanism of action of different CFTR modulators. 
 \end{itemize}
 
-\section{Summary Of Rare Mutations studied so Far}
+We will also suggest \textit{in silico} studies to further research in each of these areas.
+
+\section{Summary Of Rare Mutations Studied so Far}
 
 	\begin{center}
 		\includegraphics[width=\textwidth]{figures/perspective/summary.pdf}
@@ -32,8 +36,10 @@ We will end this chapter by giving some directions and studies for the necessary
 \captionof {figure}[Summary of our Rare Mutation Studies] {\textbf{Summary of our Rare Mutation Studies}}{All of the mutations anlayised in this sthesis so far have been largely unique. They occur on different parts of the protein and cause misfunction through unique set of pathogenic interactions. Nonetheless, all of these mutations respond to potentiator class modulators. This situation demands that we tie together these reultes to explain how different pathogenicity can be treated by the same mecahnism of action. All of the mutations here have shown clinical benefit from the use of potenitaors, particularly in a triple combination therapy like Trikafta. } 
 \endgroup
 
+In chapters \ref{chap:I37R}-\ref{chap:opening} we demonstrated that a diverse set of molecular defects respond to CFTR modulators. Potentiation was possible in each case. This diversity of disfunction complimented by the treatment of each defect by a common mechanism of action leads us to believe that the majority of disease causing missense mutations will be amenable to treatment via CFTR modulators. 
 
-Through our modelling we noticed another defect Q1291H appears to produce a similar molecular defect to G551D even though it affects a different domain of CFTR. G551D is much more common than Q1291H and so patients carrying the former may access potentiators. However, Q1291H is extremely rare, so rare in fact it has not been well characterised clinically, only 30 alleles with this mutation have been recorded in the world \cite{cftr2}. A patient with this mutation presented to the sydney children's hospital and is currently unable to access modulator therapy. This situation is not uncommon and will likely to continue to become more common as rare forms of CF are discovered around the world.
+
+Through our molecular modelling we noticed another defect, Q1291H appears to produce a similar molecular defect to G551D even though it affects a different domain of CFTR. G551D is much more common than Q1291H and so patients carrying the former may access potentiators. However, Q1291H is extremely rare, so rare in fact it has not been well described clinically, only 30 alleles with this mutation have been recorded in the world \cite{cftr2}. A patient with this mutation presented to the sydney children's hospital and is currently unable to access modulator therapy, due to insufficeitn study of this mutation. We believe there is a high likelihood that the mutant CFTR which this patient carries will respond to CFTR modulators.  
 
 We give these final results as a way forward for the theratyping of CFTR. It is unlikely that the course classification of 6 classes conventionally used to understand CFTR mutants can be used to theratype patients, a granular, molecular understanding will be needed to choose which mutations can be rescued by modulators, and we outline some computational studies which might be performed to help understand how this would work.
 o
@@ -48,7 +54,57 @@ The model we will propose raises the importance of some outstanding fundamental 
 
 As such, the areas which deserve the most attention for molecular studies of CFTR are to address the controversies surrounding its structure and elucidate the action of drug binding. Together these will allow a clearer understanding of CFTRs function in health and misfunction in disease, enableing more targeted drug development. Current generation modulators have been identified using high throughput screening, the new generation of high computational power, artificial intelligence and structural data will allow a more targeted, perhaps even mutation specific approach to the design of new modulators.
 
+\section{A Physics Motivated Model for the Molecular Modulation of Mutant CFTR }
+In chapter \ref{chap:I37R}, \ref{chap:R352Q}, \ref{chap:S945L} and \ref{chap:opening} we have analysed a disease causing mutation in detail in order to understand \textit{how} it caused CFTR to misfunction. What have found is a large diversity of molecular phenotypes which may cause disease. What is thus remarkable is that the \textit{in vitro} component of these papers all demonstrate that these mutations are responding to the same drugs, albeit with differing efficacies.
+
+
+
+	\begin{center}
+		\includegraphics[width=\textwidth]{figures/perspective/G551D.pdf}
+	\end{center}
+\begingroup
+\captionsetup{singlelinecheck = false, justification=raggedright}
+\captionof {figure}[Summary of our Rare Mutation Studies] {\textbf{Summary of our Rare Mutation Studies}}{All of the mutations anlayised in this sthesis so far have been largely unique. They occur on different parts of the protein and cause misfunction through unique set of pathogenic interactions. Nonetheless, all of these mutations respond to potentiator class modulators. This situation demands that we tie together these reultes to explain how different pathogenicity can be treated by the same mecahnism of action.} 
+\endgroup
+
+
+This model has important implications. We should be giving more patients modulators. Missense mutations likely represent a small perturbation to the folding and gating landscape of the WT channel and such . I assert that any heterogeneous response to modulators is not in fact to do with the mutation or the modulators them selves but likely involves other protein systems. Some of the uncertainty can be alleviated by the use of pre-clinical models which should be able to clear . Currently a range of missense mutations are recomended for treatment by trikafta but . Their current exclusion from accessing these therapies is errant. The above model suggests that when a patient carrying such a rare mutation does not respond to modulator therapy, it is unlikely that the lack of aresponse is due to the inability of these modulators to rescue the function of CFTR. From the perspective of protein physics, $\Delta$F508 is likely to perturb the protein much more than any missense mutation \cite{}. Rather, it is more likely that if a patient does not respond to modulators it is due to the broader heterogeneous response to modulators found in all patients. 
+\begin{itemize}
+	\item Chapter \ref{chap:I37R} demonstrated that a novel form of pathogenesis arises from inter domain communications between the lasso motif and the R-domain.  This caused a class II gating defect. 
+\item Chapter \ref{chap:R352Q} showed how a conductance class defect may arise from the deletion of a positive charge in the conduction pathway of the channel. The destruction of the salt bridge inside the channel may also affect the gating of the channel according to biochemical experiments \cite{}.
+\item Chapter \ref{chap:S945L} showed how a stable network of hydrogen bonds allows the channel to fold correctly and aided in the gating cycle of the channel. 
+\item Chapter \ref{chap:opening} demonstrated again that the deletion of a positive charge in the conduction pathway reduces anion conduction. However, this was in a completely different part of the channel compared to the R352Q study.
+\end{itemize}
+
+These molecular phenotypes are completely unique. They occur in completely different parts of the CFTR protein other on the CFTR protein. What is thus remarkable is that they all appear to respond to the same set of CFTR modulators in \textit{in vitro} experiments. There is no reason why we would expect CFTR proteins which differ from wild type only by missense mutations to not respond to these clearly very effective drugs.
+
+There is no reason to beleive that even in patients who do not show benefit from modulator therapy that the drugs are for some reason not reaching the CFTR protein. Infact, they seem to metabolise the drugs at teh same rate as patients who do. The success of preclinical models indicates that the problem is the cellular level and not at the level of organs or tissues. There is probably some genetic or cellular component that has not yet been identified which, once addressed, could bring the benefits of modulators to these patients.
+
+\section{A Physics Motivated Approach to Precision Medicine in Cystic Fibrosis}
+
+
+In recent years there have been a slew of rare CF-causing genotypes discovered in populations with low rates of Cystic Fibrosis compared to Caucasians. These genotypes from Asia and the Middle East are often ultra-rare leading to poor outcomes for these patients \cite{}. 
+
+
+
+	\begin{center}
+	\includegraphics[width=\textwidth]{figures/drug_landscape_1.pdf}\\
+	\includegraphics[width=\textwidth]{figures/drug_landscape_3.pdf}\\
+	\end{center}
+	\begingroup
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\captionof{figure}[Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators]{\textbf{Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators}{ This model was produced to explain the apparent ability of CFTR modulators to treat rare mutations with a diverse set of phenotypes. A) The transition between the resting closed state and fully open state of CFTR can be visualised as a movement through an energy landscape. Along this transition various events must occur, such as the movement of the R-domain, ATP-binding and the rearrangements of the different domains of CFTR. Each of these events will have an energetic cost and payoff, giving rise to peaks and troughs in the free energy landscape of this transition. The relative heaths of peaks and troughs here are for illustrative purposes only, but quantitative techniques to calculate them will have important implications for the treatment of CF and drug discovery B) Gating class CF-causing mutations represent pathogenic barriers to this transition. They may effect different parts of the energy landscape. For example, we have shown that G551D causes a disruption to the binding of ATP, while in chapter \ref{chap:I37R}, we saw a gating defect arise in I37R-CFTR from the misregulation of the position of the R-domain. This demonstrates how pathogenesis can arise in many different ways in CFTR. Furthermore, accompanying \textit{in vitro} studies of these mutations demonstrated that these unique mutations each respond to potentiator class modulators. This indicates that the action of potentiators is \underline{somewhere else} in this free energy landscape, relative to the perturbation caused by mutation. By understanding \textit{where} mutations are causing gating inhibition and \textit{how} drugs are accounting for the deleterious energetics, we can begin to build a molecular basis for the choice of modulators, tailored to particular patients.}}
+	\label{drug_action_model}
+
+	\endgroup
+
+The above model in figure \ref{drug_action_model} gives a rational, physical basis for the wide range of molecular phenotypes that CFTR modulators appear capable of treating. This same model would appear to argue that for most missense mutations we would expect them to respond to some sort of CFTR modulator. In short, the preceding chapters have shown that CFTR may misfunction by a wide range of defects. 
+
+The ongoing discovery of rare mutations highlights the importance of this personalised approach to the treatment of CF. The process for developing potentiator class drugs was by studying the G551D mutation. Drugs that were found to restore function for this rare mutation are now widely used by sufferers of cystic fibrosis \cite{vangoor2009}. The study of rare mutations N1303K which currently do not respond to certain modulators may lead to the discovery of more effective compounds to treat cystic fibrosis such as. Thus, the approach to the treatment of Cystic Fibrosis is intersectional, as more rare mutations are discovered and treated the better the outcomes for all patients with Cystic Fibrosis will be. Each rare mutation sheds light on the function of CFTR and lets us understand and treat the root cause of the disease better.
+
 \section{Addressing Controversies Surrounding the Structure of CFTR}
+
+Since the release of full length CFTR structures there have been some controversies surrounding their structure. These centered around the unusual conformation of TM8.
 
 \subsection{CFTR is a Unique ABC Transporter}
 
@@ -84,60 +140,16 @@ Mutagenesis studies of the outer pore would strongly support the Chen structure 
 
 A study assessing the accuracy of Alphafold's predictions of transmembrane protein structures found an intersting result. When alphafold made predictions that involved the use of templates it predicts the unwound conformation of TM8. On the other hand, when templates are removed from alphafolds predictions it predicts a straight TM8 conformation, very similar to that found in chCFTR. The authors of this study suggested the reason for the discrepancy was due to the use of detergents in the deteremination of the structure of hCFTR. However, careful reading of cryo-EM literature reveals no examples where the use of detergents has resulted in such drastic conformational changes. One of the few examples where both detergents and native-like nanodisks were used to determine the structure of a protein are the determinations of the structure of TRPV1. These studies revealed no difference to the backbone helices but did suggest important information about the importance of different interactions with lipids\cite{gao2016}. A lot of work has been performed in order to create detergents which reflect a native lipid environment and these are the species that were used in the determination of the human CFTR structure (albeit at a higher than optimal concentration) \cite{gao2016, zhang2018, kampjut2021}. 
 
-The authors of the chCFTR paper suggested that the different expression systems used in the two studies could be the reason for the discrepancy between the two systems, due it their different post translational processing apparatus. Although both groups used mammalian cell lines the chCFTR paper used hamster? cells \cite{aleksandrov2015} and the Chen lab used HEK293S cells. The chicken structure also underwent significant mutations in order to be locked open and imaged. The regulatory insertion was deleted in order to aid in the purification of the protein. 
+%The authors of the chCFTR paper suggested that the different expression systems used in the two studies could be the reason for the discrepancy between the two systems, due it their different post translational processing apparatus. Although both groups used mammalian cell lines the chCFTR paper used hamster? cells \cite{aleksandrov2015} and the Chen lab used HEK293S cells. The chicken structure also underwent significant mutations in order to be locked open and imaged. The regulatory insertion was deleted in order to aid in the purification of the protein. 
 
 Figure \ref{} shows the large diversity of structures in type IV ABC transporters, many of which also exhibit bends within transmembrane helices\cite{thomas2020}. Although none of these structures exhibit such a bend in TM8 specifically, the 
 
 \ref{negoda2019} gives strong evidence that TM8 must line the conduction pore. Due to its proximity to F337 and other pore lining amino acids. This is more consistent with the Chen structure than the chicken structure where 337 is far from the conduction pore. Their findings are also consistent with our open structure, proposed in \ref{chap:opening}, where distances between the cross linked sidechains F337C/Y914C, are found to be very stable in experiment, but the sidechains of L102C/Y914C are found to be more exposed to the extracellular environment. In the chicken structure no such cystine crosslinking would be possible as TM8 is too far from TM1 and 6 for these sidechains to link. This is strong evidence for the Chen structure.
 
+These controversies have recently been resolved by careful work from the laboratory of Jonathan F. Fay to reconstitute and image CFTR in a nanodisc \cite{aleksandrov2022}. This technique seeks to understand membrane proteins in a physical environment which more closely reflects what is find \textit{in vivo} \cite{}. In this study, the authors found that TM8 exhibits signicant flexbility, favoring the kinked conformation found by the Chen lab.
+
 Ultimately, this is a difficult problem in all structural biology. Even though we are gaining an unprecedented view into protein physics with the resolution revolution we have still only sampled an extremely small part of sequence space. With all our cryo-EM, simulations and biochemical assays we still have much to learn about these incredible molecular machines.
 
-\section{A Physics Motivated Model for the Molecular Modulation of Mutant CFTR }
-In chapter \ref{chap:I37R}, \ref{chap:R352Q}, \ref{chap:S945L} and \ref{chap:opening} we have analysed a disease causing mutation in detail in order to understand \textit{how} they cause CFTR to misfunction. What we have found is a large diversity of molecular phenotypes which may cause disease. What is thus remarkable is that the \textit{in vitro} component of these papers all demonstrate that these mutations are responding to the same drugs, albeit with differing efficacies.
-
-
-
-The above model in figure \ref{drug_action_model} gives a rational, physical basis for the wide range of molecular phenotypes that CFTR modulators appear capable of treating. This same model would appear to argue that for most missense mutations we would expect them to respond to some sort of CFTR modulator. In short, the preceding chapters have shown that CFTR may misfunction by a wide range of defects. 
-
-	\begin{center}
-		\includegraphics[width=\textwidth]{figures/perspective/G551D.pdf}
-	\end{center}
-\begingroup
-\captionsetup{singlelinecheck = false, justification=raggedright}
-\captionof {figure}[Summary of our Rare Mutation Studies] {\textbf{Summary of our Rare Mutation Studies}}{All of the mutations anlayised in this sthesis so far have been largely unique. They occur on different parts of the protein and cause misfunction through unique set of pathogenic interactions. Nonetheless, all of these mutations respond to potentiator class modulators. This situation demands that we tie together these reultes to explain how different pathogenicity can be treated by the same mecahnism of action.} 
-\endgroup
-
-
-This model has important implications. We should be giving more patients modulators. Missense mutations likely represent a small perturbation to the folding and gating landscape of the WT channel and such . I assert that any heterogeneous response to modulators is not in fact to do with the mutation or the modulators them selves but likely involves other protein systems. Some of the uncertainty can be alleviated by the use of pre-clinical models which should be able to clear . Currently a range of missense mutations are recomended for treatment by trikafta but . Their current exclusion from accessing these therapies is errant. The above model suggests that when a patient carrying such a rare mutation does not respond to modulator therapy, it is unlikely that the lack of aresponse is due to the inability of these modulators to rescue the function of CFTR. From the perspective of protein physics, $\Delta$F508 is likely to perturb the protein much more than any missense mutation \cite{}. Rather, it is more likely that if a patient does not respond to modulators it is due to the broader heterogeneous response to modulators found in all patients. 
-\begin{itemize}
-	\item Chapter \ref{chap:I37R} demonstrated that a novel form of pathogenesis arises from inter domain communications between the lasso motif and the R-domain.  This caused a class II gating defect. 
-\item Chapter \ref{chap:R352Q} showed how a conductance class defect may arise from the deletion of a positive charge in the conduction pathway of the channel. The destruction of the salt bridge inside the channel may also affect the gating of the channel according to biochemical experiments \cite{}.
-\item Chapter \ref{chap:S945L} showed how a stable network of hydrogen bonds allows the channel to fold correctly and aided in the gating cycle of the channel. 
-\item Chapter \ref{chap:opening} demonstrated again that the deletion of a positive charge in the conduction pathway reduces anion conduction. However, this was in a completely different part of the channel compared to the R352Q study.
-\end{itemize}
-
-These molecular phenotypes are completely unique. They occur in completely different parts of the CFTR protein other on the CFTR protein. What is thus remarkable is that they all appear to respond to the same set of CFTR modulators in \textit{in vitro} experiments. There is no reason why we would expect CFTR proteins which differ from wild type only by missense mutations to not respond to these clearly very effective drugs.
-
-There is no reason to beleive that even in patients who do not show benefit from modulator therapy that the drugs are for some reason not reaching the CFTR protein. Infact, they seem to metabolise the drugs at teh same rate as patients who do. The success of preclinical models indicates that the problem is the cellular level and not at the level of organs or tissues. There is probably some genetic or cellular component that has not yet been identified which, once addressed, could bring the benefits of modulators to these patients.
-
-\section{A Physics Motivated Approach to Precision Medicine in Cystic Fibrosis}
-
-
-In recent years there have been a slew of rare CF-causing genotypes discovered in populations with low rates of Cystic Fibrosis compared to Caucasians. These genotypes from Asia and the Middle East are often ultra-rare leading to poor outcomes for these patients \cite{}. 
-
-
-
-\begin{figure}
-	\label{drug_action_model}
-	\begin{center}
-	\includegraphics[width=\textwidth]{figures/drug_landscape_1.pdf}\\
-	\includegraphics[width=\textwidth]{figures/drug_landscape_3.pdf}\\
-	\end{center}
-	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\captionof{figure}[Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators]{\textbf{Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators}{ This model was produced to explain the apparent ability of CFTR modulators to treat rare mutations with a diverse set of phenotypes. A) The transition between the resting closed state and fully open state of CFTR can be visualised as a movement through an energy landscape. Along this transition various events must occur, such as the movement of the R-domain, ATP-binding and the rearrangements of the different domains of CFTR. Each of these events will have an energetic cost and payoff, giving rise to peaks and troughs in the free energy landscape of this transition. The relative heaths of peaks and troughs here are for illustrative purposes only, but quantitative techniques to calculate them will have important implications for the treatment of CF and drug discovery B) Gating class CF-causing mutations represent pathogenic barriers to this transition. They may effect different parts of the energy landscape. For example, we have shown that G551D causes a disruption to the binding of ATP, while in chapter \ref{chap:I37R}, we saw a gating defect arise in I37R-CFTR from the misregulation of the position of the R-domain. This demonstrates how pathogenesis can arise in many different ways in CFTR. Furthermore, accompanying \textit{in vitro} studies of these mutations demonstrated that these unique mutations each respond to potentiator class modulators. This indicates that the action of potentiators is \underline{somewhere else} in this free energy landscape, relative to the perturbation caused by mutation. By understanding \textit{where} mutations are causing gating inhibition and \textit{how} drugs are accounting for the deleterious energetics, we can begin to build a molecular basis for the choice of modulators, tailored to particular patients.}}
-\end{figure}
-
-The ongoing discovery of rare mutations highlights the importance of this personalised approach to the treatment of CF. The process for developing potentiator class drugs was by studying the G551D mutation. Drugs that were found to restore function for this rare mutation are now widely used by sufferers of cystic fibrosis \cite{}. The study of rare mutations N1303K which currently do not respond to certain modulators may lead to the discovery of more effective compounds to treat cystic fibrosis such as. Thus, the approach to the treatment of Cystic Fibrosis is intersectional, as more rare mutations are discovered and treated the better the outcomes for all patients with Cystic Fibrosis will be. Each rare mutation sheds light on the function of CFTR and lets us understand and treat the root cause of the disease better.
 
 \begin{figure}
 	\begin{center}
