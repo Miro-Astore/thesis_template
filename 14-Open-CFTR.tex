@@ -64,7 +64,7 @@ Choosing CVs from these unbiased statistics is not trivial. In post processing, 
 
 The first two Principal Components represented 38\% of the kinetic variance in the unbiased data. Additionally, they appeared to capture motions in TM1 and TM6. Theses motions appeared to dilate the extracellular pore in a location we expected from experiments (Figure \ref{PCA_motions} B-C) \cite{linsdell2018, negoda2018, negoda2019}. A more detailed discussion of our choice in CVs can be found in section \ref{supp_cv_choice}. 
 
-The amino acids analysed with PCA were chosen carefully (Table \ref{motions_table}). Amino acids in disordered loops were excluded from analysis as they make large motions quickly. These large, fast motions would distort the optimal, slow degrees of freedom which we would hope to investigate with free energy calculations \cite{noe2001}. 
+The amino acids analysed with PCA were chosen carefully (Table \ref{red_alpha_carbons_table}). Amino acids in disordered loops were excluded from analysis as they make large motions quickly. These large, fast motions would distort the optimal, slow degrees of freedom which we would hope to investigate with free energy calculations \cite{noe2001}. 
 
 	\begin{center}
 		\includegraphics[width=1\textwidth]{figures/opening/pca_motions.pdf}
@@ -79,7 +79,7 @@ Since the more atoms we included in our collective variables, the slower our cal
 
 \subsection{OPES-Metadynamics Finds a Stable Conformation with an Open Extracellular Pore}
 
-The principal components derived in the previous section were used as collective variables to study the motion of the pore lining transmembrane helices in WT-CFTR. A two dimensional Free Energy Surface along these CVs was constructed through the use of 8 independent walkers, each running for $1.5\mu$s with On the Fly Probability Enhanced Sampling-metadynamics, using a barrier parameter of 38.2 kcal/mol (\ref{summary_FES}A). Convergence of these calculations is demonstrated in Figure \ref{convergence_FES} and Figures \ref{convergence_opes_1}-\ref{convergence_3}. 
+The principal components derived in the previous section were used as collective variables to study the motion of the pore lining transmembrane helices in WT-CFTR. A two dimensional Free Energy Surface along these CVs was constructed through the use of 8 independent walkers, each running for $1.5\mu$s with On the Fly Probability Enhanced Sampling-metadynamics, using a barrier parameter of 38.2 kcal/mol (\ref{summary_FES}A). Convergence of these calculations is demonstrated in Figures \ref{convergence_opes_1}-\ref{convergence_3}. 
 
 Note the presence of a local free energy minima at (0.010, 0.021) in Figure \ref{summary_FES}A. When this coordinate in CV space was investigated closely, we noticed that the extracellular pore had dilated significantly (Figure \ref{summary_FES}B). Further, this dilated configuration was stable in 3 replicates unbiased MD run for 500ns. 
 
@@ -139,12 +139,12 @@ This small barrier is closer to what we would expect to be overcome by the -46mV
 
 
 \begin{figure}
-	\label{R334_pmf}
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{figures/opening/R334W_pmf_combined.pdf}
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
 	\caption[R334W Inhibits the Conduction of Anions] {\textbf{R334W inhibits the Conduction of Anions}}{A) A visualisation of R334W-CFTR in the dilated conformation. Note how W334 is placed in the outer part of the pore. B) A PMF derived from Umbrella sampling to compare the energetics of the conductance of chloride through R334W-CFTR to WT-CFTR in the dilated conformation. The WT-CFTR curve has been reproduced from the same data in Figure \ref{US_anions}C. The R334W-CFTR PMF exhibits a larger barrier compared to WT-CFTR indicating that the conduction of chloride will be inhibited in this mutation. It is likely that this additional energy barrier has a particularly deleterious effect on the conduction of the channel because it occurs at the narrowest part of the pore. There are no alternate pathways which might help compensate for the mutation, as was the case for R352Q in chapter \ref{chap:R352Q} \cite{wong2022a}.  }
+	\label{R334_pmf}
 \end{figure}
 
 There are several disease causing mutations which occur at around the selectivity filter of CFTR (E116K, R334\{W,Q,L\},R117\{H,C,P\}, I336K, S341P)\cite{cftr2}. Note how these are all clustered around TM1 and TM6. The fact that mutations to these amino acids causes a loss of function is more evidence to suggest TM1 and TM6 form the permeation pathway for anions in hCFTR, as was found in previous MD and functional studies \cite{zeng2021,farkas2020, linsdell2016, linsdell2018}. 
@@ -246,7 +246,7 @@ Using principal component analysis on proteins can be difficult. PCA specialises
 
 So, when performing PCA on proteins, without excluding them, of large disordered loops would dominate the analysis. Hence, we limited our analysis to the amino acids in Table \ref{red_alpha_carbons_table}. The four unbiased trajectories were combined using \verb_gmx trjcat_, PCA was then performed using using \verb_gmx covar_ and finally the vectors were analysed and visualised using \verb_gmx anaeig_. The concatenation of the unbiased trajectories in this way is mathematically valid---as when PCA is solely performed 3d coordinates, it is agnostic to the temporal dimension of the data points \cite{grus2015}.
 
-For the sake of performance, a smaller subset of amino acids were then chosen to actually manipulate the pore of CFTR in the OPES-Metadynamics simulations. These calculations were expensive and the more atoms included in our CVs the slower the calculations were run, so the amino acids highlighted in red in Table \ref{red_alpha_carbons_table} were chosen for further analysis. These were the pore lining amino acids and our choices closely reflect those of previous studies (Figure \ref{pore_lining_PCA}) \cite{hoffmann2018}. 
+For the sake of performance, a smaller subset of amino acids were then chosen to actually manipulate the pore of CFTR in the OPES-Metadynamics simulations. These calculations were expensive and the more atoms included in our CVs the slower the calculations were run, so the amino acids highlighted in red in Table \ref{red_alpha_carbons_table} were chosen for further analysis. These were the pore lining amino acids and our choices closely reflect those of previous studies (Figure \ref{steer_cas_fig}) \cite{hoffmann2018}. 
 
 There are two main disadvantages when using PC's as CVs. Firstly, as discussed, they correspond to the largest motion in a system, not the slowest. This means that they are very likely to be suboptimal CVs in a molecular system. Secondly, they are \textit{linear}. And so a linear combination of many PCs may be needed to find the minimum free energy pathway of a given transition. This gives rise to a trade off. The more CVs we have to consider during the free energy calculation, the more likely we are to find a minimum energy pathway, but the longer it will take to converge the FES. Benchmarking of our own calculations revealed that only 2 CVs could be used before the calculations slowed to unmanageable rates on available hardware. This led us to choose the first two PC's 1 and 2 from our analysis as the collective variables to accelerate in our enhanced sampling. These choices were made carefully. PCs 1 and 2 captured 38\% of the variance of the unbiased data, meaning they meaningful CVs, and they produced movements in TM1 and 6 in the directions we expected given the available biophysical evidence. 
 
@@ -365,7 +365,7 @@ plateaus, it is an indication that the FES has stopped evolving and the relative
 Z(t) = \frac{1}{| \Omega(t)|}  \tilde{P}(t, \mathbf{\xi}) d\mathbf{\xi}.
 \end{equation} 
 
-Here, $\Omega_n$ represents the volume of CV space explored which we use to normalise the probability estimate at time $t$ for a specific point in CV space $\tilde{P}(t, \mathbf{\xi})$. The convergence of $c(t)$ and $Z(t)$ in our free energy calculations is demonstrated in (Figure \ref{Z_sigma_fig}). Convergence of this parameter implies that the whole accessible CV volume at a given barrier parameter has been sampled Similarly, convergence of the $c(t) = \frac{1}{\beta} \log \langle e^{\beta V} \rangle$ parameter in figure \ref{Z_c_fig}B indicates the free energy surface has stopped evolving and that the relative energetics of all coordinates in the accessible CV volume have been estimated.  
+Here, $\Omega_n$ represents the volume of CV space explored which we use to normalise the probability estimate at time $t$ for a specific point in CV space $\tilde{P}(t, \mathbf{\xi})$. The convergence of $c(t)$ and $Z(t)$ in our free energy calculations is demonstrated in (Figure \ref{convergence_3}). Convergence of this parameter implies that the whole accessible CV volume at a given barrier parameter has been sampled Similarly, convergence of the $c(t) = \frac{1}{\beta} \log \langle e^{\beta V} \rangle$ parameter in Figure \ref{convergence_3}B indicates the free energy surface has stopped evolving and that the relative energetics of all coordinates in the accessible CV volume have been estimated.  
 
 \begin{figure}
 	\begin{center}
@@ -402,7 +402,7 @@ A similar protocol was used to investigate the other free energy minima in Figur
 \subsection{Umbrella Sampling}
 All Umbrella sampling studies were carried out with the same methodology. In all the unbiased equilibration steps of a CFTR simulation, an anion was found to spontaneously occupy the inner vestibule. This was selected as the ion to steer through the channel in the umbrella sampling
 
-The collective variable in each US simulation was constructed by calculating the z coordinate of the center of mass of the alpha carbon atoms of all the amino acids in Table \ref{red_alpha_carbons} and then subtracting the z position of the steered anion. Meanwhile, the radial position of the ion was restrained a half potential well, when the ion strayed more than 4.8 $\angs$ from the center axis of the CFTR channel it would encounter a repulsive 10kcal/mol $\angs^2$ harmonic potential. This meant the ion could not stray too far from the center axis of the channel in bulk solvent but while it was inside the channel it could adequately sample the interior of the selectivity filter.
+The collective variable in each US simulation was constructed by calculating the z coordinate of the center of mass of the alpha carbon atoms of all the amino acids in Table \ref{red_alpha_carbons_table} and then subtracting the z position of the steered anion. Meanwhile, the radial position of the ion was restrained a half potential well, when the ion strayed more than 4.8 $\angs$ from the center axis of the CFTR channel it would encounter a repulsive 10kcal/mol $\angs^2$ harmonic potential. This meant the ion could not stray too far from the center axis of the channel in bulk solvent but while it was inside the channel it could adequately sample the interior of the selectivity filter.
 
 In order to calculate the PMF through the channel, we steered this anion to the middle of the channel ($Z=20\angs$) over the course of 10ns and allowed it to equilibrate there for 20 ns. The anion was then steered to its target location in a given window over the course of 10ns. It was then allowed to equilibrate at the target location for 10 ns before a 50ns production run. Windows were spaced 1 $\angs$ apart, meaning each PMF consisted of 40 windows.
 
