@@ -1,6 +1,8 @@
 \chapter{A Physical Perspective on The Rescue of Mutant CFTR}
 \label{chap:perspective}
-\chapquote {Good luck everybody...}{- AJJ \cite{AJJ_big_day_for_grimley}}
+\chapquote {and take the time to remember\\
+the looping bend, surged\\
+began as the walking end}{- Deborah Marcus \cite{marcus_ouroboros}}
 
 \section{Introduction}
 
@@ -53,6 +55,8 @@ The molecular phenotypes in each mutation were unique. They occur in different p
 
 We will briefly continue the theme of previous chapters with a simple MD study, seeking to understand a common gating mutation G551D. This is done to give context to the rest of our work, to anchor it to a more common mutation. This class III gating mutation occurs in NBD1 (Figure \ref{G551D_results}). It was the candidate for high-throughput screening in order to discover potentiator class drugs, as it is one of the most common gating class mutations \cite{vangoor2009,li1996}. This means that G551D is a good candidate for comparison  with other rare mutations, if we wish to guess which other mutations might respond to modulators in the same way.
 
+In summary, G551D-CFTR disrupts the binding of ATP. In the next seciton we will demonstrate where this places the G551D mutation in relation to other mutations. 
+
 \section{The Many Molecular Modes of Misfunction in CFTR}
 It is unlikely that the course classification of 6 classes conventionally used to understand CFTR mutants can be used to theratype patients, a granular, molecular understanding will be needed to choose which mutations can be rescued by modulators, and we outline some computational studies which might be performed to help understand how this would work.
 
@@ -63,7 +67,7 @@ It is unlikely that the course classification of 6 classes conventionally used t
 	\includegraphics[width=1.5\textwidth]{figures/perspective/classes_mutations.pdf}\\
 	\end{center}
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[Granular grouping of CF pathogenesis]{\textbf{Granular Grouping of Cystic Fibrosis Causing Mutations}{ Conventionally, molecular CF phenotypes are grouped into 6 classes. These classes, while useful in a clinic, are quite broad. They struggle to reflect that molecular misfunction of misfunction can arise from many interactions within CFTR. By realising that classification into a given class can be due to different factors we can gain a more complete picture of the molecular cause of CF by delineating the molecular fingerprint of each mutation. The links drawn in this figure arise from various places in the literature, alongside our own findings from this thesis and a generalised understanding of a mutation from its location on the CFTR protein, or from an analogous mutation \cite{bompadre2007, gong2004, wong2022, vangoor2009, vangoor2014, hoffmann2018, thelin2007, gene2008, trikafta_website, phuan2018, ensinck2022 }.}
+	\caption[Granular grouping of CF pathogenesis]{\textbf{Granular Grouping of Cystic Fibrosis Causing Mutations}{ Conventionally, molecular CF phenotypes are grouped into 6 classes. These classes, while useful in a clinic, are quite broad. They struggle to reflect that molecular misfunction of misfunction can arise from many interactions within CFTR. By realising that classification into a given class can be due to different factors we can gain a more complete picture of the molecular cause of CF by delineating the molecular fingerprint of each mutation. The links drawn in this figure arise from various places in the literature, alongside our own findings from this thesis and a generalised understanding of a mutation from its location on the CFTR protein, or from an analogous mutation \cite{bompadre2007, gong2004, wong2022, vangoor2009, vangoor2014, hoffmann2018, thelin2007, gene2008, trikafta_website, phuan2018, ensinck2022}.}
 	}
 
 	\label{granular_classification}
@@ -72,18 +76,17 @@ It is unlikely that the course classification of 6 classes conventionally used t
 
 
 \section{A Physics Motivated Approach to Precision Medicine in Cystic Fibrosis}
-
-In order to tie these results together, in this chapter I will propose a conceptual framework which explains how these drugs are able to treat such diverse molecular phenotypes. This model would appear to suggest that patients with rare missense mutations would be more likely to respond to respond to CFTR modulators. The implications of this model are also likely to inform the design of future generations of CFTR modulators. 
+Obesrve in Figure \ref{granular_classification} how mutations which cause misfunction in lots of different ways respond to different modulators. In order to tie these results together, in this chapter I will propose a conceptual framework which explains how these drugs are able to treat such diverse molecular phenotypes. This model would appear to suggest that patients with rare missense mutations would be more likely to respond to respond to CFTR modulators. The implications of this model are also likely to inform the design of future generations of CFTR modulators. 
 
 	\begin{center}
 		\begingroup
-	\includegraphics[width=\textwidth]{figures/perspective/drug_landscape_1.pdf}\\
-	\includegraphics[width=\textwidth]{figures/perspective/drug_landscape_3.pdf}\\
+	\includegraphics[width=0.8\textwidth]{figures/perspective/drug_landscape_1.pdf}\\
+	\includegraphics[width=0.8\textwidth]{figures/perspective/drug_landscape_3.pdf}\\
 		\endgroup
 	\end{center}
 	\begingroup
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\captionof{figure}[Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators]{\textbf{Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators}{ This model was produced to explain the apparent ability of CFTR modulators to treat rare mutations with a diverse set of phenotypes. A) The transition between the resting closed state and fully open state of CFTR can be visualised as a movement through an energy landscape. Along this transition various events must occur, such as the movement of the R-domain, ATP-binding and the rearrangements of the different domains of CFTR. Each of these events will have an energetic cost and payoff, giving rise to peaks and troughs in the free energy landscape of this transition. The relative heaths of peaks and troughs here are for illustrative purposes only, but quantitative techniques to calculate them will have important implications for the treatment of CF and drug discovery B) Gating class CF-causing mutations represent pathogenic barriers to this transition. They may effect different parts of the energy landscape. For example, we have shown that G551D causes a disruption to the binding of ATP, while in chapter \ref{chap:I37R}, we saw a gating defect arise in I37R-CFTR from the misregulation of the position of the R-domain. This demonstrates how pathogenesis can arise in many different ways in CFTR. Furthermore, accompanying \textit{in vitro} studies of these mutations demonstrated that these unique mutations each respond to potentiator class modulators. This indicates that the action of potentiators is \underline{somewhere else} in this free energy landscape, relative to the perturbation caused by mutation. By understanding \textit{where} mutations are causing gating inhibition and \textit{how} drugs are accounting for the deleterious energetics, we can begin to build a molecular basis for the choice of modulators, tailored to particular patients.}}
+	\captionof{figure}[Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators]{\textbf{Conceptual Framework for the Pathogenesis of Mutations and The Action of Potentiators}{ This model was produced to explain the apparent ability of CFTR modulators to treat rare mutations with a diverse set of phenotypes. A) The transition between the resting closed state and fully open state of CFTR can be visualised as a movement through an energy landscape. Along this transition various events must occur, such as the movement of the R-domain, ATP-binding and the rearrangements of the different domains of CFTR. Each of these events will have an energetic cost and payoff, giving rise to peaks and troughs in the free energy landscape of the transition. The relative heights of peaks and troughs here are for illustrative purposes only, but quantitative techniques to calculate them will have important implications for the treatment of CF and drug discovery. B) Gating class CF-causing mutations represent pathogenic barriers to this transition. They may arise in different parts of the energy landscape. For example, we have shown that G551D causes a disruption to the binding of ATP, while in chapter \ref{chap:I37R}, we saw a gating defect arise in I37R-CFTR from the misregulation of the position of the R-domain. This demonstrates how pathogenesis can arise in many different ways in CFTR. Furthermore, accompanying \textit{in vitro} studies of these mutations demonstrated that these unique mutations each respond to potentiator class modulators. This indicates that the action of potentiators is \underline{somewhere else} in this free energy landscape, relative to the perturbation caused by mutation. By understanding \textit{where} mutations are causing gating inhibition and \textit{how} drugs are accounting for the deleterious energetics, we can begin to build a molecular basis for the choice of modulators, tailored to particular patients.}}
 	\label{drug_action_model}
 
 	\endgroup
@@ -93,11 +96,12 @@ An analogous model could be drawn for the action of correctors. To do this we wo
 
 The gating transition is simpler, as there are many easily measurable events which we can conceptualise, like ATP binding and pore formation. We will build our model with a focus on this aspect of protein function. Nonetheless, the concepts are transferable, to CFTR folding and as more corrector class drugs are developed and more mutant forms of CFTR are imaged we will gain more understanding f the folding pathway of this critical protein, so in time this model can be transferred to correctors as well. Additionally, as computer models improve we can simulate parts of this pathway as well. Computational capabilities are likely sufficiently advanced to simulate the full gating cycle of CFTR and so discover which parts of the landscape in figure \ref{drug_action_figure} are perturbed by mutations \cite{}. 
 
+The above model in figure \ref{drug_action_model} gives a rational, physical basis for the wide range of molecular phenotypes that CFTR modulators appear capable of treating. This same model would appear to argue that we would expect most missense mutations we to respond to some sort of CFTR modulator. 
+
 Currently a range of missense mutations are recommended for treatment by trikafta but many more are excluded from receiving this treatment due to a lack of testing. The above model suggests that when a patient carrying such a rare mutation does not respond to modulator therapy, it is unlikely that the lack of a response is due to the inability of these modulators to rescue the function of CFTR. From the perspective of protein physics, $\Delta$F508 is likely to perturb the protein much more than most missense mutations \cite{}. Rather, it is more likely that if a patient does not respond to modulators it is due to the broader heterogeneous response to modulators found in all CF patients \cite{}. 
 
-The above model in figure \ref{drug_action_model} gives a rational, physical basis for the wide range of molecular phenotypes that CFTR modulators appear capable of treating. . This same model would appear to argue that we would expect most missense mutations we to respond to some sort of CFTR modulator. 
 
-\section{The Poorly Studied Mutation Q1291H Produces a Similar Defect to G551D, Leading Us to Expect it Will Respond to the Same Drugs}
+\section{The Poorly Studied Mutation Q1291H has a Similar Effect to G551D}
 
 Through our molecular modelling we noticed another defect, Q1291H appears to produce a similar molecular defect to G551D even though it affects a different domain of CFTR (NBD2 as opposed to NBD1). G551D is much more common than Q1291H, and so patients carrying the former may access potentiators. However, Q1291H is extremely rare, so rare in fact it has not been well described clinically, with only 30 CFTR alleles with this mutation recorded in the CFTR2 database \cite{cftr2}. A CF afflicted patient with this mutation presented to the Sydney children's hospital and they are currnetly excluded from receiving modulator therapy. Although computational modelling is not sufficiently advanced to make a recomendation for this patient, their situation encourages us to study the effects of rare mutations. Our modelling would lead us to believe that there is a high likelihood that cells carrying the Q1291H mutation would respond to potentiators or a combination therapy. 
 
