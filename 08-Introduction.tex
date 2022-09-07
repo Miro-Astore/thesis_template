@@ -11,13 +11,20 @@
 \pagenumbering{arabic}
 \setcounter{page}{1}
 \label{chap:introduction}
-\chapquote{Whatever complexity means, most people agree that biological systems have it.} {-Frauenfelder and Wolynes \cite{frauenfelder1994}}
-\vspace
+%\chapquote{Whatever complexity means, most people agree that biological systems have it.} {Frauenfelder and Wolynes \cite{frauenfelder1994}}
+
+\begin{chapquote}  {Frauenfelder and Wolynes \cite{frauenfelder1994}}
+Whatever ``complexity" means, most people agree that biological systems have it.
+\end{chapquote}
+
+%\vspace
 \section{Thesis and Chapter Summary}
 
-This thesis seeks to apply a philosophy of molecular biophysics to demonstrate its capability to investigate pressing problems in biology and medicine. In particular, we will use molecular dynamics (MD) to look at how a specific gene misfunctions when expressed as a protein, the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR), to cause a disease (CF). These MD techniques will allow us to formulate a model of CFTR's misfunction which we hope will direct research efforts and allow more patients suffering from CF to access life saving medication. 
+This thesis seeks to apply a philosophy of molecular biophysics, to demonstrate its capability to investigate pressing problems in biology and medicine. In particular, we will use molecular dynamics (MD) to look at how a specific gene misfunctions to cause disease. The disease in question is Cystic Fibrosis (CF), and it is caused by the misfunction of a protein called the Cystic Fibrosis Transmembrane Conductance Regulator (CFTR). These MD techniques will allow us to formulate a model of CFTR's misfunction which we hope will direct research efforts and allow more patients suffering from CF to access life saving medication. 
 
-In this first short chapter we will quickly build a philosophy of how to look at biology through the lens of a physicist. We will first outline what the goal of a physicist is---to create abstract formalisms which can be used to model the natural world. We will then observe what makes the construction of such formalisms so difficult in biology. We will walk through how a specific protein ion channels have historically served as laboratories to help understand aspects of more complex biological systems, such as whole cells or organisms. 
+In this first short chapter we will quickly build a philosophy which outlines how to look at biology through the lens of a physicist. To do this we will first outline what the goal of a physicist is---to create abstract formalisms which can be used to model the natural world. We will then observe what makes the construction of such formalisms so difficult for biological problems. 
+
+These difficulties have often led biophysicists to study ion channels. Because of their simplicity, and their importance to cellular function, these molecules have served as laboratories to understand more complex biological systems, such as whole cells or organisms. 
 
 Chapter \ref{chap:methods} will describe the chemical and numerical simulation techniques we have used to study the CFTR protein system in detail, while chapter \ref{chap:cftr} gives an overview of the CFTR system itself, and also a set of \textit {in vitro} assays which compliment our computational modelling.  Chapters \ref{chap:I37R}, \ref{chap:R352Q}, \ref{chap:S945L} and \ref{chap:opening} demonstrate the details of how a diverse application of the simulation techniques in chapter \ref{chap:methods} can be used to discover the unique modes of misfunction in CFTR. In combination with \textit {in vitro} cellular techniques, these simulation results prove that these existing drug regimens can rescue many kinds of molecular defect. Finally, chapter \ref{chap:perspective} ties together these results to argue for a physical model which elucidates the mechanism of action for cystic fibrosis drugs. Armed with this model we will work through the available literature and identify some priorities for future studies using molecular modelling for cystic fibrosis research. 
 
@@ -61,9 +68,9 @@ These formalisms use an array of mathematical objects. Examples include:
 \end{equation}
 \end{itemize}
 
-As biophysicists we would wish to find the most basic formalisms for biological phenomenon, so we can fully understand the function of an organism. The quest for such a formalism has an interesting origin. In 1944 Erwin Schr\"oedinger wrote an essay titled ``What is Life?" This remarkable work was written before the discovery of DNA's structure or the maturation of information theory. Schr\"oedinger used first principles in thermodynamics and quantum mechanics to speculate at the nature of life at the atomic level. The most remarkable thing about this essay is how much the author gets it right. 
+As biophysicists we would wish to find the most basic formalisms for biological phenomenon, so we can fully understand the function of an organism. The quest for such a formalism has an interesting origin. In 1944 Erwin Schr\"oedinger wrote an essay titled ``What is Life?" This remarkable work was written before the discovery of DNA's structure or the maturation of information theory. Schr\"oedinger used first principles in thermodynamics and quantum mechanics to speculate at the nature of life at the atomic level. The most remarkable thing about this essay is how much the author gets right. 
 
-He observes that since organisms exist at temperatures on the order of 300K Kelvin the physical encoding of genetic information inside cells must be chemical in nature---since a physical arrangements of atoms would be unstable at such temperatures without chemical bonds. By estimating the amount of information that could be stored in an arrangement of atoms, Schr\"oedinger posits the existence of what he calls an ''aperiodic crystal". Although not a crystal in the rigorous sense, the double helix structure of DNA is not far from such an analogy. As figure \ref{dna_structure} shows, the DNA double helix is a combination of periodic and aperiodic elements, not too different from how one might visualise a one-dimensional aperiodic crystal \cite{varn2016}. This allegory is an example of how physical principals can be used to direct questions in fundamental biology. In fact, James Watson credited Schro\"edinger's book as one of his influences in how he thought about the structure of the gene.
+He observes that since organisms exist at temperatures on the order of 300 Kelvin, the physical encoding of genetic information inside cells must be chemical in nature---since a physical arrangements of atoms would be unstable at such temperatures without chemical bonds. By estimating the amount of information that could be stored in an arrangement of atoms, Schr\"oedinger posits the existence of what he calls an ''aperiodic crystal". Although not a crystal in the rigorous sense, the double helix structure of DNA is not far from such an analogy. As figure \ref{dna_structure} shows, the DNA double helix is a combination of periodic and aperiodic elements, not too different from how one might visualise a one-dimensional aperiodic crystal \cite{varn2016}. This allegory is an example of how physical principals can be used to direct questions in fundamental biology. In fact, James Watson credited Schro\"edinger's book as one of his influences in how he visualised the structure of the gene \cite{watson2010}.
 
 \begin{figure}
 	\begin{center}
@@ -74,7 +81,7 @@ He observes that since organisms exist at temperatures on the order of 300K Kelv
 	\label{dna_structure}
 \end{figure}
 
-In this example, Schr\"oedinger has naturally chosen a formalism of interacting atoms, mostly consistent with the statistical mechanics in equation \ref{hard_spheres}, to arrive at his model of an aperiodic crystal. In this thesis, as chapter \ref{chap:methods} will outline, we will use a more careful, but similar formalism to study the function of the CFTR protein. The goal of chapters \ref{chap:I37R}, \ref{chap:R352Q}, \ref{chap:S945L} and \ref{chap:opening} is to collect evidence in order to develop a physics inspired model of Cystic Fibrosis disease which we will analyse in chapter \ref{chap:perspective}. The model we arrive at is more abstract than physicists are used to, and the next section will explore why this is often the case for biological systems.
+In this example, Schr\"oedinger has naturally chosen a formalism of interacting atoms, mostly consistent with the statistical mechanics in equation \ref{hard_spheres}, to arrive at his model of an aperiodic crystal. In this thesis we will use a more careful, but similar formalism to study the function of the CFTR protein, this formalism will be detailed in chapter \ref{chap:methods}. The goal of chapters \ref{chap:cftr}, \ref{chap:I37R}, \ref{chap:R352Q}, \ref{chap:S945L} and \ref{chap:opening} is then to collect evidence in order to develop a physics inspired model of Cystic Fibrosis disease which we will propose in chapter \ref{chap:perspective}. The model we arrive at is more abstract than physicists are used to, and the next section will explore why this is often the case for biological systems.
  
 %Somewhere on the scale between a single protein and a single cell this is what we consider "life". We have single unicellular organisms but we don't have uniproteomic organisms. So the fundamental length scale of life is somewhere between $10^{-10}m$ and $10^{-3}m$. This is the first loop in our strange loop.
 
@@ -85,15 +92,24 @@ In this example, Schr\"oedinger has naturally chosen a formalism of interacting 
 
 Why can't I write down an equation which will tell me how long I will live? Or how tall I will grow?
 
-These might seem like odd questions but if you asked a physicist how much power it would take to ionise a gas or how long it will take a black hole to evaporate and they will have have a tool kit of highly accurate models developed to help them calculate solutions. 
+These might seem like odd questions but if you asked a physicist how much power it would take to ionise a gas or how long it will take a black hole to evaporate, they will have have a tool kit of highly accurate models to help them calculate solutions. 
 
 What makes the first set of questions so much more difficult for the physicist to answer?
 
-Any physical theory may fail for one of three reasons. Either the physicist does not have sufficient computational power to integrate the formalisms in the relevant theory to make predictions about a specific phenomenon, the physicist lacks sufficient data to specify reasonable initial conditions for the calculations in the formalism, or the predictions of the theory disagrees with experimental measurements. The latter occurs when a theory is applied outside the energy or length scale which it is capable of describing. For example this occur if we attempted to use Newton's theories of gravity to predict the motion of an object around a super-massive black hole---for this we need results from Einstein's general relativity \cite{picker2022} 
+Any physical theory may fail for one of the following three reasons: 
 
-From the perspective of fundamental physics, quantitative theories of biology fail for one of the first two reasons. Our current physical theories have sufficient accuracy at the energy and length scales of biology that we can accurately model every interaction inside a living being \cite{carroll2021}. 
+\begin{itemize} 
+	\item The physicist does not have sufficient computational power to integrate the formalisms in the relevant theory to make predictions about a specific phenomenon.
 
-The difficulty of studying biology then, does not arise from complex interactions. As we will see in chapter \ref{chap:methods} the interactions between atoms within living things is surprisingly simple and a formalism of interacting atoms is appropriate for modelling cellular functions. Rather, the complexity in biological problems arises from the sheer number of interactions we must consider. Inside cells we find proteins, lipids, solvents, salts each with their own properties. Biophysics distinguishes itself from more traditional physics as it considers systems that are highly heterogeneous and anisotropic. This makes it difficult to scale up formalisms using human tractable mathematical tools---computational engines can only help so much. Hence, we have to be careful about which systems we study with our available toolkit. When their computational or theoretical tools are lacking, physicists have often turned to ion channels as laboratories where they can develop and test biophysical theories \cite{moy2000, corry2000}.
+		\item The physicist lacks sufficient data to specify reasonable initial conditions for the calculations in the formalism. 
+
+		\item The theory is applied outside the energy or length scales where it is applicable. This would occur, for example, if we used Newton's theories of gravity to predict the motion of an object around a super-massive black hole---here we would need Einstein's general theory of relativity \cite{picker2022}.
+
+\end{itemize}
+
+From the perspective of fundamental physics, quantitative theories of biology fail for one of the first two reasons. Our current physical theories have sufficient accuracy at the energy and length scales of biology---we have the tools to understand every interaction inside a living being \cite{carroll2021}. 
+
+The difficulty of studying biology then, does not arise from a lack of physical understanding. As we will see in chapter \ref{chap:methods} the interactions between atoms within living things is surprisingly simple. Rather, the complexity in biological problems arises from the sheer number of interactions we must consider. Inside cells we find proteins, lipids, solvents, salts each with their own properties. Biophysics distinguishes itself from more traditional physics by considering systems that are both highly heterogeneous and anisotropic. This makes it difficult to scale up our mathematical formalisms using human tractable mathematical tools---computational engines can only help so much. Hence, we have to be careful about which systems we study with our available toolkit. When their computational or theoretical tools were lacking, physicists often turned to ion channels as laboratories to develop and test biophysical theories \cite{moy2000, corry2000}.
 
 %For biological systems there appears to be too much complexity for such analogies to have the same level of success. 
 
@@ -132,16 +148,16 @@ Historically, ion channels have served as a testing ground for biophysical model
 \begin{equation}
 	\label{hh_equations}
 \begin{aligned}
-	I = C_m \frac{dV}{dt} &+ \bar{g}_K n^4 (V - V_K) + \bar{g}_{Na} m^3 h (V - V_{Na} ) + \bar{g}_l (V-V_l) , \\ \\
-	\frac{dn}{dt} &= \alpha_n(V)  (1-n) - \beta_n(V)  n, \\
-	\frac{dm}{dt} &= \alpha_m(V)  (1-m) - \beta_m(V)  m, \\ 
+	I = C_m \frac{dV}{dt} + \bar{g}_K& n^4 (V - V_K) + \bar{g}_{Na} m^3 h (V - V_{Na} ) + \bar{g}_l (V-V_l) , \\ \\
+	\frac{dn}{dt} &= \alpha_n(V)  (1-n) - \beta_n(V)  n, \\ \\
+	\frac{dm}{dt} &= \alpha_m(V)  (1-m) - \beta_m(V)  m, \\ \\
 	\frac{dh}{dt} &= \alpha_h(V)  (1-h) - \beta_h(V)  h.  
 \end{aligned}
 \end{equation}
 
 Here, the $n,\ m$ and $h \in [0,1]$ parameters are associated with potassium channel subunit activation, sodium channel subunit activation, and sodium channel subunit inactivation, respectively. $C_m$ is the capacitance of the lipid membrane per unit area, and $\bar{g}_i$ is the maximal conductance allowed across the membrane, per unit area. The terms $V_i$ denote either the total voltage, or the contribution to the total from a specific charged species.
 
-The solutions to the Hodgkin-Huxley model allow us to mathematically discover and describe several important cellular functions. The model encodes the existence of a cell's resting potential and the behaviour of selective voltage-gated ion channels. Even today, the molecular mechanisms behind these discoveries are used to understand protein and cellular function \cite{aidley1996}. 
+The solutions to the Hodgkin-Huxley model allow us to mathematically discover and describe several important cellular functions. The model encodes both the existence of a cell's resting potential and the behaviour of selective voltage-gated ion channels. Even today, the molecular mechanisms behind these discoveries are used to understand protein and cellular function \cite{aidley1996}. 
 
 \begin{figure}
 	\begin{center}
@@ -152,7 +168,7 @@ The solutions to the Hodgkin-Huxley model allow us to mathematically discover an
 	\label{action_potential_graphic}
 \end{figure}
 
-Equation \ref{hh_equations} is an example of the development of a mathematical formalism which is not fundamental in the same way as the equations at the beginning of section \ref{WIP} but rather, it is built for an express purpose: to model the propagation of signals through a nerve. This model shows how quantitative thinking can lead to insights in biology. The sheer complexity of biology demands this of us. We cannot create complete theories so we must find useful formalisms for small domains of the problem space.
+The equations in the model \href{hh_equations}{above} are an example of the development of a mathematical formalism which is not fundamental in the same way as the equations at the beginning of section \ref{WIP}. But rather, it is built for an express purpose: to model the propagation of signals through a nerve. This model shows how quantitative thinking can lead to insights in biology. The sheer complexity of biology demands this of us. We cannot create complete theories so we must find useful formalisms for small domains of the problem space.
 
 \begin{figure}
 	\begin{center}
@@ -163,10 +179,10 @@ Equation \ref{hh_equations} is an example of the development of a mathematical f
 	\label{ion_channel_progress}
 \end{figure}
 
-In this thesis we aim to do something similar, by building up from the fundamental physics outlined in \ref{chap:methods}, we will build a model for the dysfunction of a single gene (CFTR) to understand a disease (CF). Again, we do not possess sufficient computational power to produce a complete physical model of CF, so we will have to settle for a qualitative model, which we will outline in chapter \ref{chap:perspective}. 
+In this thesis we aim to do something similar. By building up from the fundamental physics outlined in \ref{chap:methods}, we will build a model for the dysfunction of a single gene (CFTR) to understand a disease (CF). Again, we do not possess sufficient computational power to produce a complete physical model of CF, so we will have to settle for a qualitative model, which we will outline in chapter \ref{chap:perspective}. 
 
-%The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant voltage gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels\cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics.    
-Motivated by the advances in cell biology that arose from the Hodgkin-Huxley model, early adopters of computational biophysics such as Martin Karplus, Beno\^it Roux, J. Andrew McCammon, Shin-Ho Chung, Mark Sansom, Serdar Kuyucak and Toby Allen also devoted significant parts of their career to studying ion channels\cite{mccammon1977, sansom1991, roux1991, roux1993, sansom1991, allen2003, allen2004, chung2002, tieleman2001}. 
+%The measurements and modelling they carried out gave an exciting set of results. They found that the cell had to maintain a constant voltage gradient, they discovered that the presence of voltage gated ion channels and cation selective ion channels \cite{hodgkin1952}. Each of these features, motivated by mathematical modelling have been found to be critical to the functioning of the cell and fundamental to the foundation of molecular biophysics.    
+Motivated by the advances in cell biology that arose from the Hodgkin-Huxley model, early adopters of computational biophysics such as Martin Karplus, Beno\^it Roux, J. Andrew McCammon, Shin-Ho Chung, Mark Sansom, Serdar Kuyucak and Toby Allen also devoted significant parts of their career to studying ion channels \cite{mccammon1977, sansom1991, roux1991, roux1993, sansom1991, allen2003, allen2004, chung2002, tieleman2001}. 
 
 These early studies usually focussed on gramicidin A (gA) because of its small size, its amenability to structural characterisation and the opportunity to compare experimental measurements with \textit{in silico} calculations \cite{urry1971,arseniev1985,wallace1986,wallace1998}. This small antibacterial peptide assembles into an open ion channel in the cell walls of gram-positive bacteria, bleeding them dry of potassium ions which is critical to cellular function \cite{liou2015}. For a long time, gA was the only protein ion channel with its structure determined to atomic resolution. It took further advancements in experimental structural biology techniques to determine the atomistic structures of other channels \cite{kuhlbrandt2014, }. 
 
@@ -192,16 +208,16 @@ There is a perspective on protein evolution which states that the stability of a
 
 Here, $W$ represents the evolutionary fitness of an organism, $\Delta G$ is the folding energy of the protein with a given gene sequence and $\Delta G_{opt}$ is the folding energy of the protein in the average (fit) population. The parameter $\sigma_{\Delta G}$ controlls how broad this distribution will be and depends significantly on the protein physics of the gene. Figure \ref{fitness_landscape_figure} demonstrates the types of random walks of a gene through sequence space which this model predicts. 
 
-As the $\>400$ disease causing mutations indicates\cite{cftr2}, the CFTR gene exhibits an exceptionally small $\sigma_{\Delta G}$, so the band in the modified gaussian in figure \ref{fitness_landscape_figure}a is narrow. This means that CFTR sits at the precipice of a daunting cliff in sequence space.  So by taking small steps in sequence space and figuring out what factors have caused $W$ to decrease, we can try to understand how we might push the needle of protein stability back into the optimal zone. Once we understand how we can do this for CFTR, we can use such thinking to build our methods outward and apply it to other diseases, such as sickle cell anemia, Alzheimer's disease, and Huntington's disease\cite{depristo2005}.
+As the $\>400$ disease causing mutations indicates \cite{cftr2}, the CFTR gene exhibits an exceptionally small $\sigma_{\Delta G}$, so the band in the modified gaussian in figure \ref{fitness_landscape_figure}a is narrow. This means that CFTR sits at the precipice of a daunting cliff in sequence space.  So by taking small steps in sequence space and figuring out what factors have caused $W$ to decrease, we can try to understand how we might push the needle of protein stability back into the optimal zone. Once we understand how we can do this for CFTR, we can use such thinking to build our methods outward and apply it to other diseases, such as sickle cell anemia, Alzheimer's disease, and Huntington's disease \cite{depristo2005}.
 
-\begin{figure}
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{figures/fitness_landscape_fig.pdf}
 	\end{center}
+	\begingroup
 	\captionsetup{singlelinecheck = false, justification=raggedright}
-	\caption[A Physical Model to Understand Protein Evolution] {\textbf{A physical model for how to view protein evolution}}{a)The stability of a protein can be measured by its folding free energy $\Delta G$. This is related to the fitness of an organism $W$ by equation \ref{fitness_equation}. This model gives rise to a peaked distribution which helps us understand how so many mutants can give rise to cystic fibrosis. It appears as though the CFTR gene has an exceptionally narrow $\sigma_{\Delta G}$ and so small changes to the sequence of the gene have a comparatively dramatic effect on the evolutionary fitness of the organism. b) The model in equation \ref{fitness_equation} Gives rise to a random walk through in sequence space for subsequent generations. In the case of CF, it would appear as though \textit{homo sapiens} are stuck at a specific snapshot in evolutionary time where CFTR may easily lose function. So, without gene therapies which can modify a gene sequence \textit {in vivo}, we must use small molecule drugs and other medical interventions to somehow broaden the peak in equation \ref{fitness_equation}.}
+	\captionof{figure}[A Physical Model to Understand Protein Evolution] {\textbf{A Physical Model to Understand Protein Evolution}}{a) The stability of a protein can be measured by its folding free energy $\Delta G$. This is related to the fitness of an organism $W$ by equation \ref{fitness_equation}. This model gives rise to a peaked distribution which helps us understand how so many mutants can give rise to cystic fibrosis. It appears as though the CFTR gene has an exceptionally narrow $\sigma_{\Delta G}$ and so small changes to the sequence of the gene have a comparatively dramatic effect on the evolutionary fitness of the organism. b) The model in equation \ref{fitness_equation} Gives rise to a random walk through in sequence space for subsequent generations. In the case of CF, it would appear as though \textit{homo sapiens} are stuck at a specific snapshot in evolutionary time where CFTR may easily lose function. So, without gene therapies which can modify a gene sequence \textit {in vivo}, we must use small molecule drugs and other medical interventions to somehow broaden the peak in equation \ref{fitness_equation}.}
 	\label{fitness_landscape_figure}
-\end{figure}
+\endgroup
 
 Due to the array of disease causing mutations which occur across the cystic fibrosis protein, there is a large body of literature on its unique function \cite{csanady2019a}. This presents the opportunity to simultaneously perform basic biophysical research while directly assisting in the improvement of patient outcomes. This is the sort of inquiry which drives basic science forward, combining interesting experimental data into theoretical models to make testable predictions. The aim of this thesis is to build a model to help direct efforts which will hopefully produce better patient outcomes. In chapter \ref{chap:perspective}, we will combine evidence from the existing literature with our biochemical and simulation results to build our predictive model, which will help to outline future strategies to treat CF.
 
@@ -212,7 +228,7 @@ Biological sciences have important applications in medicine, agriculture and inc
 
 Throughout science, the integration of experimental data with theoretical models leads to new discoveries. In the case of biology, wet lab scientists take advantage of experimental techniques which allow them to understand the structure and dynamics of living things from the top down. The finer the experimental instrument, the finer the detail they may resolve. Conversely, computational and theoretical biologists take a bottom up approach. Like the physicist, we aim to take the granular details of a system and integrate them upwards, to model the macroscopic behaviour of that system. 
 
-With more powerful computers and more detailed theoretical models, we can make predictions about the behaviour of more complex systems. What is so exciting about the current era of biological research is that the domains of these two approaches are beginning to overlap, where they can synergize  and drive further breakthroughs\cite{anonymous2019}.
+With more powerful computers and more detailed theoretical models, we can make predictions about the behaviour of more complex systems. What is so exciting about the current era of biological research is that the domains of these two approaches are beginning to overlap, where they can synergize  and drive further breakthroughs \cite{anonymous2019}.
 
 This has been happening in physics for decades, resulting in world changing breakthroughs like telecommunications, nuclear power and transistors \cite{wu2009}. The reason this has been possible for physicists is that the systems they usually study are homogeneous. They include just a few, albeit sometimes complex components. Hence, it is much easier to integrate a theoretical formalism upward to predict measurable phenomenon. 
 

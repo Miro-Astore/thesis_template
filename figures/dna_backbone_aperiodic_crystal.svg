@@ -104,16 +104,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="987.01308"
-     inkscape:cy="1804.3698"
+     inkscape:zoom="0.088388348"
+     inkscape:cx="3362.1523"
+     inkscape:cy="-1956.5656"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1039"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -3253,7 +3253,7 @@
          style="stroke-width:0.49790069">O</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:3.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#StopL)"
-       d="M -41.159505,-657.90055 H 1365.7473"
+       d="M -41.159505,374.98382 H 1365.7473"
        id="path7399"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -3261,12 +3261,12 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:41.5232811px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.038082"
        x="1.1207368"
-       y="311.36758"
+       y="309.33621"
        id="text7418"><tspan
          sodipodi:role="line"
          id="tspan7416"
          x="1.1207368"
-         y="311.36758"
+         y="309.33621"
          style="stroke-width:1.038082">Sugar-Phosphate Subunit</tspan></text>
     <text
        xml:space="preserve"
@@ -4097,7 +4097,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopL-1);marker-end:url(#StopL-1)"
-       d="M 149.41785,220.77782 H 429.19961"
+       d="M 149.41785,220.77783 H 429.19961"
        id="path7399-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -4105,12 +4105,12 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:41.5232811px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.038082"
        x="278.57135"
-       y="-694.91083"
+       y="463.54221"
        id="text7418-3"><tspan
          sodipodi:role="line"
          id="tspan7416-3"
          x="278.57135"
-         y="-694.91083"
+         y="463.54221"
          style="stroke-width:1.038082">Periodic Repeating Backbone</tspan></text>
     <text
        xml:space="preserve"
