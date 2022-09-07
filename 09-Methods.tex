@@ -473,7 +473,7 @@ We can use this calculation of acceleration $a_i$ of the $i$th atom to update th
 
  In MD, we are less concerned with the accuracy of a particular trajectory so much as collecting sufficient statistics to calculate macroscopic properties such as free energies or diffusion profiles. This means the choice of 4th order solvers such as the Runge-Kutta method would be inappropriate. Although they may use a large time step, they require 4 evaluations of $U_{CHARMM}$ per iteration and are thus more expensive than any 2nd order method. Hence, we prefer symplectic (energy preserving), 2nd order methods such as Verlet integration so the simulation remains stable after millions of time steps \cite{streett1978}. 
 
-\section{Free Energy Calculations: Making Simulations More Useful}
+\section{Free Energy Calculations and Enhanced Sampling: Making Simulations More Useful}
 The above work sets out how to perform what is known as unbiased MD simulations. These are powerful tools but as we will discuss in section \ref{sampling_problem}, if one only relies on unbiased simulations they will quickly exceed the available computer power (Figure \ref{Enhanced_sampling_framework}). Imagine there is an event that we know from experimental evidence our system must exhibit, but it occurs slowly. Examples of this include the passage of an ion through a channel and the binding of a drug. We \textit{could} calculate the Gibbs free energy of a given molecular configuration $\bold{x}_0$ using Boltzmann reweighting 
 \begin{equation}
 	G (\bold{x}_0) = -\frac{1}{k_BT}\ln(P_{u}(\bold{x}_0)).
