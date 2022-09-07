@@ -206,9 +206,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="184.03613"
-     inkscape:cy="571.78374"
+     inkscape:zoom="2.8"
+     inkscape:cx="906.59282"
+     inkscape:cy="508.29832"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -216,10 +216,10 @@
      fit-margin-left="3.7"
      fit-margin-right="2.6"
      fit-margin-bottom="3.7"
-     inkscape:window-width="1920"
-     inkscape:window-height="1039"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -345,15 +345,15 @@
        y="66.99128"
        id="text2646-1-9-0"><tspan
          sodipodi:role="line"
-         x="241.43741"
+         x="239.75534"
          y="66.99128"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan3294-2">Helical </tspan><tspan
+         id="tspan3294-2">TMD</tspan><tspan
          sodipodi:role="line"
          x="239.75534"
          y="80.220444"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan3319">Rearrangements</tspan></text>
+         id="tspan3319">Movements</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
