@@ -11,9 +11,9 @@ rm main.pdf
 rm main.run.xml
 rm main.toc
 rm *log
-
-pdflatex main.tex 
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
-cp main.pdf temp.pdf
+#
+#pdflatex main.tex 
+#bibtex main
+#pdflatex main.tex
+#pdflatex main.tex
+#cp main.pdf temp.pdf
