@@ -196,9 +196,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="257.86914"
-     inkscape:cy="731.78765"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-287.56371"
+     inkscape:cy="-93.967731"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -219,7 +219,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -457,7 +457,7 @@
          id="tspan6998-1-2"
          x="-264.93991"
          y="96.023605"
-         style="stroke-width:0.12013529">Q1291F/H</tspan></text>
+         style="stroke-width:0.12013529">Q1291H</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.80541182px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12013529"
@@ -554,7 +554,7 @@
          id="tspan6998-1-2-1"
          x="-47.545319"
          y="79.12606"
-         style="stroke-width:0.14228268">Q1291F/H</tspan></text>
+         style="stroke-width:0.14228268">Q1291H</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.69130707px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14228268"
