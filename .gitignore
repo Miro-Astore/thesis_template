@@ -1,5 +1,4 @@
 main.toc
-ETF_transfer.pdf
 main.out
 main.pdf
 temp.pdf
@@ -15,8 +14,4 @@ library.bib
 *.swp
 *log
 *aux 
-0*.pdf 
 *.toc
-Acknowledgement_form.pdf
-ETF_transfer.pdf
-figures/R352Q/Flood.pdf
