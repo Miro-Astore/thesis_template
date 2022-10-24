@@ -1,0 +1,17 @@
+main.toc
+main.out
+main.pdf
+temp.pdf
+main.log
+main.lof
+main.lot
+main.run.xml
+main.blg
+output.pdf
+main.bbl
+library.bib
+*.bib
+*.swp
+*log
+*aux 
+*.toc

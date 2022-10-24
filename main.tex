@@ -1,0 +1,228 @@
+\documentclass[titlepage,12pt,twoside,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{kantlipsum}
+\usepackage{capt-of}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{pdfcolmk}
+\usepackage{graphicx}
+\usepackage[hyphens]{url}
+\def\UrlBreaks{\do\/\do-}
+\usepackage{breakurl}
+%\usepackage[breaklinks]{hyperref}
+\usepackage{epstopdf}
+\usepackage{adjustbox}
+\usepackage{pdflscape}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{amstext}
+\usepackage{amsthm}
+\usepackage{rotating}
+\usepackage{enumerate}
+\usepackage{epigraph}
+\usepackage[backref=true,backend=bibtex,style=chem-acs,natbib=true,doi=true,isbn=false,arxiv=false]{biblatex}
+\AtEveryCitekey{%
+	\clearfield{note}%
+}
+\DefineBibliographyStrings{english}{%
+	  backrefpage = {page},% originally "cited on page"
+	    backrefpages = {pages},% originally "cited on pages"
+	}
+%\renewcommand*{\backref}[1]{}
+%
+%	\renewcommand*{\backrefalt}[4]{%
+%	\ifcase #1%
+%	\or [Page~#2]%
+%	\else [Pages~#2]%
+%	\fi%
+%}
+\addbibresource{./library}
+
+
+\usepackage[backref=pages,colorlinks=true,pdfstartview=FitV,breaklinks=true]{hyperref}
+
+
+
+\usepackage{multirow}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{afterpage}
+\usepackage{longtable}
+\usepackage{tabularx}
+%\usepackage[table] {xcolor}
+\usepackage[table,svgnames] {xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    citecolor=red,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue
+}
+\usepackage[font=small,labelfont=bf]{caption}
+\DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
+%\captionsetup{justification=raggedright,singlelinecheck=false,format=hang}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{parskip,array,booktabs}
+\raggedbottom
+\DeclareUnicodeCharacter{2212}{-}
+\DeclareUnicodeCharacter{0301}{\'{e}}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{appendix}
+\usepackage{blindtext}
+\usepackage{tikz}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% PAGE SETUP        %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\geometry{paper=a4paper,            % scientific thesis standard
+            left=3cm,
+            right=2.5cm,
+            top=3cm,
+            bottom=3cm,
+ }
+\setlength{\headheight}{27.2pt}
+\bibliography{./library.bib}
+
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyhead[LO]{\slshape \rightmark}
+\fancyhead[RO,LE]{\textbf{\thepage}}
+\fancyhead[RE]{\slshape \leftmark}
+\fancyfoot{}
+\pagestyle{fancy}
+
+\makeatletter
+\makeatother
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% NEW COMMANDS      %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter \ \ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection \ \ #1}}
+\renewcommand{\eqref}[1]{\textup{\color{cyan} {\normalfont(\ref{#1}}\normalfont)}}
+\newcommand{\figref}[1]{\hyperref[#1]{Fig.~\ref*{#1}}}
+\newcommand{\figrefi}[2]{\hyperref[#1]{Fig.~\ref*{#1}~#2}}
+\newcommand{\figrefs}[1]{\hyperref[#1]{Figs.~\ref*{#1}}}
+\newcommand{\figrefn}[2]{\hyperref[#1]{Figs.~\ref*{#1}~#2}}
+\newcommand{\figrefni}[2]{\hyperref[#1]{Figs.~\ref*{#1}--#2}}
+\newcommand{\tabref}[1]{\hyperref[#1]{Table~\ref*{#1}}}
+\newcommand{\tabrefn}[1]{\hyperref[#1]{Tables~\ref*{#1}}}
+\newcommand{\secref}[1]{\hyperref[#1]{Section~\ref*{#1}}}
+\newcommand{\appref}[1]{\hyperref[#1]{Appendix~\ref*{#1}}}
+\newcommand{\chapref}[1]{\hyperref[#1]{Chapter~\ref*{#1}}}
+
+%\newcommand{\chapquote}[3]{\noindent\begin{flushleft}\begin{quotation}\textit{#1}\end{quotation} \end{flushleft}\begin{flushright}#2\end{flushright}}
+\makeatletter
+\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][1em]
+{\setlength{\@tempdima}{#1}%
+\def\chapquote@author{#2}%
+\parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+\itshape}
+{\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+
+\newcommand{\angs}{\textup{\AA}}
+\newcommand{\Rmin}{$R_{\text{min}}$}
+\newcommand{\spring}{kcal/mol/\AA{}\textsuperscript{2}}
+\newcommand{\prim}{\textsuperscript{$\prime$}}
+\newcommand{\dprim}{\textsuperscript{$\prime\prime$}}
+
+%%%use this to quickly speed up your compilations, only the content of chapter 1 will chapter will be compiled if you use uncomment this line. 
+%\includeonly{./01_intro}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE TEXT     %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\include{01-Title-Page}
+\include{02-Authorship}
+\include{03-Abstract}
+\include{04-Acknowledgements}
+\include{05-Publications}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% TABLE OF CONTENTS %%
+%%%%%%%%%%%%%%%%%%%%%%%
+{
+\hypersetup{linkcolor=black}
+\tableofcontents
+}
+
+\newpage
+\phantomsection
+
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+{
+\hypersetup{linkcolor=black}
+\include{06-Abbreviations}
+}
+
+\addcontentsline{toc}{chapter}{List of Figures}
+{
+\hypersetup{linkcolor=black}
+\listoffigures
+}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+{
+\hypersetup{linkcolor=black}
+\color{black}
+\listoftables
+}
+
+\thispagestyle{empty}
+\vspace*{2.0in}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% MAIN TEXT         %%
+%%%%%%%%%%%%%%%%%%%%%%%
+%\addcontentsline{toc}{chapter}{Foreword}
+%{
+%\hypersetup{linkcolor=black}
+%\color{black}
+%\input{./07-Foreword}
+%}
+
+\include{./07-Foreword}
+\include{./08-Introduction}
+\include{./09-Lit_review}
+\include{./10-Results_1}
+\include{./11-Results_2}
+\include{./12-Results_3}
+\include{./13-Conclusion}
+\include{./15-Afterword}
+\include{./16-Appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography      %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\medskip
+%\bibliographystyle{IEEEtran}
+\printbibliography[heading=bibintoc]
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Last Quote        %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}
